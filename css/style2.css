@@ -51,6 +51,7 @@ a {
 
 /* * =======================HEADER FIN======================== */
 
+
 /* * ============SECTION 1 INICIO */
 
 .section-1 {
@@ -63,7 +64,7 @@ a {
     align-items: center;
 }
 
-.nav-1 {
+.section-1_nav-1 {
     padding: 1.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -73,7 +74,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-2 nav {
+.section-1_nav-2 nav {
     display: flex;
     margin: 9%;
     justify-content: space-between;
@@ -81,23 +82,40 @@ a {
     align-content: center;
 }
 
-.nav-2 img {
+.section-1_nav-2 img {
     
     align-items: center;
     align-content: center;
     width: 15rem;
 }
 
-.nav-2 p {
+.section-1_nav-2 p {
     font-size: 2rem;
     justify-content: center;
     align-content: center;
+    
 }
 
-
-
-
 /* * ============SECTION 1 FIN */
+
+/* * ============SECTION 2 INICIO======= */
+.section-2{
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    background: #f66;
+    width: 65rem;
+    height: 65rem;
+    color: aliceblue;
+    align-items: center;
+    bottom: 20rem;
+}
+
+.section-2_h2{
+    text-align: center;
+}
+
+/* * ============SECTION 2 FIN */
 
 /* *MEDIA QUERIES */
 
@@ -135,6 +153,7 @@ a {
     }
 
     .section-1 {
+        z-index: 10;
         /* margin: 9%; */
         width: 40rem;
         height: 40rem;
@@ -142,14 +161,24 @@ a {
         /* align-items: center; */ 
     }
 
-    .nav-2 img{
+    .section-1_nav-2 img{
         width: 10rem;
     }
     
-    .nav-2 p {
+    .section-1_nav-2 p {
         font-size: 1rem;
         justify-content: space-between;
         align-content: center;
+    }
+    .section-2{
+        
+          
+        align-items: center;
+        background: #f66;
+        width: 38rem;
+        height: 40rem;
+        color: aliceblue;
+        
     }
 }
 @media (max-width:400px) {
@@ -170,16 +199,16 @@ a {
     .section-1 {
         /* margin: 9%; */
         width: 30rem;
-        height: 30rem;
+        height: 40rem;
         margin: 0 auto;
         /* align-items: center; */ 
     }
 
-    .nav-2 img{
+    .section-1_nav-2 img{
         width: 9rem;
     }
     
-    .nav-2 p {
+    .section-1_nav-2 p {
         font-size: .8rem;
         justify-content: space-between;
         align-content: center;
