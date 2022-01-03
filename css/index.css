@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize; /* con capitalize pones las primeras con mayusculas */
+    transition: all .2s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(115, 115, 223);
+    text-decoration: none;
+}
+
+
+/* * ==============HEADER INICIO==================== */
+.header{
+    top: 0;left: 0; right: 0;
+    position: sticky;
+    /* width: 100%;    */
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem; 
+    padding:1.5rem 9%; 
+}
+
+
+.header-left  li{
+    display: inline-block;    
+}
+
+.header-right{
+    display: inline-block;
+}
+
+
+
+.header-center i{
+    margin: 0 .5rem;
+    font-size: 1rem;
+}
+
+/* * =======================HEADER FIN======================== */
+
+/* * ===============ARTICLE INICIO ================== */
+
+.article-1{
+    font-size: 2rem;
+    display: flex;
+}
+
+.article-imagen-logo{
+    margin: 1.5rem 9%; 
+}
+
+.article-1 p{
+    size: 1.2rem;
+    margin: 1.5rem 9%;
+    text-transform: none;
+}
+
+/* *======0===ARTICLE FIN ================*/
