@@ -53,7 +53,7 @@ a {
 
 /* * =======================HEADER FIN======================== */
 
-/* * ===============ARTICLE INICIO ================== */
+/* * ===============ARTICLE 1 INICIO ================== */
 
 .article-1{
     font-size: 2rem;
@@ -70,4 +70,22 @@ a {
     text-transform: none;
 }
 
-/* *======0===ARTICLE FIN ================*/
+/* *======0===ARTICLE 1 FIN ================*/
+/* *======== ARTICLE 2 INICIO========= */
+.article-2{
+    align-items: center;
+}
+
+.article-2 img{
+    align-items: center;
+    margin:0 9%;
+}
+/* *======== ARTICLE 2 FIN========= */
+
+
+
+
+
+/* *MEDIA QUERIES */
+
+/* @media (max-width:)  */
