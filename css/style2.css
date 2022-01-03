@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+     /* con capitalize pones las primeras con mayusculas */
+    transition: all .2s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(115, 115, 223);
+    text-decoration: none;
+}
+
+
+/* * ==============HEADER INICIO==================== */
+.header{
+    top: 0;left: 0; right: 0;
+    position: sticky;
+    /* width: 100%;    */
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem; 
+    padding:1.5rem 9%; 
+}
+
+
+.header-left  li{
+    display: inline-block;    
+}
+
+.header-right{
+    display: inline-block;
+}
+
+
+/* * =======================HEADER FIN======================== */
+
+/* * ============SECTION 1 INICIO */
+
+.section-1 {
+    margin: 0 auto;
+    align-items: center;
+    background: rgb(255, 160, 160);
+    width: 70rem;
+    height: 70rem;
+    color: aliceblue;
+    align-items: center;
+}
+
+.nav-1{
+    padding: 1.5rem;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.nav-1_h2-1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-2 nav{
+    display: flex;
+    margin: 9%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-2 img{
+    margin:;
+    align-items: center;
+    align-content: center;
+    width: 10rem;
+}
+
+.nav-2 p{
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+/* * ============SECTION 1 FIN */
+
+/* *MEDIA QUERIES */
+
+@media (max-width:1500px){
+    html{
+        font-size: 50%;
+    }
+
+    .header-left img{
+        width: 80%;
+        size: 50%;
+    }
+
+    .header-right img{
+        margin-left: 20%;
+        width: 80%;
+    }
+
+     
+}
+
+@media (max-width:1000px){
+    html{
+        font-size: 50%;
+    }
+
+    .header-left img{
+        width: 70%;
+        size: 50%;
+    }
+
+    .header-right img{
+        margin-left: 40%;
+        width: 80%;
+    }
+
+    .section-1 {
+        width: 50rem;
+        height: 50rem;
+    } 
+}

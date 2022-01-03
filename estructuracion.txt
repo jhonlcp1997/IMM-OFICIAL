@@ -1,0 +1,6 @@
+Tengo que hacer algo parecido a esta pagina para poder avanzar algo
+https://www.scotiabank.com.pe/Acerca-de/default
+
+-responsive para celulaler comunes
+-rescalar imagenes
+-trabajar con archivos ilustrator
