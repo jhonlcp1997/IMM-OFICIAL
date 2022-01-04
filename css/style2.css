@@ -67,6 +67,10 @@ a {
     align-items: center;
 }
 
+.section-1 h2{
+    font-size: 2rem;
+}
+
 .section-1_nav-1 {
     padding: 1.5rem;
     text-align: center;
@@ -79,7 +83,7 @@ a {
 
 .section-1_nav-2 nav {
     display: flex;
-    margin: 9%;
+    margin:3% 9%;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -93,9 +97,10 @@ a {
 }
 
 .section-1_nav-2 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     justify-content: center;
     align-content: center;
+    text-align: center;
     
 }
 
@@ -110,13 +115,50 @@ a {
     width: 65rem;
     height: 65rem;
     color: aliceblue;
-    align-items: center;
     bottom: 20rem;
+    justify-content: space-between;
 }
 
 .section-2_h2{
     text-align: center;
 }
+
+.section-2 h2{
+    padding: 1.5rem;
+}
+
+.section-2 nav img{
+    justify-content: space-between;
+}
+
+.section-2 p{
+    text-align: center;
+    padding-left: .5rem;
+    justify-content: space-between;
+}
+
+
+.section-2_nav-1 nav{
+    display: flex;
+    margin: 9%;
+    justify-content: space-between;
+    
+}
+
+
+
+.section-2_nav-2 nav {
+    
+    margin:4% 20%;
+    display: flex;
+
+    justify-content: space-between;
+    
+}
+
+
+
+
 
 /* * ============SECTION 2 FIN */
 
@@ -164,6 +206,10 @@ a {
         /* align-items: center; */ 
     }
 
+    .section-1 h2{
+        font-size: 1.5rem;
+    }
+
     .section-1_nav-2 img{
         width: 10rem;
     }
@@ -175,13 +221,17 @@ a {
     }
     .section-2{
         
-          
+        bottom: 9rem;
         align-items: center;
         background: #f66;
         width: 38rem;
         height: 40rem;
         color: aliceblue;
         
+    }
+
+    .section-2 img{
+        width: 9rem;
     }
 }
 @media (max-width:400px) {
@@ -206,9 +256,12 @@ a {
         margin: 0 auto;
         /* align-items: center; */ 
     }
+    .section-1 h2{
+        font-size: .8rem;
+    }
 
     .section-1_nav-2 img{
-        width: 9rem;
+        width: 7rem;
     }
     
     .section-1_nav-2 p {
@@ -224,6 +277,14 @@ a {
     }
 
     .section-2 img{
-
+        width: 5rem;
+        justify-content: space-between;
     }
+
+    nav p {
+        font-size: 1rem;
+        justify-content: space-between;
+        
+    }
+    
 }
