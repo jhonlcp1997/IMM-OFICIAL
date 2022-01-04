@@ -213,4 +213,14 @@ a {
         justify-content: space-between;
         align-content: center;
     }
+
+    .section-2{
+        bottom: 12rem;
+        width: 27rem;
+
+    }
+
+    .section-2 img{
+        
+    }
 }

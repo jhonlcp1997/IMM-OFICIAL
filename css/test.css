@@ -1,0 +1,50 @@
+@charset "utf-8";
+	.Estilodecarcternormal4
+{
+	font-family : AbelPro Bold;
+	font-weight : bold;
+	font-size : 40px;
+	line-height : 40px;
+	text-transform : uppercase;
+	color : #007CC3;
+	color : rgb(0, 124, 195);
+}
+.Estilodecarcternormal1
+{
+	font-family : AbelPro Bold;
+	font-weight : bold;
+	font-size : 35px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.Estilodecarcternormal3
+{
+	font-family : Myriad Pro;
+	font-size : 40px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.Estilodecarcternormal2
+{
+	font-family : AbelPro Bold;
+	font-weight : bold;
+	font-size : 35px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.Estilodecarcternormal
+{
+	font-family : AbelPro Bold;
+	font-weight : bold;
+	font-size : 35px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.Estilodecarcternormal5
+{
+	font-family : AbelPro Bold;
+	font-weight : bold;
+	font-size : 31px;
+	color : #007CC3;
+	color : rgb(0, 124, 195);
+}
