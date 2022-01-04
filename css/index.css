@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@200&display=swap');
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -39,6 +41,11 @@ a {
 
 }
 
+.navbar-opciones{
+    position: relative;
+    display: inline-block;
+}
+
 .navbar-opciones a{
     
     font-size: 1.5rem;
@@ -46,8 +53,9 @@ a {
     opacity: .8;
 }
 
+
 .navbar-opciones a:hover{
-    color: plum;
+    border-bottom: plum;
 }
 
 .header-general{
@@ -68,21 +76,25 @@ a {
     display: inline-block;
     justify-content: space-between;
     padding: 2.5rem 15% 0 15%;
-    font-family: 'Abel', sans-serif;
+    
 }
 
 .header-center-right a{
     
     margin: 0 5% 0 5%;
     font-family: 'Abel', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-center-right a:hover{
+    border-bottom-width: 1px solid plum;
+    
     color: plum;
 }
 
 .header-center-right a:focus{
     color: plum;
+    border-bottom-width: 1px solid plum;
 }
 
 
@@ -100,11 +112,11 @@ a {
 .menu h1{
     position: relative;
     font-family: 'Abel', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
-    right: 500px;
+    right: 390px;
     bottom: -150px;
-    margin: 0 40%;
+    margin: 0 35%;
 }
 
 
@@ -116,14 +128,17 @@ a {
 }
 
 .importante h1{
-
+    font-size: 2rem;
+    /* font-family: 'Abel', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #F173AC;
     padding: 3rem;
 }
 
 .importante p{
     padding-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     margin: 0 30%;
     font-family: 'Abel', sans-serif;
