@@ -31,14 +31,12 @@ a {
 .header{
     z-index: 1000;
     top: 0;left: 0; right: 0;
-    
     width: 100%;   
     align-items: center ;
     display: inline-block;
     justify-content: space-between;
     font-size: 2rem; 
     padding:1.5rem 15%; 
-
 }
 
 .navbar-opciones{
@@ -55,7 +53,7 @@ a {
 
 
 .navbar-opciones a:hover{
-    border-bottom: plum;
+    border-top: plum;
 }
 
 .header-general{
