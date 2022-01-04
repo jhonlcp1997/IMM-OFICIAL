@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -6,7 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border: none;
-    text-transform: capitalize; /* con capitalize pones las primeras con mayusculas */
+     /* con capitalize pones las primeras con mayusculas */
     transition: all .2s linear;
 }
 
@@ -18,7 +19,8 @@ html{
 }
 
 a {
-    color: rgb(115, 115, 223);
+    color: #666;
+    /* color: rgb(115, 115, 223); */
     text-decoration: none;
 }
 
@@ -27,89 +29,111 @@ a {
 .header{
     z-index: 1000;
     top: 0;left: 0; right: 0;
-    position: sticky;
-    /* width: 100%;    */
+    
+    width: 100%;   
     align-items: center ;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     font-size: 2rem; 
-    padding:1.5rem 9%; 
+    padding:1.5rem 15%; 
+
 }
 
-
-.header-left  li{
-    display: inline-block;    
+.navbar-opciones a{
+    
+    font-size: 1.5rem;
+    margin: 0 1.5rem;
+    opacity: .8;
 }
 
-.header-right{
+.navbar-opciones a:hover{
+    color: plum;
+}
+
+.header-general{
+    display: flex;
+    justify-content:space-between;
+    
+    align-items: center;
+    width: 100%;
+}
+
+.header-left img{
+    width: 30rem;
+}
+
+.header-center-right{
+    
+    width: 700rem;
     display: inline-block;
+    justify-content: space-between;
+    padding: 2.5rem 15% 0 15%;
+    font-family: 'Abel', sans-serif;
 }
 
-
-
-.header-center i{
-    margin: 0 .5rem;
-    font-size: 1rem;
+.header-center-right a{
+    
+    margin: 0 5% 0 5%;
+    font-family: 'Abel', sans-serif;
 }
+
+.header-center-right a:hover{
+    color: plum;
+}
+
+.header-center-right a:focus{
+    color: plum;
+}
+
 
 /* * =======================HEADER FIN======================== */
 
-/* * ===============ARTICLE 1 INICIO ================== */
+/* * ========== MENU INICIO========== */
 
-/* .article-1{
-    font-size: 2rem;
-    display: flex;
-    
-}
-
-.article-imagen-logo{
-    margin: 1.5rem 9%; 
-}
-
-.article-1 p{
-    size: 1.2rem;
-    margin: 1.5rem 9%;
-    text-transform: none;
-} */
-
-/* *======0===ARTICLE 1 FIN ================*/
-/* *======== ARTICLE 2 INICIO========= */
-.article-2{
-    z-index: 100;
+.menu{
     position: relative;
+    width: 100%;
+    height: 60rem;
+    background: #F173AC;
+}
+
+.menu h1{
+    position: relative;
+    font-family: 'Abel', sans-serif;
+    font-size: 4rem;
     text-align: center;
-    padding: 0 9%;
+    right: 500px;
+    bottom: -150px;
+    margin: 0 40%;
 }
 
-.article-2 img{
-    margin: 0 9%;
+
+/* * ========== MENU FIN========== */
+
+/* * ========== IMPORTANTE INICIO========= */
+.importante{
+    text-align: center;
 }
-/* *======== ARTICLE 2 FIN========= */
 
+.importante h1{
 
+    color: #F173AC;
+    padding: 3rem;
+}
 
-
+.importante p{
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 30%;
+    font-family: 'Abel', sans-serif;
+}
+/* * ========== IMPORTANTE FIN========= */
 
 /* *MEDIA QUERIES */
 @media (max-width:1000px) {
     html {
         font-size: 60%;
-    }
-
-    .header-left img{
-        width: 10rem;
-    }
-
-    .article-2{
-        z-index: 100;
-        position: relative;
-        text-align: center;
-        padding: 0 9%;
-    }
-    
-    .article-2 img{
-        width: 60rem;
-        margin: 0 9%;
     }
 
 }
@@ -121,17 +145,7 @@ a {
     }
 
 
-    .article-2{
-        z-index: 100;
-        position: relative;
-        text-align: center;
-        padding: 0 9%;
-    }
     
-    .article-2 img{
-        width: 40rem;
-        margin: 0 9%;
-    }
 
 }
 
@@ -140,31 +154,5 @@ a {
         font-size: 60%;
     }
 
-    .header-left img {
-        width: 70%;
-        size: 50%;
-    }
-
-    .header-right img {
-        margin-left: 40%;
-        width: 80%;
-    }
-
-    .section-1 {
-       
-        width: 30rem;
-        height: 40rem;
-        margin: 0 auto;
-       
-    }
-
-    .section-1_nav-2 img{
-        width: 9rem;
-    }
     
-    .section-1_nav-2 p {
-        font-size: .8rem;
-        justify-content: space-between;
-        align-content: center;
-    }
 }
