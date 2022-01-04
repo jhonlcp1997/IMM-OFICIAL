@@ -62,7 +62,7 @@ a {
     align-items: center;
     background: rgb(255, 160, 215);
     width: 70rem;
-    height: 70rem;
+    height: 62rem;
     color: aliceblue;
     align-items: center;
 }
@@ -97,12 +97,20 @@ a {
 }
 
 .section-1_nav-2 p {
+    
     font-size: 1.8rem;
     justify-content: center;
-    align-content: center;
     text-align: center;
-    
 }
+
+.section-1_nav-2_p1{
+    margin-left: -2rem;
+}
+.section-1_nav-2_p3{
+    margin-right: -2rem;
+}
+
+
 
 /* * ============SECTION 1 FIN */
 
@@ -111,7 +119,7 @@ a {
     position: relative;
     margin: 0 auto;
     align-items: center;
-    background: #f66;
+    background: rgb(48, 75, 167);
     width: 65rem;
     height: 65rem;
     color: aliceblue;
@@ -119,12 +127,14 @@ a {
     justify-content: space-between;
 }
 
+/* =========== */
 .section-2_h2{
     text-align: center;
+    font-size: 2rem;
 }
 
 .section-2 h2{
-    padding: 1.5rem;
+    padding-top: 3.5rem;
 }
 
 .section-2 nav img{
@@ -132,8 +142,9 @@ a {
 }
 
 .section-2 p{
+    font-size: 1.8rem;
     text-align: center;
-    padding-left: .5rem;
+    padding-left:0 .5rem;
     justify-content: space-between;
 }
 
@@ -201,7 +212,7 @@ a {
         z-index: 10;
         /* margin: 9%; */
         width: 40rem;
-        height: 40rem;
+        height: 35rem;
         margin: 0 auto;
         /* align-items: center; */ 
     }
@@ -219,20 +230,28 @@ a {
         justify-content: space-between;
         align-content: center;
     }
+
     .section-2{
         
         bottom: 9rem;
         align-items: center;
-        background: #f66;
+        
         width: 38rem;
         height: 40rem;
         color: aliceblue;
         
     }
+    .section-2 h2{
+        font-size: 1.5rem;
+    }
 
     .section-2 img{
         width: 9rem;
     }
+    .section-2 nav nav p{
+        font-size: 1rem;
+    }
+    
 }
 @media (max-width:400px) {
     html {
@@ -252,7 +271,7 @@ a {
     .section-1 {
         /* margin: 9%; */
         width: 30rem;
-        height: 40rem;
+        height: 30rem;
         margin: 0 auto;
         /* align-items: center; */ 
     }
@@ -279,6 +298,17 @@ a {
     .section-2 img{
         width: 5rem;
         justify-content: space-between;
+    }
+
+    .section-2 h2{
+        font-size: 1rem;
+    }
+
+    .section-2 p{
+        font-size: .8rem;
+    }
+    .section-2 nav{
+        padding: 0 .1rem;
     }
 
     nav p {
