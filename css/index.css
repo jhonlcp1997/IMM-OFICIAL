@@ -119,12 +119,11 @@ a {
     margin: 0 35%;
 }
 
-
 /* * ========== MENU FIN========== */
 
 /* * ========== IMPORTANTE INICIO========= */
 .importante{
-    text-align: center;
+    text-align: center;  
 }
 
 .importante h1{
@@ -136,13 +135,28 @@ a {
     padding: 3rem;
 }
 
+.importante  img{
+    margin:0 4%;
+}
+
+.import-nav-2{
+    text-align: center;
+    display: inline-flex;
+}
+
+.import-nav-2 p{
+    margin: 0 5%;
+}
+/* .import-nav nav{
+    margin: 0 10rem;
+}
+
 .importante p{
-    padding-top: 1.5rem;
     font-size: 1.7rem;
     text-align: center;
     margin: 0 30%;
     font-family: 'Abel', sans-serif;
-}
+} */
 /* * ========== IMPORTANTE FIN========= */
 
 /* *MEDIA QUERIES */
