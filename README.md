@@ -22,3 +22,5 @@ Primer repositorio del Instituto Medico de la Mujer
 ### Tengo que hacer algo parecido a esta pagina para poder avanzar algo
 -https://www.scotiabank.com.pe/Acerca-de/default
 
+### Pagina mia de guia
+dazzling-brahmagupta-26e95c.netlify.app
