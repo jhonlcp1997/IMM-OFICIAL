@@ -25,6 +25,7 @@ a {
 
 /* * ==============HEADER INICIO==================== */
 .header{
+    z-index: 1000;
     top: 0;left: 0; right: 0;
     position: sticky;
     /* width: 100%;    */
@@ -74,15 +75,13 @@ a {
 /* *======0===ARTICLE 1 FIN ================*/
 /* *======== ARTICLE 2 INICIO========= */
 .article-2{
+    z-index: 100;
     position: relative;
     text-align: center;
     padding: 0 9%;
 }
 
 .article-2 img{
-
-    
-    
     margin: 0 9%;
 }
 /* *======== ARTICLE 2 FIN========= */
