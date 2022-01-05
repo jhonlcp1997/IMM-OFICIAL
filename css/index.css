@@ -216,6 +216,7 @@ a {
 }
 
 .menu-nav2 img{
+    box-shadow: -3rem 0  80px -70px rgb(51, 46, 46);
     position: relative;
     text-align: right;
     
