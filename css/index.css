@@ -40,6 +40,7 @@ a {
 }
 
 .navbar-opciones{
+    
     position: relative;
     display: inline-block;
 }
@@ -228,6 +229,7 @@ a {
 
 /* * ========== IMPORTANTE INICIO========= */
 .importante{
+    ma
     position: relative;
     text-align: center;  
     margin: 7.5rem 0;
@@ -380,6 +382,7 @@ a {
     justify-content: space-between;
     background: #F5A4C7;
     width: 120rem;
+    min-width: 100rem;
     height: 40rem;
     z-index: 9;
 }
