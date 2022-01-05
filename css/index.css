@@ -10,7 +10,7 @@
     text-decoration: none;
     outline: none; border: none;
      /* con capitalize pones las primeras con mayusculas */
-    /* transition: all .2s linear; */
+    /* transition: all 1s linear; */
 }
 
 
@@ -286,7 +286,7 @@ a {
 .ofrecemos{
     align-items: center;
     width: 100%;
-    height: 70rem;
+    height: 30rem;
     text-align: center;
     align-content: center;
     margin: 0 auto;
@@ -294,29 +294,26 @@ a {
 }
 
 
-
-.ofrecemos nav{
-    padding-top: 2.5rem;
-}
-
+/* *BOX1 */
 .ofrecemos-box1{
     position: relative;
     margin: auto;
     background: #fff;
     width: 95rem;
-    height: 40rem;
+    height: 35rem;
     box-shadow: -3rem 0  80px -40px #777;
     top: -40rem;
     z-index: 10; 
 }
+
 .ofrecemos-box1 div{
     display: flex;
-    
 }
 
 .ofrecemos-box1 div img{
     position: relative;
     height: 20rem;
+    bottom: -4.5rem;
     left: -4.5rem;
     /* box-shadow: -3rem 0 80px -20px #777; */
     filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
@@ -324,7 +321,7 @@ a {
 }
 
 .ofrecemos-box1 div ul{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-left: 10rem;
     padding-right: 3rem;
     text-align: left;
@@ -352,18 +349,17 @@ a {
 /* *BOX2 */
 .ofrecemos-box2{
     position: relative;
+    display: flex;
     top: -50rem;
     margin: auto;
     justify-content: space-between;
     background: #F5A4C7;
     width: 120rem;
-    height: 50rem;
+    height: 40rem;
     z-index: 9;
 }
 
 .ofrecemos-box2 div{
-    
-    
     display: flex;
 }
 
@@ -372,7 +368,7 @@ a {
 }
 
 .ofrecemos-importante ul{
-    margin-top: 10%;
+    margin-top: 20%;
     margin-right: 40%;
     margin-left: 10%;
     text-align: left;
@@ -381,44 +377,42 @@ a {
 }
 
 .ofrecemos-importante ul h1{
-    padding-right: 20rem;
+    padding-right: 10rem;
 }
 
 .ofrecemos-importante ul li{
     font-family: 'Abel', sans-serif;
     color: #fff;
-    padding-right: 20rem;
     font-size: 1.5rem;
     /* margin: 0 20rem; */
 }
 
 .ofrecemos-img{
     position: relative;
-    bottom: 0px;
-    right: 0px;
-
-    z-index: 50;
-}
-
-.ofrecemos-img img {
-    position: absolute;
-    right: 5%;
-    top: -19rem;
+    /* bottom: 0px;
+    right: 0px; */
     
 }
 
+
+
 /* *footer momentaneo */
 .ofrecemos-footer{
+    position: relative;
+    /* top: -20rem; */
     display: inline-block;
     width: 120rem;
+    height: 30rem;
     align-items: center;
     align-content: center;
     text-align: center;
     margin: 0 auto;
+    top: 0;
 }
 
 .ofrecemos-footer nav{
-    text-align: center
+    text-align: center;
+    /* padding-bottom: 5rem; */
 }
 
 .ofrecemos_footer_div1{
@@ -442,6 +436,27 @@ a {
 
 .ofrecemos_footer_div1 ul{
     list-style-type: none;
+    margin-left: 1.5rem;
+}
+.footer-ul1{
+    text-align: left;
+}
+
+.footer-ul3 li img{
+    text-align: center;
+    width: auto;
+    margin: 0 2rem;
+    padding:  .2rem;
+}
+
+.img-facebook{
+    margin: 0 2.5rem;
+}
+
+
+
+.ofrecemos_footer_div2{
+    margin-top: 2.5rem;
 }
 
 /* *============= OFRECEMOS fin====== */
