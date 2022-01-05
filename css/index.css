@@ -51,6 +51,12 @@ a {
     opacity: .8;
 }
 
+.navbar-opciones a:focus{
+    border-bottom: 3px solid #F5A4C7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
 
 
 
@@ -88,8 +94,9 @@ a {
 }
 
 .header-center-right a:focus{
-    color: plum;
-    border-bottom-width: 1.5rem solid black;
+    border-bottom: 3px solid #F5A4C7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 
@@ -136,6 +143,8 @@ a {
     margin: .5rem 0;  
 }
 
+
+
 .menu-nav1-h2_1{
     font-size: 3rem;
 }
@@ -154,15 +163,33 @@ a {
     text-align: left;
 }
 
-
-
 .menu-nav1 div{  
-    width: 15.5rem;
+    margin-top: 2.5rem;
+    padding-top: .5rem;
+    color: #fff;
+    width: 16.5rem;
     height: 3.5rem;
     align-content: center;
     text-align: center;
     background: #F173AC;
+    border-radius: 15px;
 }
+
+.menu-nav1 a{
+    margin-left: .5rem;
+    padding-top: 4.5rem;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu-nav1 i{
+    margin-right: 1rem;
+}
+
+
+
 
 .menu-nav2{
     text-align: right;
@@ -170,9 +197,12 @@ a {
     /* right: 0px;
     top: -150px; */
 }
+
 .menu-nav2 img{
     text-align: right;
 }
+
+
 
 /* * ========== MENU FIN========== */
 
@@ -219,28 +249,41 @@ a {
 .vacio{
     width: 100%;
     height: 50rem;
-    background: rgba(70, 112, 99, 0.411);
+    background: #D9D9D9;
 }
 /* *============ VACIO  FIN =========== */
 
 
 /* *============= OFRECEMOS inicio====== */
 .ofrecemos{
+    align-items: center;
     width: 100%;
     height: 70rem;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
 }
 
 .ofrecemos-box1{
-    background: #ddd;
-    width: 50rem;
-    height: 30rem;
-    
+    margin: auto;
+    justify-content: space-between;
+    background: #fff;
+    width: 95rem;
+    height: 40rem;  
+}
+.ofrecemos-box1 div{
+    display: flex;
+}
+
+.ofrecemos-box1 div ul{
+    list-style-type: none;
 }
 
 .ofrecemos-box2{
+    margin: auto;
     background: #F5A4C7;
-    width: 70rem;
-    height: 40rem;
+    width: 120rem;
+    height: 50rem;
 }
 /* *============= OFRECEMOS fin====== */
 
