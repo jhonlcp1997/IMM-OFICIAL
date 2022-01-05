@@ -111,8 +111,8 @@ a {
     display: inline-flex;
     position: relative;
     width: 100%;
-    height: 55rem;
-    overflow: hidden;
+    height: 45rem;
+    /* overflow: hidden; */
     background: #007CC3;
     /* background-image: url(../img/image-simple-2/Fondo.png); */
     /* opacity: 0.5; */
@@ -229,7 +229,7 @@ a {
 .importante{
     position: relative;
     text-align: center;  
-    margin: 4.5rem 0;
+    margin: 7.5rem 0;
     z-index: 0;
     transition: all .6s linear;
 }
@@ -515,10 +515,24 @@ a {
     }
 }
 
+@media (max-width:1450px) {
+    
+    .menu-nav2 img {
+        width: 60rem;
+    }
+
+}
+
 @media (max-width:1000px) {
     html {
         font-size: 60%;
     }
+    
+    .ofrecemos{
+        width: 70%;
+        font-size: 30%;
+    }
+    
 
 }
 
