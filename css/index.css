@@ -112,7 +112,7 @@ a {
     overflow: hidden;
     background: #007CC3;
     /* background-image: url(../img/image-simple-2/Fondo.png); */
-    
+    z-index: 0;
     padding: 3rem 9%;
     justify-content: space-between;
 }
@@ -125,6 +125,7 @@ a {
     width: 100%;
     height: 100%;
     opacity: 0.03;
+    z-index: 100;
 }
 
 .menu-nav1{
@@ -209,7 +210,8 @@ a {
 /* * ========== IMPORTANTE INICIO========= */
 .importante{
     text-align: center;  
-    padding-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
+    z-index: 0;
 }
 
 .importante h1{
@@ -222,21 +224,46 @@ a {
 }
 
 .importante  img{
-    margin:0 4%;
+    margin:0 5%;
+}
+
+.import-nav{
+    margin: 0 2%;
+}
+
+.import-nav div{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.import-nav div p{
+    font-size: 1.5rem;
+    opacity: .6;
+    text-align: center;
+    margin: 0 9%;
+    padding: 0 9%;
 }
 
 .import-nav-2{
+    width: 40rem;
+}
+
+
+.import-nav2-p2{
+    margin: 0 1.2rem;
+}
+
+
+/* .import-nav-2{
     text-align: center;
     display: inline-flex;
 }
 
 .import-nav-2 p{
     margin: 0 5%;
-}
-/* .import-nav nav{
-    margin: 0 10rem;
-}
-
+} */
+/* 
 .importante p{
     font-size: 1.7rem;
     text-align: center;
@@ -248,8 +275,9 @@ a {
 /* *=========== VACIO inicio========== */
 .vacio{
     width: 100%;
-    height: 50rem;
+    height: 45rem;
     background: #D9D9D9;
+    opacity: .5;
 }
 /* *============ VACIO  FIN =========== */
 
@@ -264,37 +292,91 @@ a {
     margin: 0 auto;
 }
 
+.ofrecemos nav{
+    padding-top: 2.5rem;
+}
+
 .ofrecemos-box1{
+    position: relative;
     margin: auto;
-    justify-content: space-between;
     background: #fff;
     width: 95rem;
-    height: 40rem;  
+    height: 40rem;
+    box-shadow: -3rem 0  80px -40px #777;
+    top: -40rem;
+    z-index: 10; 
 }
 .ofrecemos-box1 div{
     display: flex;
+    
+}
+
+.ofrecemos-box1 div img{
+    position: relative;
+    left: -4.5rem;
+    /* box-shadow: -3rem 0 80px -20px #777; */
+    filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
+    transform: rotate(-10deg);
 }
 
 .ofrecemos-box1 div ul{
-    list-style-type: none;
+    font-size: 2rem;
+    padding-left: 10rem;
+    padding-right: 3rem;
+    text-align: left;
+    /* list-style-type: none; */
+    color: #007CC3;
+    padding-top: 2.5rem;
 }
 
+.ofrecemos-box1 div li p{
+    font-size: 1rem;
+    color: #BFBFBF;
+    padding-top: 1.8rem;
+}
+
+.ofrecemos-box1 h1{
+    font-family: 'Abel', sans-serif;
+    color: #F173AC;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+
+
+/* *BOX2 */
 .ofrecemos-box2{
+    position: relative;
+    top: -50rem;
     margin: auto;
     justify-content: space-between;
     background: #F5A4C7;
     width: 120rem;
     height: 50rem;
+    z-index: 9;
 }
 
 .ofrecemos-box2 div{
-    position: relative;
-    justify-content: space-between;
+    
+    
     display: flex;
 }
 
 .ofrecemos-box2 div ul{
     list-style-type: none;
+}
+
+.ofrecemos-img{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+
+    z-index: 50;
+}
+
+.ofrecemos div img {
+    bottom: 0;
+    z-index: 100;
 }
 
 /* *============= OFRECEMOS fin====== */
