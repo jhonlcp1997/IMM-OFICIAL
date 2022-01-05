@@ -281,10 +281,22 @@ a {
 
 .ofrecemos-box2{
     margin: auto;
+    justify-content: space-between;
     background: #F5A4C7;
     width: 120rem;
     height: 50rem;
 }
+
+.ofrecemos-box2 div{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ofrecemos-box2 div ul{
+    list-style-type: none;
+}
+
 /* *============= OFRECEMOS fin====== */
 
 
