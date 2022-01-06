@@ -55,9 +55,10 @@ a {
 }
 
 .navbar-opciones a:focus{
-    border-bottom: 3px solid #F5A4C7;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #F173AC;
+    /* border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; */
 }
 
 
@@ -96,14 +97,13 @@ a {
 
 .header-center-right a:hover{
     border-bottom-width: 1px solid plum;
+    padding-bottom: 1rem;
     
-    color: plum;
 }
 
 .header-center-right a:focus{
-    border-bottom: 3px solid #F5A4C7;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #F173AC;
 }
 
 
@@ -328,6 +328,15 @@ a {
     align-content: center;
     margin: 0 auto;
     z-index: 1;
+}
+
+/* *BOX3_IMG */
+
+.ofrecemos-box3_img{
+    z-index: 11;
+    position: relative;
+    top: -89rem;
+    right: -30rem;
 }
 
 
