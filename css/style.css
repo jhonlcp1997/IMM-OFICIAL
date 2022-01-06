@@ -409,7 +409,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 95rem;
-  height: 20rem;
+  height: 10rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
@@ -474,7 +474,6 @@ a {
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
   border-top: 1px solid #BFBFBF;
-  margin-top: 10rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
