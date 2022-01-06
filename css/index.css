@@ -10,7 +10,7 @@
     margin: 0; padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    outline: none; border: none;
+    /* outline: none; border: none; */
      /* con capitalize pones las primeras con mayusculas */
     /* transition: all .2s linear; */
 }
@@ -480,13 +480,13 @@ a {
     /* margin: 0 20rem; */
 }
 
-.ofrecemos-img{
+/* .ofrecemos-img{
     position: relative;
     margin-right: 3.5rem;
-    /* bottom: 0px;
-    right: 0px; */
+    bottom: 0px;
+    right: 0px;
     
-}
+} */
 
 /* *============= OFRECEMOS fin====== */
 
