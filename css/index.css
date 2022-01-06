@@ -49,7 +49,7 @@ a {
 
 .navbar-opciones a{
     
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 1.5rem;
     opacity: .8;
 }
@@ -482,7 +482,7 @@ a {
 }
 .ofrecemos_footer_div1 a img{
     position: relative;
-    top: 5px;
+    top: 15px;
     text-align: center;
 }
 
@@ -491,8 +491,19 @@ a {
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
+.footer-ul1 h2{
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+.footer-ul2 h2{
+    text-align: start;
+    font-family: 'Abel', sans-serif;
+}
 
 .footer-ul2 li{
+    font-family: 'Abel', sans-serif;
     color: #007CC3;
 }
 
@@ -506,13 +517,14 @@ a {
 
 
 .footer-ul3 li {
+    font-size: 1.5rem;
     color: #007CC3;
 }
 
 .footer-ul3 li img{
     text-align: center;
     width: auto;
-    margin: 0 2rem;
+    margin: .5rem 2rem;
     padding:  .2rem;
 }
 
