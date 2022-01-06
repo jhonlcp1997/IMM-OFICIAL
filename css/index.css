@@ -424,7 +424,7 @@ a {
 }
 
 .ofrecemos-importante ul{
-    margin-top: 20%;
+    margin-top: 15%;
     margin-right: 40%;
     margin-left: 10%;
     text-align: left;
@@ -439,7 +439,7 @@ a {
     font-family: 'Abel', sans-serif;
 }
 
-.ofrecemos-importante ul li p{
+.ofrecemos-importante ul li h2{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Abel', sans-serif; */
     color: #fff;
