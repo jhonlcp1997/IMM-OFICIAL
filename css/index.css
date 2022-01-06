@@ -154,7 +154,7 @@ a {
 
 .menu-nav1{
     position: relative;
-    z-index: 10000;
+    z-index: 10;
     padding: 5rem 0;
     text-align: left;
 }

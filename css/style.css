@@ -136,7 +136,7 @@ a {
 
 .menu .menu-nav1 {
   position: relative;
-  z-index: 10000;
+  z-index: 10;
   padding: 5rem 0;
   text-align: left;
 }
@@ -194,6 +194,10 @@ a {
   top: 2px;
   font-size: 2rem;
   margin-right: 1rem;
+}
+
+.menu .menu-nav2 {
+  z-index: 10;
 }
 
 .menu .menu-nav2 img {
@@ -479,5 +483,39 @@ a {
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
   margin-top: 1.5rem;
   color: #BFBFBF;
+}
+
+/* *MEDIA QUERIES */
+@media (max-width: 1580px) {
+  /* transition: all .2s linear; */
+  .header .header-general .header-center-right {
+    margin: 2.5rem 0 0 0;
+  }
+  .header .header-general .header-center-right a h4 {
+    display: inline-block;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    margin: 0 4%;
+  }
+  .header .header-general .header-center-right a:focus {
+    padding-bottom: .7rem;
+    border-bottom: 1px solid #f173ac;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header .header-general .header-center-right {
+    margin: 2.5rem 0 0 0;
+  }
+  .header .header-general .header-center-right a h4 {
+    display: inline-block;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    margin: 0 2%;
+  }
+  .header .header-general .header-center-right a:focus {
+    padding-bottom: .7rem;
+    border-bottom: 1px solid #f173ac;
+  }
 }
 /*# sourceMappingURL=style.css.map */
