@@ -243,7 +243,7 @@ a {
     text-align: center;  
     margin: 7.5rem 0 40rem 0;
     z-index: 0;
-    transition: all .6s linear;
+    /* transition: all .6s linear; */
 }
 
 .importante h1{
@@ -448,9 +448,9 @@ a {
 }
 
 .ofrecemos-importante ul{
-    margin-top: 10%;
-    margin-right: 40%;
-    margin-left: 10%;
+    margin-top: 9%;
+    margin-right: 41%;
+    margin-left: 15%;
     text-align: left;
     color: #F173AC;
     
@@ -460,8 +460,10 @@ a {
 }
 
 .ofrecemos-importante ul h1{
+    
     padding-right: 10rem;
     font-family: 'Abel', sans-serif;
+    
 }
 
 .ofrecemos-importante ul li h2{
