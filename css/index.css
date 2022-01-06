@@ -241,7 +241,7 @@ a {
     
     position: relative;
     text-align: center;  
-    margin: 7.5rem 0;
+    margin: 7.5rem 0 40rem 0;
     z-index: 0;
     transition: all .6s linear;
 }
@@ -311,7 +311,7 @@ a {
 .vacio{
     /* transition: all .2s linear; */
     width: 100%;
-    height: 45rem;
+    height: 35rem;
     background: #D9D9D9;
     opacity: .5;
     z-index: 0;
@@ -323,7 +323,7 @@ a {
 .ofrecemos{
     align-items: center;
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     text-align: center;
     align-content: center;
     margin: 0 auto;
@@ -333,10 +333,15 @@ a {
 /* *BOX3_IMG */
 
 .ofrecemos-box3_img{
+    width: auto;
     z-index: 11;
     position: relative;
-    top: -89rem;
+    top: -105rem;
     right: -30rem;
+}
+
+.ofrecemos-box3_img img{
+    width: 35rem;
 }
 
 
@@ -348,7 +353,7 @@ a {
     width: 80rem;
     height: 35rem;
     box-shadow: -3rem 0  80px -40px #777;
-    top: -40rem;
+    top: -65rem;
     /* top: -900px;  */
     z-index: 10; 
 }
@@ -359,12 +364,12 @@ a {
 
 .ofrecemos-box1 div img{
     position: relative;
-    height: 20rem;
-    bottom: -4.5rem;
+    height: 30rem;
+    bottom: 4.5rem;
     left: -4.5rem;
     /* box-shadow: -3rem 0 80px -20px #777; */
     filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-    transform: rotate(-10deg);
+    /* transform: rotate(-10deg); */
 }
 
 .ofrecemos-box1 div ul{
@@ -405,14 +410,15 @@ a {
 .ofrecemos-box2{
     position: relative;
     display: flex;
-    top: -50rem;
+    top: -62rem;
     margin: auto;
     justify-content: space-between;
     background: #F5A4C7;
     width: 120rem;
     min-width: 100rem;
-    height: 40rem;
+    height: 35rem;
     z-index: 9;
+    box-shadow: -3rem 1rem  80px -40px #777;
 }
 
 .ofrecemos-box2 div{
@@ -424,7 +430,7 @@ a {
 }
 
 .ofrecemos-importante ul{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-right: 40%;
     margin-left: 10%;
     text-align: left;
