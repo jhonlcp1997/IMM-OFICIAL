@@ -31,14 +31,16 @@ a {
 
 /* * ==============HEADER INICIO==================== */
 .header{
-    z-index: 0;
+    position: sticky;
+    z-index: 1000;
     top: 0;left: 0; right: 0;
     width: 100%;   
     align-items: center ;
     display: inline-block;
     justify-content: space-between;
     font-size: 2rem; 
-    padding:1.5rem 15%; 
+    padding:1.5rem 15%;
+    background: #fff;
 }
 
 .navbar-opciones{
@@ -106,6 +108,9 @@ a {
     border-bottom: 3px solid #F173AC;
 }
 
+.header-right{
+    display: none;
+}
 
 /* * =======================HEADER FIN======================== */
 
@@ -623,11 +628,44 @@ a {
 
 @media (max-width:750px) {
     html {
-        font-size: 60%;
+        font-size: 55%;
+    }
+    
+    .header{
+        display: flex;
+        padding: 1.5rem 2rem;
     }
 
 
+    .header-center-right{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background: white;
+        border-top: .2rem solid #000;
+        border-bottom: .2rem solid  #000;
+        padding:0 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+
+    .header-center-right a{
+        display: block;
+    }
+
+    .header-right{
+        display: flex;
+        font-size: 2rem;
+          margin:3rem 1rem;
+    }
+
+    section{
+        padding:3rem 2rem;
+    }
     
+
 
 }
 
