@@ -367,15 +367,118 @@ a {
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
   padding-right: 10rem;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul li h2 {
   margin-top: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-family: 'Abel', sans-serif; */
   color: #666;
   font-size: 1.5rem;
   /* margin: 0 20rem; */
+}
+
+.ofrecemos .ofrecemos-box3_img {
+  width: 35rem;
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: -105rem;
+  margin: 0 40% 0 60%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer .ofrecemos-footer {
+  position: relative;
+  /* top: -20rem; */
+  display: inline-block;
+  margin: 2rem auto;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95rem;
+  height: 20rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
+  font-family: 'Abel', sans-serif;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2 {
+  text-align: start;
+  font-family: 'Abel', sans-serif;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
+  font-family: 'Abel', sans-serif;
+  color: #1ca5e0;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
+  font-size: 1.5rem;
+  color: #007CC3;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li img {
+  text-align: center;
+  width: auto;
+  margin: 1rem 2rem;
+  padding: .2rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div2 {
+  border-top: 1px solid #BFBFBF;
+  margin-top: 10rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div2 p {
+  margin-top: 1.5rem;
+  color: #BFBFBF;
 }
 /*# sourceMappingURL=style.css.map */
