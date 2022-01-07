@@ -380,6 +380,10 @@ $azul: #007cc3;
                     }
                 }
             }
+
+            img{
+                display: none;
+            }
         }
     }
 
@@ -730,7 +734,7 @@ $azul: #007cc3;
 
 
     .ofrecemos {
-        display: none;
+        display: flex;
     }
 
     .footer {
@@ -816,6 +820,60 @@ $azul: #007cc3;
 
             text-align: center;
             
+        }
+    }
+
+    .ofrecemos {
+        height: 15rem;
+
+        display: inline-block;
+        .ofrecemos-box1 {
+
+            div{
+                display: inline;
+                
+                img{
+                    left: 0;
+                    height: 15rem;
+                }
+
+                ul{
+                    position: relative;
+                    font-size: 1rem;
+                    padding-top: 0;
+                    top:-4.5rem;
+                    // h1{
+                        
+                    // }
+
+                    li{
+                        h2{
+                            font-size: 1.4rem;
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ofrecemos-box2{
+            display: flex;
+            width: 20rem;
+            top: 0;
+            .ofrecemos-importante{
+
+                ul{
+
+                    font-size: 1rem;
+                    h1{
+
+                    }
+                }
+            }
+        }
+
+        .ofrecemos-box3_img{
+            display: none;
         }
     }
 
