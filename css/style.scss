@@ -104,6 +104,7 @@ a {
 }
 
 $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul:#007cc3;
 
 .menu {
     display: inline-flex;
@@ -111,7 +112,7 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
     width: 100%;
     height: 45rem;
     /* overflow: hidden; */
-    background: #007cc3;
+    background: $azul;
     /* background-image: url(../img/image-simple-2/Fondo.png); */
     /* opacity: 0.5; */
     z-index: 0;
@@ -670,11 +671,33 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 
 
             .header-center-right{
-                display: none;
+                display: none;    
             }
+
+            
 
             .header-right{
                 display: flex;
+
+                div{
+                    height: 4.5rem; width: 4.5rem;
+                    line-height: 4.5rem;
+                    border-radius: .5rem;
+                    background: #eee;
+                    font-size: 1.7rem;
+                    color: #000;
+                    margin-left: .3rem;
+                    text-align: center;
+                    cursor: pointer;
+                    
+                    &:hover{
+                        background: $azul;
+                        color: #fff;
+                    }
+                    
+                }
+
+                
             }
         }
 
@@ -754,9 +777,9 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
             }
 
 
-            .header-center-right{
-                display: none;
-            }
+            // .header-center-right{
+            //     position: absolute;
+            // }
 
             .header-right{
                 display: flex;

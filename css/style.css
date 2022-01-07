@@ -593,6 +593,22 @@ a {
     display: -ms-flexbox;
     display: flex;
   }
+  .header .header-general .header-right div {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.7rem;
+    color: #000;
+    margin-left: .3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .header .header-general .header-right div:hover {
+    background: #007cc3;
+    color: #fff;
+  }
   .ofrecemos {
     display: none;
   }
@@ -609,9 +625,6 @@ a {
     font-size: 1rem;
     margin: 0 1.5rem;
     opacity: 0.8;
-  }
-  .header .header-general .header-center-right {
-    display: none;
   }
   .header .header-general .header-right {
     display: -webkit-box;
