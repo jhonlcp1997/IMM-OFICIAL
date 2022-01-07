@@ -696,8 +696,10 @@ $border: .2rem solid $black;
 
     .footer {
         .ofrecemos-footer {
+            width: 50vh;
             .ofrecemos_footer_div1 {
-                width: 30rem;
+                display: inline;
+                // width: 30rem;
             }
         }
     }

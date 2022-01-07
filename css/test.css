@@ -1,20 +1,32 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-*{
-	font-family: 'Abel', sans-serif;
-	/* font-family: 'Poppins', sans-serif; */
+
+.image10
+{
+	background-image : url(../img/image-simple-2/Fondo.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 150px;
+	top : 230px;
+	width : 144px;
+	height : 165px;
 }
 
-h1{
-	font-weight: 900;
+.image10:hover
+{	transform: scale(1.2, 1.2);
+	z-index: 9;
 }
 
-h2{
-	font-weight: 900;
+.image4
+{
+	background-image : url(../img/image-simple-2/FETITO.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 20px;
+	top : 273px;
+	width : 112px;
+	height : 70px;
 }
 
-p{
-	font-size: 45px;
-	font-weight:bolder;
-}
+.image4:hover
+{	transform: scale(1.2, 1.2);
+	z-index: 0;
+	}

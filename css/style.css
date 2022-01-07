@@ -628,8 +628,11 @@ a {
   .ofrecemos {
     display: none;
   }
+  .footer .ofrecemos-footer {
+    width: 50vh;
+  }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
-    width: 30rem;
+    display: inline;
   }
 }
 
