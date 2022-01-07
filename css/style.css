@@ -344,7 +344,7 @@ a {
           justify-content: space-between;
   background: #fff;
   width: 120rem;
-  min-width: 100rem;
+  max-width: 100rem;
   height: 35rem;
   z-index: 9;
   -webkit-box-shadow: -3rem 1rem 80px -40px #777;
@@ -516,6 +516,61 @@ a {
   .header .header-general .header-center-right a:focus {
     padding-bottom: .7rem;
     border-bottom: 1px solid #f173ac;
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 55%;
+  }
+  .menu .menu-nav2 {
+    text-align: right;
+  }
+  .menu .menu-nav2 img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .menu {
+    height: 40rem;
+  }
+  .menu .menu-nav2 img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ofrecemos .ofrecemos-box2 {
+    width: 90rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 1.5rem 9%;
+  }
+  .header img {
+    width: 10rem;
+  }
+  .header .header-general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .header .header-general .header-left {
+    position: relative;
+    font-size: auto;
+  }
+  .ofrecemos {
+    display: none;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    width: 30rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
