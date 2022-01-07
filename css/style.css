@@ -586,13 +586,12 @@ a {
     border-bottom: 2px solid #f173ac;
   }
   .header .header-general .header-center-right {
+    width: 50%;
     position: absolute;
     top: 60%;
-    left: 0;
+    left: 50%;
     right: 0;
     background: #fff;
-    border-top: 0.2rem solid #222;
-    border-bottom: 0.2rem solid #222;
     padding: 0 2rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -624,8 +623,7 @@ a {
     cursor: pointer;
   }
   .header .header-general .header-right div:hover {
-    background: #007cc3;
-    color: #fff;
+    color: #000;
   }
   .ofrecemos {
     display: none;

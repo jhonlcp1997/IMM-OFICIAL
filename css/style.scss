@@ -642,13 +642,14 @@ $border: .2rem solid $black;
             }
 
             .header-center-right {
+                width: 50%;
                 position: absolute;
                 top: 60%;
-                left: 0;
+                left: 50%;
                 right: 0;
                 background: #fff;
-                border-top: $border;
-                border-bottom: $border;
+                // border-top: $border;
+                // border-bottom: $border;
                 padding: 0 2rem;
                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
@@ -680,8 +681,8 @@ $border: .2rem solid $black;
                     cursor: pointer;
 
                     &:hover {
-                        background: $azul;
-                        color: #fff;
+                        // background: $azul;
+                        color: #000;
                     }
                 }
             }
