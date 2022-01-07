@@ -726,7 +726,10 @@ a {
   }
   .ofrecemos {
     height: 15rem;
-    display: inline-block;
+  }
+  .ofrecemos .ofrecemos-box1 {
+    width: 40rem;
+    height: 40rem;
   }
   .ofrecemos .ofrecemos-box1 div {
     display: inline;
@@ -746,14 +749,9 @@ a {
     margin-top: 0;
   }
   .ofrecemos .ofrecemos-box2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 20rem;
-    top: 0;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
-    font-size: 1rem;
+    width: 40rem;
+    height: 40rem;
+    display: none;
   }
   .ofrecemos .ofrecemos-box3_img {
     display: none;

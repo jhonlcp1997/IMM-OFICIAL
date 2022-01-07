@@ -826,9 +826,12 @@ $azul: #007cc3;
     .ofrecemos {
         height: 15rem;
 
-        display: inline-block;
+        
         .ofrecemos-box1 {
+            width: 40rem;
+            height: 40rem; 
 
+            
             div{
                 display: inline;
                 
@@ -857,19 +860,19 @@ $azul: #007cc3;
         }
 
         .ofrecemos-box2{
-            display: flex;
-            width: 20rem;
-            top: 0;
-            .ofrecemos-importante{
+            width: 40rem;
+            height: 40rem; 
+            display: none;
+            // .ofrecemos-importante{
 
-                ul{
+            //     ul{
 
-                    font-size: 1rem;
-                    h1{
+            //         font-size: 1rem;
+            //         h1{
 
-                    }
-                }
-            }
+            //         }
+            //     }
+            // }
         }
 
         .ofrecemos-box3_img{
