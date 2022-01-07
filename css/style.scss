@@ -15,6 +15,15 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+$black: #222;
+$white:#fff;
+$light-color: #666;
+$light-bg: #eee;
+$pink1: #F4C6DE;
+$pink2: #F5A4C7;
+$pink3: #F173AC;
+$border: .2rem solid $pink3;
 a {
     color: #666;
     /* color: rgb(115, 115, 223); */
@@ -401,6 +410,11 @@ $azul: #007cc3;
             width: 95rem;
             height: 10rem;
 
+
+            i{
+                color: $pink3;
+            }
+
             div {
                 display: flex;
 
@@ -408,9 +422,9 @@ $azul: #007cc3;
                     position: relative;
                     top: 15px;
                     text-align: center;
-                    img {
-                        width: 3rem;
-                        height: 3rem;
+
+                    i{
+                        font-size: 3rem;
                     }
                 }
 
@@ -446,16 +460,30 @@ $azul: #007cc3;
                         font-size: 1.5rem;
                         color: #007cc3;
 
-                        img {
-                            text-align: center;
-                            width: auto;
-                            margin: 1rem 2rem;
-                            padding: 0.2rem;
-                        }
+                        // img {
+                        //     text-align: center;
+                        //     width: auto;
+                        //     margin: 1rem 2rem;
+                        //     padding: 0.2rem;
+                        // }
 
+                        
+
+                        
                         // .img-facebook{
                         //     margin: 0 2.5rem;
                         // }
+                    }
+                    ul{
+                        font-size: 1.5rem;
+                        margin: 1rem 0;
+                        padding: 0.2rem;
+                        text-align: left;
+
+                        i{  
+                            color: $black;
+                            margin-right: 1rem;
+                        }
                     }
                 }
             }
@@ -603,15 +631,11 @@ $azul: #007cc3;
     }
 }
 
-$black: #222;
-$white:#fff;
-$light-color: #666;
-$light-bg: #eee;
-$border: .2rem solid $black;
+
 
 @media (max-width: 500px) {
     .header {
-        padding: 1.5rem 7%;
+        padding: 1rem 7%;
         img {
             width: 10rem;
         }
@@ -649,8 +673,8 @@ $border: .2rem solid $black;
                 left: 50%;
                 right: 0;
                 background: #fff;
-                // border-top: $border;
-                // border-bottom: $border;
+                border-top: $border;
+                border-bottom: $border;
                 padding: 0 2rem;
                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 

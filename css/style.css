@@ -420,6 +420,10 @@ a {
   height: 10rem;
 }
 
+.footer .ofrecemos-footer .ofrecemos_footer_div1 i {
+  color: #F173AC;
+}
+
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -432,9 +436,8 @@ a {
   text-align: center;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div a img {
-  width: 3rem;
-  height: 3rem;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
+  font-size: 3rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
@@ -473,11 +476,16 @@ a {
   color: #007cc3;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li img {
-  text-align: center;
-  width: auto;
-  margin: 1rem 2rem;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
+  font-size: 1.5rem;
+  margin: 1rem 0;
   padding: 0.2rem;
+  text-align: left;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul i {
+  color: #222;
+  margin-right: 1rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
@@ -555,7 +563,7 @@ a {
 
 @media (max-width: 500px) {
   .header {
-    padding: 1.5rem 7%;
+    padding: 1rem 7%;
   }
   .header img {
     width: 10rem;
@@ -592,6 +600,8 @@ a {
     left: 50%;
     right: 0;
     background: #fff;
+    border-top: 0.2rem solid #F173AC;
+    border-bottom: 0.2rem solid #F173AC;
     padding: 0 2rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
