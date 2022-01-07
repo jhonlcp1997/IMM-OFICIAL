@@ -550,6 +550,15 @@ a {
   .menu .menu-nav2 img {
     width: 70%;
   }
+  .importante .import-nav div {
+    margin-top: 1rem;
+  }
+  .importante .import-nav div h2 {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+    margin: 1.5rem 9%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -634,6 +643,9 @@ a {
   }
   .header .header-general .header-right div:hover {
     color: #000;
+  }
+  .menu {
+    display: none;
   }
   .ofrecemos {
     display: none;
