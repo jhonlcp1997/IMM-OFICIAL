@@ -348,7 +348,6 @@ a {
           justify-content: space-between;
   background: #fff;
   width: 120rem;
-  max-width: 100rem;
   height: 35rem;
   z-index: 9;
   -webkit-box-shadow: -3rem 1rem 80px -40px #777;
@@ -554,10 +553,10 @@ a {
     margin-top: 1rem;
   }
   .importante .import-nav div h2 {
-    font-size: 1.5rem;
-    opacity: 0.8;
-    text-align: center;
     margin: 1.5rem 9%;
+  }
+  .importante .import-nav .import-nav-2 {
+    width: 38rem;
   }
 }
 

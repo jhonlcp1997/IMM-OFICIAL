@@ -345,7 +345,7 @@ $azul: #007cc3;
         justify-content: space-between;
         background: #fff;
         width: 120rem;
-        max-width: 100rem;
+        // min-width: 10rem;
         height: 35rem;
         z-index: 9;
         box-shadow: -3rem 1rem 80px -40px #777;
@@ -610,12 +610,14 @@ $azul: #007cc3;
     
             div {
                 margin-top: 1rem;
+                
                 h2 {
-                    font-size: 1.5rem;
-                    opacity: 0.8;
-                    text-align: center;
                     margin: 1.5rem 9%;
                 }
+            }
+
+            .import-nav-2{
+                width: 38rem;
             }
         }
     }
