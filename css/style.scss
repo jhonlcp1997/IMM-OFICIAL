@@ -696,10 +696,12 @@ $border: .2rem solid $black;
 
     .footer {
         .ofrecemos-footer {
-            width: 50vh;
+            width: 80vw;
             .ofrecemos_footer_div1 {
                 display: inline;
-                // width: 30rem;
+                div{
+                    margin: 3rem;
+                }
             }
         }
     }
@@ -733,7 +735,7 @@ $border: .2rem solid $black;
         }
     }
 
-    .footer {
-        display: none;
-    }
+    // .footer {
+    //     display: none;
+    // }
 }

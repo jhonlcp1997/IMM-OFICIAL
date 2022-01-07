@@ -629,10 +629,13 @@ a {
     display: none;
   }
   .footer .ofrecemos-footer {
-    width: 50vh;
+    width: 80vw;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     display: inline;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+    margin: 3rem;
   }
 }
 
@@ -652,9 +655,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .footer {
-    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
