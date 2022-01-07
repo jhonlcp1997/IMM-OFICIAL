@@ -38,7 +38,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 2rem;
-  padding: 1.5rem 15%;
+  padding: 1.5rem 18%;
   background: #fff;
 }
 
@@ -84,15 +84,15 @@ a {
 .header .header-general .header-center-right {
   width: 100%;
   display: inline-block;
-  margin: 2.5rem 1% 0 1%;
-  text-align: center;
+  margin: 2.5rem 0 0 1%;
+  text-align: right;
 }
 
 .header .header-general .header-center-right a h4 {
   display: inline-block;
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 1.4rem;
-  margin: 0 4%;
+  margin: 0 3%;
   font-family: "Abel", sans-serif;
   font-family: "Poppins", sans-serif;
 }
@@ -432,7 +432,7 @@ a {
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
   position: relative;
-  top: 15px;
+  top: 10px;
   text-align: center;
 }
 
@@ -484,7 +484,7 @@ a {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul i {
-  color: #222;
+  color: #666;
   margin-right: 1rem;
 }
 
@@ -603,6 +603,7 @@ a {
     border-bottom: 2px solid #f173ac;
   }
   .header .header-general .header-center-right {
+    text-align: center;
     width: 50%;
     position: absolute;
     top: 60%;
