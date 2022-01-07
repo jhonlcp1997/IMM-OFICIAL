@@ -644,12 +644,6 @@ a {
   .header .header-general .header-right div:hover {
     color: #000;
   }
-  .menu {
-    display: none;
-  }
-  .ofrecemos {
-    display: none;
-  }
   .footer .ofrecemos-footer {
     width: 80vw;
   }
