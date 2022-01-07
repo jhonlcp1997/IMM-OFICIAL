@@ -723,15 +723,15 @@ $azul: #007cc3;
         }
     }
 
-    // .menu{
-    //     display: none;
-    // }
+    .menu{
+        display: flex;
+    }
 
 
 
-    // .ofrecemos {
-        // display: none;
-    // }
+    .ofrecemos {
+        display: none;
+    }
 
     .footer {
         .ofrecemos-footer {
@@ -771,6 +771,51 @@ $azul: #007cc3;
             .header-right {
                 display: flex;
             }
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-top: 0;
+        .menu-nav1 {
+            padding: 1rem 0;
+            text-align: center;
+
+            width: 100%;
+            h2{
+                
+                text-align: center;
+            }
+
+            .menu-nav1-h2_1 {
+                font-size: 2rem;
+            }
+    
+            .menu-nav1-h2_2 {
+                font-size: 3rem;
+            }
+            
+            p{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            div{
+                margin: 1rem auto;
+                text-align: center;
+                align-content: center;
+                
+                a{
+                    text-align: center;
+                }
+            }
+        }
+
+        .menu-nav2{
+
+            text-align: center;
+            
         }
     }
 

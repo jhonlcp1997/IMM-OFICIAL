@@ -644,6 +644,14 @@ a {
   .header .header-general .header-right div:hover {
     color: #000;
   }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ofrecemos {
+    display: none;
+  }
   .footer .ofrecemos-footer {
     width: 80vw;
   }
@@ -671,6 +679,44 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    padding-top: 0;
+  }
+  .menu .menu-nav1 {
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  .menu .menu-nav1 h2 {
+    text-align: center;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_1 {
+    font-size: 2rem;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_2 {
+    font-size: 3rem;
+  }
+  .menu .menu-nav1 p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .menu .menu-nav1 div {
+    margin: 1rem auto;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .menu .menu-nav1 div a {
+    text-align: center;
+  }
+  .menu .menu-nav2 {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
