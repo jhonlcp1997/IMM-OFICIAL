@@ -735,3 +735,38 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
     // }
     
 }
+
+@media (max-width:600px){
+
+    .header{
+        
+        .header-general{
+
+            .navbar-opciones-phone{
+
+                a {
+                    font-size: 1rem;
+                    margin: 0 1.5rem;
+                    opacity: 0.8;
+        
+                    &:focus {
+                        padding-bottom: 0.5rem;
+                        border-bottom: 1px solid #f173ac;
+                    }
+                }
+            }
+
+
+            .header-center-right{
+                display: none;
+            }
+
+            .header-right{
+                display: flex;
+            }
+        }
+
+        
+    }
+}
+

@@ -600,4 +600,24 @@ a {
     width: 30rem;
   }
 }
+
+@media (max-width: 600px) {
+  .header .header-general .navbar-opciones-phone a {
+    font-size: 1rem;
+    margin: 0 1.5rem;
+    opacity: 0.8;
+  }
+  .header .header-general .navbar-opciones-phone a:focus {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f173ac;
+  }
+  .header .header-general .header-center-right {
+    display: none;
+  }
+  .header .header-general .header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=style.css.map */
