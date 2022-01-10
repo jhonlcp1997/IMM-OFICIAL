@@ -433,6 +433,7 @@ $azul: #007cc3;
                 .footer-ul2 {
                     list-style-type: none;
                     margin-left: 1.5rem;
+                    
                     h2 {
                         text-align: start;
                         font-family: "Abel", sans-serif;
@@ -447,6 +448,7 @@ $azul: #007cc3;
                 .footer-ul3 {
                     list-style-type: none;
                     margin-left: 1.5rem;
+
                     li {
                         font-size: 1.5rem;
                         color: #007cc3;
@@ -530,8 +532,11 @@ $azul: #007cc3;
 }
 
 @media (max-width: 1300px) {
+
     .header {
+
         .header-general {
+
             .header-center-right {
                 margin: 2.5rem 0 0 4%;
 
@@ -602,14 +607,18 @@ $azul: #007cc3;
 }
 
 @media (max-width: 600px) {
+
     .ofrecemos {
+
         .ofrecemos-box2 {
             width: 90rem;
         }
     }
 
     .footer {
+
         .ofrecemos-footer {
+
             .ofrecemos_footer_div1 {
                 width: 80rem;
             }
