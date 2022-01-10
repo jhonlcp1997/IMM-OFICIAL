@@ -118,7 +118,7 @@ a {
   /* background-image: url(../img/image-simple-2/Fondo.png); */
   /* opacity: 0.5; */
   z-index: 0;
-  padding: 3rem 15%;
+  padding: 3rem 17%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -503,13 +503,13 @@ a {
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
   .header .header-general .header-center-right {
-    margin: 2.5rem 0 0 0;
+    margin: 2.5rem 0 0 2%;
   }
   .header .header-general .header-center-right a h4 {
     display: inline-block;
     opacity: 0.7;
     font-size: 1.2rem;
-    margin: 0 4%;
+    margin: 0 2%;
   }
   .header .header-general .header-center-right a:focus {
     padding-bottom: 0.7rem;
@@ -531,7 +531,7 @@ a {
 
 @media (max-width: 1300px) {
   .header .header-general .header-center-right {
-    margin: 2.5rem 0 0 0;
+    margin: 2.5rem 0 0 4%;
   }
   .header .header-general .header-center-right a h4 {
     display: inline-block;
