@@ -729,7 +729,7 @@ a {
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
-    width: 40rem;
+    width: auto;
     height: 40rem;
   }
   .ofrecemos .ofrecemos-box1 div {
@@ -750,9 +750,11 @@ a {
     margin-top: 0;
   }
   .ofrecemos .ofrecemos-box2 {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
-    width: 40rem;
+    width: auto;
     height: 40rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {

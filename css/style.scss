@@ -829,7 +829,7 @@ $azul: #007cc3;
         display: block;
         
         .ofrecemos-box1 {
-            width: 40rem;
+            width: auto;
             height: 40rem; 
 
             
@@ -861,10 +861,10 @@ $azul: #007cc3;
         }
 
         .ofrecemos-box2{
-            display: none;
-            // display: flex;
+            // display: none;
+            display: flex;
             position: relative;
-            width: 40rem;
+            width: auto;
             height: 40rem; 
             
             
