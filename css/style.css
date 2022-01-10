@@ -724,6 +724,9 @@ a {
   .menu .menu-nav2 {
     text-align: center;
   }
+  .importante {
+    margin-top: 5rem;
+  }
   .importante .import-nav {
     display: block;
   }
