@@ -724,6 +724,18 @@ a {
   .menu .menu-nav2 {
     text-align: center;
   }
+  .importante .import-nav {
+    display: block;
+  }
+  .importante .import-nav .import-nav-2 {
+    width: 25rem;
+  }
+  .importante .import-nav div {
+    margin-top: 2rem;
+  }
+  .importante .import-nav div img {
+    width: 10rem;
+  }
   .ofrecemos {
     height: 20rem;
     display: block;
