@@ -124,7 +124,7 @@ $azul: #007cc3;
     /* background-image: url(../img/image-simple-2/Fondo.png); */
     /* opacity: 0.5; */
     z-index: 0;
-    padding: 3rem 9%;
+    padding: 3rem 15%;
     justify-content: space-between;
 
     &::before {
@@ -514,7 +514,6 @@ $azul: #007cc3;
 
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
-    /* transition: all .2s linear; */
 
     .header {
         .header-general {
@@ -544,6 +543,26 @@ $azul: #007cc3;
         //         margin: 0 2%;
         //     }
         // }
+    }
+
+    .menu{
+        padding: 3rem 9%;
+    }
+}
+
+@media (max-width: 1380px){
+
+    html{
+        font-size: 57%;
+    }
+    
+    .menu {
+        .menu-nav2 {
+            // text-align: right;
+            img {
+                width: 92%;
+            }
+        }
     }
 }
 

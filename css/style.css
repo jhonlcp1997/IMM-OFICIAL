@@ -118,7 +118,7 @@ a {
   /* background-image: url(../img/image-simple-2/Fondo.png); */
   /* opacity: 0.5; */
   z-index: 0;
-  padding: 3rem 9%;
+  padding: 3rem 15%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -502,7 +502,6 @@ a {
 
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
-  /* transition: all .2s linear; */
   .header .header-general .header-center-right {
     margin: 2.5rem 0 0 0;
   }
@@ -515,6 +514,18 @@ a {
   .header .header-general .header-center-right a:focus {
     padding-bottom: 0.7rem;
     border-bottom: 1px solid #f173ac;
+  }
+  .menu {
+    padding: 3rem 9%;
+  }
+}
+
+@media (max-width: 1380px) {
+  html {
+    font-size: 57%;
+  }
+  .menu .menu-nav2 img {
+    width: 92%;
   }
 }
 
