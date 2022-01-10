@@ -621,7 +621,9 @@ $azul: #007cc3;
 
 @media (max-width: 500px) {
     .header {
+        
         padding: 1rem 7%;
+
         img {
             width: 10rem;
         }
@@ -653,11 +655,12 @@ $azul: #007cc3;
             }
 
             .header-center-right {
+                
                 text-align: center;
                 width: 50%;
                 position: absolute;
                 top: 60%;
-                left: 50%;
+                
                 right: 0;
                 background: #fff;
                 border-top: $border;
@@ -697,52 +700,6 @@ $azul: #007cc3;
                         color: #000;
                     }
                 }
-            }
-        }
-    }
-
-    .menu{
-        display: flex;
-    }
-
-
-
-    .ofrecemos {
-        display: flex;
-    }
-
-    .footer {
-        .ofrecemos-footer {
-            width: 80vw;
-            .ofrecemos_footer_div1 {
-                display: inline;
-                div{
-                    margin: 3rem;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 430px) {
-    .header {
-        padding: 1rem 7%;
-
-        img {
-            width: 9rem;
-        }
- 
-        .header-general {
-            .navbar-opciones-phone {
-                a {
-                    font-size: 1rem;
-                    margin: 0 1.5rem;
-                    opacity: 0.8;
-                }
-            }
-
-            .header-right {
-                display: flex;
             }
         }
     }
@@ -792,24 +749,7 @@ $azul: #007cc3;
         }
     }
 
-    .importante{
-        margin-top: 5rem;
 
-        .import-nav{
-            display: block;
-
-            .import-nav-2{
-                width: 25rem;
-            }
-
-            div{
-                margin-top: 2rem;
-                img{
-                    width: 10rem;
-                }
-            }
-        }
-    }
 
     .ofrecemos {
         height: 20rem;
@@ -894,4 +834,188 @@ $azul: #007cc3;
             display: none;
         }
     }
+
+    .footer {
+        .ofrecemos-footer {
+            width: 80vw;
+            .ofrecemos_footer_div1 {
+                display: inline;
+                div{
+                    margin: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .header {
+        padding: 1rem 7%;
+
+        img {
+            width: 9rem;
+        }
+ 
+        .header-general {
+            .navbar-opciones-phone {
+                a {
+                    font-size: 1rem;
+                    margin: 0 1.5rem;
+                    opacity: 0.8;
+                }
+            }
+
+            .header-right {
+                display: flex;
+            }
+        }
+    }
+
+    // .menu{
+        // display: flex;
+        // flex-wrap: wrap-reverse;
+        // padding-top: 0;
+        // .menu-nav1 {
+        //     padding: 1rem 0;
+        //     text-align: center;
+
+        //     width: 100%;
+        //     h2{
+                
+        //         text-align: center;
+        //     }
+
+        //     .menu-nav1-h2_1 {
+        //         font-size: 2rem;
+        //     }
+    
+        //     .menu-nav1-h2_2 {
+        //         font-size: 3rem;
+        //     }
+            
+        //     p{
+        //         font-size: 1.5rem;
+        //         text-align: center;
+        //     }
+
+        //     div{
+        //         margin: 1rem auto;
+        //         text-align: center;
+        //         align-content: center;
+                
+        //         a{
+        //             text-align: center;
+        //         }
+        //     }
+        // }
+
+        // .menu-nav2{
+
+        //     text-align: center;
+            
+        // }
+    // }
+
+    .importante{
+        margin-top: 5rem;
+
+        .import-nav{
+            display: block;
+
+            .import-nav-2{
+                width: 25rem;
+            }
+
+            div{
+                margin-top: 2rem;
+                img{
+                    width: 10rem;
+                }
+            }
+        }
+    }
+
+    // .ofrecemos {
+    //     height: 20rem;
+
+    //     display: block;
+        
+    //     .ofrecemos-box1 {
+    //         width: auto;
+    //         height: 40rem; 
+
+            
+    //         div{
+    //             display: inline;
+                
+    //             img{
+    //                 left: 0;
+    //                 height: 15rem;
+    //             }
+
+    //             ul{
+    //                 position: relative;
+    //                 font-size: 1rem;
+    //                 padding-top: 0;
+    //                 top:-4.5rem;
+    //                 // h1{
+                        
+    //                 // }
+
+    //                 li{
+    //                     h2{
+    //                         font-size: 1.4rem;
+    //                         margin-top: 0;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+
+    //     .ofrecemos-box2{
+    //         // display: none;
+    //         display: flex;
+    //         position: relative;
+    //         width: auto;
+    //         height: 40rem; 
+            
+            
+    //         .ofrecemos-importante{
+    //             display: flex;
+
+    //             padding-right: 10rem;
+
+    //             ul{
+    //                 font-size: 1rem;
+    //                 margin: auto 10% auto 10%;
+    //                 // padding-right: 15rem;
+                    
+    //                 h1{
+    //                     padding-right: 0;
+    //                     font-size: 3rem;
+    //                 }
+
+    //                 li{
+
+    //                     h2{
+    //                         font-size: 1.4rem;
+    //                     }
+    //                 }
+    //             }
+
+    //             img{
+                    
+    //                 position: absolute;
+    //                 right: 0px;
+    //                 bottom: 0px;
+    //                 height: 25rem;
+    //                 display:flex;
+    //             }
+    //         }
+    //     }
+
+    //     .ofrecemos-box3_img{
+    //         display: none;
+    //     }
+    // }
 }

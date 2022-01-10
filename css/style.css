@@ -610,7 +610,6 @@ a {
     width: 50%;
     position: absolute;
     top: 60%;
-    left: 50%;
     right: 0;
     background: #fff;
     border-top: 0.2rem solid #F173AC;
@@ -652,44 +651,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .ofrecemos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .footer .ofrecemos-footer {
-    width: 80vw;
-  }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
-    display: inline;
-  }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
-    margin: 3rem;
-  }
-}
-
-@media (max-width: 430px) {
-  .header {
-    padding: 1rem 7%;
-  }
-  .header img {
-    width: 9rem;
-  }
-  .header .header-general .navbar-opciones-phone a {
-    font-size: 1rem;
-    margin: 0 1.5rem;
-    opacity: 0.8;
-  }
-  .header .header-general .header-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
     padding-top: 0;
@@ -723,21 +684,6 @@ a {
   }
   .menu .menu-nav2 {
     text-align: center;
-  }
-  .importante {
-    margin-top: 5rem;
-  }
-  .importante .import-nav {
-    display: block;
-  }
-  .importante .import-nav .import-nav-2 {
-    width: 25rem;
-  }
-  .importante .import-nav div {
-    margin-top: 2rem;
-  }
-  .importante .import-nav div img {
-    width: 10rem;
   }
   .ofrecemos {
     height: 20rem;
@@ -800,6 +746,49 @@ a {
   }
   .ofrecemos .ofrecemos-box3_img {
     display: none;
+  }
+  .footer .ofrecemos-footer {
+    width: 80vw;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    display: inline;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    padding: 1rem 7%;
+  }
+  .header img {
+    width: 9rem;
+  }
+  .header .header-general .navbar-opciones-phone a {
+    font-size: 1rem;
+    margin: 0 1.5rem;
+    opacity: 0.8;
+  }
+  .header .header-general .header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .importante {
+    margin-top: 5rem;
+  }
+  .importante .import-nav {
+    display: block;
+  }
+  .importante .import-nav .import-nav-2 {
+    width: 25rem;
+  }
+  .importante .import-nav div {
+    margin-top: 2rem;
+  }
+  .importante .import-nav div img {
+    width: 10rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
