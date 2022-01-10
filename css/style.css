@@ -750,9 +750,7 @@ a {
     margin-top: 0;
   }
   .ofrecemos .ofrecemos-box2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     position: relative;
     width: 40rem;
     height: 40rem;
