@@ -84,8 +84,8 @@ a {
 .header .header-general .header-center-right {
   width: 100%;
   display: inline-block;
-  margin: 2.5rem 0 0 1%;
-  text-align: right;
+  margin: 2.5rem 0 0 5%;
+  text-align: left;
 }
 
 .header .header-general .header-center-right a h4 {
