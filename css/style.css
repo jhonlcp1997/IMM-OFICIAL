@@ -18,7 +18,6 @@ html {
 
 a {
   color: #666;
-  /* color: rgb(115, 115, 223); */
   text-decoration: none;
 }
 
@@ -113,10 +112,7 @@ a {
   position: relative;
   width: 100%;
   height: 45rem;
-  /* overflow: hidden; */
   background: #007cc3;
-  /* background-image: url(../img/image-simple-2/Fondo.png); */
-  /* opacity: 0.5; */
   z-index: 0;
   padding: 3rem 17%;
   -webkit-box-pack: justify;
@@ -185,11 +181,7 @@ a {
 .menu .menu-nav1 div a {
   font-family: "Abel", sans-serif;
   font-weight: bold;
-  /* margin-left: .5rem; */
-  /* padding-top: 4.5rem; */
   color: #fff;
-  /* align-content: center; */
-  /* text-align: center; */
   font-size: 1.5rem;
 }
 
@@ -219,15 +211,12 @@ a {
 
 .importante h1 {
   font-size: 2rem;
-  /* font-family: 'Abel', sans-serif;
-        font-family: 'Poppins', sans-serif; */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f173ac;
   padding: 3rem;
 }
 
 .importante .import-nav {
-  /* transition: all .1s linear; */
   text-align: center;
   height: auto;
   display: inline-block;
