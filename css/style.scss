@@ -704,6 +704,68 @@ $azul: #007cc3;
 
 @media (max-width: 600px) {
 
+    .ofrecemos{
+        
+        .ofrecemos-box1{
+            width: auto;
+
+            div{
+                img{
+                    display: none;
+                }
+
+                ul{
+                    li{
+                        h2{
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        .ofrecemos-box2{
+            display: flex;
+            position: relative;
+            width: auto;
+            height: 40rem; 
+            
+            .ofrecemos-importante{
+                padding-right: 10rem;
+
+                ul{
+                    font-size: 1rem;
+                    margin: auto 10%;
+                    
+                    h1{
+                        padding-right: 0;
+                        font-size: 3rem;
+                    }
+
+                    li{
+
+                        h2{
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+
+                img{
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+                    height: 25rem;
+                    display:flex;
+                }
+            }
+        }
+
+        .ofrecemos-box3_img{
+            display: none;
+        }
+    }
+
     .footer {
 
         .ofrecemos-footer {
@@ -794,6 +856,7 @@ $azul: #007cc3;
                 display: inline;
                 
                 img{
+                    display: inline;
                     left: 0;
                     height: 15rem;
                 }
