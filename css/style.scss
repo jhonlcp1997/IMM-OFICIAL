@@ -651,12 +651,21 @@ $azul: #007cc3;
     }
 
     .menu {
-        height: 40rem;
+        display: flex;
+        height: auto;
 
         .menu-nav2 {
-
+            width: auto;
+            text-align: center;
+            align-content: center;
+            
             img {
-                width: 70%;
+                position: relative;
+                display: flex;
+                padding: auto 0;
+                margin: auto ;
+                width: 80%;
+                // bottom: -50rem;
             }
         }
     }
@@ -840,7 +849,17 @@ $azul: #007cc3;
 
         .menu-nav2{
             text-align: center;
+            width: auto;
+            text-align: center;
+            align-content: center;
             
+            img {
+                position: relative;
+                display: flex;
+                margin: auto;
+                width: 80%;
+                // bottom: -50rem;
+            }     
         }
     }
 

@@ -599,10 +599,25 @@ a {
     color: #000;
   }
   .menu {
-    height: 40rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+  }
+  .menu .menu-nav2 {
+    width: auto;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .menu .menu-nav2 img {
-    width: 70%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: auto 0;
+    margin: auto;
+    width: 80%;
   }
   .importante .import-nav div {
     margin-top: 1rem;
@@ -724,6 +739,18 @@ a {
   }
   .menu .menu-nav2 {
     text-align: center;
+    width: auto;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .menu .menu-nav2 img {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 80%;
   }
   .ofrecemos {
     height: 20rem;
