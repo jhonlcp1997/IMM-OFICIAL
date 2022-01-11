@@ -33,9 +33,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   display: inline-block;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   font-size: 1.5rem;
   padding: 1.5rem 18%;
   background: #fff;
@@ -49,7 +46,6 @@ a {
 .header .navbar-opciones a {
   font-size: 1.2rem;
   margin: 0 1.5rem;
-  opacity: 0.9;
 }
 
 .header .navbar-opciones a:focus {
@@ -502,7 +498,6 @@ a {
   }
   .header .header-general .header-center-right a h4 {
     display: inline-block;
-    opacity: 1;
     font-size: 1.2rem;
     margin: 0 2%;
   }
@@ -657,7 +652,6 @@ a {
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    width: auto;
     height: 40rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
@@ -777,40 +771,6 @@ a {
   .ofrecemos .ofrecemos-box1 div ul li h2 {
     font-size: 1.4rem;
     margin-top: .5rem;
-  }
-  .ofrecemos .ofrecemos-box2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    width: auto;
-    height: 40rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
-    padding-right: 10rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
-    font-size: 1rem;
-    margin: auto 10%;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
-    padding-right: 0;
-    font-size: 3rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul li h2 {
-    font-size: 1.4rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    height: 25rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .ofrecemos .ofrecemos-box3_img {
-    display: none;
   }
 }
 

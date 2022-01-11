@@ -38,7 +38,6 @@ a {
     width: 100%;
     align-items: center;
     display: inline-block;
-    justify-content: space-between;
     font-size: 1.5rem;
     padding: 1.5rem 18%;
     background: #fff;
@@ -50,7 +49,6 @@ a {
         a {
             font-size: 1.2rem;
             margin: 0 1.5rem;
-            opacity: 0.9;
 
             &:focus {
                 padding-bottom: 0.5rem;
@@ -475,20 +473,10 @@ $azul: #007cc3;
     .header {
 
         .header-general {
-            // min-width: 100rem;
 
             .header-center-right {
-                // margin: 2.5rem 0 0 2%;
-                // width: 84rem;
 
                 a {
-
-                    // h4 {
-                    //     display: inline-block;
-                    //     opacity: 0.7;
-                    //     font-size: 1.2rem;
-                    //     margin: 0 2%;
-                    // }
 
                     &:focus {
                         padding-bottom: 0.7rem;
@@ -534,7 +522,6 @@ $azul: #007cc3;
 
                     h4 {
                         display: inline-block;
-                        opacity: 1;
                         font-size: 1.2rem;
                         margin: 0 2%;
                     }
@@ -737,7 +724,6 @@ $azul: #007cc3;
         .ofrecemos-box2{
             display: flex;
             position: relative;
-            width: auto;
             height: 40rem; 
             
             .ofrecemos-importante{
@@ -894,46 +880,6 @@ $azul: #007cc3;
                     }
                 }
             }
-        }
-
-        .ofrecemos-box2{
-            display: flex;
-            position: relative;
-            width: auto;
-            height: 40rem; 
-            
-            .ofrecemos-importante{
-                padding-right: 10rem;
-
-                ul{
-                    font-size: 1rem;
-                    margin: auto 10%;
-                    
-                    h1{
-                        padding-right: 0;
-                        font-size: 3rem;
-                    }
-
-                    li{
-
-                        h2{
-                            font-size: 1.4rem;
-                        }
-                    }
-                }
-
-                img{
-                    position: absolute;
-                    right: 0px;
-                    bottom: 0px;
-                    height: 25rem;
-                    display:flex;
-                }
-            }
-        }
-
-        .ofrecemos-box3_img{
-            display: none;
         }
     }
 }
