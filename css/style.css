@@ -36,7 +36,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1.5rem 18%;
   background: #fff;
 }
@@ -49,7 +49,7 @@ a {
 .header .navbar-opciones a {
   font-size: 1.2rem;
   margin: 0 1.5rem;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .header .navbar-opciones a:focus {
@@ -89,7 +89,7 @@ a {
 
 .header .header-general .header-center-right a h4 {
   display: inline-block;
-  opacity: 0.9;
+  opacity: 1;
   font-size: 1.4rem;
   margin: 0 3%;
   font-family: "Abel", sans-serif;
@@ -135,7 +135,6 @@ a {
 }
 
 .menu .menu-nav1 {
-  position: relative;
   z-index: 10;
   padding: 5rem 0;
   text-align: left;
@@ -143,7 +142,6 @@ a {
 
 .menu .menu-nav1 h2 {
   color: #fff;
-  position: relative;
   font-family: "Abel", sans-serif;
   text-align: left;
   margin: 0.5rem 0;
@@ -159,7 +157,6 @@ a {
 
 .menu .menu-nav1 p {
   color: #fff;
-  position: relative;
   font-family: "Abel", sans-serif;
   font-size: 3rem;
   text-align: left;
@@ -180,7 +177,6 @@ a {
 
 .menu .menu-nav1 div a {
   font-family: "Abel", sans-serif;
-  font-weight: bold;
   color: #fff;
   font-size: 1.5rem;
 }
@@ -231,11 +227,10 @@ a {
   font-size: 1.5rem;
   opacity: 0.8;
   text-align: center;
-  margin: 0 9%;
+  margin: 1.5rem 9%;
 }
 
 .vacio {
-  /* transition: all .2s linear; */
   height: 35rem;
   background: #d9d9d9;
   opacity: 0.5;
@@ -248,8 +243,6 @@ a {
           align-items: center;
   height: 20rem;
   text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   margin: 0 auto;
   z-index: 1;
 }
@@ -327,9 +320,6 @@ a {
 
 .ofrecemos .ofrecemos-box2 {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   top: -62rem;
   margin: auto;
   -webkit-box-pack: justify;
@@ -369,10 +359,8 @@ a {
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul li h2 {
   margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
-  /* font-family: 'Abel', sans-serif; */
   color: #666;
   font-size: 1.5rem;
-  /* margin: 0 20rem; */
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
@@ -396,7 +384,6 @@ a {
 
 .footer .ofrecemos-footer {
   position: relative;
-  /* top: -20rem; */
   display: inline-block;
   margin: 2rem auto;
 }
@@ -455,7 +442,7 @@ a {
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
   font-family: "Abel", sans-serif;
-  color: #1ca5e0;
+  color: #007cc3;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
@@ -491,15 +478,6 @@ a {
 
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
-  .header .header-general .header-center-right {
-    margin: 2.5rem 0 0 2%;
-  }
-  .header .header-general .header-center-right a h4 {
-    display: inline-block;
-    opacity: 0.7;
-    font-size: 1.2rem;
-    margin: 0 2%;
-  }
   .header .header-general .header-center-right a:focus {
     padding-bottom: 0.7rem;
     border-bottom: 1px solid #f173ac;
@@ -524,7 +502,7 @@ a {
   }
   .header .header-general .header-center-right a h4 {
     display: inline-block;
-    opacity: 0.7;
+    opacity: 1;
     font-size: 1.2rem;
     margin: 0 2%;
   }
@@ -708,7 +686,7 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div ul li h2 {
     font-size: 1.4rem;
-    margin-top: 0;
+    margin-top: .5rem;
   }
   .ofrecemos .ofrecemos-box2 {
     display: -webkit-box;
@@ -719,14 +697,11 @@ a {
     height: 40rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     padding-right: 10rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
     font-size: 1rem;
-    margin: auto 10% auto 10%;
+    margin: auto 10%;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
     padding-right: 0;
@@ -759,21 +734,11 @@ a {
 }
 
 @media (max-width: 430px) {
-  .header {
-    padding: 1rem 7%;
-  }
   .header img {
     width: 9rem;
   }
   .header .header-general .navbar-opciones-phone a {
     font-size: 1rem;
-    margin: 0 1.5rem;
-    opacity: 0.8;
-  }
-  .header .header-general .header-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   .importante {
     margin-top: 5rem;
@@ -789,6 +754,27 @@ a {
   }
   .importante .import-nav div img {
     width: 10rem;
+  }
+}
+
+@media (max-width: 318px) {
+  .header .header-general .navbar-opciones-phone a {
+    font-size: .8rem;
+  }
+  .ofrecemos .ofrecemos-box1 {
+    height: auto;
+  }
+  .ofrecemos .ofrecemos-box1 div img {
+    height: 12rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul {
+    font-size: .8rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul h1 {
+    font-size: 2rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li h2 {
+    font-size: 1.3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
