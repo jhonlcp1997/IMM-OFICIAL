@@ -684,6 +684,15 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .ofrecemos .ofrecemos-box1 div img {
+    height: 30rem;
+    left: -3.5rem;
+    bottom: 3.5rem;
+  }
+  .ofrecemos .ofrecemos-box3_img {
+    width: 30rem;
+    top: -870px;
+  }
 }
 
 @media (max-width: 700px) {
