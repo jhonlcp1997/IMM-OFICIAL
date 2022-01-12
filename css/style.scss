@@ -227,6 +227,10 @@ $azul: #007cc3;
                 margin: 1.5rem 9%;
             }
         }
+
+        .import-nav-2{
+            width: 38rem;  
+        }
     }
 }
 
@@ -468,6 +472,10 @@ $azul: #007cc3;
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
 
+    html{
+        font-size: 57%;
+    }
+
     .header {
 
         .header-general {
@@ -492,8 +500,23 @@ $azul: #007cc3;
 
 @media (max-width: 1380px){
 
-    html{
-        font-size: 57%;
+    .header {
+
+        .header-general {
+
+            .header-center-right {
+                margin: 2.5rem 0 0 4%;
+
+                a {
+
+                    h4 {
+                        display: inline-block;
+                        font-size: 1.3rem;
+                        margin: 0 2%;
+                    }
+                }
+            }
+        }
     }
     
     .menu {
@@ -555,7 +578,7 @@ $azul: #007cc3;
 @media (max-width: 1100px) {
 
     .header {  
-        padding: 1rem 20%;
+        padding: 1rem 10%;
 
         img {
             width: 10rem;
@@ -639,17 +662,39 @@ $azul: #007cc3;
         display: flex;
         height: auto;
 
-        .menu-nav2 {
-            width: auto;
-            text-align: center;
-            align-content: center;
+        // justify-content: space-between;   
+
+        .menu-nav1{
+            position: relative;
+
             
+
+            .menu-nav1-h2_1{
+                font-size: 2.5rem;
+            }
+
+            .menu-nav1-h2_2{
+                font-size: 3.5rem
+            }
+
+            p{
+                font-size: 2.5rem;
+            }
+        }
+
+        .menu-nav2 {
+            display: flex;
+            position: relative;
+            width: 50%;
+            height: auto;
+            text-align: right;
+
             img {
                 position: relative;
-                display: flex;
-                padding: auto 0;
-                margin: auto ;
-                width: 80%;
+                // display: none;
+                // margin-top: 30rem;margin-left: auto;
+                
+                width: 100%;
                 // bottom: -50rem;
             }
         }
@@ -668,7 +713,8 @@ $azul: #007cc3;
             }
 
             .import-nav-2{
-                width: 38rem;
+                // width: 38rem;
+                width: 30rem;
             }
         }
     }
@@ -696,7 +742,42 @@ $azul: #007cc3;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px){
+
+    .menu {
+        display: flex;
+        height: auto;
+        text-align: center;
+        // justify-content: space-between;   
+
+        .menu-nav1{
+            position: relative;
+            text-align: center;
+            margin: 0 auto;
+
+            .menu-nav1-h2_1{
+                font-size: 3.5rem;
+            }
+
+            .menu-nav1-h2_2{
+                font-size: 4.5rem
+            }
+
+            p{
+                font-size: 3.5rem;
+            }
+        }
+
+        .menu-nav2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    
 
     .ofrecemos{
         
@@ -832,6 +913,7 @@ $azul: #007cc3;
         }
 
         .menu-nav2{
+            display: flex;
             text-align: center;
             width: auto;
             text-align: center;
@@ -927,7 +1009,12 @@ $azul: #007cc3;
     // box 1 cambiar el paddin o margin en los costados
     .header{
 
+        img{
+            width: 5rem;
+        }
+
         .header-general{
+
 
             .navbar-opciones-phone{
 

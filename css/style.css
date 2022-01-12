@@ -226,6 +226,10 @@ a {
   margin: 1.5rem 9%;
 }
 
+.importante .import-nav .import-nav-2 {
+  width: 38rem;
+}
+
 .vacio {
   height: 35rem;
   background: #d9d9d9;
@@ -474,6 +478,9 @@ a {
 
 /* *MEDIA QUERIES */
 @media (max-width: 1580px) {
+  html {
+    font-size: 57%;
+  }
   .header .header-general .header-center-right a:focus {
     padding-bottom: 0.7rem;
     border-bottom: 1px solid #f173ac;
@@ -484,8 +491,13 @@ a {
 }
 
 @media (max-width: 1380px) {
-  html {
-    font-size: 57%;
+  .header .header-general .header-center-right {
+    margin: 2.5rem 0 0 4%;
+  }
+  .header .header-general .header-center-right a h4 {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 2%;
   }
   .menu .menu-nav2 img {
     width: 92%;
@@ -521,7 +533,7 @@ a {
 
 @media (max-width: 1100px) {
   .header {
-    padding: 1rem 20%;
+    padding: 1rem 10%;
   }
   .header img {
     width: 10rem;
@@ -599,20 +611,30 @@ a {
     display: flex;
     height: auto;
   }
-  .menu .menu-nav2 {
-    width: auto;
-    text-align: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  .menu .menu-nav2 img {
+  .menu .menu-nav1 {
     position: relative;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_1 {
+    font-size: 2.5rem;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_2 {
+    font-size: 3.5rem;
+  }
+  .menu .menu-nav1 p {
+    font-size: 2.5rem;
+  }
+  .menu .menu-nav2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: auto 0;
-    margin: auto;
-    width: 80%;
+    position: relative;
+    width: 50%;
+    height: auto;
+    text-align: right;
+  }
+  .menu .menu-nav2 img {
+    position: relative;
+    width: 100%;
   }
   .importante .import-nav div {
     margin-top: 1rem;
@@ -621,7 +643,7 @@ a {
     margin: 1.5rem 9%;
   }
   .importante .import-nav .import-nav-2 {
-    width: 38rem;
+    width: 30rem;
   }
   .ofrecemos .ofrecemos-box2 {
     width: auto;
@@ -637,7 +659,34 @@ a {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    text-align: center;
+  }
+  .menu .menu-nav1 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_1 {
+    font-size: 3.5rem;
+  }
+  .menu .menu-nav1 .menu-nav1-h2_2 {
+    font-size: 4.5rem;
+  }
+  .menu .menu-nav1 p {
+    font-size: 3.5rem;
+  }
+  .menu .menu-nav2 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
   .ofrecemos .ofrecemos-box1 {
     width: auto;
   }
@@ -732,6 +781,9 @@ a {
     text-align: center;
   }
   .menu .menu-nav2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     text-align: center;
     width: auto;
     text-align: center;
@@ -799,6 +851,9 @@ a {
 }
 
 @media (max-width: 318px) {
+  .header img {
+    width: 5rem;
+  }
   .header .header-general .navbar-opciones-phone a {
     font-size: .8rem;
   }
