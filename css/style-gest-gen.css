@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  padding: auto;
+  background: #fff;
+  text-align: center;
+}
+
+.header div {
+  position: relative;
+  display: inline-block;
+  width: 100rem;
+  text-align: left;
+}
+
+.header div .header-general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header div .header-general .navbar-opciones-phone {
+  display: none;
+}
+
+.header div .header-general .header-right {
+  display: none;
+}
+
+.header div .header-general .header-center-right {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vacio {
+  height: 35rem;
+  background: #d9d9d9;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* *MEDIA QUERIES */
+/*# sourceMappingURL=style-gest-gen.css.map */
