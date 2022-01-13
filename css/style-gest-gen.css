@@ -357,12 +357,12 @@ a {
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
-  margin-top: 4%;
+  margin-top: 3%;
   margin-right: 23%;
   margin-left: 8%;
   text-align: left;
   color: #f173ac;
-  font-size: 2rem;
+  font-size: 2.5rem;
   /* font-family: 'Poppins', sans-serif; */
   font-family: "Abel", sans-serif;
 }
@@ -391,7 +391,7 @@ a {
   display: flex;
   position: relative;
   top: -105rem;
-  margin: 0 40% 0 60%;
+  margin-left: 60%;
 }
 
 /* *MEDIA QUERIES */
@@ -401,6 +401,9 @@ a {
   }
   .menu {
     padding: 3rem 9%;
+  }
+  .importante {
+    margin-top: 15.5rem;
   }
 }
 
@@ -452,6 +455,9 @@ a {
   .menu .menu-nav2 img {
     position: relative;
     width: 90%;
+  }
+  .ofrecemos .ofrecemos-box2 {
+    width: auto;
   }
 }
 
@@ -547,6 +553,25 @@ a {
   .header div .header-general .header-right div:hover {
     color: #000;
   }
+  .importante .import-nav div {
+    margin-top: 1rem;
+  }
+  .importante .import-nav div p {
+    margin: 1.5rem 9%;
+  }
+  .ofrecemos .ofrecemos-box1 div img {
+    height: 30rem;
+    left: -3.5rem;
+    bottom: 3.5rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    margin-right: 18%;
+  }
+  .ofrecemos .ofrecemos-box3_img {
+    margin-left: 70%;
+    width: 30rem;
+    top: -870px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -574,6 +599,49 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .ofrecemos .ofrecemos-box1 {
+    width: auto;
+  }
+  .ofrecemos .ofrecemos-box1 div img {
+    display: none;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li h2 {
+    font-size: 1.7rem;
+  }
+  .ofrecemos .ofrecemos-box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    height: 40rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-right: 10rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    font-size: 1rem;
+    margin: auto 10%;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
+    padding-right: 0;
+    font-size: 3rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul ul li p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ofrecemos .ofrecemos-box3_img {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -593,6 +661,53 @@ a {
   .header div .header-general .navbar-opciones-phone ul li a:focus {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #f173ac;
+  }
+  .ofrecemos {
+    height: 20rem;
+    display: block;
+  }
+  .ofrecemos .ofrecemos-box1 {
+    width: auto;
+    height: 40rem;
+  }
+  .ofrecemos .ofrecemos-box1 div {
+    display: inline;
+  }
+  .ofrecemos .ofrecemos-box1 div img {
+    display: inline;
+    left: 0;
+    height: 15rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul {
+    position: relative;
+    font-size: 1rem;
+    padding-top: 0;
+    top: -4.5rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+  }
+  .ofrecemos .ofrecemos-box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    height: 40rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-right: 10rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    font-size: 1rem;
+    margin: auto 10%;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
+    padding-right: 0;
+    font-size: 2rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul ul li p {
+    font-size: 1.2rem;
   }
 }
 
@@ -650,6 +765,21 @@ a {
     display: flex;
     margin: auto;
     width: 80%;
+  }
+  .ofrecemos .ofrecemos-box1 {
+    height: auto;
+  }
+  .ofrecemos .ofrecemos-box1 div img {
+    height: 12rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul {
+    font-size: .8rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul h1 {
+    font-size: 2rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.3rem;
   }
 }
 /*# sourceMappingURL=style-gest-gen.css.map */
