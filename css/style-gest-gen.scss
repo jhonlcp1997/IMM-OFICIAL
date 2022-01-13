@@ -1070,9 +1070,34 @@ $azul: #007cc3;
 
 @media (max-width: 360px){
 
+    .header{
+
+        div{
+            .header-general{
+                .header-left{
+                    a{
+                        img{
+                            top: 1rem;
+                            width: 7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .importante{
+
+        .import-nav{
+
+            div{
+                width: auto;
+            }
+        }
+    }
 
     .ofrecemos{
-        height: 30rem;
+        height: 50rem;
 
 
         .ofrecemos-box2{
