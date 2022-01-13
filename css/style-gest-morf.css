@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.importante {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F4C6DE;
+}
+
+.importante .import-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 2rem;
+  margin-top: 2rem;
+  background: #F5A4C7;
+}
+
+.importante .import-nav div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 16rem;
+          flex: 1 1 16rem;
+  text-align: center;
+}
+
+.importante .import-nav div img {
+  width: 10%;
+}
+
+.importante .import-nav div p {
+  padding: 1rem 0;
+  line-height: 2;
+  list-style: #666;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=style-gest-morf.css.map */

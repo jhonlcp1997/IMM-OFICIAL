@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // outline: green solid 3px;
+    border: none;
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+$white:#fff;
+$light-color: #666;
+$pink1: #F4C6DE;
+$pink2: #F5A4C7;
+$pink3: #F173AC;
+$border: .2rem solid $pink3;
+
+a{
+    text-decoration: none;
+}
+
+.importante{
+    display: inline;
+    align-items: center;
+    background: $pink1;
+
+    .import-nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 2rem;
+        margin-top: 2rem;
+        background: $pink2;
+
+        div{
+            flex: 1 1 16rem;
+            text-align: center;
+
+            img{
+                width: 10%;
+            }
+
+            p{
+                padding: 1rem 0;
+                line-height: 2;
+                list-style: $light-color;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

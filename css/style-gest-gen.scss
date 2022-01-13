@@ -273,7 +273,7 @@ $azul: #007cc3;
         margin: auto;
         background: #f5a4c7;
         width: 80rem;
-        height: 37rem;
+        height: 38rem;
         box-shadow: -3rem 0 80px -40px #777;
         top: -65rem;
         z-index: 10;
@@ -400,98 +400,98 @@ $azul: #007cc3;
     }
 }
 
-// .footer {
-//     text-align: center;
+.footer {
+    text-align: center;
 
-//     .ofrecemos-footer {
-//         position: relative;
-//         display: inline-block;
-//         margin: 2rem auto;
+    .ofrecemos-footer {
+        position: relative;
+        display: inline-block;
+        margin: 2rem auto;
 
-//         .ofrecemos_footer_div1 {
-//             display: flex;
-//             justify-content: space-between;
-//             width: 95rem;
-//             height: 10rem;
+        .ofrecemos_footer_div1 {
+            display: flex;
+            justify-content: space-between;
+            width: 95rem;
+            height: 10rem;
 
-//             i{
-//                 color: $pink3;
-//             }
+            i{
+                color: $pink3;
+            }
 
-//             div {
-//                 display: flex;
+            div {
+                display: flex;
 
-//                 a {
-//                     position: relative;
-//                     top: 10px;
-//                     text-align: center;
+                a {
+                    position: relative;
+                    top: 10px;
+                    text-align: center;
 
-//                     i{  
-//                         font-size: 3rem;
-//                     }
-//                 }
+                    i{  
+                        font-size: 3rem;
+                    }
+                }
 
-//                 .footer-ul1 {
-//                     list-style-type: none;
-//                     margin-left: 1.5rem;
-//                     font-family: "Poppins", sans-serif;
-//                     text-align: left;
+                .footer-ul1 {
+                    list-style-type: none;
+                    margin-left: 1.5rem;
+                    font-family: "Poppins", sans-serif;
+                    text-align: left;
 
-//                     h2 {
-//                         font-family: "Abel", sans-serif;
-//                     }
-//                 }
+                    h2 {
+                        font-family: "Abel", sans-serif;
+                    }
+                }
 
-//                 .footer-ul2 {
-//                     list-style-type: none;
-//                     margin-left: 1.5rem;
+                .footer-ul2 {
+                    list-style-type: none;
+                    margin-left: 1.5rem;
                     
-//                     h2 {
-//                         text-align: start;
-//                         font-family: "Abel", sans-serif;
-//                     }
+                    h2 {
+                        text-align: start;
+                        font-family: "Abel", sans-serif;
+                    }
 
-//                     li {
-//                         font-family: "Abel", sans-serif;
-//                         color: #007cc3;
-//                         // color: #1ca5e0;
-//                     }
-//                 }
+                    li {
+                        font-family: "Abel", sans-serif;
+                        color: #007cc3;
+                        // color: #1ca5e0;
+                    }
+                }
 
-//                 .footer-ul3 {
-//                     list-style-type: none;
-//                     margin-left: 1.5rem;
+                .footer-ul3 {
+                    list-style-type: none;
+                    margin-left: 1.5rem;
 
-//                     li {
-//                         font-size: 1.5rem;
-//                         color: #007cc3;
-//                     }
+                    li {
+                        font-size: 1.5rem;
+                        color: #007cc3;
+                    }
 
-//                     ul{
-//                         font-size: 1.5rem;
-//                         margin: 1rem 0;
-//                         padding: 0.2rem;
-//                         text-align: left;
+                    ul{
+                        font-size: 1.5rem;
+                        margin: 1rem 0;
+                        padding: 0.2rem;
+                        text-align: left;
 
-//                         i{  
-//                             color: $light-color;
-//                             margin-right: 1rem;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
+                        i{  
+                            color: $light-color;
+                            margin-right: 1rem;
+                        }
+                    }
+                }
+            }
+        }
 
-//         .ofrecemos_footer_div2 {
-//             border-top: 1px solid #bfbfbf;
+        .ofrecemos_footer_div2 {
+            border-top: 1px solid #bfbfbf;
 
-//             p {
-//                 margin-top: 1.5rem;
-//                 color: #bfbfbf;
-//             }
-//         }
-//     }
-// }
+            p {
+                margin-top: 1.5rem;
+                color: #bfbfbf;
+            }
+        }
+    }
+}
 
 
 // *MEDIA QUERIES
@@ -598,6 +598,37 @@ $azul: #007cc3;
 
         .ofrecemos-box2{
             width: auto;
+
+            .ofrecemos-importante{
+
+                ul{
+
+                    ul{
+
+                        li{
+
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+
+        .ofrecemos-footer {
+            width: 80vw;
+
+            .ofrecemos_footer_div1 {
+                display: inline;
+
+                div{
+                    margin: 3rem;
+                }
+            }
         }
     }
 }
@@ -1033,6 +1064,21 @@ $azul: #007cc3;
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 360px){
+
+
+    .ofrecemos{
+        height: 30rem;
+
+
+        .ofrecemos-box2{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            height: auto;
         }
     }
 }
