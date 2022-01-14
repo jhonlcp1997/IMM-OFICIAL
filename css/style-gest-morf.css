@@ -773,12 +773,11 @@ a {
     border-bottom: 2px solid #f173ac;
   }
   .ofrecemos {
-    height: 20rem;
+    height: 30rem;
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
-    width: auto;
-    height: 40rem;
+    height: auto;
   }
   .ofrecemos .ofrecemos-box1 div {
     display: inline;
@@ -876,8 +875,8 @@ a {
     margin: auto;
     width: 80%;
   }
-  .ofrecemos .ofrecemos-box1 {
-    height: auto;
+  .ofrecemos {
+    height: 40rem;
   }
   .ofrecemos .ofrecemos-box1 div img {
     height: 12rem;
@@ -891,6 +890,11 @@ a {
   .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.3rem;
   }
+  .ofrecemos .ofrecemos-box2 {
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -903,11 +907,6 @@ a {
   }
   .ofrecemos {
     height: 50rem;
-  }
-  .ofrecemos .ofrecemos-box2 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: auto;
   }
 }
 /*# sourceMappingURL=style-gest-morf.css.map */

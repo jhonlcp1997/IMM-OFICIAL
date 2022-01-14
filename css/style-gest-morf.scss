@@ -919,17 +919,19 @@ $azul: #007cc3;
     }
 
     .ofrecemos {
-        height: 20rem;
+        height: 30rem;
         display: block;
         
         .ofrecemos-box1 {
-            width: auto;
-            height: 40rem; 
+            height: auto; 
+            // width: auto;
+            // height: 40rem; 
             
             div{
                 display: inline;
                 
                 img{
+                    // box-shadow: 1rem .5rem #666;
                     display: inline;
                     left: 0;
                     height: 15rem;
@@ -1042,9 +1044,10 @@ $azul: #007cc3;
     }
 
     .ofrecemos{
+        height: 40rem;
         
         .ofrecemos-box1{
-           height: auto; 
+           
 
             div{
 
@@ -1067,6 +1070,12 @@ $azul: #007cc3;
                     }
                 }
             }
+        }
+
+        .ofrecemos-box2{
+            height: auto;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
         }
     }
 }
@@ -1104,9 +1113,8 @@ $azul: #007cc3;
 
 
         .ofrecemos-box2{
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            height: auto;
+            
+            
         }
     }
 }
