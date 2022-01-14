@@ -26,6 +26,7 @@ $pink3: #F173AC;
 $border: .2rem solid $pink3;
 
 a{
+    color: #777;
     text-decoration: none;
 }
 
@@ -105,7 +106,7 @@ a{
                 margin-top: 1.5rem;
                 padding-left:  4.5rem;
                 
-                .module-2{
+                .module-4{
                     padding-bottom: 1rem;
                     border-bottom: 1px solid #f173ac;
                 }
@@ -214,12 +215,7 @@ $azul: #007cc3;
     }
 }
 
-.vacio {
-    height: 35rem;
-    background: #d9d9d9;
-    opacity: 0.5;
-    z-index: 0;
-}
+
 
 .importante {
     position: relative;
@@ -261,6 +257,13 @@ $azul: #007cc3;
     }
 }
 
+.vacio {
+    height: 35rem;
+    background: #d9d9d9;
+    opacity: 0.5;
+    z-index: 0;
+}
+
 .ofrecemos {
     align-items: center;
     height: 20rem;
@@ -272,7 +275,7 @@ $azul: #007cc3;
         position: relative;
         margin: auto;
         background: #f5a4c7;
-        width: 80rem;
+        width: 110rem;
         height: 38rem;
         box-shadow: -3rem 0 80px -40px #777;
         top: -65rem;
@@ -322,7 +325,7 @@ $azul: #007cc3;
                     p {
                         font-family: "Poppins", sans-serif;
                         font-size: 1.5rem;
-                        margin-top: 1rem;
+                        margin-top: .1rem;
                         color: #fff;
                         padding-top: 0rem;
                         font-weight: 600;
@@ -375,7 +378,7 @@ $azul: #007cc3;
                             // margin-top: 1rem;
                             font-family: "Poppins", sans-serif;
                             color: #666;
-                            font-size: 1.5rem;
+                            font-size: 1.3rem;
                             font-weight: 900;
                         }
                     }
@@ -389,11 +392,11 @@ $azul: #007cc3;
     }
 
     .ofrecemos-box3_img {
-        width: 35rem;
+        width: 34rem;
         z-index: 11;
         display: flex;
         position: relative;
-        top: -105rem;
+        top: -103.8rem;
         // right: -108rem;
         margin-left: 60%;
         // margin: 0 40% 0 60%;
