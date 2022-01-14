@@ -893,7 +893,7 @@ $azul: #007cc3;
                     margin: 5rem 10%;
                     
                     h1{
-                        margin-top: 2rem;
+                        margin-top: 1rem;
                         margin-left: 0rem;
                         padding-right: 0;
                         font-size: 3rem;
@@ -1098,7 +1098,22 @@ $azul: #007cc3;
                 }
             }
         }
-    } 
+    }
+    
+    .ofrecemos{
+
+
+        .ofrecemos-box2{
+
+            .ofrecemos-importante{
+
+                ul{
+                    margin: 2rem 10%;
+                }
+                
+            }
+        }
+    }
     
     .footer{
         margin-top: 10rem;
