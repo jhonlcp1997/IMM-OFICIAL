@@ -293,7 +293,7 @@ a {
   display: flex;
 }
 
-.ofrecemos .ofrecemos-box1 div video {
+.ofrecemos .ofrecemos-box1 div iframe {
   position: relative;
   height: 35rem;
   bottom: 4.5rem;
@@ -669,7 +669,7 @@ a {
   .importante .import-nav div p {
     margin: 1.5rem 9%;
   }
-  .ofrecemos .ofrecemos-box1 div video {
+  .ofrecemos .ofrecemos-box1 div iframe {
     height: 30rem;
     left: -3.5rem;
     bottom: 3.5rem;
@@ -712,7 +712,7 @@ a {
   .ofrecemos .ofrecemos-box1 {
     width: auto;
   }
-  .ofrecemos .ofrecemos-box1 div video {
+  .ofrecemos .ofrecemos-box1 div iframe {
     display: none;
   }
   .ofrecemos .ofrecemos-box1 div ul li h2 {
@@ -782,7 +782,7 @@ a {
   .ofrecemos .ofrecemos-box1 div {
     display: inline;
   }
-  .ofrecemos .ofrecemos-box1 div video {
+  .ofrecemos .ofrecemos-box1 div iframe {
     display: inline;
     left: 0;
     height: 15rem;
@@ -878,7 +878,7 @@ a {
   .ofrecemos {
     height: 40rem;
   }
-  .ofrecemos .ofrecemos-box1 div video {
+  .ofrecemos .ofrecemos-box1 div iframe {
     height: 12rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
