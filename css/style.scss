@@ -485,15 +485,18 @@ $azul: #007cc3;
                         color: #007cc3;
                     }
 
-                    ul{
-                        font-size: 1.5rem;
-                        margin: 1rem 0;
+                    ul{                        
                         padding: 0.2rem;
                         text-align: left;
-
-                        i{  
-                            color: $light-color;
-                            margin-right: 1rem;
+                        
+                        a{
+                            margin: 1rem 0;
+                            
+                            i{ 
+                                margin-right: 1rem; 
+                                color: $light-color;
+                                font-size: 1.5rem;
+                            }
                         }
                     }
                 }
@@ -1109,6 +1112,16 @@ $azul: #007cc3;
 
                 ul{
                     margin: 2rem 10%;
+
+                    div{
+
+                        div{
+
+                            img{
+                                margin-right: 1.5rem;
+                            }
+                        }
+                    }
                 }
                 
             }
@@ -1190,8 +1203,5 @@ $azul: #007cc3;
                 }
             }
         }
-    }
-    .footer{
-        margin-top: 20rem;
     }
 }
