@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@200&family=Roboto:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -361,9 +362,9 @@ a {
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
   list-style-type: none;
-  margin-top: 9%;
+  margin-top: 5%;
   margin-right: 41%;
-  margin-left: 15%;
+  margin-left: 10%;
   text-align: left;
   color: #f173ac;
   font-size: 2rem;
@@ -373,14 +374,35 @@ a {
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
   padding-right: 10rem;
+  margin-left: 15rem;
   font-family: "Abel", sans-serif;
 }
 
-.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul li h2 {
+.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 1.5rem;
-  font-family: "Poppins", sans-serif;
+}
+
+.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+  margin-right: 2.5rem;
+}
+
+.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div p {
+  font-family: 'Abel', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #666;
   font-size: 1.5rem;
+}
+
+.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div p .b-1 {
+  color: #007cc3;
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
