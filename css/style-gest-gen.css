@@ -211,6 +211,13 @@ a {
   text-align: right;
 }
 
+.menu .img-fondo .img-1 {
+  position: absolute;
+  z-index: 100;
+  bottom: 0rem;
+  right: 50%;
+}
+
 .vacio {
   height: 35rem;
   background: #d9d9d9;
@@ -333,6 +340,13 @@ a {
   font-family: "Abel", sans-serif;
   font-size: 1.7rem;
   font-weight: 900;
+}
+
+.ofrecemos .ofrecemos-box1 .img-fondo .img-2 {
+  position: absolute;
+  z-index: 100;
+  top: -3rem;
+  right: 0rem;
 }
 
 .ofrecemos .ofrecemos-box2 {
@@ -876,6 +890,9 @@ a {
     margin: auto;
     width: 80%;
   }
+  .menu .img-fondo {
+    display: none;
+  }
   .ofrecemos .ofrecemos-box1 {
     height: auto;
   }
@@ -890,6 +907,9 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.3rem;
+  }
+  .ofrecemos .ofrecemos-box1 .img-fondo {
+    display: none;
   }
 }
 

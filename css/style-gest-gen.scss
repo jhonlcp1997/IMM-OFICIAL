@@ -125,6 +125,22 @@ a {
 $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 
+// .img-fondo{
+//     .img-1{
+//         position: absolute;
+//         z-index: 100;
+//         top: 45rem; right: 50%;
+//         background-size: cover;
+//     }
+
+//     .img-2{
+//         position: absolute;
+//         z-index: 100;
+//         top: 110rem; right: 40%;
+//     }
+
+// }
+
 .menu {
     display: inline-flex;
     position: relative;
@@ -209,6 +225,16 @@ $azul: #007cc3;
         img {
             box-shadow: $boxshadowG;
             text-align: right;
+        }
+    }
+
+    .img-fondo{
+
+        .img-1{
+            position: absolute;
+            z-index: 100;
+            bottom: 0rem; right: 50%;
+            // background-size: cover;
         }
     }
 }
@@ -333,6 +359,16 @@ $azul: #007cc3;
                         }
                     }
                 }
+            }
+        }
+
+        .img-fondo{
+
+            .img-2{
+                position: absolute;
+                z-index: 100;
+                top: -3rem;
+                right: 0rem;
             }
         }
     }
@@ -1035,6 +1071,11 @@ $azul: #007cc3;
                 // bottom: -50rem;
             }     
         }
+
+        .img-fondo{
+            display: none;
+            
+        }
     }
 
     .ofrecemos{
@@ -1062,6 +1103,10 @@ $azul: #007cc3;
                         }
                     }
                 }
+            }
+
+            .img-fondo{
+                display: none;
             }
         }
     }
