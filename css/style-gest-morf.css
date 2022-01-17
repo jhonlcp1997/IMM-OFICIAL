@@ -667,6 +667,9 @@ a {
   .importante .import-nav div p {
     margin: 1.5rem 9%;
   }
+  .ofrecemos .ofrecemos-box1 {
+    width: auto;
+  }
   .ofrecemos .ofrecemos-box1 div iframe {
     height: 30rem;
   }
@@ -915,6 +918,16 @@ a {
   }
   .ofrecemos {
     height: 50rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-right: 0;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
+    opacity: 0.25;
+    position: absolute;
   }
 }
 /*# sourceMappingURL=style-gest-morf.css.map */
