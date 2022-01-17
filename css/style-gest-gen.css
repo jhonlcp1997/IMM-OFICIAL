@@ -338,14 +338,14 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p b {
   font-family: "Abel", sans-serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
 .ofrecemos .ofrecemos-box1 .img-fondo .img-2 {
   position: absolute;
   z-index: 100;
-  top: -3rem;
+  top: -4rem;
   right: 0rem;
 }
 

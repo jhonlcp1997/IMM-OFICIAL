@@ -219,7 +219,7 @@ a {
 }
 
 .importante h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f173ac;
   padding: 3rem;
@@ -258,6 +258,7 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 {
+  border-radius: 15px;
   position: relative;
   margin: auto;
   background: #f5a4c7;
@@ -292,6 +293,7 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 div iframe {
+  border-radius: 15px;
   position: relative;
   width: 700px;
   height: 30rem;
@@ -711,11 +713,27 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .ofrecemos {
+    height: 50rem;
+  }
   .ofrecemos .ofrecemos-box1 {
+    border-radius: 0px;
     width: auto;
+    height: auto;
+  }
+  .ofrecemos .ofrecemos-box1 div {
+    display: inline;
   }
   .ofrecemos .ofrecemos-box1 div iframe {
-    display: none;
+    display: inline;
+    left: -0.5rem;
+    bottom: 3.5rem;
+    width: 90%;
+    height: 30rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul {
+    position: relative;
+    top: -4.5rem;
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
@@ -781,7 +799,6 @@ a {
     font-size: 1.4rem;
   }
   .ofrecemos {
-    height: 50rem;
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
@@ -792,16 +809,11 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div iframe {
     display: inline;
-    left: -0.5rem;
-    bottom: 3.5rem;
-    width: 90%;
-    height: 30rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
-    padding: 0 3rem;
+    padding: 1.5rem 3rem 0 4rem;
     position: relative;
     font-size: 1rem;
-    padding-top: 0;
     top: -4.5rem;
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
@@ -912,6 +924,9 @@ a {
   .header div .header-general .header-left a img {
     top: 1rem;
     width: 7rem;
+  }
+  .importante h1 {
+    font-size: 2rem;
   }
   .importante .import-nav div {
     width: auto;

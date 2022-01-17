@@ -224,7 +224,7 @@ $azul: #007cc3;
     z-index: 0;
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         color: #f173ac;
         padding: 3rem;
@@ -270,6 +270,7 @@ $azul: #007cc3;
     z-index: 1;
 
     .ofrecemos-box1 {  
+        border-radius: 15px;
         position: relative;
         margin: auto;
         background: #f5a4c7;
@@ -296,6 +297,7 @@ $azul: #007cc3;
             padding: 0 0 0 5%;
 
             iframe {
+                border-radius: 15px;
                 position: relative;
                 width:700px; 
                 height:30rem;
@@ -837,16 +839,30 @@ $azul: #007cc3;
 
 
     .ofrecemos{
+        height: 50rem;
         
         .ofrecemos-box1{
+            border-radius: 0px;
             width: auto;
+            height: auto;
 
             div{
+                display: inline;
+
                 iframe{
-                    display: none;
+                    display: inline;
+                    left: -0.5rem;
+                    bottom: 3.5rem;
+                    width: 90%;
+                    height: 30rem;
                 }
 
                 ul{
+                    position: relative;
+                    // padding: 0 3rem;
+                    // padding-top: 0;
+                    top:-4.5rem;
+
                     li{
                         p{
                             font-size: 1.7rem;
@@ -965,31 +981,23 @@ $azul: #007cc3;
     }
 
     .ofrecemos {
-        height: 50rem;
+        
         display: block;
         
         .ofrecemos-box1 {
             height: auto; 
-            // width: auto;
-            // height: 40rem; 
             
             div{
                 display: inline;
                 
                 iframe{
-                    // box-shadow: 1rem .5rem #666;
                     display: inline;
-                    left: -0.5rem;
-                    bottom: 3.5rem;
-                    width: 90%;
-                    height: 30rem;
                 }
 
                 ul{
-                    padding: 0 3rem;
+                    padding: 1.5rem 3rem 0 4rem;
                     position: relative;
                     font-size: 1rem;
-                    padding-top: 0;
                     top:-4.5rem;
 
                     li{
@@ -1148,6 +1156,9 @@ $azul: #007cc3;
     }
 
     .importante{
+        h1{
+            font-size: 2rem;
+        }
 
         .import-nav{
 
