@@ -259,20 +259,17 @@ a {
 }
 
 .ofrecemos {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 20rem;
   text-align: center;
-  margin: 0 auto;
   z-index: 1;
 }
 
 .ofrecemos .ofrecemos-box1 {
+  border-radius: 15px;
   position: relative;
   margin: auto;
   background: #f5a4c7;
-  width: 80rem;
+  width: 90%;
   height: 38rem;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
@@ -298,23 +295,21 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 0 0 5%;
+  width: 95%;
 }
 
-.ofrecemos .ofrecemos-box1 div img {
+.ofrecemos .ofrecemos-box1 div iframe {
+  border-radius: 15px;
   position: relative;
-  height: 35rem;
-  bottom: 4.5rem;
-  left: -4.5rem;
-  /* box-shadow: -3rem 0 80px -20px #777; */
-  -webkit-filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-          filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-  /* transform: rotate(-10deg); */
+  width: 700px;
+  height: 30rem;
+  bottom: -4.5rem;
 }
 
 .ofrecemos .ofrecemos-box1 div ul {
   font-size: 1.5rem;
   padding-left: 5rem;
-  padding-right: 5rem;
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
@@ -329,8 +324,8 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.7rem;
+  margin-top: .7rem;
   color: #fff;
   padding-top: 0rem;
   font-weight: 600;
@@ -338,7 +333,6 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p b {
   font-family: "Abel", sans-serif;
-  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -568,6 +562,12 @@ a {
     position: relative;
     width: 90%;
   }
+  .ofrecemos .ofrecemos-box1 div ul h1 {
+    font-size: 2rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.5rem;
+  }
   .ofrecemos .ofrecemos-box2 {
     width: auto;
   }
@@ -683,10 +683,14 @@ a {
   .importante .import-nav div p {
     margin: 1.5rem 9%;
   }
-  .ofrecemos .ofrecemos-box1 div img {
+  .ofrecemos .ofrecemos-box1 {
+    width: auto;
+  }
+  .ofrecemos .ofrecemos-box1 div iframe {
     height: 30rem;
-    left: -3.5rem;
-    bottom: 3.5rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.4rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
     margin-right: 18%;
@@ -723,13 +727,28 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .ofrecemos {
+    height: 50rem;
+  }
   .ofrecemos .ofrecemos-box1 {
+    border-radius: 0px;
     width: auto;
+    height: auto;
   }
-  .ofrecemos .ofrecemos-box1 div img {
-    display: none;
+  .ofrecemos .ofrecemos-box1 div {
+    display: inline;
   }
-  .ofrecemos .ofrecemos-box1 div ul li h2 {
+  .ofrecemos .ofrecemos-box1 div iframe {
+    display: inline;
+    left: -0.5rem;
+    bottom: 3.5rem;
+    width: 90%;
+  }
+  .ofrecemos .ofrecemos-box1 div ul {
+    position: relative;
+    top: -4.5rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
   }
   .ofrecemos .ofrecemos-box2 {
@@ -787,25 +806,22 @@ a {
     border-bottom: 2px solid #f173ac;
   }
   .ofrecemos {
-    height: 20rem;
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
-    width: auto;
-    height: 40rem;
+    height: auto;
   }
   .ofrecemos .ofrecemos-box1 div {
     display: inline;
   }
-  .ofrecemos .ofrecemos-box1 div img {
+  .ofrecemos .ofrecemos-box1 div iframe {
+    height: 30rem;
     display: inline;
-    left: 0;
-    height: 15rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
+    padding: 1.5rem 3rem 0 4rem;
     position: relative;
     font-size: 1rem;
-    padding-top: 0;
     top: -4.5rem;
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
@@ -928,6 +944,16 @@ a {
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: auto;
+  }
+}
+
+@media (max-width: 340px) {
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-right: 0;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
+    opacity: 0.25;
+    position: absolute;
   }
 }
 /*# sourceMappingURL=style-gest-gen.css.map */
