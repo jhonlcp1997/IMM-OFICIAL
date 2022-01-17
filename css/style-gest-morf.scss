@@ -209,6 +209,7 @@ $azul: #007cc3;
         z-index: 10;
 
         img {
+            border-radius: 15px;
             box-shadow: $boxshadowG;
             text-align: right;
         }
@@ -341,6 +342,7 @@ $azul: #007cc3;
     }
 
     .ofrecemos-box2 {
+        border-radius: 15px;
         position: relative;
         top: -62rem;
         margin: auto;
@@ -1091,6 +1093,7 @@ $azul: #007cc3;
             align-content: center;
             
             img {
+                border-radius: 0px;
                 position: relative;
                 display: flex;
                 margin: auto;
@@ -1173,7 +1176,7 @@ $azul: #007cc3;
     }
 }
 
-@media (max-width:330px){
+@media (max-width:360px){
 
     .ofrecemos{
         

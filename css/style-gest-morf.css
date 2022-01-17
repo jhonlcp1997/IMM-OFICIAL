@@ -206,6 +206,7 @@ a {
 }
 
 .menu .menu-nav2 img {
+  border-radius: 15px;
   -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
           box-shadow: -3rem 0 80px -70px #332e2e;
   text-align: right;
@@ -330,6 +331,7 @@ a {
 }
 
 .ofrecemos .ofrecemos-box2 {
+  border-radius: 15px;
   position: relative;
   top: -62rem;
   margin: auto;
@@ -891,6 +893,7 @@ a {
         align-content: center;
   }
   .menu .menu-nav2 img {
+    border-radius: 0px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -936,7 +939,7 @@ a {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 360px) {
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
     padding-right: 0;
   }
