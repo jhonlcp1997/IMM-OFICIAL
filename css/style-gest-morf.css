@@ -252,12 +252,8 @@ a {
 }
 
 .ofrecemos {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 20rem;
   text-align: center;
-  margin: 0 auto;
   z-index: 1;
 }
 
@@ -265,7 +261,7 @@ a {
   position: relative;
   margin: auto;
   background: #f5a4c7;
-  width: 110rem;
+  width: 95%;
   height: 38rem;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
@@ -288,26 +284,23 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 div {
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 0 0 5%;
 }
 
 .ofrecemos .ofrecemos-box1 div iframe {
   position: relative;
+  width: 700px;
   height: 30rem;
-  bottom: 4.5rem;
-  left: -10.5rem;
-  /* box-shadow: -3rem 0 80px -20px #777; */
-  -webkit-filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-          filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-  /* transform: rotate(-10deg); */
+  bottom: -4.5rem;
 }
 
 .ofrecemos .ofrecemos-box1 div ul {
   font-size: 1.5rem;
   padding-left: 5rem;
-  padding-right: 5rem;
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
@@ -331,7 +324,6 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p b {
   font-family: "Abel", sans-serif;
-  font-size: 1.7rem;
   font-weight: 900;
 }
 
@@ -554,6 +546,12 @@ a {
     position: relative;
     width: 90%;
   }
+  .ofrecemos .ofrecemos-box1 div ul h1 {
+    font-size: 2rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.5rem;
+  }
   .ofrecemos .ofrecemos-box2 {
     width: auto;
   }
@@ -671,8 +669,9 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div iframe {
     height: 30rem;
-    left: -3.5rem;
-    bottom: 3.5rem;
+  }
+  .ofrecemos .ofrecemos-box1 div ul li p {
+    font-size: 1.4rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
     margin-right: 18%;
@@ -715,7 +714,7 @@ a {
   .ofrecemos .ofrecemos-box1 div iframe {
     display: none;
   }
-  .ofrecemos .ofrecemos-box1 div ul li h2 {
+  .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
   }
   .ofrecemos .ofrecemos-box2 {
@@ -772,6 +771,12 @@ a {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #f173ac;
   }
+  .ofrecemos-box1 div iframe {
+    height: 30rem;
+  }
+  .ofrecemos-box1 div ul li p {
+    font-size: 1.4rem;
+  }
   .ofrecemos {
     height: 50rem;
     display: block;
@@ -784,11 +789,13 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div iframe {
     display: inline;
-    left: 0;
+    left: -0.5rem;
+    bottom: 3.5rem;
     width: 90%;
     height: 30rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
+    padding: 0 3rem;
     position: relative;
     font-size: 1rem;
     padding-top: 0;

@@ -265,17 +265,15 @@ $azul: #007cc3;
 }
 
 .ofrecemos {
-    align-items: center;
     height: 20rem;
     text-align: center;
-    margin: 0 auto;
     z-index: 1;
 
     .ofrecemos-box1 {  
         position: relative;
         margin: auto;
         background: #f5a4c7;
-        width: 110rem;
+        width: 95%;
         height: 38rem;
         box-shadow: -3rem 0 80px -40px #777;
         top: -65rem;
@@ -293,23 +291,21 @@ $azul: #007cc3;
         }
 
         div {
+            width: 95%;
             display: flex;
+            padding: 0 0 0 5%;
 
             iframe {
                 position: relative;
-                // width:700px; 
+                width:700px; 
                 height:30rem;
-                bottom: 4.5rem;
-                left: -10.5rem;
-                /* box-shadow: -3rem 0 80px -20px #777; */
-                filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-                /* transform: rotate(-10deg); */
+                bottom: -4.5rem;
             }
 
             ul {
                 font-size: 1.5rem;
                 padding-left: 5rem;
-                padding-right: 5rem;
+                // padding-right: 5rem;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
@@ -333,7 +329,7 @@ $azul: #007cc3;
 
                         b{  
                             font-family: "Abel", sans-serif;
-                            font-size: 1.7rem;
+                            // font-size: 1.7rem;
                             font-weight: 900;
                         }
                     }
@@ -600,6 +596,24 @@ $azul: #007cc3;
 
     .ofrecemos{
 
+        .ofrecemos-box1{
+
+            div{
+
+                ul{
+                    h1{
+                        font-size: 2rem;
+                    }
+
+                    li{
+                        p{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
         .ofrecemos-box2{
             width: auto;
 
@@ -756,8 +770,17 @@ $azul: #007cc3;
     
                 iframe{
                     height: 30rem;
-                    left: -3.5rem;
-                    bottom: 3.5rem;
+                    // left: -3.5rem;
+                    // bottom: 3.5rem;
+                }
+
+                ul{
+
+                    li{
+                        p{
+                            font-size: 1.4rem;
+                        }
+                    }
                 }
             }
         }
@@ -824,7 +847,7 @@ $azul: #007cc3;
 
                 ul{
                     li{
-                        h2{
+                        p{
                             font-size: 1.7rem;
                         }
                     }
@@ -919,6 +942,27 @@ $azul: #007cc3;
         }
     }
 
+    .ofrecemos-box1{
+
+        div {
+
+            iframe{
+                height: 30rem;
+                // left: -3.5rem;
+                // bottom: 3.5rem;
+            }
+
+            ul{
+
+                li{
+                    p{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
     .ofrecemos {
         height: 50rem;
         display: block;
@@ -934,12 +978,14 @@ $azul: #007cc3;
                 iframe{
                     // box-shadow: 1rem .5rem #666;
                     display: inline;
-                    left: 0;
+                    left: -0.5rem;
+                    bottom: 3.5rem;
                     width: 90%;
                     height: 30rem;
                 }
 
                 ul{
+                    padding: 0 3rem;
                     position: relative;
                     font-size: 1rem;
                     padding-top: 0;
