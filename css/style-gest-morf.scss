@@ -297,9 +297,10 @@ $azul: #007cc3;
 
             iframe {
                 position: relative;
-                height: 35rem;
+                // width:700px; 
+                height:30rem;
                 bottom: 4.5rem;
-                left: -4.5rem;
+                left: -10.5rem;
                 /* box-shadow: -3rem 0 80px -20px #777; */
                 filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
                 /* transform: rotate(-10deg); */
@@ -324,7 +325,7 @@ $azul: #007cc3;
 
                     p {
                         font-family: "Poppins", sans-serif;
-                        font-size: 1.5rem;
+                        font-size: 1.7rem;
                         margin-top: .1rem;
                         color: #fff;
                         padding-top: 0rem;
@@ -919,7 +920,7 @@ $azul: #007cc3;
     }
 
     .ofrecemos {
-        height: 30rem;
+        height: 50rem;
         display: block;
         
         .ofrecemos-box1 {
@@ -934,7 +935,8 @@ $azul: #007cc3;
                     // box-shadow: 1rem .5rem #666;
                     display: inline;
                     left: 0;
-                    height: 15rem;
+                    width: 90%;
+                    height: 30rem;
                 }
 
                 ul{
@@ -1052,7 +1054,7 @@ $azul: #007cc3;
             div{
 
                 iframe{
-                    height: 12rem;
+                    height: 25rem;
                 }
 
                 ul{
@@ -1080,7 +1082,7 @@ $azul: #007cc3;
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 400px){
 
     .header{
 

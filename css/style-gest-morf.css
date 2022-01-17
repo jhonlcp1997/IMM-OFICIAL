@@ -295,9 +295,9 @@ a {
 
 .ofrecemos .ofrecemos-box1 div iframe {
   position: relative;
-  height: 35rem;
+  height: 30rem;
   bottom: 4.5rem;
-  left: -4.5rem;
+  left: -10.5rem;
   /* box-shadow: -3rem 0 80px -20px #777; */
   -webkit-filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
           filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
@@ -322,7 +322,7 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: .1rem;
   color: #fff;
   padding-top: 0rem;
@@ -773,7 +773,7 @@ a {
     border-bottom: 2px solid #f173ac;
   }
   .ofrecemos {
-    height: 30rem;
+    height: 50rem;
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
@@ -785,7 +785,8 @@ a {
   .ofrecemos .ofrecemos-box1 div iframe {
     display: inline;
     left: 0;
-    height: 15rem;
+    width: 90%;
+    height: 30rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
     position: relative;
@@ -879,7 +880,7 @@ a {
     height: 40rem;
   }
   .ofrecemos .ofrecemos-box1 div iframe {
-    height: 12rem;
+    height: 25rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
     font-size: .8rem;
@@ -897,7 +898,7 @@ a {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .header div .header-general .header-left a img {
     top: 1rem;
     width: 7rem;
