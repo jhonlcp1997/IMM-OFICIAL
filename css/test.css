@@ -1,32 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
-.image10
-{
-	background-image : url(../img/image-simple-2/Fondo.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 150px;
-	top : 230px;
-	width : 144px;
-	height : 165px;
+*{
+	padding: 0;
+	margin: 0;
+	/* font-family: "Poppins", sans-serif; */
 }
 
-.image10:hover
-{	transform: scale(1.2, 1.2);
-	z-index: 9;
+
+body{
+	background: #ffeaf5;
 }
 
-.image4
-{
-	background-image : url(../img/image-simple-2/FETITO.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 20px;
-	top : 273px;
-	width : 112px;
-	height : 70px;
+.div-general{
+	margin: auto;
+	background: #ffeaf5;
+	/* background: #F5A4C7; */
+	/* background: #F5A4C7; */
+	width: 95%;
+	max-width: 700px;
+	height: 50rem;
 }
 
-.image4:hover
-{	transform: scale(1.2, 1.2);
-	z-index: 0;
-	}
+.div-general div{
+	border-radius: 10px;
+	margin: 1rem auto;
+}
+
+.div-1{
+	border: 1px solid #ddd;
+	width: 95%;
+	background: white;
+	text-align: center;
+}
+
+.div-1 img{
+	width: 60%;
+}
+
+.div-2{
+	font-family: "Poppins", sans-serif;
+	border-top: 10px solid #F173AC;
+	border-left: 1px solid #ddd;	
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;	
+	width: 95%; height: 10rem;
+	background: white;
+}
+
+.subtitle h1{
+	margin-left: 1rem;
+	text-align: left;
+}
+
+.div-3{
+	font-family: "Poppins", sans-serif;
+	border: 1px solid #a70d0d;
+	
+	width: 95%; height: 10rem;
+	background: white;
+}
+
+.div-3 h2{
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+
+.div-3 input{
+	border-top: #fff;
+	border-left: #fff;
+	border-bottom-color: #a70d0d;
+	border-right: #fff;
+	/* padding-left: 2rem; */
+	margin-left: 1rem;
+	/* border-bottom: blue; */
+}
+
+.div-3 p{
+	font-family: "Poppins", sans-serif;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+.div-4{
+	font-family: "Abel", sans-serif;
+	height: 4rem;
+	width: 95%;
+	/* background: white;	 */
+	background: #ffeaf5;
+	display: flex;
+}
+
+.div-4 button{
+	margin: auto 0;
+	width: 6rem;
+	height: 2rem;
+	text-align: center;
+}
+
+
+.div-4 a{
+	color: darkred;
+	text-decoration: none;
+	margin: auto 0 auto auto;
+	text-align: right;
+}
+
+.footer{
+	font-family: "Poppins", sans-serif;
+	width: 95%;
+	
+}
+
+.footer-parrafos{
+	font-size: .7rem;
+}
+
+.footer-p2{
+	text-align: center;
+}
+
+.footer-formularios p{
+	text-align: center;
+}
