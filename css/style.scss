@@ -894,6 +894,20 @@ $azul: #007cc3;
                         font-size: 3rem;
                     }
 
+                    div{
+
+                        div{
+                            img{
+                                display: flex;
+                                position: relative;
+                            }
+
+                            p{
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+
                     ul{
                         li{
 
@@ -1171,21 +1185,24 @@ $azul: #007cc3;
         .ofrecemos-box2{
 
             .ofrecemos-importante{
-                padding-right: 5rem;
+                padding-right: 0;
+
                 ul{
+
                     div{
 
                         div{
+    
                             img{
-                                display: none;
-                            }
+                                opacity: 1;
+                            }       
                         }
                     }
                 }
 
                 img{
-
-                    height: 15rem;
+                    opacity: 0.2;
+                    position: absolute;
                 }
             }
         }

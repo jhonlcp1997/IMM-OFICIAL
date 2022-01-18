@@ -799,6 +799,15 @@ a {
     padding-right: 0;
     font-size: 3rem;
   }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div p {
+    font-size: 1.3rem;
+  }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul ul li p {
     margin-top: 1rem;
     font-size: 1.4rem;
@@ -960,13 +969,14 @@ a {
     font-size: 1.3rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
-    padding-right: 5rem;
+    padding-right: 0;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
-    display: none;
+    opacity: 1;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
-    height: 15rem;
+    opacity: 0.2;
+    position: absolute;
   }
 }
 /*# sourceMappingURL=style.css.map */
