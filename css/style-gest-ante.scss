@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // outline: green solid 3px;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+$white: #fff;
+$light-color: #666;
+$pink1: #f4c6de;
+$pink2: #f5a4c7;
+$pink3: #f173ac;
+$border: 0.2rem solid $pink3;
+
+.header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: auto;
+    background: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+
+    div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        position: relative;
+        display: inline-block;
+        width: 100rem;
+        text-align: left;
+
+        background: $white;
+
+        .navbar-opciones {
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+
+            ul {
+                text-align: center;
+
+                .gestacional {
+                    padding-bottom: 0.5rem;
+                    border-bottom: 1px solid #f173ac;
+                }
+
+                a {
+                    margin: 0 0.5rem;
+
+                    &:focus {
+                        padding-bottom: 0.5rem;
+                        border-bottom: 1px solid #f173ac;
+                    }
+                }
+            }
+        }
+
+        .header-general {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+
+            .navbar-opciones-phone {
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+                display: none;
+
+                ul {
+                    li {
+                        .gestacional {
+                            padding-bottom: 0.5rem;
+                            border-bottom: 1px solid #f173ac;
+                        }
+                    }
+                }
+            }
+
+            .header-right {
+                display: none;
+            }
+
+            .header-center-right {
+                font-family: "Poppins", sans-serif;
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                margin-top: 1.5rem;
+                padding-left: 4.5rem;
+
+                .module-6 {
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid #f173ac;
+                }
+
+                a {
+                    &:focus {
+                        padding-bottom: 1rem;
+                        border-bottom: 1px solid #f173ac;
+                    }
+                }
+            }
+        }
+    }
+}
+
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul: #007cc3;
+
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    
+    background: $azul;
+
+    .slider-contenedor {
+        width: 100%;
+        display: flex;
+        position: relative;
+
+
+        .menu {
+            display: flex;
+            width: 100%;
+            height: 45rem;
+            padding: 3rem 17%;
+            justify-content: space-around;
+            flex-shrink: 0;
+
+            &:nth-child(2){
+                background-color: #0c87b8;
+                
+            }
+
+            &:nth-child(3){
+                background-color: #666;
+            }
+
+
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     top: 0px; right: 0px; bottom: 0px; left: 0px;
+            //     /* Specify the background image to be used */
+            //     background-image: url(../img/image-simple-2/Fondo.png);
+            //     background-size: cover;
+            //     /* Specify the background image */
+            //     opacity: 0.03;
+            // }
+            
+
+            .menu-nav1 {
+                // position: relative;
+                z-index: 10;
+                padding: 5rem 0;
+                text-align: left;
+
+                h2 {
+                    color: #fff;
+                    font-family: "Abel", sans-serif;
+                    text-align: left;
+                    margin: 0.5rem 0;
+                }
+
+                .menu-nav1-h2_1 {
+                    font-size: 3rem;
+                }
+
+                .menu-nav1-h2_2 {
+                    font-size: 4.3rem;
+                }
+
+                p {
+                    color: #fff;
+                    font-family: "Abel", sans-serif;
+                    font-size: 3rem;
+                    text-align: left;
+                    margin-right: 1rem;
+                }
+
+                div {
+                    margin-top: 2.5rem;
+                    padding-top: 0.5rem;
+                    color: #fff;
+                    width: 16.5rem;
+                    height: 3.5rem;
+                    align-content: center;
+                    text-align: center;
+                    background: #f173ac;
+                    border-radius: 15px;
+
+                    a {
+                        font-family: "Abel", sans-serif;
+                        // font-weight: bold;
+                        color: #fff;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+
+                        i {
+                            position: relative;
+                            top: 2px;
+                            font-size: 2rem;
+                            margin-right: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .menu-nav2 {
+                z-index: 10;
+
+                img {
+                    width: 500px;
+                    border-radius: 15px;
+                    box-shadow: $boxshadowG;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .header{
+        padding: 0rem;
+        
+        div{
+            margin: 0;
+            height: auto;
+            width: 100%;
+
+            .navbar-opciones{
+                display: none;
+            }
+
+            .header-general{
+                margin: 1rem 10%;
+                justify-content: space-between;
+                
+                .header-left{
+                    display: flex;
+                    position: relative;
+                    a{
+                        
+                        img{
+                            width: 14.5rem;
+                        }    
+                    }
+                }
+
+                .navbar-opciones-phone{
+                    display: flex;
+
+                    ul{
+                        margin: auto;
+                        list-style-type: none;
+                        display: flex;
+
+                        a {
+                            font-size: 1.5rem;
+                            margin: 0 2rem;
+                            opacity: 0.8;
+        
+                            &:focus {
+                                padding-bottom: 0.5rem;
+                                border-bottom: 2px solid #f173ac;
+                            }
+                        }
+                    }
+                }
+
+                .header-center-right {
+                    display: inline-block;
+                    text-align: center;
+                    width: 50%;
+                    position: absolute;
+                    top: 75%; right: 0;
+                    background: #fff;
+                    border-top: $border;
+                    border-bottom: $border;
+                    padding: 0 2rem;
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+                    &.active {
+                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    }
+    
+                    a {
+                        display: block;
+                        font-size: 1.2rem;
+                        margin: 3rem 1rem;
+                    }
+                    
+                }
+
+                .header-right {
+                   display:flex; 
+                   width: auto;
+
+                   div{
+                    height: 4.5rem; width: 4.5rem;
+                    line-height: 4.5rem;
+                    border-radius: 0.5rem;
+                    background: #eee;
+                    font-size: 1.7rem;
+                    color: #000;
+                    margin-left: 0.3rem;
+                    text-align: center;
+                    cursor: pointer;
+
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }       
+            }
+        }
+    }
+
+    .menu {
+        .menu-nav1{
+            padding: 0;
+        }
+
+        .menu-nav2{
+            img{
+                width: 50px;
+                height: 350px;
+            }
+        }
+        
+    }
+    
+}
