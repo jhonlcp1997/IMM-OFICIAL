@@ -62,25 +62,28 @@ body{
 }
 
 .div-3 h2{
+	font-size: 1rem;
 	margin-top: 1rem;
 	margin-left: 1rem;
+	margin-bottom: 2rem;
 }
 
 
 .div-3 input{
-	border-top: #fff;
-	border-left: #fff;
-	border-bottom-color: #a70d0d;
-	border-right: #fff;
-	/* padding-left: 2rem; */
+	border:none;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 10px;
+    outline: none;
 	margin-left: 1rem;
-	/* border-bottom: blue; */
+
 }
 
 .div-3 p{
 	font-family: "Poppins", sans-serif;
 	margin-top: 1rem;
 	margin-left: 1rem;
+	color: #a70d0d;
+	font-weight: 600;
 }
 
 .div-4{
