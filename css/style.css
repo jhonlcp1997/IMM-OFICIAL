@@ -948,7 +948,7 @@ a {
   }
 }
 
-@media (max-width: 318px) {
+@media (max-width: 350px) {
   .header div .header-general .header-left a img {
     top: 1rem;
     width: 7rem;
