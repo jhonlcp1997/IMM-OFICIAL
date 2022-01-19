@@ -892,6 +892,9 @@ a {
     margin: auto;
     width: 80%;
   }
+  .importante .importante-h2 {
+    font-size: 2rem;
+  }
   .ofrecemos {
     height: 20rem;
     display: block;
