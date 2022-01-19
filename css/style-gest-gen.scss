@@ -160,8 +160,12 @@ $azul: #007cc3;
             margin: 0.5rem 0;
         }
 
-        .menu-nav1-h2_1 {
+        .menu-nav1-h1_1 {
             font-size: 3rem;
+            color: #fff;
+            font-family: "Abel", sans-serif;
+            text-align: left;
+            margin: 0.5rem 0;
         }
 
         .menu-nav1-h2_2 {
@@ -238,7 +242,7 @@ $azul: #007cc3;
     margin: 10.5rem 0 45rem 0;
     z-index: 0;
 
-    h1 {
+    h2 {
         font-size: 2rem;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         color: #f173ac;
@@ -323,7 +327,7 @@ $azul: #007cc3;
                 color: #fff;
                 padding-top: 2.5rem;
 
-                h1 {
+                h2 {
                     font-family: "Abel", sans-serif;
                     font-size: 2.5rem;
                     padding-top: 1.5rem;
@@ -386,7 +390,7 @@ $azul: #007cc3;
                 /* font-family: 'Poppins', sans-serif; */
                 font-family: "Abel", sans-serif;
 
-                h1 {
+                h2 {
                     padding-right: 10rem;
                     font-family: "Abel", sans-serif;
                 }
@@ -586,7 +590,7 @@ $azul: #007cc3;
 
             
 
-            .menu-nav1-h2_1{
+            .menu-nav1-h1_1{
                 font-size: 2.5rem;
             }
 
@@ -624,7 +628,7 @@ $azul: #007cc3;
             div{
 
                 ul{
-                    h1{
+                    h2{
                         font-size: 2rem;
                     }
 
@@ -840,7 +844,7 @@ $azul: #007cc3;
             text-align: center;
             margin: 0 auto;
 
-            .menu-nav1-h2_1{
+            .menu-nav1-h1_1{
                 font-size: 3.5rem;
             }
 
@@ -906,7 +910,7 @@ $azul: #007cc3;
                     font-size: 1rem;
                     margin: auto 10%;
                     
-                    h1{
+                    h2{
                         padding-right: 0;
                         font-size: 3rem;
                     }
@@ -1022,7 +1026,7 @@ $azul: #007cc3;
                     font-size: 1rem;
                     margin: auto 10%;
                     
-                    h1{
+                    h2{
                         padding-right: 0;
                         font-size: 2rem;
                     }
@@ -1058,7 +1062,8 @@ $azul: #007cc3;
                 text-align: center;
             }
 
-            .menu-nav1-h2_1 {
+            .menu-nav1-h1_1 {
+                text-align: center;
                 font-size: 2rem;
             }
     

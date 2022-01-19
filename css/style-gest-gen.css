@@ -158,8 +158,12 @@ a {
   margin: 0.5rem 0;
 }
 
-.menu .menu-nav1 .menu-nav1-h2_1 {
+.menu .menu-nav1 .menu-nav1-h1_1 {
   font-size: 3rem;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  text-align: left;
+  margin: 0.5rem 0;
 }
 
 .menu .menu-nav1 .menu-nav1-h2_2 {
@@ -233,7 +237,7 @@ a {
   z-index: 0;
 }
 
-.importante h1 {
+.importante h2 {
   font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f173ac;
@@ -317,7 +321,7 @@ a {
   padding-top: 2.5rem;
 }
 
-.ofrecemos .ofrecemos-box1 div ul h1 {
+.ofrecemos .ofrecemos-box1 div ul h2 {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
   padding-top: 1.5rem;
@@ -377,7 +381,7 @@ a {
   font-family: "Abel", sans-serif;
 }
 
-.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
+.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h2 {
   padding-right: 10rem;
   font-family: "Abel", sans-serif;
 }
@@ -547,7 +551,7 @@ a {
   .menu .menu-nav1 {
     position: relative;
   }
-  .menu .menu-nav1 .menu-nav1-h2_1 {
+  .menu .menu-nav1 .menu-nav1-h1_1 {
     font-size: 2.5rem;
   }
   .menu .menu-nav1 .menu-nav1-h2_2 {
@@ -564,7 +568,7 @@ a {
     position: relative;
     width: 90%;
   }
-  .ofrecemos .ofrecemos-box1 div ul h1 {
+  .ofrecemos .ofrecemos-box1 div ul h2 {
     font-size: 2rem;
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
@@ -717,7 +721,7 @@ a {
     text-align: center;
     margin: 0 auto;
   }
-  .menu .menu-nav1 .menu-nav1-h2_1 {
+  .menu .menu-nav1 .menu-nav1-h1_1 {
     font-size: 3.5rem;
   }
   .menu .menu-nav1 .menu-nav1-h2_2 {
@@ -767,7 +771,7 @@ a {
     font-size: 1rem;
     margin: auto 10%;
   }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h2 {
     padding-right: 0;
     font-size: 3rem;
   }
@@ -844,7 +848,7 @@ a {
     font-size: 1rem;
     margin: auto 10%;
   }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h1 {
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h2 {
     padding-right: 0;
     font-size: 2rem;
   }
@@ -870,7 +874,8 @@ a {
   .menu .menu-nav1 h2 {
     text-align: center;
   }
-  .menu .menu-nav1 .menu-nav1-h2_1 {
+  .menu .menu-nav1 .menu-nav1-h1_1 {
+    text-align: center;
     font-size: 2rem;
   }
   .menu .menu-nav1 .menu-nav1-h2_2 {
