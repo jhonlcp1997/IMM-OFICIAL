@@ -4,3 +4,25 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -responsive para celulaler comunes
 -rescalar imagenes
 -trabajar con archivos ilustrator
+
+===Cosas que tengo que hacer ===
+
+-diseño de la página web
+-estructuración
+-limpieza del código
+-etiquetas para posicionamiento de la página
+-rediseño
+
+
+==que diferencia tiene==
+
+
+-Extensiones
+-Servidores estables
+-No trabajan bases de datos(por lo que no se pueden filtrar)
+-se guarda en el drive
+-politicas
+-Trabaja con cuentas gmail
+-puedes invitar a tu equipo de trabajo
+ a editar la encuesta en tiempo real o hacer comentarios
+-Seguridad en vista y seguridad en cuentas

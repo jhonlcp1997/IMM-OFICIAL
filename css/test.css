@@ -7,7 +7,6 @@
 	/* font-family: "Poppins", sans-serif; */
 }
 
-
 body{
 	background: #ffeaf5;
 }
@@ -90,18 +89,21 @@ body{
 	font-family: "Abel", sans-serif;
 	height: 4rem;
 	width: 95%;
-	/* background: white;	 */
 	background: #ffeaf5;
 	display: flex;
 }
 
 .div-4 button{
+	border-radius: 5px;
+	background: #fff;
+	color: #F173AC;
+	border:1px solid #F173AC;
 	margin: auto 0;
 	width: 6rem;
 	height: 2rem;
 	text-align: center;
+	cursor: pointer;
 }
-
 
 .div-4 a{
 	color: darkred;

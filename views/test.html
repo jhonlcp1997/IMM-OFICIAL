@@ -12,43 +12,56 @@
 
 <body>
 
-    <div class="div-general">
+    <div id="form" class="div-general">
 
-        <div class="div-1">
-            <img src="../img/imm-logo.png" alt="">
-        </div>
-
-        <div class="div-2">
-            <div class="subtitle">
-                <h1>IMM - GINECOLOGÍA</h1>
+        <form>
+            <div class="div-1">
+                <img src="../img/imm-logo.png" alt="">
             </div>
-            <div class="count">
-                <h3> descripcion de la cuenta...</h3>
+    
+            <div class="div-2">
+                <div class="subtitle">
+                    <h1>IMM - GINECOLOGÍA</h1>
+                </div>
+                <div class="count">
+                    <h3> descripción de la cuenta...</h3>
+                </div>
             </div>
-        </div>
-
-        <div class="div-3">
-            <h2>N° de DNI *</h2>
-            <input type="text" placeholder="Tu respuesta">
-            <p><i class="fas fa-exclamation-circle"></i> Esta pregunta es obligatoria</p>
-        </div>
-
-        <div class="div-4">
-            <button>Siguiente</button>
-            <a href="#">Borrar formulario</a>
-        </div>
-
-        <div class="footer">
-            <div class="footer-parrafos">
-                <p class="footer-p1"><strong>Nunca envies contraseñas a traves de formularios como este</strong></p>
-                <p class="footer-p2"><strong>IMM ni Google aprobó este contenido.</strong></p>
+    
+            <div class="div-3">
+                <h2>N° de DNI *</h2>
+                <input class="form-control form-data" id="Age" type="text" placeholder="Tu respuesta">
+                <p><i class="fas fa-exclamation-circle"></i> Esta pregunta es obligatoria</p>
             </div>
-            <div class="footer-formularios">
-                <p><strong>Google</strong> Formularios</p>
+    
+            <div class="div-4">
+                <button type="button" class="btn btn-primary" onclick="send_data()">Siguiente</button>
+                <a href="#">Borrar formulario</a>
             </div>
+    
+            <div class="footer">
+                <div class="footer-parrafos">
+                    <p class="footer-p1"><strong>Nunca envies contraseñas a traves de formularios como este</strong></p>
+                    <p class="footer-p2"><strong>IMM ni Google aprobó este contenido.</strong></p>
+                </div>
+                <div class="footer-formularios">
+                    <p><strong>IMM</strong> Formularios</p>
+                </div>
+            </div>
+        </form>
+
+            <!-- Optional if you want to give a completion feedback! -->
+        <div id="completion-msg" style="display: none;">
+            Thank you for completing this form!
         </div>
     </div>
 
+    <script>
+        function send_data(){
+          document.getElementById("form").style.display = "none"; // make form invisible
+          document.getElementById("completion-msg").style.display = "block"; // Optional if you want to give a completion feedback!
+        }
+    </script>
 </body>
 
 </html>
