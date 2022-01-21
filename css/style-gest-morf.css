@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,6 @@ a {
 
 .header div .navbar-opciones {
   font-size: 1rem;
-  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
@@ -79,7 +78,6 @@ a {
 }
 
 .header div .header-general .navbar-opciones-phone {
-  font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: none;
 }
@@ -234,10 +232,11 @@ a {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  font-family: "Abel", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .importante .import-nav div {
+  vertical-align: top;
   display: inline-block;
   width: 40rem;
 }
@@ -326,12 +325,7 @@ a {
   margin-top: .1rem;
   color: #fff;
   padding-top: 0rem;
-  font-weight: 600;
-}
-
-.ofrecemos .ofrecemos-box1 div ul li p b {
-  font-family: "Abel", sans-serif;
-  font-weight: 900;
+  font-weight: 100;
 }
 
 .ofrecemos .ofrecemos-box2 {
@@ -376,7 +370,7 @@ a {
   font-family: "Poppins", sans-serif;
   color: #666;
   font-size: 1.3rem;
-  font-weight: 900;
+  font-weight: 100;
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
@@ -790,7 +784,7 @@ a {
     width: 10rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 1rem;
     opacity: 0.8;
   }
@@ -933,6 +927,9 @@ a {
     top: 1rem;
     width: 7rem;
   }
+  .header div .header-general .navbar-opciones-phone ul li a {
+    font-size: 1rem;
+  }
   .importante .importante-h2 h2 {
     font-size: 2rem;
   }
@@ -945,6 +942,9 @@ a {
 }
 
 @media (max-width: 360px) {
+  .ofrecemos {
+    height: 62rem;
+  }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
     padding-right: 0;
   }

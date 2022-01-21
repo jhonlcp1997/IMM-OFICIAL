@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
 * {
     margin: 0;
@@ -51,7 +52,7 @@ a{
 
         .navbar-opciones{
             font-size: 1rem;
-            font-weight: 600;
+            // font-weight: 600;
             font-family: "Poppins", sans-serif;
 
             ul{
@@ -79,7 +80,7 @@ a{
             justify-content: space-between;
 
             .navbar-opciones-phone{
-                font-weight: 600;
+                // font-weight: 600;
                 font-family: "Poppins", sans-serif;
                 display: none;
 
@@ -243,14 +244,13 @@ $azul: #007cc3;
         margin-top: 3rem;
         margin-bottom: 3rem;
         // height: auto;
-        // font-family: "Poppins", sans-serif;
-        font-family: "Abel", sans-serif;
+        font-family: "Poppins", sans-serif;
         // display: inline-block;
         // flex-wrap: wrap;
-        
 
         
         div{
+            vertical-align: top;
             display: inline-block;
             width: 40rem;
 
@@ -335,13 +335,8 @@ $azul: #007cc3;
                         margin-top: .1rem;
                         color: #fff;
                         padding-top: 0rem;
-                        font-weight: 600;
+                        font-weight: 100;
 
-                        b{  
-                            font-family: "Abel", sans-serif;
-                            // font-size: 1.7rem;
-                            font-weight: 900;
-                        }
                     }
                 }
             }
@@ -387,7 +382,7 @@ $azul: #007cc3;
                             font-family: "Poppins", sans-serif;
                             color: #666;
                             font-size: 1.3rem;
-                            font-weight: 900;
+                            font-weight: 100;
                         }
                     }
                 }
@@ -952,7 +947,7 @@ $azul: #007cc3;
     
                         li{
                             a {
-                                font-size: 1rem;
+                                font-size: 1.2rem;
                                 margin: 0 1rem;
                                 opacity: 0.8;
             
@@ -1162,6 +1157,16 @@ $azul: #007cc3;
                         }
                     }
                 }
+
+                .navbar-opciones-phone{
+                    ul{
+                        li{
+                            a{
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -1191,7 +1196,7 @@ $azul: #007cc3;
 @media (max-width:360px){
 
     .ofrecemos{
-        
+        height: 62rem;
         .ofrecemos-box2{
 
             .ofrecemos-importante{

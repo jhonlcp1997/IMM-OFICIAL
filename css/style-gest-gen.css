@@ -261,6 +261,7 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  vertical-align: top;
   display: inline-block;
   width: 50rem;
 }
