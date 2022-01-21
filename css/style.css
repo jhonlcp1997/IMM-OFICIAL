@@ -212,7 +212,6 @@ a {
 }
 
 .menu .menu-nav2 img {
-  border-radius: 15px;
   -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
           box-shadow: -3rem 0 80px -70px #332e2e;
   text-align: right;
@@ -272,7 +271,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 {
-  border-radius: 15px;
   position: relative;
   margin: auto;
   background: #f5a4c7;
@@ -305,7 +303,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 div img {
-  border-radius: 15px;
   position: relative;
   height: 35rem;
   bottom: 4.5rem;
@@ -342,7 +339,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box2 {
-  border-radius: 15px;
   position: relative;
   top: -62rem;
   margin: auto;
@@ -938,6 +934,9 @@ a {
   }
   .importante .import-nav div {
     margin-top: 2rem;
+  }
+  .importante .import-nav div p {
+    font-size: 1.5rem;
   }
   .importante .import-nav div img {
     width: 10rem;

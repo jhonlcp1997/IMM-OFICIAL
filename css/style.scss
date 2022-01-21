@@ -218,7 +218,7 @@ $azul: #007cc3;
         z-index: 10;
 
         img {
-            border-radius: 15px;
+            // border-radius: 15px;
             box-shadow: $boxshadowG;
             text-align: right;
         }
@@ -276,7 +276,7 @@ $azul: #007cc3;
     z-index: 1;
 
     .ofrecemos-box1 {  
-        border-radius: 15px;
+        // border-radius: 15px;
         position: relative;
         margin: auto;
         background: #f5a4c7;
@@ -301,7 +301,7 @@ $azul: #007cc3;
             display: flex;
 
             img {
-                border-radius: 15px;
+                // border-radius: 15px;
                 position: relative;
                 height: 35rem;
                 bottom: 4.5rem;
@@ -348,7 +348,7 @@ $azul: #007cc3;
     }
 
     .ofrecemos-box2 {
-        border-radius: 15px;
+        // border-radius: 15px;
         position: relative;
         top: -62rem;
         margin: auto;
@@ -1121,6 +1121,10 @@ $azul: #007cc3;
 
             div{
                 margin-top: 2rem;
+                
+                p{
+                    font-size: 1.5rem;
+                }
 
                 img{
                     width: 10rem;
