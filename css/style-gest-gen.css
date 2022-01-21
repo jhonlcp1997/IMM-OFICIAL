@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,6 @@ a {
 
 .header div .navbar-opciones {
   font-size: 1rem;
-  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
@@ -79,7 +78,6 @@ a {
 }
 
 .header div .header-general .navbar-opciones-phone {
-  font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: none;
 }
@@ -114,6 +112,11 @@ a {
 .header div .header-general .header-center-right a:focus {
   padding-bottom: 1rem;
   border-bottom: 1px solid #f173ac;
+}
+
+.header div .header-general .header-center-right a p {
+  color: #777;
+  font-weight: 100;
 }
 
 .menu {
@@ -248,15 +251,22 @@ a {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  font-family: "Abel", sans-serif;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
 }
 
 .importante .import-nav div {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   display: inline-block;
-  width: 40rem;
+  width: 50rem;
 }
 
 .importante .import-nav div p {
+  color: #444;
   font-size: 1.5rem;
   opacity: 0.8;
   text-align: center;
@@ -333,12 +343,7 @@ a {
   margin-top: .7rem;
   color: #fff;
   padding-top: 0rem;
-  font-weight: 600;
-}
-
-.ofrecemos .ofrecemos-box1 div ul li p b {
-  font-family: "Abel", sans-serif;
-  font-weight: 900;
+  font-weight: 100;
 }
 
 .ofrecemos .ofrecemos-box1 .img-fondo .img-2 {
@@ -389,8 +394,8 @@ a {
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul ul li p {
   font-family: "Poppins", sans-serif;
   color: #666;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1.4rem;
+  font-weight: 100;
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
@@ -456,8 +461,9 @@ a {
   text-align: left;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
-  font-family: "Abel", sans-serif;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
+  opacity: .7;
+  font-size: 1.3rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
@@ -917,6 +923,9 @@ a {
   .menu .img-fondo {
     display: none;
   }
+  .importante .import-nav div {
+    width: auto;
+  }
   .ofrecemos .ofrecemos-box1 {
     height: auto;
   }
@@ -941,9 +950,6 @@ a {
   .header div .header-general .header-left a img {
     top: 1rem;
     width: 7rem;
-  }
-  .importante .import-nav div {
-    width: auto;
   }
   .ofrecemos {
     height: 50rem;
