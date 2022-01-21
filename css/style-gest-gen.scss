@@ -218,7 +218,7 @@ $azul: #007cc3;
         z-index: 10;
 
         img {
-            border-radius: 15px;
+            // border-radius: 15px;
             box-shadow: $boxshadowG;
             text-align: right;
         }
@@ -249,7 +249,7 @@ $azul: #007cc3;
     z-index: 0;
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         color: #f173ac;
         padding: 3rem;
@@ -294,7 +294,7 @@ $azul: #007cc3;
     z-index: 1;
 
     .ofrecemos-box1 {  
-        border-radius: 15px;
+        // border-radius: 15px;
         position: relative;
         margin: auto;
         background: #f5a4c7;
@@ -321,7 +321,7 @@ $azul: #007cc3;
             width: 95%;
 
             iframe {
-                border-radius: 15px;
+                // border-radius: 15px;
                 position: relative;
                 width:700px; 
                 height:30rem;
@@ -371,7 +371,7 @@ $azul: #007cc3;
     }
 
     .ofrecemos-box2 {
-        border-radius: 15px;
+        // border-radius: 15px;
         position: relative;
         top: -62rem;
         margin: auto;
@@ -1121,8 +1121,13 @@ $azul: #007cc3;
     }
     
     .importante{
+        h2{
+                font-size: 2rem;
+            }
 
         .import-nav{
+
+            
 
             div{
                 width: auto;

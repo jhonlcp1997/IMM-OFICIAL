@@ -213,7 +213,6 @@ a {
 }
 
 .menu .menu-nav2 img {
-  border-radius: 15px;
   -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
           box-shadow: -3rem 0 80px -70px #332e2e;
   text-align: right;
@@ -241,7 +240,7 @@ a {
 }
 
 .importante h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f173ac;
   padding: 3rem;
@@ -281,7 +280,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 {
-  border-radius: 15px;
   position: relative;
   margin: auto;
   background: #f5a4c7;
@@ -316,7 +314,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box1 div iframe {
-  border-radius: 15px;
   position: relative;
   width: 700px;
   height: 30rem;
@@ -355,7 +352,6 @@ a {
 }
 
 .ofrecemos .ofrecemos-box2 {
-  border-radius: 15px;
   position: relative;
   top: -62rem;
   margin: auto;
@@ -923,6 +919,9 @@ a {
   }
   .menu .img-fondo {
     display: none;
+  }
+  .importante h2 {
+    font-size: 2rem;
   }
   .importante .import-nav div {
     width: auto;
