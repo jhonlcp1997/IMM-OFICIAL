@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #e60000;
+}
+
+body {
+  background: #d9d9d9;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: auto;
+  background: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.header div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+  width: 100rem;
+  background: #fff;
+}
+
+.header div .navbar-opciones {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.header div .navbar-opciones ul {
+  text-align: right;
+}
+
+.header div .navbar-opciones ul .ginecologia {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f173ac;
+}
+
+.header div .navbar-opciones ul a {
+  color: #666;
+  margin: 0 .5rem;
+}
+
+.header div .navbar-opciones ul a:focus {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f173ac;
+}
+
+.header div .header-general {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #666;
+}
+
+.header div .header-general .navbar-opciones-phone {
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+
+.header div .header-general .navbar-opciones-phone ul li .gestacional {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f173ac;
+}
+
+.header div .header-general .header-right {
+  display: none;
+}
+
+.header div .header-general .header-center-right {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.header div .header-general .header-center-right .module-1 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f173ac;
+}
+
+.header div .header-general .header-center-right a {
+  color: #666;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+.header div .header-general .header-center-right a:focus {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f173ac;
+}
+
+.home {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  height: 45rem;
+  background: #007cc3;
+  z-index: 1;
+  padding: 3rem 17%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* Specify the background image to be used */
+  background-image: url(../img/image-simple-2/Fondo.png);
+  background-size: cover;
+  /* Specify the background image */
+  opacity: 0.03;
+}
+
+.home .home-nav1 {
+  z-index: 10;
+  padding: 8rem 0;
+  text-align: left;
+}
+
+.home .home-nav1 P {
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+.home .home-nav1 .home-nav1-P_1 {
+  font-size: 3.2rem;
+}
+
+.home .home-nav1 .home-nav1-P_2 {
+  font-size: 3.5rem;
+}
+
+.home .home-nav1 div {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  color: #fff;
+  width: 16.5rem;
+  height: 3.5rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  background: #f173ac;
+  border-radius: 15px;
+}
+
+.home .home-nav1 div a {
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.home .home-nav1 div a i {
+  position: relative;
+  top: 2px;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.home .home-nav2 {
+  z-index: 10;
+}
+
+.home .home-nav2 img {
+  -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
+          box-shadow: -3rem 0 80px -70px #332e2e;
+  text-align: right;
+}
+
+.characteres {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rosybrown;
+  padding: 3rem 9%;
+  margin: 10rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2;
+}
+
+.characteres .characteres-left {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
+.characteres .characteres-center_rigth {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50rem;
+          flex: 1 1 50rem;
+  height: 40rem;
+}
+
+.characteres .characteres-center_rigth .slider-contenedor {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.characteres .characteres-center_rigth .slider-contenedor .characteres_all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 200px;
+  height: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 1rem 1rem;
+  background: #bbb;
+}
+
+.characteres .characteres-center_rigth .slider-contenedor .characteres_all img {
+  display: none;
+  text-align: center;
+  width: 10rem;
+}
+/*# sourceMappingURL=style-gine-egi.css.map */
