@@ -323,7 +323,7 @@ $azul: #007cc3;
             display: flex;
 
             img {
-                // border-radius: 15px;
+                
                 position: relative;
                 height: 35rem;
                 bottom: 4.5rem;
@@ -357,12 +357,6 @@ $azul: #007cc3;
                         color: #fff;
                         padding-top: 0rem;
                         font-weight: 100;
-
-                        // b{  
-                        //     font-family: "Abel", sans-serif;
-                        //     font-size: 1.7rem;
-                        //     font-weight: 900;
-                        // }
                     }
                 }
             }
@@ -553,7 +547,6 @@ $azul: #007cc3;
 
 // *MEDIA QUERIES
 
-/* *MEDIA QUERIES */
 @media (max-width: 1720px) {
 
     html{
