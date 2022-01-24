@@ -69,8 +69,18 @@ a {
                 text-align: center;
 
                 .gestacional{
-                    padding-bottom: 0.5rem;
-                    border-bottom: 1px solid #f173ac;
+                    display: inline-block;
+                    // margin-top: 1rem;
+                    padding: .5rem 2rem;
+                    background: $pink3;
+                    color: #fff;
+                    font-size: 1rem;
+                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+                    cursor: pointer;
+
+                    &:hover{
+                        letter-spacing: .1rem;
+                    }
                 }
 
                 a{
