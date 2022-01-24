@@ -47,15 +47,27 @@ a{
         display: inline-block;
         width: 100rem;
         text-align: left;
-        
         background: $white;
 
         .navbar-opciones{
             font-size: 1rem;
             // font-weight: 600;
             font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: space-between;
 
-            ul{
+            .navbar-opciones-ul1{
+                display: flex;
+                color: #777;
+
+                // font-size: 1.2rem;
+                a{
+                    font-size: 1.3rem;
+                    margin-right: 2rem;
+                }
+            }
+
+            .navbar-opciones-ul2{
                 text-align: center;
 
                 .gestacional{

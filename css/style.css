@@ -47,22 +47,50 @@ a {
 .header div .navbar-opciones {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header div .navbar-opciones ul {
+.header div .navbar-opciones .navbar-opciones-ul1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #777;
+}
+
+.header div .navbar-opciones .navbar-opciones-ul1 a {
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+
+.header div .navbar-opciones .navbar-opciones-ul2 {
   text-align: center;
 }
 
-.header div .navbar-opciones ul .gestacional {
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #f173ac;
+.header div .navbar-opciones .navbar-opciones-ul2 .gestacional {
+  display: inline-block;
+  padding: .5rem 2rem;
+  background: #F173AC;
+  color: #fff;
+  font-size: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
-.header div .navbar-opciones ul a {
+.header div .navbar-opciones .navbar-opciones-ul2 .gestacional:hover {
+  letter-spacing: .1rem;
+}
+
+.header div .navbar-opciones .navbar-opciones-ul2 a {
   margin: 0 .5rem;
 }
 
-.header div .navbar-opciones ul a:focus {
+.header div .navbar-opciones .navbar-opciones-ul2 a:focus {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #f173ac;
 }
