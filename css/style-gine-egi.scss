@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-*{
-    margin: 0; padding: 0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -11,12 +12,12 @@
     // transition: all .2s linear;
 }
 
-$white:#fff;
+$white: #fff;
 $light-color: #666;
-$pink1: #F4C6DE;
-$pink2: #F5A4C7;
-$pink3: #F173AC;
-$border: .2rem solid $pink3;
+$pink1: #f4c6de;
+$pink2: #f5a4c7;
+$pink3: #f173ac;
+$border: 0.2rem solid $pink3;
 
 @mixin grid($val) {
     display: grid;
@@ -24,63 +25,87 @@ $border: .2rem solid $pink3;
     gap: 2rem;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
         width: 1rem;
     }
-    
-    &::-webkit-scrollbar-track{
+
+    &::-webkit-scrollbar-track {
         background: transparent;
     }
-    
-    &::-webkit-scrollbar-thumb{
+
+    &::-webkit-scrollbar-thumb {
         background: #e60000;
     }
-    
 }
 
-body{
+body {
     background: #d9d9d9;
 }
 
 .header {
     position: sticky;
     z-index: 1000;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: auto;
     background: #fff;
     text-align: center;
     font-size: 1.5rem;
-    
 
-    div{
+    div {
         margin-top: 1rem;
         margin-bottom: 1rem;
         position: relative;
         display: inline-block;
-        width: 100rem;      
+        width: 100rem;
         background: $white;
 
-        .navbar-opciones{
+        .navbar-opciones {
             font-size: 1rem;
             font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $pink3;
 
-            ul{
-                text-align: right;
+            .navbar-opciones-ul1 {
+                display: flex;
+                color: #777;
+                align-items: center;
 
-                .ginecologia{
-                    padding-bottom: 0.5rem;
-                    border-bottom: 1px solid #f173ac;
+                a {
+                    color: #666;
+                    font-size: 1.3rem;
+                    margin-right: 2rem;
+                }
+            }
+
+            .navbar-opciones-ul2 {
+                text-align: center;
+
+                .gestacional {
+                    display: inline-block;
+                    // margin-top: 1rem;
+                    padding: 0.5rem 2rem;
+                    background: $pink3;
+                    color: #fff;
+                    font-size: 1rem;
+                    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+                    cursor: pointer;
+
+                    &:hover {
+                        letter-spacing: 0.1rem;
+                    }
                 }
 
-                a{
-                    color: #666;
-                    margin: 0 .5rem;
+                a {
+                    margin: 0 0 0 0.5rem;
 
                     &:focus {
                         padding-bottom: 0.5rem;
@@ -90,21 +115,19 @@ body{
             }
         }
 
-        .header-general{
+        .header-general {
             margin-top: 2rem;
             display: flex;
             justify-content: space-between;
             color: #666;
-            
 
-            .navbar-opciones-phone{
+            .navbar-opciones-phone {
                 font-family: "Poppins", sans-serif;
                 display: none;
 
-                ul{
-
-                    li{
-                        .gestacional{
+                ul {
+                    li {
+                        .gestacional {
                             padding-bottom: 0.5rem;
                             border-bottom: 1px solid #f173ac;
                         }
@@ -112,18 +135,17 @@ body{
                 }
             }
 
-            .header-right{
+            .header-right {
                 display: none;
             }
 
-            .header-center-right{              
+            .header-center-right {
                 font-family: "Poppins", sans-serif;
                 width: 100%;
-                margin-top: 1.5rem ;
+                margin-top: 1.5rem;
                 text-align: right;
-                
 
-                .module-1{
+                .module-1 {
                     padding-bottom: 1rem;
                     border-bottom: 1px solid #f173ac;
                 }
@@ -143,7 +165,6 @@ body{
     }
 }
 
-
 $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 
@@ -160,7 +181,10 @@ $azul: #007cc3;
     &::before {
         content: "";
         position: absolute;
-        top: 0px; right: 0px; bottom: 0px; left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
         /* Specify the background image to be used */
         background-image: url(../img/image-simple-2/Fondo.png);
         background-size: cover;
@@ -230,7 +254,7 @@ $azul: #007cc3;
     }
 }
 
-.characteres{
+.characteres {
     align-items: center;
     background: rosybrown;
     padding: 3rem 9%;
@@ -239,44 +263,74 @@ $azul: #007cc3;
     flex-wrap: wrap;
     gap: 2;
 
-    .characteres-left{
+    .characteres-left {
         text-align: center;
         flex: 1 1 20rem;
+
+        .points {
+            display: flex;
+            // text-align: center;
+            justify-content: center;
+
+            .pt {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: rgba(7, 17, 27, 0.4);
+                margin-right: 8px;
+                line-height: 12px;
+                box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+                cursor: pointer;
+
+                &.active{
+                    box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset;
+                    background: #fff;
+                }
+            }
+        }
     }
 
-    .characteres-center_rigth{
+    .characteres-center_rigth {
         flex: 1 1 50rem;
         height: 40rem;
         // display: flex;
         // text-align: center;
 
-        .slider-contenedor{
-            width: 600px;
+        .slider-contenedor {
+            width: 630px;
             height: 400px;
             position: relative;
             display: flex;
             overflow: hidden;
+
             // display: inline;
             // text-align: center;
 
-            .characteres_all{
-                display: flex;
-                text-align: center;
-                width: 200px;
+            .slider-contenedor2 {
+                width: 630px;
                 height: 400px;
-                justify-content: space-around;
-                flex-shrink: 0;
-                padding: 1rem 1rem;
-                background: #bbb;
-                // flex-direction: column-reverse;
-    
-                img{
-                    display: none;
+                display: flex;
+                gap: 10px;
+
+                .characteres_all {
+                    display: inline-block;
                     text-align: center;
-                    width: 10rem;
-                    // height: 8rem;
+                    width: 200px;
+                    height: 400px;
+                    justify-content: space-around;
+                    flex-shrink: 0;
+                    padding: 1rem 1rem;
+                    background: #bbb;
+                    // flex-direction: column-reverse;
+
+                    img {
+                        // display: inline-flex;
+                        text-align: center;
+                        width: 10rem;
+                        // height: 8rem;
+                    }
                 }
-    
             }
         }
     }
