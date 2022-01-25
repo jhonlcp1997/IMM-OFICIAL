@@ -215,6 +215,12 @@ html {
   text-align: right;
 }
 
+.box1 {
+  width: 100%;
+  height: 60rem;
+  background: #f173ac;
+}
+
 @media screen and (max-width: 900px) {
   .header {
     padding: 0rem;
