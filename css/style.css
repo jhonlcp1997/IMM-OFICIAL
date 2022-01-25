@@ -628,6 +628,15 @@ a {
     display: -ms-flexbox;
     display: flex;
   }
+  .header div .header-general .navbar-opciones-phone ul li .gestacional {
+    padding: .5rem 2rem;
+    background: #F173AC;
+    color: #fff;
+    cursor: pointer;
+  }
+  .header div .header-general .navbar-opciones-phone ul li .gestacional:hover {
+    letter-spacing: .1rem;
+  }
   .header div .header-general .navbar-opciones-phone ul li a {
     font-size: 1.5rem;
     margin: 0 2rem;
@@ -994,6 +1003,9 @@ a {
   .header div .header-general .header-left a img {
     top: 1rem;
     width: 7rem;
+  }
+  .header div .header-general .navbar-opciones-phone ul li .gestacional {
+    padding: .5rem 1rem;
   }
   .ofrecemos .ofrecemos-box1 {
     height: auto;

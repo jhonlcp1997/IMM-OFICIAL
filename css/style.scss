@@ -639,6 +639,22 @@ $azul: #007cc3;
                         display: flex;
 
                         li{
+
+                            .gestacional{
+                                // display: inline-block;
+                                // margin-top: 1rem;
+                                padding: .5rem 2rem;
+                                background: $pink3;
+                                color: #fff;
+                                // font-size: 1rem;
+                                // box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+                                cursor: pointer;
+            
+                                &:hover{
+                                    letter-spacing: .1rem;
+                                }
+                            }
+
                             a {
                                 font-size: 1.5rem;
                                 margin: 0 2rem;
@@ -1198,6 +1214,19 @@ $azul: #007cc3;
                         img{
                             top: 1rem;
                             width: 7rem;
+                        }
+                    }
+                }
+
+                .navbar-opciones-phone{
+
+                    ul{
+
+                        li{
+
+                            .gestacional{
+                                padding: .5rem 1rem;
+                            }
                         }
                     }
                 }
