@@ -1004,6 +1004,9 @@ a {
     top: 1rem;
     width: 7rem;
   }
+  .header div .header-general .navbar-opciones-phone ul li a {
+    margin: 0 .5rem;
+  }
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
     padding: .5rem 1rem;
   }
