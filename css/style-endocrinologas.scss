@@ -105,7 +105,7 @@ $gray3: #999999;
     justify-content: center;
 
     .image{
-        
+
         img{
             width: 30rem;
         }
@@ -125,6 +125,7 @@ $gray3: #999999;
 }
 
 .section_3{
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
 
@@ -144,6 +145,67 @@ $gray3: #999999;
 
         img{
             width: 30rem;
+        }
+    }
+}
+
+.dinamic{
+    display: flex;
+    // text-align: center;
+    justify-content: center;
+
+    .content-content{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        // margin: auto;
+        width: 30rem;
+
+        ol{
+            padding-left: 1rem;
+            padding-right: 3rem;
+
+            li{
+                margin-bottom: 3rem;
+                font-family: "Poppins", sans-serif;
+                font-size: .8rem;
+                &::marker{
+
+                    color: $green2;
+                }
+            }
+        }
+    }
+
+    .content-dinamic{
+        width: 40rem;
+        height: 60rem;
+        padding-top: 5rem;
+        // object-fit: fill;
+
+        // img{
+        //     object-fit: fill;
+        // }
+    }
+}
+
+.filosofy{
+    background-color: $gray1;
+    text-align: center;
+
+    h2{
+        margin:auto;
+        color: $azul;
+    }
+
+    div{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        div{
+            width: 20rem;
+            height: 30rem;
         }
     }
 }
