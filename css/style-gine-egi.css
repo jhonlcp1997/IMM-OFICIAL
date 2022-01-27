@@ -401,4 +401,49 @@ body {
 .time-price .time-price_box2 div {
   color: #fff;
 }
+
+.info-date {
+  margin: auto;
+  width: 100rem;
+  background-color: #fff;
+}
+
+.info-date .info-date-container {
+  display: inline;
+}
+
+.info-date .info-date-container .info-contenido {
+  margin: 1rem;
+  height: 20rem;
+}
+
+.info-date .info-date-container .info-contenido .contenido-header {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-date .info-date-container .info-contenido .contenido-body {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-date .info-date-container .info-contenido .contenido-body div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.info-date .info-date-container .info-contenido .contenido-body div img {
+  text-align: center;
+}
 /*# sourceMappingURL=style-gine-egi.css.map */
