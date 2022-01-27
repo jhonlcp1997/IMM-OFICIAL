@@ -30,7 +30,7 @@ function slides() {
     if (contador > 7) {
         children[contador2].style.background = "rgba(7, 17, 27, 0.4)";
         children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
-        children[0].style.background = "#fff";
+        children[0].style.background = "#007cc3";
         children[0].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
     } else {
         console.log(contador);
@@ -39,7 +39,7 @@ function slides() {
         children[contador2].style.background= "rgba(7, 17, 27, 0.4)";
         children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
 
-        children[contador].style.background = "#fff";
+        children[contador].style.background = "#007cc3";
         children[contador].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
     }
 

@@ -258,7 +258,7 @@ body {
 
 .characteres {
     align-items: center;
-    background: rosybrown;
+    // background: rosybrown;
     padding: 3rem 9%;
     margin: 10rem 0;
     display: flex;
@@ -268,6 +268,10 @@ body {
     .characteres-left {
         text-align: center;
         flex: 1 1 20rem;
+
+        h2{
+            color: $azul;
+        }
 
         .points {
             display: flex;
@@ -287,7 +291,34 @@ body {
 
                 &.active{
                     box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset;
-                    background: #fff;
+                    background: #007cc3;
+                }
+            }
+        }
+
+        .animated{
+            margin: 2.5rem auto;
+            padding-top: 0.5rem;
+            color: #fff;
+            width: 16.5rem;
+            height: 3.5rem;
+            align-content: center;
+            text-align: center;
+            background: #f173ac;
+            border-radius: 15px;
+
+            a {
+                font-family: "Abel", sans-serif;
+                // font-weight: bold;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 600;
+
+                i {
+                    position: relative;
+                    top: 2px;
+                    font-size: 2rem;
+                    margin-right: 1rem;
                 }
             }
         }
@@ -323,7 +354,7 @@ body {
                     justify-content: space-around;
                     flex-shrink: 0;
                     padding: 1rem 1rem;
-                    background: #bbb;
+                    background: $white;
                     // flex-direction: column-reverse;
 
                     img {
@@ -331,6 +362,13 @@ body {
                         text-align: center;
                         width: 10rem;
                         // height: 8rem;
+                    }
+
+                    div{
+
+                        h3{
+                            color: $azul;
+                        }
                     }
                 }
             }
@@ -358,6 +396,17 @@ body {
         img{
             width: 10rem;height: 7rem;
         }
+
+        div{
+
+            h3{
+                color: $pink3;
+            }
+
+            p{
+                font-family: "Poppins", sans-serif;
+            }
+        }
     }
 
     .time-price_box2{
@@ -380,6 +429,10 @@ body {
         div{
 
             color: $white;
+
+            p{
+                font-family: "Poppins", sans-serif;
+            }
         }
     }
 }
@@ -388,6 +441,8 @@ body {
     margin: auto;
     width: 100rem;
     background-color: $white;
+    text-align: center;
+    padding: 2rem;
 
     .info-date-container{
         display: inline;
@@ -406,14 +461,20 @@ body {
             .contenido-body{
                 display: inline-flex;
                 justify-content: space-between;
+                
 
                 div{
                     justify-content: center;
                     text-align: center;
                     // display: inline-block;
                     // justify-content: space-between;
+                    height: 15rem;
 
                     img{
+                        text-align: center;
+                    }
+
+                    span{
                         text-align: center;
                     }
                 }
