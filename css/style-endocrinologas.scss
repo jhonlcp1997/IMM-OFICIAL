@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // outline: green solid 3px;
+    border: none;
+}
+
+html {
+    // font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+$azul: #007cc3;
+$green1: #a6ce39;
+$green2: #62bb46;
+$green3: #009f46;
+$gray1: #d9d9d9;
+$gray2: #bfbfbf;
+$gray3: #999999;
+
+.home {
+    margin: auto;
+    // background-color: $gray2;
+    height: 35rem;
+    width: 60rem;
+
+    .home-box {
+        display: flex;
+        position: relative;
+
+        .home__div1 {
+            width: 70%;
+            padding-right: 15rem;
+
+            img{
+                width: 12rem;
+            }
+
+            div{
+
+                margin-top: 8rem;
+
+                span{
+
+                    font-size: 2rem;
+                    // font-family: "Abel", sans-serif;
+                    font-family: "Poppins", sans-serif;
+                    color: $azul;
+                }
+
+                p{
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1rem;
+                    color: $gray3;
+
+                    b{
+                        color: $green2;
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+
+        .home__div2 {
+            width: 30%;
+            height: 30rem;
+            background-color: $azul;
+
+            &::before {
+                content: "";
+                width: 18rem;
+                height: 30rem;
+                position: absolute;
+                // top: 0px;
+                // right: 0px;
+                // bottom: 0px;
+                // left: 0px;
+                /* Specify the background image to be used */
+                background-image: url(../img/image-simple-2/Fondo.png);
+                background-size: cover;
+                /* Specify the background image */
+                opacity: 0.03;
+            }
+        }
+
+        .home__div3 {
+            // display: none;
+            position: absolute;
+            right: 8rem;
+            bottom: -5rem;
+        }
+    }
+}
+
+.section_2{
+    background-color: rgba(217, 217, 217, .30);
+    display: flex;
+    justify-content: center;
+
+    .image{
+        
+        img{
+            width: 30rem;
+        }
+    }
+
+    .content{
+        width: 30rem;
+
+        h3{
+            color: $green2;
+        }
+
+        span{
+            color: $gray3;
+        }
+    }
+}
+
+.section_3{
+    display: flex;
+    justify-content: center;
+
+    .content{
+        width: 30rem;
+
+        h3{
+            color: $green2;
+        }
+
+        span{
+            color: $gray3;
+        }
+    }
+
+    .image{
+
+        img{
+            width: 30rem;
+        }
+    }
+}

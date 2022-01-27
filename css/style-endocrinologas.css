@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.home {
+  margin: auto;
+  height: 35rem;
+  width: 60rem;
+}
+
+.home .home-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.home .home-box .home__div1 {
+  width: 70%;
+  padding-right: 15rem;
+}
+
+.home .home-box .home__div1 img {
+  width: 12rem;
+}
+
+.home .home-box .home__div1 div {
+  margin-top: 8rem;
+}
+
+.home .home-box .home__div1 div span {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #007cc3;
+}
+
+.home .home-box .home__div1 div p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #999999;
+}
+
+.home .home-box .home__div1 div p b {
+  color: #62bb46;
+  font-size: 3rem;
+}
+
+.home .home-box .home__div2 {
+  width: 30%;
+  height: 30rem;
+  background-color: #007cc3;
+}
+
+.home .home-box .home__div2::before {
+  content: "";
+  width: 18rem;
+  height: 30rem;
+  position: absolute;
+  /* Specify the background image to be used */
+  background-image: url(../img/image-simple-2/Fondo.png);
+  background-size: cover;
+  /* Specify the background image */
+  opacity: 0.03;
+}
+
+.home .home-box .home__div3 {
+  position: absolute;
+  right: 8rem;
+  bottom: -5rem;
+}
+
+.section_2 {
+  background-color: rgba(217, 217, 217, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_2 .image img {
+  width: 30rem;
+}
+
+.section_2 .content {
+  width: 30rem;
+}
+
+.section_2 .content h3 {
+  color: #62bb46;
+}
+
+.section_2 .content span {
+  color: #999999;
+}
+
+.section_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_3 .content {
+  width: 30rem;
+}
+
+.section_3 .content h3 {
+  color: #62bb46;
+}
+
+.section_3 .content span {
+  color: #999999;
+}
+
+.section_3 .image img {
+  width: 30rem;
+}
+/*# sourceMappingURL=style-endocrinologas.css.map */
