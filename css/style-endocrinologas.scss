@@ -63,6 +63,7 @@ $gray3: #999999;
                     b{
                         color: $green2;
                         font-size: 3rem;
+                        line-height: 1.2;
                     }
                 }
             }
@@ -103,22 +104,33 @@ $gray3: #999999;
     background-color: rgba(217, 217, 217, .30);
     display: flex;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
 
     .image{
-
+        // margin-top: 5rem;
         img{
+            position: relative;
+            top: 5rem;
+            // margin-top: 5rem;
             width: 30rem;
         }
     }
 
     .content{
         width: 30rem;
+        height: 10rem;
+        position: relative;
+        top: 10rem;
+        padding: 2rem 10rem 2rem 2rem;
 
         h3{
+            font-family: "Abel", sans-serif;
             color: $green2;
         }
 
         span{
+            
+            font-size: .8rem;
             color: $gray3;
         }
     }
@@ -131,12 +143,17 @@ $gray3: #999999;
 
     .content{
         width: 30rem;
+        padding: 6rem 6rem 6rem 3rem;
+        font-family: "Poppins", sans-serif;
+        
 
         h3{
+            font-family: "Abel", sans-serif;
             color: $green2;
         }
 
         span{
+            font-size: .8rem;
             color: $gray3;
         }
     }
@@ -168,6 +185,7 @@ $gray3: #999999;
                 margin-bottom: 3rem;
                 font-family: "Poppins", sans-serif;
                 font-size: .8rem;
+                color: $gray3;
                 &::marker{
 
                     color: $green2;
@@ -189,23 +207,136 @@ $gray3: #999999;
 }
 
 .filosofy{
-    background-color: $gray1;
+    background-color: rgba(217,217,217, .7);
     text-align: center;
+    padding: 2rem 15%;
 
     h2{
-        margin:auto;
+        // font-family: "Poppins", sans-serif;
+        font-family: "Abel", sans-serif;
+        margin: 2rem auto;
         color: $azul;
+        font-weight: 900;
     }
 
     div{
-        margin: auto;
+        justify-content: space-around;
+        // margin: 2rem auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: .5rem;
+        // background-color: #fff;
+
 
         div{
+            background-color: #fff;
             width: 20rem;
-            height: 30rem;
+            height: 25rem;
+            text-align: center;
+            box-shadow: -3rem 0 80px -70px rgb(51, 46, 46);
+            display: block;
+            padding: 1rem;
+            font-family: "Poppins", sans-serif;
+            color: $gray3;
+
+            img{
+                margin: 3rem 0;
+                position: relative;
+                // justify-content: center;
+                // text-align: center;
+                // width: 10rem;height: 8rem;
+            }
         }
+    }
+
+    .span-text-footer{
+        // height: auto;
+        
+        padding: 0rem 15%;
+        color: $gray3;
+    }
+}
+
+.section_final{
+    width: 100%;
+    // height: 30rem;
+    min-height: 60vh;
+
+    display: flex;
+    position: relative;
+
+    .section_final-contenedor{
+        position: relative;
+        margin: 0rem 25% 0 auto;
+        background-color: #fff;
+        width: 25rem;
+        height: 30rem;
+        text-align: center;
+        bottom: -5rem;
+        // left: 2%;
+        // right: ;
+        box-shadow: -3rem 0 80px -40px rgb(51, 46, 46);
+        padding: 5rem 2rem 0 2rem;
+
+        
+
+        .section_final-tittle{
+            // font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: "Abel", sans-serif;
+            // font-family: Georgia, 'Times New Roman', Times, serif;
+            color: $azul;
+            font-weight: 900;
+            font-size: 2rem;
+        }
+
+        .section_final-info{
+            margin-top: 1rem;
+            color: $gray3;
+        }
+
+        div {
+            text-align: center;
+            position: relative;
+            margin: 2rem auto;
+            // margin-top: 2.5rem;
+            padding-top: 0.3rem;
+            color: #fff;
+            width: 13rem;
+            height: 2rem;
+            // align-content: center;
+            text-align: center;
+            background: $green2;
+            border-radius: 25px;
+
+            a {
+                // margin-top: 1rem;
+                font-family: "Abel", sans-serif;
+                // font-weight: bold;
+                color: #fff;
+                font-size: 1rem;
+                font-weight: 600;
+
+                i {
+                    position: relative;
+                    top: 2px;
+                    font-size: 1rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    height: 5rem;
+
+    p{
+        position: relative;
+        left: 15%;
+        font-size: .5rem;
+        bottom: -30px;
+        color: $gray2;
     }
 }

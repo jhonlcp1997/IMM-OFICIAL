@@ -56,6 +56,7 @@ html {
 .home .home-box .home__div1 div p b {
   color: #62bb46;
   font-size: 3rem;
+  line-height: 1.2;
 }
 
 .home .home-box .home__div2 {
@@ -90,21 +91,30 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .section_2 .image img {
+  position: relative;
+  top: 5rem;
   width: 30rem;
 }
 
 .section_2 .content {
   width: 30rem;
+  height: 10rem;
+  position: relative;
+  top: 10rem;
+  padding: 2rem 10rem 2rem 2rem;
 }
 
 .section_2 .content h3 {
+  font-family: "Abel", sans-serif;
   color: #62bb46;
 }
 
 .section_2 .content span {
+  font-size: .8rem;
   color: #999999;
 }
 
@@ -120,13 +130,17 @@ html {
 
 .section_3 .content {
   width: 30rem;
+  padding: 6rem 6rem 6rem 3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .section_3 .content h3 {
+  font-family: "Abel", sans-serif;
   color: #62bb46;
 }
 
 .section_3 .content span {
+  font-size: .8rem;
   color: #999999;
 }
 
@@ -158,6 +172,7 @@ html {
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: .8rem;
+  color: #999999;
 }
 
 .dinamic .content-content ol li::marker {
@@ -171,27 +186,124 @@ html {
 }
 
 .filosofy {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 0.7);
   text-align: center;
+  padding: 2rem 15%;
 }
 
 .filosofy h2 {
-  margin: auto;
+  font-family: "Abel", sans-serif;
+  margin: 2rem auto;
   color: #007cc3;
+  font-weight: 900;
 }
 
 .filosofy div {
-  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2rem;
+  gap: .5rem;
 }
 
 .filosofy div div {
+  background-color: #fff;
   width: 20rem;
+  height: 25rem;
+  text-align: center;
+  -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
+          box-shadow: -3rem 0 80px -70px #332e2e;
+  display: block;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+}
+
+.filosofy div div img {
+  margin: 3rem 0;
+  position: relative;
+}
+
+.filosofy .span-text-footer {
+  padding: 0rem 15%;
+  color: #999999;
+}
+
+.section_final {
+  width: 100%;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.section_final .section_final-contenedor {
+  position: relative;
+  margin: 0rem 25% 0 auto;
+  background-color: #fff;
+  width: 25rem;
   height: 30rem;
+  text-align: center;
+  bottom: -5rem;
+  -webkit-box-shadow: -3rem 0 80px -40px #332e2e;
+          box-shadow: -3rem 0 80px -40px #332e2e;
+  padding: 5rem 2rem 0 2rem;
+}
+
+.section_final .section_final-contenedor .section_final-tittle {
+  font-family: "Abel", sans-serif;
+  color: #007cc3;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.section_final .section_final-contenedor .section_final-info {
+  margin-top: 1rem;
+  color: #999999;
+}
+
+.section_final .section_final-contenedor div {
+  text-align: center;
+  position: relative;
+  margin: 2rem auto;
+  padding-top: 0.3rem;
+  color: #fff;
+  width: 13rem;
+  height: 2rem;
+  text-align: center;
+  background: #62bb46;
+  border-radius: 25px;
+}
+
+.section_final .section_final-contenedor div a {
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section_final .section_final-contenedor div a i {
+  position: relative;
+  top: 2px;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footer {
+  height: 5rem;
+}
+
+.footer p {
+  position: relative;
+  left: 15%;
+  font-size: .5rem;
+  bottom: -30px;
+  color: #bfbfbf;
 }
 /*# sourceMappingURL=style-endocrinologas.css.map */
