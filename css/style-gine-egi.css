@@ -26,7 +26,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #e60000;
+  background: #007cc3;
 }
 
 body {
@@ -175,6 +175,7 @@ body {
 }
 
 .home::before {
+  z-index: 0;
   content: "";
   position: absolute;
   top: 0px;
@@ -338,5 +339,66 @@ body {
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {
   text-align: center;
   width: 10rem;
+}
+
+.time-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 9%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.time-price .time-price_box1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  height: 20rem;
+  background-color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.time-price .time-price_box1 img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.time-price .time-price_box2 {
+  height: 20rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #007cc3;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  background-image: url(../img/image-simple-2/Fondo2.png);
+  background-size: cover;
+}
+
+.time-price .time-price_box2 img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.time-price .time-price_box2 div {
+  color: #fff;
 }
 /*# sourceMappingURL=style-gine-egi.css.map */

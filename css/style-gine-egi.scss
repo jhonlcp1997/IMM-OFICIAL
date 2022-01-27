@@ -18,6 +18,8 @@ $pink1: #f4c6de;
 $pink2: #f5a4c7;
 $pink3: #f173ac;
 $border: 0.2rem solid $pink3;
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul: #007cc3;
 
 @mixin grid($val) {
     display: grid;
@@ -40,7 +42,7 @@ html {
     }
 
     &::-webkit-scrollbar-thumb {
-        background: #e60000;
+        background: $azul;
     }
 }
 
@@ -165,8 +167,7 @@ body {
     }
 }
 
-$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
-$azul: #007cc3;
+
 
 .home {
     display: inline-flex;
@@ -179,6 +180,7 @@ $azul: #007cc3;
     justify-content: space-between;
 
     &::before {
+        z-index: 0;
         content: "";
         position: absolute;
         top: 0px;
@@ -332,6 +334,52 @@ $azul: #007cc3;
                     }
                 }
             }
+        }
+    }
+}
+
+.time-price{
+    display:flex;
+    padding: 3rem 9%;
+    flex-wrap: wrap;
+    // text-align: center;
+    
+    
+
+    .time-price_box1{
+        flex: 1 1 30rem;
+        height: 20rem;
+        background-color: $white;
+        display: inline-flex;
+        // text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 10rem;height: 7rem;
+        }
+    }
+
+    .time-price_box2{
+        height: 20rem;
+        flex: 1 1 30rem;
+        text-align: center;
+        align-items: center;
+        background-color: $azul;
+        display: inline-flex;
+        // text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/image-simple-2/Fondo2.png);
+        background-size: cover;
+        
+        img{
+            width: 10rem;height: 7rem;
+        }
+        
+        div{
+
+            color: $white;
         }
     }
 }
