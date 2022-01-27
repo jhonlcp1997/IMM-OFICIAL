@@ -222,11 +222,11 @@ $gray3: #999999;
     div{
         justify-content: space-around;
         // margin: 2rem auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         display: flex;
         flex-wrap: wrap;
-        gap: .5rem;
+        gap: 2rem;
         // background-color: #fff;
 
 
@@ -261,8 +261,8 @@ $gray3: #999999;
 
 .section_final{
     width: 100%;
-    // height: 30rem;
-    min-height: 60vh;
+    height: 30rem;
+    // min-height: 60vh;
 
     display: flex;
     position: relative;
@@ -274,7 +274,7 @@ $gray3: #999999;
         width: 25rem;
         height: 30rem;
         text-align: center;
-        bottom: -5rem;
+        bottom: -2rem;
         // left: 2%;
         // right: ;
         box-shadow: -3rem 0 80px -40px rgb(51, 46, 46);

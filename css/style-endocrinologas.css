@@ -201,14 +201,14 @@ html {
 .filosofy div {
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: .5rem;
+  gap: 2rem;
 }
 
 .filosofy div div {
@@ -236,7 +236,7 @@ html {
 
 .section_final {
   width: 100%;
-  min-height: 60vh;
+  height: 30rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,7 +250,7 @@ html {
   width: 25rem;
   height: 30rem;
   text-align: center;
-  bottom: -5rem;
+  bottom: -2rem;
   -webkit-box-shadow: -3rem 0 80px -40px #332e2e;
           box-shadow: -3rem 0 80px -40px #332e2e;
   padding: 5rem 2rem 0 2rem;
