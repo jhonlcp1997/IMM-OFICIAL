@@ -396,4 +396,53 @@ html {
   color: #bfbfbf;
   margin: 0 20%;
 }
+
+@media (max-width: 1100px) {
+  .home .home-box .point2 {
+    display: none;
+  }
+  .section_final .section_final-contenedor {
+    margin: 0rem 15% 0 auto;
+  }
+}
+
+@media (max-width: 975px) {
+  .home {
+    width: 100%;
+  }
+  .home .home-box .home__div1 {
+    padding: 1rem 5rem;
+    width: 100%;
+  }
+  .home .home-box .home__div2 {
+    display: none;
+  }
+  .home .home-box .home__div3 {
+    display: none;
+  }
+  .home .home-box .point1 {
+    display: none;
+  }
+  .section_2 {
+    width: 100%;
+    display: inline-block;
+  }
+  .section_2 .image {
+    text-align: center;
+  }
+  .section_2 .image img {
+    position: relative;
+    top: -2rem;
+  }
+  .section_2 .content {
+    margin: auto;
+    position: inherit;
+  }
+  .section_3 .content .point3 {
+    display: none;
+  }
+  .dinamic .point4 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style-endocrinologas.css.map */
