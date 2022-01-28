@@ -266,7 +266,7 @@ html {
 .filosofy {
   background-color: rgba(217, 217, 217, 0.5);
   text-align: center;
-  padding: 3rem 15%;
+  padding: 3rem 10%;
 }
 
 .filosofy h2 {
@@ -278,10 +278,11 @@ html {
 }
 
 .filosofy div {
+  width: 100%;
+  max-width: 70rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -298,7 +299,7 @@ html {
   -webkit-box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
           box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
   display: block;
-  padding: 1rem;
+  padding: 1rem 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #999999;
 }
@@ -314,6 +315,7 @@ html {
 }
 
 .filosofy .span-text-footer {
+  margin-top: 5rem;
   padding: 0rem 15%;
   color: #888;
 }
