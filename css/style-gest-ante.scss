@@ -266,17 +266,18 @@ $gray3: #999999;
                 font-family: "Poppins", sans-serif;
                 font-size: 0.8rem;
                 color: $gray3;
+                background-color: #fff;
 
                 &::marker {
                     color: $green2;
                 }
 
                 &.active{
-                    background-color: #eee;
+                    // background-color: #eee;
 
-                    &::marker {
-                        color: #222;
-                    }
+                    // &::marker {
+                    //     color: #222;
+                    // }
 
                     .barrita {
                         margin-top: 1rem;

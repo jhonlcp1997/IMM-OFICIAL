@@ -244,18 +244,11 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   color: #999999;
+  background-color: #fff;
 }
 
 .dinamic .content-content ol li::marker {
   color: #62bb46;
-}
-
-.dinamic .content-content ol li.active {
-  background-color: #eee;
-}
-
-.dinamic .content-content ol li.active::marker {
-  color: #222;
 }
 
 .dinamic .content-content ol li.active .barrita {
