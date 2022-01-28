@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -243,7 +242,7 @@ html {
 .dinamic .content-content ol li {
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #999999;
 }
 
@@ -251,10 +250,67 @@ html {
   color: #62bb46;
 }
 
+.dinamic .content-content ol li.active {
+  background-color: #eee;
+}
+
+.dinamic .content-content ol li.active::marker {
+  color: #222;
+}
+
+.dinamic .content-content ol li.active .barrita {
+  margin-top: 1rem;
+  width: 00%;
+  overflow: hidden;
+  border-bottom: 3px solid #007cc3;
+  -webkit-animation: changerBorder 4s linear;
+          animation: changerBorder 4s linear;
+}
+
+@-webkit-keyframes changerBorder {
+  0% {
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes changerBorder {
+  0% {
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .dinamic .content-dinamic {
-  width: 40rem;
+  width: 30rem;
   height: 60rem;
   padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.dinamic .content-dinamic .dinamic-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dinamic .content-dinamic .dinamic-content .img-dinamic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  height: 60rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media screen and (max-width: 900px) {
