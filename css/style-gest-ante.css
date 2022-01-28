@@ -11,7 +11,6 @@
 }
 
 html {
-  font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -219,6 +218,43 @@ html {
   width: 100%;
   height: 60rem;
   background: #f173ac;
+}
+
+.dinamic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dinamic .content-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 30rem;
+}
+
+.dinamic .content-content ol {
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.dinamic .content-content ol li {
+  margin-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: .8rem;
+  color: #999999;
+}
+
+.dinamic .content-content ol li::marker {
+  color: #62bb46;
+}
+
+.dinamic .content-dinamic {
+  width: 40rem;
+  height: 60rem;
+  padding-top: 5rem;
 }
 
 @media screen and (max-width: 900px) {

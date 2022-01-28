@@ -97,6 +97,19 @@ $gray3: #999999;
             right: 8rem;
             bottom: -5rem;
         }
+
+        .point1{
+            position: absolute;
+            left: -10rem;
+            top: 10rem;
+        }
+
+        .point2{
+            z-index: -1;
+            position: absolute;
+            right: -5rem;
+            bottom: -1.5rem;
+        }
     }
 }
 
@@ -145,6 +158,7 @@ $gray3: #999999;
         width: 30rem;
         padding: 6rem 6rem 6rem 3rem;
         font-family: "Poppins", sans-serif;
+        position: relative;
         
 
         h3{
@@ -155,6 +169,14 @@ $gray3: #999999;
         span{
             font-size: .8rem;
             color: $gray3;
+        }
+
+        .point3{
+            
+            position: absolute;
+            left: -4rem;
+            top: -8rem;
+            z-index: -1;
         }
     }
 

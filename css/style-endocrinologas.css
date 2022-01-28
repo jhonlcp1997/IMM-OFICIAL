@@ -83,6 +83,19 @@ html {
   bottom: -5rem;
 }
 
+.home .home-box .point1 {
+  position: absolute;
+  left: -10rem;
+  top: 10rem;
+}
+
+.home .home-box .point2 {
+  z-index: -1;
+  position: absolute;
+  right: -5rem;
+  bottom: -1.5rem;
+}
+
 .section_2 {
   background-color: rgba(217, 217, 217, 0.3);
   display: -webkit-box;
@@ -132,6 +145,7 @@ html {
   width: 30rem;
   padding: 6rem 6rem 6rem 3rem;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .section_3 .content h3 {
@@ -142,6 +156,13 @@ html {
 .section_3 .content span {
   font-size: .8rem;
   color: #999999;
+}
+
+.section_3 .content .point3 {
+  position: absolute;
+  left: -4rem;
+  top: -8rem;
+  z-index: -1;
 }
 
 .section_3 .image img {
