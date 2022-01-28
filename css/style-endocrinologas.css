@@ -176,10 +176,12 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .dinamic .content-content {
   padding-top: 12rem;
+  padding-bottom: 5rem;
   width: 30rem;
 }
 
@@ -192,7 +194,7 @@ html {
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
-  color: #999999;
+  color: #888;
   background-color: #fff;
 }
 
@@ -233,8 +235,8 @@ html {
 
 .dinamic .content-dinamic {
   width: 30rem;
-  height: 60rem;
-  padding-top: 5rem;
+  height: 55rem;
+  padding-top: 7rem;
   position: relative;
   overflow: hidden;
 }
@@ -255,10 +257,16 @@ html {
       justify-content: space-around;
 }
 
+.dinamic .point4 {
+  z-index: 1;
+  position: absolute;
+  top: 4rem;
+}
+
 .filosofy {
-  background-color: rgba(217, 217, 217, 0.7);
+  background-color: rgba(217, 217, 217, 0.5);
   text-align: center;
-  padding: 2rem 15%;
+  padding: 3rem 15%;
 }
 
 .filosofy h2 {
@@ -266,6 +274,7 @@ html {
   margin: 2rem auto;
   color: #007cc3;
   font-weight: 900;
+  font-size: 2rem;
 }
 
 .filosofy div {
@@ -286,8 +295,8 @@ html {
   width: 20rem;
   height: 25rem;
   text-align: center;
-  -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
-          box-shadow: -3rem 0 80px -70px #332e2e;
+  -webkit-box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
+          box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
   display: block;
   padding: 1rem;
   font-family: "Poppins", sans-serif;
@@ -299,9 +308,14 @@ html {
   position: relative;
 }
 
+.filosofy div div p {
+  color: #888;
+  font-size: .9rem;
+}
+
 .filosofy .span-text-footer {
   padding: 0rem 15%;
-  color: #999999;
+  color: #888;
 }
 
 .section_final {
@@ -317,12 +331,12 @@ html {
   position: relative;
   margin: 0rem 25% 0 auto;
   background-color: #fff;
-  width: 25rem;
-  height: 30rem;
+  width: 28rem;
+  height: 32rem;
   text-align: center;
-  bottom: -2rem;
-  -webkit-box-shadow: -3rem 0 80px -40px #332e2e;
-          box-shadow: -3rem 0 80px -40px #332e2e;
+  bottom: 0rem;
+  -webkit-box-shadow: -3rem 1rem 80px -40px #332e2e;
+          box-shadow: -3rem 1rem 80px -40px #332e2e;
   padding: 5rem 2rem 0 2rem;
 }
 
@@ -334,8 +348,10 @@ html {
 }
 
 .section_final .section_final-contenedor .section_final-info {
+  font-size: 1rem;
   margin-top: 1rem;
   color: #999999;
+  font-family: "Poppins", sans-serif;
 }
 
 .section_final .section_final-contenedor div {

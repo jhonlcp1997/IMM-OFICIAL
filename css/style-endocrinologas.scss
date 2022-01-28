@@ -192,10 +192,11 @@ $gray3: #999999;
     display: flex;
     // text-align: center;
     justify-content: center;
+    position: relative;
 
     .content-content {
         padding-top: 12rem;
-        // padding-bottom: 5rem;
+        padding-bottom: 5rem;
         // margin: auto;
         width: 30rem;
 
@@ -207,7 +208,7 @@ $gray3: #999999;
                 margin-bottom: 3rem;
                 font-family: "Poppins", sans-serif;
                 font-size: 0.8rem;
-                color: $gray3;
+                color: #888;
                 background-color: #fff;
 
                 &::marker {
@@ -266,8 +267,8 @@ $gray3: #999999;
 
     .content-dinamic {
         width: 30rem;
-        height: 60rem;
-        padding-top: 5rem;
+        height: 55rem;
+        padding-top: 7rem;
         // display: inline-flex;
         position: relative;
         // flex-direction: row;
@@ -288,12 +289,19 @@ $gray3: #999999;
             }
         }
     }
+
+    .point4{
+        z-index: 1;
+        position: absolute;
+        // left: -10rem;
+        top: 4rem;
+    }
 }
 
 .filosofy{
-    background-color: rgba(217,217,217, .7);
+    background-color: rgba(217,217,217, .5);
     text-align: center;
-    padding: 2rem 15%;
+    padding: 3rem 15%;
 
     h2{
         // font-family: "Poppins", sans-serif;
@@ -301,6 +309,7 @@ $gray3: #999999;
         margin: 2rem auto;
         color: $azul;
         font-weight: 900;
+        font-size: 2rem;
     }
 
     div{
@@ -319,7 +328,7 @@ $gray3: #999999;
             width: 20rem;
             height: 25rem;
             text-align: center;
-            box-shadow: -3rem 0 80px -70px rgb(51, 46, 46);
+            box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
             display: block;
             padding: 1rem;
             font-family: "Poppins", sans-serif;
@@ -332,6 +341,10 @@ $gray3: #999999;
                 // text-align: center;
                 // width: 10rem;height: 8rem;
             }
+            p{
+                color: #888;
+                font-size: .9rem;
+            }
         }
     }
 
@@ -339,7 +352,7 @@ $gray3: #999999;
         // height: auto;
         
         padding: 0rem 15%;
-        color: $gray3;
+        color: #888;
     }
 }
 
@@ -355,13 +368,13 @@ $gray3: #999999;
         position: relative;
         margin: 0rem 25% 0 auto;
         background-color: #fff;
-        width: 25rem;
-        height: 30rem;
+        width: 28rem;
+        height: 32rem;
         text-align: center;
-        bottom: -2rem;
+        bottom: 0rem;
         // left: 2%;
         // right: ;
-        box-shadow: -3rem 0 80px -40px rgb(51, 46, 46);
+        box-shadow: -3rem 1rem 80px -40px rgb(51, 46, 46);
         padding: 5rem 2rem 0 2rem;
 
         
@@ -376,8 +389,10 @@ $gray3: #999999;
         }
 
         .section_final-info{
+            font-size: 1rem;
             margin-top: 1rem;
             color: $gray3;
+            font-family: "Poppins", sans-serif;
         }
 
         div {
