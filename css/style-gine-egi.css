@@ -266,6 +266,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 20rem;
           flex: 1 1 20rem;
+  margin-bottom: 3rem;
 }
 
 .characteres .characteres-left h2 {
@@ -379,7 +380,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3rem 9%;
+  width: 95%;
+  max-width: 110rem;
+  margin: 3rem auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -498,5 +501,31 @@ body {
 
 .info-date .info-date-container .info-contenido .contenido-body div span {
   text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .header div {
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .home {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+  .home .home-nav2 img {
+    width: 100%;
+    max-width: 60rem;
+  }
+  .characteres {
+    margin: auto;
+    padding: 3rem 3rem;
+  }
+  .characteres .characteres-center_rigth .slider-contenedor {
+    margin: auto;
+  }
+  .info-date {
+    padding: 0 1rem;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style-gine-egi.css.map */
