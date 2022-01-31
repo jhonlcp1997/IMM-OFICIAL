@@ -459,6 +459,12 @@ body {
   padding: 2rem;
 }
 
+.info-date h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f173ac;
+  font-size: 3rem;
+}
+
 .info-date .info-date-container {
   display: inline;
 }
@@ -499,7 +505,7 @@ body {
   text-align: center;
 }
 
-.info-date .info-date-container .info-contenido .contenido-body div span {
+.info-date .info-date-container .info-contenido .contenido-body div p {
   text-align: center;
 }
 
@@ -524,7 +530,7 @@ body {
     margin: auto;
   }
   .info-date {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
     width: 100%;
   }
 }
