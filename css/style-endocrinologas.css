@@ -562,6 +562,9 @@ html {
   .dinamic .content-dinamic {
     height: 60rem;
   }
+  .dinamic .content-dinamic .dinamic-content {
+    gap: 1rem;
+  }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
     height: 40rem;
   }

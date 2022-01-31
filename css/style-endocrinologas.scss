@@ -631,7 +631,6 @@ $gray3: #999999;
                     }
 
                     p{
-                        
 
                         b{
                             font-size: 2.5rem;
@@ -667,6 +666,7 @@ $gray3: #999999;
             height: 60rem;
 
             .dinamic-content{
+                gap: 1rem;
 
                 div{
 
@@ -680,6 +680,7 @@ $gray3: #999999;
 }
 
 @media (max-width: 290px){
+
     .section_final{
         height: 25rem;
 
