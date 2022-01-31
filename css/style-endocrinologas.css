@@ -247,7 +247,13 @@ html {
   display: flex;
 }
 
-.dinamic .content-dinamic .dinamic-content .img-dinamic {
+.dinamic .content-dinamic .dinamic-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dinamic .content-dinamic .dinamic-content div .img-dinamic {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,6 +261,10 @@ html {
   height: 60rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.dinamic .content-dinamic .dinamic-content div span {
+  display: none;
 }
 
 .dinamic .point4 {
@@ -407,6 +417,9 @@ html {
 }
 
 @media (max-width: 975px) {
+  html {
+    font-size: 70%;
+  }
   .home {
     width: 100%;
   }
@@ -418,7 +431,11 @@ html {
     display: none;
   }
   .home .home-box .home__div3 {
-    display: none;
+    top: 10.41rem;
+    opacity: .2;
+  }
+  .home .home-box .home__div3 img {
+    width: 20rem;
   }
   .home .home-box .point1 {
     display: none;
@@ -435,14 +452,69 @@ html {
     top: -2rem;
   }
   .section_2 .content {
+    padding: 2rem 3rem 2rem 0rem;
     margin: auto;
     position: inherit;
+  }
+  .section_3 {
+    margin-top: 0rem;
+    width: 100%;
+    display: inline-block;
+  }
+  .section_3 .content {
+    padding: 3rem 0rem 6rem 3rem;
+    text-align: right;
+    margin: 0rem auto;
   }
   .section_3 .content .point3 {
     display: none;
   }
+  .section_3 .image {
+    text-align: center;
+  }
   .dinamic .point4 {
     display: none;
+  }
+}
+
+@media (max-width: 675px) {
+  .dinamic {
+    margin-bottom: 5rem;
+  }
+  .dinamic .content-content {
+    display: none;
+  }
+  .dinamic .content-dinamic {
+    width: 95%;
+    max-width: 50rem;
+    height: 72rem;
+    overflow: auto;
+  }
+  .dinamic .content-dinamic .dinamic-content {
+    gap: 2rem;
+  }
+  .dinamic .content-dinamic .dinamic-content div {
+    display: inline;
+  }
+  .dinamic .content-dinamic .dinamic-content div .img-dinamic {
+    border-radius: 15px 15px 0px 0px;
+    height: 55rem;
+  }
+  .dinamic .content-dinamic .dinamic-content div span {
+    border-radius: 0px 0px 15px 15px;
+    background-color: #eeeeee;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .dinamic .content-dinamic .dinamic-content .last_hidden {
+    display: none;
+  }
+  .section_final .section_final-contenedor {
+    height: 30rem;
   }
 }
 /*# sourceMappingURL=style-endocrinologas.css.map */

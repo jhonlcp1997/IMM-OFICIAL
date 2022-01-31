@@ -11,9 +11,7 @@ window.addEventListener("resize", function () {
     width2 = img_dinamic[0].clientWidth;
 })
 
-setInterval(function () {
-    img_slides();
-}, intervalo);
+
 
 function img_slides() {
     content_dinamic.style.transform = "translate(" + (-width2 * contador2) + "px)";
@@ -38,4 +36,18 @@ function img_slides() {
             contador3 = 0;
         }, 1500)
     }
+}
+
+// *Aqui se quita el mecanismo con un media queri max-width: 675px
+
+
+
+if(window.matchMedia("(max-width: 675px)").matches) {
+    console.log("Entro aqui")
+    
+} else{
+
+    setInterval(function () {
+        img_slides();
+    }, intervalo);
 }

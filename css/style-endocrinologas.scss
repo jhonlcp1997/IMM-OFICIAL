@@ -277,14 +277,22 @@ $gray3: #999999;
             display: flex;
             // flex-direction: row;
 
-            .img-dinamic {
+            div{
                 display: flex;
-                // flex-direction: row;
-                margin: auto;
 
-                height: 60rem;
-                justify-content: space-around;
-                // flex-shrink: 0;
+                .img-dinamic {
+                    display: flex;
+                    // flex-direction: row;
+                    margin: auto;
+    
+                    height: 60rem;
+                    justify-content: space-around;
+                    // flex-shrink: 0;
+                }
+
+                span{
+                    display: none;
+                }
             }
         }
     }
@@ -463,8 +471,12 @@ $gray3: #999999;
     }
 }
 
-// *en esta medias se desaparecen los puntitos
+// *en esta media se desaparecen los puntitos
 @media (max-width:975px){
+
+    html{
+        font-size: 70%;
+    }
 
     .home{
         width: 100%;
@@ -481,7 +493,12 @@ $gray3: #999999;
             }
 
             .home__div3{
-                display: none;
+                top: 10.41rem;
+                opacity: .2;
+                // display: none;
+                img{
+                    width: 20rem;
+                }
             }
 
             .point1{
@@ -506,18 +523,29 @@ $gray3: #999999;
         }
 
         .content{
+            padding: 2rem 3rem 2rem 0rem;
             margin: auto;
             position: inherit;
         }
     }
 
     .section_3{
+        margin-top: 0rem;
+        width: 100%;
+        display: inline-block;
         
         .content{
+            padding: 3rem 0rem 6rem 3rem;
+            text-align: right;
+            margin: 0rem auto;
 
             .point3{
                 display: none;
             }
+        }
+
+        .image{
+            text-align: center;
         }
     }
 
@@ -526,5 +554,59 @@ $gray3: #999999;
         .point4{
             display: none;
         }
+    }
+}
+
+@media (max-width: 675px){
+
+    .dinamic{
+        margin-bottom: 5rem;
+
+        .content-content{
+            display: none;
+        }
+
+        .content-dinamic{
+            width: 95%;
+            max-width: 50rem;
+            height: 72rem;
+            overflow: auto;
+
+            .dinamic-content{
+                gap: 2rem;
+
+                div{
+                    display: inline;
+
+                    .img-dinamic{
+                        border-radius: 15px 15px 0px 0px;
+                        height: 55rem;
+                    }
+
+                    span{
+                        
+                        border-radius: 0px 0px 15px 15px;
+                        background-color: #eeeeee;
+                        padding: 1rem;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 1.1rem;
+                        display: flex;
+                    }
+
+                }
+
+                .last_hidden{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .section_final{
+
+        .section_final-contenedor{
+            height: 30rem;
+        }
+
     }
 }
