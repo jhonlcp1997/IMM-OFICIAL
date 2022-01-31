@@ -259,7 +259,7 @@ $gray3: #999999;
                     // flex-direction: row;
                     margin: auto;
     
-                    height: 60rem;
+                    height: 50rem;
                     justify-content: space-around;
                     // flex-shrink: 0;
                 }
@@ -315,7 +315,8 @@ $gray3: #999999;
             color: $gray3;
 
             img{
-                margin: 3rem 0;
+                width: 10rem;
+                margin: 2rem 0;
                 position: relative;
             }
 

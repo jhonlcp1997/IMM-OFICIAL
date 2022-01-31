@@ -258,7 +258,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  height: 60rem;
+  height: 50rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -315,7 +315,8 @@ html {
 }
 
 .filosofy div div img {
-  margin: 3rem 0;
+  width: 10rem;
+  margin: 2rem 0;
   position: relative;
 }
 
