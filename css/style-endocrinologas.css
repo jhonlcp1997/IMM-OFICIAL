@@ -560,4 +560,21 @@ html {
     height: 40rem;
   }
 }
+
+@media (max-width: 290px) {
+  .section_final {
+    height: 25rem;
+  }
+  .section_final .section_final-contenedor {
+    margin: 0;
+    width: 100%;
+    height: 25rem;
+  }
+  .section_final .section_final-contenedor .section_final-tittle {
+    font-size: 1.5rem;
+  }
+  .section_final .section_final-contenedor .section_final-info {
+    font-size: .8rem;
+  }
+}
 /*# sourceMappingURL=style-endocrinologas.css.map */
