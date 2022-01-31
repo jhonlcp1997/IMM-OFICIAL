@@ -268,6 +268,7 @@ body {
     .characteres-left {
         text-align: center;
         flex: 1 1 20rem;
+        margin-bottom: 3rem;
 
         h2{
             color: $azul;
@@ -378,7 +379,10 @@ body {
 
 .time-price{
     display:flex;
-    padding: 3rem 9%;
+    width: 95%;
+    max-width: 110rem;
+    margin: 3rem auto;
+    // padding: 3rem 9%;
     flex-wrap: wrap;
     // text-align: center;
     
@@ -481,4 +485,50 @@ body {
             }
         }
     }
+}
+
+@media (max-width: 1050px){
+    
+    .header{
+
+        div{
+            padding: 0 1rem;
+            width: 100%;
+        }
+    }
+
+    .home{
+
+        padding: 3rem 2rem;
+        height: auto;
+
+        .home-nav2{
+
+            img{
+                width: 100%;
+                max-width: 60rem;
+            }
+        }
+    }
+
+    .characteres{
+        margin: auto;
+        padding: 3rem 3rem;
+
+        .characteres-center_rigth{
+
+            .slider-contenedor{
+                margin: auto;
+            }
+        }
+    }
+
+    .info-date{
+        padding: 0 1rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px){
+    
 }
