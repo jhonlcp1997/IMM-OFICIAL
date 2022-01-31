@@ -30,6 +30,7 @@ html {
 
 .home .home-box .home__div1 {
   width: 70%;
+  padding-top: 1rem;
   padding-right: 15rem;
 }
 
@@ -325,7 +326,9 @@ html {
 }
 
 .filosofy .span-text-footer {
+  font-size: .8rem;
   margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
   padding: 0rem 15%;
   color: #888;
 }
