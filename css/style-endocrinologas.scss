@@ -80,11 +80,6 @@ $gray3: #999999;
                 width: 18rem;
                 height: 30rem;
                 position: absolute;
-                // top: 0px;
-                // right: 0px;
-                // bottom: 0px;
-                // left: 0px;
-                /* Specify the background image to be used */
                 background-image: url(../img/image-simple-2/Fondo.png);
                 background-size: cover;
                 /* Specify the background image */
@@ -93,7 +88,6 @@ $gray3: #999999;
         }
 
         .home__div3 {
-            // display: none;
             position: absolute;
             right: 8rem;
             bottom: -5rem;
@@ -121,11 +115,10 @@ $gray3: #999999;
     font-family: "Poppins", sans-serif;
 
     .image{
-        // margin-top: 5rem;
+
         img{
             position: relative;
             top: 5rem;
-            // margin-top: 5rem;
             width: 30rem;
         }
     }
@@ -158,8 +151,7 @@ $gray3: #999999;
         width: 30rem;
         padding: 6rem 6rem 6rem 3rem;
         font-family: "Poppins", sans-serif;
-        position: relative;
-        
+        position: relative;   
 
         h3{
             font-family: "Abel", sans-serif;
@@ -190,14 +182,12 @@ $gray3: #999999;
 
 .dinamic {
     display: flex;
-    // text-align: center;
     justify-content: center;
     position: relative;
 
     .content-content {
         padding-top: 12rem;
         padding-bottom: 5rem;
-        // margin: auto;
         width: 30rem;
 
         ol {
@@ -216,11 +206,6 @@ $gray3: #999999;
                 }
 
                 &.active{
-                    // background-color: #eee;
-
-                    // &::marker {
-                    //     color: #222;
-                    // }
 
                     .barrita {
                         margin-top: 1rem;
@@ -229,16 +214,7 @@ $gray3: #999999;
                         // white-space: nowrap;
                         overflow: hidden;
                         border-bottom: 3px solid #007cc3;
-                        // width: 0%;
-    
-                        // &:hover {
-                        //     -webkit-transition: width 4s ease-in-out;
-                        //     -moz-transition: width 4s ease-in-out;
-                        //     -o-transition: width 4s ease-in-out;
-                        //     transition: width 4s ease-in-out;
-    
-                        //     width: 100%;
-                        // }
+
                         animation: changerBorder 4s linear;
                     }
                 }
@@ -254,9 +230,6 @@ $gray3: #999999;
 
         50% {
             width: 50%;
-            // border: solid 5px white;
-            // border-left: solid 5px lime;
-            // border-bottom: solid 3px lime;
         }
 
         100%{
@@ -329,8 +302,6 @@ $gray3: #999999;
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
-        // background-color: #fff;
-
 
         div{
             background-color: #fff;
@@ -346,10 +317,8 @@ $gray3: #999999;
             img{
                 margin: 3rem 0;
                 position: relative;
-                // justify-content: center;
-                // text-align: center;
-                // width: 10rem;height: 8rem;
             }
+
             p{
                 color: #888;
                 font-size: .9rem;
@@ -422,7 +391,6 @@ $gray3: #999999;
             border-radius: 25px;
 
             a {
-                // margin-top: 1rem;
                 font-family: "Abel", sans-serif;
                 // font-weight: bold;
                 color: #fff;
@@ -448,7 +416,6 @@ $gray3: #999999;
         display: flex;
         font-size: .5rem;
         color: $gray2;
-
         margin: 0 20%;
     }
 }
@@ -698,7 +665,6 @@ $gray3: #999999;
 
         .content-dinamic{
             height: 60rem;
-
 
             .dinamic-content{
 
