@@ -258,7 +258,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  height: 50rem;
+  width: 20;
+  height: 45rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
