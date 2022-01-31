@@ -682,6 +682,21 @@ $gray3: #999999;
 
 @media (max-width: 290px){
 
+    .dinamic{
+        .content-dinamic{
+            height: 50rem;
+
+            .dinamic-content{
+                div{
+
+                    .img-dinamic{
+                        height: 25rem;
+                    }
+                }
+            }
+        }
+    }
+
     .section_final{
         height: 25rem;
 
