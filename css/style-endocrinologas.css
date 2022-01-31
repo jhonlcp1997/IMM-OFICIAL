@@ -478,6 +478,22 @@ html {
 }
 
 @media (max-width: 675px) {
+  .section_2 .image img {
+    width: 20rem;
+  }
+  .section_2 .content {
+    width: 100%;
+    height: auto;
+    padding: 1rem 5rem 2rem 2rem;
+  }
+  .section_3 .content {
+    width: 100%;
+    height: auto;
+    padding: 3rem 2rem 3rem 3rem;
+  }
+  .section_3 .image img {
+    width: 20rem;
+  }
   .dinamic {
     margin-bottom: 5rem;
   }
@@ -515,6 +531,33 @@ html {
   }
   .section_final .section_final-contenedor {
     height: 30rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .home .home-box .home__div1 {
+    padding: 1rem 2rem;
+  }
+  .home .home-box .home__div1 div {
+    margin-top: 6rem;
+  }
+  .home .home-box .home__div1 div span {
+    font-size: 1.5rem;
+  }
+  .home .home-box .home__div1 div p b {
+    font-size: 2.5rem;
+  }
+  .home .home-box .home__div3 {
+    right: 2rem;
+  }
+  .filosofy {
+    padding: 3rem 1%;
+  }
+  .dinamic .content-dinamic {
+    height: 60rem;
+  }
+  .dinamic .content-dinamic .dinamic-content div .img-dinamic {
+    height: 40rem;
   }
 }
 /*# sourceMappingURL=style-endocrinologas.css.map */
