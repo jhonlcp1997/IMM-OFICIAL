@@ -352,6 +352,14 @@ $gray3: #999999;
         box-shadow: -3rem 1rem 80px -40px rgb(51, 46, 46);
         padding: 5rem 2rem 0 2rem;
 
+        .point5 {
+            width: 9rem;
+            position: absolute;
+            left: 24rem;
+            top: -2rem;
+            z-index: 1;
+        }
+
         .section_final-tittle {
             // font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-family: "Abel", sans-serif;
@@ -411,6 +419,8 @@ $gray3: #999999;
         margin: 0 20%;
     }
 }
+
+// *Media queries
 
 @media (max-width: 1100px) {
     .home {
@@ -586,6 +596,10 @@ $gray3: #999999;
     .section_final {
         .section_final-contenedor {
             height: 30rem;
+
+            .point5{
+                display: none;
+            }
         }
     }
 }

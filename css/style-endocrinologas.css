@@ -368,6 +368,14 @@ html {
   padding: 5rem 2rem 0 2rem;
 }
 
+.section_final .section_final-contenedor .point5 {
+  width: 9rem;
+  position: absolute;
+  left: 24rem;
+  top: -2rem;
+  z-index: 1;
+}
+
 .section_final .section_final-contenedor .section_final-tittle {
   font-family: "Abel", sans-serif;
   color: #007cc3;
@@ -549,6 +557,9 @@ html {
   }
   .section_final .section_final-contenedor {
     height: 30rem;
+  }
+  .section_final .section_final-contenedor .point5 {
+    display: none;
   }
 }
 
