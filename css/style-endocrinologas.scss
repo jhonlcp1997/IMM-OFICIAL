@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+// Todo: los atributos en * siempre se mantendran
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@
     border: none;
 }
 
+// Todo: el html en endocrinologia no trabaja con font-size
 html {
     // font-size: 62.5%;
     overflow-x: hidden;

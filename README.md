@@ -8,10 +8,13 @@ Primer repositorio del Instituto Medico de la Mujer
 
 - css
 - js
+    - others
+        - slider-endocrinologas.js **Esto va a trabajar como un apartado**
 - img
 - views
-    - carpetas contenedoras
-- ***index.html***
+    - others
+        - encrinologas.html **Esto va a trabajar como un apartado**
+- ***index.html***  **por defecto abre el contenido gestacional-viabilidad**
 
 
 ### ***Pondre a prueba lo que encontre sobre ilustrator a diseño web***
