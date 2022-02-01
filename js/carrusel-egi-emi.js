@@ -28,19 +28,30 @@ function slides() {
     // children[contador].style.background = "#fff";
 
     if (contador > 7) {
-        children[contador2].style.background = "rgba(7, 17, 27, 0.4)";
-        children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
+        children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
+        // children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
         children[0].style.background = "#007cc3";
-        children[0].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
+        // children[0].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
+        sliderIndividual[contador2].style["boxShadow"]="0rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[contador2].style["height"]="290px";
+
+        sliderIndividual[0].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[0].style["height"]="300px";
+
     } else {
         console.log(contador);
         console.log(contador2);
+        sliderIndividual[contador].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[contador].style["height"]="300px";
 
-        children[contador2].style.background= "rgba(7, 17, 27, 0.4)";
-        children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
+        sliderIndividual[contador2].style["boxShadow"]="0rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[contador2].style["height"]="290px";
+
+        children[contador2].style.background= "rgba(7, 17, 27, 0.2)";
+        // children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
 
         children[contador].style.background = "#007cc3";
-        children[contador].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
+        // children[contador].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
     }
 
 
