@@ -127,7 +127,7 @@ html {
 }
 
 .section_2 .content span {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #999999;
 }
 
@@ -154,7 +154,7 @@ html {
 }
 
 .section_3 .content span {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #999999;
 }
 
@@ -180,7 +180,7 @@ html {
 }
 
 .dinamic .content-content {
-  padding-top: 12rem;
+  padding-top: 11rem;
   padding-bottom: 5rem;
   width: 30rem;
 }
@@ -323,11 +323,11 @@ html {
 
 .filosofy div div p {
   color: #888;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .filosofy .span-text-footer {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-top: 5rem;
   font-family: "Poppins", sans-serif;
   padding: 0rem 15%;
@@ -406,7 +406,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: .5rem;
+  font-size: 0.5rem;
   color: #bfbfbf;
   margin: 0 20%;
 }
@@ -436,7 +436,7 @@ html {
   }
   .home .home-box .home__div3 {
     top: 10.41rem;
-    opacity: .2;
+    opacity: 0.2;
   }
   .home .home-box .home__div3 img {
     width: 20rem;
@@ -570,6 +570,11 @@ html {
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
     height: 35rem;
   }
+  .footer p {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 290px) {
@@ -591,7 +596,7 @@ html {
     font-size: 1.5rem;
   }
   .section_final .section_final-contenedor .section_final-info {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=style-endocrinologas.css.map */
