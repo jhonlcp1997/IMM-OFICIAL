@@ -11,8 +11,6 @@ window.addEventListener("resize", function () {
     width2 = img_dinamic[0].clientWidth;
 })
 
-
-
 function img_slides() {
     content_dinamic.style.transform = "translate(" + (-width2 * contador2) + "px)";
     content_dinamic.style.transition = "transform 1s";
@@ -39,9 +37,7 @@ function img_slides() {
 }
 
 // *Aqui se quita el mecanismo con un media queri max-width: 675px
-
-
-
+// Todo: El problema que con el devtools de google no lo puedo regresar cuando cambio los width
 if(window.matchMedia("(max-width: 675px)").matches) {
     console.log("Entro aqui")
     
