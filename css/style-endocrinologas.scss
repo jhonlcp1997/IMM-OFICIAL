@@ -563,6 +563,7 @@ $gray3: #999999;
                     }
 
                     span {
+                        height: 8rem;
                         border-radius: 0px 0px 15px 15px;
                         background-color: #eeeeee;
                         padding: 1rem;
@@ -628,7 +629,7 @@ $gray3: #999999;
 
     .dinamic {
         .content-dinamic {
-            height: 55rem;
+            height: 50rem;
 
             .dinamic-content {
                 gap: 1rem;
@@ -636,6 +637,10 @@ $gray3: #999999;
                 div {
                     .img-dinamic {
                         height: 35rem;
+                    }
+
+                    span{
+                        font-size: .9rem;
                     }
                 }
             }
@@ -652,12 +657,17 @@ $gray3: #999999;
 @media (max-width: 290px) {
     .dinamic {
         .content-dinamic {
-            height: 50rem;
+            height: 42rem;
 
             .dinamic-content {
                 div {
                     .img-dinamic {
                         height: 25rem;
+                    }
+
+                    span{
+                        height: 8.5rem;
+                        font-size: .8rem;
                     }
                 }
             }

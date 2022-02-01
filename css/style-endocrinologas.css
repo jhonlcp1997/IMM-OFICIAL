@@ -521,6 +521,7 @@ html {
     height: 55rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
+    height: 8rem;
     border-radius: 0px 0px 15px 15px;
     background-color: #eeeeee;
     padding: 1rem;
@@ -562,13 +563,16 @@ html {
     height: 2.1rem;
   }
   .dinamic .content-dinamic {
-    height: 55rem;
+    height: 50rem;
   }
   .dinamic .content-dinamic .dinamic-content {
     gap: 1rem;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
     height: 35rem;
+  }
+  .dinamic .content-dinamic .dinamic-content div span {
+    font-size: .9rem;
   }
   .footer p {
     -webkit-box-pack: center;
@@ -579,10 +583,14 @@ html {
 
 @media (max-width: 290px) {
   .dinamic .content-dinamic {
-    height: 50rem;
+    height: 42rem;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
     height: 25rem;
+  }
+  .dinamic .content-dinamic .dinamic-content div span {
+    height: 8.5rem;
+    font-size: .8rem;
   }
   .section_final {
     height: 25rem;
