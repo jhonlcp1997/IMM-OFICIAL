@@ -83,7 +83,7 @@ html {
 
 .home .home-box .home__div3 {
   position: absolute;
-  right: 8rem;
+  right: 14rem;
   bottom: -5.3rem;
 }
 
@@ -92,12 +92,14 @@ html {
 }
 
 .home .home-box .point1 {
+  width: 9rem;
   position: absolute;
   left: -10rem;
   top: 10rem;
 }
 
 .home .home-box .point2 {
+  width: 9rem;
   z-index: -1;
   position: absolute;
   right: -5rem;
@@ -167,6 +169,7 @@ html {
 }
 
 .section_3 .content .point3 {
+  width: 9rem;
   position: absolute;
   left: -4rem;
   top: -8rem;
@@ -277,6 +280,7 @@ html {
 }
 
 .dinamic .point4 {
+  width: 9rem;
   z-index: 1;
   position: absolute;
   top: 4rem;
