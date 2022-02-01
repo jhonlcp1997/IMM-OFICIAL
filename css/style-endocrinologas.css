@@ -84,7 +84,11 @@ html {
 .home .home-box .home__div3 {
   position: absolute;
   right: 8rem;
-  bottom: -5rem;
+  bottom: -5.3rem;
+}
+
+.home .home-box .home__div3 .ofrecemos-box3_img {
+  width: 20rem;
 }
 
 .home .home-box .point1 {
@@ -439,7 +443,7 @@ html {
     display: none;
   }
   .home .home-box .home__div3 {
-    top: 10.41rem;
+    top: 8.2rem;
     opacity: 0.2;
   }
   .home .home-box .home__div3 img {
@@ -511,7 +515,7 @@ html {
   .dinamic .content-dinamic {
     width: 95%;
     max-width: 50rem;
-    height: 72rem;
+    height: 55rem;
     overflow: auto;
   }
   .dinamic .content-dinamic .dinamic-content {
@@ -522,7 +526,7 @@ html {
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
     border-radius: 15px 15px 0px 0px;
-    height: 55rem;
+    height: 38rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
     height: 8rem;
@@ -567,15 +571,17 @@ html {
     height: 2.1rem;
   }
   .dinamic .content-dinamic {
-    height: 50rem;
+    height: 51rem;
   }
   .dinamic .content-dinamic .dinamic-content {
     gap: 1rem;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
-    height: 35rem;
+    width: 26rem;
+    height: 36rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
+    height: 7.5rem;
     font-size: .9rem;
   }
   .footer p {
@@ -587,13 +593,14 @@ html {
 
 @media (max-width: 290px) {
   .dinamic .content-dinamic {
-    height: 42rem;
+    height: 45rem;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
-    height: 25rem;
+    width: 20rem;
+    height: 29rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
-    height: 8.5rem;
+    height: 7.5rem;
     font-size: .8rem;
   }
   .section_final {

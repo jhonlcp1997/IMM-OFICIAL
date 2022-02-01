@@ -3,8 +3,7 @@
 
 // Todo: los atributos en * siempre se mantendran
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -30,8 +29,7 @@ $gray3: #999999;
 .home {
     margin: auto;
     // background-color: $gray2;
-    height: 35rem;
-    width: 60rem;
+    height: 35rem; width: 60rem;
 
     .h1{
         display: none;
@@ -43,8 +41,7 @@ $gray3: #999999;
 
         .home__div1 {
             width: 70%;
-            padding-top: 1rem;
-            padding-right: 15rem;
+            padding-top: 1rem; padding-right: 15rem;
 
             img {
                 width: 12rem;
@@ -75,8 +72,7 @@ $gray3: #999999;
         }
 
         .home__div2 {
-            width: 30%;
-            height: 30rem;
+            width: 30%; height: 30rem;
             background-color: $azul;
 
             &::before {
@@ -93,21 +89,22 @@ $gray3: #999999;
 
         .home__div3 {
             position: absolute;
-            right: 8rem;
-            bottom: -5rem;
+            right: 8rem; bottom: -5.3rem;
+
+            .ofrecemos-box3_img{
+                width: 20rem;
+            }
         }
 
         .point1 {
             position: absolute;
-            left: -10rem;
-            top: 10rem;
+            left: -10rem; top: 10rem;
         }
 
         .point2 {
             z-index: -1;
             position: absolute;
-            right: -5rem;
-            bottom: -1.5rem;
+            right: -5rem; bottom: -1.5rem;
         }
     }
 }
@@ -127,8 +124,7 @@ $gray3: #999999;
     }
 
     .content {
-        width: 30rem;
-        height: 10rem;
+        width: 30rem; height: 10rem;
         position: relative;
         top: 10rem;
         padding: 2rem 10rem 2rem 2rem;
@@ -187,13 +183,11 @@ $gray3: #999999;
     position: relative;
 
     .content-content {
-        padding-top: 10.5rem;
-        padding-bottom: 5rem;
+        padding-top: 10.5rem; padding-bottom: 5rem;
         width: 30rem;
 
         ol {
-            padding-left: 1rem;
-            padding-right: 3rem;
+            padding-left: 1rem; padding-right: 3rem;
 
             li {
                 margin-bottom: 3rem;
@@ -351,8 +345,6 @@ $gray3: #999999;
         height: 32rem;
         text-align: center;
         bottom: 0rem;
-        // left: 2%;
-        // right: ;
         box-shadow: -3rem 1rem 80px -40px rgb(51, 46, 46);
         padding: 5rem 2rem 0 2rem;
 
@@ -452,7 +444,7 @@ $gray3: #999999;
             }
 
             .home__div3 {
-                top: 10.41rem;
+                top: 8.2rem;
                 opacity: 0.2;
                 // display: none;
                 img {
@@ -554,7 +546,7 @@ $gray3: #999999;
         .content-dinamic {
             width: 95%;
             max-width: 50rem;
-            height: 72rem;
+            height: 55rem;
             overflow: auto;
 
             .dinamic-content {
@@ -565,7 +557,7 @@ $gray3: #999999;
 
                     .img-dinamic {
                         border-radius: 15px 15px 0px 0px;
-                        height: 55rem;
+                        height: 38rem;
                     }
 
                     span {
@@ -635,17 +627,19 @@ $gray3: #999999;
 
     .dinamic {
         .content-dinamic {
-            height: 50rem;
+            height: 51rem;
 
             .dinamic-content {
                 gap: 1rem;
 
                 div {
                     .img-dinamic {
-                        height: 35rem;
+                        width: 26rem;
+                        height: 36rem;
                     }
 
                     span{
+                        height: 7.5rem;
                         font-size: .9rem;
                     }
                 }
@@ -663,16 +657,17 @@ $gray3: #999999;
 @media (max-width: 290px) {
     .dinamic {
         .content-dinamic {
-            height: 42rem;
+            height: 45rem;
 
             .dinamic-content {
                 div {
                     .img-dinamic {
-                        height: 25rem;
+                        width: 20rem;
+                        height: 29rem;
                     }
 
                     span{
-                        height: 8.5rem;
+                        height: 7.5rem;
                         font-size: .8rem;
                     }
                 }
