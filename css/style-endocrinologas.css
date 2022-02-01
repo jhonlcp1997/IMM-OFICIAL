@@ -21,6 +21,10 @@ html {
   width: 60rem;
 }
 
+.home .h1 {
+  display: none;
+}
+
 .home .home-box {
   display: -webkit-box;
   display: -ms-flexbox;
