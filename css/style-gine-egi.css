@@ -331,12 +331,12 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
           flex: 1 1 50rem;
-  height: 30rem;
+  height: 31rem;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor {
   width: 630px;
-  height: 300px;
+  height: 310px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,7 +346,7 @@ body {
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
   width: 630px;
-  height: 300px;
+  height: 310px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,6 +354,7 @@ body {
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
+  position: relative;
   display: inline-block;
   text-align: center;
   width: 200px;

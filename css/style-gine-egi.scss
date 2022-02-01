@@ -330,13 +330,13 @@ body {
 
     .characteres-center_rigth {
         flex: 1 1 50rem;
-        height: 30rem;
+        height: 31rem;
         // display: flex;
         // text-align: center;
 
         .slider-contenedor {
             width: 630px;
-            height: 300px;
+            height: 310px;
             position: relative;
             display: flex;
             overflow: hidden;
@@ -346,11 +346,12 @@ body {
 
             .slider-contenedor2 {
                 width: 630px;
-                height: 300px;
+                height: 310px;
                 display: flex;
                 gap: 10px;
 
                 .characteres_all {
+                    position: relative;
                     display: inline-block;
                     text-align: center;
                     width: 200px;

@@ -34,15 +34,18 @@ function slides() {
         // children[0].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
         sliderIndividual[contador2].style["boxShadow"]="0rem 0 80px -70px rgb(51, 46, 46)";
         sliderIndividual[contador2].style["height"]="290px";
+        sliderIndividual[contador2].style["top"]="10px";
+
 
         sliderIndividual[0].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
-        sliderIndividual[0].style["height"]="300px";
+        sliderIndividual[0].style["height"]="310px";
 
     } else {
         console.log(contador);
         console.log(contador2);
         sliderIndividual[contador].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
-        sliderIndividual[contador].style["height"]="300px";
+        sliderIndividual[contador].style["height"]="310px";
+        sliderIndividual[contador].style["top"]="-10px";
 
         sliderIndividual[contador2].style["boxShadow"]="0rem 0 80px -70px rgb(51, 46, 46)";
         sliderIndividual[contador2].style["height"]="290px";
