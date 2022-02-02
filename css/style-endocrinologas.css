@@ -444,7 +444,7 @@ html {
 
 @media (max-width: 975px) {
   html {
-    font-size: 80%;
+    font-size: 75%;
   }
   .home {
     width: 100%;
@@ -503,7 +503,7 @@ html {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 730px) {
   .section_2 .image img {
     width: 20rem;
   }

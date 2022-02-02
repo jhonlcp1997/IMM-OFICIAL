@@ -443,7 +443,7 @@ $gray3: #999999;
 // *en esta media se desaparecen los puntitos
 @media (max-width: 975px) {
     html {
-        font-size: 80%;
+        font-size: 75%;
     }
 
     .home {
@@ -523,7 +523,7 @@ $gray3: #999999;
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 730px) {
     .section_2 {
         .image {
             img {
