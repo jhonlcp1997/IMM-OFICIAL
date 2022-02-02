@@ -443,7 +443,7 @@ $gray3: #999999;
 // *en esta media se desaparecen los puntitos
 @media (max-width: 975px) {
     html {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     .home {
@@ -523,7 +523,7 @@ $gray3: #999999;
     }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 770px) {
     .section_2 {
         .image {
             img {
@@ -606,7 +606,7 @@ $gray3: #999999;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .home {
         .home-box {
             .home__div1 {
@@ -675,7 +675,7 @@ $gray3: #999999;
     }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 310px) {
     .dinamic {
         .content-dinamic {
             height: 45rem;

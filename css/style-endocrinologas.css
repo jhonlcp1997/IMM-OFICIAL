@@ -444,7 +444,7 @@ html {
 
 @media (max-width: 975px) {
   html {
-    font-size: 70%;
+    font-size: 80%;
   }
   .home {
     width: 100%;
@@ -503,7 +503,7 @@ html {
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 770px) {
   .section_2 .image img {
     width: 20rem;
   }
@@ -565,7 +565,7 @@ html {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .home .home-box .home__div1 {
     padding: 1rem 2rem;
   }
@@ -609,7 +609,7 @@ html {
   }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 310px) {
   .dinamic .content-dinamic {
     height: 45rem;
   }
