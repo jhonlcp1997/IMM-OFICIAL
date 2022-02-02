@@ -603,6 +603,7 @@ html {
     height: 28rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
+    padding: .8rem 1rem;
     height: 9.5rem;
     font-size: .9rem;
   }
