@@ -38,7 +38,7 @@ function img_slides() {
 
 // *Aqui se quita el mecanismo con un media queri max-width: 675px
 // Todo: El problema que con el devtools de google no lo puedo regresar cuando cambio los width
-if(window.matchMedia("(max-width: 675px)").matches) {
+if(window.matchMedia("(max-width: 730px)").matches) {
     console.log("Entro aqui")
     
 } else{

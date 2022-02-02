@@ -593,17 +593,17 @@ html {
     height: 2.1rem;
   }
   .dinamic .content-dinamic {
-    height: 48rem;
+    height: 47rem;
   }
   .dinamic .content-dinamic .dinamic-content {
     gap: 1rem;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
-    width: 22rem;
-    height: 31rem;
+    width: 19rem;
+    height: 28rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
-    height: 8.7rem;
+    height: 9.5rem;
     font-size: .9rem;
   }
   .footer p {
