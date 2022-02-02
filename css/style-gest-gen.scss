@@ -290,7 +290,7 @@ $azul: #007cc3;
         display: flex;
         flex-wrap: wrap;
         width: 95%;
-        max-width: 75rem;
+        max-width: 80rem;
         color: #666;
         position: relative;
         top: 10rem;
@@ -298,7 +298,7 @@ $azul: #007cc3;
         div{
             margin: auto;
             // height: 25rem;
-            width: 30rem;
+            width: 35rem;
             background-color: #fff;
             align-items: center;
             // justify-content: space-around;
@@ -312,16 +312,16 @@ $azul: #007cc3;
         }
 
         .vacio-boxes_1{
-            height: 20rem;
+            height: 22rem;
             display: inline;
             // border-bottom: 1px solid #666;
             margin-top: 2rem;
             padding: 4rem 0rem;
             box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
             
-            div{
+            .vacio-boxes_1-div1 {
                 display: flex;
-                padding: 0 1rem;
+                padding: 0 3rem;
 
                 img{
                     height: 5rem;
@@ -341,12 +341,12 @@ $azul: #007cc3;
             }
 
             p{
-                padding: 2.5rem;
+                padding: 2rem 4rem;
             }
         }
 
         .vacio-boxes_2{
-            height: 15rem;
+            height: 17rem;
             margin-top: 2rem;
             display: flex;
             // border-bottom: 1px solid #666;
@@ -1223,7 +1223,32 @@ $azul: #007cc3;
 
 }
 
-@media (max-width:340px){
+@media (max-width:330px){
 
+    .vacio{
+
+        .vacio-div1{
+
+            div{
+                // height: auto;
+                width: 100%;
+
+                p{
+                    padding: .5rem;
+                }
+            }
+
+            .vacio-boxes_1{
+
+                .vacio-boxes_1-div1{
+                    padding: 0 2rem;
+                }
+
+                p{
+                    padding: 2rem;
+                }
+            }
+        }
+    }
 
 }

@@ -292,7 +292,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 95%;
-  max-width: 75rem;
+  max-width: 80rem;
   color: #666;
   position: relative;
   top: 10rem;
@@ -300,7 +300,7 @@ a {
 
 .vacio .vacio-div1 div {
   margin: auto;
-  width: 30rem;
+  width: 35rem;
   background-color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -313,7 +313,7 @@ a {
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 {
-  height: 20rem;
+  height: 22rem;
   display: inline;
   margin-top: 2rem;
   padding: 4rem 0rem;
@@ -321,33 +321,33 @@ a {
           box-shadow: -3rem 2rem 10px -10px #cccbcb;
 }
 
-.vacio .vacio-div1 .vacio-boxes_1 div {
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 
-.vacio .vacio-div1 .vacio-boxes_1 div img {
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
   height: 5rem;
 }
 
-.vacio .vacio-div1 .vacio-boxes_1 div div {
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 div {
   display: inline;
 }
 
-.vacio .vacio-div1 .vacio-boxes_1 div h3 {
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #007cc3;
   font-size: 1.7rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 p {
-  padding: 2.5rem;
+  padding: 2rem 4rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_2 {
-  height: 15rem;
+  height: 17rem;
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1006,6 +1006,21 @@ a {
   }
   .header div .header-general .navbar-opciones-phone ul li a {
     margin: 0 .5rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .vacio .vacio-div1 div {
+    width: 100%;
+  }
+  .vacio .vacio-div1 div p {
+    padding: .5rem;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
+    padding: 0 2rem;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1 p {
+    padding: 2rem;
   }
 }
 /*# sourceMappingURL=style-gest-gen.css.map */
