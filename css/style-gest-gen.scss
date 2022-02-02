@@ -290,24 +290,61 @@ $azul: #007cc3;
         font-family: "Poppins", sans-serif;
         // display: inline-block;
         // flex-wrap: wrap;
-        align-items: initial;
+        // align-items: initial;
+        width: 500px;
+        display: flex;
+        overflow: hidden;
+        margin: auto;
 
         
-        div{
-            align-items:flex-start;
-            vertical-align: top;
-            display: inline-block;
-            width: 50rem;
-            // height: 22rem;
+        .slider-contenedor{
+            display: flex;
+            width: 500px;
 
-            p { 
-                color: #444;
-                font-size: 1.5rem;
-                opacity: 0.8;
-                text-align: center;
-                margin: 1.5rem 9%;
+            .characteres_all{
+                // align-items:flex-start;
+                position: relative;
+                vertical-align: top;
+                display: inline-block;
+                width: 500px;
+                // height: 22rem;
+                justify-content: space-around;
+                flex-shrink: 0;
+    
+                p { 
+                    color: #444;
+                    font-size: 1.5rem;
+                    opacity: 0.8;
+                    text-align: center;
+                    margin: 1.5rem 9%;
+                }
+    
             }
+        }
+    }
 
+    .points{
+        display: flex;
+        justify-content: center;
+
+        .pt{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50px;
+            background-color: rgba(7, 17, 27, 0.2);
+            margin-right: 8px;
+            line-height: 12px;
+            // box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+            cursor: pointer;
+
+            &.active {
+                // box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+                width: 70px;
+                transition: all .2s linear;
+                // background: #007cc3;
+            }
+            
         }
     }
 }
@@ -1171,11 +1208,14 @@ $azul: #007cc3;
             }
 
         .import-nav{
+            width: 100%;
 
-            
+            .slider-contenedor{
+                width: 100%;
 
-            div{
-                width: auto;
+                .characteres_all{
+                    width: 100%;
+                }
             }
         }
     }

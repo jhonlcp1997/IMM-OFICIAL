@@ -283,26 +283,64 @@ a {
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
-  -webkit-box-align: initial;
-      -ms-flex-align: initial;
-          align-items: initial;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
 }
 
-.importante .import-nav div {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+.importante .import-nav .slider-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+}
+
+.importante .import-nav .slider-contenedor .characteres_all {
+  position: relative;
   vertical-align: top;
   display: inline-block;
-  width: 50rem;
+  width: 500px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
-.importante .import-nav div p {
+.importante .import-nav .slider-contenedor .characteres_all p {
   color: #444;
   font-size: 1.5rem;
   opacity: 0.8;
   text-align: center;
   margin: 1.5rem 9%;
+}
+
+.importante .points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.importante .points .pt {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background-color: rgba(7, 17, 27, 0.2);
+  margin-right: 8px;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+.importante .points .pt.active {
+  width: 70px;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .ofrecemos {
@@ -964,8 +1002,14 @@ a {
   .importante h2 {
     font-size: 2rem;
   }
-  .importante .import-nav div {
-    width: auto;
+  .importante .import-nav {
+    width: 100%;
+  }
+  .importante .import-nav .slider-contenedor {
+    width: 100%;
+  }
+  .importante .import-nav .slider-contenedor .characteres_all {
+    width: 100%;
   }
   .ofrecemos .ofrecemos-box1 {
     height: auto;
