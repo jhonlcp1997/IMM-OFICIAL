@@ -274,11 +274,15 @@ $azul: #007cc3;
     opacity: 1;
     z-index: 0;
     // padding: 0 15%;
+    font-family: "Poppins", sans-serif;
 
     .vacio-h2{
         display: flex;
         justify-content: center;
         color: $pink3;
+        font-size: 2.5rem;
+        position: relative;
+        top: 10rem;
     }
 
     .vacio-div1 {
@@ -287,36 +291,71 @@ $azul: #007cc3;
         flex-wrap: wrap;
         width: 95%;
         max-width: 75rem;
+        color: #666;
+        position: relative;
+        top: 10rem;
 
         div{
             margin: auto;
             // height: 25rem;
             width: 30rem;
             background-color: #fff;
+            align-items: center;
             // justify-content: space-around;
             // display: flex;
             
+            
+            p{
+                padding: 1rem;
+                font-size: 1.3rem;
+            }
         }
 
         .vacio-boxes_1{
-            height: 15rem;
+            height: 20rem;
             display: inline;
-            border-bottom: 1px solid #666;
-            margin-top: 1rem;
+            // border-bottom: 1px solid #666;
+            margin-top: 2rem;
+            padding: 4rem 0rem;
+            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
             
             div{
                 display: flex;
+                padding: 0 1rem;
+
+                img{
+                    height: 5rem;
+                }
 
                 div{
                     display: inline;
+                    // padding: 1rem;
+
                 }
+
+                h3{
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                    color: $azul;
+                    font-size: 1.7rem;
+                }
+            }
+
+            p{
+                padding: 2.5rem;
             }
         }
 
         .vacio-boxes_2{
-            margin-top: 1rem;
+            height: 15rem;
+            margin-top: 2rem;
             display: flex;
-            border-bottom: 1px solid #666;
+            // border-bottom: 1px solid #666;
+            padding: 1rem;
+            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
+
+            img{
+                 height: 5rem;
+            }
         }
 
         // .vacio-boxes_2{
@@ -420,7 +459,7 @@ $azul: #007cc3;
         width: 90%;
         height: 38rem;
         box-shadow: -3rem 0 80px -40px #777;
-        bottom: -0rem;
+        bottom: -10rem;
         z-index: 10;
 
         &::before {

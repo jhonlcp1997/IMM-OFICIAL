@@ -268,6 +268,7 @@ a {
   background: #eee;
   opacity: 1;
   z-index: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .vacio .vacio-h2 {
@@ -278,6 +279,9 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   color: #F173AC;
+  font-size: 2.5rem;
+  position: relative;
+  top: 10rem;
 }
 
 .vacio .vacio-div1 {
@@ -289,37 +293,72 @@ a {
       flex-wrap: wrap;
   width: 95%;
   max-width: 75rem;
+  color: #666;
+  position: relative;
+  top: 10rem;
 }
 
 .vacio .vacio-div1 div {
   margin: auto;
   width: 30rem;
   background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vacio .vacio-div1 div p {
+  padding: 1rem;
+  font-size: 1.3rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 {
-  height: 15rem;
+  height: 20rem;
   display: inline;
-  border-bottom: 1px solid #666;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  padding: 4rem 0rem;
+  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
+          box-shadow: -3rem 2rem 10px -10px #cccbcb;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 1rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 div img {
+  height: 5rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 div div {
   display: inline;
 }
 
+.vacio .vacio-div1 .vacio-boxes_1 div h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #007cc3;
+  font-size: 1.7rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 p {
+  padding: 2.5rem;
+}
+
 .vacio .vacio-div1 .vacio-boxes_2 {
-  margin-top: 1rem;
+  height: 15rem;
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #666;
+  padding: 1rem;
+  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
+          box-shadow: -3rem 2rem 10px -10px #cccbcb;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2 img {
+  height: 5rem;
 }
 
 .importante {
@@ -410,7 +449,7 @@ a {
   height: 38rem;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
-  bottom: -0rem;
+  bottom: -10rem;
   z-index: 10;
 }
 
