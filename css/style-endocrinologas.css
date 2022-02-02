@@ -132,12 +132,13 @@ html {
 }
 
 .section_2 .content h3 {
+  font-size: 1.5rem;
   font-family: "Abel", sans-serif;
   color: #62bb46;
 }
 
 .section_2 .content span {
-  font-size: 0.8rem;
+  font-size: .9rem;
   color: #999999;
 }
 
@@ -161,10 +162,11 @@ html {
 .section_3 .content h3 {
   font-family: "Abel", sans-serif;
   color: #62bb46;
+  font-size: 1.5rem;
 }
 
 .section_3 .content span {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #999999;
 }
 
@@ -339,7 +341,7 @@ html {
 }
 
 .filosofy .span-text-footer {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 5rem;
   font-family: "Poppins", sans-serif;
   padding: 0rem 15%;

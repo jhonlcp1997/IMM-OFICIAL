@@ -132,12 +132,13 @@ $gray3: #999999;
         padding: 2rem 10rem 2rem 2rem;
 
         h3 {
+            font-size: 1.5rem;
             font-family: "Abel", sans-serif;
             color: $green2;
         }
 
         span {
-            font-size: 0.8rem;
+            font-size: .9rem;
             color: $gray3;
         }
     }
@@ -157,10 +158,11 @@ $gray3: #999999;
         h3 {
             font-family: "Abel", sans-serif;
             color: $green2;
+            font-size: 1.5rem;
         }
 
         span {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             color: $gray3;
         }
 
@@ -324,7 +326,7 @@ $gray3: #999999;
     }
 
     .span-text-footer {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-top: 5rem;
         // height: auto;
         font-family: "Poppins", sans-serif;
