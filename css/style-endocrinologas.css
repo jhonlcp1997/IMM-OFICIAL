@@ -584,6 +584,9 @@ html {
   .filosofy {
     padding: 3rem 1%;
   }
+  .section_final .section_final-contenedor {
+    padding: 4rem 2rem 0 2rem;
+  }
   .section_final .section_final-contenedor div {
     margin: 1rem auto;
     padding-top: 0.4rem;
