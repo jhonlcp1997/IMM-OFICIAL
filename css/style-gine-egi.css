@@ -421,11 +421,15 @@ body {
 }
 
 .time-price .time-price_box1 div h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.7rem;
   color: #f173ac;
 }
 
 .time-price .time-price_box1 div p {
   font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  color: #777;
 }
 
 .time-price .time-price_box2 {
@@ -458,8 +462,14 @@ body {
   color: #fff;
 }
 
+.time-price .time-price_box2 div h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.7rem;
+}
+
 .time-price .time-price_box2 div p {
   font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
 }
 
 .info-date {
