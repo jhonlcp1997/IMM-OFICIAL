@@ -131,11 +131,6 @@ a {
   padding-left: 4.5rem;
 }
 
-.header div .header-general .header-center-right .module-2 {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #f173ac;
-}
-
 .header div .header-general .header-center-right a:focus {
   padding-bottom: 1rem;
   border-bottom: 1px solid #f173ac;
@@ -259,103 +254,6 @@ a {
   right: 50%;
 }
 
-.vacio {
-  background: #eee;
-  opacity: 1;
-  z-index: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-.vacio .vacio-h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #F173AC;
-  font-size: 2.5rem;
-  position: relative;
-  top: 10rem;
-}
-
-.vacio .vacio-div1 {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 95%;
-  max-width: 80rem;
-  color: #666;
-  position: relative;
-  top: 10rem;
-}
-
-.vacio .vacio-div1 div {
-  margin: auto;
-  width: 35rem;
-  background-color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.vacio .vacio-div1 div p {
-  padding: 1rem;
-  font-size: 1.3rem;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 {
-  height: 22rem;
-  display: inline;
-  margin-top: 2rem;
-  padding: 4rem 0rem;
-  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
-          box-shadow: -3rem 2rem 10px -10px #cccbcb;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 3rem;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
-  height: 5rem;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 div {
-  display: inline;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #007cc3;
-  font-size: 1.7rem;
-}
-
-.vacio .vacio-div1 .vacio-boxes_1 p {
-  padding: 2rem 4rem;
-}
-
-.vacio .vacio-div1 .vacio-boxes_2 {
-  height: 17rem;
-  margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1rem;
-  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
-          box-shadow: -3rem 2rem 10px -10px #cccbcb;
-}
-
-.vacio .vacio-div1 .vacio-boxes_2 img {
-  height: 5rem;
-}
-
 .importante {
   position: relative;
   text-align: center;
@@ -372,68 +270,21 @@ a {
 
 .importante .import-nav {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  font-family: "Poppins", sans-serif;
-  width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  margin: auto;
-}
-
-.importante .import-nav .slider-contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 500px;
-}
-
-.importante .import-nav .slider-contenedor .characteres_all {
-  position: relative;
-  vertical-align: top;
+  height: auto;
   display: inline-block;
-  width: 500px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
-.importante .import-nav .slider-contenedor .characteres_all p {
-  color: #444;
+.importante .import-nav div {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  width: 40rem;
+}
+
+.importante .import-nav div p {
   font-size: 1.5rem;
-  opacity: 0.8;
+  opacity: 0.6;
   text-align: center;
   margin: 1.5rem 9%;
-}
-
-.importante .points {
-  margin-top: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.importante .points .pt {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  background-color: rgba(7, 17, 27, 0.2);
-  margin-right: 8px;
-  line-height: 12px;
-  cursor: pointer;
-}
-
-.importante .points .pt.active {
-  width: 70px;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
 }
 
 .importante .ofrecemos-box1 {
@@ -507,6 +358,103 @@ a {
   z-index: 100;
   top: -4rem;
   right: 0rem;
+}
+
+.vacio {
+  background: #eee;
+  opacity: 1;
+  z-index: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.vacio .vacio-h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #F173AC;
+  font-size: 2.5rem;
+  position: relative;
+  top: 10rem;
+}
+
+.vacio .vacio-div1 {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+  max-width: 80rem;
+  color: #666;
+  position: relative;
+  top: 10rem;
+}
+
+.vacio .vacio-div1 div {
+  margin: auto;
+  width: 35rem;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vacio .vacio-div1 div p {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 {
+  height: 27rem;
+  display: inline;
+  margin-top: 2rem;
+  padding: 6% 0rem;
+  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
+          box-shadow: -3rem 2rem 10px -10px #cccbcb;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 3rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
+  height: 5rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 div {
+  display: inline;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #007cc3;
+  font-size: 1.7rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1 p {
+  padding: 2rem 4rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2 {
+  height: 17rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
+          box-shadow: -3rem 2rem 10px -10px #cccbcb;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2 img {
+  height: 5rem;
 }
 
 .ofrecemos {
@@ -962,13 +910,7 @@ a {
   .importante h2 {
     font-size: 2rem;
   }
-  .importante .import-nav {
-    width: 100%;
-  }
-  .importante .import-nav .slider-contenedor {
-    width: 100%;
-  }
-  .importante .import-nav .slider-contenedor .characteres_all {
+  .importante .import-nav div {
     width: 100%;
   }
   .importante .ofrecemos-box1 {
@@ -988,6 +930,9 @@ a {
   }
   .importante .ofrecemos-box1 .img-fondo {
     display: none;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1 {
+    padding: 4rem 0;
   }
 }
 
