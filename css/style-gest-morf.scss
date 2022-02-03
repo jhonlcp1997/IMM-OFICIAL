@@ -413,34 +413,25 @@ $azul: #007cc3;
         position: relative;
         top: 10rem;
 
-        div{
-            margin: auto;
-            // height: 25rem;
-            width: 35rem;
-            background-color: #fff;
-            align-items: center;
-            // justify-content: space-around;
-            // display: flex;
-            
-            
-            p{
-                padding: 1rem;
-                font-size: 1.3rem;
-            }
-        }
-
         .vacio-boxes_1{
             height: 28rem;
             display: inline;
             // border-bottom: 1px solid #666;
-            margin-top: 2rem;
+            // margin-top: 2rem;
             padding: 5.5% 0rem;
             box-shadow: -3rem 2rem 30px -10px rgb(204, 203, 203);
-            
+            margin: 1rem auto;
+            // height: 25rem;
+            width: 35rem;
+            background-color: #fff;
+            // align-items: center;
+            // justify-content: space-around;
+            // display: flex;
             
             .vacio-boxes_1-div1 {
                 display: flex;
                 padding: 0 3rem;
+                align-items: center;
 
                 img{
                     height: 5rem;
@@ -461,6 +452,7 @@ $azul: #007cc3;
 
             p{
                 padding: 2rem 4rem;
+                font-size: 1.3rem;
             }
 
             &.div1{

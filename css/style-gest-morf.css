@@ -395,27 +395,15 @@ a {
   top: 10rem;
 }
 
-.vacio .vacio-div1 div {
-  margin: auto;
-  width: 35rem;
-  background-color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.vacio .vacio-div1 div p {
-  padding: 1rem;
-  font-size: 1.3rem;
-}
-
 .vacio .vacio-div1 .vacio-boxes_1 {
   height: 28rem;
   display: inline;
-  margin-top: 2rem;
   padding: 5.5% 0rem;
   -webkit-box-shadow: -3rem 2rem 30px -10px #cccbcb;
           box-shadow: -3rem 2rem 30px -10px #cccbcb;
+  margin: 1rem auto;
+  width: 35rem;
+  background-color: #fff;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
@@ -423,6 +411,9 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding: 0 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
@@ -441,6 +432,7 @@ a {
 
 .vacio .vacio-div1 .vacio-boxes_1 p {
   padding: 2rem 4rem;
+  font-size: 1.3rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div1 {
