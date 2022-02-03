@@ -457,10 +457,18 @@ $azul: #007cc3;
 
             &.div1{
                 z-index: 2;
+
+                &.medium{
+                    padding: 7rem 0rem;
+                }
             }
 
             &.div2{
                 z-index: 1;
+
+                &.medium{
+                    padding: 7rem 0rem;
+                }
             }
         }
 
