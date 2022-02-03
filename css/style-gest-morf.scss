@@ -430,12 +430,13 @@ $azul: #007cc3;
         }
 
         .vacio-boxes_1{
-            height: 27rem;
+            height: 28rem;
             display: inline;
             // border-bottom: 1px solid #666;
             margin-top: 2rem;
-            padding: 6% 0rem;
-            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
+            padding: 5.5% 0rem;
+            box-shadow: -3rem 2rem 30px -10px rgb(204, 203, 203);
+            
             
             .vacio-boxes_1-div1 {
                 display: flex;
@@ -454,22 +455,69 @@ $azul: #007cc3;
                 h3{
                     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
                     color: $azul;
-                    font-size: 1.9rem;
+                    font-size: 1.8rem;
                 }
             }
 
             p{
                 padding: 2rem 4rem;
             }
+
+            &.div1{
+                z-index: 2;
+            }
+
+            &.div2{
+                z-index: 1;
+            }
         }
 
+
+    }
+
+    .vacio-div2{
+        margin: 2rem auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        max-width: 100rem;
+        color: #666;
+        position: relative;
+        top: 10rem;
+
         .vacio-boxes_2{
-            height: 17rem;
-            margin-top: 2rem;
+            width: 32rem;
+            height: 19rem;
+            // margin-top: 2rem;
             display: flex;
             // border-bottom: 1px solid #666;
-            padding: 1rem;
-            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
+            padding: 1.5rem;
+            box-shadow: -3rem 2rem 30px -10px rgb(204, 203, 203);
+
+            margin: 1rem auto;
+            // height: 25rem;
+            // width: 35rem;
+            background-color: #fff;
+            align-items: center;
+            // justify-content: space-around;
+            // display: flex;
+            
+            &.div1{
+                z-index: 3;
+            }
+
+            &.div2{
+                z-index: 2;
+            }
+
+            &.div3{
+                z-index: 1;
+            }
+            
+            p{
+                // padding: 1rem;
+                font-size: 1.3rem;
+            }
 
             img{
                  height: 5rem;

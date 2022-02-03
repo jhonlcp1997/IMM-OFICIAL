@@ -410,12 +410,12 @@ a {
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 {
-  height: 27rem;
+  height: 28rem;
   display: inline;
   margin-top: 2rem;
-  padding: 6% 0rem;
-  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
-          box-shadow: -3rem 2rem 10px -10px #cccbcb;
+  padding: 5.5% 0rem;
+  -webkit-box-shadow: -3rem 2rem 30px -10px #cccbcb;
+          box-shadow: -3rem 2rem 30px -10px #cccbcb;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
@@ -436,25 +436,68 @@ a {
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #007cc3;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 p {
   padding: 2rem 4rem;
 }
 
-.vacio .vacio-div1 .vacio-boxes_2 {
-  height: 17rem;
-  margin-top: 2rem;
+.vacio .vacio-div1 .vacio-boxes_1.div1 {
+  z-index: 2;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div2 {
+  z-index: 1;
+}
+
+.vacio .vacio-div2 {
+  margin: 2rem auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  -webkit-box-shadow: -3rem 2rem 10px -10px #cccbcb;
-          box-shadow: -3rem 2rem 10px -10px #cccbcb;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+  max-width: 100rem;
+  color: #666;
+  position: relative;
+  top: 10rem;
 }
 
-.vacio .vacio-div1 .vacio-boxes_2 img {
+.vacio .vacio-div2 .vacio-boxes_2 {
+  width: 32rem;
+  height: 19rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem;
+  -webkit-box-shadow: -3rem 2rem 30px -10px #cccbcb;
+          box-shadow: -3rem 2rem 30px -10px #cccbcb;
+  margin: 1rem auto;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vacio .vacio-div2 .vacio-boxes_2.div1 {
+  z-index: 3;
+}
+
+.vacio .vacio-div2 .vacio-boxes_2.div2 {
+  z-index: 2;
+}
+
+.vacio .vacio-div2 .vacio-boxes_2.div3 {
+  z-index: 1;
+}
+
+.vacio .vacio-div2 .vacio-boxes_2 p {
+  font-size: 1.3rem;
+}
+
+.vacio .vacio-div2 .vacio-boxes_2 img {
   height: 5rem;
 }
 
