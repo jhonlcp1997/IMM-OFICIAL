@@ -289,13 +289,14 @@ $azul: #007cc3;
         display: inline-block;
 
         div {
+            vertical-align: top;
             font-family: "Poppins", sans-serif;
             display: inline-block;
-            width: 40rem;
+            width: 37rem;
 
             p {
                 font-size: 1.5rem;
-                opacity: 0.6;
+                opacity: 0.8;
                 text-align: center;
                 margin: 1.5rem 9%;
             }
@@ -453,7 +454,7 @@ $azul: #007cc3;
                 h3{
                     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
                     color: $azul;
-                    font-size: 1.7rem;
+                    font-size: 1.9rem;
                 }
             }
 
