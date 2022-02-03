@@ -563,6 +563,10 @@ a {
   text-align: left;
 }
 
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
+  font-family: "Abel", sans-serif;
+}
+
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
   opacity: .7;
   font-size: 1.3rem;
