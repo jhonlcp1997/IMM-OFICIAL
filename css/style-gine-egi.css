@@ -331,12 +331,12 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
           flex: 1 1 50rem;
-  height: 31rem;
+  height: 33rem;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor {
   width: 630px;
-  height: 310px;
+  height: 330px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,7 +346,7 @@ body {
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
   width: 630px;
-  height: 310px;
+  height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,6 +365,7 @@ body {
       flex-shrink: 0;
   padding: 2rem 1.5rem;
   background: #fff;
+  top: 15px;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {

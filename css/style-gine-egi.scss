@@ -330,13 +330,13 @@ body {
 
     .characteres-center_rigth {
         flex: 1 1 50rem;
-        height: 31rem;
+        height: 33rem;
         // display: flex;
         // text-align: center;
 
         .slider-contenedor {
             width: 630px;
-            height: 310px;
+            height: 330px;
             position: relative;
             display: flex;
             overflow: hidden;
@@ -346,7 +346,7 @@ body {
 
             .slider-contenedor2 {
                 width: 630px;
-                height: 310px;
+                height: 330px;
                 display: flex;
                 gap: 10px;
 
@@ -360,6 +360,7 @@ body {
                     flex-shrink: 0;
                     padding: 2rem 1.5rem;
                     background: $white;
+                    top: 15px;
                     // flex-direction: column-reverse;
 
                     img {
@@ -371,6 +372,7 @@ body {
                     }
 
                     div {
+
                         h3 {
                             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
                             // font-family: "Abel", sans-serif;
