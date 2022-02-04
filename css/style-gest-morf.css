@@ -851,6 +851,9 @@ a {
     position: relative;
     top: -4.5rem;
   }
+  .importante .ofrecemos-box1 div ul h2 {
+    padding-bottom: 1rem;
+  }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
   }

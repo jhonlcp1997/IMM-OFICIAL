@@ -341,6 +341,22 @@ a {
   padding: 2rem 4rem;
 }
 
+.vacio .vacio-div1 .vacio-boxes_1.div1 {
+  z-index: 2;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div1.medium {
+  padding: 6.5rem 0rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div2 {
+  z-index: 1;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div2.medium {
+  padding: 6.5rem 0rem;
+}
+
 .vacio .vacio-div1 .vacio-boxes_2 {
   height: 17rem;
   margin-top: 2rem;
@@ -354,6 +370,18 @@ a {
 
 .vacio .vacio-div1 .vacio-boxes_2 img {
   height: 5rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2.div1 {
+  z-index: 3;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2.div2 {
+  z-index: 2;
+}
+
+.vacio .vacio-div1 .vacio-boxes_2.div3 {
+  z-index: 1;
 }
 
 .importante {
@@ -857,6 +885,9 @@ a {
   .importante .ofrecemos-box1 div ul {
     position: relative;
     top: -4.5rem;
+  }
+  .importante .ofrecemos-box1 div ul h2 {
+    padding-bottom: 1rem;
   }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;

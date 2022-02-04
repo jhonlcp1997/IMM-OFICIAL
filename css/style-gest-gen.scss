@@ -345,6 +345,22 @@ $azul: #007cc3;
             p{
                 padding: 2rem 4rem;
             }
+
+            &.div1{
+                z-index: 2;
+
+                &.medium{
+                    padding: 6.5rem 0rem;
+                }
+            }
+
+            &.div2{
+                z-index: 1;
+
+                &.medium{
+                    padding: 6.5rem 0rem;
+                }
+            }
         }
 
         .vacio-boxes_2{
@@ -357,6 +373,18 @@ $azul: #007cc3;
 
             img{
                  height: 5rem;
+            }
+
+            &.div1{
+                z-index: 3;
+            }
+
+            &.div2{
+                z-index: 2;
+            }
+
+            &.div3{
+                z-index: 1;
             }
         }
 
@@ -985,6 +1013,10 @@ $azul: #007cc3;
                     // padding: 0 3rem;
                     // padding-top: 0;
                     top:-4.5rem;
+
+                    h2{
+                        padding-bottom: 1rem;
+                    }
 
                     li{
                         p{
