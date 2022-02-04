@@ -424,6 +424,7 @@ html {
 }
 
 .footer p {
+  font-family: "Poppins", sans-serif;
   padding-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -450,7 +451,7 @@ html {
     width: 100%;
   }
   .home .home-box .home__div1 {
-    padding: 1rem 5rem;
+    padding: 1rem 30rem 1rem 5rem;
     width: 100%;
   }
   .home .home-box .home__div2 {
@@ -458,7 +459,8 @@ html {
   }
   .home .home-box .home__div3 {
     top: 8.2rem;
-    opacity: 0.2;
+    opacity: 0.9;
+    right: 10rem;
   }
   .home .home-box .home__div3 img {
     width: 20rem;
@@ -504,6 +506,15 @@ html {
 }
 
 @media (max-width: 730px) {
+  .home .home-box .home__div1 {
+    padding: 1rem 45% 8.1rem 2rem;
+  }
+  .home .home-box .home__div1 div p b {
+    font-size: 2.4rem;
+  }
+  .home .home-box .home__div3 {
+    right: 2rem;
+  }
   .section_2 .image img {
     width: 20rem;
   }
@@ -547,13 +558,14 @@ html {
   }
   .dinamic .content-dinamic .dinamic-content div span {
     height: 8.5rem;
-    background-color: #eeeeee;
+    background-color: #fff;
     padding: 1rem;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    text-align: center;
   }
   .dinamic .content-dinamic .dinamic-content .last_hidden {
     display: none;
@@ -575,6 +587,16 @@ html {
     width: 14rem;
     padding-top: .6rem;
     height: 2.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .home .home-box .home__div3 {
+    top: 10.8rem;
+    right: 0rem;
+  }
+  .home .home-box .home__div3 .ofrecemos-box3_img {
+    width: 18rem;
   }
 }
 

@@ -414,6 +414,7 @@ $gray3: #999999;
     height: 5rem;
 
     p {
+        font-family: "Poppins", sans-serif;
         padding-top: 2rem;
         display: flex;
         font-size: 0.5rem;
@@ -451,7 +452,7 @@ $gray3: #999999;
 
         .home-box {
             .home__div1 {
-                padding: 1rem 5rem;
+                padding: 1rem 30rem 1rem 5rem;
                 width: 100%;
             }
 
@@ -461,8 +462,9 @@ $gray3: #999999;
 
             .home__div3 {
                 top: 8.2rem;
-                opacity: 0.2;
+                opacity: 0.9;
                 // display: none;
+                right: 10rem;
                 img {
                     width: 20rem;
                 }
@@ -524,6 +526,30 @@ $gray3: #999999;
 }
 
 @media (max-width: 730px) {
+
+    .home{
+
+        .home-box{
+            .home__div1{
+                padding: 1rem 45% 8.1rem 2rem;
+
+                div{
+
+                    p{
+                        b{
+                            font-size: 2.4rem;
+                        }
+                    }
+                }
+
+            }
+
+            .home__div3{
+                right: 2rem;
+            }
+        }
+    }
+
     .section_2 {
         .image {
             img {
@@ -587,11 +613,12 @@ $gray3: #999999;
                     span {
                         height: 8.5rem;
                         // border-radius: 0px 0px 15px 15px;
-                        background-color: #eeeeee;
+                        background-color: #fff;
                         padding: 1rem;
                         font-family: "Poppins", sans-serif;
                         font-size: 1rem;
                         display: flex;
+                        text-align: center;
                     }
                 }
 
@@ -624,6 +651,20 @@ $gray3: #999999;
                 width: 14rem;
                 padding-top: .6rem;
                 height: 2.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .home{
+        .home-box{
+            .home__div3{
+                top: 10.8rem;
+                right: 0rem;
+                .ofrecemos-box3_img{
+                    width: 18rem;
+                }
             }
         }
     }
