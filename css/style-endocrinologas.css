@@ -561,7 +561,8 @@ html {
   }
   .dinamic .content-dinamic .dinamic-content div span {
     height: 8.5rem;
-    background-color: #fff;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #eeeeee;
     padding: 1rem;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
