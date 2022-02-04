@@ -429,17 +429,20 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   color: #999999;
   margin: 0 20%;
+}
+
+@media (max-width: 1250px) {
+  .section_final .section_final-contenedor {
+    margin: 0rem 15% 0 auto;
+  }
 }
 
 @media (max-width: 1100px) {
   .home .home-box .point2 {
     display: none;
-  }
-  .section_final .section_final-contenedor {
-    margin: 0rem 15% 0 auto;
   }
 }
 
