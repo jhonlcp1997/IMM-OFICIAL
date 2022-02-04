@@ -532,7 +532,7 @@ html {
     width: 20rem;
   }
   .dinamic {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
   .dinamic .content-content {
     display: none;
@@ -630,8 +630,12 @@ html {
   .section_final .section_final-contenedor div {
     margin: 1rem auto;
   }
+  .dinamic {
+    margin-bottom: 1rem;
+  }
   .dinamic .content-dinamic {
     height: 47rem;
+    padding-top: 5rem;
   }
   .dinamic .content-dinamic .dinamic-content {
     gap: 1rem;

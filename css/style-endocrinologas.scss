@@ -579,7 +579,7 @@ $gray3: #999999;
     }
 
     .dinamic {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
 
         .content-content {
             display: none;
@@ -727,8 +727,11 @@ $gray3: #999999;
     }
 
     .dinamic {
+        margin-bottom: 1rem;
+
         .content-dinamic {
             height: 47rem;
+            padding-top: 5rem;
 
             .dinamic-content {
                 gap: 1rem;
