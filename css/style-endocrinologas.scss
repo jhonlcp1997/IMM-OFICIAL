@@ -118,10 +118,13 @@ $gray3: #999999;
     font-family: "Poppins", sans-serif;
 
     .image {
+        // box-shadow: 0 0 20px 20px white inset;    
+
         img {
             position: relative;
             top: 5rem;
             width: 30rem;
+            
         }
     }
 
