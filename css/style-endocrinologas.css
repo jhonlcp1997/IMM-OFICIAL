@@ -542,13 +542,11 @@ html {
     display: inline;
   }
   .dinamic .content-dinamic .dinamic-content div .img-dinamic {
-    border-radius: 15px 15px 0px 0px;
     width: 26.5rem;
     height: 38rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
     height: 8.5rem;
-    border-radius: 0px 0px 15px 15px;
     background-color: #eeeeee;
     padding: 1rem;
     font-family: "Poppins", sans-serif;
