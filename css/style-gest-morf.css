@@ -150,7 +150,7 @@ a {
   height: 45rem;
   background: #007cc3;
   z-index: 1;
-  padding: 3rem 17%;
+  padding: 3rem 18%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -200,7 +200,6 @@ a {
   font-family: "Abel", sans-serif;
   font-size: 3rem;
   text-align: left;
-  margin-right: 10rem;
 }
 
 .menu .menu-nav1 .menu-nav1-p2 {
@@ -221,6 +220,7 @@ a {
   text-align: center;
   background: #f173ac;
   border-radius: 15px;
+  margin-right: 33rem;
 }
 
 .menu .menu-nav1 div a {
