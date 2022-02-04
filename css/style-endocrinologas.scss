@@ -621,6 +621,7 @@ $gray3: #999999;
                         font-size: 1rem;
                         display: flex;
                         text-align: center;
+                        color: #888;
                     }
                 }
 
@@ -718,13 +719,13 @@ $gray3: #999999;
         .section_final-contenedor {
             padding: 4rem 2rem 0 2rem;
 
-            div {
+            // div {
                 
-                margin: 1rem auto;
+            //     margin: 1rem auto;
                 
-                // padding-top: 0.4rem;
-                // height: 2.1rem;
-            }
+            //     // padding-top: 0.4rem;
+            //     // height: 2.1rem;
+            // }
         }
     }
 
