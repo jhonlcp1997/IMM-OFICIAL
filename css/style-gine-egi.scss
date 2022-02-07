@@ -1016,3 +1016,53 @@ body {
         }
     }
 }
+
+@media(max-width:370px){
+    .header{
+        div{
+            padding: 0;
+            .header-general{
+                margin: 1rem;
+                .header-left{
+                    a{
+                        img{
+                            top: 1rem;
+                            width: 7rem;
+                        }
+                    }
+                }
+
+                .navbar-opciones-phone{
+                    ul{
+                        li{
+                            .gestacional{
+                                padding: .5rem 1rem;
+                            }
+
+                            a{
+                                margin:0 .5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .info-date{
+        padding: 1rem .5rem;
+
+        .info-date-container{
+            font-size: 1rem;
+            .info-contenido{
+                .contenido-body{
+                    div{
+                        p{
+                            padding: 0 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
