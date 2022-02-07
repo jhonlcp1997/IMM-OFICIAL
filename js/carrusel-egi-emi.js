@@ -8,6 +8,7 @@ let contador2 = 0;
 let width = sliderIndividual[0].clientWidth;
 let intervalo = 3000;
 let index = 0;
+console.log(width);
 
 // *probando con funcion onclick
 for(let d = 0; d<9; d++){
@@ -70,19 +71,20 @@ function slides() {
     if (contador > 7) {
         children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
         children[0].style.background = "#007cc3";
+
         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
         sliderIndividual[contador2].style["height"]="290px";
         sliderIndividual[contador2].style["top"]="15px";
 
 
-        sliderIndividual[0].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[0].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
         sliderIndividual[0].style["height"]="320px";
         sliderIndividual[0].style["top"]="0px";
 
     } else {
         // console.log(contador);
         // console.log(contador2);
-        sliderIndividual[contador].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
+        sliderIndividual[contador].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
         sliderIndividual[contador].style["height"]="320px";
         sliderIndividual[contador].style["top"]="0px";
 
