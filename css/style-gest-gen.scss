@@ -993,6 +993,10 @@ $azul: #007cc3;
         .menu-nav2 {
             display: none;
         }
+
+        .img-fondo{
+            display: none;
+        }
     }
 
     .importante{
@@ -1029,6 +1033,10 @@ $azul: #007cc3;
                     }                   
 
                 }
+                
+            }
+            .img-fondo{
+                display: none;
                 
             }
         }
@@ -1172,10 +1180,7 @@ $azul: #007cc3;
             }     
         }
 
-        .img-fondo{
-            display: none;
-            
-        }
+
     }
     
     .importante{

@@ -876,6 +876,9 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .menu .img-fondo {
+    display: none;
+  }
   .importante .ofrecemos-box1 {
     border-radius: 0px;
     width: auto;
@@ -899,6 +902,9 @@ a {
   }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
+  }
+  .importante .ofrecemos-box1 .img-fondo {
+    display: none;
   }
 }
 
@@ -998,9 +1004,6 @@ a {
     display: flex;
     margin: auto;
     width: 80%;
-  }
-  .menu .img-fondo {
-    display: none;
   }
   .importante h2 {
     font-size: 2rem;

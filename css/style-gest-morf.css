@@ -397,7 +397,7 @@ a {
   max-width: 80rem;
   color: #666;
   position: relative;
-  top: 10rem;
+  top: 11rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 {
@@ -837,6 +837,9 @@ a {
   .menu .menu-nav2 {
     display: none;
   }
+  .menu .img-fondo {
+    display: none;
+  }
   .importante .ofrecemos-box1 {
     border-radius: 0px;
     width: auto;
@@ -863,6 +866,9 @@ a {
   }
   .importante .ofrecemos-box1 div .ofrecemos-box1-antenatal {
     padding-top: 3rem;
+  }
+  .importante .ofrecemos-box1 .img-fondo {
+    display: none;
   }
 }
 
@@ -986,9 +992,6 @@ a {
   }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.3rem;
-  }
-  .importante .ofrecemos-box1 .img-fondo {
-    display: none;
   }
   .vacio .vacio-div1 .vacio-boxes_1 {
     padding: 4rem 0;

@@ -416,7 +416,7 @@ $azul: #007cc3;
         max-width: 80rem;
         color: #666;
         position: relative;
-        top: 10rem;
+        top: 11rem;
 
         .vacio-boxes_1{
             height: 28rem;
@@ -968,6 +968,10 @@ $azul: #007cc3;
         .menu-nav2 {
             display: none;
         }
+
+        .img-fondo{
+            display: none;
+        }
     }
 
     .importante{
@@ -1010,11 +1014,12 @@ $azul: #007cc3;
                 }
                 
             }
+             
+            .img-fondo{
+                display: none;
+            }
         }
     }
-
-
-
 }
 
 @media (max-width: 600px){
@@ -1194,10 +1199,7 @@ $azul: #007cc3;
                      }
                  }
              }
- 
-             .img-fondo{
-                 display: none;
-             }
+
          }
     }
 
