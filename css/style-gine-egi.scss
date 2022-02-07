@@ -177,8 +177,8 @@ body {
     height: 45rem;
     background: $azul;
     z-index: 1;
-    padding: 3rem 17%;
-    justify-content: space-between;
+    // padding: 3rem 17%;
+    
 
     &::before {
         z-index: 0;
@@ -195,64 +195,75 @@ body {
         opacity: 0.03;
     }
 
-    .home-nav1 {
-        // position: relative;
-        z-index: 10;
-        padding: 8rem 0;
-        text-align: left;
-        // vertical-align: middle;
+    .home_box{
+        // background-color: #bfbfbf;
+        width: 95%;
+        max-width: 120rem;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem ;
 
-        P {
-            // vertical-align: middle;
-            color: #fff;
-            font-family: "Abel", sans-serif;
+        .home-nav1 {
+            // position: relative;
+            z-index: 10;
+            padding: 8rem 3rem 8rem 0;
             text-align: left;
-            margin: 0.5rem 0;
-        }
-
-        .home-nav1-P_1 {
-            font-size: 3.2rem;
-        }
-
-        .home-nav1-P_2 {
-            font-size: 3.5rem;
-        }
-
-        div {
-            margin-top: 2.5rem;
-            padding-top: 0.5rem;
-            color: #fff;
-            width: 16.5rem;
-            height: 3.5rem;
-            align-content: center;
-            text-align: center;
-            background: #f173ac;
-            border-radius: 15px;
-
-            a {
-                font-family: "Abel", sans-serif;
-                // font-weight: bold;
+            // vertical-align: middle;
+    
+            P {
+                // vertical-align: middle;
                 color: #fff;
-                font-size: 1.5rem;
-                font-weight: 600;
-
-                i {
-                    position: relative;
-                    top: 2px;
-                    font-size: 2rem;
-                    margin-right: 1rem;
+                font-family: "Abel", sans-serif;
+                text-align: left;
+                margin: 0.5rem 0;
+            }
+    
+            .home-nav1-P_1 {
+                font-size: 3.2rem;
+            }
+    
+            .home-nav1-P_2 {
+                font-size: 3.5rem;
+            }
+    
+            div {
+                margin-top: 2.5rem;
+                padding-top: 0.5rem;
+                color: #fff;
+                width: 16.5rem;
+                height: 3.5rem;
+                align-content: center;
+                text-align: center;
+                background: #f173ac;
+                border-radius: 15px;
+    
+                a {
+                    font-family: "Abel", sans-serif;
+                    // font-weight: bold;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+    
+                    i {
+                        position: relative;
+                        top: 2px;
+                        font-size: 2rem;
+                        margin-right: 1rem;
+                    }
                 }
             }
         }
-    }
+    
+        .home-nav2 {
+            z-index: 10;
+            // text-align: right;
 
-    .home-nav2 {
-        z-index: 10;
-
-        img {
-            // border-radius: 15px;
-            box-shadow: $boxshadowG;
-            text-align: right;
+            img {
+                // border-radius: 15px;
+                box-shadow: $boxshadowG;
+                // text-align: right;
+            }
         }
     }
 }
@@ -649,14 +660,21 @@ body {
         }
     }
 
-    .home {
-        padding: 3rem 2rem;
+    .home{
         height: auto;
+        .home_box{
+            background-color: #bfbfbf;
 
-        .home-nav2 {
-            img {
-                width: 100%;
-                max-width: 60rem;
+            .home-nav2{
+                display: flex;
+                width: 50%;
+                align-items: center;
+                
+
+                img{
+                    width: 100%;
+
+                }
             }
         }
     }
@@ -675,6 +693,18 @@ body {
     .info-date {
         padding: 2rem 1rem;
         width: 100%;
+    }
+
+    .footer{
+        // width: 100%;
+        .ofrecemos-footer{
+            width: 100%;
+            padding: 0 2rem;
+            
+            .ofrecemos_footer_div1{
+                width: 100%;
+            }
+        }
     }
 }
 
