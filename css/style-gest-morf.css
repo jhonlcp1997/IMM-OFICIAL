@@ -336,13 +336,13 @@ a {
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
 }
 
 .importante .ofrecemos-box1 div ul h2 {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
-  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: #fff;
 }
 
@@ -353,6 +353,10 @@ a {
   color: #fff;
   padding-top: 0rem;
   font-weight: 100;
+}
+
+.importante .ofrecemos-box1 div .ofrecemos-box1-antenatal {
+  padding-top: 5rem;
 }
 
 .importante .ofrecemos-box1 .img-fondo .img-2 {
@@ -645,7 +649,7 @@ a {
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1067px) {
   .menu {
     padding: 3rem 5%;
     display: -webkit-box;
@@ -856,6 +860,9 @@ a {
   }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.7rem;
+  }
+  .importante .ofrecemos-box1 div .ofrecemos-box1-antenatal {
+    padding-top: 3rem;
   }
 }
 

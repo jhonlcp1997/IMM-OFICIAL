@@ -287,7 +287,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 95%;
-  max-width: 80rem;
+  max-width: 110rem;
   color: #666;
   position: relative;
   top: 10rem;
@@ -308,7 +308,7 @@ a {
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 {
-  height: 22rem;
+  height: 25rem;
   display: inline;
   margin-top: 2rem;
   padding: 4rem 0rem;
@@ -342,7 +342,7 @@ a {
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div1 {
-  z-index: 2;
+  z-index: 3;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div1.medium {
@@ -350,10 +350,18 @@ a {
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div2 {
-  z-index: 1;
+  z-index: 2;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div2.medium {
+  padding: 6.5rem 0rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div3 {
+  z-index: 1;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div3.medium {
   padding: 6.5rem 0rem;
 }
 

@@ -350,12 +350,13 @@ $azul: #007cc3;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
-                padding-top: 2.5rem;
+                padding-top: 3rem;
 
                 h2 {
                     font-family: "Abel", sans-serif;
                     font-size: 2.5rem;
-                    padding-top: 1.5rem;
+                    // padding-top: 1.5rem;
+                    padding-bottom: 1.5rem;
                     color: #fff;
                 }
 
@@ -370,6 +371,10 @@ $azul: #007cc3;
                         font-weight: 100;
                     }
                 }
+            }
+
+            .ofrecemos-box1-antenatal{
+                padding-top: 5rem;
             }
         }
 
@@ -698,7 +703,7 @@ $azul: #007cc3;
 }
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1067px) {
 
     .menu {
         padding: 3rem 5%;
@@ -998,6 +1003,10 @@ $azul: #007cc3;
                         }
                     }                   
 
+                }
+
+                .ofrecemos-box1-antenatal{
+                    padding-top: 3rem;
                 }
                 
             }
