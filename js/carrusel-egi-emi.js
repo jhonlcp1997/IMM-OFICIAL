@@ -12,9 +12,9 @@ console.log(width);
 
 // *probando con funcion onclick
 for(let d = 0; d<9; d++){
-    console.log("Hizo el for");
+    // console.log("Hizo el for");
     // puntos[d];
-    console.log("entro a el for");
+    // console.log("entro a el for");
     
 
     // puntos[d].onclick=function(){
@@ -119,4 +119,38 @@ function slides() {
 
 // *============= desplazamiento de flechas informacion antes, durante y despues
 
+let contenido_header  = document.querySelectorAll('.contenido-header');
+let contenido_body = document.querySelectorAll('.contenido-body');
 
+function toggleContent(){
+    console.log("Entro en el toggle");
+    
+    // let itemClass = contenido_header[2].className;
+    // console.log(itemClass);
+
+    for(let i =0; i <contenido_body.length; i++){
+        // contenido_body[i].className = 'contenido-body close';
+        // contenido_header[i].className = 'contenido-header close';
+
+        contenido_header[i].onclick=() =>{
+            if(contenido_header[i].className === 'contenido-header close'){
+                contenido_header[i].className = 'contenido-header open';
+                contenido_body[i].className = 'contenido-body open';
+            }else{
+                contenido_header[i].className = 'contenido-header close';
+                contenido_body[i].className = 'contenido-body close';
+            }
+        }
+    }
+
+    // if(itemClass === 'contenido-header close'){
+    //     contenido_header[2].className = 'contenido-header open';
+    //     contenido_body[2].className = 'contenido-body open';
+    //     console.log("aqui entro a las cosas de close");
+    // }
+}
+
+contenido_header.forEach((el) =>{
+    el.addEventListener('click',toggleContent)
+    console.log("Aqui entro a las cosas de forEach")
+})
