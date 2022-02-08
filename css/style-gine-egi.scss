@@ -808,7 +808,7 @@ body {
                                 }
                             }
 
-                            .ginecologia{
+                            .gestacional{
                                 color: #777;
                             }
 
@@ -910,7 +910,15 @@ body {
     .header{
         div{
             .header-general{
-                margin:1rem;
+                margin:1rem 0rem;
+
+                .header-left{
+                    a{
+                        img{
+                            width: 10rem;
+                        }
+                    }
+                }
             }
         }
     }

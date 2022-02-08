@@ -783,7 +783,7 @@ body {
   .header div .header-general .navbar-opciones-phone ul li .ginecologia:hover {
     letter-spacing: .1rem;
   }
-  .header div .header-general .navbar-opciones-phone ul li .ginecologia {
+  .header div .header-general .navbar-opciones-phone ul li .gestacional {
     color: #777;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
@@ -861,7 +861,10 @@ body {
     font-size: 55%;
   }
   .header div .header-general {
-    margin: 1rem;
+    margin: 1rem 0rem;
+  }
+  .header div .header-general .header-left a img {
+    width: 10rem;
   }
   .characteres .characteres-center_rigth .slider-contenedor {
     width: 420px;
