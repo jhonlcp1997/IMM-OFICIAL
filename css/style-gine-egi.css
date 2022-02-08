@@ -774,13 +774,13 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
-  .header div .header-general .navbar-opciones-phone ul li .gestacional {
+  .header div .header-general .navbar-opciones-phone ul li .ginecologia {
     padding: .5rem 2rem;
     background: #f173ac;
     color: #fff;
     cursor: pointer;
   }
-  .header div .header-general .navbar-opciones-phone ul li .gestacional:hover {
+  .header div .header-general .navbar-opciones-phone ul li .ginecologia:hover {
     letter-spacing: .1rem;
   }
   .header div .header-general .navbar-opciones-phone ul li .ginecologia {
