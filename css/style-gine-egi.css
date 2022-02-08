@@ -291,6 +291,7 @@ body {
   text-align: left;
   color: #007cc3;
   font-family: "Abel", sans-serif;
+  padding-bottom: 1rem;
 }
 
 .study .info1 div p {
@@ -1086,11 +1087,17 @@ body {
   .info-date .section__subtitle {
     font-size: 1.2rem;
   }
-  .info-date .info-date-container .info-contenido {
+  .info-date .info-date-container.active {
+    font-size: 1rem;
+  }
+  .info-date .info-date-container.active .info-contenido {
     margin: 1rem 1rem;
   }
-  .info-date .info-date-container .info-contenido .contenido-body div img {
+  .info-date .info-date-container.active .info-contenido .contenido-body div img {
     width: 7rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body.open {
+    height: 12rem;
   }
 }
 
@@ -1117,7 +1124,7 @@ body {
   .info-date .info-date-container {
     font-size: 1rem;
   }
-  .info-date .info-date-container .info-contenido .contenido-body div p {
+  .info-date .info-date-container.active .info-contenido .contenido-body div p {
     padding: 0 1rem;
   }
 }
