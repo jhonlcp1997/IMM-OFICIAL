@@ -6,9 +6,11 @@ let contador = 1;
 let contador2 = 0;
 // estas variables estarn porseacaso por que no se de ninguna de estas
 let width = sliderIndividual[0].clientWidth;
+let height = sliderIndividual[0].clientHeight;
 let intervalo = 3000;
 let index = 0;
 console.log(width);
+console.log(height);
 
 // *probando con funcion onclick
 for(let d = 0; d<9; d++){
@@ -54,6 +56,7 @@ for(let d = 0; d<9; d++){
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
+    height= sliderIndividual[0].clientHeight;
 })
 
 
@@ -73,23 +76,23 @@ function slides() {
         children[0].style.background = "#007cc3";
 
         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-        sliderIndividual[contador2].style["height"]="290px";
+        sliderIndividual[contador2].style["height"]= (height)+"px";
         sliderIndividual[contador2].style["top"]="15px";
 
 
         sliderIndividual[0].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
-        sliderIndividual[0].style["height"]="320px";
+        sliderIndividual[0].style["height"]= (height +30)+"px";
         sliderIndividual[0].style["top"]="0px";
 
     } else {
         // console.log(contador);
         // console.log(contador2);
         sliderIndividual[contador].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
-        sliderIndividual[contador].style["height"]="320px";
+        sliderIndividual[contador].style["height"]= (height +30)+"px";
         sliderIndividual[contador].style["top"]="0px";
 
         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-        sliderIndividual[contador2].style["height"]="290px";
+        sliderIndividual[contador2].style["height"]= (height)+"px";
         sliderIndividual[contador2].style["top"]="15px";
 
         children[contador2].style.background= "rgba(7, 17, 27, 0.2)";

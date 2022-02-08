@@ -563,7 +563,7 @@ body {
                 }
                 
                 &.open{
-                    height: 15rem;
+                    height: 15.5rem;
                 }
 
                 &.close{
@@ -791,6 +791,7 @@ body {
                         display: flex;
 
                         li{
+                            
 
                             .gestacional{
                                 // display: inline-block;
@@ -805,6 +806,10 @@ body {
                                 &:hover{
                                     letter-spacing: .1rem;
                                 }
+                            }
+
+                            .ginecologia{
+                                color: #777;
                             }
 
                             a {
@@ -1035,9 +1040,15 @@ body {
         .characteres-center_rigth{
             .slider-contenedor{
                 width: 200px;
+                height: 290px;
 
                 .slider-contenedor2{
                     width: 200px;
+                    height: 290px;
+
+                    .characteres_all{
+                        height: 250px;
+                    }
                 }
             }
         }

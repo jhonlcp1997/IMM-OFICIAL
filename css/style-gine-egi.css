@@ -572,7 +572,7 @@ body {
 }
 
 .info-date .info-date-container .info-contenido .contenido-body.open {
-  height: 15rem;
+  height: 15.5rem;
 }
 
 .info-date .info-date-container .info-contenido .contenido-body.close {
@@ -783,6 +783,9 @@ body {
   .header div .header-general .navbar-opciones-phone ul li .gestacional:hover {
     letter-spacing: .1rem;
   }
+  .header div .header-general .navbar-opciones-phone ul li .ginecologia {
+    color: #777;
+  }
   .header div .header-general .navbar-opciones-phone ul li a {
     font-size: 1.5rem;
     margin: 0 2rem;
@@ -936,9 +939,14 @@ body {
   }
   .characteres .characteres-center_rigth .slider-contenedor {
     width: 200px;
+    height: 290px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
     width: 200px;
+    height: 290px;
+  }
+  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
+    height: 250px;
   }
   .info-date h2 {
     font-size: 2rem;
