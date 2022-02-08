@@ -847,6 +847,7 @@ body {
   }
   .footer .ofrecemos-footer {
     width: 80vw;
+    padding: 0;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     display: inline;

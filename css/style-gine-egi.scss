@@ -690,6 +690,9 @@ body {
     }
 }
 
+
+// *Media quieries
+
 @media (max-width: 1050px) {
     .header {
         div {
@@ -892,6 +895,7 @@ body {
     .footer{
         .ofrecemos-footer{
             width: 80vw;
+            padding: 0;
             .ofrecemos_footer_div1{
                 display: inline;
                 div{
