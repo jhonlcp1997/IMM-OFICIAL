@@ -124,6 +124,7 @@ function slides() {
 
 let contenido_header  = document.querySelectorAll('.contenido-header');
 let contenido_body = document.querySelectorAll('.contenido-body');
+let contenido_body1 = document.querySelector('.contenido-body1');
 
 function toggleContent(){
     console.log("Entro en el toggle");
@@ -139,9 +140,11 @@ function toggleContent(){
             if(contenido_header[i].className === 'contenido-header close'){
                 contenido_header[i].className = 'contenido-header open';
                 contenido_body[i].className = 'contenido-body open';
+                contenido_body1.className = 'contenido-body1 open';
             }else{
                 contenido_header[i].className = 'contenido-header close';
                 contenido_body[i].className = 'contenido-body close';
+                contenido_body1.className = 'contenido-body1 close';
             }
         }
     }

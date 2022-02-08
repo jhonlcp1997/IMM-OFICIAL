@@ -594,7 +594,7 @@ body {
 
     .section_election{
         max-width: 40rem;
-        width: 95%;
+        width: 90%;
         display: flex;
         // background-color: #bfbfbf;
         margin:2rem auto;
@@ -696,6 +696,7 @@ body {
                         // display: inline-block;
                         // justify-content: space-between;
                         // height: 15rem;
+                        
 
                         img {
                             text-align: center;
@@ -705,6 +706,11 @@ body {
                             text-align: center;
                             padding: 0 2rem;
                         }
+
+                        // div{
+                        //     display: inline-block;
+                        //     max-width: 295px;
+                        // }
                     }
                     
                     &.open{
@@ -717,6 +723,43 @@ body {
                     }
                 }
 
+                .contenido-body1 {
+                    margin-top: 2rem;
+                    display: inline-flex;
+                    justify-content: space-between;
+
+                    div {
+                        justify-content: center;
+                        text-align: center;
+                        // display: inline-block;
+                        // justify-content: space-between;
+                        // height: 15rem;
+                        
+
+                        img {
+                            text-align: center;
+                        }
+
+                        p {
+                            text-align: center;
+                            padding: 0 2rem;
+                        }
+
+                        // div{
+                        //     display: inline-block;
+                        //     max-width: 295px;
+                        // }
+                    }
+                    
+                    &.open{
+                        height: 15.5rem;
+                    }
+
+                    &.close{
+                        display: none;
+                        height: 0rem;
+                    }
+                }
                 
 
                 // &.open{
@@ -1114,6 +1157,20 @@ body {
                         height: 13rem;
                     }
                 }
+
+                .contenido-body1{
+                    div{
+                        
+
+                        img{
+                            width: 10rem;
+                        }
+                    }
+
+                    &.open{
+                        height: 13rem;
+                    }
+                }
             }
         }
     }
@@ -1245,6 +1302,18 @@ body {
                 .info-contenido{
                     margin: 1rem 1rem;
                     .contenido-body{
+                        div{
+                            img{
+                                width: 7rem;
+                            }
+                        }
+    
+                        &.open{
+                            height:12rem;
+                        }
+                    }
+
+                    .contenido-body1{
                         div{
                             img{
                                 width: 7rem;
