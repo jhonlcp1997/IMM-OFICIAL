@@ -287,6 +287,7 @@ body {
         padding: 3rem 0;
 
         img{
+            margin: auto;
             width: 12rem;
             height: 8rem;
         }
@@ -577,15 +578,73 @@ body {
     }
 
     .section__subtitle{
+        padding: 0 1rem;
         margin-bottom: 5rem;
         font-family: "Poppins", sans-serif;
         font-size: 1.4rem;
         color: #777;
     }
 
+    .section_election{
+        max-width: 40rem;
+        width: 95%;
+        display: flex;
+        // background-color: #bfbfbf;
+        margin:2rem auto;
+        justify-content: space-between;
+
+        
+
+        .day1{
+            // &:hover{
+            //     border-bottom: 5px solid $azul;
+            // }
+            strong{
+            
+                color: $azul;
+                font-size: 1.4rem;
+                font-family: "Poppins", sans-serif;
+                padding-bottom: 0.5rem;
+                // border-bottom: 5px solid $azul;
+    
+                
+            }
+
+            &.active{
+                padding-bottom: 0.5rem;
+                border-bottom: 2px solid $azul;
+            }
+        }
+
+        .day2{
+            // &:hover{
+            //     border-bottom: 5px solid $azul;
+            // }
+            strong{
+            
+                color: $azul;
+                font-size: 1.4rem;
+                font-family: "Poppins", sans-serif;
+                padding-bottom: 0.5rem;
+                // border-bottom: 5px solid $azul;
+    
+                
+            }
+
+            &.active{
+                padding-bottom: 0.5rem;
+                border-bottom: 2px solid $azul;
+            }
+        }
+    }
+
     .info-date-container {
-        display: inline;
-        font-size: 1.4rem;
+        display: none;
+        
+
+        &.active{
+            display: inline;
+            font-size: 1.4rem;
 
         .info-contenido {
             // display: inline-block;
@@ -651,6 +710,8 @@ body {
                 }
             }
 
+            
+
             // &.open{
             //     height:20rem;
             //     // display: inline;
@@ -661,7 +722,12 @@ body {
             //     height: 0rem;
             // }
         }
+        }
     }
+
+    // .info-date-container2{
+    //     display: none;
+    // }
 }
 
 .footer {

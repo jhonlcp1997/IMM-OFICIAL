@@ -157,3 +157,43 @@ contenido_header.forEach((el) =>{
     el.addEventListener('click',toggleContent)
     console.log("Aqui entro a las cosas de forEach")
 })
+
+// *============= dezplamiento agregado de EMI======
+
+let election1 =document.querySelector('.day1');
+let election2 =document.querySelector('.day2');
+let view = document.querySelectorAll('.info-date-container');
+
+election1.onclick=()=>{
+    election1.classList.toggle('active');
+    election2.classList.remove('active')
+    view[0].classList.toggle('active');
+    view[1].classList.remove('active');
+}
+
+election2.onclick=()=>{
+    election2.classList.toggle('active');
+    election1.classList.remove('active')
+    view[1].classList.toggle('active');
+    view[0].classList.remove('active');
+}
+
+// function toggleElection(){
+
+//     for(let j =0; j<election.length; j++){
+
+//         // election[j].className = 'election'
+
+//         election[j].onclick=()=>{
+//             console.log("Entro en el toggle election");
+//             if( election[j].className === 'election'){
+//                 election[j].className= 'election active';
+//                 view[j].className='info-date-container active';
+//             }else {
+//                 election[j].className= 'election';
+//                 view[j].className='info-date-container';
+//             } 
+//         }
+//     }
+// }
+
