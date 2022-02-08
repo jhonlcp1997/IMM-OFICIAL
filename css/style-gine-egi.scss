@@ -687,15 +687,17 @@ body {
                 }
 
                 .contenido-body {
-                    display: inline-flex;
+                    display: flex;
                     justify-content: space-between;
 
                     div {
-                        justify-content: center;
+                        // justify-content: center;
                         text-align: center;
                         // display: inline-block;
-                        // justify-content: space-between;
+                        justify-content: space-between;
                         // height: 15rem;
+                        max-width: 29rem;
+                        min-width: 9rem;
                         
 
                         img {
@@ -714,7 +716,9 @@ body {
                     }
                     
                     &.open{
-                        height: 15.5rem;
+                        
+                        height: 18rem;
+                        justify-content: space-between;
                     }
 
                     &.close{
@@ -1309,7 +1313,7 @@ body {
                         }
     
                         &.open{
-                            height:12rem;
+                            height:13rem;
                         }
                     }
 
@@ -1321,7 +1325,7 @@ body {
                         }
     
                         &.open{
-                            height:12rem;
+                            height:13rem;
                         }
                     }
                 }
@@ -1369,11 +1373,32 @@ body {
             font-size: 1rem;
             &.active{
                 .info-contenido{
+
                     .contenido-body{
                         div{
                             p{
                                 padding: 0 1rem;
                             }
+
+                            img{
+                                width: 7rem;
+                            }
+                        }
+    
+                        &.open{
+                            height:15rem;
+                        }
+                    }
+
+                    .contenido-body1{
+                        div{
+                            img{
+                                width: 7rem;
+                            }
+                        }
+    
+                        &.open{
+                            height:15rem;
                         }
                     }
                 }

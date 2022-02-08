@@ -670,19 +670,21 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 29rem;
+  min-width: 9rem;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div img {
@@ -695,7 +697,10 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
-  height: 15.5rem;
+  height: 18rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
@@ -1138,13 +1143,13 @@ body {
     width: 7rem;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
-    height: 12rem;
+    height: 13rem;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
     width: 7rem;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body1.open {
-    height: 12rem;
+    height: 13rem;
   }
 }
 
@@ -1173,6 +1178,18 @@ body {
   }
   .info-date .info-date-container.active .info-contenido .contenido-body div p {
     padding: 0 1rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body div img {
+    width: 7rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body.open {
+    height: 15rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
+    width: 7rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body1.open {
+    height: 15rem;
   }
 }
 /*# sourceMappingURL=style-gine-egi.css.map */
