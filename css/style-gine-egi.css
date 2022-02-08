@@ -256,6 +256,85 @@ body {
           box-shadow: -3rem 0 80px -70px #332e2e;
 }
 
+.study {
+  padding: 10rem 0 2rem 0;
+  background-color: #fff;
+  display: inline-block;
+  width: 100%;
+}
+
+.study .tittle {
+  color: #f173ac;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 2.8rem;
+}
+
+.study .info1 {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  max-width: 50rem;
+  padding: 3rem 0;
+}
+
+.study .info1 div {
+  display: inline-block;
+}
+
+.study .info1 div h2 {
+  font-size: 2rem;
+  text-align: left;
+  color: #007cc3;
+  font-family: "Abel", sans-serif;
+}
+
+.study .info1 div p {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 1.3rem;
+  color: #777;
+}
+
+.study .info2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  max-width: 100rem;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.study .info2 div {
+  margin: 1rem auto;
+  width: 30rem;
+  height: 25rem;
+  text-align: center;
+}
+
+.study .info2 div h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #007cc3;
+  padding: .5rem 6rem;
+  font-family: "Abel", sans-serif;
+}
+
+.study .info2 div p {
+  padding: .5rem 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #777;
+}
+
 .characteres {
   -webkit-box-align: center;
       -ms-flex-align: center;

@@ -268,6 +268,85 @@ body {
     }
 }
 
+.study{
+    padding: 10rem 0 2rem 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+
+    .tittle{
+        color: $pink3;
+        text-align: center;
+        font-family: "Abel", sans-serif;
+        font-size: 2.8rem;
+    }
+
+    .info1{
+        // background-color: #bfbfbf;
+        margin: auto;
+        display: flex;
+        width: 95%;
+        max-width: 50rem;
+        padding: 3rem 0;
+
+        
+
+        div{
+            display: inline-block;
+
+            h2{
+                font-size: 2rem;
+                text-align: left;
+                color: $azul;
+                // padding: 0 1rem;
+                font-family: "Abel", sans-serif;
+            }
+
+            p{
+                font-family: "Poppins", sans-serif;
+                text-align: left;
+                font-size: 1.3rem;
+                color: #777;
+            }
+        }
+    }
+
+    .info2{
+        display: flex;
+        width: 95%;
+        max-width: 100rem;
+        // background-color: #f4c6de;
+        margin: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        div{
+            margin: 1rem auto;
+            // background-color: #bfbfbf;
+            width: 30rem;
+            height: 25rem;
+            text-align: center;
+            
+
+            h2{
+                font-size: 2rem;
+                text-align: center;
+                color: $azul;
+                padding: .5rem 6rem;
+                font-family: "Abel", sans-serif;
+            }
+
+            p{
+                padding: .5rem 2rem;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+                font-size: 1.3rem;
+                color: #777;
+            }
+        }
+    }
+}
+
 .characteres {
     align-items: center;
     // background: rosybrown;
