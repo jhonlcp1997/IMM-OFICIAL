@@ -205,6 +205,7 @@ a {
   font-family: "Abel", sans-serif;
   font-size: 3rem;
   text-align: left;
+  padding-right: 1rem;
 }
 
 .menu .menu-nav1 div {
@@ -358,7 +359,7 @@ a {
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 2.5rem;
+  padding-top: 3.5rem;
 }
 
 .ofrecemos .ofrecemos-box1 div ul h2 {
@@ -969,7 +970,7 @@ a {
   .ofrecemos .ofrecemos-box1 div ul {
     position: relative;
     font-size: 1rem;
-    padding-top: 0;
+    padding-top: 2.5rem;
     top: -4.5rem;
   }
   .ofrecemos .ofrecemos-box1 div ul li p {

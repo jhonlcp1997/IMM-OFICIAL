@@ -87,7 +87,7 @@ body {
   text-align: center;
 }
 
-.header div .navbar-opciones .navbar-opciones-ul2 .gestacional {
+.header div .navbar-opciones .navbar-opciones-ul2 .ginecologia {
   display: inline-block;
   padding: 0.5rem 2rem;
   background: #f173ac;
@@ -98,7 +98,7 @@ body {
   cursor: pointer;
 }
 
-.header div .navbar-opciones .navbar-opciones-ul2 .gestacional:hover {
+.header div .navbar-opciones .navbar-opciones-ul2 .ginecologia:hover {
   letter-spacing: 0.1rem;
 }
 
