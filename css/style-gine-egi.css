@@ -514,7 +514,6 @@ body {
 
 .info-date .info-date-container .info-contenido {
   margin: 1rem 4rem;
-  height: 20rem;
   font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #f173ac;
   color: #777;
@@ -528,6 +527,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.info-date .info-date-container .info-contenido .contenido-header.open i {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 .info-date .info-date-container .info-contenido .contenido-body {
@@ -544,7 +548,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 15rem;
 }
 
 .info-date .info-date-container .info-contenido .contenido-body div img {
@@ -554,6 +557,15 @@ body {
 .info-date .info-date-container .info-contenido .contenido-body div p {
   text-align: center;
   padding: 0 2rem;
+}
+
+.info-date .info-date-container .info-contenido .contenido-body.open {
+  height: 15rem;
+}
+
+.info-date .info-date-container .info-contenido .contenido-body.close {
+  display: none;
+  height: 0rem;
 }
 
 .footer {

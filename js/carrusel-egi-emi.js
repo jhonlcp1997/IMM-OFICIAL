@@ -117,5 +117,6 @@ function slides() {
     }
 }
 
+// *============= desplazamiento de flechas informacion antes, durante y despues
 
 

@@ -511,7 +511,7 @@ body {
         .info-contenido {
             // display: inline-block;
             margin: 1rem 4rem;
-            height: 20rem;
+            // height: 20rem;
             font-family: "Poppins", sans-serif;
             border-bottom: 1px solid $pink3;
             color: #777;
@@ -520,6 +520,13 @@ body {
                 margin: 1rem;
                 display: flex;
                 justify-content: space-between;
+
+                &.open{
+
+                    i{
+                        transform: rotate(-180deg);
+                    }
+                }
             }
 
             .contenido-body {
@@ -531,7 +538,7 @@ body {
                     text-align: center;
                     // display: inline-block;
                     // justify-content: space-between;
-                    height: 15rem;
+                    // height: 15rem;
 
                     img {
                         text-align: center;
@@ -542,7 +549,26 @@ body {
                         padding: 0 2rem;
                     }
                 }
+                
+                &.open{
+                    height: 15rem;
+                }
+
+                &.close{
+                    display: none;
+                    height: 0rem;
+                }
             }
+
+            // &.open{
+            //     height:20rem;
+            //     // display: inline;
+            // }
+
+            // &.close{
+            //     display: none;
+            //     height: 0rem;
+            // }
         }
     }
 }
