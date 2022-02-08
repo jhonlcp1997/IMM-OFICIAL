@@ -150,10 +150,6 @@ body {
                 margin-top: 1.5rem;
                 text-align: right;
 
-                .module-1 {
-                    padding-bottom: 1rem;
-                    border-bottom: 1px solid #f173ac;
-                }
 
                 a {
                     color: #666;
@@ -275,6 +271,7 @@ body {
     width: 100%;
 
     .tittle{
+        padding: 0 2rem;
         color: $pink3;
         text-align: center;
         font-family: "Abel", sans-serif;
@@ -289,7 +286,10 @@ body {
         max-width: 50rem;
         padding: 3rem 0;
 
-        
+        img{
+            width: 12rem;
+            height: 8rem;
+        }
 
         div{
             display: inline-block;
@@ -808,6 +808,10 @@ body {
         }
     }
 
+    .study{
+        padding: 5rem 0 1rem 0;
+    }
+
     .characteres {
         margin: auto;
         padding: 3rem 3rem;
@@ -1127,6 +1131,12 @@ body {
         }
     }
 
+    .study{
+        .tittle{
+            font-size: 2.5rem;
+        }
+    }
+
     .characteres{
         .characteres-center_rigth{
             .slider-contenedor{
@@ -1187,7 +1197,7 @@ body {
                 .navbar-opciones-phone{
                     ul{
                         li{
-                            .gestacional{
+                            .ginecologia{
                                 padding: .5rem 1rem;
                             }
 
