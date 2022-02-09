@@ -251,6 +251,14 @@ body {
           box-shadow: -3rem 0 80px -70px #332e2e;
 }
 
+.home .home_box .img-fondo .img-1 {
+  width: 11rem;
+  position: absolute;
+  z-index: 100;
+  bottom: 3rem;
+  right: 55%;
+}
+
 .study {
   padding: 10rem 0 2rem 0;
   background-color: #fff;
@@ -483,6 +491,14 @@ body {
   top: 0px;
 }
 
+.characteres .characteres-center_rigth .slider-contenedor .point2 {
+  width: 10rem;
+  position: absolute;
+  z-index: -1;
+  bottom: 0rem;
+  right: 0rem;
+}
+
 .time-price {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -509,9 +525,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
-.time-price .time-price_box1 img {
+.time-price .time-price_box1 .point3 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  top: -2rem;
+  left: -2rem;
+}
+
+.time-price .time-price_box1 .time-price_box2_img {
   width: 10rem;
   height: 7rem;
 }
@@ -549,7 +574,7 @@ body {
   background-size: cover;
 }
 
-.time-price .time-price_box2 img {
+.time-price .time-price_box2 .time-price_box2_img {
   width: 10rem;
   height: 7rem;
 }
@@ -749,6 +774,30 @@ body {
   height: 0rem;
 }
 
+.info-date .point4 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  top: 2rem;
+  right: -2rem;
+}
+
+.info-date .point5 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: -2rem;
+}
+
+.info-date .point6 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  bottom: -2rem;
+  right: -3rem;
+}
+
 .footer {
   background-color: #fff;
   text-align: center;
@@ -888,6 +937,9 @@ body {
   .home .home_box .home-nav2 img {
     width: 100%;
   }
+  .home .home_box .img-fondo {
+    display: none;
+  }
   .study {
     padding: 5rem 0 1rem 0;
   }
@@ -898,9 +950,24 @@ body {
   .characteres .characteres-center_rigth .slider-contenedor {
     margin: auto;
   }
+  .characteres .characteres-center_rigth .slider-contenedor .point2 {
+    display: none;
+  }
+  .time-price .time-price_box1 .point3 {
+    display: none;
+  }
   .info-date {
     padding: 2rem 1rem;
     width: 100%;
+  }
+  .info-date .point4 {
+    display: none;
+  }
+  .info-date .point5 {
+    display: none;
+  }
+  .info-date .point6 {
+    display: none;
   }
   .footer .ofrecemos-footer {
     width: 100%;

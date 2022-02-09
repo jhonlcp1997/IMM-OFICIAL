@@ -261,6 +261,16 @@ body {
                 // text-align: right;
             }
         }
+
+        .img-fondo{
+
+            .img-1{
+                width: 11rem;
+                position: absolute;
+                z-index: 100;
+                bottom: 3rem; right: 55%;
+            }
+        }
     }
 }
 
@@ -357,6 +367,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2;
+    // background-color: #f5a4c7;
 
     .characteres-left {
         text-align: center;
@@ -488,6 +499,13 @@ body {
                     }
                 }
             }
+
+            .point2{
+                width: 10rem;
+                position: absolute;
+                z-index: -1;
+                bottom: 0rem; right: 0rem;
+            }
         }
     }
 }
@@ -509,8 +527,16 @@ body {
         // text-align: center;
         justify-content: center;
         align-items: center;
+        position: relative;
 
-        img {
+        .point3{
+            width: 10rem;
+            position: absolute;
+            z-index: 100;
+            top: -2rem; left: -2rem;
+        } 
+
+        .time-price_box2_img {
             width: 10rem;
             height: 7rem;
         }
@@ -544,7 +570,7 @@ body {
         background-image: url(../img/image-simple-2/Fondo2.png);
         background-size: cover;
 
-        img {
+        .time-price_box2_img {
             width: 10rem;
             height: 7rem;
         }
@@ -779,6 +805,27 @@ body {
         }
     }
 
+    .point4{
+        width: 10rem;
+        position: absolute;
+        z-index: 100;
+        top: 2rem; right: -2rem;
+    }
+
+    .point5{
+        width: 10rem;
+        position: absolute;
+        z-index: 100;
+        top: 50%; left: -2rem;
+    }
+
+    .point6{
+        width: 10rem;
+        position: absolute;
+        z-index: 100;
+        bottom: -2rem; right: -3rem;
+    }
+
     // .info-date-container2{
     //     display: none;
     // }
@@ -925,6 +972,10 @@ body {
 
                 }
             }
+
+            .img-fondo{
+                display: none;
+            }
         }
     }
 
@@ -939,6 +990,18 @@ body {
         .characteres-center_rigth {
             .slider-contenedor {
                 margin: auto;
+
+                .point2{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .time-price{
+        .time-price_box1{
+            .point3{
+                display: none;
             }
         }
     }
@@ -946,6 +1009,16 @@ body {
     .info-date {
         padding: 2rem 1rem;
         width: 100%;
+
+        .point4{
+            display: none;
+        }
+        .point5{
+            display: none;
+        }
+        .point6{
+            display: none;
+        }
     }
 
     .footer{
