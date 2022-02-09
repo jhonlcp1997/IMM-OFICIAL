@@ -184,11 +184,17 @@ function toggleContent(){
             if(contenido_header[i].className === 'contenido-header close'){
                 contenido_header[i].className = 'contenido-header open';
                 contenido_body[i].className = 'contenido-body open';
-                contenido_body1.className = 'contenido-body1 open';
+                if(i>0){
+                    // contenido_body[i].className = 'contenido-body open';
+                    contenido_body1.className = 'contenido-body1 open';;
+                }
             }else{
                 contenido_header[i].className = 'contenido-header close';
                 contenido_body[i].className = 'contenido-body close';
-                contenido_body1.className = 'contenido-body1 close';
+                if(i>0){
+                    // contenido_body[i].className = 'contenido-body close';
+                    contenido_body1.className = 'contenido-body1 close';
+                }
             }
         }
     }
