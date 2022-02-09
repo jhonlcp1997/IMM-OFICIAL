@@ -1065,4 +1065,11 @@ a {
     padding: 2rem;
   }
 }
+
+@media (max-width: 284px) {
+  .vacio .vacio-div1 .vacio-boxes_1 {
+    height: 26rem;
+    padding: 3rem 0;
+  }
+}
 /*# sourceMappingURL=style-gest-gen.css.map */

@@ -12,50 +12,6 @@ let index = 0;
 console.log(width);
 console.log(height);
 
-// *probando con funcion onclick
-// for(let d = 0; d<9; d++){
-    // console.log("Hizo el for");
-    // puntos[d];
-    // console.log("entro a el for");
-    
-
-    // puntos[d].onclick=function(){
-    //     console.log("nada");
-    // }
-
-    // children[d].onclick=function(){
-    //     console.log("Entro y no se ppor que");
-    //     if(d===0){
-    //         slider.style.transform = "translate(0px)";
-    //         slider.style.transition = "transform 0s";
-    //         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-    //         sliderIndividual[contador2].style["height"]="290px";
-    //         sliderIndividual[contador2].style["top"]="15px";
-    //         children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
-    //         contador = 1;
-    //         contador2 = 0;
-    //     }else{
-    //         slider.style.transform = "translate(" + (-210 * d) + "px)";
-    //         slider.style.transition = "transform 1s";
-
-    //         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-    //         sliderIndividual[contador2].style["height"]="290px";
-    //         sliderIndividual[contador2].style["top"]="15px";
-    //         children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
-
-    //         sliderIndividual[d].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
-    //         sliderIndividual[d].style["height"]="320px";
-    //         sliderIndividual[d].style["top"]="0px";
-    //         children[d].style.background = "#007cc3";
-    //         console.log("Entro a la funcion onclick")
-    //         contador=d;
-    //         contador2=d-1;
-    //     }      
-    // }
-// }
-
-
-
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
