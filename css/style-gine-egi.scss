@@ -816,7 +816,7 @@ body {
         width: 10rem;
         position: absolute;
         z-index: 100;
-        top: 50%; left: -2rem;
+        top: 2rem; left: -2rem;
     }
 
     .point6{
@@ -826,6 +826,12 @@ body {
         bottom: -2rem; right: -3rem;
     }
 
+    .point7{
+        width: 10rem;
+        position: absolute;
+        z-index: 100;
+        bottom: -2rem; left: -3rem;
+    }
     // .info-date-container2{
     //     display: none;
     // }
@@ -1017,6 +1023,9 @@ body {
             display: none;
         }
         .point6{
+            display: none;
+        }
+        .point7{
             display: none;
         }
     }

@@ -786,7 +786,7 @@ body {
   width: 10rem;
   position: absolute;
   z-index: 100;
-  top: 50%;
+  top: 2rem;
   left: -2rem;
 }
 
@@ -796,6 +796,14 @@ body {
   z-index: 100;
   bottom: -2rem;
   right: -3rem;
+}
+
+.info-date .point7 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  bottom: -2rem;
+  left: -3rem;
 }
 
 .footer {
@@ -967,6 +975,9 @@ body {
     display: none;
   }
   .info-date .point6 {
+    display: none;
+  }
+  .info-date .point7 {
     display: none;
   }
   .footer .ofrecemos-footer {
