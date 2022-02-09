@@ -9,8 +9,8 @@ let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let intervalo = 3500;
 let index = 0;
-console.log(width);
-console.log(height);
+// console.log(width);
+// console.log(height);
 
 
 window.addEventListener("resize", function () {
@@ -28,8 +28,8 @@ function slides() {
     slider.style.transform = "translate(" + (-210 * contador2) + "px)";
     slider.style.transition = "transform 1s";
 
-    console.log(contador);
-    console.log(contador2);
+    // console.log(contador);
+    // console.log(contador2);
 
     if (contador > 8) {
         children[7].style.background = "rgba(7, 17, 27, 0.2)";
@@ -76,11 +76,11 @@ function slides() {
 }
 
 function toggleStudy(){
-    console.log("Entro en el toggleStudy");
+    // console.log("Entro en el toggleStudy");
 
     for(let k=0; k < puntos.length; k++){
         puntos[k].onclick=()=>{
-            console.log("Entro al click de puntos");
+            // console.log("Entro al click de puntos");
             if(k===0){
                 slider.style.transform = "translate(0px)";
                 slider.style.transition = "transform 0s";
@@ -117,9 +117,10 @@ function toggleStudy(){
 
 puntos.forEach((de) =>{
     de.addEventListener('click',toggleStudy);
-    console.log("Aqui entro a las cosas de forEach")
+    // console.log("Aqui entro a las cosas de forEach")
 })
 
+// *============= desplazamiento de flechas informacion antes, durante y despues
 // *============= desplazamiento de flechas informacion antes, durante y despues
 
 let contenido_header  = document.querySelectorAll('.contenido-header');
@@ -164,9 +165,10 @@ function toggleContent(){
 
 contenido_header.forEach((el) =>{
     el.addEventListener('click',toggleContent)
-    console.log("Aqui entro a las cosas de forEach")
+    // console.log("Aqui entro a las cosas de forEach")
 })
 
+// *============= dezplamiento agregado de EMI======
 // *============= dezplamiento agregado de EMI======
 
 let election1 =document.querySelector('.day1');
