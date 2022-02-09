@@ -66,52 +66,48 @@ setInterval(function () {
 
 function slides() {
     // slider.style.transform = "translate("+((-width*contador))+"px)";
-    slider.style.transform = "translate(" + (-210 * contador) + "px)";
+    slider.style.transform = "translate(" + (-210 * contador2) + "px)";
     slider.style.transition = "transform 1s";
-    // children[contador2].style.background= "rgba(7, 17, 27, 0.4)";
-    // children[contador].style.background = "#fff";
 
-    if (contador > 7) {
-        children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
+    console.log(contador);
+    console.log(contador2);
+
+    if (contador > 8) {
+        children[7].style.background = "rgba(7, 17, 27, 0.2)";
         children[0].style.background = "#007cc3";
 
-        sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
         sliderIndividual[contador2].style["height"]= (height)+"px";
-        sliderIndividual[contador2].style["top"]="15px";
+        sliderIndividual[contador2].classList.remove('active');
 
-
-        sliderIndividual[0].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
         sliderIndividual[0].style["height"]= (height +30)+"px";
-        sliderIndividual[0].style["top"]="0px";
+        sliderIndividual[0].classList.toggle('active');
 
-    } else {
-        // console.log(contador);
-        // console.log(contador2);
-        sliderIndividual[contador].style["boxShadow"]="0rem 1rem 80px -50px rgb(51, 46, 46)";
+    } else if (contador===1){
         sliderIndividual[contador].style["height"]= (height +30)+"px";
-        sliderIndividual[contador].style["top"]="0px";
-
-        sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-        sliderIndividual[contador2].style["height"]= (height)+"px";
-        sliderIndividual[contador2].style["top"]="15px";
-
-        children[contador2].style.background= "rgba(7, 17, 27, 0.2)";
-        // children[contador2].style["boxShadow"]= "0 0 0 2px rgba(255, 255, 255, 0.8) inset";
-
-        children[contador].style.background = "#007cc3";
-        // children[contador].style["boxShadow"]= "0 0 0 2px rgba(7,17,27,0.4) inset";
+        sliderIndividual[contador].classList.toggle('active');
+        children[contador2].style.background = "#007cc3";
     }
 
+    else {
+        sliderIndividual[contador].style["height"]= (height +30)+"px";
+        sliderIndividual[contador].classList.toggle('active');
+        
+        sliderIndividual[contador2].style["height"]= (height)+"px";
+        sliderIndividual[contador2].classList.remove('active');
 
-    // console.log(`Contador1 antes:`, contador);
-    // console.log(`Contador2 antes:`, contador2);
+        children[contador2-1].style.background= "rgba(7, 17, 27, 0.2)";
+
+        children[contador2].style.background = "#007cc3";
+    }
+
     contador++;
     contador2++;
     
-
-
-    if (contador == (sliderIndividual.length - 2)) {
+    if (contador == (sliderIndividual.length - 3)) {
         setTimeout(function () {
+            sliderIndividual[contador2].style["height"]= (height)+"px";
+            sliderIndividual[contador2].classList.remove('active');
+            children[7].style.background = "rgba(7, 17, 27, 0.2)";
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
             contador = 1;

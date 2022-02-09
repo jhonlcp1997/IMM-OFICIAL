@@ -481,11 +481,11 @@ body {
                         }
                     }
 
-                    // &.active{
-                    //     height: 320px;
-                    //     box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);
-                    //     top: 0px;
-                    // }
+                    &.active{
+                        // height: 320px;
+                        box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);
+                        top: 0px;
+                    }
                 }
             }
         }
@@ -1134,7 +1134,10 @@ body {
         .characteres-center_rigth{
             .slider-contenedor{
                 width: 420px;
+
                 .slider-contenedor2{
+                    position: relative;
+                    left: -10rem;
                     width: 420px;
                 }
             }
@@ -1278,6 +1281,7 @@ body {
                 height: 290px;
 
                 .slider-contenedor2{
+                    left: -24rem;
                     width: 200px;
                     height: 290px;
 

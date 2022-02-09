@@ -477,6 +477,12 @@ body {
   color: #777;
 }
 
+.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
+  -webkit-box-shadow: 0rem 1rem 80px -50px #332e2e;
+          box-shadow: 0rem 1rem 80px -50px #332e2e;
+  top: 0px;
+}
+
 .time-price {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1037,6 +1043,8 @@ body {
     width: 420px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
+    position: relative;
+    left: -10rem;
     width: 420px;
   }
   .info-date .info-date-container {
@@ -1121,6 +1129,7 @@ body {
     height: 290px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
+    left: -24rem;
     width: 200px;
     height: 290px;
   }
