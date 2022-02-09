@@ -7,13 +7,13 @@ let contador2 = 0;
 // estas variables estarn porseacaso por que no se de ninguna de estas
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
-let intervalo = 3000;
+let intervalo = 3500;
 let index = 0;
 console.log(width);
 console.log(height);
 
 // *probando con funcion onclick
-for(let d = 0; d<9; d++){
+// for(let d = 0; d<9; d++){
     // console.log("Hizo el for");
     // puntos[d];
     // console.log("entro a el for");
@@ -24,35 +24,38 @@ for(let d = 0; d<9; d++){
     // }
 
     // children[d].onclick=function(){
-        // console.log("Entro y no se ppor que");
-        // if(d===0){
-        //     slider.style.transform = "translate(0px)";
-        //     slider.style.transition = "transform 0s";
-        //     sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-        //     sliderIndividual[contador2].style["height"]="290px";
-        //     sliderIndividual[contador2].style["top"]="15px";
-        //     children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
-        //     contador = 1;
-        //     contador2 = 0;
-        // }else{
-        //     slider.style.transform = "translate(" + (-210 * d) + "px)";
-        //     slider.style.transition = "transform 1s";
+    //     console.log("Entro y no se ppor que");
+    //     if(d===0){
+    //         slider.style.transform = "translate(0px)";
+    //         slider.style.transition = "transform 0s";
+    //         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
+    //         sliderIndividual[contador2].style["height"]="290px";
+    //         sliderIndividual[contador2].style["top"]="15px";
+    //         children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
+    //         contador = 1;
+    //         contador2 = 0;
+    //     }else{
+    //         slider.style.transform = "translate(" + (-210 * d) + "px)";
+    //         slider.style.transition = "transform 1s";
 
-        //     sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
-        //     sliderIndividual[contador2].style["height"]="290px";
-        //     sliderIndividual[contador2].style["top"]="15px";
-        //     children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
+    //         sliderIndividual[contador2].style["boxShadow"]="0rem 0 0px -70px rgb(51, 46, 46)";
+    //         sliderIndividual[contador2].style["height"]="290px";
+    //         sliderIndividual[contador2].style["top"]="15px";
+    //         children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
 
-        //     sliderIndividual[d].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
-        //     sliderIndividual[d].style["height"]="320px";
-        //     sliderIndividual[d].style["top"]="0px";
-        //     children[d].style.background = "#007cc3";
-        //     console.log("Entro a la funcion onclick")
-        //     contador=d;
-        //     contador2=d-1;
-        // }      
+    //         sliderIndividual[d].style["boxShadow"]="-3rem 0 80px -70px rgb(51, 46, 46)";
+    //         sliderIndividual[d].style["height"]="320px";
+    //         sliderIndividual[d].style["top"]="0px";
+    //         children[d].style.background = "#007cc3";
+    //         console.log("Entro a la funcion onclick")
+    //         contador=d;
+    //         contador2=d-1;
+    //     }      
     // }
-}
+// }
+
+
+
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
@@ -115,6 +118,51 @@ function slides() {
         }, 1500)
     }
 }
+
+function toggleStudy(){
+    console.log("Entro en el toggleStudy");
+
+    for(let k=0; k < puntos.length; k++){
+        puntos[k].onclick=()=>{
+            console.log("Entro al click de puntos");
+            if(k===0){
+                slider.style.transform = "translate(0px)";
+                slider.style.transition = "transform 0s";
+
+                sliderIndividual[contador].style["height"]= (height)+"px";
+                sliderIndividual[contador].classList.remove('active');
+                console.log(`El contador borrado esta en ${contador}`);
+                children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
+                console.log(`El contador que borrara el punto esta en ${contador2}`);
+
+                children[0].style.background = "#007cc3";
+                contador = 1;
+                contador2 = 0;
+            }
+            else{
+                slider.style.transform = "translate(" + (-210 * (k-1)) + "px)";
+                slider.style.transition = "transform 1s";
+
+                sliderIndividual[contador-1].style["height"]= (height)+"px";
+                sliderIndividual[contador-1].classList.remove('active');
+                console.log(`El contador borrado esta en ${contador}`);
+                children[contador2-1].style.background = "rgba(7, 17, 27, 0.2)";
+                console.log(`El contador que borrara el punto esta en ${contador2}`);
+
+                sliderIndividual[k].style["height"]= (height +30)+"px";
+                sliderIndividual[k].classList.toggle('active');
+                children[k].style.background = "#007cc3";
+                contador = k+1;
+                contador2 = k;
+            }
+        }
+    }
+}
+
+puntos.forEach((de) =>{
+    de.addEventListener('click',toggleStudy);
+    console.log("Aqui entro a las cosas de forEach")
+})
 
 // *============= desplazamiento de flechas informacion antes, durante y despues
 
