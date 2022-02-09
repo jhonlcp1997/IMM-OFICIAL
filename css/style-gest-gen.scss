@@ -264,147 +264,9 @@ $azul: #007cc3;
         .img-1{
             position: absolute;
             z-index: 100;
-            bottom: 0rem; right: 50%;
+            bottom: 2rem; right: 50%;
             // background-size: cover;
         }
-    }
-}
-
-.vacio {
-    // height: 35rem;
-    background: #eee;
-    opacity: 1;
-    z-index: 0;
-    // padding: 0 15%;
-    font-family: "Poppins", sans-serif;
-
-    .vacio-h2{
-        display: flex;
-        justify-content: center;
-        color: $pink3;
-        font-size: 2.5rem;
-        position: relative;
-        top: 10rem;
-    }
-
-    .vacio-div1 {
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        width: 95%;
-        max-width: 110rem;
-        color: #666;
-        position: relative;
-        top: 10rem;
-
-        div{
-            margin: auto;
-            // height: 25rem;
-            width: 35rem;
-            background-color: #fff;
-            align-items: center;
-            // justify-content: space-around;
-            // display: flex;
-            
-            
-            p{
-                padding: 1rem;
-                font-size: 1.3rem;
-            }
-        }
-
-        .vacio-boxes_1{
-            height: 25rem;
-            display: inline;
-            // border-bottom: 1px solid #666;
-            margin-top: 2rem;
-            padding: 4rem 0rem;
-            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
-            
-            .vacio-boxes_1-div1 {
-                display: flex;
-                padding: 0 3rem;
-
-                img{
-                    height: 5rem;
-                }
-
-                div{
-                    display: inline;
-                    // padding: 1rem;
-
-                }
-
-                h3{
-                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                    color: $azul;
-                    font-size: 1.7rem;
-                }
-            }
-
-            p{
-                padding: 2rem 4rem;
-            }
-
-            &.div1{
-                z-index: 3;
-
-                &.medium{
-                    padding: 6.5rem 0rem;
-                }
-            }
-
-            &.div2{
-                z-index: 2;
-
-                &.medium{
-                    padding: 6.5rem 0rem;
-                }
-            }
-
-            &.div3{
-                z-index: 1;
-
-                &.medium{
-                    padding: 6.5rem 0rem;
-                }
-            }
-        }
-
-        .vacio-boxes_2{
-            height: 17rem;
-            margin-top: 2rem;
-            display: flex;
-            // border-bottom: 1px solid #666;
-            padding: 1rem;
-            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
-
-            img{
-                 height: 5rem;
-            }
-
-            &.div1{
-                z-index: 3;
-            }
-
-            &.div2{
-                z-index: 2;
-            }
-
-            &.div3{
-                z-index: 1;
-            }
-        }
-
-        // .vacio-boxes_2{
-
-        //     height: 10rem;
-        //     display: flex;
-
-        //     img{
-        //         // width: 5rem;
-        //     }
-        // }
     }
 }
 
@@ -554,22 +416,184 @@ $azul: #007cc3;
             }
         }
 
-        .img-fondo{
+        .point2{
+            width: 10rem;
+            position: absolute;
+            z-index: 100;
+            top: -2rem;
+            right: -2rem;
+        }
+    }
+}
 
-            .img-2{
-                position: absolute;
-                z-index: 100;
-                top: -4rem;
-                right: 0rem;
+.vacio {
+    // height: 35rem;
+    background: #eee;
+    opacity: 1;
+    z-index: 0;
+    // padding: 0 15%;
+    font-family: "Poppins", sans-serif;
+
+    .vacio-h2{
+        display: flex;
+        justify-content: center;
+        color: $pink3;
+        font-size: 2.5rem;
+        position: relative;
+        top: 10rem;
+    }
+
+    .vacio-div1 {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        max-width: 110rem;
+        color: #666;
+        position: relative;
+        top: 10rem;
+
+        div{
+            margin: auto;
+            // height: 25rem;
+            width: 35rem;
+            background-color: #fff;
+            align-items: center;
+            // justify-content: space-around;
+            // display: flex;
+            
+            
+            p{
+                padding: 1rem;
+                font-size: 1.3rem;
             }
         }
+
+        .vacio-boxes_1{
+            height: 25rem;
+            display: inline;
+            // border-bottom: 1px solid #666;
+            margin-top: 2rem;
+            padding: 4rem 0rem;
+            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
+            
+            .vacio-boxes_1-div1 {
+                display: flex;
+                padding: 0 3rem;
+
+                img{
+                    height: 5rem;
+                }
+
+                div{
+                    display: inline;
+                    // padding: 1rem;
+
+                }
+
+                h3{
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                    color: $azul;
+                    font-size: 1.7rem;
+                }
+            }
+
+            p{
+                padding: 2rem 4rem;
+            }
+
+            &.div1{
+                z-index: 3;
+
+                &.medium{
+                    padding: 6.5rem 0rem;
+                }
+            }
+
+            &.div2{
+                z-index: 2;
+
+                &.medium{
+                    padding: 6.5rem 0rem;
+                }
+            }
+
+            &.div3{
+                z-index: 1;
+
+                &.medium{
+                    padding: 6.5rem 0rem;
+                }
+
+                .point4{
+                    width: 10rem;
+                    position: absolute;
+                    z-index: 100;
+                    top: -1rem;
+                    right: -4rem;
+                }
+            }
+
+            .point3{
+                width: 10rem;
+                position: absolute;
+                z-index: -100;
+                bottom: -3rem;
+                left: -4rem;
+            }
+
+            .point4{
+                width: 10rem;
+                position: absolute;
+                z-index: 100;
+                bottom: -3rem;
+                right: 28%;
+            }
+        }
+
+        .vacio-boxes_2{
+            height: 17rem;
+            margin-top: 2rem;
+            display: flex;
+            // border-bottom: 1px solid #666;
+            padding: 1rem;
+            box-shadow: -3rem 2rem 10px -10px rgb(204, 203, 203);
+
+            img{
+                 height: 5rem;
+            }
+
+            &.div1{
+                z-index: 3;
+            }
+
+            &.div2{
+                z-index: 2;
+            }
+
+            &.div3{
+                z-index: 1;
+            }
+        }
+
+        // .vacio-boxes_2{
+
+        //     height: 10rem;
+        //     display: flex;
+
+        //     img{
+        //         // width: 5rem;
+        //     }
+        // }
     }
 }
 
 .ofrecemos { 
     height: 20rem;
     text-align: center;
-    z-index: 1;
+    z-index: 0;
+    // background-color: #F5A4C7;
+    position: relative;
 }
 
 .footer {
@@ -727,7 +751,7 @@ $azul: #007cc3;
     }
 }
 
-
+// Todo: en esta media se eleminan todos los puntitos
 @media (max-width: 1050px) {
 
     .menu {
@@ -771,6 +795,10 @@ $azul: #007cc3;
                 // bottom: -50rem;
             }
         }
+
+        .img-fondo{
+            display: none;
+        }
     }
 
     .importante{
@@ -789,6 +817,24 @@ $azul: #007cc3;
                             font-size: 1.5rem;
                         }
                     }
+                }
+            }
+        }
+
+        .point2{
+            display: none;
+        }
+    }
+
+    .vacio{
+        .vacio-div1{
+            .vacio-boxes_1{
+                .point3{
+                    display: none;
+                }
+
+                .point4{
+                    display: none;
                 }
             }
         }
@@ -991,10 +1037,6 @@ $azul: #007cc3;
         }
 
         .menu-nav2 {
-            display: none;
-        }
-
-        .img-fondo{
             display: none;
         }
     }

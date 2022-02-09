@@ -250,7 +250,7 @@ a {
 .menu .img-fondo .img-1 {
   position: absolute;
   z-index: 100;
-  bottom: 0rem;
+  bottom: 2rem;
   right: 50%;
 }
 
@@ -359,11 +359,12 @@ a {
   padding-top: 5rem;
 }
 
-.importante .ofrecemos-box1 .img-fondo .img-2 {
+.importante .ofrecemos-box1 .point2 {
+  width: 10rem;
   position: absolute;
   z-index: 100;
-  top: -4rem;
-  right: 0rem;
+  top: -2rem;
+  right: -4rem;
 }
 
 .vacio {
@@ -371,6 +372,7 @@ a {
   opacity: 1;
   z-index: 0;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .vacio .vacio-h2 {
@@ -409,6 +411,7 @@ a {
   margin: 1rem auto;
   width: 35rem;
   background-color: #fff;
+  position: relative;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
@@ -419,6 +422,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
@@ -448,12 +452,28 @@ a {
   padding: 6.5rem 0rem;
 }
 
+.vacio .vacio-div1 .vacio-boxes_1.div1 .point2 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  top: -2rem;
+  left: -4rem;
+}
+
 .vacio .vacio-div1 .vacio-boxes_1.div2 {
   z-index: 1;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1.div2.medium {
   padding: 6.5rem 0rem;
+}
+
+.vacio .vacio-div1 .vacio-boxes_1.div2 .point3 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  top: -1rem;
+  right: -4rem;
 }
 
 .vacio .vacio-div2 {
@@ -504,6 +524,30 @@ a {
 
 .vacio .vacio-div2 .vacio-boxes_2 img {
   height: 5rem;
+}
+
+.vacio .point4 {
+  width: 10rem;
+  position: absolute;
+  z-index: -1;
+  bottom: -2rem;
+  right: 47%;
+}
+
+.vacio .point5 {
+  width: 10rem;
+  position: absolute;
+  z-index: -1;
+  bottom: 50%;
+  right: 47%;
+}
+
+.vacio .point6 {
+  width: 10rem;
+  position: absolute;
+  z-index: 2;
+  bottom: -12rem;
+  right: 38%;
 }
 
 .ofrecemos {
@@ -677,11 +721,32 @@ a {
     position: relative;
     width: 90%;
   }
+  .menu .img-fondo {
+    display: none;
+  }
   .importante .ofrecemos-box1 div ul h2 {
     font-size: 2rem;
   }
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.5rem;
+  }
+  .importante .ofrecemos-box1 .point2 {
+    display: none;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1.div1 .point2 {
+    display: none;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1.div2 .point3 {
+    display: none;
+  }
+  .vacio .point4 {
+    display: none;
+  }
+  .vacio .point5 {
+    display: none;
+  }
+  .vacio .point6 {
+    display: none;
   }
   .footer .ofrecemos-footer {
     width: 80vw;
@@ -835,9 +900,6 @@ a {
     font-size: 3.5rem;
   }
   .menu .menu-nav2 {
-    display: none;
-  }
-  .menu .img-fondo {
     display: none;
   }
   .importante .ofrecemos-box1 {

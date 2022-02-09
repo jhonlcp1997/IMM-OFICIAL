@@ -247,7 +247,7 @@ a {
 
 .menu .img-fondo {
   position: absolute;
-  bottom: 0rem;
+  bottom: 2rem;
   right: 50%;
   z-index: 100;
 }
@@ -377,11 +377,12 @@ a {
   font-weight: 100;
 }
 
-.ofrecemos .ofrecemos-box1 .img-fondo .img-2 {
+.ofrecemos .ofrecemos-box1 .point2 {
+  width: 10rem;
   position: absolute;
   z-index: 100;
-  top: -4rem;
-  right: -1rem;
+  top: -2rem;
+  right: -2rem;
 }
 
 .ofrecemos .ofrecemos-box2 {
@@ -453,6 +454,14 @@ a {
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
   display: none;
+}
+
+.ofrecemos .ofrecemos-box2 .point3 {
+  width: 10rem;
+  position: absolute;
+  z-index: 100;
+  bottom: -2rem;
+  left: -2rem;
 }
 
 .ofrecemos .ofrecemos-box3_img {
@@ -637,14 +646,23 @@ a {
     position: relative;
     width: 100%;
   }
+  .menu .img-fondo {
+    display: none;
+  }
   .importante .import-nav div {
     margin-top: 1rem;
   }
   .importante .import-nav div p {
     margin: 1.5rem 9%;
   }
+  .ofrecemos .ofrecemos-box1 .point2 {
+    display: none;
+  }
   .ofrecemos .ofrecemos-box2 {
     width: auto;
+  }
+  .ofrecemos .ofrecemos-box2 .point3 {
+    display: none;
   }
   .footer .ofrecemos-footer {
     width: 80vw;
@@ -783,9 +801,6 @@ a {
     font-size: 3.5rem;
   }
   .menu .menu-nav2 {
-    display: none;
-  }
-  .menu .img-fondo {
     display: none;
   }
   .ofrecemos .ofrecemos-box1 div img {

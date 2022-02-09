@@ -264,7 +264,7 @@ $azul: #007cc3;
         .img-1{
             position: absolute;
             z-index: 100;
-            bottom: 0rem; right: 50%;
+            bottom: 2rem; right: 50%;
             // background-size: cover;
         }
     }
@@ -378,14 +378,12 @@ $azul: #007cc3;
             }
         }
 
-        .img-fondo{
-
-            .img-2{
-                position: absolute;
-                z-index: 100;
-                top: -4rem;
-                right: 0rem;
-            }
+        .point2{
+            width: 10rem;
+            position: absolute;
+            z-index: 100;
+            top: -2rem;
+            right: -4rem;
         }
     }
 }
@@ -398,6 +396,7 @@ $azul: #007cc3;
     z-index: 0;
     // padding: 0 15%;
     font-family: "Poppins", sans-serif;
+    position: relative;
 
     .vacio-h2{
         display: flex;
@@ -432,11 +431,13 @@ $azul: #007cc3;
             // align-items: center;
             // justify-content: space-around;
             // display: flex;
+            position: relative;
             
             .vacio-boxes_1-div1 {
                 display: flex;
                 padding: 0 3rem;
                 align-items: center;
+                position: relative;
 
                 img{
                     height: 5rem;
@@ -453,6 +454,10 @@ $azul: #007cc3;
                     color: $azul;
                     font-size: 1.8rem;
                 }
+
+                
+
+                
             }
 
             p{
@@ -466,6 +471,14 @@ $azul: #007cc3;
                 &.medium{
                     padding: 6.5rem 0rem;
                 }
+
+                .point2{
+                    width: 10rem;
+                    position: absolute;
+                    z-index: 100;
+                    top: -2rem;
+                    left: -4rem;
+                }
             }
 
             &.div2{
@@ -473,6 +486,14 @@ $azul: #007cc3;
 
                 &.medium{
                     padding: 6.5rem 0rem;
+                }
+
+                .point3{
+                    width: 10rem;
+                    position: absolute;
+                    z-index: 100;
+                    top: -1rem;
+                    right: -4rem;
                 }
             }
         }
@@ -538,6 +559,30 @@ $azul: #007cc3;
         //         // width: 5rem;
         //     }
         // }
+    }
+
+    .point4{
+        width: 10rem;
+        position: absolute;
+        z-index: -1;
+        bottom:  -2rem;
+        right: 47%;
+    }
+
+    .point5{
+        width: 10rem;
+        position: absolute;
+        z-index: -1;
+        bottom:  50%;
+        right: 47%;
+    }
+
+    .point6{
+        width: 10rem;
+        position: absolute;
+        z-index: 2;
+        bottom:  -12rem;
+        right: 38%;
     }
 }
 
@@ -702,7 +747,7 @@ $azul: #007cc3;
     }
 }
 
-
+// Todo: Aqui se eliminan los puntitos
 @media (max-width: 1067px) {
 
     .menu {
@@ -746,6 +791,10 @@ $azul: #007cc3;
                 // bottom: -50rem;
             }
         }
+
+        .img-fondo{
+            display: none;
+        }
     }
 
     .importante{
@@ -766,6 +815,40 @@ $azul: #007cc3;
                     }
                 }
             }
+
+            .point2{
+                display: none;
+            }
+        }
+    }
+
+    .vacio{
+        .vacio-div1{
+            .vacio-boxes_1{
+                &.div1{
+                    .point2{
+                        display: none;
+                    }
+                }
+
+                &.div2{
+                    .point3{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .point4{
+            display: none;
+        }
+
+        .point5{
+            display: none;
+        }
+
+        .point6{
+            display: none;
         }
     }
 
@@ -966,10 +1049,6 @@ $azul: #007cc3;
         }
 
         .menu-nav2 {
-            display: none;
-        }
-
-        .img-fondo{
             display: none;
         }
     }
