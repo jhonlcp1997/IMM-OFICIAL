@@ -293,7 +293,7 @@ a {
 }
 
 .vacio {
-  height: 35rem;
+  height: 45rem;
   background: #d9d9d9;
   opacity: 0.5;
   z-index: 0;
@@ -317,7 +317,7 @@ a {
   height: 37rem;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
-  top: -65rem;
+  top: -75rem;
   z-index: 10;
 }
 
@@ -399,6 +399,15 @@ a {
           box-shadow: -3rem 1rem 80px -40px #777;
 }
 
+.ofrecemos .ofrecemos-box2 h2 {
+  text-align: center;
+  color: #f173ac;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: -6rem;
+}
+
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -414,13 +423,6 @@ a {
   color: #f173ac;
   font-size: 2rem;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: "Abel", sans-serif;
-}
-
-.ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h2 {
-  padding-right: 10rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
   font-family: "Abel", sans-serif;
 }
 
@@ -842,22 +844,20 @@ a {
     font-size: 1.7rem;
   }
   .ofrecemos .ofrecemos-box2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     position: relative;
-    height: 40rem;
+    height: 35rem;
+  }
+  .ofrecemos .ofrecemos-box2 h2 {
+    padding-right: 0;
+    font-size: 3rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-top: 3rem;
     padding-right: 10rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
     font-size: 1rem;
     margin: auto 10%;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul h2 {
-    padding-right: 0;
-    font-size: 3rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
     display: -webkit-box;
@@ -977,6 +977,26 @@ a {
     font-size: 1.4rem;
     margin-top: .5rem;
   }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    padding-right: 0;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    margin: 2rem 10% 2rem 8%;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
+    opacity: 1;
+    margin-right: 1.5rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
+    opacity: 0.2;
+    position: absolute;
+  }
 }
 
 @media (max-width: 430px) {
@@ -1003,20 +1023,6 @@ a {
   }
   .importante .import-nav div img {
     width: 10rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
-    padding-right: 0;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
-    margin: 2rem 10%;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
-    opacity: 1;
-    margin-right: 1.5rem;
-  }
-  .ofrecemos .ofrecemos-box2 .ofrecemos-importante img {
-    opacity: 0.2;
-    position: absolute;
   }
   .footer {
     margin-top: 10rem;
@@ -1054,6 +1060,15 @@ a {
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
     opacity: 1;
+  }
+}
+
+@media (max-width: 290px) {
+  .ofrecemos {
+    height: 22rem;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    margin-top: 0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
