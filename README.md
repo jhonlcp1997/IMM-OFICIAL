@@ -21,12 +21,12 @@ Primer repositorio del Instituto Medico de la Mujer
 
 ### ***Pondre a prueba lo que encontre sobre ilustrator a diseño web ("Al final no lo hice")***
 
-### Paginas web alternativas del IMM:
+### Páginas web alternativas del IMM:
 -http://www.immetabolico.com.pe/
 
 ### Tengo que hacer algo parecido a esta pagina para poder avanzar algo
 -https://www.scotiabank.com.pe/Acerca-de/default
 
-### Pagina de prueba
+### Página de prueba
 
-### Pagina final
+### Página final
