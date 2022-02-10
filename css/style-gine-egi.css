@@ -346,12 +346,12 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #007cc3;
-  padding: .5rem 6rem;
+  padding: 0.5rem 6rem;
   font-family: "Abel", sans-serif;
 }
 
 .study .info2 div p {
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 1.3rem;
@@ -697,8 +697,8 @@ body {
 
 .info-date .info-date-container.active .info-contenido .contenido-header.open {
   color: #f173ac;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header.open i {
@@ -873,7 +873,7 @@ body {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
-  opacity: .7;
+  opacity: 0.7;
   font-size: 1.4rem;
 }
 
@@ -1011,7 +1011,7 @@ body {
     display: none;
   }
   .header div .header-general {
-    margin: .5rem 10%;
+    margin: 0.5rem 10%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1023,7 +1023,7 @@ body {
   }
   .header div .header-general .header-left a img {
     position: relative;
-    top: .5rem;
+    top: 0.5rem;
     width: 12rem;
   }
   .header div .header-general .navbar-opciones-phone {
@@ -1039,13 +1039,13 @@ body {
     display: flex;
   }
   .header div .header-general .navbar-opciones-phone ul li .ginecologia {
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     background: #f173ac;
     color: #fff;
     cursor: pointer;
   }
   .header div .header-general .navbar-opciones-phone ul li .ginecologia:hover {
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
     color: #777;
@@ -1175,7 +1175,7 @@ body {
 @media (max-width: 530px) {
   .header div .header-general .header-left a img {
     position: relative;
-    top: .5rem;
+    top: 0.5rem;
     width: 10rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
@@ -1266,13 +1266,13 @@ body {
     width: 7rem;
   }
   .header div .header-general .navbar-opciones-phone ul li .ginecologia {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
   .info-date {
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
   }
   .info-date .info-date-container {
     font-size: 1rem;

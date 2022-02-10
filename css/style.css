@@ -53,7 +53,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px solid #F173AC;
+  border-bottom: 1px solid #f173ac;
 }
 
 .header div .navbar-opciones .navbar-opciones-ul1 {
@@ -77,8 +77,8 @@ a {
 
 .header div .navbar-opciones .navbar-opciones-ul2 .gestacional {
   display: inline-block;
-  padding: .5rem 2rem;
-  background: #F173AC;
+  padding: 0.5rem 2rem;
+  background: #f173ac;
   color: #fff;
   font-size: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -87,11 +87,11 @@ a {
 }
 
 .header div .navbar-opciones .navbar-opciones-ul2 a {
-  margin: 0 0 0 .5rem;
+  margin: 0 0 0 0.5rem;
 }
 
 .header div .navbar-opciones .navbar-opciones-ul2 a:hover {
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .header div .header-general {
@@ -404,7 +404,7 @@ a {
   text-align: center;
   color: #f173ac;
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   top: -6rem;
 }
@@ -443,7 +443,7 @@ a {
 }
 
 .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #666;
   font-size: 1.3rem;
 }
@@ -497,7 +497,7 @@ a {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 i {
-  color: #F173AC;
+  color: #f173ac;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
@@ -528,7 +528,7 @@ a {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
-  opacity: .7;
+  opacity: 0.7;
   font-size: 1.4rem;
 }
 
@@ -717,13 +717,13 @@ a {
     display: flex;
   }
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
-    padding: .5rem 2rem;
-    background: #F173AC;
+    padding: 0.5rem 2rem;
+    background: #f173ac;
     color: #fff;
     cursor: pointer;
   }
   .header div .header-general .navbar-opciones-phone ul li .gestacional:hover {
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
     font-size: 1.5rem;
@@ -742,8 +742,8 @@ a {
     top: 75%;
     right: 0;
     background: #fff;
-    border-top: 0.2rem solid #F173AC;
-    border-bottom: 0.2rem solid #F173AC;
+    border-top: 0.2rem solid #f173ac;
+    border-bottom: 0.2rem solid #f173ac;
     padding: 0 2rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -825,7 +825,7 @@ a {
   }
   .header div .header-general .header-left a img {
     position: relative;
-    top: .5rem;
+    top: 0.5rem;
     width: 10rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
@@ -992,7 +992,7 @@ a {
   }
   .ofrecemos .ofrecemos-box1 div ul li p {
     font-size: 1.4rem;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
     padding-top: 0rem;
@@ -1055,10 +1055,10 @@ a {
     width: 7rem;
   }
   .header div .header-general .navbar-opciones-phone ul li a {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .ofrecemos .ofrecemos-box1 {
     height: auto;
@@ -1067,7 +1067,7 @@ a {
     height: 12rem;
   }
   .ofrecemos .ofrecemos-box1 div ul {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .ofrecemos .ofrecemos-box1 div ul h2 {
     font-size: 2rem;
