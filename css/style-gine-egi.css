@@ -243,10 +243,22 @@ body {
 }
 
 .home .home_box .home-nav2 {
+  margin-left: auto;
   z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: right;
 }
 
 .home .home_box .home-nav2 img {
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-shadow: -3rem 0 80px -70px #332e2e;
           box-shadow: -3rem 0 80px -70px #332e2e;
 }

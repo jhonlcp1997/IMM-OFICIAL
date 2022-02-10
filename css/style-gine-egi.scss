@@ -252,13 +252,20 @@ body {
         }
     
         .home-nav2 {
+            // position: relative;
+            // margin: auto;
+            margin-left: auto;
+            // background-color: #f4c6de;
             z-index: 10;
-            // text-align: right;
+            display: flex;
+            justify-content: right;
+            text-align: right;
 
             img {
+                text-align: right;
+                justify-content: right;
                 // border-radius: 15px;
                 box-shadow: $boxshadowG;
-                // text-align: right;
             }
         }
 
