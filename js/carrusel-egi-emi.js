@@ -9,15 +9,11 @@ let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let intervalo = 3500;
 let index = 0;
-// console.log(width);
-// console.log(height);
-
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
     height= sliderIndividual[0].clientHeight;
 })
-
 
 setInterval(function () {
     slides(); 
@@ -27,9 +23,6 @@ function slides() {
     // slider.style.transform = "translate("+((-width*contador))+"px)";
     slider.style.transform = "translate(" + (-210 * contador2) + "px)";
     slider.style.transition = "transform 1s";
-
-    // console.log(contador);
-    // console.log(contador2);
 
     if (contador > 8) {
         children[7].style.background = "rgba(7, 17, 27, 0.2)";
@@ -189,23 +182,3 @@ election2.onclick=()=>{
     view[1].classList.toggle('active');
     view[0].classList.remove('active');
 }
-
-// function toggleElection(){
-
-//     for(let j =0; j<election.length; j++){
-
-//         // election[j].className = 'election'
-
-//         election[j].onclick=()=>{
-//             console.log("Entro en el toggle election");
-//             if( election[j].className === 'election'){
-//                 election[j].className= 'election active';
-//                 view[j].className='info-date-container active';
-//             }else {
-//                 election[j].className= 'election';
-//                 view[j].className='info-date-container';
-//             } 
-//         }
-//     }
-// }
-
