@@ -10,7 +10,7 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -maquetado, estructurado y codeado
 -subido a gitHub y luego a netlifly
 -subido a su dominio trabajado en Cpanel, ("me dio problemas la parte de arreglar en código yml")
-
+-Cambie el repositorio a privado
 
 
 ===Cosas que tengo que hacer ===
