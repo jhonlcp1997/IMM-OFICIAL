@@ -1270,7 +1270,16 @@ $azul: #007cc3;
                 }
             }
         }
-    }  
+    } 
+    .ofrecemos{
+        .ofrecemos-box2{
+            .ofrecemos-importante{
+                ul{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    } 
     
     .footer{
         margin-top: 10rem;
@@ -1344,9 +1353,11 @@ $azul: #007cc3;
         .ofrecemos-box2{
             height: auto;
             .ofrecemos-importante{
-
+                position: relative;
 
                 ul{
+                    position: relative;
+                    top: -2rem;
 
                     div{
 

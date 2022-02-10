@@ -1041,6 +1041,9 @@ a {
   .importante .import-nav div img {
     width: 10rem;
   }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    margin-top: 1rem;
+  }
   .footer {
     margin-top: 10rem;
   }
@@ -1074,6 +1077,13 @@ a {
   }
   .ofrecemos .ofrecemos-box2 {
     height: auto;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante {
+    position: relative;
+  }
+  .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
+    position: relative;
+    top: -2rem;
   }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul div div img {
     opacity: 1;
