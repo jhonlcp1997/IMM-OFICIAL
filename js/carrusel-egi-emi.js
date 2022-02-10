@@ -178,14 +178,14 @@ let view = document.querySelectorAll('.info-date-container');
 
 election1.onclick=()=>{
     election1.classList.toggle('active');
-    election2.classList.remove('active')
+    election2.classList.remove('active');
     view[0].classList.toggle('active');
     view[1].classList.remove('active');
 }
 
 election2.onclick=()=>{
     election2.classList.toggle('active');
-    election1.classList.remove('active')
+    election1.classList.remove('active');
     view[1].classList.toggle('active');
     view[0].classList.remove('active');
 }
