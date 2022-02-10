@@ -75,6 +75,7 @@ function slides() {
     }
 }
 
+// *============ CLICK EN PUNTOS ==========
 function toggleStudy(){
     // console.log("Entro en el toggleStudy");
 

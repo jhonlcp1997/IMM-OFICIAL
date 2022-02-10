@@ -1,4 +1,4 @@
-
+// *js solo para abrir el boton menu
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector("#header-center-right");
 
