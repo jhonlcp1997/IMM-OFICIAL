@@ -4,20 +4,22 @@ Primer repositorio del Instituto Medico de la Mujer
 
 ***Programador a cargo: JHON LARRY CRUZ PORRAS***
 
-## Estructura de la pagina:
+## Estructura de la pagina "sin las carpetas vacias"
 
 - css
 - js
     - others
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
 - img
+- image
+    - Endocrinologas **(por el momento solo hay esto)**
 - views
     - others
         - encrinologas.html **Esto va a trabajar como un apartado**
-- ***index.html***  **por defecto abre el contenido gestacional-viabilidad**
+- ***index.html***  **(por defecto abre el contenido gestacional-viabilidad)**
 
 
-### ***Pondre a prueba lo que encontre sobre ilustrator a diseño web***
+### ***Pondre a prueba lo que encontre sobre ilustrator a diseño web ("Al final no lo hice")***
 
 ### Paginas web alternativas del IMM:
 -http://www.immetabolico.com.pe/
@@ -25,5 +27,6 @@ Primer repositorio del Instituto Medico de la Mujer
 ### Tengo que hacer algo parecido a esta pagina para poder avanzar algo
 -https://www.scotiabank.com.pe/Acerca-de/default
 
-### Pagina mia de guia
-dazzling-brahmagupta-26e95c.netlify.app
+### Pagina de prueba
+
+### Pagina final

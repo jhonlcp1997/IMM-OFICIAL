@@ -5,24 +5,16 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -rescalar imagenes
 -trabajar con archivos ilustrator
 
+===Cosas que voy haciendo===
+-diseño de la landing page en html, css y javascript
+-maquetado, estructurado y codeado
+-subido a gitHub y luego a netlifly
+-subido a su dominio trabajado en Cpanel, ("me dio problemas la parte de arreglar en código yml")
+
+
+
 ===Cosas que tengo que hacer ===
 
--diseño de la página web
--estructuración
--limpieza del código
--etiquetas para posicionamiento de la página
--rediseño
-
-
-==que diferencia tiene==
-
-
--Extensiones
--Servidores estables
--No trabajan bases de datos(por lo que no se pueden filtrar)
--se guarda en el drive
--politicas
--Trabaja con cuentas gmail
--puedes invitar a tu equipo de trabajo
- a editar la encuesta en tiempo real o hacer comentarios
--Seguridad en vista y seguridad en cuentas
+-etiquetas para posicionamiento de la página(" Aunque no quieren asi que no agregare casi mucho")
+-testear en frontend
+-pedir renuncia... talvez...
