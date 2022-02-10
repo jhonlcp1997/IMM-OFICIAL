@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -55,13 +54,12 @@ body {
 .header {
     position: sticky;
     z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     padding: auto;
     background: #fff;
     text-align: center;
     font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
 
     div {
         margin-top: 1rem;
@@ -69,11 +67,10 @@ body {
         position: relative;
         display: inline-block;
         width: 100rem;
-        background: $white;
+        background: #fff;
 
         .navbar-opciones {
             font-size: 1rem;
-            font-family: "Poppins", sans-serif;
             display: flex;
             justify-content: space-between;
             border-bottom: 1px solid $pink3;
@@ -127,7 +124,6 @@ body {
             color: #666;
 
             .navbar-opciones-phone {
-                font-family: "Poppins", sans-serif;
                 display: none;
 
                 ul {
@@ -145,7 +141,6 @@ body {
             }
 
             .header-center-right {
-                font-family: "Poppins", sans-serif;
                 width: 100%;
                 margin-top: 1.5rem;
                 text-align: right;
@@ -178,10 +173,7 @@ body {
         z-index: 0;
         content: "";
         position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
+        top: 0px; right: 0px; bottom: 0px; left: 0px;
         /* Specify the background image to be used */
         background-image: url(../img/image-simple-2/Fondo.png);
         background-size: cover;
@@ -250,8 +242,6 @@ body {
         }
 
         .home-nav2 {
-            // position: relative;
-            // margin: auto;
             margin-left: auto;
             // background-color: #f4c6de;
             z-index: 10;
@@ -365,13 +355,11 @@ body {
 
 .characteres {
     align-items: center;
-    // background: rosybrown;
     padding: 3rem 9%;
     margin: 10rem 0;
     display: flex;
     flex-wrap: wrap;
     gap: 2;
-    // background-color: #f5a4c7;
 
     .characteres-left {
         text-align: center;
@@ -438,8 +426,6 @@ body {
     .characteres-center_rigth {
         flex: 1 1 50rem;
         height: 33rem;
-        // display: flex;
-        // text-align: center;
 
         .slider-contenedor {
             width: 630px;
@@ -447,9 +433,6 @@ body {
             position: relative;
             display: flex;
             overflow: hidden;
-
-            // display: inline;
-            // text-align: center;
 
             .slider-contenedor2 {
                 width: 630px;
@@ -471,7 +454,6 @@ body {
                     // flex-direction: column-reverse;
 
                     img {
-                        // display: inline-flex;
                         text-align: center;
                         width: 10rem;
                         // height: 8rem;
@@ -520,7 +502,6 @@ body {
     margin: 3rem auto;
     // padding: 3rem 9%;
     flex-wrap: wrap;
-    // text-align: center;
 
     .time-price_box1 {
         flex: 1 1 30rem;
@@ -568,9 +549,7 @@ body {
         align-items: center;
         background-color: $azul;
         display: inline-flex;
-        // text-align: center;
         justify-content: center;
-        align-items: center;
         background-image: url(../img/image-simple-2/Fondo2.png);
         background-size: cover;
 
@@ -631,15 +610,11 @@ body {
         justify-content: space-between;
 
         .day1 {
-            // &:hover{
-            //     border-bottom: 5px solid $azul;
-            // }
             strong {
                 color: $azul;
                 font-size: 1.4rem;
                 font-family: "Poppins", sans-serif;
                 padding-bottom: 0.5rem;
-                // border-bottom: 5px solid $azul;
             }
 
             &.active {
@@ -649,15 +624,11 @@ body {
         }
 
         .day2 {
-            // &:hover{
-            //     border-bottom: 5px solid $azul;
-            // }
             strong {
                 color: $azul;
                 font-size: 1.4rem;
                 font-family: "Poppins", sans-serif;
                 padding-bottom: 0.5rem;
-                // border-bottom: 5px solid $azul;
             }
 
             &.active {
@@ -688,13 +659,11 @@ body {
                     justify-content: space-between;
 
                     &.open {
-                        // color: $azul;
                         color: $pink3;
                         transition: all 0.5s linear;
 
                         i {
                             transform: rotate(-180deg);
-                            // color: $azul;
                             color: $pink3;
                         }
                     }
@@ -711,7 +680,6 @@ body {
                     justify-content: space-between;
 
                     div {
-                        // justify-content: center;
                         text-align: center;
                         // display: inline-block;
                         justify-content: space-between;
@@ -727,11 +695,6 @@ body {
                             text-align: center;
                             padding: 0 2rem;
                         }
-
-                        // div{
-                        //     display: inline-block;
-                        //     max-width: 295px;
-                        // }
                     }
 
                     &.open {
@@ -753,9 +716,6 @@ body {
                     div {
                         justify-content: center;
                         text-align: center;
-                        // display: inline-block;
-                        // justify-content: space-between;
-                        // height: 15rem;
 
                         img {
                             text-align: center;
@@ -765,11 +725,6 @@ body {
                             text-align: center;
                             padding: 0 2rem;
                         }
-
-                        // div{
-                        //     display: inline-block;
-                        //     max-width: 295px;
-                        // }
                     }
 
                     &.open {
@@ -781,16 +736,6 @@ body {
                         height: 0rem;
                     }
                 }
-
-                // &.open{
-                //     height:20rem;
-                //     // display: inline;
-                // }
-
-                // &.close{
-                //     display: none;
-                //     height: 0rem;
-                // }
             }
         }
     }
@@ -826,9 +771,6 @@ body {
         bottom: -3rem;
         left: -3rem;
     }
-    // .info-date-container2{
-    //     display: none;
-    // }
 }
 
 .footer {
@@ -940,7 +882,7 @@ body {
     }
 }
 
-// *Media quieries
+//* ================= Media quieries =============
 
 @media (max-width: 1050px) {
     .header {

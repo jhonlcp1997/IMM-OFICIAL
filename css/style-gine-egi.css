@@ -44,6 +44,7 @@ body {
   background: #fff;
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .header div {
@@ -57,7 +58,6 @@ body {
 
 .header div .navbar-opciones {
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,7 +124,6 @@ body {
 }
 
 .header div .header-general .navbar-opciones-phone {
-  font-family: "Poppins", sans-serif;
   display: none;
 }
 
@@ -138,7 +137,6 @@ body {
 }
 
 .header div .header-general .header-center-right {
-  font-family: "Poppins", sans-serif;
   width: 100%;
   margin-top: 1.5rem;
   text-align: right;
@@ -581,7 +579,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  align-items: center;
   background-image: url(../img/image-simple-2/Fondo2.png);
   background-size: cover;
 }
