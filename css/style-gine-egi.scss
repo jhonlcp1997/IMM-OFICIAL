@@ -830,14 +830,14 @@ body {
         width: 10rem;
         position: absolute;
         z-index: 100;
-        bottom: -2rem; right: -3rem;
+        bottom: -3rem; right: -3rem;
     }
 
     .point7{
         width: 10rem;
         position: absolute;
         z-index: 100;
-        bottom: -2rem; left: -3rem;
+        bottom: -3rem; left: -3rem;
     }
     // .info-date-container2{
     //     display: none;
@@ -906,6 +906,7 @@ body {
 
                     li {
                         font-family: "Abel", sans-serif;
+                        // font-family: "Poppins", sans-serif;
                         color: #007cc3;
                         // color: #1ca5e0;
                     }
@@ -942,8 +943,11 @@ body {
             border-top: 1px solid #bfbfbf;
 
             p {
+                // font-family: "Poppins", sans-serif;
+                font-family: "Abel", sans-serif;
                 margin-top: 1.5rem;
-                color: #bfbfbf;
+                color: #9f9f9f;
+                font-size: 1.2rem;
             }
         }
     }

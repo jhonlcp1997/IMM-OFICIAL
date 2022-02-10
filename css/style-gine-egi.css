@@ -806,7 +806,7 @@ body {
   width: 10rem;
   position: absolute;
   z-index: 100;
-  bottom: -2rem;
+  bottom: -3rem;
   right: -3rem;
 }
 
@@ -814,7 +814,7 @@ body {
   width: 10rem;
   position: absolute;
   z-index: 100;
-  bottom: -2rem;
+  bottom: -3rem;
   left: -3rem;
 }
 
@@ -922,8 +922,10 @@ body {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
+  font-family: "Abel", sans-serif;
   margin-top: 1.5rem;
-  color: #bfbfbf;
+  color: #9f9f9f;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1050px) {

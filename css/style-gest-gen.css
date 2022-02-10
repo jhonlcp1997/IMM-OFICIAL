@@ -676,8 +676,10 @@ a {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
+  font-family: "Abel", sans-serif;
   margin-top: 1.5rem;
-  color: #bfbfbf;
+  color: #9f9f9f;
+  font-size: 1.2rem;
 }
 
 /* *MEDIA QUERIES */
