@@ -1,3 +1,5 @@
+/* Todo: Es es el primer css que se trabajo en la pagina, por apurado */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
@@ -110,8 +112,6 @@ a {
     margin-right: -2rem;
 }
 
-
-
 /* * ============SECTION 1 FIN */
 
 /* * ============SECTION 2 INICIO======= */
@@ -156,8 +156,6 @@ a {
     
 }
 
-
-
 .section-2_nav-2 nav {
     
     margin:4% 20%;
@@ -166,10 +164,6 @@ a {
     justify-content: space-between;
     
 }
-
-
-
-
 
 /* * ============SECTION 2 FIN */
 
@@ -253,15 +247,10 @@ a {
     }
     
 }
-@media (max-width:400px) {
-    html {
-        font-size: 60%;
-    }
 
-    .header-left img {
-        width: 70%;
-        size: 50%;
-    }
+/* Este with se repiten mucahas cosas */
+@media (max-width:400px) {
+
 
     .header-right img {
         margin-left: 40%;
