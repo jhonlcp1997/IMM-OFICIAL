@@ -1,0 +1,8 @@
+Bitacora de alguien que recien empieza x,D
+
+11-01-2022:
+Repasando todos los dias anteriores que no hice la bitacora... No se, empece con el proyecto como IMM-PRUEBA en modo PUBLICO en github luego lo subi a netlify
+me costo un poco, pense que no me meteria tanto en la parte de diseño pero... tuve que seguir en ello, este es mi primera pagina que hago para alguien, mi primer trabajo y mi primer sueldo que recibo... don't judge me.
+me dieron el dominio en yachay y se trabaja en Cpanel me dio problemas pero... lo publique... una de las mejores cosas que me pasó.
+Ayer pense que mi repositorio podia ser modificado por personas extrañas asi que cambie todo a privado, luego me dio problemas muchos problemas... revice  denuevo los permisos en github y vi que no cualquiera puede modificar tu codigo a pesar que este en publico, asi que lo regrese pero aun asi me dio problemas... pero lo logré, tuve que cambiarle el nombre al repositorio.
+Aun no puedo eliminar los trash ocultos.
