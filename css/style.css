@@ -175,30 +175,26 @@ a {
   z-index: 10;
   padding: 5rem 0;
   text-align: left;
-}
-
-.menu .menu-nav1 h2 {
-  color: #fff;
   font-family: "Abel", sans-serif;
-  text-align: left;
-  margin: 0.5rem 0;
 }
 
 .menu .menu-nav1 .menu-nav1-h2_1 {
   color: #fff;
-  font-family: "Abel", sans-serif;
   font-size: 3rem;
   text-align: left;
   margin: 0.5rem 0;
+  font-weight: 100;
 }
 
 .menu .menu-nav1 .menu-nav1-h2_2 {
   font-size: 4.3rem;
+  color: #fff;
+  text-align: left;
+  margin: 0.5rem 0;
 }
 
 .menu .menu-nav1 p {
   color: #fff;
-  font-family: "Abel", sans-serif;
   font-size: 3rem;
   text-align: left;
   padding-right: 1rem;
@@ -218,7 +214,6 @@ a {
 }
 
 .menu .menu-nav1 div a {
-  font-family: "Abel", sans-serif;
   color: #fff;
   font-size: 1.5rem;
   font-weight: 400;
@@ -366,7 +361,6 @@ a {
 
 .ofrecemos .ofrecemos-box1 div ul li p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
   margin-top: 1rem;
   color: #fff;
   padding-top: 0rem;

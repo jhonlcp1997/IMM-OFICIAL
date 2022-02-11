@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-// @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@200&family=Roboto:wght@100;700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@200&family=Roboto:wght@100;400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -87,15 +84,6 @@ a {
 
                 a {
                     margin: 0 0 0 0.5rem;
-
-                    // &:focus {
-                    //     padding-bottom: 0.5rem;
-                    //     border-bottom: 1px solid #f173ac;
-                    // }
-
-                    // &:hover {
-                    //     letter-spacing: 0.1rem;
-                    // }
                 }
             }
         }
@@ -185,29 +173,25 @@ $azul: #007cc3;
         z-index: 10;
         padding: 5rem 0;
         text-align: left;
-
-        h2 {
-            color: #fff;
-            font-family: "Abel", sans-serif;
-            text-align: left;
-            margin: 0.5rem 0;
-        }
+        font-family: "Abel", sans-serif;
 
         .menu-nav1-h2_1 {
             color: #fff;
-            font-family: "Abel", sans-serif;
             font-size: 3rem;
             text-align: left;
             margin: 0.5rem 0;
+            font-weight: 100;
         }
 
         .menu-nav1-h2_2 {
             font-size: 4.3rem;
+            color: #fff;
+            text-align: left;
+            margin: 0.5rem 0;
         }
 
         p {
             color: #fff;
-            font-family: "Abel", sans-serif;
             font-size: 3rem;
             text-align: left;
             padding-right: 1rem;
@@ -225,7 +209,6 @@ $azul: #007cc3;
             border-radius: 15px;
 
             a {
-                font-family: "Abel", sans-serif;
                 // font-weight: bold;
                 color: #fff;
                 font-size: 1.5rem;
@@ -372,7 +355,6 @@ $azul: #007cc3;
                 li {
                     p {
                         font-family: "Poppins", sans-serif;
-                        font-size: 1.5rem;
                         margin-top: 1rem;
                         color: #fff;
                         padding-top: 0rem;
@@ -407,9 +389,6 @@ $azul: #007cc3;
             text-align: center;
             color: #f173ac;
             font-size: 2.5rem;
-            // padding-right: 10rem;
-            // margin-left: 2rem;
-            // margin-bottom: 2rem;
             // font-family: "Abel", sans-serif;
             font-family: "Poppins", sans-serif;
             position: relative;

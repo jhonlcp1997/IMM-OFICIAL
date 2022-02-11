@@ -184,10 +184,10 @@ $azul: #007cc3;
         z-index: 10;
         padding: 5rem 0;
         text-align: left;
+        font-family: "Abel", sans-serif;
 
         h2 {
             color: #fff;
-            font-family: "Abel", sans-serif;
             text-align: left;
             margin: 0.5rem 0;
         }
@@ -195,7 +195,6 @@ $azul: #007cc3;
         .menu-nav1-h1_1 {
             font-size: 3rem;
             color: #fff;
-            font-family: "Abel", sans-serif;
             text-align: left;
             margin: 0.5rem 0;
         }
@@ -206,7 +205,6 @@ $azul: #007cc3;
 
         .menu-nav1-p1 {
             color: #fff;
-            font-family: "Abel", sans-serif;
             font-size: 3rem;
             text-align: left;
             margin-right: 10rem;
@@ -215,7 +213,6 @@ $azul: #007cc3;
         .menu-nav1-p2 {
             margin-top: 1rem;
             color: #fff;
-            font-family: "Abel", sans-serif;
             font-size: 1.1rem;
         }
 
@@ -232,7 +229,6 @@ $azul: #007cc3;
             // margin-right: 31rem;
 
             a {
-                font-family: "Abel", sans-serif;
                 // font-weight: bold;
                 color: #fff;
                 font-size: 1.5rem;
@@ -251,8 +247,7 @@ $azul: #007cc3;
     .menu-nav2 {
         z-index: 10;
 
-        img {
-            // border-radius: 15px;
+        img { 
             box-shadow: $boxshadowG;
             text-align: right;
         }
@@ -734,6 +729,7 @@ $azul: #007cc3;
 
     .menu {
         .menu-nav2 {
+            margin: auto;
             text-align: right;
 
             img {
