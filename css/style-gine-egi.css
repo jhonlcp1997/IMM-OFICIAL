@@ -98,10 +98,6 @@ body {
   cursor: pointer;
 }
 
-.header div .navbar-opciones .navbar-opciones-ul2 .ginecologia:hover {
-  letter-spacing: 0.1rem;
-}
-
 .header div .navbar-opciones .navbar-opciones-ul2 a {
   color: #666;
   margin: 0 0 0 0.5rem;
@@ -642,6 +638,10 @@ body {
           justify-content: space-between;
 }
 
+.info-date .section_election .day1 {
+  cursor: pointer;
+}
+
 .info-date .section_election .day1 strong {
   color: #007cc3;
   font-size: 1.4rem;
@@ -652,6 +652,10 @@ body {
 .info-date .section_election .day1.active {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #007cc3;
+}
+
+.info-date .section_election .day2 {
+  cursor: pointer;
 }
 
 .info-date .section_election .day2 strong {
@@ -690,6 +694,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header.open {

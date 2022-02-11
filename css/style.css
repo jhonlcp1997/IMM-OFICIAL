@@ -90,10 +90,6 @@ a {
   margin: 0 0 0 0.5rem;
 }
 
-.header div .navbar-opciones .navbar-opciones-ul2 a:hover {
-  letter-spacing: 0.1rem;
-}
-
 .header div .header-general {
   margin-top: 2rem;
   display: -webkit-box;

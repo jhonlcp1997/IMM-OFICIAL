@@ -100,9 +100,9 @@ body {
                     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
                     cursor: pointer;
 
-                    &:hover {
-                        letter-spacing: 0.1rem;
-                    }
+                    // &:hover {
+                    //     letter-spacing: 0.1rem;
+                    // }
                 }
 
                 a {
@@ -610,6 +610,7 @@ body {
         justify-content: space-between;
 
         .day1 {
+            cursor: pointer;
             strong {
                 color: $azul;
                 font-size: 1.4rem;
@@ -624,6 +625,7 @@ body {
         }
 
         .day2 {
+            cursor: pointer;
             strong {
                 color: $azul;
                 font-size: 1.4rem;
@@ -657,6 +659,7 @@ body {
                     margin: 1rem;
                     display: flex;
                     justify-content: space-between;
+                    cursor: pointer;
 
                     &.open {
                         color: $pink3;
