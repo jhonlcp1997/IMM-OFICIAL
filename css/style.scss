@@ -11,18 +11,20 @@
     border: none;
 }
 
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-
 $white: #fff;
 $light-color: #666;
 $pink1: #f4c6de;
 $pink2: #f5a4c7;
 $pink3: #f173ac;
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul: #007cc3;
 $border: 0.2rem solid $pink3;
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 a {
     color: #666;
@@ -94,7 +96,6 @@ a {
             justify-content: space-between;
 
             .navbar-opciones-phone {
-                // font-weight: 600;
                 font-family: "Poppins", sans-serif;
                 display: none;
 
@@ -140,9 +141,6 @@ a {
         }
     }
 }
-
-$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
-$azul: #007cc3;
 
 .menu {
     display: inline-flex;
@@ -619,8 +617,6 @@ $azul: #007cc3;
         display: flex;
         height: auto;
 
-        // justify-content: space-between;
-
         .menu-nav1 {
             position: relative;
 
@@ -642,15 +638,11 @@ $azul: #007cc3;
             position: relative;
             width: 50%;
             height: auto;
-            text-align: right;
 
             img {
                 position: relative;
-                // display: none;
-                // margin-top: 30rem;margin-left: auto;
 
                 width: 100%;
-                // bottom: -50rem;
             }
         }
 
@@ -824,13 +816,9 @@ $azul: #007cc3;
 
 @media (max-width: 800px) {
     .menu {
-        display: flex;
-        height: auto;
         text-align: center;
-        // justify-content: space-between;
 
         .menu-nav1 {
-            position: relative;
             text-align: center;
             margin: 0 auto;
 

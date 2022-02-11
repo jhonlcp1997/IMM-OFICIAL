@@ -632,7 +632,6 @@ a {
     position: relative;
     width: 50%;
     height: auto;
-    text-align: right;
   }
   .menu .menu-nav2 img {
     position: relative;
@@ -772,14 +771,9 @@ a {
 
 @media (max-width: 800px) {
   .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: auto;
     text-align: center;
   }
   .menu .menu-nav1 {
-    position: relative;
     text-align: center;
     margin: 0 auto;
   }

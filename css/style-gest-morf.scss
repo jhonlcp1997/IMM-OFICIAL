@@ -62,9 +62,7 @@ a {
                 color: #777;
                 align-items: center;
 
-                // font-size: 1.2rem;
                 a {
-                    // align-items: center;
                     font-size: 1.3rem;
                     margin-right: 2rem;
                 }
@@ -96,7 +94,6 @@ a {
             justify-content: space-between;
 
             .navbar-opciones-phone {
-                // font-weight: 100;
                 font-family: "Poppins", sans-serif;
                 display: none;
 
@@ -116,17 +113,12 @@ a {
 
             .header-center-right {
                 font-family: "Poppins", sans-serif;
-                // font-weight: 100;
                 width: 100%;
                 justify-content: space-between;
                 display: flex;
                 margin-top: 1.5rem;
                 padding-left: 4.5rem;
 
-                // .module-2{
-                //     padding-bottom: 1rem;
-                //     border-bottom: 1px solid #f173ac;
-                // }
 
                 a {
                     &:focus {

@@ -62,9 +62,7 @@ a {
                 color: #777;
                 align-items: center;
 
-                // font-size: 1.2rem;
                 a {
-                    // align-items: center;
                     font-size: 1.3rem;
                     margin-right: 2rem;
                 }
@@ -86,14 +84,6 @@ a {
 
                 a {
                     margin: 0 0 0 0.5rem;
-
-                    // &:hover {
-                    //     letter-spacing: 0.1rem;
-                    // }
-                    // &:focus {
-                    //     padding-bottom: 0.5rem;
-                    //     border-bottom: 1px solid #f173ac;
-                    // }
                 }
             }
         }
@@ -104,7 +94,6 @@ a {
             justify-content: space-between;
 
             .navbar-opciones-phone {
-                // font-weight: 100;
                 font-family: "Poppins", sans-serif;
                 display: none;
 
@@ -124,7 +113,6 @@ a {
 
             .header-center-right {
                 font-family: "Poppins", sans-serif;
-                // font-weight: 100;
                 width: 100%;
                 justify-content: space-between;
                 display: flex;
@@ -281,12 +269,8 @@ $azul: #007cc3;
         text-align: center;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        // height: auto;
         // font-family: "Poppins", sans-serif;
         font-family: "Poppins", sans-serif;
-        // display: inline-block;
-        // flex-wrap: wrap;
-        // align-items: initial;
         width: 500px;
         display: flex;
         overflow: hidden;
@@ -448,12 +432,9 @@ $azul: #007cc3;
 
         div {
             margin: auto;
-            // height: 25rem;
             width: 35rem;
             background-color: #fff;
             align-items: center;
-            // justify-content: space-around;
-            // display: flex;
 
             p {
                 padding: 1rem;
@@ -566,16 +547,6 @@ $azul: #007cc3;
                 z-index: 1;
             }
         }
-
-        // .vacio-boxes_2{
-
-        //     height: 10rem;
-        //     display: flex;
-
-        //     img{
-        //         // width: 5rem;
-        //     }
-        // }
     }
 }
 
