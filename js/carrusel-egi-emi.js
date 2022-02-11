@@ -8,7 +8,6 @@ let contador2 = 0;
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let intervalo = 3500;
-let index = 0;
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;

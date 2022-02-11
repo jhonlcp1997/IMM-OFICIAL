@@ -660,11 +660,6 @@ a {
                     margin: 1.5rem 9%;
                 }
             }
-
-            // .import-nav-2{
-            //     // width: 38rem;
-            //     width: 30rem;
-            // }
         }
     }
 
@@ -884,11 +879,6 @@ a {
                             a {
                                 margin: 0 1rem;
                                 opacity: 0.8;
-
-                                &:focus {
-                                    padding-bottom: 0.5rem;
-                                    border-bottom: 2px solid #f173ac;
-                                }
                             }
                         }
                     }
@@ -1019,16 +1009,13 @@ a {
             text-align: center;
             width: 100%;
 
-            h2 {
-                text-align: center;
-            }
-
             .menu-nav1-h2_1 {
                 text-align: center;
                 font-size: 2rem;
             }
 
             .menu-nav1-h2_2 {
+                text-align: center;
                 font-size: 3rem;
             }
 
@@ -1077,11 +1064,9 @@ a {
         display: block;
 
         .ofrecemos-box1 {
-            width: auto;
             height: 40rem;
 
             div {
-                display: inline;
 
                 img {
                     display: inline;
@@ -1145,16 +1130,6 @@ a {
     .header {
         img {
             width: 9rem;
-        }
-
-        .header-general {
-            .navbar-opciones-phone {
-                ul {
-                    a {
-                        font-size: 1rem;
-                    }
-                }
-            }
         }
     }
 
@@ -1230,7 +1205,6 @@ a {
 
     .ofrecemos {
         .ofrecemos-box1 {
-            height: auto;
 
             div {
                 img {

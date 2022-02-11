@@ -816,10 +816,6 @@ a {
     margin: 0 1rem;
     opacity: 0.8;
   }
-  .header div .header-general .navbar-opciones-phone ul li a:focus {
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #f173ac;
-  }
   .ofrecemos {
     height: 50rem;
   }
@@ -907,14 +903,12 @@ a {
     text-align: center;
     width: 100%;
   }
-  .menu .menu-nav1 h2 {
-    text-align: center;
-  }
   .menu .menu-nav1 .menu-nav1-h2_1 {
     text-align: center;
     font-size: 2rem;
   }
   .menu .menu-nav1 .menu-nav1-h2_2 {
+    text-align: center;
     font-size: 3rem;
   }
   .menu .menu-nav1 p {
@@ -957,11 +951,7 @@ a {
     display: block;
   }
   .ofrecemos .ofrecemos-box1 {
-    width: auto;
     height: 40rem;
-  }
-  .ofrecemos .ofrecemos-box1 div {
-    display: inline;
   }
   .ofrecemos .ofrecemos-box1 div img {
     display: inline;
@@ -1004,9 +994,6 @@ a {
   .header img {
     width: 9rem;
   }
-  .header .header-general .navbar-opciones-phone ul a {
-    font-size: 1rem;
-  }
   .importante {
     margin-top: 5rem;
   }
@@ -1043,9 +1030,6 @@ a {
   }
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
     padding: 0.5rem 1rem;
-  }
-  .ofrecemos .ofrecemos-box1 {
-    height: auto;
   }
   .ofrecemos .ofrecemos-box1 div img {
     height: 12rem;

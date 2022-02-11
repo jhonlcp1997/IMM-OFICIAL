@@ -6,3 +6,7 @@ me costo un poco, pense que no me meteria tanto en la parte de diseño pero... t
 me dieron el dominio en yachay y se trabaja en Cpanel me dio problemas pero... lo publique... una de las mejores cosas que me pasó.
 Ayer pense que mi repositorio podia ser modificado por personas extrañas asi que cambie todo a privado, luego me dio problemas muchos problemas... revice  denuevo los permisos en github y vi que no cualquiera puede modificar tu codigo a pesar que este en publico, asi que lo regrese pero aun asi me dio problemas... pero lo logré, tuve que cambiarle el nombre al repositorio.
 Aún no puedo eliminar los trash ocultos.
+Hoy le prometi a mi vecino que iria a correr pero, aun me duelen las piernas, asi que no se la verdad.
+Hasta ahora lo que me esta cansando más es la revisión y limpieza de código.
+Quisiera jugar un juego, pero lo unico que se me ocurre es el clash royale.
+¿Cómo lo habrán programado el dota... para que pese tanto?

@@ -327,7 +327,6 @@ $azul: #007cc3;
     }
 
     .ofrecemos-box1 {
-        // border-radius: 15px;
         position: relative;
         margin: auto;
         background: #f5a4c7;
@@ -717,8 +716,6 @@ $azul: #007cc3;
         display: flex;
         height: auto;
 
-        // justify-content: space-between;
-
         .menu-nav1 {
             position: relative;
 
@@ -742,11 +739,7 @@ $azul: #007cc3;
             // align-items:center;
             img {
                 position: relative;
-                // display: none;
-                // margin-top: 30rem;margin-left: auto;
-
                 width: 90%;
-                // bottom: -50rem;
             }
         }
 
@@ -843,7 +836,6 @@ $azul: #007cc3;
 
                         li {
                             .gestacional {
-                                // display: inline-block;
                                 // margin-top: 1rem;
                                 padding: 0.5rem 2rem;
                                 background: $pink3;
