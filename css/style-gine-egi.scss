@@ -30,19 +30,19 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+    // scroll-padding-top: 7rem;
 
-    &::-webkit-scrollbar {
-        width: 1rem;
-    }
+    // &::-webkit-scrollbar {
+    //     width: 1rem;
+    // }
 
-    &::-webkit-scrollbar-track {
-        background: transparent;
-    }
+    // &::-webkit-scrollbar-track {
+    //     background: transparent;
+    // }
 
-    &::-webkit-scrollbar-thumb {
-        background: $azul;
-    }
+    // &::-webkit-scrollbar-thumb {
+    //     background: $azul;
+    // }
 }
 
 body {
@@ -611,6 +611,7 @@ body {
 
         .day1 {
             cursor: pointer;
+
             strong {
                 color: $azul;
                 font-size: 1.4rem;

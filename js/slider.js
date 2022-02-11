@@ -42,7 +42,7 @@ window.addEventListener("resize", function () {
 function img_slides() {
     content_dinamic.style.transform = "translate(" + (-width2 * contador2) + "px)";
     content_dinamic.style.transition = "transform 1s";
-    
+
     if (contador2 >= 7) {
         content_li[0].classList.toggle('active');
     } else {
@@ -51,6 +51,7 @@ function img_slides() {
         content_li[contador2].classList.toggle('active');
         content_li[contador3].classList.remove('active');
     }
+    
     contador3++;
     contador2++;
 

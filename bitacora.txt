@@ -9,4 +9,5 @@ Aún no puedo eliminar los trash ocultos.
 Hoy le prometi a mi vecino que iria a correr pero, aun me duelen las piernas, asi que no se la verdad.
 Hasta ahora lo que me esta cansando más es la revisión y limpieza de código.
 Quisiera jugar un juego, pero lo unico que se me ocurre es el clash royale.
-¿Cómo lo habrán programado el dota... para que pese tanto?
+¿Cómo lo habrán programado el dota... para que pese tanto? mejor dota 1.
+Por hoy solo hice limpieza del codigo, en html css y js, solo no toque la parte de endocrinologas.
