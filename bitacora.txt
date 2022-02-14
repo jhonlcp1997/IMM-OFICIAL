@@ -11,3 +11,13 @@ Hasta ahora lo que me esta cansando más es la revisión y limpieza de código.
 Quisiera jugar un juego, pero lo unico que se me ocurre es el clash royale.
 ¿Cómo lo habrán programado el dota... para que pese tanto? mejor dota 1.
 Por hoy solo hice limpieza del codigo, en html css y js, solo no toque la parte de endocrinologas.
+
+
+14-02-2022:
+Hoy tuve que tratar de hacer que el video de youtube se haga autoreplay y en bucle, pero viendo cual era mejor de las plataformas de video, estaba entre youtube y vimeo, aunque este tiene mucho mejor interfas de video
+Si no suben los videos a vimeo tendre que crearme una cuenta para ir probando.
+No se si ir a correr, tal vez tenga que ir a caminar un rato.
+Estoy haciendo limpieza de codigo según yo. Aun no puedo volcar nada a la pagina hasta que no le validen a la de diseño(no hay favicon bro...).es 14 a si que ire a correr
+La mayoria de las imagenes las tengo en png pero para que pesen menos las trabajaré en svg pero se que me vana a dar muchos problemas.
+En las paginas de speed page me salen lento en todo lo que serefiere los dispositivos moviles (pero solo en la primera pagina "Herramientas gratuitas y online para medir la velocidad de tu sitio web")
+a veces no se que hacer, por que ya siento que avance pero... me falta si ya se... siempre se nos pasa algo.
