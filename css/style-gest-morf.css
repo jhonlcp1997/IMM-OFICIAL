@@ -910,11 +910,12 @@ a {
   }
   .importante .ofrecemos-box1 div iframe {
     display: inline;
-    left: -0.5rem;
+    left: -0.7rem;
     bottom: 3.5rem;
     width: 90%;
   }
   .importante .ofrecemos-box1 div ul {
+    padding-right: 2rem;
     position: relative;
     top: -4.5rem;
   }

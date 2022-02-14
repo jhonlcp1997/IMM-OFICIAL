@@ -914,18 +914,18 @@ a {
     border-radius: 0px;
     width: auto;
     height: auto;
-    padding-right: 1rem;
   }
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 {
     display: inline;
   }
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
     display: inline;
-    left: -0.5rem;
+    left: -.7rem;
     bottom: 3.5rem;
     width: 90%;
   }
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
+    padding-right: 2rem;
     position: relative;
     top: -4.5rem;
   }
