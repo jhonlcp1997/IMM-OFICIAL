@@ -384,7 +384,6 @@ a {
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
-  padding-top: 1.5rem;
   color: #fff;
   padding-bottom: .8rem;
 }
@@ -710,6 +709,15 @@ a {
   }
 }
 
+@media (max-width: 1067px) {
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
+    font-size: 2rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 1050px) {
   .menu {
     padding: 3rem 5%;
@@ -740,12 +748,6 @@ a {
   }
   .menu .img-fondo {
     display: none;
-  }
-  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
-    font-size: 2rem;
-  }
-  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
-    font-size: 1.5rem;
   }
   .importante .point2 {
     display: none;

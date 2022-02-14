@@ -361,6 +361,10 @@ $azul: #007cc3;
                 width: 700px;
                 height: 30rem;
                 bottom: -4.5rem;
+
+                // width: 800px;
+                // height: 400px;
+                // left: -9rem;
             }
 
             // .contenedor {
@@ -435,7 +439,7 @@ $azul: #007cc3;
                 h2 {
                     font-family: "Abel", sans-serif;
                     font-size: 2.5rem;
-                    padding-top: 1.5rem;
+                    // padding-top: 1.5rem;
                     color: #fff;
                     padding-bottom: .8rem;
                 }
@@ -770,6 +774,26 @@ $azul: #007cc3;
     }
 }
 
+@media (max-width: 1067px) {
+    .importante {
+        .ofrecemos-box1 {
+            .ofrecemos-box1_div1 {
+                ul {
+                    h2 {
+                        font-size: 2rem;
+                    }
+
+                    li {
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Todo: en esta media se eleminan todos los puntitos
 @media (max-width: 1050px) {
     .menu {
@@ -810,22 +834,6 @@ $azul: #007cc3;
     }
 
     .importante {
-        .ofrecemos-box1 {
-            .ofrecemos-box1_div1 {
-                ul {
-                    h2 {
-                        font-size: 2rem;
-                    }
-
-                    li {
-                        p {
-                            font-size: 1.5rem;
-                        }
-                    }
-                }
-            }
-        }
-
         .point2 {
             display: none;
         }
