@@ -378,7 +378,7 @@ a {
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
@@ -741,10 +741,10 @@ a {
   .menu .img-fondo {
     display: none;
   }
-  .importante .ofrecemos-box1 div ul h2 {
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
     font-size: 2rem;
   }
-  .importante .ofrecemos-box1 div ul li p {
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
     font-size: 1.5rem;
   }
   .importante .point2 {

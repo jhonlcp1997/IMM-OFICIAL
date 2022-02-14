@@ -1256,6 +1256,17 @@ $azul: #007cc3;
 }
 
 @media (max-width: 330px) {
+
+    .importante{
+        .ofrecemos-box1{
+            div{
+                iframe{
+                    height: 20rem;
+                }
+            }
+        }
+    }
+
     .vacio {
         .vacio-div1 {
             div {
