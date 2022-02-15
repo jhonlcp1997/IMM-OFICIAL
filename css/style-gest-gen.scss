@@ -1069,11 +1069,12 @@ $azul: #007cc3;
                 display: inline;
 
                 iframe {
-                    display: inline;
+                    display: inline-flex;
                     left: -0.7rem;
                     bottom: 3.5rem;
                     width: 90%;
                     // height: 100%;
+                    // margin: auto;
                 }
 
                 ul {
@@ -1246,6 +1247,12 @@ $azul: #007cc3;
         .ofrecemos-box1 {
             height: auto;
 
+            .ofrecemos-box1_div1{
+                iframe {
+                    height: 20rem;
+                }
+            }
+
             div {
                 img {
                     height: 12rem;
@@ -1309,7 +1316,7 @@ $azul: #007cc3;
         .ofrecemos-box1 {
             .ofrecemos-box1_div1 {
                 iframe {
-                    height: 20rem;
+                    height: 15rem;
                 }
             }
         }

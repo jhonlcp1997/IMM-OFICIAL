@@ -921,7 +921,9 @@ a {
     display: inline;
   }
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
-    display: inline;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     left: -0.7rem;
     bottom: 3.5rem;
     width: 90%;
@@ -1054,6 +1056,9 @@ a {
   .importante .ofrecemos-box1 {
     height: auto;
   }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
+    height: 20rem;
+  }
   .importante .ofrecemos-box1 div img {
     height: 12rem;
   }
@@ -1086,7 +1091,7 @@ a {
 
 @media (max-width: 330px) {
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
-    height: 20rem;
+    height: 15rem;
   }
   .vacio .vacio-div1 div {
     width: 100%;

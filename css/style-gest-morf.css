@@ -1065,6 +1065,9 @@ a {
   .importante .ofrecemos-box1 {
     height: auto;
   }
+  .importante .ofrecemos-box1 div iframe {
+    height: 20rem;
+  }
   .importante .ofrecemos-box1 div img {
     height: 12rem;
   }
@@ -1097,7 +1100,7 @@ a {
 
 @media (max-width: 330px) {
   .importante .ofrecemos-box1 div iframe {
-    height: 20rem;
+    height: 15rem;
   }
   .vacio .vacio-div1 div {
     width: 100%;
