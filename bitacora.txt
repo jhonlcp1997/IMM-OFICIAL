@@ -28,3 +28,4 @@ Ahora no se que hacer con la diseñadora, cree que los cambios que se le agregar
 y me estoy estresando, quisiera salir... 
 Que mas puedo hacer, es como una bola de nieve todo lo de este dia, el señor con el que me hospedo, creo que se enojó anoche por que no compartimos los mismos ideales.
 Quiere imagenes de fondo pero no movibles, luego algunas páginas en donde se le agregaran los videos. y ya me habia creado un unico sass para que abarca 4 módulos.
+Quisiera no estar aqui, tengo que tratar de adivinar lo que las demas quieren decir, y no se que ponerle

@@ -326,7 +326,9 @@ $azul: #007cc3;
 
             .contenedor {
                 position: relative;
-                width: 700px;
+                width: 100%;
+                max-width: 700px;
+                // height: 60%;
                 height: 30rem;
                 bottom: -4.5rem;
                 // // background-size: cover;
@@ -336,9 +338,13 @@ $azul: #007cc3;
                 // padding: 0rem 2rem;
                 // background: url(../img/images-gest/Antenatal-feto.jpg) no-repeat;
                 padding-left: 0;
-                
+
                 img{
-                    text-align: left;
+                    height: 100%;
+                    width: 100%;
+                    // width: auto;
+                    // text-align: left;
+                    object-fit: cover;
                 }
             }
 
@@ -1037,13 +1043,14 @@ $azul: #007cc3;
                     width: 90%;
                 }
 
-                // .contenedor{
-                //     bottom: 3.5rem;
-                //     width: 40rem;
-                //     height: 10rem;
-                //     background-size: cover;
-
-                // }
+                .contenedor{
+                    left: -.7rem;
+                    bottom: 3.5rem;
+                    // width: 10%;
+                    img{
+                        width: 90%;
+                    }
+                }
 
                 ul {
                     padding-right: 2rem;
