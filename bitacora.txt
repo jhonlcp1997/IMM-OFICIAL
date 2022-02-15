@@ -21,3 +21,4 @@ Estoy haciendo limpieza de codigo según yo. Aun no puedo volcar nada a la pagin
 La mayoria de las imagenes las tengo en png pero para que pesen menos las trabajaré en svg pero se que me vana a dar muchos problemas.
 En las paginas de speed page me salen lento en todo lo que serefiere los dispositivos moviles (pero solo en la primera pagina "Herramientas gratuitas y online para medir la velocidad de tu sitio web")
 a veces no se que hacer, por que ya siento que avance pero... me falta si ya se... siempre se nos pasa algo.
+No se que mas tengo que hacer, las cosas parece que ya estuvieran pero se que esto solo va a ser hasta antes de que empieze a volcar las imagenes

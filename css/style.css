@@ -1062,6 +1062,9 @@ a {
   .ofrecemos {
     height: 22rem;
   }
+  .ofrecemos .ofrecemos-box1 {
+    height: auto;
+  }
   .ofrecemos .ofrecemos-box2 .ofrecemos-importante ul {
     margin-top: 0rem;
   }
