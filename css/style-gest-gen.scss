@@ -368,6 +368,20 @@ $azul: #007cc3;
             }
 
             // .contenedor {
+            //     position: relative;
+            //     width: 700px;
+            //     height: 30rem;
+            //     bottom: -4.5rem;
+
+            //     background: url(../img/images-gine/fondo_prueba.png) no-repeat;
+            //     // background-size: cover;
+            //     // background-position: center;
+            //     background-position: left;
+            //     background-attachment: fixed;
+            //     padding: 3rem 2rem;
+            // }
+
+            // .contenedor {
             //     z-index: 1;
             //     display: block;
             //     width: 100%;
@@ -402,28 +416,28 @@ $azul: #007cc3;
             //         }
             //     }
 
-            //     div.youtube-play { 
-            //         height: 64px; 
-            //         width: 64px; 
-            //         left: 50%; 
-            //         top: 50%; 
-            //         margin-left: -36px; 
+            //     div.youtube-play {
+            //         height: 64px;
+            //         width: 64px;
+            //         left: 50%;
+            //         top: 50%;
+            //         margin-left: -36px;
             //         margin-top: -36px;
             //         opacity:0.7;
-            //         position: absolute; 
-            //         background:   url("https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png") no-repeat; 
+            //         position: absolute;
+            //         background:   url("https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png") no-repeat;
             //      }
 
             //     div.youtube-play:hover{
-            //         opacity:1; 
+            //         opacity:1;
             //      }
 
-            //     #youtube-iframe { 
-            //         width: 100%; 
-            //         height: 100%; 
-            //         position: absolute; 
-            //         top: 0; 
-            //         left: 0; 
+            //     #youtube-iframe {
+            //         width: 100%;
+            //         height: 100%;
+            //         position: absolute;
+            //         top: 0;
+            //         left: 0;
             //      }
             // }
 
@@ -441,7 +455,7 @@ $azul: #007cc3;
                     font-size: 2.5rem;
                     // padding-top: 1.5rem;
                     color: #fff;
-                    padding-bottom: .8rem;
+                    padding-bottom: 0.8rem;
                 }
 
                 li {
@@ -1056,7 +1070,7 @@ $azul: #007cc3;
 
                 iframe {
                     display: inline;
-                    left: -.7rem;
+                    left: -0.7rem;
                     bottom: 3.5rem;
                     width: 90%;
                     // height: 100%;
@@ -1291,11 +1305,10 @@ $azul: #007cc3;
 }
 
 @media (max-width: 330px) {
-
-    .importante{
-        .ofrecemos-box1{
-            .ofrecemos-box1_div1{
-                iframe{
+    .importante {
+        .ofrecemos-box1 {
+            .ofrecemos-box1_div1 {
+                iframe {
                     height: 20rem;
                 }
             }
