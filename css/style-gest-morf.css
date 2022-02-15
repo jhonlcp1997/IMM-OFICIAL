@@ -326,6 +326,18 @@ a {
   bottom: -4.5rem;
 }
 
+.importante .ofrecemos-box1 div .contenedor {
+  position: relative;
+  width: 700px;
+  height: 30rem;
+  bottom: -4.5rem;
+  padding-left: 0;
+}
+
+.importante .ofrecemos-box1 div .contenedor img {
+  text-align: left;
+}
+
 .importante .ofrecemos-box1 div ul {
   font-size: 1.5rem;
   padding-left: 5rem;

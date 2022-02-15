@@ -119,7 +119,6 @@ a {
                 margin-top: 1.5rem;
                 padding-left: 4.5rem;
 
-
                 a {
                     &:focus {
                         padding-bottom: 1rem;
@@ -325,19 +324,23 @@ $azul: #007cc3;
                 bottom: -4.5rem;
             }
 
-            // .contenedor {
-            //     position: relative;
-            //     width: 700px;
-            //     height: 30rem;
-            //     bottom: -4.5rem;
-
-            //     background: url(../img/images-gine/fondo_prueba.png) no-repeat;
-            //     // background-size: cover;
-            //     // background-position: center;
-            //     background-position: 0px 120px;
-            //     background-attachment: fixed;
-            //     padding: 0rem 2rem;
-            // }
+            .contenedor {
+                position: relative;
+                width: 700px;
+                height: 30rem;
+                bottom: -4.5rem;
+                // // background-size: cover;
+                // // background-position: center;
+                // background-position: 0px 120px;
+                // background-attachment: fixed;
+                // padding: 0rem 2rem;
+                // background: url(../img/images-gest/Antenatal-feto.jpg) no-repeat;
+                padding-left: 0;
+                
+                img{
+                    text-align: left;
+                }
+            }
 
             ul {
                 font-size: 1.5rem;
@@ -1039,7 +1042,7 @@ $azul: #007cc3;
                 //     width: 40rem;
                 //     height: 10rem;
                 //     background-size: cover;
-                    
+
                 // }
 
                 ul {
@@ -1278,11 +1281,10 @@ $azul: #007cc3;
 }
 
 @media (max-width: 330px) {
-
-    .importante{
-        .ofrecemos-box1{
-            div{
-                iframe{
+    .importante {
+        .ofrecemos-box1 {
+            div {
+                iframe {
                     height: 20rem;
                 }
             }
