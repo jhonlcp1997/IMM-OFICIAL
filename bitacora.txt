@@ -40,3 +40,4 @@ Bueno voy a comer, no se que mas cambios hay que meterle, solo estan esperando p
 Bueno ya termine de comer asi tendré que seguir aqui. Como quisiera trabajar solo, deberas... quiza mas adelante... aaahh... pero a aveces me siento incomodo, por que talvez pueda estar haciendo esto desde de mi casa.
 Empece a revisar React,no lose, luce amigable pero a la vez engorroso, como dice su documentacion esta basado en componentes, asi que crear un componente por cada cosita que se te presenta, esa es la parte engorrosa.
 A veces me da mucho sueño como para mantenerme sentado despierto, asi que subo a la azotea.
+Ahora me estoy poniendo a hacer limpieza del codigo, de la parte de morfologico sass.

@@ -22,6 +22,8 @@ $light-color: #666;
 $pink1: #f4c6de;
 $pink2: #f5a4c7;
 $pink3: #f173ac;
+$azul: #007cc3;
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $border: 0.2rem solid $pink3;
 
 a {
@@ -134,9 +136,6 @@ a {
         }
     }
 }
-
-$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
-$azul: #007cc3;
 
 .menu {
     display: inline-flex;
@@ -423,17 +422,11 @@ $azul: #007cc3;
         .vacio-boxes_1 {
             height: 28rem;
             display: inline;
-            // border-bottom: 1px solid #666;
-            // margin-top: 2rem;
             padding: 5.5% 0rem;
             box-shadow: -3rem 2rem 30px -10px rgb(204, 203, 203);
             margin: 1rem auto;
-            // height: 25rem;
             width: 35rem;
             background-color: #fff;
-            // align-items: center;
-            // justify-content: space-around;
-            // display: flex;
             position: relative;
 
             .vacio-boxes_1-div1 {
@@ -545,16 +538,6 @@ $azul: #007cc3;
                 height: 5rem;
             }
         }
-
-        // .vacio-boxes_2{
-
-        //     height: 10rem;
-        //     display: flex;
-
-        //     img{
-        //         // width: 5rem;
-        //     }
-        // }
     }
 
     .point4 {

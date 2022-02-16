@@ -674,7 +674,6 @@ a {
   font-size: 1.2rem;
 }
 
-/* *MEDIA QUERIES */
 @media (max-width: 1720px) {
   html {
     font-size: 57%;

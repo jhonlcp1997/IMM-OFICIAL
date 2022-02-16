@@ -387,7 +387,7 @@ $azul: #007cc3;
 
             //         // width: 800px;
             //         // height: 400px;
-            //         // left: -9rem;       
+            //         // left: -9rem;
             //     }
             // }
 
@@ -765,8 +765,6 @@ $azul: #007cc3;
 
 // *MEDIA QUERIES
 
-/* *MEDIA QUERIES */
-
 @media (max-width: 1720px) {
     html {
         font-size: 57%;
@@ -859,7 +857,6 @@ $azul: #007cc3;
             width: 60%;
             // height: auto;
             text-align: right;
-            // align-items:center;
             img {
                 position: relative;
                 width: 90%;
@@ -1104,7 +1101,7 @@ $azul: #007cc3;
                 ul {
                     padding-right: 2rem;
                     position: relative;
-                    // padding: 0 3rem;
+                    // padding: 0 3rem; no se para que pongo este tipo de padding
                     // padding-top: 0;
                     top: -4.5rem;
 
@@ -1271,7 +1268,7 @@ $azul: #007cc3;
         .ofrecemos-box1 {
             height: auto;
 
-            .ofrecemos-box1_div1{
+            .ofrecemos-box1_div1 {
                 iframe {
                     height: 20rem;
                 }
