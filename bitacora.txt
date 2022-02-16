@@ -30,3 +30,6 @@ Que mas puedo hacer, es como una bola de nieve todo lo de este dia, el señor co
 Quiere imagenes de fondo pero no movibles, luego algunas páginas en donde se le agregaran los videos. y ya me habia creado un unico sass para que abarca 4 módulos.
 Quisiera no estar aqui, tengo que tratar de adivinar lo que las demas quieren decir, y no se que ponerle
 x2 no se que ponerle, pero sigo escribiendo por que no se que poner...
+
+16-02-2022:
+Bitacora de Buzlightyear... solo avanzare un formato parecido al que esta en los PDFs con respecto al video de la box1, creare otra rama, no quiero malograr lo que supuestamente eh avanzado.
