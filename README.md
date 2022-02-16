@@ -11,6 +11,10 @@ Primer repositorio del Instituto Medico de la Mujer
     - others
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
 - img
+    - image-simple(svg de los primeros -> a estos tendre que cambiarlos para no tener muchas carpetas)
+    - image-simple2(aqui se encuentran la mayoria de las imagenes)
+    - images-gest(Todo lo agregado despues en gestacional)
+    - images-gine(Todo lo agregado despues en ginecologico)
 - image
     - Endocrinologas **(por el momento solo hay esto)**
 - views

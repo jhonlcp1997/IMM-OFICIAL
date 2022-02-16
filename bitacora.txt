@@ -34,4 +34,9 @@ x2 no se que ponerle, pero sigo escribiendo por que no se que poner...
 16-02-2022:
 Bitacora de Buzlightyear... solo avanzare un formato parecido al que esta en los PDFs con respecto al video de la box1, creare otra rama, no quiero malograr lo que supuestamente eh avanzado.
 Por ahora solo pude editar la parte de los videos, hacerlo un poco mas grandecitos nada mas.
-Estoy esperando que llegue el almuerzo.
+Estoy esperando que llegue el almuerzo. Voy a intentar poner las cosas lo mas cercano posible a lo que quiren y nada mas...
+Estaba pensando en solo dormir... pero no se si estar bien(hablo gaferas).
+Bueno voy a comer, no se que mas cambios hay que meterle, solo estan esperando para hacerlo de golpe, quisiera pedri mi renuncia pero tengo que ganar la sufiente experienca como para...
+Bueno ya termine de comer asi tendré que seguir aqui. Como quisiera trabajar solo, deberas... quiza mas adelante... aaahh... pero a aveces me siento incomodo, por que talvez pueda estar haciendo esto desde de mi casa.
+Empece a revisar React,no lose, luce amigable pero a la vez engorroso, como dice su documentacion esta basado en componentes, asi que crear un componente por cada cosita que se te presenta, esa es la parte engorrosa.
+A veces me da mucho sueño como para mantenerme sentado despierto, asi que subo a la azotea.

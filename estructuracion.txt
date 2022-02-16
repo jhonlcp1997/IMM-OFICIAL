@@ -11,7 +11,7 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -subido a gitHub y luego a netlifly
 -subido a su dominio trabajado en Cpanel, ("me dio problemas la parte de arreglar en código yml")
 -Cambie el repositorio a privado
-
+-Probe los enlaces embebidos de las plataformas youtube y Vimeo.
 
 ===Cosas que tengo que hacer ===
 

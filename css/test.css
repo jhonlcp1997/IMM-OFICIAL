@@ -44,25 +44,31 @@ body{
 
 .contenedor2{
 	background:turquoise;
-	height: auto;
+	height: 20rem;
 	width: 95%;
 	max-width: 30rem;
 	margin: auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 2fr 1fr;
 	column-gap: 10px;
 	row-gap: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .uno1{
+	flex: 1 1 12rem;
 	background-color: #aaa;
+	height: 10rem;
 }
 
 .dos1{
+	flex: 1 1 5rem;
+	height: 5rem;
 	background-color: tomato;
 }
 
 .tres1{
+	flex: 1 1 5rem;
+	height: 5rem;
 	background-color: cornflowerblue;
 }

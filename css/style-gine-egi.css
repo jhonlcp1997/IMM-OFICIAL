@@ -1000,7 +1000,7 @@ body {
     display: none;
   }
   .header div .header-general {
-    margin: 0.5rem 10%;
+    margin: 1rem 10%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
