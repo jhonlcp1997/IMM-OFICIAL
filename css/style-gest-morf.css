@@ -693,6 +693,12 @@ a {
   .importante {
     margin-top: 7.5rem;
   }
+  .importante .ofrecemos-box1 div ul h2 {
+    font-size: 2rem;
+  }
+  .importante .ofrecemos-box1 div ul li p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 1210px) {
@@ -737,12 +743,6 @@ a {
   }
   .menu .img-fondo {
     display: none;
-  }
-  .importante .ofrecemos-box1 div ul h2 {
-    font-size: 2rem;
-  }
-  .importante .ofrecemos-box1 div ul li p {
-    font-size: 1.5rem;
   }
   .importante .ofrecemos-box1 .point2 {
     display: none;

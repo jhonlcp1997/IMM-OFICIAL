@@ -719,6 +719,23 @@ $azul: #007cc3;
 
     .importante {
         margin-top: 7.5rem;
+
+        .ofrecemos-box1 {
+            div {
+                ul {
+                    h2 {
+                        font-size: 2rem;
+                    }
+
+                    li {
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+
+        }
     }
 }
 
@@ -785,20 +802,6 @@ $azul: #007cc3;
 
     .importante {
         .ofrecemos-box1 {
-            div {
-                ul {
-                    h2 {
-                        font-size: 2rem;
-                    }
-
-                    li {
-                        p {
-                            font-size: 1.5rem;
-                        }
-                    }
-                }
-            }
-
             .point2 {
                 display: none;
             }
