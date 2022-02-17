@@ -41,3 +41,7 @@ Bueno ya termine de comer asi tendré que seguir aqui. Como quisiera trabajar so
 Empece a revisar React,no lose, luce amigable pero a la vez engorroso, como dice su documentacion esta basado en componentes, asi que crear un componente por cada cosita que se te presenta, esa es la parte engorrosa.
 A veces me da mucho sueño como para mantenerme sentado despierto, asi que subo a la azotea.
 Ahora me estoy poniendo a hacer limpieza del codigo, de la parte de morfologico sass.
+
+17-02-2022:
+Bitacora otra vez, no se cuanto tiempo tengo que estar escribiendo, pero lo voy a hacer hasta que acabe este proyecto... necesito otra cosa... no se, algo como dormir xD
+Vere si puedo arreglar la parte de endocrinologas aunque es la parte que menos problemas me esta dando.
