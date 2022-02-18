@@ -124,36 +124,33 @@ function toggleContent() {
     console.log("Entro en el toggle");
 
     let itemClass = this.className;
+    let itemBrother = this.nextElementSibling.className;
     console.log(itemClass);
+    console.log(itemBrother);
 
-    for (let i = 0; i < contenido_body.length; i++) {
-        // contenido_body[i].className = 'contenido-body close';
-        // contenido_header[i].className = 'contenido-header close';
+    if (itemClass === 'contenido-header close') {
 
-        contenido_header[i].onclick = () => {
-            if (contenido_header[i].className === 'contenido-header close') {
-                contenido_header[i].className = 'contenido-header open';
-                contenido_body[i].className = 'contenido-body open';
-                if (i > 0) {
-                    // contenido_body[i].className = 'contenido-body open';
-                    contenido_body1.className = 'contenido-body1 open';;
-                }
-            } else {
-                contenido_header[i].className = 'contenido-header close';
-                contenido_body[i].className = 'contenido-body close';
-                if (i > 0) {
-                    // contenido_body[i].className = 'contenido-body close';
-                    contenido_body1.className = 'contenido-body1 close';
-                }
-            }
+        if (this.nextElementSibling.nextElementSibling) {
+            this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open'
+            this.className = 'contenido-header open';
+            this.nextElementSibling.className = 'contenido-body open';
+
+        } else {
+            this.className = 'contenido-header open';
+            this.nextElementSibling.className = 'contenido-body open';
+        }
+        // contenido_body[2].className = 'contenido-body open';
+        console.log("aqui entro a las cosas de close");
+    } else {
+        if (this.nextElementSibling.nextElementSibling) {
+            this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close'
+            this.className = 'contenido-header close';
+            this.nextElementSibling.className = 'contenido-body close';
+        } else {
+            this.className = 'contenido-header close';
+            this.nextElementSibling.className = 'contenido-body close';
         }
     }
-
-    // if(itemClass === 'contenido-header close'){
-    //     contenido_header[2].className = 'contenido-header open';
-    //     contenido_body[2].className = 'contenido-body open';
-    //     console.log("aqui entro a las cosas de close");
-    // }
 }
 
 contenido_header.forEach((el) => {
@@ -169,15 +166,23 @@ let election2 = document.querySelector('.day2');
 let view = document.querySelectorAll('.info-date-container');
 
 election1.onclick = () => {
-    election1.classList.toggle('active');
-    election2.classList.remove('active');
-    view[0].classList.toggle('active');
-    view[1].classList.remove('active');
+    if (election1.className === 'day1 active') {
+
+    } else {
+        election1.classList.toggle('active');
+        election2.classList.remove('active');
+        view[0].classList.toggle('active');
+        view[1].classList.remove('active');
+    }
 }
 
 election2.onclick = () => {
-    election2.classList.toggle('active');
-    election1.classList.remove('active');
-    view[1].classList.toggle('active');
-    view[0].classList.remove('active');
+    if (election2.className === 'day2 active') {
+
+    } else {
+        election2.classList.toggle('active');
+        election1.classList.remove('active');
+        view[1].classList.toggle('active');
+        view[0].classList.remove('active');
+    }
 }
