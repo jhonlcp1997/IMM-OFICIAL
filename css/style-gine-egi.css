@@ -725,6 +725,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div img {
+  width: 10rem;
+  height: 7rem;
   text-align: center;
 }
 
@@ -763,6 +765,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
+  width: 10rem;
+  height: 7rem;
   text-align: center;
 }
 
