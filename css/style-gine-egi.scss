@@ -527,16 +527,18 @@ body {
         }
 
         div {
+            padding-right: 1rem;
+
             h3 {
                 // padding-right: 20rem;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 1.7rem;
+                font-size: 2rem;
                 color: $pink3;
             }
 
             p {
                 font-family: "Poppins", sans-serif;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 color: #777;
             }
         }
@@ -560,16 +562,17 @@ body {
 
         div {
             color: $white;
+            padding-right: 1rem;
 
             h3 {
                 // padding-right: 20rem;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 1.7rem;
+                font-size: 2.5rem;
             }
 
             p {
                 font-family: "Poppins", sans-serif;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
         }
     }

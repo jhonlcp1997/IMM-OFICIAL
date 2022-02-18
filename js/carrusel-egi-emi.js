@@ -7,7 +7,7 @@ let contador2 = 0;
 // estas variables estarn porseacaso por que no se de ninguna de estas
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
-let intervalo = 3500;
+let intervalo = 7000;
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
