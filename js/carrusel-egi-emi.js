@@ -121,12 +121,8 @@ let contenido_body = document.querySelectorAll('.contenido-body');
 let contenido_body1 = document.querySelector('.contenido-body1');
 
 function toggleContent() {
-    console.log("Entro en el toggle");
-
     let itemClass = this.className;
     let itemBrother = this.nextElementSibling.className;
-    console.log(itemClass);
-    console.log(itemBrother);
 
     if (itemClass === 'contenido-header close') {
 
@@ -139,9 +135,9 @@ function toggleContent() {
             this.className = 'contenido-header open';
             this.nextElementSibling.className = 'contenido-body open';
         }
-        // contenido_body[2].className = 'contenido-body open';
-        console.log("aqui entro a las cosas de close");
+
     } else {
+
         if (this.nextElementSibling.nextElementSibling) {
             this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close'
             this.className = 'contenido-header close';

@@ -52,3 +52,4 @@ Inicio de otra semana, esta vez voy a tratar de hacer una parte de enviar y reci
 Hay una parte que no me deja, y es que se da el click en toggle "TypeError: Cannot set properties of null (setting 'onclick')". en ginecologia utilizo el mismo js, por lo que me da problemas por que una de ellas utiliza mas el DOM y el otra no.
 Todos los cambios necesarios voya tener que probarlo en la parte de portafolio que estoy creando...
 Me estoy haciendo un portafolio, no se si me saldra bien, pero ahi estoy haciendo la parte que mas adelante se tiene que implementar
+Hoy arregle la parte de las flechitas que se encuentran en egi y emi que no me respondia en el primer click.
