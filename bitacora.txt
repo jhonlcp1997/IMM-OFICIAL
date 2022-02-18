@@ -46,3 +46,9 @@ Ahora me estoy poniendo a hacer limpieza del codigo, de la parte de morfologico 
 Bitacora otra vez, no se cuanto tiempo tengo que estar escribiendo, pero lo voy a hacer hasta que acabe este proyecto... necesito otra cosa... no se, algo como dormir xD
 Vere si puedo arreglar la parte de endocrinologas aunque es la parte que menos problemas me esta dando.
 no creo pero... otra vez
+
+18-02-2022:
+Inicio de otra semana, esta vez voy a tratar de hacer una parte de enviar y recivir correos,("la parte que quiero esa esa donde sale, enviar mensaje para comunicarse)
+Hay una parte que no me deja, y es que se da el click en toggle "TypeError: Cannot set properties of null (setting 'onclick')". en ginecologia utilizo el mismo js, por lo que me da problemas por que una de ellas utiliza mas el DOM y el otra no.
+Todos los cambios necesarios voya tener que probarlo en la parte de portafolio que estoy creando...
+Me estoy haciendo un portafolio, no se si me saldra bien, pero ahi estoy haciendo la parte que mas adelante se tiene que implementar

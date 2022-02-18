@@ -123,8 +123,8 @@ let contenido_body1 = document.querySelector('.contenido-body1');
 function toggleContent() {
     console.log("Entro en el toggle");
 
-    // let itemClass = contenido_header[2].className;
-    // console.log(itemClass);
+    let itemClass = this.className;
+    console.log(itemClass);
 
     for (let i = 0; i < contenido_body.length; i++) {
         // contenido_body[i].className = 'contenido-body close';
