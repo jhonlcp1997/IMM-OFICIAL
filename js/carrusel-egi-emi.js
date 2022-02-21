@@ -56,9 +56,12 @@ function slides() {
 
     if (contador == (sliderIndividual.length - 3)) {
         setTimeout(function () {
-            sliderIndividual[contador2].style["height"] = (height) + "px";
+            sliderIndividual[0].style["height"] = (height) + "px";
             sliderIndividual[contador2].classList.remove('active');
+
             children[7].style.background = "rgba(7, 17, 27, 0.2)";
+            children[0].style.background = "#007cc3";
+            
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
             contador = 1;
