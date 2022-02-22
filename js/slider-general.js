@@ -1,25 +1,25 @@
-let slider = document.querySelector(".slider-contenedor");
-let sliderIndividual = document.querySelectorAll(".contenido-slider");
-let puntos = document.querySelectorAll(".pt-g");
-let header = document.querySelector('.header');
+let slider_G = document.querySelector(".slider-contenedor-g");
+let sliderIndividual_g = document.querySelectorAll(".contenido-slider-g");
+let puntos_G = document.querySelectorAll(".pt-g");
+let header = document.querySelector('.header');     
 
-let width = header.clientWidth;
+let width_g = header.clientWidth;
 let curElement, nextElement;
 // let height = sliderIndividual[0].clientHeight;
 
 window.addEventListener("resize", function () {
-    width = this.innerWidth;
-    if(width > 768){
-        slider.style.transform = "translate(" + (-width * 0) + "px)";
-        slider.style.transition = "transform 1s";
+    width_g = this.innerWidth;
+    if(width_g > 768){
+        slider_G.style.transform = "translate(" + (-width_g * 0) + "px)";
+        slider_G.style.transition = "transform 1s";
     }
 })
 
 function fntExecuteSlide(side) {
 
-    for (let i = 0; i < puntos.length; i++) {
+    for (let i = 0; i < puntos_G.length; i++) {
 
-        if (puntos[i].className == 'pt-g active') {
+        if (puntos_G[i].className == 'pt-g active') {
 
             curElement = i;
 
@@ -30,15 +30,15 @@ function fntExecuteSlide(side) {
     if (side == 'prev' || side == 'next') {
 
         if (side == "prev") {
-            nextElement = (curElement == 0) ? puntos.length - 1 : curElement - 1;
+            nextElement = (curElement == 0) ? puntos_G.length - 1 : curElement - 1;
 
-            puntos[curElement].className = 'pt-g';
-            puntos[nextElement].className = 'pt-g active';
+            puntos_G[curElement].className = 'pt-g';
+            puntos_G[nextElement].className = 'pt-g active';
         } else {
             nextElement = (curElement == puntos.length - 1) ? 0 : curElement + 1;
 
-            puntos[curElement].className = 'pt-g';
-            puntos[nextElement].className = 'pt-g active';
+            puntos_G[curElement].className = 'pt-g';
+            puntos_G[nextElement].className = 'pt-g active';
         }
     } else {
         nextElement = side;
@@ -50,27 +50,27 @@ function fntExecuteSlide(side) {
 
     if (itempoint === 'pt-g') {
 
-        for (let j = 0; j < puntos.length; j++) {
-            puntos[j].className = 'pt-g';
+        for (let j = 0; j < puntos_G.length; j++) {
+            puntos_G[j].className = 'pt-g';
 
         };
 
         this.className = 'pt-g active';
 
-        for (let j = 0; j < puntos.length; j++) {
-            if (puntos[j].className == 'pt-g active') {
-                console.log(`Entro al if de los if ${puntos[j].className}`);
-                slider.style.transform = "translate(" + (-width * j) + "px)";
-                slider.style.transition = "transform 1s";
+        for (let j = 0; j < puntos_G.length; j++) {
+            if (puntos_G[j].className == 'pt-g active') {
+                console.log(`Entro al if de los if ${puntos_G[j].className}`);
+                slider_G.style.transform = "translate(" + (-width_g * j) + "px)";
+                slider_G.style.transition = "transform 1s";
 
             }
         };
     }
 
-    slider.style.transform = "translate(" + (-width * nextElement) + "px)";
-    slider.style.transition = "transform 1s";
+    slider_G.style.transform = "translate(" + (-width_g * nextElement) + "px)";
+    slider_G.style.transition = "transform 1s";
 }
 
-puntos.forEach((de) => {
+puntos_G.forEach((de) => {
     de.addEventListener('click', fntExecuteSlide);
 })

@@ -256,14 +256,14 @@ body {
         }
     }
 
-    .slider-contenedor {
+    .slider-contenedor-g {
         width: 100%;
         display: block;
         // margin: auto;
 
         
 
-        .contenido-slider {
+        .contenido-slider-g {
             width: 100%;
             // height: 600px;
             // display: flex;
@@ -1242,8 +1242,8 @@ body {
     .slider-general{
         position: relative;
         z-index: 1;
-        .slider-contenedor{
-            .contenido-slider{
+        .slider-contenedor-g{
+            .contenido-slider-g{
                 &.home {
                     .home_box {
                         .home-nav1 {
@@ -1290,7 +1290,7 @@ body {
             display: flex;
         }
 
-        .slider-contenedor{
+        .slider-contenedor-g{
             display: flex;
             height: 70vh;
         }
@@ -1323,8 +1323,8 @@ body {
     }
 
     .slider-general{
-        .slider-contenedor{
-            .contenido-slider{
+        .slider-contenedor-g{
+            .contenido-slider-g{
                 &.characteres {
                     .characteres-center_rigth {
                         .slider-contenedor {
@@ -1380,8 +1380,8 @@ body {
 // Todo:===============================================================================
 @media (max-width: 580px) {
     .slider-general{
-        .slider-general{
-            .contenido-slider{
+        .slider-general-g{
+            .contenido-slider-g{
                 &.home {
                     display: flex;
                     height: auto;
@@ -1433,11 +1433,11 @@ body {
     }
 
     .slider-general{
-        .slider-contenedor{
-            .contenido-slider{
+        .slider-contenedor-g{
+            .contenido-slider-g{
                 &.home {
                     .home_box {
-                        display: flex;
+                        display:-g flex;
                         flex-wrap: wrap-reverse;
                         padding-top: 0;
             
@@ -1575,8 +1575,8 @@ body {
     }
 
     .slider-general{
-        .slider-contenedor{
-            .contenido-slider{
+        .slider-contenedor-g{
+            .contenido-slider-g{
                 &.info-date {
                     padding: 1rem 0.5rem;
             
