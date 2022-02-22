@@ -1,6 +1,4 @@
 
-if (window.matchMedia("(max-width: 768px)").matches) {
-
     let slider = document.querySelector(".slider-contenedor");
     let sliderIndividual = document.querySelectorAll(".contenido-slider");
     let puntos = document.querySelectorAll(".pt-g");
@@ -74,5 +72,3 @@ if (window.matchMedia("(max-width: 768px)").matches) {
         de.addEventListener('click', fntExecuteSlide);
 
     })
-} else {
-}
