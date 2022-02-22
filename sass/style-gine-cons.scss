@@ -278,6 +278,7 @@ body {
     background-color: #fff;
     display: inline-block;
     width: 100%;
+    height: auto;
 
     .tittle {
         padding: 0 2rem;
@@ -285,41 +286,6 @@ body {
         text-align: center;
         font-family: "Abel", sans-serif;
         font-size: 2.8rem;
-    }
-
-    .info1 {
-        // background-color: #bfbfbf;
-        margin: auto;
-        display: flex;
-        width: 95%;
-        max-width: 50rem;
-        padding: 3rem 0;
-
-        img {
-            margin: auto;
-            width: 12rem;
-            height: 8rem;
-        }
-
-        div {
-            display: inline-block;
-
-            h2 {
-                font-size: 2rem;
-                text-align: left;
-                color: $azul;
-                // padding: 0 1rem;
-                font-family: "Abel", sans-serif;
-                padding-bottom: 1rem;
-            }
-
-            p {
-                font-family: "Poppins", sans-serif;
-                text-align: left;
-                font-size: 1.3rem;
-                color: #777;
-            }
-        }
     }
 
     .info2 {
@@ -335,7 +301,7 @@ body {
             margin: 1rem auto;
             // background-color: #bfbfbf;
             width: 30rem;
-            height: 25rem;
+            height: 17rem;
             text-align: center;
 
             h2 {
@@ -355,232 +321,151 @@ body {
             }
         }
     }
-}
 
-.characteres {
-    align-items: center;
-    padding: 3rem 9%;
-    margin: 10rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2;
-
-    .characteres-left {
-        text-align: center;
-        flex: 1 1 20rem;
-        margin-bottom: 3rem;
-
-        h2 {
-            font-size: 3rem;
-            font-family: "Abel", sans-serif;
-            color: $azul;
-        }
-
-        .points {
-            display: flex;
+    .time-price {
+        display: flex;
+        width: 95%;
+        max-width: 110rem;
+        margin: 0 auto 3rem auto;
+        // padding: 3rem 9%;
+        flex-wrap: wrap;
+    
+        .time-price_box1 {
+            flex: 1 1 30rem;
+            height: 20rem;
+            background: rgba(191, 191, 191, 0.25);
+            display: inline-flex;
             // text-align: center;
             justify-content: center;
-
-            .pt {
-                display: inline-block;
-                width: 12px;
-                height: 12px;
-                border-radius: 50px;
-                background-color: rgba(7, 17, 27, 0.2);
-                margin-right: 8px;
-                line-height: 12px;
-                // box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
-                cursor: pointer;
-
-                &.active {
-                    // box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
-                    background: #007cc3;
-                }
-            }
-        }
-
-        .animated {
-            margin: 2.5rem auto;
-            padding-top: 0.5rem;
-            color: #fff;
-            width: 16.5rem;
-            height: 3.5rem;
-            align-content: center;
-            text-align: center;
-            background: #f173ac;
-            border-radius: 15px;
-
-            a {
-                font-family: "Abel", sans-serif;
-                // font-weight: bold;
-                color: #fff;
-                font-size: 1.5rem;
-                font-weight: 600;
-
-                i {
-                    position: relative;
-                    top: 2px;
-                    font-size: 2rem;
-                    margin-right: 1rem;
-                }
-            }
-        }
-    }
-
-    .characteres-center_rigth {
-        flex: 1 1 50rem;
-        height: 33rem;
-
-        .slider-contenedor {
-            width: 630px;
-            height: 330px;
+            align-items: center;
             position: relative;
-            display: flex;
-            overflow: hidden;
-
-            .slider-contenedor2 {
-                width: 630px;
-                height: 330px;
-                display: flex;
-                gap: 10px;
-
-                .characteres_all {
-                    position: relative;
-                    display: inline-block;
-                    text-align: center;
-                    width: 200px;
-                    height: 290px;
-                    justify-content: space-around;
-                    flex-shrink: 0;
-                    padding: 2rem 1.5rem;
-                    background: $white;
-                    top: 15px;
-                    // flex-direction: column-reverse;
-
-                    img {
-                        text-align: center;
-                        width: 10rem;
-                        // height: 8rem;
-                        margin: 1rem 0;
-                    }
-
-                    div {
-                        h3 {
-                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                            // font-family: "Abel", sans-serif;
-                            color: $azul;
-                            font-size: 2rem;
-                        }
-
-                        p {
-                            margin: 1rem 0;
-                            font-family: "Poppins", sans-serif;
-                            font-size: 1.3rem;
-                            color: #777;
-                        }
-                    }
-
-                    &.active {
-                        // height: 320px;
-                        box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);
-                        top: 0px;
-                    }
-                }
-            }
-
-            .point2 {
+    
+            .point3 {
                 width: 10rem;
                 position: absolute;
-                z-index: -1;
-                bottom: 0rem;
-                right: 0rem;
+                z-index: 100;
+                top: -2rem;
+                left: -2rem;
+            }
+    
+            .time-price_box2_img {
+                width: 10rem;
+                height: 7rem;
+            }
+    
+            div {
+                padding-right: 1rem;
+    
+                h3 {
+                    // padding-right: 20rem;
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                    font-size: 2rem;
+                    color: $pink3;
+                }
+    
+                p {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.5rem;
+                    color: #777;
+                }
+            }
+        }
+    
+        .time-price_box2 {
+            height: 20rem;
+            flex: 1 1 30rem;
+            text-align: center;
+            align-items: center;
+            background-color: $azul;
+            display: inline-flex;
+            justify-content: center;
+            background-image: url(../img/image-simple-2/Fondo2.png);
+            background-size: cover;
+    
+            .time-price_box2_img {
+                width: 10rem;
+                height: 7rem;
+            }
+    
+            div {
+                color: $white;
+                padding-right: 1rem;
+    
+                h3 {
+                    // padding-right: 20rem;
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                    font-size: 2.5rem;
+                }
+    
+                p {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.5rem;
+                }
             }
         }
     }
-}
 
-.time-price {
-    display: flex;
-    width: 95%;
-    max-width: 110rem;
-    margin: 3rem auto;
-    // padding: 3rem 9%;
-    flex-wrap: wrap;
+    .atention{
+        max-width: 80rem;
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
 
-    .time-price_box1 {
-        flex: 1 1 30rem;
-        height: 20rem;
-        background-color: $white;
-        display: inline-flex;
-        // text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-        .point3 {
-            width: 10rem;
-            position: absolute;
-            z-index: 100;
-            top: -2rem;
-            left: -2rem;
-        }
-
-        .time-price_box2_img {
-            width: 10rem;
-            height: 7rem;
-        }
-
-        div {
-            padding-right: 1rem;
-
-            h3 {
-                // padding-right: 20rem;
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 2rem;
+        .atention-div1{
+            .tittle{
                 color: $pink3;
-            }
-
-            p {
-                font-family: "Poppins", sans-serif;
-                font-size: 1.5rem;
-                color: #777;
-            }
-        }
-    }
-
-    .time-price_box2 {
-        height: 20rem;
-        flex: 1 1 30rem;
-        text-align: center;
-        align-items: center;
-        background-color: $azul;
-        display: inline-flex;
-        justify-content: center;
-        background-image: url(../img/image-simple-2/Fondo2.png);
-        background-size: cover;
-
-        .time-price_box2_img {
-            width: 10rem;
-            height: 7rem;
-        }
-
-        div {
-            color: $white;
-            padding-right: 1rem;
-
-            h3 {
-                // padding-right: 20rem;
+                font-size: 2rem;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 2.5rem;
             }
 
-            p {
+            .sub_subtittle{
                 font-family: "Poppins", sans-serif;
-                font-size: 1.5rem;
+            }
+
+            .ul{
+                text-decoration-color: $azul;
+                .ul-li{
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+        }
+
+        .atention-div2{
+
+            .img{
+                
+            }
+
+            .animated {
+                margin-top: 2.5rem;
+                padding-top: 0.5rem;
+                color: #fff;
+                width: 16.5rem;
+                height: 3.5rem;
+                align-content: center;
+                text-align: center;
+                background: #f173ac;
+                border-radius: 15px;
+
+                a {
+                    font-family: "Abel", sans-serif;
+                    // font-weight: bold;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+
+                    i {
+                        position: relative;
+                        top: 2px;
+                        font-size: 2rem;
+                        margin-right: 1rem;
+                    }
+                }
             }
         }
     }
 }
+
 
 .info-date {
     margin: auto;
@@ -591,7 +476,7 @@ body {
     box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
     z-index: 1;
     position: relative;
-    top: 1rem;
+    top: 2rem;
 
     h2 {
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

@@ -261,6 +261,7 @@ body {
   background-color: #fff;
   display: inline-block;
   width: 100%;
+  height: auto;
 }
 
 .study .tittle {
@@ -269,41 +270,6 @@ body {
   text-align: center;
   font-family: "Abel", sans-serif;
   font-size: 2.8rem;
-}
-
-.study .info1 {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
-  max-width: 50rem;
-  padding: 3rem 0;
-}
-
-.study .info1 img {
-  margin: auto;
-  width: 12rem;
-  height: 8rem;
-}
-
-.study .info1 div {
-  display: inline-block;
-}
-
-.study .info1 div h2 {
-  font-size: 2rem;
-  text-align: left;
-  color: #007cc3;
-  font-family: "Abel", sans-serif;
-  padding-bottom: 1rem;
-}
-
-.study .info1 div p {
-  font-family: "Poppins", sans-serif;
-  text-align: left;
-  font-size: 1.3rem;
-  color: #777;
 }
 
 .study .info2 {
@@ -323,7 +289,7 @@ body {
 .study .info2 div {
   margin: 1rem auto;
   width: 30rem;
-  height: 25rem;
+  height: 17rem;
   text-align: center;
 }
 
@@ -343,176 +309,23 @@ body {
   color: #777;
 }
 
-.characteres {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 3rem 9%;
-  margin: 10rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2;
-}
-
-.characteres .characteres-left {
-  text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 20rem;
-          flex: 1 1 20rem;
-  margin-bottom: 3rem;
-}
-
-.characteres .characteres-left h2 {
-  font-size: 3rem;
-  font-family: "Abel", sans-serif;
-  color: #007cc3;
-}
-
-.characteres .characteres-left .points {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.characteres .characteres-left .points .pt {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  background-color: rgba(7, 17, 27, 0.2);
-  margin-right: 8px;
-  line-height: 12px;
-  cursor: pointer;
-}
-
-.characteres .characteres-left .points .pt.active {
-  background: #007cc3;
-}
-
-.characteres .characteres-left .animated {
-  margin: 2.5rem auto;
-  padding-top: 0.5rem;
-  color: #fff;
-  width: 16.5rem;
-  height: 3.5rem;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-  background: #f173ac;
-  border-radius: 15px;
-}
-
-.characteres .characteres-left .animated a {
-  font-family: "Abel", sans-serif;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.characteres .characteres-left .animated a i {
-  position: relative;
-  top: 2px;
-  font-size: 2rem;
-  margin-right: 1rem;
-}
-
-.characteres .characteres-center_rigth {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50rem;
-          flex: 1 1 50rem;
-  height: 33rem;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor {
-  width: 630px;
-  height: 330px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
-  width: 630px;
-  height: 330px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  height: 290px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  padding: 2rem 1.5rem;
-  background: #fff;
-  top: 15px;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {
-  text-align: center;
-  width: 10rem;
-  margin: 1rem 0;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all div h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #007cc3;
-  font-size: 2rem;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all div p {
-  margin: 1rem 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
-  color: #777;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
-  -webkit-box-shadow: 0rem 1rem 80px -50px #332e2e;
-          box-shadow: 0rem 1rem 80px -50px #332e2e;
-  top: 0px;
-}
-
-.characteres .characteres-center_rigth .slider-contenedor .point2 {
-  width: 10rem;
-  position: absolute;
-  z-index: -1;
-  bottom: 0rem;
-  right: 0rem;
-}
-
-.time-price {
+.study .time-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 95%;
   max-width: 110rem;
-  margin: 3rem auto;
+  margin: 0 auto 3rem auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.time-price .time-price_box1 {
+.study .time-price .time-price_box1 {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
   height: 20rem;
-  background-color: #fff;
+  background: rgba(191, 191, 191, 0.25);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -525,7 +338,7 @@ body {
   position: relative;
 }
 
-.time-price .time-price_box1 .point3 {
+.study .time-price .time-price_box1 .point3 {
   width: 10rem;
   position: absolute;
   z-index: 100;
@@ -533,28 +346,28 @@ body {
   left: -2rem;
 }
 
-.time-price .time-price_box1 .time-price_box2_img {
+.study .time-price .time-price_box1 .time-price_box2_img {
   width: 10rem;
   height: 7rem;
 }
 
-.time-price .time-price_box1 div {
+.study .time-price .time-price_box1 div {
   padding-right: 1rem;
 }
 
-.time-price .time-price_box1 div h3 {
+.study .time-price .time-price_box1 div h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
   color: #f173ac;
 }
 
-.time-price .time-price_box1 div p {
+.study .time-price .time-price_box1 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   color: #777;
 }
 
-.time-price .time-price_box2 {
+.study .time-price .time-price_box2 {
   height: 20rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
@@ -574,24 +387,80 @@ body {
   background-size: cover;
 }
 
-.time-price .time-price_box2 .time-price_box2_img {
+.study .time-price .time-price_box2 .time-price_box2_img {
   width: 10rem;
   height: 7rem;
 }
 
-.time-price .time-price_box2 div {
+.study .time-price .time-price_box2 div {
   color: #fff;
   padding-right: 1rem;
 }
 
-.time-price .time-price_box2 div h3 {
+.study .time-price .time-price_box2 div h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2.5rem;
 }
 
-.time-price .time-price_box2 div p {
+.study .time-price .time-price_box2 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
+}
+
+.study .atention {
+  max-width: 80rem;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.study .atention .atention-div1 .tittle {
+  color: #f173ac;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.study .atention .atention-div1 .sub_subtittle {
+  font-family: "Poppins", sans-serif;
+}
+
+.study .atention .atention-div1 .ul {
+  -webkit-text-decoration-color: #007cc3;
+          text-decoration-color: #007cc3;
+}
+
+.study .atention .atention-div1 .ul .ul-li {
+  font-family: "Poppins", sans-serif;
+}
+
+.study .atention .atention-div2 .animated {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  color: #fff;
+  width: 16.5rem;
+  height: 3.5rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  background: #f173ac;
+  border-radius: 15px;
+}
+
+.study .atention .atention-div2 .animated a {
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.study .atention .atention-div2 .animated a i {
+  position: relative;
+  top: 2px;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 
 .info-date {
@@ -604,7 +473,7 @@ body {
           box-shadow: -3rem 4rem 80px -70px #332e2e;
   z-index: 1;
   position: relative;
-  top: 1rem;
+  top: 2rem;
 }
 
 .info-date h2 {
@@ -1299,4 +1168,4 @@ body {
     height: 15rem;
   }
 }
-/*# sourceMappingURL=style-gine-egi.css.map */
+/*# sourceMappingURL=style-gine-cons.css.map */
