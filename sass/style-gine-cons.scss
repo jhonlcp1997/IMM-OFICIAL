@@ -274,7 +274,7 @@ body {
 }
 
 .study {
-    padding: 10rem 0 2rem 0;
+    padding: 10rem 0 0 0;
     background-color: #fff;
     display: inline-block;
     width: 100%;
@@ -326,7 +326,7 @@ body {
         display: flex;
         width: 95%;
         max-width: 110rem;
-        margin: 0 auto 3rem auto;
+        margin: 0 auto 1rem auto;
         // padding: 3rem 9%;
         flex-wrap: wrap;
     
@@ -406,31 +406,63 @@ body {
     }
 
     .atention{
-        max-width: 80rem;
+        max-width: 100rem;
         width: 95%;
         display: flex;
         flex-wrap: wrap;
+        // background-color: #9f9f9f;
+        margin: 10rem auto 6rem auto;
+        // justify-content: space-between;
 
         .atention-div1{
+            flex: 1 1 50rem;
+
+            // background-color: #9f9f9f;
+
             .tittle{
+                padding: 0;
+                margin: 0;
+                text-align: left;
                 color: $pink3;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
             }
 
             .sub_subtittle{
                 font-family: "Poppins", sans-serif;
+                font-size: 1.5rem;
+                color: #777;
+                margin: 1rem 0;
             }
 
             .ul{
-                text-decoration-color: $azul;
+                color: $azul;
+                padding: 0 2rem;
+                
                 .ul-li{
+                    margin: .5rem 0;
                     font-family: "Poppins", sans-serif;
+                    font-size: 1.3rem;
+                    p{
+                        color: #777;
+                    }
                 }
             }
         }
 
         .atention-div2{
+            // flex: 1 1 18rem;
+            margin: auto;
+            // text-align: right;
+            // background-color: #f5a4c7;
+            justify-content: center;
+
+            .img{
+                margin-top: 2rem;
+                img{
+                    width: 15rem;
+                }
+            }
 
             .animated {
                 margin-top: 2.5rem;
@@ -438,7 +470,7 @@ body {
                 color: #fff;
                 width: 16.5rem;
                 height: 3.5rem;
-                align-content: center;
+                // align-content: center;
                 text-align: center;
                 background: #f173ac;
                 border-radius: 15px;
