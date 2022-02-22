@@ -244,7 +244,7 @@ body {
             height: 12px;
             border-radius: 50px;
             background-color: rgba(7, 17, 27, 0.2);
-            margin: 0 .3rem;
+            margin: 0 0.3rem;
             // line-height: 12px;
             // box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
             cursor: pointer;
@@ -260,8 +260,6 @@ body {
         width: 100%;
         display: block;
         // margin: auto;
-
-        
 
         .contenido-slider-g {
             width: 100%;
@@ -281,8 +279,6 @@ body {
                 background: $azul;
                 z-index: 1;
                 // padding: 3rem 17%;
-
-                
 
                 &::before {
                     z-index: 0;
@@ -392,7 +388,6 @@ body {
                 background-color: #fff;
                 display: inline-block;
                 width: 100%;
-                
 
                 .tittle {
                     padding: 0 2rem;
@@ -480,7 +475,6 @@ body {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 2;
-                
 
                 .characteres-left {
                     text-align: center;
@@ -623,7 +617,6 @@ body {
                 margin: 3rem auto;
                 // padding: 3rem 9%;
                 flex-wrap: wrap;
-                
 
                 .time-price_box1 {
                     flex: 1 1 30rem;
@@ -703,7 +696,7 @@ body {
             &.info-date {
                 // display: inline-block;
                 justify-content: center;
-                margin: auto ;
+                margin: auto;
                 // width: 100%;
                 max-width: 100rem;
                 background-color: $white;
@@ -715,7 +708,6 @@ body {
                 top: 1rem;
                 // left: 50%;
                 // right: 50%;
-                
 
                 h2 {
                     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -1239,18 +1231,18 @@ body {
         }
     }
 
-    .slider-general{
+    .slider-general {
         position: relative;
         z-index: 1;
-        .slider-contenedor-g{
-            .contenido-slider-g{
+        .slider-contenedor-g {
+            .contenido-slider-g {
                 &.home {
                     .home_box {
                         .home-nav1 {
                             .home-nav1-P_1 {
                                 font-size: 2.6rem;
                             }
-            
+
                             .home-nav1-P_2 {
                                 font-size: 2.8rem;
                             }
@@ -1259,11 +1251,9 @@ body {
                 }
             }
         }
-
     }
 
     .footer {
-        
         .ofrecemos-footer {
             width: 80vw;
             padding: 0;
@@ -1277,26 +1267,37 @@ body {
     }
 }
 
-@media (max-width:768px){
-
-    .slider-general{
-        padding-bottom: 17rem ;
+@media (max-width: 768px){
+    .slider-general {
+        padding-bottom: 17rem;
         overflow: hidden;
-        .arrowNext, .arrowPrev{
+        .arrowNext,
+        .arrowPrev {
             display: flex;
         }
 
-        .points-g{
+        .points-g {
             display: flex;
         }
 
-        .slider-contenedor-g{
+        .slider-contenedor-g {
             display: flex;
-            height: 70vh;
+            height: 60vh;
+
+            .contenido-slider-g {
+                &.home {
+                    height: auto;
+                }
+
+                &.characteres {
+                    padding: 0 9%;
+                    margin: 1rem 0;
+                }
+            }
         }
     }
 
-    .footer{
+    .footer {
         display: none;
     }
 }
@@ -1322,14 +1323,14 @@ body {
         }
     }
 
-    .slider-general{
-        .slider-contenedor-g{
-            .contenido-slider-g{
+    .slider-general {
+        .slider-contenedor-g {
+            .contenido-slider-g {
                 &.characteres {
                     .characteres-center_rigth {
                         .slider-contenedor {
                             width: 420px;
-            
+
                             .slider-contenedor2 {
                                 position: relative;
                                 left: -10rem;
@@ -1338,33 +1339,33 @@ body {
                         }
                     }
                 }
-            
+
                 &.info-date {
                     .info-date-container {
                         font-size: 1.15rem;
-            
+
                         .info-contenido {
                             // height: 18rem;
-            
+
                             .contenido-body {
                                 div {
                                     img {
                                         width: 10rem;
                                     }
                                 }
-            
+
                                 &.open {
                                     height: 13rem;
                                 }
                             }
-            
+
                             .contenido-body1 {
                                 div {
                                     img {
                                         width: 10rem;
                                     }
                                 }
-            
+
                                 &.open {
                                     height: 13rem;
                                 }
@@ -1378,22 +1379,22 @@ body {
 }
 
 // Todo:===============================================================================
-@media (max-width: 580px) {
-    .slider-general{
-        .slider-general-g{
-            .contenido-slider-g{
+@media (max-width: 580px), (orientation: portrait) {
+    .slider-general {
+        .slider-general-g {
+            .contenido-slider-g {
                 &.home {
                     display: flex;
                     height: auto;
                     .home_box {
                         // background-color: #bfbfbf;
-            
+
                         .home-nav1 {
                             // position: relative;
                             text-align: center;
                             margin: 0 auto 0 10rem;
                         }
-            
+
                         .home-nav2 {
                             display: none;
                         }
@@ -1432,37 +1433,37 @@ body {
         }
     }
 
-    .slider-general{
-        .slider-contenedor-g{
-            .contenido-slider-g{
+    .slider-general {
+        .slider-contenedor-g {
+            .contenido-slider-g {
                 &.home {
                     .home_box {
-                        display:-g flex;
+                        display: -g flex;
                         flex-wrap: wrap-reverse;
                         padding-top: 0;
-            
+
                         .home-nav1 {
                             padding: 1rem 0;
                             margin: 0 auto;
                             // text-align: center;
-            
+
                             .home-nav1-P_1 {
                                 text-align: center;
                             }
-            
+
                             .home-nav1-P_2 {
                                 text-align: center;
                             }
-            
+
                             div {
                                 margin: 1rem auto;
                             }
                         }
-            
+
                         .home-nav2 {
                             display: flex;
                             width: auto;
-            
+
                             img {
                                 margin: auto;
                                 width: 80%;
@@ -1470,24 +1471,24 @@ body {
                         }
                     }
                 }
-            
+
                 &.study {
                     .tittle {
                         font-size: 2.5rem;
                     }
                 }
-            
+
                 &.characteres {
                     .characteres-center_rigth {
                         .slider-contenedor {
                             width: 198px;
                             height: 290px;
-            
+
                             .slider-contenedor2 {
                                 left: -24rem;
                                 width: 200px;
                                 height: 290px;
-            
+
                                 .characteres_all {
                                     height: 250px;
                                 }
@@ -1495,16 +1496,16 @@ body {
                         }
                     }
                 }
-            
+
                 &.info-date {
                     h2 {
                         font-size: 2rem;
                     }
-            
+
                     .section__subtitle {
                         font-size: 1.2rem;
                     }
-            
+
                     .info-date-container {
                         &.active {
                             font-size: 1rem;
@@ -1516,19 +1517,19 @@ body {
                                             width: 7rem;
                                         }
                                     }
-            
+
                                     &.open {
                                         height: 13rem;
                                     }
                                 }
-            
+
                                 .contenido-body1 {
                                     div {
                                         img {
                                             width: 7rem;
                                         }
                                     }
-            
+
                                     &.open {
                                         height: 13rem;
                                     }
@@ -1574,12 +1575,12 @@ body {
         }
     }
 
-    .slider-general{
-        .slider-contenedor-g{
-            .contenido-slider-g{
+    .slider-general {
+        .slider-contenedor-g {
+            .contenido-slider-g {
                 &.info-date {
                     padding: 1rem 0.5rem;
-            
+
                     .info-date-container {
                         font-size: 1rem;
                         &.active {
@@ -1589,24 +1590,24 @@ body {
                                         p {
                                             padding: 0 1rem;
                                         }
-            
+
                                         img {
                                             width: 7rem;
                                         }
                                     }
-            
+
                                     &.open {
                                         height: 15rem;
                                     }
                                 }
-            
+
                                 .contenido-body1 {
                                     div {
                                         img {
                                             width: 7rem;
                                         }
                                     }
-            
+
                                     &.open {
                                         height: 15rem;
                                     }

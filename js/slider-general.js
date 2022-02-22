@@ -35,8 +35,7 @@ function fntExecuteSlide(side) {
             puntos_G[curElement].className = 'pt-g';
             puntos_G[nextElement].className = 'pt-g active';
         } else {
-            nextElement = (curElement == puntos.length - 1) ? 0 : curElement + 1;
-
+            nextElement = (curElement == puntos_G.length - 1) ? 0 : curElement + 1;
             puntos_G[curElement].className = 'pt-g';
             puntos_G[nextElement].className = 'pt-g active';
         }
