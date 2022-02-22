@@ -196,6 +196,10 @@ body {
   font-size: 3.5rem;
 }
 
+.home .home_box .home-nav1 .home-nav1-P_3 {
+  font-size: 1.5rem;
+}
+
 .home .home_box .home-nav1 div {
   margin-top: 2.5rem;
   padding-top: 0.5rem;
@@ -944,6 +948,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
     vertical-align: middle;
+  }
+  .home .home_box .home-nav1 .home-nav1-P_3 {
+    max-width: 40rem;
   }
   .home .home_box .home-nav2 {
     display: -webkit-box;
