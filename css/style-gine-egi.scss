@@ -671,8 +671,8 @@ body {
                     cursor: pointer;
 
                     &.open {
-                        color: $pink3;
-                        transition: all 0.5s linear;
+                        // color: $pink3;
+                        // transition: all 0.5s linear;
 
                         i {
                             transform: rotate(-180deg);

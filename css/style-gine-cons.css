@@ -593,12 +593,6 @@ body {
   cursor: pointer;
 }
 
-.info-date .info-date-container.active .info-contenido .contenido-header.open {
-  color: #f173ac;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-
 .info-date .info-date-container.active .info-contenido .contenido-header.open i {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
@@ -620,7 +614,7 @@ body {
 
 .info-date .info-date-container.active .info-contenido .contenido-body div {
   text-align: center;
-  max-width: 29rem;
+  max-width: 25rem;
   min-width: 9rem;
 }
 

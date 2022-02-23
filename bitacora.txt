@@ -53,3 +53,6 @@ Hay una parte que no me deja, y es que se da el click en toggle "TypeError: Cann
 Todos los cambios necesarios voya tener que probarlo en la parte de portafolio que estoy creando...
 Me estoy haciendo un portafolio, no se si me saldra bien, pero ahi estoy haciendo la parte que mas adelante se tiene que implementar
 Hoy arregle la parte de las flechitas que se encuentran en egi y emi que no me respondia en el primer click.
+
+23-02-2022:
+En esta parte solo estoy agregando la parte que hice en main-2 agregue filas para poder tener ginecologia completada.
