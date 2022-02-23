@@ -7,12 +7,28 @@ let contador2 = 0;
 // estas variables estarn porseacaso por que no se de ninguna de estas
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
-let intervalo = 7000;
+let height2 = slider.clientHeight;
+let intervalo = 2000;
+
+console.log(width);
+console.log(height);
+console.log(height2);
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
     height = sliderIndividual[0].clientHeight;
+    height2 = slider.clientHeight;
+    console.log(`Este es el height 1 ${height}`);
+    console.log(`Este es el height 2 ${height2}`);
+    
+    if(height >250 ){
+        console.log("Salio del if");
+        for(let i = 0; i < sliderIndividual; i++){
+            sliderIndividual[i].style["height"] = "290px";
+        }
+    }
 })
+
 
 setInterval(function () {
     slides();
@@ -23,11 +39,14 @@ function slides() {
     slider.style.transform = "translate(" + (-210 * contador2) + "px)";
     slider.style.transition = "transform 1s";
 
+    // console.log(`Este es el contador 1 ${contador}`);
+    // console.log(`Este es el contador 2 ${contador2}`);
+
     if (contador > 8) {
         children[7].style.background = "rgba(7, 17, 27, 0.2)";
         children[0].style.background = "#007cc3";
 
-        sliderIndividual[contador2].style["height"] = (height) + "px";
+        sliderIndividual[contador2].style["height"] = (height -50) + "px";
         sliderIndividual[contador2].classList.remove('active');
 
         sliderIndividual[0].style["height"] = (height + 30) + "px";
@@ -36,6 +55,8 @@ function slides() {
     } else if (contador === 1) {
         sliderIndividual[contador].style["height"] = (height + 30) + "px";
         sliderIndividual[contador].classList.toggle('active');
+
+        sliderIndividual[contador2].classList.remove('active');
         children[contador2].style.background = "#007cc3";
     }
 
@@ -57,6 +78,7 @@ function slides() {
     if (contador == (sliderIndividual.length - 3)) {
         setTimeout(function () {
             sliderIndividual[0].style["height"] = (height) + "px";
+            sliderIndividual[8].style["height"] = (height-5) + "px";
             sliderIndividual[contador2].classList.remove('active');
 
             children[7].style.background = "rgba(7, 17, 27, 0.2)";
@@ -72,7 +94,7 @@ function slides() {
 
 // *============ CLICK EN PUNTOS ==========
 function toggleStudy() {
-    // console.log("Entro en el toggleStudy");
+    console.log("Entro en el toggleStudy");
 
     for (let k = 0; k < puntos.length; k++) {
         puntos[k].onclick = () => {

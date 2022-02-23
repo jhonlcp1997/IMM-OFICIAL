@@ -55,4 +55,5 @@ Me estoy haciendo un portafolio, no se si me saldra bien, pero ahi estoy haciend
 Hoy arregle la parte de las flechitas que se encuentran en egi y emi que no me respondia en el primer click.
 
 23-02-2022:
+Vuelvo a escribir.. en esta parte me van a pedir que acabe el proyecto 1 elque se encuentra en main, el main-2 ese todavia.
 En esta parte solo estoy agregando la parte que hice en main-2 agregue filas para poder tener ginecologia completada.

@@ -1026,6 +1026,9 @@ body {
   .header div .header-general .header-left a img {
     width: 10rem;
   }
+  .study .atention {
+    width: 90%;
+  }
   .characteres .characteres-center_rigth .slider-contenedor {
     width: 420px;
   }
