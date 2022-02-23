@@ -193,6 +193,11 @@ body {
 }
 
 .home .home_box .home-nav1 .home-nav1-P_2 {
+  font-size: 3.4rem;
+}
+
+.home .home_box .home-nav1 .home-nav1-P_2 b {
+  font-family: "Abel", sans-serif;
   font-size: 3.5rem;
 }
 
@@ -269,7 +274,7 @@ body {
   padding: 0 2rem;
   color: #f173ac;
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 2.5rem;
 }
 
@@ -354,7 +359,7 @@ body {
 }
 
 .study .time-price .time-price_box1 div h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 2rem;
   color: #f173ac;
 }
@@ -396,7 +401,7 @@ body {
 }
 
 .study .time-price .time-price_box2 div h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 2.5rem;
 }
 
@@ -428,7 +433,7 @@ body {
   text-align: left;
   color: #f173ac;
   font-size: 2.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .study .atention .atention-div1 .sub_subtittle {
@@ -508,7 +513,7 @@ body {
 }
 
 .info-date h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Abel", sans-serif;
   color: #f173ac;
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -594,12 +599,13 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header.open i {
+  color: #f173ac;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
-  color: #f173ac;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header.close i {
+  color: #f173ac;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
@@ -792,6 +798,8 @@ body {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
   font-size: 1.5rem;
   color: #007cc3;
+  font-family: "Abel", sans-serif;
+  font-weight: 600;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
