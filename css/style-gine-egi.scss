@@ -724,12 +724,14 @@ body {
 
                 .contenido-body1 {
                     margin-top: 2rem;
-                    display: inline-flex;
-                    justify-content: space-between;
+                    display: flex;
+                    justify-content: space-around;
 
                     div {
                         justify-content: center;
                         text-align: center;
+                        max-width: 29rem;
+                        min-width: 9rem;
 
                         img {
                             width: 10rem;
@@ -1304,7 +1306,7 @@ body {
     .characteres {
         .characteres-center_rigth {
             height: 33rem;
-            
+
             .slider-contenedor {
                 width: 198px;
                 height: 290px;
