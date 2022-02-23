@@ -214,7 +214,8 @@ body {
             }
 
             .home-nav1-P_3{
-                font-size: 1.5rem;
+                font-family: "Poppins", sans-serif;
+                font-size: 1.4rem;
             }
 
             div {
@@ -284,35 +285,34 @@ body {
         padding: 0 2rem;
         color: $pink3;
         text-align: center;
-        font-family: "Abel", sans-serif;
-        font-size: 2.8rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 2.5rem;
     }
 
     .info2 {
         display: flex;
         width: 95%;
-        max-width: 100rem;
+        max-width: 90rem;
         // background-color: #f4c6de;
-        margin: 2rem auto 0 auto;
+        margin: 6rem auto 6rem auto;
         justify-content: space-between;
         flex-wrap: wrap;
 
         div {
-            margin: 1rem auto;
+            margin: 1rem auto 0 auto;
             // background-color: #bfbfbf;
-            width: 30rem;
-            height: 17rem;
+            width: 25rem;
+            height: 15rem;
             text-align: center;
+            // background-color: #007cc3;
 
-            h2 {
-                font-size: 2rem;
-                text-align: center;
-                color: $azul;
-                padding: 0.5rem 6rem;
-                font-family: "Abel", sans-serif;
+            img{
+                width: 10rem;
+                height: 7rem;
             }
 
             p {
+
                 padding: 0.5rem 2rem;
                 font-family: "Poppins", sans-serif;
                 text-align: center;
@@ -458,9 +458,11 @@ body {
             justify-content: center;
 
             .img{
+                text-align: center;
                 margin-top: 2rem;
+
                 img{
-                    width: 15rem;
+                    width: 12rem;
                 }
             }
 
@@ -601,12 +603,13 @@ body {
 
                 .contenido-body {
                     display: flex;
-                    justify-content: space-between;
+                    // justify-content: space-between;
+                    justify-content: space-around;
 
                     div {
                         text-align: center;
                         // display: inline-block;
-                        justify-content: space-between;
+                        // justify-content: space-between;
                         // height: 15rem;
                         max-width: 29rem;
                         min-width: 9rem;
@@ -625,7 +628,8 @@ body {
 
                     &.open {
                         height: 18rem;
-                        justify-content: space-between;
+                        justify-content: space-around;
+                        // justify-content: space-between;
                     }
 
                     &.close {
@@ -1192,6 +1196,10 @@ body {
                 }
 
                 .home-nav1-P_2 {
+                    text-align: center;
+                }
+                
+                .home-nav1-P_3{
                     text-align: center;
                 }
 

@@ -197,7 +197,8 @@ body {
 }
 
 .home .home_box .home-nav1 .home-nav1-P_3 {
-  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
 }
 
 .home .home_box .home-nav1 div {
@@ -268,8 +269,8 @@ body {
   padding: 0 2rem;
   color: #f173ac;
   text-align: center;
-  font-family: "Abel", sans-serif;
-  font-size: 2.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
 }
 
 .study .info2 {
@@ -277,8 +278,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 95%;
-  max-width: 100rem;
-  margin: 2rem auto 0 auto;
+  max-width: 90rem;
+  margin: 6rem auto 6rem auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -287,18 +288,15 @@ body {
 }
 
 .study .info2 div {
-  margin: 1rem auto;
-  width: 30rem;
-  height: 17rem;
+  margin: 1rem auto 0 auto;
+  width: 25rem;
+  height: 15rem;
   text-align: center;
 }
 
-.study .info2 div h2 {
-  font-size: 2rem;
-  text-align: center;
-  color: #007cc3;
-  padding: 0.5rem 6rem;
-  font-family: "Abel", sans-serif;
+.study .info2 div img {
+  width: 10rem;
+  height: 7rem;
 }
 
 .study .info2 div p {
@@ -463,11 +461,12 @@ body {
 }
 
 .study .atention .atention-div2 .img {
+  text-align: center;
   margin-top: 2rem;
 }
 
 .study .atention .atention-div2 .img img {
-  width: 15rem;
+  width: 12rem;
 }
 
 .study .atention .atention-div2 .animated {
@@ -615,16 +614,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div {
   text-align: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   max-width: 29rem;
   min-width: 9rem;
 }
@@ -642,9 +637,8 @@ body {
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
   height: 18rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
@@ -1105,6 +1099,9 @@ body {
     text-align: center;
   }
   .home .home_box .home-nav1 .home-nav1-P_2 {
+    text-align: center;
+  }
+  .home .home_box .home-nav1 .home-nav1-P_3 {
     text-align: center;
   }
   .home .home_box .home-nav1 div {

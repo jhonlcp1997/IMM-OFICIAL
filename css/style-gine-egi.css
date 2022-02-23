@@ -323,6 +323,11 @@ body {
   text-align: center;
 }
 
+.study .info2 div img {
+  width: 12rem;
+  height: 8rem;
+}
+
 .study .info2 div h2 {
   font-size: 2rem;
   text-align: center;
