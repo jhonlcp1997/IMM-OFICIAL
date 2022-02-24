@@ -116,7 +116,6 @@ body {
 }
 
 .header div .header-general {
-  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
