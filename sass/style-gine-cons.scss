@@ -1360,31 +1360,83 @@ body {
             &.active {
                 .info-contenido {
                     .contenido-body {
+                        flex-direction: column;
+
                         div {
+                            margin-left: 3rem;
+                            display: flex;
+                            align-items: center;
+
+                            .p-short{
+                                padding-left: 2rem;
+                            }
+
                             p {
+                                text-align: left;
                                 padding: 0 1rem;
                             }
 
                             img {
-                                width: 7rem;
+                                // width: 8rem;
+                                height: 6rem;
                             }
                         }
 
                         &.open {
-                            height: 15rem;
+                            
+                            height: 24rem;
+
+                            // div{
+                            //     display: flex;
+                            // }
                         }
                     }
 
                     .contenido-body1 {
+                        flex-direction: column;
+
                         div {
+                            
+                            margin-left: 3rem;
+                            display: flex;
+                            align-items: center;
+
+                            .p-short{
+                                padding-left: 2rem;
+                            }
+
+                            .p-short1{
+                                padding-left: 2.5rem;
+                            }
+
+                            p {
+                                text-align: left;
+                                padding: 0 1rem;
+                            }
+
                             img {
-                                width: 7rem;
+                                // width: 8rem;
+                                height: 6rem;
                             }
                         }
 
                         &.open {
-                            height: 15rem;
+                            margin-top: 0;
+                            height: 24rem;
+
+                            // div{
+                            //     display: flex;
+                            // }
                         }
+                        // div {
+                        //     img {
+                        //         width: 7rem;
+                        //     }
+                        // }
+
+                        // &.open {
+                        //     height: 15rem;
+                        // }
                     }
                 }
             }
