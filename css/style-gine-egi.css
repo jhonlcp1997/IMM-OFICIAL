@@ -701,6 +701,7 @@ body {
   font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #f173ac;
   color: #777;
+  position: relative;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header {
@@ -712,6 +713,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
+  z-index: 1;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-header.open i {
@@ -727,13 +729,13 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body {
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  z-index: 0;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div {
@@ -754,24 +756,24 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
-  -webkit-animation: miAnimacion1 .3s linear;
-          animation: miAnimacion1 .3s linear;
+  -webkit-animation: miAnimacion1 .2s linear;
+          animation: miAnimacion1 .2s linear;
   height: 18rem;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
   display: none;
   height: 0rem;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1 {
   margin-top: 2rem;
+  background-color: #fff;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-transition: all .5s linear;
   transition: all .5s linear;
+  z-index: 0;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1 div {
@@ -795,8 +797,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1.open {
-  -webkit-animation: miAnimacion1 .6s linear;
-          animation: miAnimacion1 .6s linear;
+  -webkit-animation: miAnimacion1 .4s linear;
+          animation: miAnimacion1 .4s linear;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -650,8 +650,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
-  -webkit-animation: miAnimacion1 .3s linear;
-          animation: miAnimacion1 .3s linear;
+  -webkit-animation: miAnimacion1 .2s linear;
+          animation: miAnimacion1 .2s linear;
   height: 18rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -694,8 +694,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1.open {
-  -webkit-animation: miAnimacion1 .6s linear;
-          animation: miAnimacion1 .6s linear;
+  -webkit-animation: miAnimacion1 .4s linear;
+          animation: miAnimacion1 .4s linear;
   height: 15.5rem;
 }
 

@@ -8,7 +8,7 @@ let contador2 = 0;
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let height2 = slider.clientHeight;
-let intervalo = 2000;
+let intervalo = 5000;
 
 console.log(width);
 console.log(height);
@@ -78,6 +78,8 @@ function slides() {
     if (contador == (sliderIndividual.length - 3)) {
         setTimeout(function () {
             sliderIndividual[0].style["height"] = (height) + "px";
+            sliderIndividual[0].classList.remove('active');
+
             sliderIndividual[8].style["height"] = (height - 5) + "px";
             sliderIndividual[contador2].classList.remove('active');
 
@@ -88,7 +90,7 @@ function slides() {
             slider.style.transition = "transform 0s";
             contador = 1;
             contador2 = 0;
-        }, 1500)
+        }, 5000)
     }
 }
 

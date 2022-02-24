@@ -689,12 +689,14 @@ body {
                 font-family: "Poppins", sans-serif;
                 border-bottom: 1px solid $pink3;
                 color: #777;
+                position: relative;
 
                 .contenido-header {
                     margin: 1rem;
                     display: flex;
                     justify-content: space-between;
                     cursor: pointer;
+                    z-index: 1;
 
                     &.open {
 
@@ -713,9 +715,11 @@ body {
                 }
 
                 .contenido-body {
+                    background-color: $white;
                     display: flex;
                     justify-content: space-around;
-                    transition: all .5s linear;
+                    // transition: all .5s linear;
+                    z-index: 0;
 
                     div {
                         text-align: center;
@@ -740,8 +744,8 @@ body {
 
                     &.open {
                         // scroll-behavior: smooth;
-                        // transition: all 0.5s linear;
-                        animation: miAnimacion1 .3s linear ;
+                        // transition: .4s ease-in-out;
+                        animation: miAnimacion1 .2s linear ;
                         // transition: all 1s linear;
                         height: 18rem;
                         // justify-content: space-between;
@@ -751,7 +755,7 @@ body {
                         // scroll-behavior: smooth;
                         // transition: all 0.5s linear;
                         // animation: miDesAnimacion 1s linear ;
-                        transition: all 1s linear;
+                        // transition: all 1s linear;
 
                         display: none;
                         height: 0rem;
@@ -760,9 +764,10 @@ body {
 
                 .contenido-body1 {
                     margin-top: 2rem;
-                    
+                    background-color: $white;
                     justify-content: space-around;
                     transition: all .5s linear;
+                    z-index: 0;
 
                     div {
                         justify-content: center;
@@ -784,7 +789,7 @@ body {
 
                     &.open {
                         
-                        animation: miAnimacion1 .6s linear ;
+                        animation: miAnimacion1 .4s linear ;
                         // animation-delay: 0s, 7s;
                         display: flex;
                         height: 15.5rem;
