@@ -1288,10 +1288,6 @@ body {
   .header div .header-general {
     margin: 1rem 7%;
   }
-  .header div .header-general .header-left a img {
-    top: 1rem;
-    width: 7rem;
-  }
   .header div .header-general .navbar-opciones-phone ul li .ginecologia {
     padding: 0.5rem 1rem;
   }
@@ -1312,6 +1308,9 @@ body {
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
     height: 15rem;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body1 div .p-short {
+    padding: 0;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
     width: 7rem;

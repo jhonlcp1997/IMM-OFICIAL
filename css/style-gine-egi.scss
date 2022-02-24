@@ -1417,14 +1417,14 @@ body {
             padding: 0;
             .header-general {
                 margin: 1rem 7%;
-                .header-left {
-                    a {
-                        img {
-                            top: 1rem;
-                            width: 7rem;
-                        }
-                    }
-                }
+                // .header-left {
+                //     a {
+                //         img {
+                //             top: 1rem;
+                //             width: 7rem;
+                //         }
+                //     }
+                // }
 
                 .navbar-opciones-phone {
                     ul {
@@ -1468,6 +1468,11 @@ body {
 
                     .contenido-body1 {
                         div {
+                            .p-short{
+                                padding: 0;
+                                // min-width: 15rem;
+                            }
+
                             img {
                                 width: 7rem;
                             }
