@@ -1241,16 +1241,19 @@ body {
   .study .tittle {
     font-size: 2.5rem;
   }
+  .characteres {
+    padding: 3rem 0;
+  }
   .characteres .characteres-center_rigth {
     height: 33rem;
   }
   .characteres .characteres-center_rigth .slider-contenedor {
-    width: 198px;
+    width: 230px;
     height: 290px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
-    left: -24rem;
-    width: 200px;
+    left: -22.2rem;
+    width: 232px;
     height: 290px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
