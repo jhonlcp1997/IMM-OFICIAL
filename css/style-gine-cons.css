@@ -10,6 +10,18 @@
   border: none;
 }
 
+@-webkit-keyframes miAnimacion1 {
+  from {
+    height: 0px;
+  }
+}
+
+@keyframes miAnimacion1 {
+  from {
+    height: 0px;
+  }
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -616,6 +628,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body div {
@@ -636,6 +650,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
+  -webkit-animation: miAnimacion1 .3s linear;
+          animation: miAnimacion1 .3s linear;
   height: 18rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -653,6 +669,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1 div {
@@ -676,6 +694,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body1.open {
+  -webkit-animation: miAnimacion1 .6s linear;
+          animation: miAnimacion1 .6s linear;
   height: 15.5rem;
 }
 
@@ -1028,9 +1048,6 @@ body {
   html {
     font-size: 55%;
   }
-  .header div .header-general {
-    margin: 1rem 0rem;
-  }
   .header div .header-general .header-left a img {
     width: 10rem;
   }
@@ -1168,7 +1185,7 @@ body {
     padding: 0;
   }
   .header div .header-general {
-    margin: 1rem;
+    margin: 1rem 7%;
   }
   .header div .header-general .header-left a img {
     top: 1rem;

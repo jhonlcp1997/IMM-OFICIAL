@@ -32,6 +32,26 @@ $franklin:"Abel", sans-serif;
     gap: 2rem;
 }
 
+@keyframes miAnimacion1 {
+
+    from {height:0px;}
+    // to {height:200px;}
+
+}
+
+@keyframes miAnimacion1 {
+
+    from {height:0px;}
+    // to {height:200px;}
+
+}
+
+@keyframes miDesAnimacion {
+    // 50%{
+    //     height: 0px;
+    // }
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -677,7 +697,6 @@ body {
                     cursor: pointer;
 
                     &.open {
-                        
 
                         i {
                             transform: rotate(-180deg);
@@ -695,16 +714,17 @@ body {
 
                 .contenido-body {
                     display: flex;
-                    justify-content: space-between;
-                    transition: all 1s linear;
+                    justify-content: space-around;
+                    transition: all .5s linear;
 
                     div {
                         text-align: center;
                         // display: inline-block;
-                        justify-content: space-between;
+                        // justify-content: space-between;
                         // height: 15rem;
                         max-width: 29rem;
                         min-width: 9rem;
+                        // animation: miAnimacion 2s linear ;
 
                         img {
                             width: 10rem;
@@ -719,13 +739,20 @@ body {
                     }
 
                     &.open {
+                        // scroll-behavior: smooth;
+                        // transition: all 0.5s linear;
+                        animation: miAnimacion1 .3s linear ;
                         // transition: all 1s linear;
                         height: 18rem;
-                        justify-content: space-between;
+                        // justify-content: space-between;
                     }
 
                     &.close {
-                        // transition: all 1s linear;
+                        // scroll-behavior: smooth;
+                        // transition: all 0.5s linear;
+                        // animation: miDesAnimacion 1s linear ;
+                        transition: all 1s linear;
+
                         display: none;
                         height: 0rem;
                     }
@@ -733,8 +760,9 @@ body {
 
                 .contenido-body1 {
                     margin-top: 2rem;
-                    display: flex;
+                    
                     justify-content: space-around;
+                    transition: all .5s linear;
 
                     div {
                         justify-content: center;
@@ -755,10 +783,15 @@ body {
                     }
 
                     &.open {
+                        
+                        animation: miAnimacion1 .6s linear ;
+                        // animation-delay: 0s, 7s;
+                        display: flex;
                         height: 15.5rem;
                     }
 
                     &.close {
+                        // animation: miDesAnimacion 1s linear ;
                         display: none;
                         height: 0rem;
                     }
@@ -1161,7 +1194,7 @@ body {
     .header {
         div {
             .header-general {
-                margin: 1rem 0rem;
+                // margin: 1rem 0rem;
 
                 .header-left {
                     a {
@@ -1357,7 +1390,7 @@ body {
                         }
 
                         &.open {
-                            height: 13rem;
+                            height: 15rem;
                         }
                     }
 
@@ -1383,7 +1416,7 @@ body {
         div {
             padding: 0;
             .header-general {
-                margin: 1rem;
+                margin: 1rem 7%;
                 .header-left {
                     a {
                         img {
@@ -1442,6 +1475,22 @@ body {
 
                         &.open {
                             height: 15rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:315px){
+    .info-date {
+        .info-date-container {
+            &.active {
+                .info-contenido {
+                    .contenido-body {
+                        &.open {
+                            height: 17rem;
                         }
                     }
                 }

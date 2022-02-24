@@ -32,6 +32,11 @@ $franklin:"Abel", sans-serif;
     gap: 2rem;
 }
 
+@keyframes miAnimacion1 {
+    from {height:0px;}
+    // to {height:200px;}
+    }
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -620,7 +625,7 @@ body {
                     display: flex;
                     // justify-content: space-between;
                     justify-content: space-around;
-                    // transition: all 1s linear;
+                    transition: all .5s linear;
 
                     div {
                         text-align: center;
@@ -643,7 +648,7 @@ body {
                     }
 
                     &.open {
-                        
+                        animation: miAnimacion1 .3s linear ;
                         height: 18rem;
                         justify-content: space-around;
                         // justify-content: space-between;
@@ -659,6 +664,7 @@ body {
                     margin-top: 2rem;
                     display: flex;
                     justify-content: space-around;
+                    transition: all .5s linear;
 
                     div {
                         justify-content: center;
@@ -679,6 +685,7 @@ body {
                     }
 
                     &.open {
+                        animation: miAnimacion1 .6s linear ;
                         height: 15.5rem;
                     }
 
@@ -1089,7 +1096,7 @@ body {
     .header {
         div {
             .header-general {
-                margin: 1rem 0rem;
+                // margin: 1rem 0rem;
 
                 .header-left {
                     a {
@@ -1318,7 +1325,7 @@ body {
         div {
             padding: 0;
             .header-general {
-                margin: 1rem;
+                margin: 1rem 7%;
                 .header-left {
                     a {
                         img {
