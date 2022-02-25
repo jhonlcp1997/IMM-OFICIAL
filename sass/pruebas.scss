@@ -25,6 +25,7 @@ $azul: #007cc3;
 
 $abel: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $franklin:"Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
 
 @mixin grid($val) {
     display: grid;
@@ -558,6 +559,10 @@ body {
                         }
                     }
                 }
+
+                .characteres-center_alternative{
+                    display: none;
+                }
             }
             
             &.time-price {
@@ -986,6 +991,10 @@ body {
                 font-size: 1.2rem;
             }
         }
+    }
+
+    .footer-alternative{
+        display: none;
     }
 }
 
@@ -1504,15 +1513,88 @@ body {
                     }
 
                     .header-center-right-footer{
-                        display: flex;
+                        // display: flex;
 
-                        
+                        // .ofrecemos-footer {
+                            // width: 80vw;
+                            // padding: 0;
+                            // .ofrecemos_footer_div1 {
+                            //     display: inline;
+                            //     div {
+                            //         margin: 3rem;
+                            //     }
+                            // }
+                        // }
+
+
+
                     }
                 }
             }
         }
     }
     
+    .slider-general{
+        height: auto;
+        overflow: auto;
+        &::-webkit-scrollbar {
+            display: none;
+        }  
+
+        .slider-contenedor-g{
+            display: flex;
+            gap: 1rem;
+
+            .contenido-slider-g{
+                &.home{
+                    height: 85vh;
+                    .home_box{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        // height: 15vh;
+        .ofrecemos-footer{
+            display: none;
+        }
+
+        .footer-alternative{
+            display: flex;
+            justify-content: space-between;
+            margin:0 5%;
+
+            .footer-div1{
+                display: flex;
+
+                div{
+                    padding: 1rem;
+                    display: flex;
+                    align-items: center;
+
+                    a{
+                        color: #bbb;
+
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+
+            .footer-div2{
+                p{
+                    font-family: $poppins;
+                    font-size: 2rem;
+                    color: #bbb;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
 }
 
 

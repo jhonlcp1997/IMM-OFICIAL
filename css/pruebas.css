@@ -548,6 +548,10 @@ body {
   right: 0rem;
 }
 
+.slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-center_alternative {
+  display: none;
+}
+
 .slider-general .slider-contenedor-g .contenido-slider-g.time-price {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -985,6 +989,10 @@ body {
   font-size: 1.2rem;
 }
 
+.footer .footer-alternative {
+  display: none;
+}
+
 @media (max-width: 1050px) {
   .header div {
     padding: 0 1rem;
@@ -1325,10 +1333,63 @@ body {
   .header div .header-general .header-center-right .header-center-right-tittle h2 {
     margin: auto;
   }
-  .header div .header-general .header-center-right .header-center-right-footer {
+  .slider-general {
+    height: auto;
+    overflow: auto;
+  }
+  .slider-general::-webkit-scrollbar {
+    display: none;
+  }
+  .slider-general .slider-contenedor-g {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 1rem;
+  }
+  .slider-general .slider-contenedor-g .contenido-slider-g.home {
+    height: 85vh;
+  }
+  .slider-general .slider-contenedor-g .contenido-slider-g.home .home_box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .ofrecemos-footer {
+    display: none;
+  }
+  .footer .footer-alternative {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 5%;
+  }
+  .footer .footer-alternative .footer-div1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer .footer-alternative .footer-div1 div {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer-alternative .footer-div1 div a {
+    color: #bbb;
+  }
+  .footer .footer-alternative .footer-div1 div a i {
+    font-size: 2rem;
+  }
+  .footer .footer-alternative .footer-div2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: #bbb;
+    padding: 1rem;
   }
 }
 
