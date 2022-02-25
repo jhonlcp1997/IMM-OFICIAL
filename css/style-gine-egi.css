@@ -734,6 +734,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
   z-index: 0;
 }
 
