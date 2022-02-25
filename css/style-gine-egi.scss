@@ -1147,15 +1147,16 @@ body {
                         width: 4.5rem;
                         line-height: 4.5rem;
                         border-radius: 0.5rem;
-                        background: #eee;
+                        // background: #eee;
                         font-size: 1.7rem;
-                        color: #000;
+                        color: $pink3;
+                        // color: #000;
                         margin-left: 0.3rem;
                         text-align: center;
                         cursor: pointer;
 
                         &:hover {
-                            color: #000;
+                            color: $pink3;
                         }
                     }
                 }
