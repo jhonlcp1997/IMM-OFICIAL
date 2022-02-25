@@ -721,6 +721,7 @@ body {
                     // transition: all .5s linear;
                     z-index: 0;
 
+
                     div {
                         text-align: center;
                         // display: inline-block;
@@ -728,7 +729,7 @@ body {
                         // height: 15rem;
                         max-width: 29rem;
                         min-width: 9rem;
-                        // animation: miAnimacion 2s linear ;
+                        // animation: miAnimacion .2s linear ;
 
                         img {
                             width: 10rem;
@@ -743,12 +744,14 @@ body {
                     }
 
                     &.open {
-                        // scroll-behavior: smooth;
-                        // transition: .4s ease-in-out;
-                        animation: miAnimacion1 .2s linear ;
-                        // transition: all 1s linear;
-                        height: 18rem;
-                        // justify-content: space-between;
+                        // animation: miAnimacion .2s linear ;
+                        // height: 18rem;
+                        height: auto;
+                        margin: 3rem;
+
+                        // div{
+                        //     animation: miAnimacion1 1s linear ;
+                        // }
                     }
 
                     &.close {
@@ -759,6 +762,7 @@ body {
 
                         display: none;
                         height: 0rem;
+                        
                     }
                 }
 
@@ -789,10 +793,10 @@ body {
 
                     &.open {
                         
-                        animation: miAnimacion1 .4s linear ;
+                        // animation: miAnimacion1 .4s linear ;
                         // animation-delay: 0s, 7s;
                         display: flex;
-                        height: 15.5rem;
+                        // height: 15.5rem;
                     }
 
                     &.close {
@@ -1386,17 +1390,15 @@ body {
         .info-date-container {
             &.active {
                 font-size: 1rem;
+
                 .info-contenido {
                     margin: 1rem 1rem;
+
                     .contenido-body {
                         div {
                             img {
                                 width: 7rem;
                             }
-                        }
-
-                        &.open {
-                            height: 15rem;
                         }
                     }
 
@@ -1405,10 +1407,6 @@ body {
                             img {
                                 width: 7rem;
                             }
-                        }
-
-                        &.open {
-                            height: 13rem;
                         }
                     }
                 }
@@ -1460,9 +1458,11 @@ body {
                         flex-direction: column;
 
                         div {
-                            margin-left: 3rem;
+                            // margin-left: 3rem;
+                            margin: 1rem 0 1rem 3rem;
                             display: flex;
                             align-items: center;
+                            // margin: 1rem 0;
 
                             .p-short{
                                 padding-left: 2rem;
@@ -1478,14 +1478,13 @@ body {
                             }
 
                             img {
-                                // width: 8rem;
+                                width: 6rem;
                                 height: 6rem;
                             }
                         }
 
                         &.open {                      
-                            height: 24rem;
-
+                            margin: 0;
                         }
                     }
 
@@ -1494,7 +1493,9 @@ body {
                         margin: 0;
 
                         div {
-                            margin-left: 3rem;
+                            // margin: 1.2rem 0 1rem 1.2rem;
+                            // margin-left: 3rem;
+                            margin: 1rem 0 1rem 3rem;
                             display: flex;
                             align-items: center;
                             text-align: center;
@@ -1518,25 +1519,6 @@ body {
                                 height: 6rem;
                             }
                         }
-
-                        &.open {
-                            
-                            height: 18rem;
-                        }
-                    //     div {
-                    //         .p-short{
-                    //             padding: 0;
-                    //             // min-width: 15rem;
-                    //         }
-
-                    //         img {
-                    //             width: 7rem;
-                    //         }
-                    //     }
-
-                    //     &.open {
-                    //         height: 15rem;
-                    //     }
                     }
                 }
             }

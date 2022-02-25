@@ -648,9 +648,12 @@ body {
                     }
 
                     &.open {
-                        animation: miAnimacion1 .2s linear ;
-                        height: 18rem;
-                        justify-content: space-around;
+                        // animation: miAnimacion1 .2s linear ;
+                        // height: 18rem;
+
+                        height: auto;
+                        margin:3rem 0;
+                        // justify-content: space-around;
                         // justify-content: space-between;
                     }
 
@@ -685,8 +688,9 @@ body {
                     }
 
                     &.open {
-                        animation: miAnimacion1 .4s linear ;
-                        height: 15.5rem;
+                        // animation: miAnimacion1 .4s linear ;
+                        // height: 15.5rem;
+                        height: auto;
                     }
 
                     &.close {
@@ -1297,10 +1301,6 @@ body {
                                 width: 7rem;
                             }
                         }
-
-                        &.open {
-                            height: 13rem;
-                        }
                     }
 
                     .contenido-body1 {
@@ -1308,10 +1308,6 @@ body {
                             img {
                                 width: 7rem;
                             }
-                        }
-
-                        &.open {
-                            height: 13rem;
                         }
                     }
                 }
@@ -1363,41 +1359,8 @@ body {
                         flex-direction: column;
 
                         div {
-                            margin-left: 3rem;
-                            display: flex;
-                            align-items: center;
-
-                            .p-short{
-                                padding-left: 2rem;
-                            }
-
-                            p {
-                                text-align: left;
-                                padding: 0 1rem;
-                            }
-
-                            img {
-                                // width: 8rem;
-                                height: 6rem;
-                            }
-                        }
-
-                        &.open {
-                            
-                            height: 24rem;
-
-                            // div{
-                            //     display: flex;
-                            // }
-                        }
-                    }
-
-                    .contenido-body1 {
-                        flex-direction: column;
-
-                        div {
-                            
-                            margin-left: 3rem;
+                            // margin-left: 3rem;
+                            margin: 1rem 0 1rem 3rem;
                             display: flex;
                             align-items: center;
 
@@ -1421,8 +1384,48 @@ body {
                         }
 
                         &.open {
-                            margin-top: 0;
-                            height: 24rem;
+                            
+                            // height: 24rem;
+                            margin: 0;
+
+                            // div{
+                            //     display: flex;
+                            // }
+                        }
+                    }
+
+                    .contenido-body1 {
+                        flex-direction: column;
+
+                        div {
+                            
+                            // margin-left: 3rem;
+                            margin: 1rem 0 1rem 3rem;
+                            display: flex;
+                            align-items: center;
+
+                            .p-short{
+                                padding-left: 2rem;
+                            }
+
+                            .p-short1{
+                                padding-left: 2.5rem;
+                            }
+
+                            p {
+                                text-align: left;
+                                padding: 0 1rem;
+                            }
+
+                            img {
+                                // width: 8rem;
+                                height: 6rem;
+                            }
+                        }
+
+                        &.open {
+                            // margin-top: 0;
+                            // height: 24rem;
 
                             // div{
                             //     display: flex;
