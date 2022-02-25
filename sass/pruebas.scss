@@ -786,7 +786,7 @@ body {
                                     // transition: .4s ease-in-out;
                                     animation: miAnimacion1 .2s linear ;
                                     // transition: all 1s linear;
-                                    height: 18rem;
+                                    height: 16rem;
                                     // justify-content: space-between;
                                 }
             
@@ -831,7 +831,7 @@ body {
                                     animation: miAnimacion1 .4s linear ;
                                     // animation-delay: 0s, 7s;
                                     display: flex;
-                                    height: 15.5rem;
+                                    // height: 15.5rem;
                                 }
             
                                 &.close {
@@ -1500,6 +1500,10 @@ body {
 // *TENGO QUE HACER MUCHOS CAMBIO MODO HORIZONTAL 480PX
 
 @media (max-width: 480px){
+    body{
+        background-color: $white;
+    }
+
     .header{
         div{
             .header-general{
@@ -1535,21 +1539,210 @@ body {
     }
     
     .slider-general{
-        height: auto;
+        height: 100%;
+        // height: 80vh;
         overflow: auto;
+
         &::-webkit-scrollbar {
             display: none;
         }  
 
         .slider-contenedor-g{
             display: flex;
-            gap: 1rem;
 
             .contenido-slider-g{
                 &.home{
-                    height: 85vh;
+                    height: 80vh;
                     .home_box{
                         flex-wrap: wrap;
+                    }
+                }
+
+                &.characteres{
+                    // display: none;
+                    margin: 0;
+                    padding: 0;
+                    background-color: $white;
+                    gap: 0;
+                    height: 80vh;
+
+                    .characteres-left{
+                        margin-bottom: 0;
+
+                        h2{
+                            color: $pink3;
+                        }
+                        .animated{
+                            display: none;
+                        }
+
+                        .points{
+                            display: none;
+                        }
+                    }
+                    .characteres-center_rigth{
+                        display: none;
+                    }
+
+                    .characteres-center_alternative{
+                        display: flex;
+                        width: 100%;
+
+                        .slider-contenedor_a{
+                            display: flex;
+                            overflow: hidden;
+                            width: 100%;
+
+                            .slider-contenedor2_a{
+                                display: flex;
+                                width: 100%;
+
+                                .characteres_all_a{
+                                    width: 100%;
+                                    display: inline-block;
+                                    flex-shrink: 0;
+                                    text-align: center;
+
+                                    img{
+                                        display: flex;
+                                        margin: auto;
+                                        width: 15rem;
+                                    }
+
+                                    div {
+                                        h3 {
+                                            font-family: $franklin;
+                                            // font-family: "Abel", sans-serif;
+                                            color: $azul;
+                                            font-size: 2rem;
+                                        }
+                
+                                        p {
+                                            margin: 1rem 0;
+                                            font-family: "Poppins", sans-serif;
+                                            font-size: 1.3rem;
+                                            color: #777;
+                                            padding: 0 5rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.time-price{
+                    width: 100%;
+                    margin: 0;
+                    display: block;
+                    background-color: #f5a4c7;
+
+                    .time-price_box1{
+                        width: 100%;
+                        height: 50%;
+                    }
+
+                    .time-price_box2{
+                        width: 100%;
+                        height: 50%;
+                    }
+                }
+
+                &.info-date {
+                    padding: 1rem 0.5rem;
+            
+                    .info-date-container {
+                        font-size: 1rem;
+                        &.active {
+                            .info-contenido {
+                                .contenido-body {
+                                    flex-direction: column;
+            
+                                    div {
+                                        margin-left: 3rem;
+                                        display: flex;
+                                        align-items: center;
+            
+                                        .p-short{
+                                            padding-left: 2rem;
+                                        }
+            
+                                        .p-short1{
+                                            padding-left: 2.5rem;
+                                        }
+            
+                                        p {
+                                            text-align: left;
+                                            padding: 0 1rem;
+                                        }
+            
+                                        img {
+                                            width: 6rem;
+                                            height: 6rem;
+                                        }
+                                    }
+            
+                                    &.open {   
+                                        // height: 100%;                   
+                                        div{
+                                            height: 12rem;
+                                        }
+                                    }
+                                }
+            
+                                .contenido-body1 {
+                                    flex-direction: column;
+                                    margin: 0;
+            
+                                    div {
+                                        margin-left: 3rem;
+                                        display: flex;
+                                        align-items: center;
+                                        text-align: center;
+            
+                                        p {
+                                            text-align: left;
+                                            padding: 0 1rem;
+                                        }
+            
+                                        .p-short{
+                                            padding-left: 2rem;
+                                        }
+            
+                                        .p-short1{
+                                            padding-left: 2.5rem;
+                                        }
+            
+                                        img {
+                                            // text-align: right;
+                                            width: 6rem;
+                                            height: 6rem;
+                                        }
+                                    }
+            
+                                    &.open {
+                                        
+                                        div{
+                                            height: 9rem;
+                                        }
+                                    }
+                                //     div {
+                                //         .p-short{
+                                //             padding: 0;
+                                //             // min-width: 15rem;
+                                //         }
+            
+                                //         img {
+                                //             width: 7rem;
+                                //         }
+                                //     }
+            
+                                //     &.open {
+                                //         height: 15rem;
+                                //     }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -1557,7 +1750,12 @@ body {
     }
 
     .footer{
-        // height: 15vh;
+        position: fixed;
+        bottom: 0;
+        // background-color: #f4c6de;
+        width: 100%;
+        z-index: 1;
+
         .ofrecemos-footer{
             display: none;
         }
@@ -1566,6 +1764,7 @@ body {
             display: flex;
             justify-content: space-between;
             margin:0 5%;
+            // background-color: #007cc3;
 
             .footer-div1{
                 display: flex;
@@ -1622,106 +1821,6 @@ body {
 
                             a {
                                 margin: 0 0.5rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .slider-general{
-        .slider-contenedor-g{
-            .contenido-slider-g{
-                &.info-date {
-                    padding: 1rem 0.5rem;
-            
-                    .info-date-container {
-                        font-size: 1rem;
-                        &.active {
-                            .info-contenido {
-                                .contenido-body {
-                                    flex-direction: column;
-            
-                                    div {
-                                        margin-left: 3rem;
-                                        display: flex;
-                                        align-items: center;
-            
-                                        .p-short{
-                                            padding-left: 2rem;
-                                        }
-            
-                                        .p-short1{
-                                            padding-left: 2.5rem;
-                                        }
-            
-                                        p {
-                                            text-align: left;
-                                            padding: 0 1rem;
-                                        }
-            
-                                        img {
-                                            // width: 8rem;
-                                            height: 6rem;
-                                        }
-                                    }
-            
-                                    &.open {                      
-                                        height: 24rem;
-            
-                                    }
-                                }
-            
-                                .contenido-body1 {
-                                    flex-direction: column;
-                                    margin: 0;
-            
-                                    div {
-                                        margin-left: 3rem;
-                                        display: flex;
-                                        align-items: center;
-                                        text-align: center;
-            
-                                        p {
-                                            text-align: left;
-                                            padding: 0 1rem;
-                                        }
-            
-                                        .p-short{
-                                            padding-left: 2rem;
-                                        }
-            
-                                        .p-short1{
-                                            padding-left: 2.5rem;
-                                        }
-            
-                                        img {
-                                            // text-align: right;
-                                            width: 6rem;
-                                            height: 6rem;
-                                        }
-                                    }
-            
-                                    &.open {
-                                        
-                                        height: 18rem;
-                                    }
-                                //     div {
-                                //         .p-short{
-                                //             padding: 0;
-                                //             // min-width: 15rem;
-                                //         }
-            
-                                //         img {
-                                //             width: 7rem;
-                                //         }
-                                //     }
-            
-                                //     &.open {
-                                //         height: 15rem;
-                                //     }
-                                }
                             }
                         }
                     }
