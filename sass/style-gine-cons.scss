@@ -627,18 +627,21 @@ body {
                     justify-content: space-around;
                     transition: all .5s linear;
 
-                    div {
+                    .div1 {
                         text-align: center;
-                        // display: inline-block;
-                        // justify-content: space-between;
-                        // height: 15rem;
-                        max-width: 25rem;
+                        width: 29rem;
                         min-width: 9rem;
 
-                        img {
-                            width: 10rem;
+                        .div-image{
+                            display: flex;
+                            width: 7rem;
                             height: 7rem;
                             text-align: center;
+                            justify-content: center;
+                            margin: auto;
+                            .img-incontrolable{
+                                height: 7rem;
+                            }
                         }
 
                         p {
@@ -653,44 +656,7 @@ body {
 
                         height: auto;
                         margin:3rem 0;
-                        // justify-content: space-around;
-                        // justify-content: space-between;
-                    }
 
-                    &.close {
-                        display: none;
-                        height: 0rem;
-                    }
-                }
-
-                .contenido-body1 {
-                    margin-top: 2rem;
-                    display: flex;
-                    justify-content: space-around;
-                    transition: all .5s linear;
-
-                    div {
-                        justify-content: center;
-                        text-align: center;
-                        max-width: 29rem;
-                        min-width: 9rem;
-
-                        img {
-                            width: 10rem;
-                            height: 7rem;
-                            text-align: center;
-                        }
-
-                        p {
-                            text-align: center;
-                            padding: 0 2rem;
-                        }
-                    }
-
-                    &.open {
-                        // animation: miAnimacion1 .4s linear ;
-                        // height: 15.5rem;
-                        height: auto;
                     }
 
                     &.close {
@@ -1141,20 +1107,10 @@ body {
                 // height: 18rem;
 
                 .contenido-body {
-                    div {
-                        img {
-                            width: 10rem;
-                        }
-                    }
+                    .div1 {
+                        width: 25rem;
 
-                    &.open {
-                        height: 13rem;
-                    }
-                }
-
-                .contenido-body1 {
-                    div {
-                        img {
+                        .div-image {
                             width: 10rem;
                         }
                     }
@@ -1292,20 +1248,12 @@ body {
 
         .info-date-container {
             &.active {
-                font-size: 1rem;
+                font-size: 1.3rem;
                 .info-contenido {
                     margin: 1rem 1rem;
                     .contenido-body {
-                        div {
-                            img {
-                                width: 7rem;
-                            }
-                        }
-                    }
-
-                    .contenido-body1 {
-                        div {
-                            img {
+                        .div1 {
+                            .div-image {
                                 width: 7rem;
                             }
                         }
@@ -1322,14 +1270,6 @@ body {
             padding: 0;
             .header-general {
                 margin: 1rem 7%;
-                // .header-left {
-                //     a {
-                //         img {
-                //             top: 1rem;
-                //             width: 7rem;
-                //         }
-                //     }
-                // }
 
                 .navbar-opciones-phone {
                     ul {
@@ -1358,69 +1298,38 @@ body {
                     .contenido-body {
                         flex-direction: column;
 
-                        div {
+                        .div1 {
+                            width: 90%;
+                            max-width: 35rem;
                             // margin-left: 3rem;
-                            margin: 1rem 0 1rem 3rem;
+                            margin: 1rem 0 1rem 2rem;
                             display: flex;
                             align-items: center;
 
-                            .p-short{
-                                padding-left: 1.7rem;
-                            }
-
-                            .p-short1{
-                                padding-left: 3.07rem;
-                            }
-
                             p {
+                                font-size: 1.1rem;
+                                width: 100%;
                                 text-align: left;
                                 padding: 0 1rem;
                             }
 
-                            img {
-                                // width: 8rem;
-                                height: 6rem;
+                            .div-image {
+                                width: 50px;
+                                height: 50px;
+
+                                img{
+                                    width: 50px;
+                                    height: 50px;
+                                }
+
+                                .img-incontrolable{
+                                    height: 50px;
+                                }
                             }
                         }
 
                         &.open {
-                            
-                            // height: 24rem;
                             margin: 0;
-
-                            // div{
-                            //     display: flex;
-                            // }
-                        }
-                    }
-
-                    .contenido-body1 {
-                        flex-direction: column;
-
-                        div {
-                            
-                            // margin-left: 3rem;
-                            margin: 1rem 0 1rem 3rem;
-                            display: flex;
-                            align-items: center;
-
-                            .p-short{
-                                padding-left: 2rem;
-                            }
-
-                            .p-short1{
-                                padding-left: 2.5rem;
-                            }
-
-                            p {
-                                text-align: left;
-                                padding: 0 1rem;
-                            }
-
-                            img {
-                                // width: 8rem;
-                                height: 6rem;
-                            }
                         }
                     }
                 }

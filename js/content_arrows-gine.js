@@ -52,15 +52,15 @@ function toggleContent() {
     }
 }
 
-// function forOnCheckSiblings (){
-//     for(let k=0; k<contenido_body.length; k++){
-//         contenido_header[k].className = 'contenido-header close';
-//         contenido_body[k].className = 'contenido-body close';
-//         if(contenido_body[k].nextElementSibling){
-//             contenido_body1.className = 'contenido-body1 close';
-//         }
-//     }
-// }
+function forOnCheckSiblings (){
+    for(let k=0; k<contenido_body.length; k++){
+        contenido_header[k].className = 'contenido-header close';
+        contenido_body[k].className = 'contenido-body close';
+        if(contenido_body[k].nextElementSibling){
+            contenido_body1.className = 'contenido-body1 close';
+        }
+    }
+}
 
 contenido_header.forEach((el) => {
     el.addEventListener('click', toggleContent)

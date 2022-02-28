@@ -17,10 +17,10 @@ body{
 	background:turquoise;
 	height: auto;
 	width: 95%;
-	max-width: 30rem;
+	max-width: 60rem;
 	margin: auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 2fr 1fr;
 	column-gap: 10px;
 	row-gap: 20px;
@@ -48,17 +48,18 @@ body{
 	background:turquoise;
 	height: 20rem;
 	width: 95%;
-	max-width: 30rem;
+	max-width: 60rem;
 	margin: auto;
 	column-gap: 10px;
 	row-gap: 20px;
+	/* justify-content: space-between; */
 
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .uno1{
-	flex: 1 1 12rem;
+	flex: 1 1 5rem;
 	background-color: #aaa;
 	height: 10rem;
 }

@@ -728,7 +728,6 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body {
-  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,70 +738,36 @@ body {
   z-index: 0;
 }
 
-.info-date .info-date-container.active .info-contenido .contenido-body div {
+.info-date .info-date-container.active .info-contenido .contenido-body .div1 {
   text-align: center;
-  max-width: 29rem;
+  width: 29rem;
   min-width: 9rem;
 }
 
-.info-date .info-date-container.active .info-contenido .contenido-body div img {
-  width: 10rem;
+.info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 7rem;
   height: 7rem;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
-.info-date .info-date-container.active .info-contenido .contenido-body div p {
+.info-date .info-date-container.active .info-contenido .contenido-body .div1 p {
   text-align: center;
   padding: 0 2rem;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
   height: auto;
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
-  display: none;
-  height: 0rem;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1 {
-  margin-top: 2rem;
-  background-color: #fff;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
-  z-index: 0;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1 div {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  max-width: 29rem;
-  min-width: 9rem;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1 div img {
-  width: 10rem;
-  height: 7rem;
-  text-align: center;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1 div p {
-  text-align: center;
-  padding: 0 2rem;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1.open {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.info-date .info-date-container.active .info-contenido .contenido-body1.close {
   display: none;
   height: 0rem;
 }
@@ -1165,16 +1130,13 @@ body {
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
-  .info-date .info-date-container .info-contenido .contenido-body div img {
+  .info-date .info-date-container .info-contenido .contenido-body .div1 {
+    width: 25rem;
+  }
+  .info-date .info-date-container .info-contenido .contenido-body .div1 .div-image {
     width: 10rem;
   }
   .info-date .info-date-container .info-contenido .contenido-body.open {
-    height: 13rem;
-  }
-  .info-date .info-date-container .info-contenido .contenido-body1 div img {
-    width: 10rem;
-  }
-  .info-date .info-date-container .info-contenido .contenido-body1.open {
     height: 13rem;
   }
 }
@@ -1264,15 +1226,12 @@ body {
     font-size: 1.2rem;
   }
   .info-date .info-date-container.active {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .info-date .info-date-container.active .info-contenido {
     margin: 1rem 1rem;
   }
-  .info-date .info-date-container.active .info-contenido .contenido-body div img {
-    width: 7rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
     width: 7rem;
   }
 }
@@ -1302,8 +1261,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .info-date .info-date-container.active .info-contenido .contenido-body div {
-    margin: 1rem 0 1rem 3rem;
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 {
+    width: 90%;
+    max-width: 35rem;
+    margin: 1rem 0 1rem 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1311,53 +1272,25 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .info-date .info-date-container.active .info-contenido .contenido-body div .p-short {
-    padding-left: 1.3rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body div .p-short1 {
-    padding-left: 2.45rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body div p {
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 p {
+    font-size: 1.1rem;
+    width: 100%;
     text-align: left;
     padding: 0 1rem;
   }
-  .info-date .info-date-container.active .info-contenido .contenido-body div img {
-    width: 6rem;
-    height: 6rem;
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
+    width: 50px;
+    height: 50px;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image img {
+    width: 50px;
+    height: 50px;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image .img-incontrolable {
+    height: 50px;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
     margin: 0;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 0;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div {
-    margin: 1rem 0 1rem 3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div p {
-    text-align: left;
-    padding: 0 1rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div .p-short {
-    padding-left: 2rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div .p-short1 {
-    padding-left: 2.5rem;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body1 div img {
-    width: 6rem;
-    height: 6rem;
   }
 }
 /*# sourceMappingURL=style-gine-egi.css.map */
