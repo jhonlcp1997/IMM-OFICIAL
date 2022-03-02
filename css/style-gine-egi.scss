@@ -1114,15 +1114,16 @@ body {
                         width: 4.5rem;
                         line-height: 4.5rem;
                         border-radius: 0.5rem;
-                        background: #eee;
+                        background: $white;
                         font-size: 1.7rem;
-                        color: #000;
+                        color: $pink3;
                         margin-left: 0.3rem;
                         text-align: center;
                         cursor: pointer;
 
                         &:hover {
-                            color: #000;
+                            color: $pink3;
+                            // background-color: #666;
                         }
                     }
                 }
@@ -1140,12 +1141,11 @@ body {
                     border-bottom: $border;
                     padding: 0 2rem;
                     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-                    box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
-
                     font-family: "Poppins", sans-serif;
 
                     &.active {
-                        box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+                        // transition: all 0.5s linear;
+                        transition: all .5s ease-out;
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     }
 

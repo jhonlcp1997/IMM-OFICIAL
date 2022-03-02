@@ -1019,15 +1019,18 @@ body {
                         width: 4.5rem;
                         line-height: 4.5rem;
                         border-radius: 0.5rem;
-                        background: #eee;
+                        background: $white;
                         font-size: 1.7rem;
-                        color: #000;
+                        color: $pink3;
                         margin-left: 0.3rem;
                         text-align: center;
                         cursor: pointer;
+                        
 
                         &:hover {
-                            color: #000;
+                            color: $pink3;
+                            // transition-delay: 1s;
+                            // color: $pink3;
                         }
                     }
                 }
@@ -1050,6 +1053,7 @@ body {
                     font-family: "Poppins", sans-serif;
 
                     &.active {
+                        transition: all .5s ease-out;
                         box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     }
@@ -1078,7 +1082,7 @@ body {
                             transform: rotate(-90deg);
                             color: $pink3;
                         }
-                    }
+                    } 
 
                     .header_footer{
                         position: sticky;

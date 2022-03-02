@@ -1065,15 +1065,15 @@ body {
     width: 4.5rem;
     line-height: 4.5rem;
     border-radius: 0.5rem;
-    background: #eee;
+    background: #fff;
     font-size: 1.7rem;
-    color: #000;
+    color: #f173ac;
     margin-left: 0.3rem;
     text-align: center;
     cursor: pointer;
   }
   .header div .header-general .header-right div:hover {
-    color: #000;
+    color: #f173ac;
   }
   .header div .header-general .header-menu {
     display: inline-block;
@@ -1089,13 +1089,11 @@ body {
     padding: 0 2rem;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
-            box-shadow: -3rem 4rem 80px -70px #332e2e;
     font-family: "Poppins", sans-serif;
   }
   .header div .header-general .header-menu.active {
-    -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
-            box-shadow: -3rem 4rem 80px -70px #332e2e;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
