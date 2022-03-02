@@ -485,6 +485,8 @@ body {
   padding: 2rem 1.5rem;
   background: #fff;
   top: 15px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {
@@ -507,6 +509,10 @@ body {
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
+  padding-top: 4rem;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  height: 320px;
   -webkit-box-shadow: 0rem 1rem 80px -50px #332e2e;
           box-shadow: 0rem 1rem 80px -50px #332e2e;
   top: 0px;
@@ -772,6 +778,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
   display: none;
   height: 0rem;
 }

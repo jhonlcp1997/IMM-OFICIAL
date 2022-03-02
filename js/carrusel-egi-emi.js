@@ -46,14 +46,14 @@ function slides() {
         children[7].style.background = "rgba(7, 17, 27, 0.2)";
         children[0].style.background = "#007cc3";
 
-        sliderIndividual[contador2].style["height"] = (height - 50) + "px";
+        // sliderIndividual[contador2].style["height"] = (height - 50) + "px";
         sliderIndividual[contador2].classList.remove('active');
 
-        sliderIndividual[0].style["height"] = (height + 30) + "px";
+        // sliderIndividual[0].style["height"] = (height + 30) + "px";
         sliderIndividual[0].classList.toggle('active');
 
     } else if (contador === 1) {
-        sliderIndividual[contador].style["height"] = (height + 30) + "px";
+        // sliderIndividual[contador].style["height"] = (height + 30) + "px";
         sliderIndividual[contador].classList.toggle('active');
 
         sliderIndividual[contador2].classList.remove('active');
@@ -61,10 +61,10 @@ function slides() {
     }
 
     else {
-        sliderIndividual[contador].style["height"] = (height + 30) + "px";
+        // sliderIndividual[contador].style["height"] = (height + 30) + "px";
         sliderIndividual[contador].classList.toggle('active');
 
-        sliderIndividual[contador2].style["height"] = (height) + "px";
+        // sliderIndividual[contador2].style["height"] = (height) + "px";
         sliderIndividual[contador2].classList.remove('active');
 
         children[contador2 - 1].style.background = "rgba(7, 17, 27, 0.2)";
@@ -77,10 +77,10 @@ function slides() {
 
     if (contador == (sliderIndividual.length - 3)) {
         setTimeout(function () {
-            sliderIndividual[0].style["height"] = (height) + "px";
+            // sliderIndividual[0].style["height"] = (height) + "px";
             sliderIndividual[0].classList.remove('active');
-
-            sliderIndividual[8].style["height"] = (height - 5) + "px";
+            sliderIndividual[1].classList.toggle('active');
+            // sliderIndividual[8].style["height"] = (height - 5) + "px";
             sliderIndividual[contador2].classList.remove('active');
 
             children[7].style.background = "rgba(7, 17, 27, 0.2)";
@@ -152,7 +152,7 @@ function toggleStudy() {
                 slider.style.transform = "translate(0px)";
                 slider.style.transition = "transform 0s";
 
-                sliderIndividual[contador].style["height"] = (height) + "px";
+                // sliderIndividual[contador].style["height"] = (height) + "px";
                 sliderIndividual[contador].classList.remove('active');
                 console.log(`El contador borrado esta en ${contador}`);
                 children[contador2].style.background = "rgba(7, 17, 27, 0.2)";
@@ -166,13 +166,13 @@ function toggleStudy() {
                 slider.style.transform = "translate(" + (-210 * (k - 1)) + "px)";
                 slider.style.transition = "transform 1s";
 
-                sliderIndividual[contador - 1].style["height"] = (height) + "px";
+                // sliderIndividual[contador - 1].style["height"] = (height) + "px";
                 sliderIndividual[contador - 1].classList.remove('active');
                 console.log(`El contador borrado esta en ${contador}`);
                 children[contador2 - 1].style.background = "rgba(7, 17, 27, 0.2)";
                 console.log(`El contador que borrara el punto esta en ${contador2}`);
 
-                sliderIndividual[k].style["height"] = (height + 30) + "px";
+                // sliderIndividual[k].style["height"] = (height + 30) + "px";
                 sliderIndividual[k].classList.toggle('active');
                 children[k].style.background = "#007cc3";
                 contador = k + 1;

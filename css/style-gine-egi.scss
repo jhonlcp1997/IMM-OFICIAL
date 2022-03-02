@@ -489,6 +489,7 @@ body {
                     background: $white;
                     top: 15px;
                     // flex-direction: column-reverse;
+                    transition: all .5s ease-out;
 
                     img {
                         text-align: center;
@@ -514,7 +515,9 @@ body {
                     }
 
                     &.active {
-                        // height: 320px;
+                        padding-top: 4rem;
+                        transition: all .5s ease-out;
+                        height: 320px;
                         box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);
                         top: 0px;
                     }
@@ -750,6 +753,7 @@ body {
                     }
 
                     &.open {
+                        // transition: all .5s ease-out;
                         // animation: miAnimacion .2s linear ;
                         // height: 18rem;
                         height: auto;
@@ -757,6 +761,7 @@ body {
                     }
 
                     &.close {
+                        transition: all .5s ease-out;
                         // scroll-behavior: smooth;
                         // transition: all 0.5s linear;
                         // animation: miDesAnimacion 1s linear ;
