@@ -182,7 +182,13 @@ body {
                     }
                 }
             }
+
+            .header-menu{
+                display: none;
+            }
+            
         }
+
     }
 }
 
@@ -1075,27 +1081,28 @@ body {
                 }
 
                 .header-center-right {
-                    display: inline-block;
-                    text-align: center;
-                    width: 50%;
-                    position: absolute;
-                    top: 75%;
-                    right: 0;
-                    background: #fff;
-                    border-top: $border;
-                    border-bottom: $border;
-                    padding: 0 2rem;
-                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                    display: none;
+                    // display: inline-block;
+                    // text-align: center;
+                    // width: 50%;
+                    // position: absolute;
+                    // top: 75%;
+                    // right: 0;
+                    // background: #fff;
+                    // border-top: $border;
+                    // border-bottom: $border;
+                    // padding: 0 2rem;
+                    // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
-                    &.active {
-                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-                    }
+                    // &.active {
+                    //     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    // }
 
-                    a {
-                        display: block;
-                        font-size: 1.2rem;
-                        margin: 3rem 1rem;
-                    }
+                    // a {
+                    //     display: block;
+                    //     font-size: 1.2rem;
+                    //     margin: 3rem 1rem;
+                    // }
                 }
 
                 .header-right {
@@ -1116,6 +1123,68 @@ body {
 
                         &:hover {
                             color: #000;
+                        }
+                    }
+                }
+
+                .header-menu{
+                    display: inline-block;
+                    text-align: center;
+                    width: 70%;
+                    height: 90vh;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    background: $white;
+                    border-top: $border;
+                    border-bottom: $border;
+                    padding: 0 2rem;
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                    box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+
+                    font-family: "Poppins", sans-serif;
+
+                    &.active {
+                        box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    }
+
+                    .header-center-right-tittle{
+                        text-align: left;
+                        margin-top: 1rem;
+                        font-family: $abel;
+                        color: $azul;
+                    }
+
+                    .header-modules{
+                        margin-top: 2rem;
+                        text-align: left;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 1rem;
+                        border-bottom: 1px solid #f173ac;
+
+                        .header-menu-module{
+                            font-size: 1.3rem;
+                            color: #666;
+                        }
+
+                        i {
+                            transform: rotate(-90deg);
+                            color: $pink3;
+                        }
+                    }
+
+                    .header_footer{
+                        position: sticky;
+                        // margin-top: 100%;
+                        top: 95%;
+                        border-top: 1px solid #bfbfbf;
+
+                        p{
+                            color: #bfbfbf;
+                            margin-top: .5rem;
+                            font-size: .9rem;
                         }
                     }
                 }

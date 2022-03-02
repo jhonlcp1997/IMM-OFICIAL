@@ -147,6 +147,10 @@ body {
   border-bottom: 1px solid #f173ac;
 }
 
+.header div .header-general .header-menu {
+  display: none;
+}
+
 .home {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -948,27 +952,7 @@ body {
     border-bottom: 2px solid #f173ac;
   }
   .header div .header-general .header-center-right {
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-    position: absolute;
-    top: 75%;
-    right: 0;
-    background: #fff;
-    border-top: 0.2rem solid #f173ac;
-    border-bottom: 0.2rem solid #f173ac;
-    padding: 0 2rem;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  .header div .header-general .header-center-right.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .header div .header-general .header-center-right a {
-    display: block;
-    font-size: 1.2rem;
-    margin: 3rem 1rem;
+    display: none;
   }
   .header div .header-general .header-right {
     display: -webkit-box;
@@ -990,6 +974,68 @@ body {
   }
   .header div .header-general .header-right div:hover {
     color: #000;
+  }
+  .header div .header-general .header-menu {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    height: 90vh;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border-top: 0.2rem solid #f173ac;
+    border-bottom: 0.2rem solid #f173ac;
+    padding: 0 2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
+            box-shadow: -3rem 4rem 80px -70px #332e2e;
+    font-family: "Poppins", sans-serif;
+  }
+  .header div .header-general .header-menu.active {
+    -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
+            box-shadow: -3rem 4rem 80px -70px #332e2e;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header div .header-general .header-menu .header-center-right-tittle {
+    text-align: left;
+    margin-top: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #007cc3;
+  }
+  .header div .header-general .header-menu .header-modules {
+    margin-top: 2rem;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f173ac;
+  }
+  .header div .header-general .header-menu .header-modules .header-menu-module {
+    font-size: 1.3rem;
+    color: #666;
+  }
+  .header div .header-general .header-menu .header-modules i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    color: #f173ac;
+  }
+  .header div .header-general .header-menu .header_footer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 95%;
+    border-top: 1px solid #bfbfbf;
+  }
+  .header div .header-general .header-menu .header_footer p {
+    color: #bfbfbf;
+    margin-top: .5rem;
+    font-size: .9rem;
   }
   .home .home_box .home-nav1 .home-nav1-P_1 {
     font-size: 2.6rem;
