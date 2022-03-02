@@ -10,9 +10,9 @@ let height = sliderIndividual[0].clientHeight;
 let height2 = slider.clientHeight;
 let intervalo = 5000;
 
-console.log(width);
-console.log(height);
-console.log(height2);
+// console.log(width);
+// console.log(height);
+// console.log(height2);
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
@@ -46,18 +46,23 @@ function slides() {
         children[7].style.background = "rgba(7, 17, 27, 0.2)";
         children[0].style.background = "#007cc3";
 
-        // sliderIndividual[contador2].style["height"] = (height - 50) + "px";
         sliderIndividual[contador2].classList.remove('active');
-
-        // sliderIndividual[0].style["height"] = (height + 30) + "px";
         sliderIndividual[0].classList.toggle('active');
 
-    } else if (contador === 1) {
-        // sliderIndividual[contador].style["height"] = (height + 30) + "px";
+        // *otro formato
+        // sliderIndividual[0].className= 'characteres_all active';
+        // sliderIndividual[contador2].className= 'characteres_all close';
+
+    } 
+    else if (contador === 1) {
         sliderIndividual[contador].classList.toggle('active');
 
         sliderIndividual[contador2].classList.remove('active');
         children[contador2].style.background = "#007cc3";
+
+        // *otro formato
+        // sliderIndividual[contador].className= 'characteres_all active';
+        // sliderIndividual[contador2].className= 'characteres_all close';
     }
 
     else {
@@ -70,6 +75,10 @@ function slides() {
         children[contador2 - 1].style.background = "rgba(7, 17, 27, 0.2)";
 
         children[contador2].style.background = "#007cc3";
+
+        // *otro formato
+        // sliderIndividual[contador].className= 'characteres_all active';
+        // sliderIndividual[contador2].className= 'characteres_all close';
     }
 
     contador++;
@@ -82,6 +91,10 @@ function slides() {
             // sliderIndividual[1].classList.toggle('active');
             // sliderIndividual[8].style["height"] = (height - 5) + "px";
             sliderIndividual[contador2].classList.remove('active');
+
+            // *otro formato
+            // sliderIndividual[contador2].className= 'characteres_all close';
+            //  sliderIndividual[0].className= 'characteres_all close';
 
             children[7].style.background = "rgba(7, 17, 27, 0.2)";
             children[0].style.background = "#007cc3";
