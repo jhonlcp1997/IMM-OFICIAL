@@ -32,6 +32,13 @@ $franklin:"Abel", sans-serif;
     gap: 2rem;
 }
 
+@keyframes miAnimacion {
+
+    from {height:0;}
+    to {height:200px;}
+
+}
+
 @keyframes miAnimacion1 {
     from {height:0px;}
     // to {height:200px;}
@@ -655,7 +662,7 @@ body {
                     }
 
                     &.open {
-                        // animation: miAnimacion1 .2s linear ;
+                        animation: miAnimacion .2s linear ;
                         // height: 18rem;
 
                         height: auto;

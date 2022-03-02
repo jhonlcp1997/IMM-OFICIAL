@@ -10,20 +10,38 @@
   border: none;
 }
 
+@-webkit-keyframes miAnimacion {
+  from {
+    height: 0;
+  }
+  to {
+    height: 200px;
+  }
+}
+
+@keyframes miAnimacion {
+  from {
+    height: 0;
+  }
+  to {
+    height: 200px;
+  }
+}
+
 @-webkit-keyframes miAnimacion1 {
   from {
+    height: 200px;
+  }
+  to {
     height: 0px;
   }
 }
 
 @keyframes miAnimacion1 {
   from {
-    height: 0px;
+    height: 200px;
   }
-}
-
-@keyframes miAnimacion1 {
-  from {
+  to {
     height: 0px;
   }
 }
@@ -773,13 +791,13 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
+  -webkit-animation: miAnimacion .2s linear;
+          animation: miAnimacion .2s linear;
   height: auto;
   margin: 3rem 0;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out;
   display: none;
   height: 0rem;
 }
