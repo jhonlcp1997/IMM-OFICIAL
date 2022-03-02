@@ -79,7 +79,7 @@ function slides() {
         setTimeout(function () {
             // sliderIndividual[0].style["height"] = (height) + "px";
             sliderIndividual[0].classList.remove('active');
-            sliderIndividual[1].classList.toggle('active');
+            // sliderIndividual[1].classList.toggle('active');
             // sliderIndividual[8].style["height"] = (height - 5) + "px";
             sliderIndividual[contador2].classList.remove('active');
 
