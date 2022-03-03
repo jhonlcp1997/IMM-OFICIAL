@@ -114,7 +114,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #777;
+  color: #000;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -142,7 +142,7 @@ body {
 }
 
 .header div .navbar-opciones .navbar-opciones-ul2 a {
-  color: #666;
+  color: #000;
   margin: 0 0 0 0.5rem;
 }
 
@@ -158,7 +158,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #666;
+  color: #000;
 }
 
 .header div .header-general .navbar-opciones-phone {
@@ -181,7 +181,7 @@ body {
 }
 
 .header div .header-general .header-center-right a {
-  color: #666;
+  color: #000;
   margin-left: 4rem;
   margin-right: 1rem;
 }
@@ -358,7 +358,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: left;
   font-size: 1.3rem;
-  color: #777;
+  color: #000;
 }
 
 .study .info2 {
@@ -400,7 +400,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 1.3rem;
-  color: #777;
+  color: #000;
 }
 
 .characteres {
@@ -541,7 +541,7 @@ body {
   margin: 1rem 0;
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
-  color: #777;
+  color: #000;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all .short {
@@ -621,7 +621,7 @@ body {
 .time-price .time-price_box1 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
-  color: #777;
+  color: #000;
 }
 
 .time-price .time-price_box2 {
@@ -689,7 +689,7 @@ body {
   margin-bottom: 5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
-  color: #777;
+  color: #000;
 }
 
 .info-date .section_election {
@@ -749,7 +749,7 @@ body {
   margin: 1rem 4rem;
   font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #f173ac;
-  color: #777;
+  color: #000;
   position: relative;
 }
 
@@ -804,7 +804,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
+  margin: 0 auto 1.5rem auto;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body .div1 p {
@@ -911,7 +911,6 @@ body {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
-  opacity: 0.7;
   font-size: 1.4rem;
 }
 
@@ -964,7 +963,7 @@ body {
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
   font-family: "Abel", sans-serif;
   margin-top: 1.5rem;
-  color: #9f9f9f;
+  color: #000;
   font-size: 1.2rem;
 }
 
@@ -1177,7 +1176,7 @@ body {
   }
   .header div .header-general .header-menu .header-modules .header-menu-module {
     font-size: 1.3rem;
-    color: #666;
+    color: #000;
   }
   .header div .header-general .header-menu .header-modules i {
     -webkit-transform: rotate(-90deg);
@@ -1396,6 +1395,7 @@ body {
   .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
     width: 50px;
     height: 50px;
+    margin: auto;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image img {
     width: 50px;
