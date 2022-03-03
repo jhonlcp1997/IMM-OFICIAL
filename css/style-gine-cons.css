@@ -10,6 +10,24 @@
   border: none;
 }
 
+@-webkit-keyframes miAnimacion_menu {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 20px;
+  }
+}
+
+@keyframes miAnimacion_menu {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 20px;
+  }
+}
+
 @-webkit-keyframes miAnimacion {
   from {
     height: 0;
@@ -979,21 +997,33 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: auto;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
   }
-  .header div .header-general .header-right div {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: 0.5rem;
-    background: #fff;
-    font-size: 1.7rem;
-    color: #f173ac;
-    margin-left: 0.3rem;
-    text-align: center;
-    cursor: pointer;
+  .header div .header-general .header-right img {
+    width: 2.5rem;
   }
-  .header div .header-general .header-right div:hover {
-    color: #f173ac;
+  .header div .header-general .header-right .menu-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header div .header-general .header-right .menu-open {
+    display: none;
+  }
+  .header div .header-general .header-right.active {
+    -webkit-animation: miAnimacion_menu .3s linear;
+            animation: miAnimacion_menu .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  .header div .header-general .header-right.active .menu-close {
+    display: none;
+  }
+  .header div .header-general .header-right.active .menu-open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .header div .header-general .header-menu {
     display: inline-block;
@@ -1001,7 +1031,7 @@ body {
     width: 70%;
     height: 90vh;
     position: absolute;
-    top: 100%;
+    top: 99%;
     right: 0;
     background: #fff;
     border-top: 0.2rem solid #f173ac;
@@ -1016,8 +1046,6 @@ body {
   .header div .header-general .header-menu.active {
     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
-    -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
-            box-shadow: -3rem 4rem 80px -70px #332e2e;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }

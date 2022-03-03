@@ -32,6 +32,14 @@ $franklin:"Abel", sans-serif;
     gap: 2rem;
 }
 
+@keyframes miAnimacion_menu {
+    from {height:10px;}
+    to {height:20px;}
+
+    // from{scale: 0;}
+    // to{scale: 100;}
+}
+
 @keyframes miAnimacion {
 
     from {height:0;}
@@ -1020,24 +1028,49 @@ body {
                 .header-right {
                     display: flex;
                     width: auto;
+                    transition: all .5s ease-out;
 
-                    div {
-                        height: 4.5rem;
-                        width: 4.5rem;
-                        line-height: 4.5rem;
-                        border-radius: 0.5rem;
-                        background: $white;
-                        font-size: 1.7rem;
-                        color: $pink3;
-                        margin-left: 0.3rem;
-                        text-align: center;
-                        cursor: pointer;
+                    // div {
+                    //     height: 4.5rem;
+                    //     width: 4.5rem;
+                    //     line-height: 4.5rem;
+                    //     border-radius: 0.5rem;
+                    //     background: $white;
+                    //     font-size: 1.7rem;
+                    //     color: $pink3;
+                    //     margin-left: 0.3rem;
+                    //     text-align: center;
+                    //     cursor: pointer;
                         
 
-                        &:hover {
-                            color: $pink3;
-                            // transition-delay: 1s;
-                            // color: $pink3;
+                    //     &:hover {
+                    //         color: $pink3;
+                    //         // transition-delay: 1s;
+                    //         // color: $pink3;
+                    //     }
+                    // }
+                    img{
+                        width: 2.5rem;
+                    }
+
+                    .menu-close{
+                        display: flex;
+                    }
+
+                    .menu-open{
+                        display: none;
+                    }
+
+                    &.active{
+                        animation: miAnimacion_menu .3s linear;
+                        transition: all .3s linear;
+                        
+                        .menu-close{
+                            display: none;
+                        }
+
+                        .menu-open{
+                            display: flex;
                         }
                     }
                 }
@@ -1048,7 +1081,7 @@ body {
                     width: 70%;
                     height: 90vh;
                     position: absolute;
-                    top: 100%;
+                    top: 99%;
                     right: 0;
                     background: $white;
                     border-top: $border;
@@ -1061,7 +1094,7 @@ body {
 
                     &.active {
                         transition: all .5s ease-out;
-                        box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+                        // box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     }
 
