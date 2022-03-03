@@ -474,6 +474,23 @@ body {
   margin-right: 1rem;
 }
 
+.slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .arrow-left,
+.slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .arrow-right {
+  display: none;
+  font-size: 30pt;
+  color: rgba(204, 204, 204, 0.65);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  z-index: 2;
+}
+
+.slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .arrow-right {
+  left: initial;
+  right: 50px !important;
+}
+
 .slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-center_rigth {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
@@ -791,8 +808,8 @@ body {
 }
 
 .slider-general .slider-contenedor-g .contenido-slider-g.info-date .info-date-container.active .info-contenido .contenido-body.open {
-  -webkit-animation: miAnimacion1 .2s linear;
-          animation: miAnimacion1 .2s linear;
+  -webkit-animation: miAnimacion1 0.2s linear;
+          animation: miAnimacion1 0.2s linear;
   height: 16rem;
 }
 
@@ -806,8 +823,8 @@ body {
   background-color: #fff;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   z-index: 0;
 }
 
@@ -832,8 +849,8 @@ body {
 }
 
 .slider-general .slider-contenedor-g .contenido-slider-g.info-date .info-date-container.active .info-contenido .contenido-body1.open {
-  -webkit-animation: miAnimacion1 .4s linear;
-          animation: miAnimacion1 .4s linear;
+  -webkit-animation: miAnimacion1 0.4s linear;
+          animation: miAnimacion1 0.4s linear;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1372,6 +1389,11 @@ body {
   }
   .slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .points {
     display: none;
+  }
+  .slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .arrow-right, .slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-left .arrow-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .slider-general .slider-contenedor-g .contenido-slider-g.characteres .characteres-center_rigth {
     display: none;
