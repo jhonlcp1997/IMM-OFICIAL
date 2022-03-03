@@ -484,18 +484,19 @@ body {
                     height: 290px;
                     justify-content: space-around;
                     flex-shrink: 0;
-                    padding: 2rem 1.5rem;
+                    padding: 2rem 0rem;
                     background: $white;
                     top: 15px;
                     transition: all .5s ease-out;
                     // flex-direction: column-reverse;
+                    // background: $pink2;
                     
 
                     img {
                         text-align: center;
-                        width: 10rem;
+                        width: 19rem;
                         // height: 8rem;
-                        margin: 1rem 0;
+                        margin: 0;
                     }
 
                     div {
@@ -518,7 +519,7 @@ body {
                     }
 
                     &.active {
-                        padding-top: 4rem;
+                        padding-top: 2.5rem;
                         transition: all .5s ease-out;
                         height: 320px;
                         box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);

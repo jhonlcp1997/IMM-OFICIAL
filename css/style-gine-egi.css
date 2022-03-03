@@ -500,7 +500,7 @@ body {
       justify-content: space-around;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0rem;
   background: #fff;
   top: 15px;
   -webkit-transition: all .5s ease-out;
@@ -509,8 +509,8 @@ body {
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {
   text-align: center;
-  width: 10rem;
-  margin: 1rem 0;
+  width: 19rem;
+  margin: 0;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all div h3 {
@@ -531,7 +531,7 @@ body {
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
-  padding-top: 4rem;
+  padding-top: 2.5rem;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
   height: 320px;

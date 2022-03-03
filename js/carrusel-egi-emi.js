@@ -2,13 +2,13 @@ let slider = document.querySelector(".slider-contenedor2");
 let sliderIndividual = document.querySelectorAll(".characteres_all");
 let children = document.getElementById("points").children;
 let puntos = document.querySelectorAll(".pt");
-let contador = 1;
-let contador2 = 0;
+let contador = 2;
+let contador2 = 1;
 // estas variables estarn porseacaso por que no se de ninguna de estas
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let height2 = slider.clientHeight;
-let intervalo = 5000;
+let intervalo = 6000;
 
 // console.log(width);
 // console.log(height);
@@ -88,7 +88,7 @@ function slides() {
         setTimeout(function () {
             // sliderIndividual[0].style["height"] = (height) + "px";
             sliderIndividual[0].classList.remove('active');
-            // sliderIndividual[1].classList.toggle('active');
+            sliderIndividual[1].classList.toggle('active');
             // sliderIndividual[8].style["height"] = (height - 5) + "px";
             sliderIndividual[contador2].classList.remove('active');
 
@@ -101,8 +101,8 @@ function slides() {
 
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
-            contador = 1;
-            contador2 = 0;
+            contador = 2;
+            contador2 = 1;
         }, 5000)
     }
 }
