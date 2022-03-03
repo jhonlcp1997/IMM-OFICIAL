@@ -8,7 +8,7 @@ let contador2 = 1;
 let width = sliderIndividual[0].clientWidth;
 let height = sliderIndividual[0].clientHeight;
 let height2 = slider.clientHeight;
-let intervalo = 6000;
+let intervalo = 5000;
 
 // console.log(width);
 // console.log(height);
@@ -103,7 +103,7 @@ function slides() {
             slider.style.transition = "transform 0s";
             contador = 2;
             contador2 = 1;
-        }, 1000)
+        }, 5000)
     }
 }
 
