@@ -1267,10 +1267,16 @@ body {
                     width: 420px;    
                     
                     .characteres_all{
-                        height: 250px;
+                        height: 252px;
+                        padding: 0;
+
+                        img{
+                            width: 21rem;
+                        }
 
                         &.active{
-                            height: 280px;
+                            padding-top: 2rem;
+                            height: 282px;
                         }
                     }
                 }

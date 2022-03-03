@@ -1202,10 +1202,15 @@ body {
     width: 420px;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
-    height: 250px;
+    height: 252px;
+    padding: 0;
+  }
+  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all img {
+    width: 21rem;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
-    height: 280px;
+    padding-top: 2rem;
+    height: 282px;
   }
   .info-date .info-date-container {
     font-size: 1.15rem;

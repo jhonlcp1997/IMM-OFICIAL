@@ -103,7 +103,7 @@ function slides() {
             slider.style.transition = "transform 0s";
             contador = 2;
             contador2 = 1;
-        }, 5000)
+        }, 1000)
     }
 }
 
