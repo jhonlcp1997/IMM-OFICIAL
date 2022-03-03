@@ -513,6 +513,9 @@ body {
                             color: #777;
                         }
                     }
+                    .short{
+                        margin-top: 2rem;
+                    }
 
                     &.active {
                         padding-top: 4rem;
@@ -1260,7 +1263,15 @@ body {
                 .slider-contenedor2 {
                     position: relative;
                     left: -10rem;
-                    width: 420px;       
+                    width: 420px;    
+                    
+                    .characteres_all{
+                        height: 250px;
+
+                        &.active{
+                            height: 280px;
+                        }
+                    }
                 }
             }
         }

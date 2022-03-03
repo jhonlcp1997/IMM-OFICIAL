@@ -526,6 +526,10 @@ body {
   color: #777;
 }
 
+.characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all .short {
+  margin-top: 2rem;
+}
+
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
   padding-top: 4rem;
   -webkit-transition: all .5s ease-out;
@@ -1196,6 +1200,12 @@ body {
     position: relative;
     left: -10rem;
     width: 420px;
+  }
+  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
+    height: 250px;
+  }
+  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all.active {
+    height: 280px;
   }
   .info-date .info-date-container {
     font-size: 1.15rem;
