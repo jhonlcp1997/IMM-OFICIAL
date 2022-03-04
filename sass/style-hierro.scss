@@ -57,6 +57,7 @@ html {
 
         .div__container{
             display: flex;
+            width: 100%;
             max-width: 50rem;
             text-align: left;
 
@@ -257,6 +258,7 @@ html {
                     }
 
                     li {
+                        text-align: left;
                         font-size: .8rem;
                         font-family: $poppins;
                         // font-family: "Poppins", sans-serif;
@@ -340,6 +342,7 @@ html {
         .ofrecemos-footer {
             width: 80vw;
             padding: 0;
+            margin-top: 1rem;
             .ofrecemos_footer_div1 {
                 display: inline;
                 div {
@@ -430,4 +433,21 @@ html {
     html{
         font-size: 67%;
     }
+}
+
+@media (max-width: 300px){
+
+   .section1{
+       .section1__div{
+           height: auto;
+
+           .div__container{
+               height: auto;
+
+               .div__container__div{
+                   height: auto;
+               }
+           }
+       }
+   } 
 }

@@ -43,6 +43,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   max-width: 50rem;
   text-align: left;
 }
@@ -238,6 +239,7 @@ html {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
+  text-align: left;
   font-size: .8rem;
   font-family: "Poppins", sans-serif;
   color: #007cc3;
@@ -298,6 +300,7 @@ html {
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
+    margin-top: 1rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     display: inline;
@@ -358,6 +361,18 @@ html {
 @media (max-width: 330px) {
   html {
     font-size: 67%;
+  }
+}
+
+@media (max-width: 300px) {
+  .section1 .section1__div {
+    height: auto;
+  }
+  .section1 .section1__div .div__container {
+    height: auto;
+  }
+  .section1 .section1__div .div__container .div__container__div {
+    height: auto;
   }
 }
 /*# sourceMappingURL=style-hierro.css.map */
