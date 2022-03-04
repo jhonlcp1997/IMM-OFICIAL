@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 92.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.header .header_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  max-width: 60rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.header .header_img img {
+  width: 10rem;
+}
+
+.section1 .section1__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.section1 .section1__div .div__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50rem;
+  text-align: left;
+}
+
+.section1 .section1__div .div__container .div__container__img {
+  width: 8rem;
+  margin-top: 2.5rem;
+}
+
+.section1 .section1__div .div__container .div__container__div {
+  padding: 1rem 2rem;
+}
+
+.section1 .section1__div .div__container .div__container__div .tittle {
+  font-family: "Abel", sans-serif;
+  font-size: 2.4rem;
+  color: #62bb46;
+}
+
+.section1 .section1__div .div__container .div__container__div .sub_content {
+  font-size: 1.5rem;
+  font-family: "Abel", sans-serif;
+  font-weight: 600;
+  color: #007cc3;
+}
+
+.section1 .section1__div .div__container .div__container__div .content {
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: .8rem;
+}
+
+.section2 .section2__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  max-width: 60rem;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.section2 .section2__div .div__content {
+  max-width: 40%;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.section2 .section2__div .div__content .subtittle {
+  font-size: .9rem;
+  color: #007cc3;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 .section2__div .div__content .content {
+  font-family: "Poppins", sans-serif;
+  font-size: .8rem;
+}
+
+.section2 .section2__div .div__content2 {
+  max-width: 40%;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+.section2 .section2__div .div__content2 .subtittle {
+  font-size: .9rem;
+  color: #007cc3;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 .section2__div .div__content2 .content {
+  font-size: .8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 .section2__div .div__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .section2__div .div__img img {
+  width: 100%;
+}
+
+.section2 .section2__div .points1, .section2 .section2__div .points2, .section2 .section2__div .points3, .section2 .section2__div .points4, .section2 .section2__div .points5 {
+  position: absolute;
+  width: 8rem;
+}
+
+.section2 .section2__div .points1 {
+  right: -5rem;
+  top: 0;
+  z-index: -1;
+}
+
+.section2 .section2__div .points2 {
+  left: -7.3rem;
+}
+
+.section2 .section2__div .points3 {
+  left: 35%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.section2 .section2__div .points4 {
+  right: 40%;
+  bottom: 0;
+}
+
+.section2 .section2__div .points5 {
+  right: -4rem;
+  top: 25%;
+}
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  z-index: 0;
+}
+
+.footer .ofrecemos-footer {
+  position: relative;
+  display: inline-block;
+  margin: 10rem auto 2rem auto;
+  width: 95%;
+  max-width: 60rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 i {
+  color: #62bb46;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
+  font-size: 2rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
+  font-family: "Abel", sans-serif;
+  font-size: .9rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
+  color: #007cc3;
+  font-size: .8rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2 {
+  text-align: start;
+  font-family: "Abel", sans-serif;
+  font-size: .9rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
+  font-size: .8rem;
+  font-family: "Poppins", sans-serif;
+  color: #007cc3;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
+  font-size: .7rem;
+  color: #007cc3;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
+  padding: 0.2rem;
+  text-align: left;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
+  margin: 1rem 0;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
+  margin-right: 1rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div2 {
+  border-top: 1px solid #bfbfbf;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div2 p {
+  font-family: "Abel", sans-serif;
+  margin-top: 1.5rem;
+  color: #000;
+  font-size: .6rem;
+}
+
+@media (max-width: 1050px) {
+  .section2 .section2__div .points1, .section2 .section2__div .points2, .section2 .section2__div .points3, .section2 .section2__div .points4, .section2 .section2__div .points5 {
+    display: none;
+  }
+  .footer .ofrecemos-footer {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer .ofrecemos-footer {
+    width: 80vw;
+    padding: 0;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    display: inline;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 675px) {
+  html {
+    font-size: 67.5%;
+  }
+}
+/*# sourceMappingURL=style-hierro.css.map */
