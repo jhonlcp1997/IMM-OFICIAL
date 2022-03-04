@@ -133,6 +133,7 @@ html {
 
 .section2 .section2__div .div__img img {
   width: 100%;
+  height: 100%;
 }
 
 .section2 .section2__div .points1, .section2 .section2__div .points2, .section2 .section2__div .points3, .section2 .section2__div .points4, .section2 .section2__div .points5 {
