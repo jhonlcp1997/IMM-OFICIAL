@@ -57,7 +57,7 @@ html {
 
         .div__container{
             display: flex;
-            width: 50rem;
+            max-width: 50rem;
             text-align: left;
 
             .div__container__img{
@@ -352,6 +352,82 @@ html {
 
 @media (max-width: 675px) {
     html {
-        font-size: 77.5%;
+        font-size: 75%;
+    }
+
+    .section1{
+        .section1__div{
+            .div__container{
+                .div__container__div{
+                    padding: 1rem 1rem;
+    
+                    .tittle{
+                        font-size: 2.4rem;
+                    }
+    
+                    .sub_content{
+                        font-size: 1.5rem;
+                    }
+    
+                    .content{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .section2{
+        .section2__div{
+            .div__content{
+                .subtittle{
+                    font-size: 1rem;
+                }
+    
+                .content{
+                    font-size: .9rem;
+                }
+            }
+    
+            .div__content2{
+                .subtittle{
+                    font-size: 1rem;
+                }
+    
+                .content{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .footer{
+        .ofrecemos-footer{
+            margin-top: 2rem;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .section2{
+        .section2__div{
+            padding-bottom: .5rem;
+
+            .div__content{
+                padding: 0 2rem 0 0;
+            }
+
+            .div__content2{
+                padding: 0 0 0 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 330px){
+    html{
+        font-size: 67%;
     }
 }
