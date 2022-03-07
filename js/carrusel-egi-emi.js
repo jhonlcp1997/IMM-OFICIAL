@@ -215,11 +215,13 @@ let header = document.querySelector(".header");
 const btnLeft = document.querySelector(".arrow-left");
 const btnRight = document.querySelector(".arrow-right");
 let width2 = header.clientWidth;
-console.log(width2);
+// console.log(width2);
+
+// La repeticion de los mismos procedimientos es por que no creo que me funciones como funcion
 
 window.addEventListener("resize", function () {
     width2 = header.clientWidth;
-    console.log("moviemiento");
+    // console.log("moviemiento");
 
     if (width2 > 1050) {
         sliderAlternive.insertAdjacentElement('afterbegin', sliderSectionLast);
@@ -258,7 +260,7 @@ window.addEventListener("resize", function () {
     }
 })
 
-console.log(`co-poniendo ${width2}`);
+// console.log(`co-poniendo ${width2}`);
 // sliderAlternive.style.marginLeft = "-210px";
 // if (width2 > 1050) {
 if (width2 > 1050) {
