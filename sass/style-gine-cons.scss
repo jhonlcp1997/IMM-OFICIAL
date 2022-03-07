@@ -1120,9 +1120,12 @@ body {
                             font-size: 1.3rem;
                             color: $black;
                             // margin-right: 2rem;
+                            padding-right: 1rem;
                         }
 
                         i {
+                            display: flex;
+                            align-items: center;
                             // text-align: right;
                             // transform: rotate(-90deg);
                             color: $pink3;

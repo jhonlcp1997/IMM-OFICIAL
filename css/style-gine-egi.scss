@@ -424,6 +424,7 @@ body {
         position: relative;
 
         h2 {
+            padding: 0 1.5rem;
             font-size: 3rem;
             font-family: $franklin;
             color: $pink3;
@@ -1230,7 +1231,7 @@ body {
 
                         i {
                             display: flex;
-                            text-align: right;
+                            align-items: center;
                             // transform: rotate(-90deg);
                             color: $pink3;
                         }
