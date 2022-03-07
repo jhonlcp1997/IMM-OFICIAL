@@ -319,9 +319,8 @@ body {
 }
 
 .study .info1 img {
-  margin: auto;
-  width: 12rem;
-  height: 8rem;
+  margin-right: 3rem;
+  width: 6rem;
 }
 
 .study .info1 div {
@@ -365,6 +364,7 @@ body {
 }
 
 .study .info2 div img {
+  margin-bottom: 1rem;
   width: 12rem;
   height: 8rem;
 }
