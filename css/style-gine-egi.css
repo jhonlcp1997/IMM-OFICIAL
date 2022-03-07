@@ -46,24 +46,6 @@
   }
 }
 
-@-webkit-keyframes miAnimacion1 {
-  from {
-    height: 200px;
-  }
-  to {
-    height: 0px;
-  }
-}
-
-@keyframes miAnimacion1 {
-  from {
-    height: 200px;
-  }
-  to {
-    height: 0px;
-  }
-}
-
 @-webkit-keyframes miDesAnimacion {}
 
 @keyframes miDesAnimacion {}html {
@@ -1170,10 +1152,13 @@ body {
   .header div .header-general .header-menu .header-modules .header-menu-module {
     font-size: 1.3rem;
     color: #000;
+    padding-right: 1rem;
   }
   .header div .header-general .header-menu .header-modules i {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
     color: #f173ac;
   }
   .header div .header-general .header-menu .header_footer {

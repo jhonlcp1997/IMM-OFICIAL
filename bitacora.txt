@@ -4,7 +4,7 @@ Bitacora de alguien que recien empieza x,D
 Repasando todos los dias anteriores que no hice la bitacora... No se, empece con el proyecto como IMM-PRUEBA en modo PUBLICO en github luego lo subi a netlify
 me costo un poco, pense que no me meteria tanto en la parte de diseño pero... tuve que seguir en ello, este es mi primera pagina que hago para alguien, mi primer trabajo y mi primer sueldo que recibo... don't judge me.
 me dieron el dominio en yachay y se trabaja en Cpanel me dio problemas pero... lo publique... una de las mejores cosas que me pasó.
-Ayer pense que mi repositorio podia ser modificado por personas extrañas asi que cambie todo a privado, luego me dio problemas muchos problemas... revice  denuevo los permisos en github y vi que no cualquiera puede modificar tu codigo a pesar que este en publico, asi que lo regrese pero aun asi me dio problemas... pero lo logré, tuve que cambiarle el nombre al repositorio.
+Ayer pense que mi repositorio podia ser modificado por personas extrañas asi que cambie todo a privado, luego me dio problemas muchos problemas... revise  de nuevo los permisos en github y vi que no cualquiera puede modificar tu codigo a pesar que este en público, asi que lo regresé pero aun asi me dio problemas... pero lo logré, tuve que cambiarle el nombre al repositorio.
 Aún no puedo eliminar los trash ocultos.
 Hoy le prometi a mi vecino que iria a correr pero, aun me duelen las piernas, asi que no se la verdad.
 Hasta ahora lo que me esta cansando más es la revisión y limpieza de código.
@@ -32,13 +32,13 @@ Quisiera no estar aqui, tengo que tratar de adivinar lo que las demas quieren de
 x2 no se que ponerle, pero sigo escribiendo por que no se que poner...
 
 16-02-2022:
-Bitacora de Buzlightyear... solo avanzare un formato parecido al que esta en los PDFs con respecto al video de la box1, creare otra rama, no quiero malograr lo que supuestamente eh avanzado.
+Bitacora de Buzlightyear... solo avanzare un formato parecido al que esta en los PDFs con respecto al video de la box1, crearé otra rama, no quiero malograr lo que supuestamente eh avanzado.
 Por ahora solo pude editar la parte de los videos, hacerlo un poco mas grandecitos nada mas.
 Estoy esperando que llegue el almuerzo. Voy a intentar poner las cosas lo mas cercano posible a lo que quiren y nada mas...
 Estaba pensando en solo dormir... pero no se si estar bien(hablo gaferas).
-Bueno voy a comer, no se que mas cambios hay que meterle, solo estan esperando para hacerlo de golpe, quisiera pedri mi renuncia pero tengo que ganar la sufiente experienca como para...
+Bueno voy a comer, no se que mas cambios hay que meterle, solo estan esperando para hacerlo de golpe, quisiera pedir mi renuncia pero tengo que ganar la sufiente experienca como para...
 Bueno ya termine de comer asi tendré que seguir aqui. Como quisiera trabajar solo, deberas... quiza mas adelante... aaahh... pero a aveces me siento incomodo, por que talvez pueda estar haciendo esto desde de mi casa.
-Empece a revisar React,no lose, luce amigable pero a la vez engorroso, como dice su documentacion esta basado en componentes, asi que crear un componente por cada cosita que se te presenta, esa es la parte engorrosa.
+Empece a revisar React, no lo se, luce amigable pero a la vez engorroso, como dice su documentacion esta basado en componentes, asi que crear un componente por cada cosita que se te presenta, esa es la parte engorrosa.
 A veces me da mucho sueño como para mantenerme sentado despierto, asi que subo a la azotea.
 Ahora me estoy poniendo a hacer limpieza del codigo, de la parte de morfologico sass.
 
@@ -60,3 +60,9 @@ En esta parte solo estoy agregando la parte que hice en main-2 agregue filas par
 
 24-02-2022:
 Entre ayer y hoy me dejaron demasiadas cosas, ya no se cuales seran las que tengo que hacer, muy desorganizadas y cada cosa que se les ocurre, ya lo quieren en web, es de risa, por que ni termino una pagina y ya quieren una nueva, la avanzo y ya me piden modificaciones de las 2, ¿Qué hago?
+
+
+07-03-2022:
+Primera oración de marzo, me eh estado distrayendo en la parte de youtube videos, procrastinando mejor dicho, pero menos mal que no hubo clases el sabado pasado, debido a que no se, ahora tengo que darle una revizada al codigo, darle una limpieza, y testearlo.
+Seguramente me van a pedir que le haga un cambio grande a la pagina otra vez, le cambio al carrusel a cada rato, en la semana hago dos versiones  aaaahhh....
+Qué mas puedo poner a demas de mis ganas (las han visto por ahí);

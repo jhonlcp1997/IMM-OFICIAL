@@ -449,11 +449,12 @@ body {
         display: flex;
         flex-wrap: wrap;
         // background-color: #9f9f9f;
-        margin: 10rem auto 6rem auto;
+        margin: 10rem auto 4rem auto;
         // justify-content: space-between;
 
         .atention-div1{
             flex: 1 1 50rem;
+            margin-bottom: 1rem;
 
             // background-color: #9f9f9f;
 
@@ -496,8 +497,9 @@ body {
             justify-content: center;
 
             .img{
+                display: flex;
                 text-align: center;
-                margin-top: 2rem;
+                margin-top: 1rem;
 
                 img{
                     width: 12rem;
@@ -1122,7 +1124,7 @@ body {
 
                         i {
                             // text-align: right;
-                            transform: rotate(-90deg);
+                            // transform: rotate(-90deg);
                             color: $pink3;
                         }
                     } 

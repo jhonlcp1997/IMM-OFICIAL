@@ -469,13 +469,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10rem auto 6rem auto;
+  margin: 10rem auto 4rem auto;
 }
 
 .study .atention .atention-div1 {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
           flex: 1 1 50rem;
+  margin-bottom: 1rem;
 }
 
 .study .atention .atention-div1 .tittle {
@@ -517,8 +518,11 @@ body {
 }
 
 .study .atention .atention-div2 .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .study .atention .atention-div2 .img img {
@@ -1071,8 +1075,6 @@ body {
     color: #000;
   }
   .header div .header-general .header-menu .header-modules i {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
     color: #f173ac;
   }
   .header div .header-general .header-menu .header_footer {

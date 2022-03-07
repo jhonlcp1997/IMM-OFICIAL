@@ -65,15 +65,6 @@ $franklin: "Abel", sans-serif;
     // to{scale: 100;}
 }
 
-@keyframes miAnimacion1 {
-    from {
-        height: 200px;
-    }
-    to {
-        height: 0px;
-    }
-}
-
 @keyframes miDesAnimacion {
     // 50%{
     //     height: 0px;
@@ -107,10 +98,7 @@ body {
 
 .header {
     position: sticky;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
+    z-index: 1000; top: 0; left: 0; right: 0;
     padding: auto;
     background: #fff;
     text-align: center;
@@ -1237,10 +1225,13 @@ body {
                         .header-menu-module {
                             font-size: 1.3rem;
                             color: $black;
+                            padding-right: 1rem;
                         }
 
                         i {
-                            transform: rotate(-90deg);
+                            display: flex;
+                            text-align: right;
+                            // transform: rotate(-90deg);
                             color: $pink3;
                         }
                     }
