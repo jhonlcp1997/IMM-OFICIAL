@@ -1313,7 +1313,6 @@ body {
   .slider-general {
     height: 100%;
     overflow: auto;
-    background-color: #666;
   }
   .slider-general::-webkit-scrollbar {
     display: none;
@@ -1435,7 +1434,6 @@ body {
   }
   .slider-general .slider-contenedor-g .contenido-slider-g.info-date {
     margin-top: 0;
-    background-color: #f4c6de;
     padding: 0rem 0.5rem;
     -webkit-box-shadow: none;
             box-shadow: none;
