@@ -163,6 +163,10 @@ body {
   display: none;
 }
 
+.header div .header-general .header-menu {
+  display: none;
+}
+
 .slider-general {
   width: 100%;
   position: relative;
@@ -1099,7 +1103,7 @@ body {
     border-bottom: 2px solid #f173ac;
   }
   .header div .header-general .header-center-right {
-    display: inline-block;
+    display: none;
     text-align: center;
     width: 50%;
     position: absolute;
@@ -1140,6 +1144,99 @@ body {
   }
   .header div .header-general .header-right div:hover {
     color: #f173ac;
+  }
+  .header div .header-general .header-right #menu-btn2 {
+    display: none;
+  }
+  .header div .header-general .header-right.active #menu-btn {
+    display: none;
+  }
+  .header div .header-general .header-right.active #menu-btn2 {
+    display: block;
+  }
+  .header div .header-general .header-menu {
+    display: inline;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border-top: 0.2rem solid #f173ac;
+    border-bottom: 0.2rem solid #f173ac;
+    padding: 0 2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header div .header-general .header-menu.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header div .header-general .header-menu .header-modules {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.2rem;
+    margin: 2rem 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header div .header-general .header-menu .header-footer {
+    width: 100%;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 {
+    padding: 0;
+    text-align: left;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .div_content_a {
+    margin: 2rem 0;
+    width: 5rem;
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .div_content_a i {
+    font-size: 4rem;
+    color: #f173ac;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content ul {
+    list-style-type: none;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content ul h2 {
+    font-size: 1.5rem;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content ul li p {
+    font-size: 1.3rem;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .footer-ul2 li p {
+    color: #007cc3;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .footer-ul3 {
+    display: inline;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .footer-ul3 li {
+    color: #007cc3;
+    margin: 0 0 1rem 0;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .footer-ul3 li a {
+    color: #000;
+    padding: 0 1rem 0 0;
+  }
+  .header div .header-general .header-menu .header-footer .header_footer_div_1 .div_content .footer-ul3 li a i {
+    font-size: 2rem;
+    color: #000;
   }
   .slider-general .slider-contenedor-g .contenido-slider-g.home .home_box .home-nav1 .home-nav1-P_1 {
     font-size: 2.6rem;
@@ -1437,6 +1534,13 @@ body {
     padding: 0rem 0.5rem;
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+  .slider-general .slider-contenedor-g .contenido-slider-g.info-date h2 {
+    font-size: 2.5rem;
+  }
+  .slider-general .slider-contenedor-g .contenido-slider-g.info-date .section__subtitle {
+    padding: 0 2rem;
+    font-size: 1.3rem;
   }
   .slider-general .slider-contenedor-g .contenido-slider-g.info-date .info-date-container {
     font-size: 1rem;

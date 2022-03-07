@@ -195,6 +195,10 @@ body {
                     display: none;
                 }
             }
+
+            .header-menu{
+                display: none;
+            }
         }
     }
 }
@@ -1138,7 +1142,8 @@ body {
                 }
 
                 .header-center-right {
-                    display: inline-block;
+                    display: none;
+                    // display: inline-block;
                     text-align: center;
                     width: 50%;
                     position: absolute;
@@ -1180,6 +1185,115 @@ body {
 
                         &:hover {
                             color: $pink3;
+                        }
+                    }
+
+                    #menu-btn2{
+                        display: none;
+                    }
+
+                    &.active{
+
+                        #menu-btn{
+                            display: none;
+                        }
+
+                        #menu-btn2{
+                            display: block;
+                        }
+                    }
+                    
+                }
+
+                .header-menu{
+                    display: inline;
+                    text-align: center;
+                    width: 80%;
+                    height: 100vh;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    background: #fff;
+                    border-top: $border;
+                    border-bottom: $border;
+                    padding: 0 2rem;
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+                    &.active {
+                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    }
+
+                    .header-modules {
+                        display: flex;
+                        font-size: 1.2rem;
+                        margin: 2rem 1rem;
+                        justify-content: space-between;
+                    }
+
+                    .header-footer{
+                        width: 100%;
+
+                        .header_footer_div_1{
+                            padding: 0;
+                            // max-width: 100%;
+                            text-align: left;
+
+                            .div_content{
+                                display: flex;
+                                width: 100%;
+
+                                .div_content_a{
+                                    margin: 2rem 0;
+                                    width: 5rem;
+                                    height: 5rem;
+                                    display: flex;
+                                    align-items: center;
+
+
+                                    i{
+                                        font-size: 4rem;  
+                                        color: $pink3
+                                    }
+                                }
+
+                                ul{
+                                    list-style-type: none;
+
+                                    h2{
+                                        font-size: 1.5rem;
+                                    }
+                                    li{
+                                        p{
+                                            font-size: 1.3rem;
+                                        }
+                                    }
+                                }
+
+                                .footer-ul2{
+                                    li{
+                                        p{
+                                            color: $azul;
+                                        }
+                                    }
+                                }
+
+                                .footer-ul3{
+                                    display: inline;
+                                    li{
+                                        color: $azul;
+                                        margin:0 0 1rem 0;
+                                        a{
+                                            color: $black;
+                                            padding: 0 1rem 0 0;
+
+                                            i{
+                                                font-size: 2rem;
+                                                color: $black;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1651,6 +1765,15 @@ body {
                     // background-color: #f4c6de;
                     padding: 0rem 0.5rem;
                     box-shadow: none;
+
+                    h2{
+                        font-size: 2.5rem;
+                    }
+
+                    .section__subtitle{
+                        padding: 0 2rem;
+                        font-size: 1.3rem;
+                    }
 
                     .info-date-container {
                         font-size: 1rem;
