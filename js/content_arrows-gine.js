@@ -3,10 +3,24 @@
 
 let contenido_header = document.querySelectorAll('.contenido-header');
 let contenido_body = document.querySelectorAll('.contenido-body');
-let contenido_body1 = document.querySelector('.contenido-body1');
+// let contenido_body1 = document.querySelector('.contenido-body');
 
 function toggleContent() {
     let itemClass = this.className;
+
+    for(let k=0; k<contenido_header.length; k++){
+        contenido_header[k].className = 'contenido-header close';
+    }
+
+    for (let l = 0; l < contenido_body.length; l++) {
+        contenido_body[l].className = 'contenido-body close';    
+    }
+
+    this.className = 'contenido-header open';
+    this.nextElementSibling.className = 'contenido-body open';
+    if(this.nextElementSibling.nextElementSibling){
+        this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+    }
 
     if (itemClass === 'contenido-header close') {
         // forOnCheckSiblings();
@@ -21,7 +35,7 @@ function toggleContent() {
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
             } else{
                 console.log(this.nextElementSibling.nextElementSibling.className);
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
+                this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
                 console.log(this.nextElementSibling.nextElementSibling.className);
             }
         } else {
@@ -31,24 +45,24 @@ function toggleContent() {
 
     } else {
 
-        if (this.nextElementSibling.nextElementSibling) {
-            this.className = 'contenido-header close';
-            this.nextElementSibling.className = 'contenido-body close';
-            console.log(this.nextElementSibling.nextElementSibling.className);
-            let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
+        // if (this.nextElementSibling.nextElementSibling) {
+        //     this.className = 'contenido-header close';
+        //     this.nextElementSibling.className = 'contenido-body close';
+        //     console.log(this.nextElementSibling.nextElementSibling.className);
+        //     let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
 
-            if(moment_sibling_name === 'contenido-body open'){
-                console.log("Entro aqui revesion del hermano");
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-            } else{
-                console.log(this.nextElementSibling.nextElementSibling.className);
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
-                console.log(this.nextElementSibling.nextElementSibling.className);
-            }
-        } else {
-            this.className = 'contenido-header close';
-            this.nextElementSibling.className = 'contenido-body close';
-        }
+        //     if(moment_sibling_name === 'contenido-body open'){
+        //         console.log("Entro aqui revesion del hermano");
+        //         this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+        //     } else{
+        //         console.log(this.nextElementSibling.nextElementSibling.className);
+        //         this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+        //         console.log(this.nextElementSibling.nextElementSibling.className);
+        //     }
+        // } else {
+        //     this.className = 'contenido-header close';
+        //     this.nextElementSibling.className = 'contenido-body close';
+        // }
     }
 }
 
@@ -57,7 +71,7 @@ function forOnCheckSiblings (){
         contenido_header[k].className = 'contenido-header close';
         contenido_body[k].className = 'contenido-body close';
         if(contenido_body[k].nextElementSibling){
-            contenido_body1.className = 'contenido-body1 close';
+            contenido_body1.className = 'contenido-body close';
         }
     }
 }

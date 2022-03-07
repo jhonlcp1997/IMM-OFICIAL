@@ -13,6 +13,7 @@
 }
 
 $white: #fff;
+$black: #000;
 $light-color: #666;
 $pink1: #f4c6de;
 $pink2: #f5a4c7;
@@ -553,7 +554,7 @@ body {
 
                                 &.active {
                                     padding-top: 2.5rem;
-                                    transition: all .5s ease-out;
+                                    transition: all 0.5s ease-out;
                                     height: 320px;
                                     box-shadow: 0rem 1rem 80px -50px rgb(51, 46, 46);
                                     top: 0px;
@@ -682,7 +683,7 @@ body {
                     margin-bottom: 5rem;
                     font-family: "Poppins", sans-serif;
                     font-size: 1.4rem;
-                    color: #777;
+                    color: $black;
                 }
 
                 .section_election {
@@ -727,35 +728,34 @@ body {
 
                 .info-date-container {
                     display: none;
-            
+
                     &.active {
                         display: inline;
                         font-size: 1.4rem;
-            
+
                         .info-contenido {
                             // display: inline-block;
                             margin: 1rem 4rem;
                             // height: 20rem;
                             font-family: "Poppins", sans-serif;
                             border-bottom: 1px solid $pink3;
-                            color: #777;
+                            color: $black;
                             position: relative;
-            
+
                             .contenido-header {
                                 margin: 1rem;
                                 display: flex;
                                 justify-content: space-between;
                                 cursor: pointer;
                                 z-index: 1;
-            
+
                                 &.open {
-            
                                     i {
                                         transform: rotate(-180deg);
                                         color: $pink3;
                                     }
                                 }
-            
+
                                 &.close {
                                     i {
                                         color: $pink3;
@@ -763,54 +763,52 @@ body {
                                     }
                                 }
                             }
-            
+
                             .contenido-body {
                                 // background-color: $white;
                                 display: flex;
                                 justify-content: space-around;
-                                transition: all .5s linear;
+                                transition: all 0.5s linear;
                                 z-index: 0;
-            
-            
+
                                 .div1 {
                                     text-align: center;
                                     width: 29rem;
                                     min-width: 9rem;
                                     // animation: miAnimacion .2s linear ;
-            
+
                                     .div-image {
                                         display: flex;
                                         width: 7rem;
                                         height: 7rem;
                                         text-align: center;
                                         justify-content: center;
-                                        margin: auto;
+                                        margin: 0 auto 1.5rem auto;
                                     }
-            
+
                                     p {
                                         text-align: center;
                                         padding: 0 2rem;
                                     }
                                 }
-            
+
                                 &.open {
                                     // transition: all .5s ease-out;
-                                    animation: miAnimacion .2s linear;
+                                    animation: miAnimacion 0.2s linear;
                                     // height: 18rem;
                                     height: auto;
                                     margin: 3rem 0;
                                 }
-            
+
                                 &.close {
                                     // transition: all .5s ease-out;
                                     // scroll-behavior: smooth;
                                     // transition: all 0.5s linear;
                                     // animation: miDesAnimacion1 1s linear ;
                                     // transition: all 1s linear;
-            
+
                                     display: none;
                                     height: 0rem;
-                                    
                                 }
                             }
                         }
@@ -1486,20 +1484,20 @@ body {
                         }
                     }
 
-                    .header-center-right-footer {
-                        // display: flex;
+                    // .header-center-right-footer {
+                    // display: flex;
 
-                        // .ofrecemos-footer {
-                        // width: 80vw;
-                        // padding: 0;
-                        // .ofrecemos_footer_div1 {
-                        //     display: inline;
-                        //     div {
-                        //         margin: 3rem;
-                        //     }
-                        // }
-                        // }
-                    }
+                    // .ofrecemos-footer {
+                    // width: 80vw;
+                    // padding: 0;
+                    // .ofrecemos_footer_div1 {
+                    //     display: inline;
+                    //     div {
+                    //         margin: 3rem;
+                    //     }
+                    // }
+                    // }
+                    // }
                 }
             }
         }
@@ -1509,16 +1507,22 @@ body {
         height: 100%;
         // height: 80vh;
         overflow: auto;
+        background-color: #666;
+
 
         &::-webkit-scrollbar {
             display: none;
         }
 
         .slider-contenedor-g {
+    
             display: flex;
+           
 
             .contenido-slider-g {
+                
                 &.home {
+            
                     height: 80vh;
                     .home_box {
                         flex-wrap: wrap;
@@ -1526,6 +1530,7 @@ body {
                 }
 
                 &.characteres {
+            
                     position: relative;
                     // display: none;
                     margin: 0;
@@ -1553,14 +1558,14 @@ body {
                             display: flex;
                             // font-size: 50px;
                             // color: rgba(204, 204, 204, 0.65);
-                            color:$pink2;
+                            color: $pink2;
                             cursor: pointer;
                             position: absolute;
                             top: 50%;
                             left: 30px;
                             z-index: 2;
-                            
-                            i{
+
+                            i {
                                 font-size: 4rem;
                             }
                         }
@@ -1624,10 +1629,11 @@ body {
                 }
 
                 &.time-price {
+            
                     width: 100%;
                     margin: 0;
-                    display: block;
-                    background-color: #f5a4c7;
+                    // display: block;
+                    // background-color: #f5a4c7;
 
                     .time-price_box1 {
                         width: 100%;
@@ -1640,97 +1646,64 @@ body {
                     }
                 }
 
-                &.info-date {
-                    padding: 1rem 0.5rem;
+                &.info-date{
+                    margin-top: 0;
+                    background-color: #f4c6de;
+                    padding: 0rem 0.5rem;
+                    box-shadow: none;
 
                     .info-date-container {
                         font-size: 1rem;
+
                         &.active {
                             .info-contenido {
-                                .contenido-body {
-                                    flex-direction: column;
 
-                                    div {
-                                        margin-left: 3rem;
-                                        display: flex;
-                                        align-items: center;
-
-                                        .p-short {
-                                            padding-left: 2rem;
-                                        }
-
-                                        .p-short1 {
-                                            padding-left: 2.5rem;
-                                        }
-
-                                        p {
-                                            text-align: left;
-                                            padding: 0 1rem;
-                                        }
-
-                                        img {
-                                            width: 6rem;
-                                            height: 6rem;
-                                        }
-                                    }
-
-                                    &.open {
-                                        // height: 100%;
-                                        div {
-                                            height: 12rem;
-                                        }
+                                .contenido-header{
+                                    span{
+                                        font-size: 1.3rem;
                                     }
                                 }
 
-                                .contenido-body1 {
+                                .contenido-body {
                                     flex-direction: column;
-                                    margin: 0;
 
-                                    div {
-                                        margin-left: 3rem;
+                                    .div1 {
+                                        width: 90%;
+                                        // max-width: 50rem;
+                                        // margin-left: 3rem;
+                                        margin: 1rem 0 1rem 1rem;
                                         display: flex;
                                         align-items: center;
-                                        text-align: center;
+                                        // margin: 1rem 0;
 
                                         p {
+                                            font-size: 1.3rem;
+                                            width: 100%;
                                             text-align: left;
                                             padding: 0 1rem;
                                         }
 
-                                        .p-short {
-                                            padding-left: 2rem;
-                                        }
+                                        .div-image {
+                                            width: 50px;
+                                            height: 50px;
+                                            margin: auto;
 
-                                        .p-short1 {
-                                            padding-left: 2.5rem;
-                                        }
+                                            img {
+                                                width: 50px;
+                                                height: 50px;
+                                            }
 
-                                        img {
-                                            // text-align: right;
-                                            width: 6rem;
-                                            height: 6rem;
+                                            .img-incontrolable {
+                                                height: 50px;
+                                            }
                                         }
                                     }
 
                                     &.open {
-                                        div {
-                                            height: 9rem;
-                                        }
+                                        height: auto;
+                                        margin: 0;
                                     }
-                                    //     div {
-                                    //         .p-short{
-                                    //             padding: 0;
-                                    //             // min-width: 15rem;
-                                    //         }
 
-                                    //         img {
-                                    //             width: 7rem;
-                                    //         }
-                                    //     }
-
-                                    //     &.open {
-                                    //         height: 15rem;
-                                    //     }
                                 }
                             }
                         }
@@ -1820,12 +1793,11 @@ body {
     }
 }
 
-
-@media (max-width:350px){
+@media (max-width: 350px) {
     .slider-general {
         .slider-contenedor-g {
             .contenido-slider-g {
-                &.characteres {     
+                &.characteres {
                     .characteres-center_alternative {
                         .slider-contenedor_a {
                             .slider-contenedor2_a {
@@ -1837,6 +1809,30 @@ body {
 
                                         p {
                                             font-size: 1.3rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .slider-general{
+        .slider-contenedor-g{
+            .contenido-slider-g{
+                &.info-date{
+                    .info-date-container{
+                        &.active{
+                            .info-contenido{
+                                .contenido-body{
+                                    .div1{
+                                        p{
+                                            padding-right: 0;
                                         }
                                     }
                                 }

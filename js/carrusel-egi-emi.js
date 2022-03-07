@@ -18,11 +18,11 @@ window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
     height = sliderIndividual[0].clientHeight;
     height2 = slider.clientHeight;
-    console.log(`Este es el height 1 ${height}`);
-    console.log(`Este es el height 2 ${height2}`);
+    // console.log(`Este es el height 1 ${height}`);
+    // console.log(`Este es el height 2 ${height2}`);
 
     if (height > 250) {
-        console.log("Salio del if");
+        // console.log("Salio del if");
         for (let i = 0; i < sliderIndividual; i++) {
             sliderIndividual[i].style["height"] = "290px";
         }
