@@ -13,6 +13,7 @@
 
 // Todo: el html en endocrinologia no trabaja con font-size
 html {
+    
     // font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -26,3 +27,287 @@ $gray1: #d9d9d9;
 $gray2: #bfbfbf;
 $gray3: #999999;
 
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel:"Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
+
+.header{
+    padding: 1rem 0;
+    .header__div-box{
+        width: 90%;
+        max-width: 60rem;
+        margin: auto;
+
+        img{
+            width: 10rem;
+        }
+    }
+}
+
+.section_tittle{
+    padding: 1rem 0;
+
+    .box{
+        margin: auto;
+        width: 90%;
+        max-width: 60rem;
+        font-family: $abel;
+
+        h2{
+            font-size: 2rem;
+            font-weight: 600;
+            color: $green2;
+        }
+
+        span{
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #007cc3d2;
+        }
+    }
+}
+
+.patients{
+
+    width: 100%;
+    max-width: 1366px;
+    height: 40rem;
+    // min-height: 60vh;
+    margin: auto;
+
+    display: flex;
+    position: relative;
+
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0px;
+    //     right: 0px;
+    //     bottom: 0px;
+    //     left: 0px;
+    //     /* Specify the background image to be used */
+    //     background-image: url(../images/recomendaciones/muestra_sangre/background_img-1.jpg);
+    //     background-size: cover;
+    //     /* Specify the background image */
+    //     opacity: 1;
+    // }
+
+    .background_img{
+        width: 100%;
+        z-index: 0;
+        position: absolute;
+    }
+
+    .box{
+        // display: none;
+        z-index: 1;
+        width: 90%;
+        max-width: 90rem;
+        // background: $gray2;
+        margin: 0 auto;
+
+        .box_div-1{
+            float: right;
+            background-color: #62bb46;
+            width: 30rem;
+            height: 38rem;
+            color: #fff;
+            font-family: $abel;
+            text-align: center;
+            justify-content: center;
+            padding: 3rem 1rem;
+
+            img{
+                margin: 1rem 0;
+                // padding: 2rem;
+                width: 10rem;
+            }
+
+            .tittle{
+                padding: 1rem 0 0 0;
+                font-size: 2rem;
+            }
+
+            .subtittle{
+                padding: .5rem 0;
+                font-size: 2rem;
+            }
+
+            .paragraph{
+                font-size: 1.5rem;
+                padding: 1rem 4rem;
+            }
+
+
+        }
+    }
+
+}
+
+.recommendations{
+    background: #ededed ;
+
+    // height: 10rem;
+
+    .div-1{
+        margin: auto;
+        max-width: 68rem;
+        background: #fff;
+        padding: 3rem 2rem; 
+        display: flex;
+        justify-content: space-between;
+        box-shadow: -1rem 1rem 40px -10px rgb(200, 200, 200);
+
+        .box{
+            width: 20rem;
+            // display: flex;
+            padding: 0 2rem;
+            text-align: center;
+            font-family: $poppins;
+            
+
+            img{
+                padding: .5rem;
+                width: 5rem;
+            }
+
+            p{
+                color: #000;
+                font-size: 1rem;
+            }
+
+            &:nth-child(2){
+                border-left: 1px solid $green2;
+                border-right: 1px solid $green2;
+            }
+        }
+    }
+
+    .div-2{
+        max-width: 40rem;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+
+        .box{
+            width: 20rem;
+            // display: flex;
+            padding: 0 2rem;
+            text-align: center;
+            font-family: $poppins;
+            
+
+            img{
+                padding: .5rem;
+                width: 5rem;
+            }
+
+            p{
+                color: #000;
+                font-size: 1rem;
+            }
+
+            &:nth-child(2){
+                border-left: 1px solid $green2;
+                // border-right: 1px solid $green2;
+            }
+        }
+    }
+}
+
+.avoid{
+    text-align: center;
+    font-family: $abel;
+    padding: 4rem 0;
+
+    .tittle{
+        // padding: 1rem 0;
+        color: $green2;
+        font-size: 1.6rem;
+    }
+
+    .subtittle{
+        color: $azul;
+        font-size: 1.5rem;
+    }
+
+    .avoid_features{
+        padding: 2rem 0;
+        margin: auto;
+        font-family: $poppins;
+        display: flex;
+        width: 30rem;
+        // background-color: #999999;
+
+        .features_strong{
+            padding: 0 1rem;
+            width: 20rem;
+            display: inline;
+            text-align: right;
+        }
+
+        .features_p{
+            width: 10rem;
+            display: inline;
+            text-align: left;
+        }
+    }
+
+    .importante{
+        // margin-top: 2rem;
+        font-family: $abel;
+        color: $azul;
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-top: 2rem;
+    }
+}
+
+.import{
+    background: $azul;
+    font-family: $poppins;
+    position: relative;
+    
+    .box{
+        position: relative;
+        top: -2rem;
+        margin: auto;
+        max-width: 55rem;
+        display: flex;
+        // background: #fff;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        // column-gap: 2rem;
+        // gap: 2rem;
+        justify-content: space-around;
+
+        .boxes{
+            display: flex;
+            background: #fff;
+            width: 25rem;
+            height: 8rem;
+            align-items: center;
+            box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, .5);
+
+            .subtittle{
+                color: $green2;
+                font-size: 4rem;
+                padding: 0 2rem;
+            }
+
+            .boxes_div{
+                font-size: .9rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+
+    .box_footer{
+        padding:2rem 1rem;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+// *Media queri en 1366 aplicar la imagen background completa

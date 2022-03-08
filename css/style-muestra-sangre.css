@@ -14,4 +14,272 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+.header {
+  padding: 1rem 0;
+}
+
+.header .header__div-box {
+  width: 90%;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.header .header__div-box img {
+  width: 10rem;
+}
+
+.section_tittle {
+  padding: 1rem 0;
+}
+
+.section_tittle .box {
+  margin: auto;
+  width: 90%;
+  max-width: 60rem;
+  font-family: "Abel", sans-serif;
+}
+
+.section_tittle .box h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #62bb46;
+}
+
+.section_tittle .box span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #007cc3d2;
+}
+
+.patients {
+  width: 100%;
+  max-width: 1366px;
+  height: 40rem;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.patients .background_img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.patients .box {
+  z-index: 1;
+  width: 90%;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.patients .box .box_div-1 {
+  float: right;
+  background-color: #62bb46;
+  width: 30rem;
+  height: 38rem;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.patients .box .box_div-1 img {
+  margin: 1rem 0;
+  width: 10rem;
+}
+
+.patients .box .box_div-1 .tittle {
+  padding: 1rem 0 0 0;
+  font-size: 2rem;
+}
+
+.patients .box .box_div-1 .subtittle {
+  padding: .5rem 0;
+  font-size: 2rem;
+}
+
+.patients .box .box_div-1 .paragraph {
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+}
+
+.recommendations {
+  background: #ededed;
+}
+
+.recommendations .div-1 {
+  margin: auto;
+  max-width: 68rem;
+  background: #fff;
+  padding: 3rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: -1rem 1rem 40px -10px #c8c8c8;
+          box-shadow: -1rem 1rem 40px -10px #c8c8c8;
+}
+
+.recommendations .div-1 .box {
+  width: 20rem;
+  padding: 0 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.recommendations .div-1 .box img {
+  padding: .5rem;
+  width: 5rem;
+}
+
+.recommendations .div-1 .box p {
+  color: #000;
+  font-size: 1rem;
+}
+
+.recommendations .div-1 .box:nth-child(2) {
+  border-left: 1px solid #62bb46;
+  border-right: 1px solid #62bb46;
+}
+
+.recommendations .div-2 {
+  max-width: 40rem;
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.recommendations .div-2 .box {
+  width: 20rem;
+  padding: 0 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.recommendations .div-2 .box img {
+  padding: .5rem;
+  width: 5rem;
+}
+
+.recommendations .div-2 .box p {
+  color: #000;
+  font-size: 1rem;
+}
+
+.recommendations .div-2 .box:nth-child(2) {
+  border-left: 1px solid #62bb46;
+}
+
+.avoid {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  padding: 4rem 0;
+}
+
+.avoid .tittle {
+  color: #62bb46;
+  font-size: 1.6rem;
+}
+
+.avoid .subtittle {
+  color: #007cc3;
+  font-size: 1.5rem;
+}
+
+.avoid .avoid_features {
+  padding: 2rem 0;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30rem;
+}
+
+.avoid .avoid_features .features_strong {
+  padding: 0 1rem;
+  width: 20rem;
+  display: inline;
+  text-align: right;
+}
+
+.avoid .avoid_features .features_p {
+  width: 10rem;
+  display: inline;
+  text-align: left;
+}
+
+.avoid .importante {
+  font-family: "Abel", sans-serif;
+  color: #007cc3;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.import {
+  background: #007cc3;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.import .box {
+  position: relative;
+  top: -2rem;
+  margin: auto;
+  max-width: 55rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.import .box .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  width: 25rem;
+  height: 8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.5);
+          box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.5);
+}
+
+.import .box .boxes .subtittle {
+  color: #62bb46;
+  font-size: 4rem;
+  padding: 0 2rem;
+}
+
+.import .box .boxes .boxes_div {
+  font-size: .9rem;
+  padding-right: 1rem;
+}
+
+.import .box_footer {
+  padding: 2rem 1rem;
+  color: #fff;
+  text-align: center;
+}
 /*# sourceMappingURL=style-muestra-sangre.css.map */
