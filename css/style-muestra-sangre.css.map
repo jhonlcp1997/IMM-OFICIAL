@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,iEAAI;AACZ,OAAO,CAAC,oEAAI;AAGZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EAAE,OAAO,EAAE,CAAC;EACrB,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,IAAI;EAEb,MAAM,EAAE,IAAI;CACf;;AAGD,AAAA,IAAI,CAAC;EAED,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "../sass/style-muestra-sangre.scss"
+    ],
+    "names": [],
+    "file": "style-muestra-sangre.css"
+}
