@@ -310,4 +310,183 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
+.footer{
+    width: 100%;
+
+    .ofrecemos-footer{
+        width: 90%;
+        max-width: 50rem;
+        margin: auto;
+        padding: 2rem 0;
+        margin-top: 2rem;
+
+        .ofrecemos_footer_div1{
+            width: 100%;
+            justify-content: space-between;
+            font-family: $abel;
+            display: flex;
+            flex-wrap: wrap;
+
+            .box{
+                display: flex;
+                max-width: 20rem;
+                align-items: center;
+
+                a{
+                    color: $green2;
+                    font-size: 1.8rem;
+                    padding: 1rem;
+                }
+
+                h2{
+                    font-size: .9rem;
+                }
+
+                p{
+                    font-family: $poppins;
+                    font-size: .7rem;
+                    color: $azul;
+                }
+
+                .footer-ul3{
+                    div{
+                        a{
+                            padding: .5rem;
+                            i{
+                               
+                                color: #888;
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // *Media queri en 1366 aplicar la imagen background completa
+
+@media screen and (max-width: 1366px) {
+    .patients{
+        height: 38rem;
+    }
+}
+
+@media screen and (max-width: 1214px) {
+    .patients{
+        .box{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    html{
+        font-size: 70%;
+    }
+
+    .patients{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .patients{
+        .box{
+            .box_div-1{
+                width: 20rem;
+                height: 30rem;
+                padding: 1rem 0.5rem;
+
+                img{
+                    width: 6rem;
+                }
+
+                .tittle{
+                    font-size: 1.5rem;
+                }
+
+                .subtittle{
+                    font-size: 1.5rem;
+                }
+
+                .paragraph{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .recommendations{
+        .div-1{
+            margin: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .box{
+                padding: 2rem 0;
+
+                &:nth-child(2){
+                    border-top: 1px solid $green2;
+                    border-bottom: 1px solid $green2;
+                    border-left: none;
+                    border-right: none;
+                }
+            }
+        }
+    }
+
+    .avoid{
+        .avoid_features{
+            justify-content: center;
+            width: 100%;
+
+            .features_strong{
+                padding-left: 0;
+                max-width: 16rem;
+            }
+
+            .features_p{
+                width: auto;
+            }
+        }
+    }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .patients{
+        .box{
+            .box_div-1{
+                background-color: #61bb46b9;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:300px) {
+    .patients{
+        .box{
+            .box_div-1{
+                height: auto;
+                width: 100%;
+                background-color: #62bb46;
+
+                img{
+                    width: 8rem;
+                }
+            }
+        }
+    }
+}

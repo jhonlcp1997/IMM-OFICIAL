@@ -282,4 +282,161 @@ html {
   color: #fff;
   text-align: center;
 }
+
+.footer {
+  width: 100%;
+}
+
+.footer .ofrecemos-footer {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Abel", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 20rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box a {
+  color: #62bb46;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
+  font-size: .9rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
+  font-family: "Poppins", sans-serif;
+  font-size: .7rem;
+  color: #007cc3;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a {
+  padding: .5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a i {
+  color: #888;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .patients {
+    height: 38rem;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .patients .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 70%;
+  }
+  .patients {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .patients .box .box_div-1 {
+    width: 20rem;
+    height: 30rem;
+    padding: 1rem 0.5rem;
+  }
+  .patients .box .box_div-1 img {
+    width: 6rem;
+  }
+  .patients .box .box_div-1 .tittle {
+    font-size: 1.5rem;
+  }
+  .patients .box .box_div-1 .subtittle {
+    font-size: 1.5rem;
+  }
+  .patients .box .box_div-1 .paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .recommendations .div-1 {
+    margin: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .recommendations .div-1 .box {
+    padding: 2rem 0;
+  }
+  .recommendations .div-1 .box:nth-child(2) {
+    border-top: 1px solid #62bb46;
+    border-bottom: 1px solid #62bb46;
+    border-left: none;
+    border-right: none;
+  }
+  .avoid .avoid_features {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .avoid .avoid_features .features_strong {
+    padding-left: 0;
+    max-width: 16rem;
+  }
+  .avoid .avoid_features .features_p {
+    width: auto;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .patients .box .box_div-1 {
+    background-color: #61bb46b9;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .patients .box .box_div-1 {
+    height: auto;
+    width: 100%;
+    background-color: #62bb46;
+  }
+  .patients .box .box_div-1 img {
+    width: 8rem;
+  }
+}
 /*# sourceMappingURL=style-muestra-sangre.css.map */
