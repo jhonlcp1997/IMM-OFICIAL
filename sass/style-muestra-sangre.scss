@@ -142,6 +142,13 @@ $poppins: "Poppins", sans-serif;
         }
     }
 
+    .points_1{
+        position: absolute;
+        width: 9rem;
+        right: 0;
+        top: -3rem;
+    }
+
 }
 
 .recommendations{
@@ -157,6 +164,7 @@ $poppins: "Poppins", sans-serif;
         display: flex;
         justify-content: space-between;
         box-shadow: -1rem 1rem 40px -10px rgb(200, 200, 200);
+        position: relative;
 
         .box{
             width: 20rem;
@@ -180,6 +188,13 @@ $poppins: "Poppins", sans-serif;
                 border-left: 1px solid $green2;
                 border-right: 1px solid $green2;
             }
+        }
+
+        .points_2{
+            position: absolute;
+            width: 9rem;
+            left: 0;
+            bottom: -3rem;
         }
     }
 
@@ -220,6 +235,7 @@ $poppins: "Poppins", sans-serif;
     text-align: center;
     font-family: $abel;
     padding: 4rem 0;
+    position: relative;
 
     .tittle{
         // padding: 1rem 0;
@@ -262,6 +278,20 @@ $poppins: "Poppins", sans-serif;
         font-weight: 600;
         padding-top: 2rem;
     }
+
+    .points_3{
+        position: absolute;
+        width: 9rem;
+        right: 10%;
+        top: -1rem;
+    }
+
+    .points_4{
+        position: absolute;
+        width: 9rem;
+        left: 10%;
+        bottom: 2rem;
+    }
 }
 
 .import{
@@ -270,6 +300,7 @@ $poppins: "Poppins", sans-serif;
     position: relative;
     
     .box{
+        z-index: 1;
         position: relative;
         top: -2rem;
         margin: auto;
@@ -307,6 +338,22 @@ $poppins: "Poppins", sans-serif;
         padding:2rem 1rem;
         color: #fff;
         text-align: center;
+    }
+
+    .points_5{
+        position: absolute;
+        width: 9rem;
+        right: 10%;
+        top: 20%;
+        z-index: 0;
+    }
+
+    .points_6{
+        position: absolute;
+        width: 9rem;
+        left: 40%;
+        bottom: 30%;
+        z-index: 0;
     }
 }
 
@@ -370,6 +417,32 @@ $poppins: "Poppins", sans-serif;
 @media screen and (max-width: 1366px) {
     .patients{
         height: 38rem;
+
+        .box{
+            .points_1{
+                display: none;
+            }
+        }
+    }
+
+    .recommendations{
+        .div-1{
+            .points_2{
+                display: none;
+            }
+        }
+    }
+
+    .avoid{
+        .points_3,.points_4{
+            display: none;
+        }
+    }
+
+    .import{
+        .points_5, .points_6{
+            display: none;
+        }
     }
 }
 
