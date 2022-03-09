@@ -118,7 +118,7 @@ html {
 }
 
 .recommendations {
-  background: #ededed;
+  background-color: rgba(136, 136, 136, 0.164);
 }
 
 .recommendations .div-1 {
@@ -162,8 +162,9 @@ html {
 .recommendations .div-1 .points_2 {
   position: absolute;
   width: 9rem;
-  left: 0;
-  bottom: -3rem;
+  left: -4rem;
+  bottom: -2rem;
+  z-index: -1;
 }
 
 .recommendations .div-2 {

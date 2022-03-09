@@ -152,7 +152,8 @@ $poppins: "Poppins", sans-serif;
 }
 
 .recommendations{
-    background: #ededed ;
+    // background: #ededed ;
+    background-color: rgba(136, 136, 136, 0.164);
 
     // height: 10rem;
 
@@ -193,8 +194,9 @@ $poppins: "Poppins", sans-serif;
         .points_2{
             position: absolute;
             width: 9rem;
-            left: 0;
-            bottom: -3rem;
+            left: -4rem;
+            bottom: -2rem;
+            z-index: -1;
         }
     }
 
