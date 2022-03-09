@@ -411,7 +411,13 @@ $poppins: "Poppins", sans-serif;
                         }
                     }
                 }
-            }
+
+                &:first-child{
+                    a{
+                        padding:1rem 1.2rem;
+                    }
+                }
+            }      
         }
 
         .ofrecemos_footer_div2{

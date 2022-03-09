@@ -394,6 +394,10 @@ html {
   font-size: 1rem;
 }
 
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box:first-child a {
+  padding: 1rem 1.2rem;
+}
+
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
   text-align: center;
   margin-top: 2rem;
