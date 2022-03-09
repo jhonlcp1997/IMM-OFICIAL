@@ -66,3 +66,9 @@ Entre ayer y hoy me dejaron demasiadas cosas, ya no se cuales seran las que teng
 Primera oración de marzo, me eh estado distrayendo en la parte de youtube videos, procrastinando mejor dicho, pero menos mal que no hubo clases el sabado pasado, debido a que no se, ahora tengo que darle una revizada al codigo, darle una limpieza, y testearlo.
 Seguramente me van a pedir que le haga un cambio grande a la pagina otra vez, le cambio al carrusel a cada rato, en la semana hago dos versiones  aaaahhh....
 Qué mas puedo poner a demas de mis ganas (las han visto por ahí);
+
+09-03-2022:
+Recordatorio, comprarle el curso de diseño a mi hermano, por favor no te olvides.... 
+me dejaron hacer un landing... no, dos landing más, pero no se si la primera estará bien quizá me haya olvidado de algo, por que como lo hago las cosas, me resultan a media.
+Por favor Jhon no te olvides de comprar el curso de tu hermano, nunca le has podido comprar algo por su cumpleaños, y los demas quizas no le dieron nada por que su cumple es ta cerca a navidad, pero por favor no te olvides!!!!
+A veces me salen unos diseños de la p... , pero me asusté de que saliera error al cargar la página, pensé que habia metido algo malo o se hayan metido en mi repo :C pero menos mal que fue el netlify por la alta latencia de proyectos que caragaban en cache.
