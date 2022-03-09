@@ -390,6 +390,16 @@ html {
   font-size: 1rem;
 }
 
+.footer .ofrecemos-footer .ofrecemos_footer_div2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #aaa;
+  font-family: "Abel", sans-serif;
+  border-top: 1px solid #ccc;
+  padding-top: .5rem;
+  font-size: .6rem;
+}
+
 @media screen and (max-width: 1366px) {
   .patients {
     height: 38rem;
