@@ -78,6 +78,10 @@ $poppins: "Poppins", sans-serif;
     display: flex;
     position: relative;
 
+    background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat; 
+    background-size: cover; 
+    background-position: center;
+
     // &::before {
     //     content: "";
     //     position: absolute;
@@ -484,6 +488,28 @@ $poppins: "Poppins", sans-serif;
     .patients{
         height: auto;
     }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                .box{
+                    margin: .5rem 0;
+                    h2{
+                        font-size: 1rem;
+                    }
+
+                    p{
+                        font-size: .9rem;
+                    }
+
+                }
+            }
+        }
+
+        .ofrecemos_footer_div2{
+            font-size: 1rem;
+        }
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -509,6 +535,14 @@ $poppins: "Poppins", sans-serif;
                 .paragraph{
                     font-size: 1.2rem;
                 }
+            }
+        }
+    }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                flex-direction: column;
             }
         }
     }
@@ -549,14 +583,6 @@ $poppins: "Poppins", sans-serif;
             }
         }
     }
-
-    .footer{
-        .ofrecemos-footer{
-            .ofrecemos_footer_div1{
-                flex-direction: column;
-            }
-        }
-    }
 }
 
 @media screen and (max-width:400px) {
@@ -570,9 +596,13 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:360px){
     .patients{
+        background-position: 25% 10%;
         .box{
+            position: relative;
+            bottom: -25rem;
+
             .box_div-1{
                 height: auto;
                 width: 100%;
@@ -584,4 +614,23 @@ $poppins: "Poppins", sans-serif;
             }
         }
     }
+    .recommendations{
+        margin-top: 25rem;
+    }
 }
+
+// @media screen and (max-width:300px) {
+//     .patients{
+//         .box{
+//             .box_div-1{
+//                 height: auto;
+                
+//                 background-color: #62bb46;
+
+//                 img{
+//                     width: 8rem;
+//                 }
+//             }
+//         }
+//     }
+// }

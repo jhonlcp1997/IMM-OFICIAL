@@ -61,6 +61,9 @@ html {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .patients .background_img {
@@ -440,6 +443,18 @@ html {
   .patients {
     height: auto;
   }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
+    margin: .5rem 0;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
+    font-size: 1rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
+    font-size: .9rem;
+  }
+  .footer .ofrecemos_footer_div2 {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -459,6 +474,12 @@ html {
   }
   .patients .box .box_div-1 .paragraph {
     font-size: 1.2rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -493,12 +514,6 @@ html {
   .avoid .avoid_features .features_p {
     width: auto;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -507,7 +522,14 @@ html {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
+  .patients {
+    background-position: 25% 10%;
+  }
+  .patients .box {
+    position: relative;
+    bottom: -25rem;
+  }
   .patients .box .box_div-1 {
     height: auto;
     width: 100%;
@@ -515,6 +537,9 @@ html {
   }
   .patients .box .box_div-1 img {
     width: 8rem;
+  }
+  .recommendations {
+    margin-top: 25rem;
   }
 }
 /*# sourceMappingURL=style-muestra-sangre.css.map */
