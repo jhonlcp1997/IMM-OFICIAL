@@ -319,7 +319,7 @@ $poppins: "Poppins", sans-serif;
             width: 25rem;
             height: 8rem;
             align-items: center;
-            box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, .5);
+            box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, .25);
 
             .subtittle{
                 color: $green2;
@@ -395,13 +395,17 @@ $poppins: "Poppins", sans-serif;
                     color: $azul;
                 }
 
+                img{
+                    width: 1.7rem;
+                }
+
                 .footer-ul3{
                     div{
                         a{
-                            padding: .5rem;
+                            padding: 0 .5rem 0 0;
                             i{
                                
-                                color: #888;
+                                color: #666;
                                 font-size: 1rem;
                             }
                         }
