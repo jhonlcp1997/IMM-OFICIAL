@@ -373,8 +373,8 @@ html {
     width: 50%;
   }
   .box_2 .box .boxes:nth-child(3) {
-    -webkit-box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
-            box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
+    -webkit-box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
+            box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     -webkit-box-orient: vertical;
