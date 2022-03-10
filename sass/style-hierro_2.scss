@@ -81,7 +81,7 @@ $poppins: "Poppins", sans-serif;
     display: flex;
     // gap: 2rem;
 
-    .box_box{
+    .box_box {
         display: flex;
         width: 66rem;
         margin: auto;
@@ -96,7 +96,7 @@ $poppins: "Poppins", sans-serif;
             margin: auto;
             display: flex;
             flex-wrap: wrap;
-    
+
             .boxes {
                 position: relative;
                 top: -6rem;
@@ -106,7 +106,8 @@ $poppins: "Poppins", sans-serif;
                 text-align: center;
                 font-family: $poppins;
                 padding: 1rem;
-    
+                box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
+
                 .number {
                     margin: 1rem;
                     color: $azul;
@@ -160,7 +161,7 @@ $poppins: "Poppins", sans-serif;
             .paragraph_1 {
                 color: $azul;
                 margin-top: 2rem;
-                padding: 0 .2rem;
+                padding: 0 0.2rem;
             }
 
             .paragraph_2 {
@@ -173,7 +174,6 @@ $poppins: "Poppins", sans-serif;
 
 .box_2 {
     width: 100%;
-    // background: $azul;
 
     .box {
         width: 100%;
@@ -184,14 +184,12 @@ $poppins: "Poppins", sans-serif;
         .boxes {
             width: 36%;
             height: 28rem;
-            
             display: flex;
             text-align: center;
 
             .boxes_div {
                 margin: auto;
                 align-items: center;
-                // background: $green1;
                 width: 15rem;
                 height: 20rem;
                 text-align: left;
@@ -214,25 +212,25 @@ $poppins: "Poppins", sans-serif;
                 }
             }
 
-            &:first-child{
+            &:first-child {
                 background-color: $azul;
                 // box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
             }
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 background-color: #0073b4;
                 // box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
             }
 
-            &:nth-child(3){
+            &:nth-child(3) {
                 background-color: #006dac;
             }
         }
     }
 }
 
-.indications_two{
-    .box{
+.indications_two {
+    .box {
         width: 100%;
         max-width: 66rem;
         display: flex;
@@ -240,8 +238,8 @@ $poppins: "Poppins", sans-serif;
         justify-content: space-around;
         flex-wrap: wrap;
         padding: 2.5rem 0rem;
-        
-        .boxes{
+
+        .boxes {
             width: 16.5rem;
             background-color: #fff;
             height: 11rem;
@@ -256,11 +254,11 @@ $poppins: "Poppins", sans-serif;
                 font-weight: 900;
             }
 
-            &:first-child{
+            &:first-child {
                 border-right: 1px solid $green2;
             }
 
-            &:nth-child(3){
+            &:nth-child(3) {
                 border-left: 1px solid $green2;
                 border-right: 1px solid $green2;
             }
@@ -347,9 +345,6 @@ $poppins: "Poppins", sans-serif;
 @media screen and (max-width: 1366px) {
 }
 
-@media screen and (max-width: 1214px) {
-}
-
 @media screen and (max-width: 1050px) {
     html {
         font-size: 70%;
@@ -378,47 +373,46 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-
 @media screen and (max-width: 739px) {
-    .box_1{
-        .box_box{
+    .box_1 {
+        .box_box {
             display: block;
             margin: auto;
             gap: 1rem;
-            
-            .box_content{
+
+            .box_content {
                 justify-content: center;
-                margin:2rem auto;
+                margin: 2rem auto;
             }
         }
     }
 
-    .indications_two{
-        .box{
+    .indications_two {
+        .box {
             row-gap: 1rem;
 
-            .boxes{
-                &:nth-child(3){
+            .boxes {
+                &:nth-child(3) {
                     border-right: none;
                 }
 
-                &:nth-child(4){
+                &:nth-child(4) {
                     border-top: 1px solid $green2;
                 }
             }
         }
-    }    
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .box_2{
-        .box{
-            flex-direction: column; 
-            .boxes{
+    .box_2 {
+        .box {
+            flex-direction: column;
+            .boxes {
                 margin: auto;
                 width: 50%;
 
-                &:nth-child(3){
+                &:nth-child(3) {
                     box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
                 }
             }
@@ -435,36 +429,33 @@ $poppins: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 554px) {
-    .indications_two{
-        .box{
-            .boxes{
-                &:first-child{
+    .indications_two {
+        .box {
+            .boxes {
+                &:first-child {
                     border-right: none;
                 }
 
-                &:nth-child(3){
+                &:nth-child(3) {
                     border-right: none;
                     border-top: 1px solid $green2;
                     border-left: none;
                 }
             }
         }
-    }    
-}
-
-@media screen and (max-width: 480px) {
+    }
 }
 
 @media screen and (max-width: 400px) {
-    .box_2{
-        .box{
-            flex-wrap: wrap; 
-            .boxes{
+    .box_2 {
+        .box {
+            flex-wrap: wrap;
+            .boxes {
                 margin: auto;
                 width: 70%;
                 height: auto;
 
-                .boxes_div{
+                .boxes_div {
                     margin: 2rem auto;
                     height: 22rem;
                 }
@@ -474,24 +465,24 @@ $poppins: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 369px) {
-    .box_1{
-        .box_content{
-            .boxes{
+    .box_1 {
+        .box_content {
+            .boxes {
                 width: 12rem;
                 height: 14rem;
 
-                .number{
-                    margin: .5rem;
+                .number {
+                    margin: 0.5rem;
                     font-size: 2.5rem;
                 }
             }
         }
     }
 
-    .indications{
-        .indications_content{
-            .boxes{
-                .img{
+    .indications {
+        .indications_content {
+            .boxes {
+                .img {
                     width: 95%;
                     height: auto;
                 }
@@ -499,18 +490,13 @@ $poppins: "Poppins", sans-serif;
         }
     }
 
-
-    .indications_two{
-        .box{
-            .boxes{
-
-                &:nth-child(2){
+    .indications_two {
+        .box {
+            .boxes {
+                &:nth-child(2) {
                     border-top: 1px solid $green2;
                 }
             }
         }
     }
-}
-
-@media screen and (max-width: 360px) {
 }

@@ -101,6 +101,8 @@ html {
   text-align: center;
   font-family: "Poppins", sans-serif;
   padding: 1rem;
+  -webkit-box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
+          box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
 }
 
 .box_1 .box_box .box_content .boxes .number {
@@ -157,7 +159,7 @@ html {
 .indications .indications_content .boxes .paragraph_1 {
   color: #007cc3;
   margin-top: 2rem;
-  padding: 0 .2rem;
+  padding: 0 0.2rem;
 }
 
 .indications .indications_content .boxes .paragraph_2 {
@@ -442,7 +444,7 @@ html {
     height: 14rem;
   }
   .box_1 .box_content .boxes .number {
-    margin: .5rem;
+    margin: 0.5rem;
     font-size: 2.5rem;
   }
   .indications .indications_content .boxes .img {
