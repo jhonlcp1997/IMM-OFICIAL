@@ -78,32 +78,41 @@ $poppins: "Poppins", sans-serif;
     max-width: 1366px;
     width: 100%;
     background: $green2;
+    display: flex;
+    // gap: 2rem;
 
-    .box_content {
-        max-width: 70rem;
-        justify-content: space-around;
-        // height: 12rem;
-        row-gap: 2rem;
-        position: relative;
-        margin: auto;
+    .box_box{
         display: flex;
-        flex-wrap: wrap;
+        width: 66rem;
+        margin: auto;
+        gap: 2rem;
 
-        .boxes {
+        .box_content {
+            max-width: 35rem;
+            // justify-content: space-around;
+            // height: 12rem;
+            gap: 2rem;
             position: relative;
-            top: -6rem;
-            width: 15rem;
-            background-color: #fff;
-            height: 16.5rem;
-            text-align: center;
-            font-family: $poppins;
-            padding: 1rem;
-
-            .number {
-                margin: 1rem;
-                color: $azul;
-                font-size: 3.5rem;
-                font-weight: 900;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+    
+            .boxes {
+                position: relative;
+                top: -6rem;
+                width: 15rem;
+                background-color: #fff;
+                height: 16.5rem;
+                text-align: center;
+                font-family: $poppins;
+                padding: 1rem;
+    
+                .number {
+                    margin: 1rem;
+                    color: $azul;
+                    font-size: 3.5rem;
+                    font-weight: 900;
+                }
             }
         }
     }
@@ -151,6 +160,7 @@ $poppins: "Poppins", sans-serif;
             .paragraph_1 {
                 color: $azul;
                 margin-top: 2rem;
+                padding: 0 .2rem;
             }
 
             .paragraph_2 {
@@ -163,7 +173,7 @@ $poppins: "Poppins", sans-serif;
 
 .box_2 {
     width: 100%;
-    background: $azul;
+    // background: $azul;
 
     .box {
         width: 100%;
@@ -205,11 +215,17 @@ $poppins: "Poppins", sans-serif;
             }
 
             &:first-child{
-                box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
+                background-color: $azul;
+                // box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
             }
 
             &:nth-child(2){
-                box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
+                background-color: #0073b4;
+                // box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
+            }
+
+            &:nth-child(3){
+                background-color: #006dac;
             }
         }
     }
@@ -364,6 +380,19 @@ $poppins: "Poppins", sans-serif;
 
 
 @media screen and (max-width: 739px) {
+    .box_1{
+        .box_box{
+            display: block;
+            margin: auto;
+            gap: 1rem;
+            
+            .box_content{
+                justify-content: center;
+                margin:2rem auto;
+            }
+        }
+    }
+
     .indications_two{
         .box{
             row-gap: 1rem;
@@ -384,7 +413,7 @@ $poppins: "Poppins", sans-serif;
 @media screen and (max-width: 600px) {
     .box_2{
         .box{
-            flex-wrap: wrap; 
+            flex-direction: column; 
             .boxes{
                 margin: auto;
                 width: 50%;
@@ -432,18 +461,12 @@ $poppins: "Poppins", sans-serif;
             flex-wrap: wrap; 
             .boxes{
                 margin: auto;
-                width: 100%;
+                width: 70%;
                 height: auto;
 
                 .boxes_div{
-                    // margin: 1rem auto;
+                    margin: 2rem auto;
                     height: 22rem;
-                    padding: 1rem;
-                    box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
-                }
-
-                &:nth-child(2){
-                    box-shadow: 1rem 0 20px -5px rgba(19, 14, 14, 0.144);
                 }
             }
         }
@@ -469,7 +492,7 @@ $poppins: "Poppins", sans-serif;
         .indications_content{
             .boxes{
                 .img{
-                    width: 100%;
+                    width: 95%;
                     height: auto;
                 }
             }
