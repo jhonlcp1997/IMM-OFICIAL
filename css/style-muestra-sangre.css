@@ -104,7 +104,7 @@ html {
 }
 
 .patients .box .box_div-1 .subtittle {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: 2rem;
 }
 
@@ -148,7 +148,7 @@ html {
 }
 
 .recommendations .div-1 .box img {
-  padding: .5rem;
+  padding: 0.5rem;
   width: 5rem;
 }
 
@@ -190,7 +190,7 @@ html {
 }
 
 .recommendations .div-2 .box img {
-  padding: .5rem;
+  padding: 0.5rem;
   width: 5rem;
 }
 
@@ -308,7 +308,7 @@ html {
 }
 
 .import .box .boxes .boxes_div {
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding-right: 1rem;
 }
 
@@ -376,12 +376,12 @@ html {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
   font-family: "Poppins", sans-serif;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #007cc3;
 }
 
@@ -390,7 +390,7 @@ html {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a {
-  padding: 0 .5rem 0 0;
+  padding: 0 0.5rem 0 0;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a i {
@@ -408,8 +408,8 @@ html {
   color: #aaa;
   font-family: "Abel", sans-serif;
   border-top: 1px solid #ccc;
-  padding-top: .5rem;
-  font-size: .6rem;
+  padding-top: 0.5rem;
+  font-size: 0.6rem;
 }
 
 @media screen and (max-width: 1366px) {
@@ -422,10 +422,12 @@ html {
   .recommendations .div-1 .points_2 {
     display: none;
   }
-  .avoid .points_3, .avoid .points_4 {
+  .avoid .points_3,
+  .avoid .points_4 {
     display: none;
   }
-  .import .points_5, .import .points_6 {
+  .import .points_5,
+  .import .points_6 {
     display: none;
   }
 }
@@ -444,13 +446,13 @@ html {
     height: auto;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
     font-size: 1rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .footer .ofrecemos_footer_div2 {
     font-size: 1rem;

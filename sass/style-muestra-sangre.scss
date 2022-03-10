@@ -3,17 +3,16 @@
 
 // Todo: los atributos en * siempre se mantendran
 * {
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-    // outline: green solid 3px;
     border: none;
 }
 
 // Todo: el html en endocrinologia no trabaja con font-size
 html {
-    
     // font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -28,38 +27,38 @@ $gray2: #bfbfbf;
 $gray3: #999999;
 
 $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-$abel:"Abel", sans-serif;
+$abel: "Abel", sans-serif;
 $poppins: "Poppins", sans-serif;
 
-.header{
+.header {
     padding: 1rem 0;
-    .header__div-box{
+    .header__div-box {
         width: 90%;
         max-width: 60rem;
         margin: auto;
 
-        img{
+        img {
             width: 10rem;
         }
     }
 }
 
-.section_tittle{
+.section_tittle {
     padding: 1rem 0;
 
-    .box{
+    .box {
         margin: auto;
         width: 90%;
         max-width: 60rem;
         font-family: $abel;
 
-        h2{
+        h2 {
             font-size: 2rem;
             font-weight: 600;
             color: $green2;
         }
 
-        span{
+        span {
             font-weight: 600;
             font-size: 1.5rem;
             color: #007cc3d2;
@@ -67,8 +66,7 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-.patients{
-
+.patients {
     width: 100%;
     max-width: 1366px;
     height: 40rem;
@@ -78,8 +76,8 @@ $poppins: "Poppins", sans-serif;
     display: flex;
     position: relative;
 
-    background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat; 
-    background-size: cover; 
+    background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat;
+    background-size: cover;
     background-position: center;
 
     // &::before {
@@ -96,13 +94,13 @@ $poppins: "Poppins", sans-serif;
     //     opacity: 1;
     // }
 
-    .background_img{
+    .background_img {
         width: 100%;
         z-index: 0;
         position: absolute;
     }
 
-    .box{
+    .box {
         // display: none;
         z-index: 1;
         width: 90%;
@@ -110,7 +108,7 @@ $poppins: "Poppins", sans-serif;
         // background: $gray2;
         margin: 0 auto;
 
-        .box_div-1{
+        .box_div-1 {
             float: right;
             background-color: #62bb46;
             width: 30rem;
@@ -121,81 +119,77 @@ $poppins: "Poppins", sans-serif;
             justify-content: center;
             padding: 3rem 1rem;
 
-            img{
+            img {
                 margin: 1rem 0;
                 // padding: 2rem;
                 width: 10rem;
             }
 
-            .tittle{
+            .tittle {
                 padding: 1rem 0 0 0;
                 font-size: 2rem;
             }
 
-            .subtittle{
-                padding: .5rem 0;
+            .subtittle {
+                padding: 0.5rem 0;
                 font-size: 2rem;
             }
 
-            .paragraph{
+            .paragraph {
                 font-size: 1.5rem;
                 padding: 1rem 4rem;
             }
-
-
         }
     }
 
-    .points_1{
+    .points_1 {
         position: absolute;
         width: 9rem;
         right: 0;
         top: -3rem;
     }
-
 }
 
-.recommendations{
+.recommendations {
     // background: #ededed ;
     background-color: rgba(136, 136, 136, 0.164);
 
     // height: 10rem;
 
-    .div-1{
+    .div-1 {
         margin: auto;
         max-width: 68rem;
         background: #fff;
-        padding: 3rem 2rem; 
+        padding: 3rem 2rem;
         display: flex;
         justify-content: space-between;
         box-shadow: -1rem 1rem 40px -10px rgb(200, 200, 200);
         position: relative;
 
-        .box{
+        .box {
             width: 20rem;
             // display: flex;
             padding: 0 2rem;
             text-align: center;
             font-family: $poppins;
-            
 
-            img{
-                padding: .5rem;
+            img {
+                padding: 0.5rem;
                 width: 5rem;
             }
 
-            p{
+            p {
                 color: #000;
                 font-size: 1rem;
             }
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 border-left: 1px solid $green2;
                 border-right: 1px solid $green2;
             }
         }
 
-        .points_2{
+        .points_2 {
             position: absolute;
             width: 9rem;
             left: -4rem;
@@ -204,32 +198,31 @@ $poppins: "Poppins", sans-serif;
         }
     }
 
-    .div-2{
+    .div-2 {
         max-width: 40rem;
         padding: 3rem 0;
         display: flex;
         justify-content: space-between;
         margin: auto;
 
-        .box{
+        .box {
             width: 20rem;
             // display: flex;
             padding: 0 2rem;
             text-align: center;
             font-family: $poppins;
-            
 
-            img{
-                padding: .5rem;
+            img {
+                padding: 0.5rem;
                 width: 5rem;
             }
 
-            p{
+            p {
                 color: #000;
                 font-size: 1rem;
             }
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 border-left: 1px solid $green2;
                 // border-right: 1px solid $green2;
             }
@@ -237,24 +230,24 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-.avoid{
+.avoid {
     text-align: center;
     font-family: $abel;
     padding: 4rem 0;
     position: relative;
 
-    .tittle{
+    .tittle {
         // padding: 1rem 0;
         color: $green2;
         font-size: 1.6rem;
     }
 
-    .subtittle{
+    .subtittle {
         color: $azul;
         font-size: 1.5rem;
     }
 
-    .avoid_features{
+    .avoid_features {
         padding: 2rem 0;
         margin: auto;
         font-family: $poppins;
@@ -262,21 +255,21 @@ $poppins: "Poppins", sans-serif;
         width: 30rem;
         // background-color: #999999;
 
-        .features_strong{
+        .features_strong {
             padding: 0 1rem;
             width: 20rem;
             display: inline;
             text-align: right;
         }
 
-        .features_p{
+        .features_p {
             width: 10rem;
             display: inline;
             text-align: left;
         }
     }
 
-    .importante{
+    .importante {
         // margin-top: 2rem;
         font-family: $abel;
         color: $azul;
@@ -285,14 +278,14 @@ $poppins: "Poppins", sans-serif;
         padding-top: 2rem;
     }
 
-    .points_3{
+    .points_3 {
         position: absolute;
         width: 9rem;
         right: 10%;
         top: -1rem;
     }
 
-    .points_4{
+    .points_4 {
         position: absolute;
         width: 9rem;
         left: 10%;
@@ -300,12 +293,12 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-.import{
+.import {
     background: $azul;
     font-family: $poppins;
     position: relative;
-    
-    .box{
+
+    .box {
         z-index: 1;
         position: relative;
         top: -2rem;
@@ -319,34 +312,34 @@ $poppins: "Poppins", sans-serif;
         // gap: 2rem;
         justify-content: space-around;
 
-        .boxes{
+        .boxes {
             display: flex;
             background: #fff;
             width: 25rem;
             height: 8rem;
             align-items: center;
-            box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, .25);
+            box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
 
-            .subtittle{
+            .subtittle {
                 color: $green2;
                 font-size: 4rem;
                 padding: 0 2rem;
             }
 
-            .boxes_div{
-                font-size: .9rem;
+            .boxes_div {
+                font-size: 0.9rem;
                 padding-right: 1rem;
             }
         }
     }
 
-    .box_footer{
-        padding:2rem 1rem;
+    .box_footer {
+        padding: 2rem 1rem;
         color: #fff;
         text-align: center;
     }
 
-    .points_5{
+    .points_5 {
         position: absolute;
         width: 9rem;
         right: 10%;
@@ -354,7 +347,7 @@ $poppins: "Poppins", sans-serif;
         z-index: 0;
     }
 
-    .points_6{
+    .points_6 {
         position: absolute;
         width: 9rem;
         left: 40%;
@@ -363,54 +356,53 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-.footer{
+.footer {
     width: 100%;
 
-    .ofrecemos-footer{
+    .ofrecemos-footer {
         width: 90%;
         max-width: 50rem;
         margin: auto;
         padding: 2rem 0;
         margin-top: 2rem;
 
-        .ofrecemos_footer_div1{
+        .ofrecemos_footer_div1 {
             width: 100%;
             justify-content: space-between;
             font-family: $abel;
             display: flex;
             flex-wrap: wrap;
 
-            .box{
+            .box {
                 display: flex;
                 max-width: 20rem;
                 align-items: center;
 
-                a{
+                a {
                     color: $green2;
                     font-size: 1.8rem;
                     padding: 1rem;
                 }
 
-                h2{
-                    font-size: .9rem;
+                h2 {
+                    font-size: 0.9rem;
                 }
 
-                p{
+                p {
                     font-family: $poppins;
-                    font-size: .7rem;
+                    font-size: 0.7rem;
                     color: $azul;
                 }
 
-                img{
+                img {
                     width: 1.7rem;
                 }
 
-                .footer-ul3{
-                    div{
-                        a{
-                            padding: 0 .5rem 0 0;
-                            i{
-                               
+                .footer-ul3 {
+                    div {
+                        a {
+                            padding: 0 0.5rem 0 0;
+                            i {
                                 color: #666;
                                 font-size: 1rem;
                             }
@@ -418,22 +410,22 @@ $poppins: "Poppins", sans-serif;
                     }
                 }
 
-                &:first-child{
-                    a{
-                        padding:1rem 1.2rem;
+                &:first-child {
+                    a {
+                        padding: 1rem 1.2rem;
                     }
                 }
-            }      
+            }
         }
 
-        .ofrecemos_footer_div2{
+        .ofrecemos_footer_div2 {
             text-align: center;
             margin-top: 2rem;
             color: #aaa;
             font-family: $abel;
             border-top: 1px solid #ccc;
-            padding-top: .5rem;
-            font-size: .6rem;
+            padding-top: 0.5rem;
+            font-size: 0.6rem;
         }
     }
 }
@@ -441,124 +433,125 @@ $poppins: "Poppins", sans-serif;
 // *Media queri en 1366 aplicar la imagen background completa
 
 @media screen and (max-width: 1366px) {
-    .patients{
+    .patients {
         height: 38rem;
 
-        .box{
-            .points_1{
+        .box {
+            .points_1 {
                 display: none;
             }
         }
     }
 
-    .recommendations{
-        .div-1{
-            .points_2{
+    .recommendations {
+        .div-1 {
+            .points_2 {
                 display: none;
             }
         }
     }
 
-    .avoid{
-        .points_3,.points_4{
+    .avoid {
+        .points_3,
+        .points_4 {
             display: none;
         }
     }
 
-    .import{
-        .points_5, .points_6{
+    .import {
+        .points_5,
+        .points_6 {
             display: none;
         }
     }
 }
 
 @media screen and (max-width: 1214px) {
-    .patients{
-        .box{
+    .patients {
+        .box {
             width: 100%;
         }
     }
 }
 
 @media screen and (max-width: 1050px) {
-    html{
+    html {
         font-size: 70%;
     }
 
-    .patients{
+    .patients {
         height: auto;
     }
 
-    .footer{
-        .ofrecemos-footer{
-            .ofrecemos_footer_div1{
-                .box{
-                    margin: .5rem 0;
-                    h2{
+    .footer {
+        .ofrecemos-footer {
+            .ofrecemos_footer_div1 {
+                .box {
+                    margin: 0.5rem 0;
+                    h2 {
                         font-size: 1rem;
                     }
 
-                    p{
-                        font-size: .9rem;
+                    p {
+                        font-size: 0.9rem;
                     }
-
                 }
             }
         }
 
-        .ofrecemos_footer_div2{
+        .ofrecemos_footer_div2 {
             font-size: 1rem;
         }
     }
 }
 
-@media screen and (max-width:600px) {
-    .patients{
-        .box{
-            .box_div-1{
+@media screen and (max-width: 600px) {
+    .patients {
+        .box {
+            .box_div-1 {
                 width: 20rem;
                 height: 30rem;
                 padding: 1rem 0.5rem;
 
-                img{
+                img {
                     width: 6rem;
                 }
 
-                .tittle{
+                .tittle {
                     font-size: 1.5rem;
                 }
 
-                .subtittle{
+                .subtittle {
                     font-size: 1.5rem;
                 }
 
-                .paragraph{
+                .paragraph {
                     font-size: 1.2rem;
                 }
             }
         }
     }
 
-    .footer{
-        .ofrecemos-footer{
-            .ofrecemos_footer_div1{
+    .footer {
+        .ofrecemos-footer {
+            .ofrecemos_footer_div1 {
                 flex-direction: column;
             }
         }
     }
 }
 
-@media screen and (max-width:480px) {
-    .recommendations{
-        .div-1{
+@media screen and (max-width: 480px) {
+    .recommendations {
+        .div-1 {
             margin: auto;
             flex-wrap: wrap;
             justify-content: center;
 
-            .box{
+            .box {
                 padding: 2rem 0;
 
-                &:nth-child(2){
+                &:nth-child(2) {
                     border-top: 1px solid $green2;
                     border-bottom: 1px solid $green2;
                     border-left: none;
@@ -568,69 +561,52 @@ $poppins: "Poppins", sans-serif;
         }
     }
 
-    .avoid{
-        .avoid_features{
+    .avoid {
+        .avoid_features {
             justify-content: center;
             width: 100%;
 
-            .features_strong{
+            .features_strong {
                 padding-left: 0;
                 max-width: 16rem;
             }
 
-            .features_p{
+            .features_p {
                 width: auto;
             }
         }
     }
 }
 
-@media screen and (max-width:400px) {
-    .patients{
-        .box{
-            .box_div-1{
+@media screen and (max-width: 400px) {
+    .patients {
+        .box {
+            .box_div-1 {
                 background-color: #61bb46b9;
-
             }
         }
     }
 }
 
-@media screen and (max-width:360px){
-    .patients{
+@media screen and (max-width: 360px) {
+    .patients {
         background-position: 25% 10%;
-        .box{
+        .box {
             position: relative;
             bottom: -25rem;
 
-            .box_div-1{
+            .box_div-1 {
                 height: auto;
                 width: 100%;
                 background-color: #62bb46;
 
-                img{
+                img {
                     width: 8rem;
                 }
             }
         }
     }
-    .recommendations{
+    .recommendations {
         margin-top: 25rem;
     }
 }
-
-// @media screen and (max-width:300px) {
-//     .patients{
-//         .box{
-//             .box_div-1{
-//                 height: auto;
-                
-//                 background-color: #62bb46;
-
-//                 img{
-//                     width: 8rem;
-//                 }
-//             }
-//         }
-//     }
-// }

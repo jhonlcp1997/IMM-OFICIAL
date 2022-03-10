@@ -72,3 +72,7 @@ Recordatorio, comprarle el curso de diseño a mi hermano, por favor no te olvide
 me dejaron hacer un landing... no, dos landing más, pero no se si la primera estará bien quizá me haya olvidado de algo, por que como lo hago las cosas, me resultan a media.
 Por favor Jhon no te olvides de comprar el curso de tu hermano, nunca le has podido comprar algo por su cumpleaños, y los demas quizas no le dieron nada por que su cumple es ta cerca a navidad, pero por favor no te olvides!!!!
 A veces me salen unos diseños de la p... , pero me asusté de que saliera error al cargar la página, pensé que habia metido algo malo o se hayan metido en mi repo :C pero menos mal que fue el netlify por la alta latencia de proyectos que caragaban en cache.
+
+10-03-2022:
+No se que tengo que hacer hoy, pero talvez tenga que hacer limpieza como en la parte de scss a veces se repite el codigo, pero js no, solo que comento mucho ahi.
+obviamente limpieza de scss;
