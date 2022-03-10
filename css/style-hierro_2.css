@@ -77,12 +77,12 @@ html {
   display: flex;
   width: 66rem;
   margin: auto;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 .box_1 .box_box .box_content {
   max-width: 35rem;
-  gap: 2rem;
+  gap: 1.8rem;
   position: relative;
   margin: auto;
   display: -webkit-box;
