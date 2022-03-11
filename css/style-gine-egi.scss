@@ -53,6 +53,25 @@ $franklin: "Abel", sans-serif;
     }
 }
 
+@keyframes miAnimacion-2 {
+    from {
+        height: 0;
+    }
+    to {
+        height: 50px;
+    }
+}
+
+@keyframes miAnimacion-3 {
+    from {
+        height: 50px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+
 @keyframes miAnimacion_menu {
     from {
         height: 10px;
@@ -689,10 +708,13 @@ body {
 
     .section__subtitle {
         padding: 0 1rem;
-        margin-bottom: 5rem;
+        // margin-bottom: 5rem;
         font-family: "Poppins", sans-serif;
         font-size: 1.4rem;
         color: $black;
+        background-color: #fff;
+        z-index: 1;
+        position: relative;
     }
 
     .section_election {
@@ -750,6 +772,7 @@ body {
                 border-bottom: 1px solid $pink3;
                 color: $black;
                 position: relative;
+                // background-color: #f5a4c7;
 
                 .contenido-header {
                     margin: 1rem;
@@ -757,15 +780,31 @@ body {
                     justify-content: space-between;
                     cursor: pointer;
                     z-index: 1;
+                    background: #fff;
+                    position: relative;
+
+                    img{
+                        display: flex;
+                        width: 1.6rem;
+                    }
 
                     &.open {
+                        img{
+                            transition: .2s all linear;
+
+                        }
                         i {
-                            transform: rotate(-180deg);
+                            transform: rotate(180deg);
                             color: $pink3;
                         }
                     }
 
                     &.close {
+                        img{
+                            transition: .2s all linear;
+                            transform: rotate(180deg);
+                        }
+
                         i {
                             color: $pink3;
                             transform: rotate(0deg);
@@ -779,6 +818,8 @@ body {
                     justify-content: space-around;
                     transition: all 0.5s linear;
                     z-index: 0;
+                    // position: relative;
+                    // top: -3rem;
 
                     .div1 {
                         text-align: center;
@@ -816,42 +857,47 @@ body {
                         // animation: miDesAnimacion1 1s linear ;
                         // transition: all 1s linear;
 
-                        display: none;
+                        
                         height: 0rem;
+
+                        .div1{
+                            .div-image{
+                                width: 0;
+                                height: 0;
+                            }
+
+                            p{
+                                display: none;
+                            }
+                        }
                     }
                 }
             }
         }
     }
 
-    .point4 {
+    .point4, .point5, .point6, .point7{
         width: 10rem;
         position: absolute;
-        z-index: 100;
+        z-index: 100;;
+    }
+
+    .point4 {
         top: 2rem;
         right: -3rem;
     }
 
     .point5 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
         top: 40%;
         left: -3rem;
     }
 
     .point6 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
         bottom: -3rem;
         right: -3rem;
     }
 
     .point7 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
         bottom: -3rem;
         left: -3rem;
     }
@@ -897,6 +943,7 @@ body {
                     text-align: left;
 
                     h2 {
+                        font-size: 1.6rem;
                         font-family: $franklin;
                     }
 
@@ -914,6 +961,7 @@ body {
                     font-family: "Poppins", sans-serif;
 
                     h2 {
+                        font-size: 1.6rem;
                         text-align: start;
                         font-family: $franklin;
                     }
@@ -1019,7 +1067,7 @@ body {
 
     .characteres {
         margin: auto;
-        padding: 3rem 0rem;
+        padding: 3rem 0rem 1rem 0;
 
         &.emi{
             margin: auto;
@@ -1221,7 +1269,7 @@ body {
                     // }
 
                     img {
-                        width: 2.5rem;
+                        width: 2rem;
                     }
 
                     .menu-close {
@@ -1233,7 +1281,7 @@ body {
                     }
 
                     &.active {
-                        animation: miAnimacion_menu 0.3s linear;
+                        // animation: miAnimacion_menu 0.3s linear;
                         // transition: all 0.3s linear;
 
                         .menu-close {
@@ -1425,6 +1473,36 @@ body {
             }
         }
     }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                div{
+                    .footer-ul1{
+                        li{
+                            p{
+                                font-size: 1.14rem;
+                            }
+                        }
+                    }
+
+                    .footer-ul2{
+                        li{
+                            p{
+                                font-size: 1.14rem;
+                            }
+                        }
+                    }
+
+                    .footer-ul3{
+                        li{
+                            font-size: 1.14rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 580px) {
@@ -1518,7 +1596,6 @@ body {
     }
 
     .characteres {
-        padding: 3rem 0;
         .characteres-center_rigth {
             // height: 33rem;
 
@@ -1602,12 +1679,12 @@ body {
                         max-width: 32rem;
                         // background-color: #666;
 
-                        height: 21rem;
+                        height: 20rem;
 
                         .img{
                             width: 100%;
                             max-width: 32rem;
-                            height: 22rem;
+                            height: 20rem;
                         }
                     }
                 }
@@ -1622,14 +1699,6 @@ body {
             padding: 0;
             .header-general {
                 margin: 1rem 7%;
-                // .header-left {
-                //     a {
-                //         img {
-                //             top: 1rem;
-                //             width: 7rem;
-                //         }
-                //     }
-                // }
 
                 .navbar-opciones-phone {
                     ul {
@@ -1666,32 +1735,48 @@ body {
                             display: flex;
                             align-items: center;
                             // margin: 1rem 0;
+                            animation: miAnimacion-3 .2s linear;
 
-                            p {
-                                font-size: 1.1rem;
-                                width: 100%;
-                                text-align: left;
-                                padding: 0 1rem;
-                            }
-
-                            .div-image {
-                                width: 50px;
-                                height: 50px;
-                                margin: auto;
-
-                                img {
-                                    width: 50px;
-                                    height: 50px;
-                                }
-
-                                .img-incontrolable {
-                                    height: 50px;
-                                }
-                            }
                         }
 
                         &.open {
                             margin: 0;
+                            animation: none;
+                            // animation: miAnimacion-2 1s linear;
+
+                            .div1{
+                                animation: miAnimacion-2 .2s linear;
+
+                                p {
+                                    font-size: 1.1rem;
+                                    width: 100%;
+                                    text-align: left;
+                                    padding: 0 1rem;
+                                }
+    
+                                .div-image {
+                                    width: 50px;
+                                    height: 50px;
+                                    margin: auto;
+    
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+    
+                                    .img-incontrolable {
+                                        height: 50px;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.close{
+                            animation: miAnimacion-3 .2s linear;
+
+                            .div1{
+                                animation: miAnimacion-3 .2s linear;
+                            }
                         }
                     }
                 }
