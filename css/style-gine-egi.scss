@@ -417,7 +417,7 @@ body {
     margin: 10rem 0;
     // display: flex;
     // flex-wrap: wrap;
-    gap: 2;
+    // gap: 2;
 
     .characteres-left {
         text-align: center;
@@ -437,7 +437,7 @@ body {
         display: flex;
         max-width: 117rem;
         margin: auto;
-        height: 31rem;
+        // height: 31rem;
         justify-content: center;
         position: relative;
 
@@ -467,9 +467,10 @@ body {
             width: 90%;
             max-width: 105rem;
             // height: 330px;
-            position: relative;
+            // position: relative;
             display: flex;
-            overflow: hidden;
+            flex-wrap: wrap;
+            // overflow: hidden;
 
             .slider-contenedor2 {
                 display: flex;
@@ -529,6 +530,36 @@ body {
                         top: 0px;
                     }
                     
+                }
+            }
+
+            .point2 {
+                width: 10rem;
+                position: absolute;
+                z-index: -1;
+                bottom: 0rem;
+                right: 0rem;
+            }
+        }
+
+        .slider-contenedor-2{
+            display: flex;
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+
+            .characteres_img{
+                width: 28rem;
+                height: 28rem;
+                vertical-align: top;
+                background-color: #fff;
+                box-shadow: -1.5rem -1.5rem 20px -5px rgba(51, 46, 46, 0.158);
+
+                .img{
+                    height: 28rem;
+                    width: 28rem;
                 }
             }
 
@@ -1006,6 +1037,12 @@ body {
                     margin-left: 0;
                 }
             }
+
+            .slider-contenedor-2{
+                .point2{
+                    display: none;
+                }
+            }
         }
     }
 
@@ -1307,7 +1344,7 @@ body {
 
     .characteres {
         .characteres-center_rigth {
-            height: 31rem;
+            // height: 31rem;
             .slider-contenedor {
                 // width: 420px;
 
@@ -1328,6 +1365,18 @@ body {
                             padding-top: 2rem;
                             height: 282px;
                         }
+                    }
+                }
+            }
+
+            .slider-contenedor-2{
+
+                .characteres_img{
+                    width: 25rem;         
+                    height: 25rem;
+                    .img{
+                         width: 25rem;       
+                         height: 25rem;
                     }
                 }
             }
@@ -1451,7 +1500,7 @@ body {
     .characteres {
         padding: 3rem 0;
         .characteres-center_rigth {
-            height: 33rem;
+            // height: 33rem;
 
             .arrow-left, .arrow-right {
                 // display: flex;
