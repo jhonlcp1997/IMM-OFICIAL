@@ -414,11 +414,12 @@ body {
 
 .characteres {
     align-items: center;
-    padding: 3rem 0;
-    margin: 10rem 0;
+    padding: 3rem 0 1rem 0;
+    margin: 10rem 0 2rem 0;
     // display: flex;
     // flex-wrap: wrap;
     // gap: 2;
+    z-index: -1;
 
     &.emi{
         margin: 2rem 0;
@@ -556,6 +557,7 @@ body {
             gap: 2rem;
 
             .characteres_img{
+                display: flex;
                 width: 28rem;
                 height: 28rem;
                 vertical-align: top;
@@ -565,6 +567,10 @@ body {
                 .img{
                     height: 28rem;
                     width: 28rem;
+                }
+
+                &.second{
+                    display: none;
                 }
             }
 
@@ -830,7 +836,7 @@ body {
         width: 10rem;
         position: absolute;
         z-index: 100;
-        top: 2rem;
+        top: 40%;
         left: -3rem;
     }
 
@@ -905,6 +911,7 @@ body {
                 .footer-ul2 {
                     list-style-type: none;
                     margin-left: 1.5rem;
+                    font-family: "Poppins", sans-serif;
 
                     h2 {
                         text-align: start;
@@ -912,10 +919,12 @@ body {
                     }
 
                     li {
-                        font-family: $franklin;
-                        // font-family: "Poppins", sans-serif;
+                        font-family: "Poppins", sans-serif;
                         color: #007cc3;
                         // color: #1ca5e0;
+                        p{
+                            font-size: 1.4rem
+                        }
                     }
                 }
 
@@ -924,10 +933,11 @@ body {
                     margin-left: 1.5rem;
 
                     li {
-                        font-size: 1.5rem;
+                        font-size: 1.4rem;
                         color: #007cc3;
-                        font-family: $franklin;
-                        font-weight: 600;
+                        // font-family: $franklin;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 100;
                     }
 
                     ul {
@@ -952,12 +962,12 @@ body {
             border-top: 1px solid #bfbfbf;
 
             p {
-                // font-family: "Poppins", sans-serif;
-                font-family: $franklin;
+                font-family: "Poppins", sans-serif;
+                // font-family: $franklin;
                 margin-top: 1.5rem;
                 // color: #9f9f9f;
                 color: $black;
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
         }
     }
@@ -1224,7 +1234,7 @@ body {
 
                     &.active {
                         animation: miAnimacion_menu 0.3s linear;
-                        transition: all 0.3s linear;
+                        // transition: all 0.3s linear;
 
                         .menu-close {
                             display: none;
@@ -1245,15 +1255,15 @@ body {
                     top: 99%;
                     right: 0;
                     background: $white;
-                    border-top: $border;
-                    border-bottom: $border;
+                    border-top: 1px solid $pink3;
+                    border-bottom: 1px solid $pink3;
                     padding: 0 2rem;
                     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
                     font-family: "Poppins", sans-serif;
 
                     &.active {
                         // transition: all 0.5s linear;
-                        transition: all 0.5s ease-out;
+                        // transition: all 0.5s ease-out;
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     }
 
@@ -1571,6 +1581,33 @@ body {
                             .div-image {
                                 width: 7rem;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .characteres{
+        .characteres-center_rigth{
+            .slider-contenedor-2{
+                .characteres_img{
+                    display: none;
+    
+                    &.second{
+                        display: flex;
+                        width: 100%;
+                        max-width: 32rem;
+                        // background-color: #666;
+
+                        height: 21rem;
+
+                        .img{
+                            width: 100%;
+                            max-width: 32rem;
+                            height: 22rem;
                         }
                     }
                 }
