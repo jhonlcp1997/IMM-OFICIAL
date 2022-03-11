@@ -107,6 +107,7 @@ $poppins: "Poppins", sans-serif;
                 font-family: $poppins;
                 padding: 1rem;
                 box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
+                z-index: 1;
 
                 .number {
                     margin: 1rem;
@@ -115,6 +116,14 @@ $poppins: "Poppins", sans-serif;
                     font-weight: 900;
                 }
             }
+
+            .points1 {
+                position: absolute;
+                width: 8rem;
+                right: -4rem;
+                top: -8rem;
+                z-index: 0;
+            } 
         }
     }
 }
@@ -152,6 +161,7 @@ $poppins: "Poppins", sans-serif;
             text-align: center;
             font-family: $poppins;
             margin: 2rem auto;
+            position: relative;
 
             .img {
                 width: 32rem;
@@ -167,6 +177,22 @@ $poppins: "Poppins", sans-serif;
             .paragraph_2 {
                 margin-top: 1rem;
                 padding: 0 1rem;
+            }
+
+            .points2 {
+                position: absolute;
+                width: 8rem;
+                left: -1.3rem;
+                top: -2rem;
+                z-index: -1;
+            } 
+
+            .points3 {
+                position: absolute;
+                width: 8rem;
+                right: -1.3rem;
+                top: 5rem;
+                z-index: -1;
             }
         }
     }
@@ -342,7 +368,26 @@ $poppins: "Poppins", sans-serif;
 
 // *Media queri en 1366 aplicar la imagen background completa
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1190px) {
+    .box_1{
+        .box_box{
+            .box_content{
+                .points1{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .indications{
+        .indications_content{
+            .boxes{
+                .points2, .points3{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -382,9 +427,17 @@ $poppins: "Poppins", sans-serif;
 
             .box_content {
                 justify-content: center;
-                margin: 2rem auto;
+                margin: 2rem auto 0 auto;
+
+                .boxes{
+                    top: -1rem;
+                }
             }
         }
+    }
+
+    .indications{
+        padding-top: 4rem;
     }
 
     .indications_two {

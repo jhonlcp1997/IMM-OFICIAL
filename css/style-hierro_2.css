@@ -103,6 +103,7 @@ html {
   padding: 1rem;
   -webkit-box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
           box-shadow: -2rem -1rem 20px -5px rgba(19, 14, 14, 0.144);
+  z-index: 1;
 }
 
 .box_1 .box_box .box_content .boxes .number {
@@ -110,6 +111,14 @@ html {
   color: #007cc3;
   font-size: 3.5rem;
   font-weight: 900;
+}
+
+.box_1 .box_box .box_content .points1 {
+  position: absolute;
+  width: 8rem;
+  right: -4rem;
+  top: -8rem;
+  z-index: 0;
 }
 
 .indications {
@@ -149,6 +158,7 @@ html {
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin: 2rem auto;
+  position: relative;
 }
 
 .indications .indications_content .boxes .img {
@@ -165,6 +175,22 @@ html {
 .indications .indications_content .boxes .paragraph_2 {
   margin-top: 1rem;
   padding: 0 1rem;
+}
+
+.indications .indications_content .boxes .points2 {
+  position: absolute;
+  width: 8rem;
+  left: -1.3rem;
+  top: -2rem;
+  z-index: -1;
+}
+
+.indications .indications_content .boxes .points3 {
+  position: absolute;
+  width: 8rem;
+  right: -1.3rem;
+  top: 5rem;
+  z-index: -1;
 }
 
 .box_2 {
@@ -347,6 +373,15 @@ html {
   font-size: 0.6rem;
 }
 
+@media screen and (max-width: 1190px) {
+  .box_1 .box_box .box_content .points1 {
+    display: none;
+  }
+  .indications .indications_content .boxes .points2, .indications .indications_content .boxes .points3 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   html {
     font-size: 70%;
@@ -375,7 +410,13 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 2rem auto;
+    margin: 2rem auto 0 auto;
+  }
+  .box_1 .box_box .box_content .boxes {
+    top: -1rem;
+  }
+  .indications {
+    padding-top: 4rem;
   }
   .indications_two .box {
     row-gap: 1rem;
