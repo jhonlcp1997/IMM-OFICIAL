@@ -419,6 +419,10 @@ body {
     // flex-wrap: wrap;
     // gap: 2;
 
+    &.emi{
+        margin: 2rem 0;
+    }
+
     .characteres-left {
         text-align: center;
         flex: 1 1 20rem;
@@ -470,7 +474,7 @@ body {
             // position: relative;
             display: flex;
             flex-wrap: wrap;
-            // overflow: hidden;
+            overflow: hidden;
 
             .slider-contenedor2 {
                 display: flex;
@@ -659,10 +663,11 @@ body {
 
 .info-date {
     margin: auto;
-    width: 100rem;
+    width: 95%;
+    max-width: 110rem;
     background-color: $white;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 8rem;
     box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
     z-index: 1;
     position: relative;
@@ -817,7 +822,7 @@ body {
         position: absolute;
         z-index: 100;
         top: 2rem;
-        right: -2rem;
+        right: -3rem;
     }
 
     .point5 {
@@ -825,7 +830,7 @@ body {
         position: absolute;
         z-index: 100;
         top: 2rem;
-        left: -2rem;
+        left: -3rem;
     }
 
     .point6 {
@@ -1004,6 +1009,10 @@ body {
     .characteres {
         margin: auto;
         padding: 3rem 0rem;
+
+        &.emi{
+            margin: auto;
+        }
 
         .characteres-center_rigth {
             .arrow-left, .arrow-right {

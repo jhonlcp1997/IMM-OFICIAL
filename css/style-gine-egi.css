@@ -393,6 +393,10 @@ body {
   margin: 10rem 0;
 }
 
+.characteres.emi {
+  margin: 2rem 0;
+}
+
 .characteres .characteres-left {
   text-align: center;
   -webkit-box-flex: 1;
@@ -450,6 +454,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
@@ -656,10 +661,11 @@ body {
 
 .info-date {
   margin: auto;
-  width: 100rem;
+  width: 95%;
+  max-width: 110rem;
   background-color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 8rem;
   -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
           box-shadow: -3rem 4rem 80px -70px #332e2e;
   z-index: 1;
@@ -819,7 +825,7 @@ body {
   position: absolute;
   z-index: 100;
   top: 2rem;
-  right: -2rem;
+  right: -3rem;
 }
 
 .info-date .point5 {
@@ -827,7 +833,7 @@ body {
   position: absolute;
   z-index: 100;
   top: 2rem;
-  left: -2rem;
+  left: -3rem;
 }
 
 .info-date .point6 {
@@ -997,6 +1003,9 @@ body {
   .characteres {
     margin: auto;
     padding: 3rem 0rem;
+  }
+  .characteres.emi {
+    margin: auto;
   }
   .characteres .characteres-center_rigth .arrow-left, .characteres .characteres-center_rigth .arrow-right {
     display: none;
