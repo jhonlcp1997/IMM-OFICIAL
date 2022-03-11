@@ -319,7 +319,8 @@ body {
 }
 
 .study .info1 img {
-  margin-right: 3rem;
+  padding-left: .5rem;
+  margin-right: 2.5rem;
   width: 6rem;
 }
 
