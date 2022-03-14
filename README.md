@@ -18,8 +18,14 @@ Primer repositorio del Instituto Medico de la Mujer
 - image
     - Endocrinologas **(por el momento solo hay esto)**
 - views
-    - others
-        - encrinologas.html **Esto va a trabajar como un apartado**
+    - gestacional-antenatal.html
+    - gestacional-crecimiento_doppler.html
+
+    - others **Esto va a trabajar como un apartado**
+        - colocacion_hierro.html 
+        - encrinologas.html
+        - muestra_de_sangre.html
+        - recomendaciones-hierro.html
 - ***index.html***  **(por defecto abre el contenido gestacional-viabilidad)**
 
 

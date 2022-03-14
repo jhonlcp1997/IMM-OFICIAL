@@ -35,8 +35,8 @@ $azul: #007cc3;
 // $abel:"Abel", sans-serif;
 // $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
-$abel: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-$franklin: "Abel", sans-serif;
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel: "Abel", sans-serif;
 
 @mixin grid($val) {
     display: grid;
@@ -270,7 +270,7 @@ body {
             P {
                 // vertical-align: middle;
                 color: #fff;
-                font-family: $franklin;
+                font-family: $abel;
                 text-align: left;
                 margin: 0.5rem 0;
             }
@@ -295,7 +295,7 @@ body {
                 border-radius: 15px;
 
                 a {
-                    font-family: $franklin;
+                    font-family: $abel;
                     // font-weight: bold;
                     color: #fff;
                     font-size: 1.5rem;
@@ -349,7 +349,7 @@ body {
         padding: 0 2rem;
         color: $pink3;
         text-align: center;
-        font-family: $franklin;
+        font-family: $abel;
         font-size: 2.8rem;
     }
 
@@ -377,7 +377,7 @@ body {
                 text-align: left;
                 color: $azul;
                 // padding: 0 1rem;
-                font-family: $franklin;
+                font-family: $abel;
                 padding-bottom: 1rem;
             }
 
@@ -417,7 +417,7 @@ body {
                 text-align: center;
                 color: $azul;
                 padding: 0.5rem 6rem;
-                font-family: $franklin;
+                font-family: $abel;
             }
 
             p {
@@ -453,7 +453,7 @@ body {
         h2 {
             padding: 0 1.5rem;
             font-size: 3rem;
-            font-family: $franklin;
+            font-family: $abel;
             color: $pink3;
         }
     }
@@ -530,7 +530,7 @@ body {
 
                     div {
                         h3 {
-                            font-family: $franklin;
+                            font-family: $abel;
                             // font-family: "Abel", sans-serif;
                             color: $azul;
                             font-size: 2rem;
@@ -640,7 +640,7 @@ body {
 
             h3 {
                 // padding-right: 20rem;
-                font-family: $franklin;
+                font-family: $abel;
                 font-size: 2rem;
                 color: $pink3;
             }
@@ -675,7 +675,7 @@ body {
 
             h3 {
                 // padding-right: 20rem;
-                font-family: $franklin;
+                font-family: $abel;
                 font-size: 2.5rem;
             }
 
@@ -700,7 +700,7 @@ body {
     top: 1rem;
 
     h2 {
-        font-family: $franklin;
+        font-family: $abel;
         color: $pink3;
         font-size: 2.5rem;
         margin-bottom: 2rem;
@@ -944,7 +944,7 @@ body {
 
                     h2 {
                         font-size: 1.6rem;
-                        font-family: $franklin;
+                        font-family: $abel;
                     }
 
                     li {
@@ -963,7 +963,7 @@ body {
                     h2 {
                         font-size: 1.6rem;
                         text-align: start;
-                        font-family: $franklin;
+                        font-family: $abel;
                     }
 
                     li {
@@ -983,7 +983,7 @@ body {
                     li {
                         font-size: 1.4rem;
                         color: #007cc3;
-                        // font-family: $franklin;
+                        // font-family: $abel;
                         font-family: "Poppins", sans-serif;
                         font-weight: 100;
                     }
@@ -1011,7 +1011,7 @@ body {
 
             p {
                 font-family: "Poppins", sans-serif;
-                // font-family: $franklin;
+                // font-family: $abel;
                 margin-top: 1.5rem;
                 // color: #9f9f9f;
                 color: $black;
