@@ -1279,6 +1279,11 @@ body {
             align-items: center;
     color: #f173ac;
   }
+  .header div .header-general .header-menu .header-modules img {
+    width: 1.6rem;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
   .header div .header-general .header-menu .header_footer {
     position: -webkit-sticky;
     position: sticky;
@@ -1346,6 +1351,12 @@ body {
   }
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
+    font-size: 3.8rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+    padding-left: .6rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
     font-size: 1.14rem;

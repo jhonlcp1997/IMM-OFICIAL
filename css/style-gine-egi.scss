@@ -1342,6 +1342,11 @@ body {
                             // transform: rotate(-90deg);
                             color: $pink3;
                         }
+
+                        img{
+                            width: 1.6rem;
+                            transform: rotate(90deg);
+                        }
                     }
 
                     .header_footer {
@@ -1480,9 +1485,18 @@ body {
         .ofrecemos-footer{
             .ofrecemos_footer_div1{
                 div{
+
+                    a{
+                        i{
+                            font-size: 3.8rem;
+                        }
+                    }
+
                     .footer-ul1{
+                        padding-left: .6rem;
                         li{
                             p{
+
                                 font-size: 1.14rem;
                             }
                         }

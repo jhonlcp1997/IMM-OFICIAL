@@ -48,10 +48,36 @@ $franklin:"Abel", sans-serif;
 
 }
 
-@keyframes miAnimacion1 {
-    from {height:0px;}
-    // to {height:200px;}
+@keyframes miAnimacion-2 {
+    from {
+        height: 0;
     }
+    to {
+        height: 50px;
+    }
+}
+
+@keyframes miAnimacion-3 {
+    from {
+        height: 50px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+
+@keyframes miAnimacion_menu {
+    from {
+        height: 10px;
+    }
+    to {
+        height: 20px;
+    }
+
+    // from{scale: 0;}
+    // to{scale: 100;}
+}
 
 html {
     font-size: 62.5%;
@@ -617,16 +643,30 @@ body {
                 font-family: "Poppins", sans-serif;
                 border-bottom: 1px solid $pink3;
                 color: $black;
+                position: relative;
 
                 .contenido-header {
                     margin: 1rem;
                     display: flex;
                     justify-content: space-between;
                     cursor: pointer;
+                    z-index: 1;
+                    background: #fff;
+                    position: relative;
+
+                    img{
+                        display: flex;
+                        width: 1.6rem;
+                    }
 
                     &.open {
                         // color: $pink3;
                         // transition: all 0.5s linear;
+
+                        img{
+                            transition: .2s all linear;
+
+                        }
 
                         i {
                             color: $pink3;
@@ -636,6 +676,10 @@ body {
                     }
 
                     &.close {
+                        img{
+                            transition: .2s all linear;
+                            transform: rotate(180deg);
+                        }
                         i {
                             color: $pink3;
                             transform: rotate(0deg);
@@ -648,6 +692,7 @@ body {
                     // justify-content: space-between;
                     justify-content: space-around;
                     transition: all .5s linear;
+                    z-index: 0;
 
                     .div1 {
                         text-align: center;
@@ -661,9 +706,6 @@ body {
                             text-align: center;
                             justify-content: center;
                             margin: 0 auto 1.5rem auto;
-                            .img-incontrolable{
-                                height: 7rem;
-                            }
                         }
 
                         p {
@@ -673,7 +715,7 @@ body {
                     }
 
                     &.open {
-                        animation: miAnimacion .2s linear ;
+                        animation: miAnimacion 0.2s linear ;
                         // height: 18rem;
 
                         height: auto;
@@ -682,8 +724,18 @@ body {
                     }
 
                     &.close {
-                        display: none;
+                        // display: none;
                         height: 0rem;
+
+                        .div1{
+                            .div-image{
+                                width: 0;
+                                height: 0;
+                            }
+                            p{
+                                display: none;
+                            }
+                        }
                     }
                 }
             }
@@ -763,6 +815,7 @@ body {
                     text-align: left;
 
                     h2 {
+                        font-size: 1.6rem;
                         font-family: $franklin;
                     }
 
@@ -778,15 +831,20 @@ body {
                     margin-left: 1.5rem;
 
                     h2 {
+                        font-size: 1.6rem;
                         text-align: start;
                         font-family: $franklin;
                     }
 
                     li {
-                        font-family: $franklin;
+                        font-family: "Poppins", sans-serif;
                         // font-family: "Poppins", sans-serif;
                         color: #007cc3;
                         // color: #1ca5e0;
+
+                        p{
+                            font-size: 1.4rem
+                        }
                     }
                 }
 
@@ -795,10 +853,10 @@ body {
                     margin-left: 1.5rem;
 
                     li {
-                        font-size: 1.5rem;
+                        font-size: 1.4rem;
                         color: #007cc3;
-                        font-family: $franklin;
-                        font-weight: 600;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 100;
                     }
 
                     ul {
@@ -823,11 +881,10 @@ body {
             border-top: 1px solid #bfbfbf;
 
             p {
-                // font-family: "Poppins", sans-serif;
-                font-family: $franklin;
+                font-family: "Poppins", sans-serif;
                 margin-top: 1.5rem;
                 color: $black;
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
         }
     }
@@ -1064,7 +1121,7 @@ body {
                     }
 
                     &.active{
-                        animation: miAnimacion_menu .3s linear;
+                        // animation: miAnimacion_menu .3s linear;
                         transition: all .3s linear;
                         
                         .menu-close{
@@ -1095,7 +1152,7 @@ body {
                     font-family: "Poppins", sans-serif;
 
                     &.active {
-                        transition: all .5s ease-out;
+                        // transition: all .5s ease-out;
                         // box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
                         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     }
@@ -1236,6 +1293,45 @@ body {
 
                     &.open {
                         height: 13rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                div{
+
+                    a{
+                        i{
+                            font-size: 3.8rem;
+                        }
+                    }
+
+                    .footer-ul1{
+                        padding-left: .6rem;
+                        li{
+                            p{
+
+                                font-size: 1.14rem;
+                            }
+                        }
+                    }
+
+                    .footer-ul2{
+                        li{
+                            p{
+                                font-size: 1.14rem;
+                            }
+                        }
+                    }
+
+                    .footer-ul3{
+                        li{
+                            font-size: 1.14rem;
+                        }
                     }
                 }
             }
@@ -1424,32 +1520,48 @@ body {
                             margin: 1rem 0 1rem 2rem;
                             display: flex;
                             align-items: center;
-
-                            p {
-                                font-size: 1.1rem;
-                                width: 100%;
-                                text-align: left;
-                                padding: 0 1rem;
-                            }
-
-                            .div-image {
-                                width: 50px;
-                                height: 50px;
-                                margin: auto;
-
-                                img{
-                                    width: 50px;
-                                    height: 50px;
-                                }
-
-                                .img-incontrolable{
-                                    height: 50px;
-                                }
-                            }
+                            animation: miAnimacion-3 .2s linear;
                         }
 
                         &.open {
                             margin: 0;
+                            animation: none;
+                            // animation: miAnimacion-2 1s linear;
+
+                            .div1{
+                                animation: miAnimacion-2 .2s linear;
+
+                                p {
+                                    font-size: 1.1rem;
+                                    width: 100%;
+                                    text-align: left;
+                                    padding: 0 1rem;
+                                }
+    
+                                .div-image {
+                                    width: 50px;
+                                    height: 50px;
+                                    margin: auto;
+    
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+    
+                                    .img-incontrolable {
+                                        height: 50px;
+                                    }
+                                }
+                            }
+                        }
+
+
+                        &.close{
+                            animation: miAnimacion-3 .2s linear;
+
+                            .div1{
+                                animation: miAnimacion-3 .2s linear;
+                            }
                         }
                     }
                 }
