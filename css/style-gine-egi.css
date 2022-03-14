@@ -82,9 +82,7 @@
   }
 }
 
-@-webkit-keyframes miDesAnimacion {}
-
-@keyframes miDesAnimacion {}html {
+html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -490,8 +488,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   overflow: hidden;
 }
 
@@ -617,12 +613,11 @@ body {
       flex-wrap: wrap;
 }
 
-.time-price .time-price_box1 {
+.time-price .time-price_box1, .time-price .time-price_box2 {
+  height: 20rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  height: 20rem;
-  background-color: #fff;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -632,6 +627,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.time-price .time-price_box1 .time-price_box2_img, .time-price .time-price_box2 .time-price_box2_img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.time-price .time-price_box1 div, .time-price .time-price_box2 div {
+  padding-right: 1rem;
+}
+
+.time-price .time-price_box1 div h3, .time-price .time-price_box2 div h3 {
+  font-family: "Abel", sans-serif;
+}
+
+.time-price .time-price_box1 div p, .time-price .time-price_box2 div p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.time-price .time-price_box1 {
+  background-color: #fff;
   position: relative;
 }
 
@@ -643,65 +660,28 @@ body {
   left: -2rem;
 }
 
-.time-price .time-price_box1 .time-price_box2_img {
-  width: 10rem;
-  height: 7rem;
-}
-
-.time-price .time-price_box1 div {
-  padding-right: 1rem;
-}
-
 .time-price .time-price_box1 div h3 {
-  font-family: "Abel", sans-serif;
   font-size: 2rem;
   color: #f173ac;
 }
 
 .time-price .time-price_box1 div p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
   color: #000;
 }
 
 .time-price .time-price_box2 {
-  height: 20rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 30rem;
-          flex: 1 1 30rem;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #007cc3;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-image: url(../img/image-simple-2/Fondo2.png);
   background-size: cover;
 }
 
-.time-price .time-price_box2 .time-price_box2_img {
-  width: 10rem;
-  height: 7rem;
-}
-
 .time-price .time-price_box2 div {
   color: #fff;
-  padding-right: 1rem;
 }
 
 .time-price .time-price_box2 div h3 {
-  font-family: "Abel", sans-serif;
   font-size: 2.5rem;
-}
-
-.time-price .time-price_box2 div p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
 }
 
 .info-date {
@@ -747,34 +727,18 @@ body {
           justify-content: space-between;
 }
 
-.info-date .section_election .day1 {
+.info-date .section_election .day1, .info-date .section_election .day2 {
   cursor: pointer;
 }
 
-.info-date .section_election .day1 strong {
+.info-date .section_election .day1 strong, .info-date .section_election .day2 strong {
   color: #007cc3;
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
   padding-bottom: 0.5rem;
 }
 
-.info-date .section_election .day1.active {
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007cc3;
-}
-
-.info-date .section_election .day2 {
-  cursor: pointer;
-}
-
-.info-date .section_election .day2 strong {
-  color: #007cc3;
-  font-size: 1.4rem;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 0.5rem;
-}
-
-.info-date .section_election .day2.active {
+.info-date .section_election .day1.active, .info-date .section_election .day2.active {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #007cc3;
 }
@@ -965,58 +929,34 @@ body {
   font-size: 3rem;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
   list-style-type: none;
   margin-left: 1.5rem;
   font-family: "Poppins", sans-serif;
   text-align: left;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 h2 {
   font-size: 1.6rem;
   font-family: "Abel", sans-serif;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li p {
   font-size: 1.4rem;
-}
-
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
-  list-style-type: none;
-  margin-left: 1.5rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2 {
-  font-size: 1.6rem;
-  text-align: start;
-  font-family: "Abel", sans-serif;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
-  font-family: "Poppins", sans-serif;
   color: #007cc3;
-}
-
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p {
-  font-size: 1.4rem;
-}
-
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
-  list-style-type: none;
-  margin-left: 1.5rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
   font-size: 1.4rem;
   color: #007cc3;
-  font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
   padding: 0.2rem;
-  text-align: left;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
@@ -1120,16 +1060,7 @@ body {
     padding: 2rem 1rem;
     width: 100%;
   }
-  .info-date .point4 {
-    display: none;
-  }
-  .info-date .point5 {
-    display: none;
-  }
-  .info-date .point6 {
-    display: none;
-  }
-  .info-date .point7 {
+  .info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
     display: none;
   }
   .footer .ofrecemos-footer {
@@ -1143,7 +1074,7 @@ body {
 
 @media (max-width: 800px) {
   .header div {
-    margin: 0 0 0 0;
+    margin: 0;
   }
   .header div .navbar-opciones {
     display: none;

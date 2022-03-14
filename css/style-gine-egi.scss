@@ -79,34 +79,12 @@ $abel: "Abel", sans-serif;
     to {
         height: 20px;
     }
-
-    // from{scale: 0;}
-    // to{scale: 100;}
-}
-
-@keyframes miDesAnimacion {
-    // 50%{
-    //     height: 0px;
-    // }
 }
 
 html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    // scroll-padding-top: 7rem;
-
-    // &::-webkit-scrollbar {
-    //     width: 1rem;
-    // }
-
-    // &::-webkit-scrollbar-track {
-    //     background: transparent;
-    // }
-
-    // &::-webkit-scrollbar-thumb {
-    //     background: $azul;
-    // }
 }
 
 body {
@@ -162,10 +140,6 @@ body {
                     font-size: 1rem;
                     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
                     cursor: pointer;
-
-                    // &:hover {
-                    //     letter-spacing: 0.1rem;
-                    // }
                 }
 
                 a {
@@ -234,7 +208,6 @@ body {
     height: 45rem;
     background: $azul;
     z-index: 1;
-    // padding: 3rem 17%;
 
     &::before {
         z-index: 0;
@@ -364,7 +337,6 @@ body {
         img {
             padding-left: .5rem;
             margin-right: 2.5rem;
-            // margin: auto;
             width: 6rem;
             // height: 8rem;
         }
@@ -435,9 +407,6 @@ body {
     align-items: center;
     padding: 3rem 0 1rem 0;
     margin: 10rem 0 2rem 0;
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 2;
     z-index: -1;
 
     &.emi{
@@ -468,7 +437,6 @@ body {
 
         .arrow-left, .arrow-right {
                 display: flex;
-                // font-size: 50px;
                 // color: rgba(204, 204, 204, 0.65);
                 color: $pink2;
                 cursor: pointer;
@@ -488,13 +456,10 @@ body {
         }
 
         .slider-contenedor {
-            // width: 630px;
             width: 90%;
             max-width: 105rem;
-            // height: 330px;
-            // position: relative;
             display: flex;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
             overflow: hidden;
 
             .slider-contenedor2 {
@@ -612,14 +577,34 @@ body {
     // padding: 3rem 9%;
     flex-wrap: wrap;
 
-    .time-price_box1 {
-        flex: 1 1 30rem;
+    .time-price_box1, .time-price_box2{
         height: 20rem;
-        background-color: $white;
+        flex: 1 1 30rem;
         display: inline-flex;
-        // text-align: center;
         justify-content: center;
         align-items: center;
+
+        .time-price_box2_img {
+            width: 10rem;
+            height: 7rem;
+        }
+
+        div{
+            padding-right: 1rem;
+
+            h3{
+                font-family: $abel;
+            }
+
+            p{
+                font-family: "Poppins", sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .time-price_box1 {
+        background-color: $white;
         position: relative;
 
         .point3 {
@@ -630,58 +615,29 @@ body {
             left: -2rem;
         }
 
-        .time-price_box2_img {
-            width: 10rem;
-            height: 7rem;
-        }
-
         div {
-            padding-right: 1rem;
-
             h3 {
-                // padding-right: 20rem;
-                font-family: $abel;
                 font-size: 2rem;
                 color: $pink3;
             }
 
             p {
-                font-family: "Poppins", sans-serif;
-                font-size: 1.5rem;
                 color: $black;
             }
         }
     }
 
     .time-price_box2 {
-        height: 20rem;
-        flex: 1 1 30rem;
         text-align: center;
-        align-items: center;
         background-color: $azul;
-        display: inline-flex;
-        justify-content: center;
         background-image: url(../img/image-simple-2/Fondo2.png);
         background-size: cover;
 
-        .time-price_box2_img {
-            width: 10rem;
-            height: 7rem;
-        }
-
         div {
             color: $white;
-            padding-right: 1rem;
 
             h3 {
-                // padding-right: 20rem;
-                font-family: $abel;
                 font-size: 2.5rem;
-            }
-
-            p {
-                font-family: "Poppins", sans-serif;
-                font-size: 1.5rem;
             }
         }
     }
@@ -721,28 +677,12 @@ body {
         max-width: 40rem;
         width: 90%;
         display: flex;
-        // background-color: #bfbfbf;
         margin: 2rem auto;
         justify-content: space-between;
 
-        .day1 {
+        .day1, .day2 {
             cursor: pointer;
 
-            strong {
-                color: $azul;
-                font-size: 1.4rem;
-                font-family: "Poppins", sans-serif;
-                padding-bottom: 0.5rem;
-            }
-
-            &.active {
-                padding-bottom: 0.5rem;
-                border-bottom: 2px solid $azul;
-            }
-        }
-
-        .day2 {
-            cursor: pointer;
             strong {
                 color: $azul;
                 font-size: 1.4rem;
@@ -813,13 +753,10 @@ body {
                 }
 
                 .contenido-body {
-                    // background-color: $white;
                     display: flex;
                     justify-content: space-around;
                     transition: all 0.5s linear;
                     z-index: 0;
-                    // position: relative;
-                    // top: -3rem;
 
                     .div1 {
                         text-align: center;
@@ -845,19 +782,11 @@ body {
                     &.open {
                         // transition: all .5s ease-out;
                         animation: miAnimacion 0.2s linear;
-                        // height: 18rem;
                         height: auto;
                         margin: 3rem 0;
                     }
 
                     &.close {
-                        // transition: all .5s ease-out;
-                        // scroll-behavior: smooth;
-                        // transition: all 0.5s linear;
-                        // animation: miDesAnimacion1 1s linear ;
-                        // transition: all 1s linear;
-
-                        
                         height: 0rem;
 
                         .div1{
@@ -936,61 +865,39 @@ body {
                     }
                 }
 
-                .footer-ul1 {
+                .footer-ul1, .footer-ul2, .footer-ul3{
                     list-style-type: none;
                     margin-left: 1.5rem;
                     font-family: "Poppins", sans-serif;
                     text-align: left;
 
-                    h2 {
+                    h2{
                         font-size: 1.6rem;
                         font-family: $abel;
                     }
 
-                    li {
-                        p {
-                            // opacity: 0.7;
-                            font-size: 1.4rem;
-                        }
-                    }
-                }
-
-                .footer-ul2 {
-                    list-style-type: none;
-                    margin-left: 1.5rem;
-                    font-family: "Poppins", sans-serif;
-
-                    h2 {
-                        font-size: 1.6rem;
-                        text-align: start;
-                        font-family: $abel;
-                    }
-
-                    li {
-                        font-family: "Poppins", sans-serif;
-                        color: #007cc3;
-                        // color: #1ca5e0;
+                    li{
                         p{
                             font-size: 1.4rem
                         }
                     }
                 }
 
-                .footer-ul3 {
-                    list-style-type: none;
-                    margin-left: 1.5rem;
+                .footer-ul2 {
+                    li {
+                        color: #007cc3;
+                    }
+                }
 
+                .footer-ul3 {
                     li {
                         font-size: 1.4rem;
                         color: #007cc3;
-                        // font-family: $abel;
-                        font-family: "Poppins", sans-serif;
                         font-weight: 100;
                     }
 
                     ul {
                         padding: 0.2rem;
-                        text-align: left;
 
                         a {
                             margin: 1rem 0;
@@ -1011,9 +918,7 @@ body {
 
             p {
                 font-family: "Poppins", sans-serif;
-                // font-family: $abel;
                 margin-top: 1.5rem;
-                // color: #9f9f9f;
                 color: $black;
                 font-size: 1rem;
             }
@@ -1126,22 +1031,12 @@ body {
         padding: 2rem 1rem;
         width: 100%;
 
-        .point4 {
-            display: none;
-        }
-        .point5 {
-            display: none;
-        }
-        .point6 {
-            display: none;
-        }
-        .point7 {
+        .point4, .point5, .point6, .point7 {
             display: none;
         }
     }
 
     .footer {
-        // width: 100%;
         .ofrecemos-footer {
             width: 100%;
             padding: 0 2rem;
@@ -1156,7 +1051,7 @@ body {
 @media (max-width: 800px) {
     .header {
         div {
-            margin: 0 0 0 0;
+            margin: 0;
 
             .navbar-opciones {
                 display: none;
@@ -1188,8 +1083,6 @@ body {
 
                         li {
                             .ginecologia {
-                                // display: inline-block;
-                                // margin-top: 1rem;
                                 padding: 0.5rem 2rem;
                                 background: $pink3;
                                 color: #fff;
@@ -1222,27 +1115,6 @@ body {
 
                 .header-center-right {
                     display: none;
-                    // display: inline-block;
-                    // text-align: center;
-                    // width: 50%;
-                    // position: absolute;
-                    // top: 75%;
-                    // right: 0;
-                    // background: #fff;
-                    // border-top: $border;
-                    // border-bottom: $border;
-                    // padding: 0 2rem;
-                    // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-
-                    // &.active {
-                    //     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-                    // }
-
-                    // a {
-                    //     display: block;
-                    //     font-size: 1.2rem;
-                    //     margin: 3rem 1rem;
-                    // }
                 }
 
                 .header-right {
@@ -1250,23 +1122,6 @@ body {
                     width: auto;
                     // animation: miAnimacion_menu .2s linear;
                     transition: all 0.5s ease-out;
-                    // div {
-                    //     height: 4.5rem;
-                    //     width: 4.5rem;
-                    //     line-height: 4.5rem;
-                    //     border-radius: 0.5rem;
-                    //     background: $white;
-                    //     font-size: 1.7rem;
-                    //     color: $pink3;
-                    //     margin-left: 0.3rem;
-                    //     text-align: center;
-                    //     cursor: pointer;
-
-                    //     &:hover {
-                    //         color: $pink3;
-                    //         // background-color: #666;
-                    //     }
-                    // }
 
                     img {
                         width: 2rem;
@@ -1404,8 +1259,6 @@ body {
     .header {
         div {
             .header-general {
-                // margin: 1rem 0rem;
-
                 .header-left {
                     a {
                         img {
@@ -1419,14 +1272,8 @@ body {
 
     .characteres {
         .characteres-center_rigth {
-            // height: 31rem;
             .slider-contenedor {
-                // width: 420px;
-
                 .slider-contenedor2 {
-                    // position: relative;
-                    // left: -10rem;
-                    // width: 420px;
 
                     .characteres_all {
                         height: 252px;
@@ -1613,12 +1460,7 @@ body {
 
     .characteres {
         .characteres-center_rigth {
-            // height: 33rem;
-
             .arrow-left, .arrow-right {
-                // display: flex;
-                // font-size: 50px;
-                // color: rgba(204, 204, 204, 0.65);
                 color: $pink2;
                 cursor: pointer;
                 position: absolute;
