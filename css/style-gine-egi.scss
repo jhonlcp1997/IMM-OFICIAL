@@ -45,40 +45,23 @@ $abel: "Abel", sans-serif;
 }
 
 @keyframes miAnimacion {
-    from {
-        height: 0;
-    }
-    to {
-        height: 200px;
-    }
+    from {height: 0;}
+    to {height: 200px;}
 }
 
 @keyframes miAnimacion-2 {
-    from {
-        height: 0;
-    }
-    to {
-        height: 50px;
-    }
+    from {height: 0;}
+    to {height: 50px;}
 }
 
 @keyframes miAnimacion-3 {
-    from {
-        height: 50px;
-    }
-    to {
-        height: 0px;
-    }
+    from {height: 50px;}
+    to {height: 0px;}
 }
 
-
 @keyframes miAnimacion_menu {
-    from {
-        height: 10px;
-    }
-    to {
-        height: 20px;
-    }
+    from {height: 10px;}
+    to {height: 20px;}
 }
 
 html {
@@ -110,68 +93,11 @@ body {
         width: 100rem;
         background: #fff;
 
-        .navbar-opciones {
-            font-size: 1rem;
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid $pink3;
-
-            .navbar-opciones-ul1 {
-                display: flex;
-                color: $black;
-                align-items: center;
-
-                a {
-                    color: #666;
-                    font-size: 1.3rem;
-                    margin-right: 2rem;
-                }
-            }
-
-            .navbar-opciones-ul2 {
-                text-align: center;
-
-                .ginecologia {
-                    display: inline-block;
-                    // margin-top: 1rem;
-                    padding: 0.5rem 2rem;
-                    background: $pink3;
-                    color: $white;
-                    font-size: 1rem;
-                    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-                    cursor: pointer;
-                }
-
-                a {
-                    color: $black;
-                    margin: 0 0 0 0.5rem;
-
-                    &:focus {
-                        padding-bottom: 0.5rem;
-                        border-bottom: 1px solid #f173ac;
-                    }
-                }
-            }
-        }
-
         .header-general {
             // margin-top: 2rem;
             display: flex;
             justify-content: space-between;
             color: $black;
-
-            .navbar-opciones-phone {
-                display: none;
-
-                ul {
-                    li {
-                        .ginecologia {
-                            padding-bottom: 0.5rem;
-                            border-bottom: 1px solid #f173ac;
-                        }
-                    }
-                }
-            }
 
             .header-right {
                 display: none;
@@ -437,7 +363,6 @@ body {
 
         .arrow-left, .arrow-right {
                 display: flex;
-                // color: rgba(204, 204, 204, 0.65);
                 color: $pink2;
                 cursor: pointer;
                 position: absolute;
@@ -452,7 +377,7 @@ body {
 
         .arrow-right {
             left: initial;
-             right: 10px !important;
+            right: 10px !important;
         }
 
         .slider-contenedor {
@@ -482,34 +407,12 @@ body {
                     background: $white;
                     top: 15px;
                     transition: all 0.5s ease-out;
-                    // flex-direction: column-reverse;
-                    // background: $pink2;
-
 
                     img {
                         text-align: center;
                         width: 20rem;
                         // height: 8rem;
                         margin: 0;
-                    }
-
-                    div {
-                        h3 {
-                            font-family: $abel;
-                            // font-family: "Abel", sans-serif;
-                            color: $azul;
-                            font-size: 2rem;
-                        }
-
-                        p {
-                            margin: 1rem 0;
-                            font-family: "Poppins", sans-serif;
-                            font-size: 1.3rem;
-                            color: $black;
-                        }
-                    }
-                    .short {
-                        margin-top: 2rem;
                     }
 
                     &.active {
@@ -1053,10 +956,6 @@ body {
         div {
             margin: 0;
 
-            .navbar-opciones {
-                display: none;
-            }
-
             .header-general {
                 margin: 1rem 10%;
                 justify-content: space-between;
@@ -1274,7 +1173,6 @@ body {
         .characteres-center_rigth {
             .slider-contenedor {
                 .slider-contenedor2 {
-
                     .characteres_all {
                         height: 252px;
                         padding: 0;
@@ -1292,7 +1190,6 @@ body {
             }
 
             .slider-contenedor-2{
-
                 .characteres_img{
                     width: 25rem;         
                     height: 25rem;
@@ -1310,8 +1207,6 @@ body {
             font-size: 1.15rem;
 
             .info-contenido {
-                // height: 18rem;
-
                 .contenido-body {
                     .div1 {
                         width: 25rem;
@@ -1332,7 +1227,6 @@ body {
         .ofrecemos-footer{
             .ofrecemos_footer_div1{
                 div{
-
                     a{
                         i{
                             font-size: 3.8rem;
@@ -1373,10 +1267,7 @@ body {
         display: flex;
         height: auto;
         .home_box {
-            // background-color: #bfbfbf;
-
             .home-nav1 {
-                // position: relative;
                 text-align: center;
                 margin: 0 auto 0 10rem;
             }
@@ -1401,17 +1292,6 @@ body {
                         }
                     }
                 }
-
-                .navbar-opciones-phone {
-                    ul {
-                        li {
-                            a {
-                                font-size: 1rem;
-                                margin: 0 1rem;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -1425,7 +1305,6 @@ body {
             .home-nav1 {
                 padding: 1rem 0;
                 margin: 0 auto;
-                // text-align: center;
 
                 .home-nav1-P_1 {
                     text-align: center;
@@ -1479,12 +1358,10 @@ body {
             }
 
             .slider-contenedor {
-                // width: 230px;
                 height: 290px;
 
                 .slider-contenedor2 {
                     left: -22.2rem;
-                    // width: 232px;
                     height: 290px;
 
                     .characteres_all {
@@ -1535,8 +1412,6 @@ body {
                         display: flex;
                         width: 100%;
                         max-width: 32rem;
-                        // background-color: #666;
-
                         height: 20rem;
 
                         .img{
@@ -1557,20 +1432,6 @@ body {
             padding: 0;
             .header-general {
                 margin: 1rem 7%;
-
-                .navbar-opciones-phone {
-                    ul {
-                        li {
-                            .ginecologia {
-                                padding: 0.5rem 1rem;
-                            }
-
-                            a {
-                                margin: 0 0.5rem;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
