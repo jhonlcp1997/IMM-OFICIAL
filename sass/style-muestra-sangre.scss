@@ -38,7 +38,7 @@ $poppins: "Poppins", sans-serif;
         max-width: 60rem;
         margin: auto;
 
-        img {
+        .img {
             width: 10rem;
         }
     } 
@@ -53,13 +53,12 @@ $poppins: "Poppins", sans-serif;
         max-width: 60rem;
         font-family: $abel;
 
-        h2 {
-            font-size: 2rem;
-            font-weight: 100;
+        .tittle {
+            font-size: 3rem;
             color: $green2;
         }
 
-        span {
+        .span {
             font-weight: 600;
             font-size: 1.5rem;
             color: #007cc3d2;
@@ -71,28 +70,17 @@ $poppins: "Poppins", sans-serif;
     width: 100%;
     max-width: 1366px;
     height: 40rem;
-    // min-height: 60vh;
     margin: auto;
-
     display: flex;
     position: relative;
-
     background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
-    .background_img {
-        width: 100%;
-        z-index: 0;
-        position: absolute;
-    }
-
     .box {
-        // display: none;
         z-index: 1;
         width: 90%;
         max-width: 90rem;
-        // background: $gray2;
         margin: 0 auto;
 
         .box_div-1 {
@@ -106,9 +94,8 @@ $poppins: "Poppins", sans-serif;
             justify-content: center;
             padding: 3rem 1rem;
 
-            img {
+            .img_pills {
                 margin: 1rem 0;
-                // padding: 2rem;
                 width: 10rem;
             }
 
@@ -138,10 +125,7 @@ $poppins: "Poppins", sans-serif;
 }
 
 .recommendations {
-    // background: #ededed ;
     background-color: rgba(136, 136, 136, 0.164);
-
-    // height: 10rem;
 
     .div-1 {
         margin: auto;
@@ -155,7 +139,6 @@ $poppins: "Poppins", sans-serif;
 
         .box {
             width: 20rem;
-            // display: flex;
             padding: 0 2rem;
             text-align: center;
             font-family: $poppins;
@@ -211,7 +194,6 @@ $poppins: "Poppins", sans-serif;
 
             &:nth-child(2) {
                 border-left: 1px solid $green2;
-                // border-right: 1px solid $green2;
             }
         }
     }
@@ -224,7 +206,6 @@ $poppins: "Poppins", sans-serif;
     position: relative;
 
     .tittle {
-        // padding: 1rem 0;
         color: $green2;
         font-size: 1.6rem;
     }
@@ -240,7 +221,6 @@ $poppins: "Poppins", sans-serif;
         font-family: $poppins;
         display: flex;
         width: 30rem;
-        // background-color: #999999;
 
         .features_strong {
             padding: 0 1rem;
@@ -292,11 +272,8 @@ $poppins: "Poppins", sans-serif;
         margin: auto;
         max-width: 55rem;
         display: flex;
-        // background: #fff;
         flex-wrap: wrap;
         row-gap: 2rem;
-        // column-gap: 2rem;
-        // gap: 2rem;
         justify-content: space-around;
 
         .boxes {
@@ -500,7 +477,7 @@ $poppins: "Poppins", sans-serif;
                 height: 30rem;
                 padding: 1rem 0.5rem;
 
-                img {
+                .img_pills {
                     width: 6rem;
                 }
 
@@ -587,7 +564,7 @@ $poppins: "Poppins", sans-serif;
                 width: 100%;
                 background-color: #62bb46;
 
-                img {
+                .img_pills {
                     width: 8rem;
                 }
             }
@@ -595,5 +572,15 @@ $poppins: "Poppins", sans-serif;
     }
     .recommendations {
         margin-top: 25rem;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .import{
+        .box{
+            .boxes{
+                max-width: 25rem;
+            }
+        }
     }
 }

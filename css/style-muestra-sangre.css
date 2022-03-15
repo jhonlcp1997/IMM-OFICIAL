@@ -25,7 +25,7 @@ html {
   margin: auto;
 }
 
-.header .header__div-box img {
+.header .header__div-box .img {
   width: 10rem;
 }
 
@@ -40,13 +40,12 @@ html {
   font-family: "Abel", sans-serif;
 }
 
-.section_tittle .box h2 {
-  font-size: 2rem;
-  font-weight: 100;
+.section_tittle .box .tittle {
+  font-size: 3rem;
   color: #62bb46;
 }
 
-.section_tittle .box span {
+.section_tittle .box .span {
   font-weight: 600;
   font-size: 1.5rem;
   color: #007cc3d2;
@@ -64,12 +63,6 @@ html {
   background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.patients .background_img {
-  width: 100%;
-  z-index: 0;
-  position: absolute;
 }
 
 .patients .box {
@@ -93,7 +86,7 @@ html {
   padding: 3rem 1rem;
 }
 
-.patients .box .box_div-1 img {
+.patients .box .box_div-1 .img_pills {
   margin: 1rem 0;
   width: 10rem;
 }
@@ -465,7 +458,7 @@ html {
     height: 30rem;
     padding: 1rem 0.5rem;
   }
-  .patients .box .box_div-1 img {
+  .patients .box .box_div-1 .img_pills {
     width: 6rem;
   }
   .patients .box .box_div-1 .tittle {
@@ -537,11 +530,17 @@ html {
     width: 100%;
     background-color: #62bb46;
   }
-  .patients .box .box_div-1 img {
+  .patients .box .box_div-1 .img_pills {
     width: 8rem;
   }
   .recommendations {
     margin-top: 25rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .import .box .boxes {
+    max-width: 25rem;
   }
 }
 /*# sourceMappingURL=style-muestra-sangre.css.map */
