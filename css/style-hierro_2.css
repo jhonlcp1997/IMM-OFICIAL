@@ -46,13 +46,6 @@ html {
 
 .main .main-tittle .tittle {
   color: #fff;
-  vertical-align: middle;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
 }
@@ -483,11 +476,12 @@ html {
 }
 
 @media screen and (max-width: 369px) {
-  .box_1 .box_content .boxes {
-    width: 12rem;
-    height: 14rem;
+  .box_1 .box_box .box_content .boxes {
+    width: 90%;
+    max-width: 22rem;
+    height: auto;
   }
-  .box_1 .box_content .boxes .number {
+  .box_1 .box_box .box_content .boxes .number {
     margin: 0.5rem;
     font-size: 2.5rem;
   }
