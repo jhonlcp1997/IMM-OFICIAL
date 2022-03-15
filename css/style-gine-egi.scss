@@ -19,11 +19,6 @@ $black: #000;
 // $black4: #888;
 // $black5: #999;
 
-// $black2: #000;
-// $black3: #000;
-// $black4: #000;
-// $black5: #000;
-
 $light-color: #666;
 $pink1: #f4c6de;
 $pink2: #f5a4c7;
@@ -195,7 +190,6 @@ body {
 
                 a {
                     font-family: $abel;
-                    // font-weight: bold;
                     color: #fff;
                     font-size: 1.5rem;
                     font-weight: 600;
@@ -212,7 +206,6 @@ body {
 
         .home-nav2 {
             margin-left: auto;
-            // background-color: #f4c6de;
             z-index: 10;
             display: flex;
             justify-content: right;
@@ -221,7 +214,6 @@ body {
             img {
                 text-align: right;
                 justify-content: right;
-                // border-radius: 15px;
                 box-shadow: $boxshadowG;
             }
         }

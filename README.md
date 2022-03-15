@@ -6,17 +6,24 @@ Primer repositorio del Instituto Medico de la Mujer
 
 ## Estructura de la pagina "sin las carpetas vacias"
 
-- css
+- css (se eencuentran todos los estilos, pero los trabaje en SASS)
 - js
-    - others
+    - carrusel_gen.js
+    - carrusel-egi-emi.js
+    - content_arrows-gine.js
+    - index.js
+    - slider.js
+    - test.js
+    - /others-js
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
-- img
+- img **(aqui se enceuntran las imagenes simples, que van los header y footer, flechas etc)**
     - image-simple(svg de los primeros -> a estos tendre que cambiarlos para no tener muchas carpetas)
     - image-simple2(aqui se encuentran la mayoria de las imagenes)
     - images-gest(Todo lo agregado despues en gestacional)
     - images-gine(Todo lo agregado despues en ginecologico)
-- image
-    - Endocrinologas **(por el momento solo hay esto)**
+- images
+    - Endocrinologas **(por el momento solo hay esto)** había xD
+    
 - views
     - gestacional-antenatal.html
     - gestacional-crecimiento_doppler.html
