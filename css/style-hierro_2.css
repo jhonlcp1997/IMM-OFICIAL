@@ -128,6 +128,7 @@ html {
   padding: 1rem 0;
   color: #62bb46;
   font-family: "Abel", sans-serif;
+  font-size: 2rem;
 }
 
 .indications .indications_header .paragraph {
@@ -431,11 +432,16 @@ html {
   }
   .box_2 .box .boxes {
     margin: auto;
-    width: 50%;
-  }
-  .box_2 .box .boxes:nth-child(3) {
+    width: 90%;
+    max-width: 32rem;
     -webkit-box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
             box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
+    height: 25rem;
+  }
+  .box_2 .box .boxes .boxes_div {
+    padding: 0 1rem;
+    width: 22rem;
+    height: 17rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     -webkit-box-orient: vertical;
@@ -466,12 +472,13 @@ html {
   }
   .box_2 .box .boxes {
     margin: auto;
-    width: 70%;
+    max-width: 27rem;
+    width: 90%;
     height: auto;
   }
   .box_2 .box .boxes .boxes_div {
     margin: 2rem auto;
-    height: 22rem;
+    height: 20rem;
   }
 }
 

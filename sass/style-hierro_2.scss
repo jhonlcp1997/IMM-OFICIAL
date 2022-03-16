@@ -11,7 +11,7 @@
     border: none;
 }
 
-// Todo: el html en endocrinologia no trabaja con font-size
+// Todo: el html en colocación hierro no trabaja con font-size
 html {
     // font-size: 62.5%;
     overflow-x: hidden;
@@ -133,6 +133,7 @@ $poppins: "Poppins", sans-serif;
             padding: 1rem 0;
             color: $green2;
             font-family: $abel;
+            font-size: 2rem;
         }
 
         .paragraph {
@@ -456,10 +457,15 @@ $poppins: "Poppins", sans-serif;
             flex-direction: column;
             .boxes {
                 margin: auto;
-                width: 50%;
+                width: 90%;
+                max-width: 32rem;
+                box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
+                height: 25rem;
 
-                &:nth-child(3) {
-                    box-shadow: 2rem 0 20px -10px rgba(19, 14, 14, 0.144);
+                .boxes_div{
+                    padding: 0 1rem;
+                    width: 22rem;
+                    height: 17rem;
                 }
             }
         }
@@ -499,12 +505,13 @@ $poppins: "Poppins", sans-serif;
             flex-wrap: wrap;
             .boxes {
                 margin: auto;
-                width: 70%;
+                max-width: 27rem;
+                width: 90%;
                 height: auto;
 
                 .boxes_div {
                     margin: 2rem auto;
-                    height: 22rem;
+                    height: 20rem;
                 }
             }
         }
