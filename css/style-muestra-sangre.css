@@ -109,7 +109,7 @@ html {
 .patients .points_1 {
   position: absolute;
   width: 9rem;
-  right: 0;
+  right: 1rem;
   top: -3rem;
 }
 
@@ -251,13 +251,6 @@ html {
   top: -1rem;
 }
 
-.avoid .points_4 {
-  position: absolute;
-  width: 9rem;
-  left: 10%;
-  bottom: 2rem;
-}
-
 .import {
   background: #007cc3;
   font-family: "Poppins", sans-serif;
@@ -286,18 +279,19 @@ html {
   display: flex;
   background: #fff;
   width: 25rem;
-  height: 8rem;
+  height: 9rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
           box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
+  z-index: 1;
 }
 
 .import .box .boxes .subtittle {
   color: #62bb46;
   font-size: 4rem;
-  padding: 0 2rem;
+  padding: 0 2rem .5rem 2rem;
 }
 
 .import .box .boxes .boxes_div {
@@ -305,26 +299,31 @@ html {
   padding-right: 1rem;
 }
 
+.import .box .points_4, .import .box .points_5, .import .box .points_6 {
+  position: absolute;
+  width: 9rem;
+  z-index: 0;
+}
+
+.import .box .points_4 {
+  left: -3rem;
+  top: -3rem;
+}
+
+.import .box .points_5 {
+  right: -3rem;
+  top: 40%;
+}
+
+.import .box .points_6 {
+  left: 33%;
+  bottom: -2rem;
+}
+
 .import .box_footer {
   padding: 2rem 1rem;
   color: #fff;
   text-align: center;
-}
-
-.import .points_5 {
-  position: absolute;
-  width: 9rem;
-  right: 10%;
-  top: 20%;
-  z-index: 0;
-}
-
-.import .points_6 {
-  position: absolute;
-  width: 9rem;
-  left: 40%;
-  bottom: 30%;
-  z-index: 0;
 }
 
 .footer {
@@ -415,12 +414,12 @@ html {
   .recommendations .div-1 .points_2 {
     display: none;
   }
-  .avoid .points_3,
-  .avoid .points_4 {
+  .avoid .points_3 {
     display: none;
   }
   .import .points_5,
-  .import .points_6 {
+  .import .points_6,
+  .import .points_4 {
     display: none;
   }
 }
