@@ -183,16 +183,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 3rem;
 }
 
 .home .home_box .home-nav1 {
-  z-index: 10;
   padding: 8rem 3rem 8rem 0;
   text-align: left;
+  z-index: 10;
 }
 
 .home .home_box .home-nav1 P {
