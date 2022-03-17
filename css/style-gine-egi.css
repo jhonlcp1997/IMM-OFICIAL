@@ -15,7 +15,7 @@
     height: 0;
   }
   to {
-    height: 200px;
+    height: 143px;
   }
 }
 
@@ -24,7 +24,7 @@
     height: 0;
   }
   to {
-    height: 200px;
+    height: 143px;
   }
 }
 
@@ -760,8 +760,8 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
-  -webkit-animation: miAnimacion 0.2s linear;
-          animation: miAnimacion 0.2s linear;
+  -webkit-animation: miAnimacion .2s linear;
+          animation: miAnimacion .2s linear;
   height: auto;
   margin: 3rem 0;
 }

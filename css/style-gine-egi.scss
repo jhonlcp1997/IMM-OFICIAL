@@ -27,9 +27,6 @@ $border: 0.2rem solid $pink3;
 $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 
-// $abel:"Abel", sans-serif;
-// $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-
 $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $abel: "Abel", sans-serif;
 
@@ -41,7 +38,7 @@ $abel: "Abel", sans-serif;
 
 @keyframes miAnimacion {
     from {height: 0;}
-    to {height: 200px;}
+    to {height: 143px;}
 }
 
 @keyframes miAnimacion-2 {
@@ -672,7 +669,7 @@ body {
 
                     &.open {
                         // transition: all .5s ease-out;
-                        animation: miAnimacion 0.2s linear;
+                        animation: miAnimacion .2s linear;
                         height: auto;
                         margin: 3rem 0;
                     }

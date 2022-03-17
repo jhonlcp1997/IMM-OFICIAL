@@ -44,7 +44,7 @@ $franklin:"Abel", sans-serif;
 @keyframes miAnimacion {
 
     from {height:0;}
-    to {height:200px;}
+    to {height:143px;}
 
 }
 
@@ -715,7 +715,7 @@ body {
                     }
 
                     &.open {
-                        animation: miAnimacion 0.2s linear ;
+                        animation: miAnimacion .2s linear ;
                         // height: 18rem;
 
                         height: auto;
