@@ -124,58 +124,6 @@ body {
   background: #fff;
 }
 
-.header div .navbar-opciones {
-  font-size: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: 1px solid #f173ac;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #000;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul1 a {
-  color: #000;
-  font-size: 1.3rem;
-  margin-right: 2rem;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul2 {
-  text-align: center;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul2 .ginecologia {
-  display: inline-block;
-  padding: 0.5rem 2rem;
-  background: #f173ac;
-  color: #fff;
-  font-size: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul2 a {
-  color: #000;
-  margin: 0 0 0 0.5rem;
-}
-
-.header div .navbar-opciones .navbar-opciones-ul2 a:focus {
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #f173ac;
-}
-
 .header div .header-general {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,15 +132,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #000;
-}
-
-.header div .header-general .navbar-opciones-phone {
-  display: none;
-}
-
-.header div .header-general .navbar-opciones-phone ul li .ginecologia {
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #f173ac;
 }
 
 .header div .header-general .header-right {
@@ -615,50 +554,6 @@ body {
   color: #000;
 }
 
-.info-date .section_election {
-  max-width: 40rem;
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 2rem auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.info-date .section_election .day1 {
-  cursor: pointer;
-}
-
-.info-date .section_election .day1 strong {
-  color: #007cc3;
-  font-size: 1.4rem;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 0.5rem;
-}
-
-.info-date .section_election .day1.active {
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007cc3;
-}
-
-.info-date .section_election .day2 {
-  cursor: pointer;
-}
-
-.info-date .section_election .day2 strong {
-  color: #007cc3;
-  font-size: 1.4rem;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 0.5rem;
-}
-
-.info-date .section_election .day2.active {
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007cc3;
-}
-
 .info-date .info-date-container {
   display: none;
 }
@@ -965,16 +860,6 @@ body {
   .study {
     padding: 5rem 0 1rem 0;
   }
-  .characteres {
-    margin: auto;
-    padding: 3rem 3rem;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor {
-    margin: auto;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor .point2 {
-    display: none;
-  }
   .time-price .time-price_box1 .point3 {
     display: none;
   }
@@ -1006,9 +891,6 @@ body {
 @media (max-width: 800px) {
   .header div {
     margin: 0 0 0 0;
-  }
-  .header div .navbar-opciones {
-    display: none;
   }
   .header div .header-general {
     margin: 1rem 10%;
@@ -1186,14 +1068,6 @@ body {
   .study .atention {
     width: 90%;
   }
-  .characteres .characteres-center_rigth .slider-contenedor {
-    width: 420px;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
-    position: relative;
-    left: -10rem;
-    width: 420px;
-  }
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
@@ -1285,18 +1159,6 @@ body {
   }
   .study .tittle {
     font-size: 2.5rem;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor {
-    width: 198px;
-    height: 290px;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 {
-    left: -24rem;
-    width: 200px;
-    height: 290px;
-  }
-  .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
-    height: 250px;
   }
   .info-date h2 {
     font-size: 2rem;

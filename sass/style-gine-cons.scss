@@ -36,9 +36,6 @@ $franklin:"Abel", sans-serif;
 @keyframes miAnimacion_menu {
     from {height:10px;}
     to {height:20px;}
-
-    // from{scale: 0;}
-    // to{scale: 100;}
 }
 
 @keyframes miAnimacion {
@@ -122,72 +119,10 @@ body {
         width: 100rem;
         background: #fff;
 
-        .navbar-opciones {
-            font-size: 1rem;
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid $pink3;
-
-            .navbar-opciones-ul1 {
-                display: flex;
-                color: $black;
-                align-items: center;
-
-                a {
-                    color: $black;
-                    font-size: 1.3rem;
-                    margin-right: 2rem;
-                }
-            }
-
-            .navbar-opciones-ul2 {
-                text-align: center;
-
-                .ginecologia {
-                    display: inline-block;
-                    // margin-top: 1rem;
-                    padding: 0.5rem 2rem;
-                    background: $pink3;
-                    color: #fff;
-                    font-size: 1rem;
-                    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-                    cursor: pointer;
-
-                    // &:hover {
-                    //     letter-spacing: 0.1rem;
-                    // }
-                }
-
-                a {
-                    color: $black;
-                    margin: 0 0 0 0.5rem;
-
-                    &:focus {
-                        padding-bottom: 0.5rem;
-                        border-bottom: 1px solid #f173ac;
-                    }
-                }
-            }
-        }
-
         .header-general {
-            // margin-top: 2rem;
             display: flex;
             justify-content: space-between;
             color: $black;
-
-            .navbar-opciones-phone {
-                display: none;
-
-                ul {
-                    li {
-                        .ginecologia {
-                            padding-bottom: 0.5rem;
-                            border-bottom: 1px solid #f173ac;
-                        }
-                    }
-                }
-            }
 
             .header-right {
                 display: none;
@@ -224,7 +159,6 @@ body {
     height: 45rem;
     background: $azul;
     z-index: 1;
-    // padding: 3rem 17%;
 
     &::before {
         z-index: 0;
@@ -248,7 +182,6 @@ body {
         padding: 3rem;
 
         .home-nav1 {
-            // position: relative;
             z-index: 10;
             padding: 8rem 3rem 8rem 0;
             text-align: left;
@@ -589,46 +522,6 @@ body {
         color: $black;
     }
 
-    .section_election {
-        max-width: 40rem;
-        width: 90%;
-        display: flex;
-        // background-color: #bfbfbf;
-        margin: 2rem auto;
-        justify-content: space-between;
-
-        .day1 {
-            cursor: pointer;
-
-            strong {
-                color: $azul;
-                font-size: 1.4rem;
-                font-family: "Poppins", sans-serif;
-                padding-bottom: 0.5rem;
-            }
-
-            &.active {
-                padding-bottom: 0.5rem;
-                border-bottom: 2px solid $azul;
-            }
-        }
-
-        .day2 {
-            cursor: pointer;
-            strong {
-                color: $azul;
-                font-size: 1.4rem;
-                font-family: "Poppins", sans-serif;
-                padding-bottom: 0.5rem;
-            }
-
-            &.active {
-                padding-bottom: 0.5rem;
-                border-bottom: 2px solid $azul;
-            }
-        }
-    }
-
     .info-date-container {
         display: none;
 
@@ -938,21 +831,6 @@ body {
         padding: 5rem 0 1rem 0;
     }
 
-    .characteres {
-        margin: auto;
-        padding: 3rem 3rem;
-
-        .characteres-center_rigth {
-            .slider-contenedor {
-                margin: auto;
-
-                .point2 {
-                    display: none;
-                }
-            }
-        }
-    }
-
     .time-price {
         .time-price_box1 {
             .point3 {
@@ -996,10 +874,6 @@ body {
     .header {
         div {
             margin: 0 0 0 0;
-
-            .navbar-opciones {
-                display: none;
-            }
 
             .header-general {
                 margin: 1rem 10%;
@@ -1261,20 +1135,6 @@ body {
         }
     }
 
-    .characteres {
-        .characteres-center_rigth {
-            .slider-contenedor {
-                width: 420px;
-
-                .slider-contenedor2 {
-                    position: relative;
-                    left: -10rem;
-                    width: 420px;
-                }
-            }
-        }
-    }
-
     .info-date {
         .info-date-container {
             font-size: 1.15rem;
@@ -1430,25 +1290,6 @@ body {
     .study {
         .tittle {
             font-size: 2.5rem;
-        }
-    }
-
-    .characteres {
-        .characteres-center_rigth {
-            .slider-contenedor {
-                width: 198px;
-                height: 290px;
-
-                .slider-contenedor2 {
-                    left: -24rem;
-                    width: 200px;
-                    height: 290px;
-
-                    .characteres_all {
-                        height: 250px;
-                    }
-                }
-            }
         }
     }
 
