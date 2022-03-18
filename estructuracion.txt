@@ -18,3 +18,14 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -etiquetas para posicionamiento de la página(" Aunque no quieren asi que no agregare casi mucho")
 -testear en frontend
 -pedir renuncia... talvez...
+
+
+Identacion:
+cuando agregamos una subclase agregamos lo hacemos con dobleguion bajo:
+clasePadre__claseHijo
+
+Nombres de clases que se pueden heredar por el nombre del tag:
+header, img, footer, main, article, span 
+
+Nombres de clases que se pueden repetir por cumplir lo mismo:
+box, boxes, content, title y subtitle
