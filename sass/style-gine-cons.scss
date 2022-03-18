@@ -21,8 +21,6 @@ $border: 0.2rem solid $pink3;
 $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 
-// $abel:"Abel", sans-serif;
-// $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
 $abel: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $franklin:"Abel", sans-serif;
@@ -71,9 +69,6 @@ $franklin:"Abel", sans-serif;
     to {
         height: 20px;
     }
-
-    // from{scale: 0;}
-    // to{scale: 100;}
 }
 
 html {
@@ -200,8 +195,6 @@ body {
             }
 
             .home-nav1-P_2 {
-                // font-weight: 100;
-                
                 font-size: 3.4rem;
 
                 b{
@@ -414,7 +407,6 @@ body {
         .atention-div1{
             flex: 1 1 50rem;
             margin-bottom: 1rem;
-
             // background-color: #9f9f9f;
 
             .tittle{
@@ -449,9 +441,7 @@ body {
         }
 
         .atention-div2{
-            // flex: 1 1 18rem;
             margin: auto;
-            // text-align: right;
             // background-color: #f5a4c7;
             justify-content: center;
 
@@ -553,9 +543,6 @@ body {
                     }
 
                     &.open {
-                        // color: $pink3;
-                        // transition: all 0.5s linear;
-
                         img{
                             transition: .2s all linear;
 
@@ -935,27 +922,6 @@ body {
 
                 .header-center-right {
                     display: none;
-                    // display: inline-block;
-                    // text-align: center;
-                    // width: 50%;
-                    // position: absolute;
-                    // top: 75%;
-                    // right: 0;
-                    // background: #fff;
-                    // border-top: $border;
-                    // border-bottom: $border;
-                    // padding: 0 2rem;
-                    // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-
-                    // &.active {
-                    //     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-                    // }
-
-                    // a {
-                    //     display: block;
-                    //     font-size: 1.2rem;
-                    //     margin: 3rem 1rem;
-                    // }
                 }
 
                 .header-right {
@@ -963,25 +929,6 @@ body {
                     width: auto;
                     transition: all .5s ease-out;
 
-                    // div {
-                    //     height: 4.5rem;
-                    //     width: 4.5rem;
-                    //     line-height: 4.5rem;
-                    //     border-radius: 0.5rem;
-                    //     background: $white;
-                    //     font-size: 1.7rem;
-                    //     color: $pink3;
-                    //     margin-left: 0.3rem;
-                    //     text-align: center;
-                    //     cursor: pointer;
-                        
-
-                    //     &:hover {
-                    //         color: $pink3;
-                    //         // transition-delay: 1s;
-                    //         // color: $pink3;
-                    //     }
-                    // }
                     img{
                         width: 2.5rem;
                     }
@@ -1116,8 +1063,6 @@ body {
     .header {
         div {
             .header-general {
-                // margin: 1rem 0rem;
-
                 .header-left {
                     a {
                         img {
@@ -1140,8 +1085,6 @@ body {
             font-size: 1.15rem;
 
             .info-contenido {
-                // height: 18rem;
-
                 .contenido-body {
                     .div1 {
                         width: 25rem;
@@ -1163,7 +1106,6 @@ body {
         .ofrecemos-footer{
             .ofrecemos_footer_div1{
                 div{
-
                     a{
                         i{
                             font-size: 3.8rem;
@@ -1203,11 +1145,9 @@ body {
     .home {
         display: flex;
         height: auto;
-        .home_box {
-            // background-color: #bfbfbf;
 
+        .home_box {
             .home-nav1 {
-                // position: relative;
                 text-align: center;
                 margin: 0 auto 0 10rem;
             }
