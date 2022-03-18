@@ -75,3 +75,47 @@ body{
 	height: 5rem;
 	background-color: cornflowerblue;
 }
+
+.tip{
+	width: 100%;
+	background-color: #007cc3;
+}
+
+.box{
+	margin: auto;
+	width: 100%;
+	max-width: 60rem;
+	/* background-color: #fff; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	max-width: 35rem;
+	color: #fff;
+	padding: 2rem 1rem;
+}
+
+h2{
+	font-family: "Abel", sans-serif;
+}
+
+span{
+	font-family:"Abel", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+p{
+	padding: .5rem 0;
+}
+
+.box__img{
+	max-width: 25rem;
+	background-color: #f77;
+}
+
+.img{
+	display: flex;
+	max-width: 25rem;
+}
