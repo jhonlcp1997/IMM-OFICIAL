@@ -29,6 +29,7 @@ $azul: #007cc3;
 
 $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $abel: "Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
 
 @mixin grid($val) {
     display: grid;
@@ -720,6 +721,70 @@ body {
     }
 }
 
+
+.tips{
+    background-color: #fff;
+    padding-top: 10rem;
+
+    .tips__box{
+        width: 100%;
+        // height: 40rem;
+        background: $azul;
+
+        .box{
+            // background-color: #777;
+            max-width:110rem;
+            width: 95%;
+            margin: auto;
+            // background-color: $azul;
+            display: flex;
+            justify-content: space-between;
+
+            .box__content{
+                // background-color: #f4c6de;
+
+                .content{
+                    color: #fff;
+                    width: 100%;
+                    max-width: 50rem;
+                    padding: 5rem 2rem 4rem 0;
+    
+                    .title-1{
+                        padding-top: 1rem;
+                        font-family: $abel;
+                        font-weight: 600;
+                        font-size: 2.2rem;
+                    }
+        
+                    .title-2{
+                        font-family: $abel;
+                        font-size: 2rem;
+                    }
+    
+                    .paragraph{
+                        padding: 2rem 0 1rem 0;
+                        font-size: 1.3rem;
+                        font-family: $poppins;
+                    }
+                }
+            }
+    
+            .box__img{
+                display: flex;
+                align-self: center;
+                // background-color: #777;
+                // width: 100%;
+                min-width: 50rem;
+                height: 30rem;
+                // display: flex;
+                text-align: right;
+                justify-content: right;
+
+            }
+        }
+    }
+}
+
 .footer {
     background-color: #fff;
     text-align: center;
@@ -766,7 +831,7 @@ body {
 
                     li{
                         p{
-                            font-size: 1.4rem
+                            font-size: 1.3rem
                         }
                     }
                 }
@@ -779,7 +844,7 @@ body {
 
                 .footer-ul3 {
                     li {
-                        font-size: 1.4rem;
+                        font-size: 1.3rem;
                         color: #007cc3;
                         font-weight: 100;
                     }
@@ -1119,6 +1184,23 @@ body {
         }
     }
 
+    .tips{
+        .tips__box{
+            .box{
+                .box__img{
+                    min-width: 40rem;
+                    height: 24rem;
+                    
+                    .img{
+                        // display: none;
+                        // width: 30rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
     .footer {
         .ofrecemos-footer {
             width: 80vw;
@@ -1259,6 +1341,30 @@ body {
 
             .home-nav2 {
                 display: none;
+            }
+        }
+    }
+
+    .tips{
+        .tips__box{
+            .box{
+                text-align: center;
+                // background-color: #777;
+                display: flex;
+                flex-wrap: wrap;
+
+                .box__content{
+                    margin: auto;
+
+                    .content{
+                        padding-right: 0;
+                    }
+                }
+
+                .box__img{
+                    margin: auto;
+
+                }
             }
         }
     }
@@ -1409,6 +1515,22 @@ body {
             }
         }
     }
+
+    .tips{
+        .tips__box{
+            .box{
+                .box__img{
+                    display: flex;
+                    min-width: 20rem;
+
+                    .img{
+                        margin: auto;                        
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 370px) {
@@ -1483,6 +1605,16 @@ body {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .tips{
+        .tips__box{
+            .box{
+                .box__img{
+                    height: auto;
                 }
             }
         }
