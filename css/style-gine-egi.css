@@ -1310,7 +1310,7 @@ body {
     margin: auto;
   }
   .tips .tips__box .box .box__content .content {
-    padding-right: 0;
+    padding: 2rem;
   }
   .tips .tips__box .box .box__img {
     margin: auto;
