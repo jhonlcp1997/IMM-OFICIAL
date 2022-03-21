@@ -119,3 +119,4 @@ Aun no me han validado nada, asi que no se que más poner, pero aun tengo la cab
 Hibamos a ver la parte de imm metabolico y el immujer pero creo que se quedo en na, espero que Saulo este viendo eso.
 Quiero modificar la parte de los characters all pero creo que luego me van servir, por eso aun mantengo varios de ellos comentado, y lo de modificar, creo que lo voy a terminar malogrando al resto.
 Entonces no se que podria poner mas es como si cada cosa que hiciera estuviera a punto o me esta escondiendo un gran problema, que luego no podré resolver(esto lo escribe el Jhon con sueño).
+Parte de los nuevos modulos estaran basados en la de egi basica, y como dije el por que no borro esos comentarios espor que me pueden servir mas adelante(Esta parte tambien lo escribe el Jhon con sueño)
