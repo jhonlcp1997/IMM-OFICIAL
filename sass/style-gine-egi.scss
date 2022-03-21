@@ -728,21 +728,16 @@ body {
 
     .tips__box{
         width: 100%;
-        // height: 40rem;
         background: $azul;
 
         .box{
-            // background-color: #777;
             max-width:110rem;
             width: 95%;
             margin: auto;
-            // background-color: $azul;
             display: flex;
             justify-content: space-between;
 
             .box__content{
-                // background-color: #f4c6de;
-
                 .content{
                     color: #fff;
                     width: 100%;
@@ -758,7 +753,7 @@ body {
         
                     .title-2{
                         font-family: $abel;
-                        font-size: 2rem;
+                        font-size: 2.2rem;
                     }
     
                     .paragraph{
@@ -772,11 +767,8 @@ body {
             .box__img{
                 display: flex;
                 align-self: center;
-                // background-color: #777;
-                // width: 100%;
                 min-width: 50rem;
                 height: 30rem;
-                // display: flex;
                 text-align: right;
                 justify-content: right;
 
@@ -1349,7 +1341,6 @@ body {
         .tips__box{
             .box{
                 text-align: center;
-                // background-color: #777;
                 display: flex;
                 flex-wrap: wrap;
 
@@ -1365,7 +1356,6 @@ body {
                     margin: auto;
                     justify-content: center;
                     .img{
-                        // box-shadow: $boxshadowG;
                         box-shadow: -.5rem .5rem 30px -10px rgb(51, 46, 46);
                     }
                 }
