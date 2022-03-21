@@ -1502,6 +1502,9 @@ body {
     -webkit-animation: miAnimacion-3 .2s linear;
             animation: miAnimacion-3 .2s linear;
   }
+  .tips {
+    padding-top: 5rem;
+  }
   .tips .tips__box .box .box__img {
     height: auto;
   }

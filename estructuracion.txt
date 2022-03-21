@@ -19,8 +19,12 @@ https://www.scotiabank.com.pe/Acerca-de/default
 -testear en frontend
 -pedir renuncia... talvez...
 
+=== Para extras:
+-Cualquier tag creado en HTML se empieza y se termina comentando ejemplo <--tag INICIO-->, <--tag FIN-->.
+-Comentar al inicio que es lo que hace en palabras simples cuando se crean funciones, clases o metodos que hagan reaccion
+    en el DOM en JS.
 
-Identacion:
+=== Identacion:
 cuando agregamos una subclase agregamos lo hacemos con dobleguion bajo:
 clasePadre__claseHijo
 
