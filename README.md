@@ -27,6 +27,9 @@ Primer repositorio del Instituto Medico de la Mujer
 - views
     - gestacional-antenatal.html
     - gestacional-crecimiento_doppler.html
+    - gestacional-genetico.html
+    - gestacional-morfologico.html
+    - gestacional-premorfologico.html
 
     - others **Esto va a trabajar como un apartado**
         - colocacion_hierro.html 
