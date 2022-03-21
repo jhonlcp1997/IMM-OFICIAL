@@ -1314,6 +1314,9 @@ body {
   }
   .tips .tips__box .box .box__img {
     margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .tips .tips__box .box .box__img .img {
     -webkit-box-shadow: -0.5rem 0.5rem 30px -10px #332e2e;
