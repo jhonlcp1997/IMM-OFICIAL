@@ -354,7 +354,7 @@ body {
                 i {
                     font-size: 4rem;
                 }
-            }
+        }
 
         .arrow-right {
             left: initial;
@@ -716,7 +716,7 @@ body {
     }
 }
 
-
+// *Esta parte TIPS es la más simple de todas, incluso en los mediaqueries
 .tips{
     background-color: #fff;
     padding-top: 10rem;
@@ -867,6 +867,7 @@ body {
 }
 
 //* ================= Media quieries =============
+//? Hay muchas mediaqueries, pero tengo que tratar de reducir algunos
 
 @media (max-width: 1050px) {
     .header {
@@ -890,7 +891,6 @@ body {
             }
 
             .home-nav2 {
-                display: flex;
                 width: 50%;
                 align-items: center;
 
@@ -911,7 +911,6 @@ body {
 
     .characteres {
         margin: auto;
-        padding: 3rem 0rem 1rem 0;
 
         &.emi{
             margin: auto;
@@ -920,18 +919,8 @@ body {
         .characteres-center_rigth {
             .arrow-left, .arrow-right {
                 display: none;
-                left: 15px;
-                z-index: 2;
-
-                i {
-                    font-size: 4rem;
-                }
             }
 
-            .arrow-right {
-                left: initial;
-                right: 15px !important;
-            }
             .slider-contenedor {
                 width: 100%;
                 margin: auto;
@@ -994,7 +983,6 @@ body {
 
             .header-general {
                 margin: 1rem 10%;
-                justify-content: space-between;
 
                 .header-left {
                     display: flex;
@@ -1007,6 +995,8 @@ body {
                         }
                     }
                 }
+
+                // ? INICIO===== Esta parte está para cuando vuelvan a poner gine y gesta juntos
 
                 .navbar-opciones-phone {
                     display: flex;
@@ -1047,6 +1037,8 @@ body {
                         }
                     }
                 }
+
+                // ? FINAL===== Esta parte está para cuando vuelvan a poner gine y gesta juntos
 
                 .header-center-right {
                     display: none;
@@ -1243,8 +1235,8 @@ body {
                     width: 25rem;         
                     height: 25rem;
                     .img{
-                         width: 25rem;       
-                         height: 25rem;
+                        width: 25rem;       
+                        height: 25rem;
                     }
                 }
             }
@@ -1355,22 +1347,6 @@ body {
 }
 
 @media (max-width: 530px) {
-    .header {
-        div {
-            .header-general {
-                .header-left {
-                    a {
-                        img {
-                            position: relative;
-                            top: 0.5rem;
-                            width: 10rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
     .home {
         .home_box {
             display: flex;
@@ -1414,24 +1390,6 @@ body {
 
     .characteres {
         .characteres-center_rigth {
-            .arrow-left, .arrow-right {
-                color: $pink2;
-                cursor: pointer;
-                position: absolute;
-                top: 45%;
-                left: 10px;
-                z-index: 2;
-
-                i {
-                    font-size: 3.5rem;
-                }
-            }
-
-            .arrow-right {
-                left: initial;
-                right: 10px !important;
-            }
-
             .slider-contenedor {
                 height: 290px;
 

@@ -980,9 +980,6 @@ body {
     vertical-align: middle;
   }
   .home .home_box .home-nav2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 50%;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -999,22 +996,12 @@ body {
   }
   .characteres {
     margin: auto;
-    padding: 3rem 0rem 1rem 0;
   }
   .characteres.emi {
     margin: auto;
   }
   .characteres .characteres-center_rigth .arrow-left, .characteres .characteres-center_rigth .arrow-right {
     display: none;
-    left: 15px;
-    z-index: 2;
-  }
-  .characteres .characteres-center_rigth .arrow-left i, .characteres .characteres-center_rigth .arrow-right i {
-    font-size: 4rem;
-  }
-  .characteres .characteres-center_rigth .arrow-right {
-    left: initial;
-    right: 15px !important;
   }
   .characteres .characteres-center_rigth .slider-contenedor {
     width: 100%;
@@ -1058,9 +1045,6 @@ body {
   }
   .header div .header-general {
     margin: 1rem 10%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .header div .header-general .header-left {
     display: -webkit-box;
@@ -1325,11 +1309,6 @@ body {
 }
 
 @media (max-width: 530px) {
-  .header div .header-general .header-left a img {
-    position: relative;
-    top: 0.5rem;
-    width: 10rem;
-  }
   .home .home_box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1363,21 +1342,6 @@ body {
   }
   .study .tittle {
     font-size: 2.5rem;
-  }
-  .characteres .characteres-center_rigth .arrow-left, .characteres .characteres-center_rigth .arrow-right {
-    color: #f5a4c7;
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    left: 10px;
-    z-index: 2;
-  }
-  .characteres .characteres-center_rigth .arrow-left i, .characteres .characteres-center_rigth .arrow-right i {
-    font-size: 3.5rem;
-  }
-  .characteres .characteres-center_rigth .arrow-right {
-    left: initial;
-    right: 10px !important;
   }
   .characteres .characteres-center_rigth .slider-contenedor {
     height: 290px;
