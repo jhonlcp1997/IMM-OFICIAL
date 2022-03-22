@@ -124,3 +124,8 @@ Parte de los nuevos modulos estaran basados en la de egi basica, y como dije el 
 22-03-2022:
 Empezando el mundo, dijo la gente.
 La parte agregada a Ginecologia-egi.html por el momento solo va a estar en egi.
+No se si deberia cambiar el footer, pero...
+Hoy tuve la primera reunion de netlify, todo en ingles rapido, no entendi un carajo... :C :C :c :C
+En unos momentos me van a revizar la parte de gine-egi.html
+La parte del footer como que no me convence, quisiera dejarlo todo uniforme, pero talvez luego me arrepienta, es por eso que no puedo ponerle
+Agregue en la parte de head en consulta.html el link rel="preload" "Segun esto carga la pagina por seacaso no se hayan cargado los estilos en el primer layout.

@@ -6,8 +6,15 @@ Primer repositorio del Instituto Medico de la Mujer
 
 ## Estructura de la pagina "sin las carpetas vacias"
 
-- css (se eencuentran todos los estilos, pero los trabaje en SASS)
-- js
+- /css (se eencuentran todos los estilos, pero los trabaje en SASS)
+- /img **(aqui se enceuntran las imagenes simples, que van los header y footer, flechas etc)**
+    - image-simple(svg de los primeros -> a estos tendre que cambiarlos para no tener muchas carpetas)
+    - image-simple2(aqui se encuentran la mayoria de las imagenes)
+    - images-gest(Todo lo agregado despues en gestacional)
+    - images-gine(Todo lo agregado despues en ginecologico)
+- /images
+    - Endocrinologas **(por el momento solo hay esto)** había xD
+- /js
     - carrusel_gen.js
     - carrusel-egi-emi.js
     - content_arrows-gine.js
@@ -16,22 +23,16 @@ Primer repositorio del Instituto Medico de la Mujer
     - test.js
     - /others-js
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
-- img **(aqui se enceuntran las imagenes simples, que van los header y footer, flechas etc)**
-    - image-simple(svg de los primeros -> a estos tendre que cambiarlos para no tener muchas carpetas)
-    - image-simple2(aqui se encuentran la mayoria de las imagenes)
-    - images-gest(Todo lo agregado despues en gestacional)
-    - images-gine(Todo lo agregado despues en ginecologico)
-- images
-    - Endocrinologas **(por el momento solo hay esto)** había xD
-    
-- views
+- /views
     - gestacional-antenatal.html
     - gestacional-crecimiento_doppler.html
     - gestacional-genetico.html
     - gestacional-morfologico.html
     - gestacional-premorfologico.html
 
-    - others **Esto va a trabajar como un apartado**
+    - /others **Esto va a trabajar como un apartado**
+        - ginecologia-info_date-consulta.html(fue hecho sin pensar, por la presion de la de procesos y la de marketing)
+        - ginecologia-info_date-egi.html(fue hecho sin pensar, por la presion de la de procesos y la de marketing)
         - colocacion_hierro.html 
         - encrinologas.html
         - muestra_de_sangre.html
