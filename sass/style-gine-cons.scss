@@ -22,8 +22,8 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 
 
-$abel: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-$franklin:"Abel", sans-serif;
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel:"Abel", sans-serif;
 
 @mixin grid($val) {
     display: grid;
@@ -168,7 +168,6 @@ body {
     }
 
     .home_box {
-        // background-color: #bfbfbf;
         width: 95%;
         max-width: 120rem;
         margin: auto;
@@ -183,24 +182,14 @@ body {
             // vertical-align: middle;
 
             P {
-                // vertical-align: middle;
                 color: #fff;
-                font-family: $franklin;
+                font-family: $abel;
                 text-align: left;
                 margin: 0.5rem 0;
             }
 
-            .home-nav1-P_1 {
-                font-size: 3.2rem;
-            }
-
             .home-nav1-P_2 {
-                font-size: 3.4rem;
-
-                b{
-                    font-family: $franklin;
-                    font-size: 3.5rem;
-                }
+                font-size: 3.5rem;
             }
 
             .home-nav1-P_3{
@@ -220,7 +209,7 @@ body {
                 border-radius: 15px;
 
                 a {
-                    font-family: $franklin;
+                    font-family: $abel;
                     // font-weight: bold;
                     color: #fff;
                     font-size: 1.5rem;
@@ -275,7 +264,7 @@ body {
         padding: 0 2rem;
         color: $pink3;
         text-align: center;
-        font-family: $franklin;
+        font-family: $abel;
         font-size: 2.8rem;
     }
 
@@ -284,7 +273,7 @@ body {
         width: 95%;
         max-width: 90rem;
         // background-color: #f4c6de;
-        margin: 6rem auto 6rem auto;
+        margin: 6rem auto;
         justify-content: space-between;
         flex-wrap: wrap;
 
@@ -348,7 +337,7 @@ body {
     
                 h3 {
                     // padding-right: 20rem;
-                    font-family: $franklin;
+                    font-family: $abel;
                     font-size: 2rem;
                     color: $pink3;
                 }
@@ -383,7 +372,7 @@ body {
     
                 h3 {
                     // padding-right: 20rem;
-                    font-family: $franklin;
+                    font-family: $abel;
                     font-size: 2.5rem;
                 }
     
@@ -415,7 +404,7 @@ body {
                 text-align: left;
                 color: $pink3;
                 font-size: 2.8rem;
-                font-family: $franklin;
+                font-family: $abel;
             }
 
             .sub_subtittle{
@@ -454,33 +443,6 @@ body {
                     width: 12rem;
                 }
             }
-
-            .animated {
-                margin-top: 2.5rem;
-                padding-top: 0.5rem;
-                color: #fff;
-                width: 16.5rem;
-                height: 3.5rem;
-                // align-content: center;
-                text-align: center;
-                background: #f173ac;
-                border-radius: 15px;
-
-                a {
-                    font-family: $franklin;
-                    // font-weight: bold;
-                    color: #fff;
-                    font-size: 1.5rem;
-                    font-weight: 600;
-
-                    i {
-                        position: relative;
-                        top: 2px;
-                        font-size: 2rem;
-                        margin-right: 1rem;
-                    }
-                }
-            }
         }
     }
 }
@@ -498,7 +460,7 @@ body {
     top: 2rem;
 
     h2 {
-        font-family: $franklin;
+        font-family: $abel;
         color: $pink3;
         font-size: 2.8rem;
         margin-bottom: 2rem;
@@ -622,36 +584,25 @@ body {
         }
     }
 
-    .point4 {
+    .point4, .point5, .point6, .point7{
         width: 10rem;
         position: absolute;
         z-index: 100;
+    }
+
+    .point4 {
         top: 2rem;
         right: -2rem;
     }
 
     .point5 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
-        top: 2rem;
-        left: -2rem;
+        top: 40%;
+        left: -6rem;
     }
 
     .point6 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
         bottom: -3rem;
         right: -3rem;
-    }
-
-    .point7 {
-        width: 10rem;
-        position: absolute;
-        z-index: 100;
-        bottom: -3rem;
-        left: -3rem;
     }
 }
 
@@ -696,7 +647,7 @@ body {
 
                     h2 {
                         font-size: 1.6rem;
-                        font-family: $franklin;
+                        font-family: $abel;
                     }
 
                     li {
@@ -713,7 +664,7 @@ body {
                     h2 {
                         font-size: 1.6rem;
                         text-align: start;
-                        font-family: $franklin;
+                        font-family: $abel;
                     }
 
                     li {
@@ -830,22 +781,12 @@ body {
         padding: 2rem 1rem;
         width: 100%;
 
-        .point4 {
-            display: none;
-        }
-        .point5 {
-            display: none;
-        }
-        .point6 {
-            display: none;
-        }
-        .point7 {
+        .point4,.point5, .point6 {
             display: none;
         }
     }
 
     .footer {
-        // width: 100%;
         .ofrecemos-footer {
             width: 100%;
             padding: 0 2rem;
@@ -860,7 +801,7 @@ body {
 @media (max-width: 800px) {
     .header {
         div {
-            margin: 0 0 0 0;
+            margin: 0;
 
             .header-general {
                 margin: 1rem 10%;

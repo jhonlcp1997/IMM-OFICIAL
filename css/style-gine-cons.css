@@ -211,16 +211,7 @@ body {
   margin: 0.5rem 0;
 }
 
-.home .home_box .home-nav1 .home-nav1-P_1 {
-  font-size: 3.2rem;
-}
-
 .home .home_box .home-nav1 .home-nav1-P_2 {
-  font-size: 3.4rem;
-}
-
-.home .home_box .home-nav1 .home-nav1-P_2 b {
-  font-family: "Abel", sans-serif;
   font-size: 3.5rem;
 }
 
@@ -307,7 +298,7 @@ body {
   display: flex;
   width: 95%;
   max-width: 90rem;
-  margin: 6rem auto 6rem auto;
+  margin: 6rem auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -501,31 +492,6 @@ body {
   width: 12rem;
 }
 
-.study .atention .atention-div2 .animated {
-  margin-top: 2.5rem;
-  padding-top: 0.5rem;
-  color: #fff;
-  width: 16.5rem;
-  height: 3.5rem;
-  text-align: center;
-  background: #f173ac;
-  border-radius: 15px;
-}
-
-.study .atention .atention-div2 .animated a {
-  font-family: "Abel", sans-serif;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.study .atention .atention-div2 .animated a i {
-  position: relative;
-  top: 2px;
-  font-size: 2rem;
-  margin-right: 1rem;
-}
-
 .info-date {
   margin: auto;
   width: 100rem;
@@ -671,36 +637,25 @@ body {
   display: none;
 }
 
-.info-date .point4 {
+.info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
   width: 10rem;
   position: absolute;
   z-index: 100;
+}
+
+.info-date .point4 {
   top: 2rem;
   right: -2rem;
 }
 
 .info-date .point5 {
-  width: 10rem;
-  position: absolute;
-  z-index: 100;
-  top: 2rem;
-  left: -2rem;
+  top: 40%;
+  left: -6rem;
 }
 
 .info-date .point6 {
-  width: 10rem;
-  position: absolute;
-  z-index: 100;
   bottom: -3rem;
   right: -3rem;
-}
-
-.info-date .point7 {
-  width: 10rem;
-  position: absolute;
-  z-index: 100;
-  bottom: -3rem;
-  left: -3rem;
 }
 
 .footer {
@@ -867,16 +822,7 @@ body {
     padding: 2rem 1rem;
     width: 100%;
   }
-  .info-date .point4 {
-    display: none;
-  }
-  .info-date .point5 {
-    display: none;
-  }
-  .info-date .point6 {
-    display: none;
-  }
-  .info-date .point7 {
+  .info-date .point4, .info-date .point5, .info-date .point6 {
     display: none;
   }
   .footer .ofrecemos-footer {
@@ -890,7 +836,7 @@ body {
 
 @media (max-width: 800px) {
   .header div {
-    margin: 0 0 0 0;
+    margin: 0;
   }
   .header div .header-general {
     margin: 1rem 10%;
@@ -1000,7 +946,7 @@ body {
   .header div .header-general .header-menu .header-center-right-tittle {
     text-align: left;
     margin-top: 1rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Abel", sans-serif;
     color: #007cc3;
   }
   .header div .header-general .header-menu .header-modules {
