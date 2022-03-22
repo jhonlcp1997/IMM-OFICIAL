@@ -659,8 +659,9 @@ body {
 }
 
 .footer {
-  margin-top: 5rem;
+  padding-top: 5rem;
   width: 100%;
+  background-color: #fff;
 }
 
 .footer .ofrecemos-footer {
@@ -725,6 +726,10 @@ body {
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box:first-child a {
   padding: 1rem 1.2rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box:first-child p {
+  color: #000;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
@@ -1001,6 +1006,9 @@ body {
   }
   .home .home_box .home-nav2 {
     display: none;
+  }
+  .footer {
+    padding-top: 2rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     -webkit-box-orient: vertical;

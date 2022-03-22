@@ -607,8 +607,9 @@ body {
 }
 
 .footer {
-    margin-top: 5rem;
+    padding-top: 5rem;
     width: 100%;
+    background-color: #fff;
 
     .ofrecemos-footer {
         width: 90%;
@@ -664,6 +665,10 @@ body {
                 &:first-child {
                     a {
                         padding: 1rem 1.2rem;
+                    }
+                    
+                    p{
+                        color: #000;
                     }
                 }
             }
@@ -1036,6 +1041,7 @@ body {
     }
     
     .footer {
+        padding-top: 2rem;
         .ofrecemos-footer {
             .ofrecemos_footer_div1 {
                 flex-direction: column;
