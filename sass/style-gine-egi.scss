@@ -272,7 +272,6 @@ body {
         display: flex;
         width: 95%;
         max-width: 100rem;
-        // background-color: #f4c6de;
         margin: auto;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -362,13 +361,11 @@ body {
             width: 90%;
             max-width: 105rem;
             display: flex;
-            // flex-wrap: wrap;
             overflow: hidden;
 
             .slider-contenedor2 {
                 display: flex;
                 width: 100%;
-                // width: 630px;
                 margin-left: -210px;
                 height: 330px;
                 gap: 10px;
@@ -389,7 +386,6 @@ body {
                     img {
                         text-align: center;
                         width: 20rem;
-                        // height: 8rem;
                         margin: 0;
                     }
 
