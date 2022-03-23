@@ -155,6 +155,11 @@ body {
   border-bottom: 1px solid #f173ac;
 }
 
+.header div .header-general .header-center-right a.active {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f173ac;
+}
+
 .header div .header-general .header-menu {
   display: none;
 }
@@ -722,6 +727,10 @@ body {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a i {
   color: #666;
   font-size: 1.8rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div {
+  padding-top: .5rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box:first-child a {

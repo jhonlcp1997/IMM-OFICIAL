@@ -137,7 +137,12 @@ body {
                     &:focus {
                         padding-bottom: 1rem;
                         border-bottom: 1px solid #f173ac;
-                    }
+                    } 
+
+                    &.active{
+                        padding-bottom: 1rem;
+                        border-bottom: 1px solid #f173ac;
+                    } 
                 }
             }
 
@@ -659,6 +664,12 @@ body {
                                 font-size: 1.8rem;
                             }
                         }
+                    }
+                }
+
+                .footer-ul2{
+                    div{
+                        padding-top: .5rem;
                     }
                 }
 
