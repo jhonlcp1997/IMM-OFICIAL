@@ -381,6 +381,10 @@ html {
   width: 1.7rem;
 }
 
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div {
+  padding-top: .5rem;
+}
+
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a {
   padding: 0 0.5rem 0 0;
 }
