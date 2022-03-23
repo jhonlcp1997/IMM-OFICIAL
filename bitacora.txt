@@ -129,3 +129,11 @@ Hoy tuve la primera reunion de netlify, todo en ingles rapido, no entendi un car
 En unos momentos me van a revizar la parte de gine-egi.html
 La parte del footer como que no me convence, quisiera dejarlo todo uniforme, pero talvez luego me arrepienta, es por eso que no puedo ponerle
 Agregue en la parte de head en consulta.html el link rel="preload" "Segun esto carga la pagina por seacaso no se hayan cargado los estilos en el primer layout.
+
+23-03-2022:
+Empezando el dia, espero que este dia no se me malogre más, pero lo más probalbe es que si.
+Tratare de avanzar un poco de react js. pero lo más probable es que no pueda repasar nada, será por que es el Jhon asi XD
+Quizas el curso de JONMIRCHA esta algo incompleto por que en udemy el primer curso que aparece arriba tiene más modulos.
+Esta vez no le entendí un carajito al webinar, pero se aprende un poco sobre que tecnologias soporta mejor netlify. Alterminar esto masumenos, me ayuda a prcticar el ingels mas que otra cosa
+Al paracer por hoy no me van a poner para hacer cambio pero, yo ni bien llego tengo que ir a comprar los cursos, son mas que nada para poder tener un espectro de lo que pueda hacer aunque conociendome no los voy a poder estudiar, y eso es por que me conozco.
+No se que más hacer...
