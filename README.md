@@ -1,19 +1,19 @@
 # IMM-prueba
-Primer repositorio del Instituto Medico de la Mujer
+Primer repositorio del Instituto Médico de la Mujer
 
 
 ***Programador a cargo: JHON LARRY CRUZ PORRAS***
 
-## Estructura de la pagina "sin las carpetas vacias"
+## Estructura de la página "sin las carpetas vacias"
 
-- /css (se eencuentran todos los estilos, pero los trabajé en SASS)
+- /css (se encuentran todos los estilos, pero los trabajé en SASS)
 - /img **(aqui se encuentran las imágenes simples, que van los header y footer, flechas etc)**
-    - image-simple(svg de los primeros -> a estos tendre que cambiarlos para no tener muchas carpetas)
-    - image-simple2(aqui se encuentran la mayoria de las imagenes)
+    - image-simple(svg de los primeros -> a estos tendré que cambiarlos para no tener muchas carpetas)
+    - image-simple2(aqui se encuentran la mayoria de las imágenes)
     - images-gest(Todo lo agregado despues en gestacional)
-    - images-gine(Todo lo agregado despues en ginecologico)
+    - images-gine(Todo lo agregado despues en ginecológico)
 - /images
-    - Endocrinologas **(por el momento solo hay esto)** había xD
+    - Endocrinólogas **(por el momento solo hay esto)** había xD
 - /js
     - carrusel_gen.js
     - carrusel-egi-emi.js
@@ -31,7 +31,7 @@ Primer repositorio del Instituto Medico de la Mujer
     - gestacional-premorfologico.html
 
     - /others **Esto va a trabajar como un apartado**
-        - ginecologia-info_date-consulta.html(fue hecho sin pensar, por la presion de la de procesos y la de marketing)
+        - ginecologia-info_date-consulta.html(fue hecho sin pensar, por la presión de la de procesos y la de marketing)
         - ginecologia-info_date-egi.html(fue hecho sin pensar, por la presion de la de procesos y la de marketing)
         - colocacion_hierro.html 
         - encrinologas.html
@@ -40,12 +40,12 @@ Primer repositorio del Instituto Medico de la Mujer
 - ***index.html***  **(por defecto abre el contenido gestacional-viabilidad)**
 
 
-### ***Pondre a prueba lo que encontre sobre ilustrator a diseño web ("Al final no lo hice")***
+### ***Pondré a prueba lo que encontré sobre ilustrator a diseño web ("Al final no lo hice")***
 
 ### Páginas web alternativas del IMM:
 -http://www.immetabolico.com.pe/
 
-### Tengo que hacer algo parecido a esta pagina para poder avanzar algo
+### Tengo que hacer algo parecido a esta página para poder avanzar algo
 -https://www.scotiabank.com.pe/Acerca-de/default
 
 ### Página de prueba
