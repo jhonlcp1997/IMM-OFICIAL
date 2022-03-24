@@ -32,13 +32,12 @@ Primer repositorio del Instituto Médico de la Mujer
 
     - /others **Esto va a trabajar como un apartado**
         - ginecologia-info_date-consulta.html(fue hecho sin pensar, por la presión de la de procesos y la de marketing)
-        - ginecologia-info_date-egi.html(fue hecho sin pensar, por la presion de la de procesos y la de marketing)
+        - ginecologia-info_date-egi.html(fue hecho sin pensar, por la presión de la de procesos y la de marketing)
         - colocacion_hierro.html 
         - encrinologas.html
         - muestra_de_sangre.html
         - recomendaciones-hierro.html
 - ***index.html***  **(por defecto abre el contenido gestacional-viabilidad)**
-
 
 ### ***Pondré a prueba lo que encontré sobre ilustrator a diseño web ("Al final no lo hice")***
 
@@ -57,4 +56,4 @@ Errores que no son errores:
 - Uncaught TypeError: Cannot set properties of null (setting 'onclick')
     at content_arrows-gine.js:77:19
 
-- Error de Favicon.ico al cargar la pagina
+- Error de Favicon.ico al cargar la página
