@@ -51,3 +51,10 @@ Primer repositorio del Instituto Medico de la Mujer
 ### Página de prueba
 
 ### Página final
+
+
+Errores que no son errores:
+- Uncaught TypeError: Cannot set properties of null (setting 'onclick')
+    at content_arrows-gine.js:77:19
+
+- Error de Favicon.ico al cargar la pagina
