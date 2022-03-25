@@ -211,8 +211,11 @@ $poppins: "Poppins", sans-serif;
     }
 
     .subtittle {
-        color: $azul;
+        font-weight: 600;
         font-size: 1.5rem;
+        color: #007cc3d2;
+        // color: $azul;
+        // font-size: 1.5rem;
     }
 
     .avoid_features {
@@ -558,6 +561,17 @@ $poppins: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 360px) {
+
+    // *
+    .section_tittle{
+        .box{
+            .span{
+                font-size: 1.7rem;
+            }
+        }
+    }
+    // *
+
     .patients {
         background-position: 25% 10%;
         .box {
@@ -572,12 +586,81 @@ $poppins: "Poppins", sans-serif;
                 .img_pills {
                     width: 8rem;
                 }
+                // *
+
+                .tittle{
+                    font-size: 1.8rem;
+                }
+
+                .subtittle{
+                    font-size: 1.8rem;
+                }
+
+                .paragraph{
+                    font-size: 1.4rem;
+                }
             }
         }
     }
+    // *
     .recommendations {
         margin-top: 25rem;
+        // *
+
+        .div-1 {
+            .box{
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .div-2{
+            .box{
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+        }
     }
+
+    .avoid{
+        .tittle{
+            padding: 0 1rem;
+            font-size: 1.8rem;
+        }
+
+        .subtittle{
+            font-size: 1.7rem;
+        }
+    }
+
+    .import{
+        .box{
+            .boxes{
+                .boxes_div{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                .box{
+                    h2{
+                        font-size: 1.1rem;
+                    }
+
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    // *
 }
 
 @media screen and (max-width: 270px) {

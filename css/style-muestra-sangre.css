@@ -209,8 +209,9 @@ html {
 }
 
 .avoid .subtittle {
-  color: #007cc3;
+  font-weight: 600;
   font-size: 1.5rem;
+  color: #007cc3d2;
 }
 
 .avoid .avoid_features {
@@ -521,6 +522,9 @@ html {
 }
 
 @media screen and (max-width: 360px) {
+  .section_tittle .box .span {
+    font-size: 1.7rem;
+  }
   .patients {
     background-position: 25% 10%;
   }
@@ -536,8 +540,39 @@ html {
   .patients .box .box_div-1 .img_pills {
     width: 8rem;
   }
+  .patients .box .box_div-1 .tittle {
+    font-size: 1.8rem;
+  }
+  .patients .box .box_div-1 .subtittle {
+    font-size: 1.8rem;
+  }
+  .patients .box .box_div-1 .paragraph {
+    font-size: 1.4rem;
+  }
   .recommendations {
     margin-top: 25rem;
+  }
+  .recommendations .div-1 .box p {
+    font-size: 1.1rem;
+  }
+  .recommendations .div-2 .box p {
+    font-size: 1.1rem;
+  }
+  .avoid .tittle {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+  }
+  .avoid .subtittle {
+    font-size: 1.7rem;
+  }
+  .import .box .boxes .boxes_div {
+    font-size: 1rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
+    font-size: 1.1rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
+    font-size: 1rem;
   }
 }
 
