@@ -65,6 +65,10 @@ $poppins: "Poppins", sans-serif;
             &.first {
                 font-weight: 100;
             }
+
+            &.third{
+                display: none;
+            }
         }
     }
 }
@@ -530,12 +534,16 @@ $poppins: "Poppins", sans-serif;
             .box_content {
                 .boxes {
                     width: 90%;
-                    max-width: 22rem;
+                    max-width: 24rem;
                     height: auto;
     
                     .number {
                         margin: 0.5rem;
                         font-size: 2.5rem;
+                    }
+
+                    .paragraph{
+                        font-size: 1.2rem;
                     }
                 }
             }
@@ -558,6 +566,82 @@ $poppins: "Poppins", sans-serif;
             .boxes {
                 &:nth-child(2) {
                     border-top: 1px solid $green2;
+                }
+            }
+        }
+    }
+}
+
+// *Incremento de fuente
+
+@media screen and (max-width: 360px) {
+    .box_1{
+        .box_box{
+            .box_content{
+                .boxes{
+                    .paragraph{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .indications{
+        .indications_header{
+            .tittle{
+                font-size: 2.4rem;
+            }
+
+            .paragraph{
+                font-size: 1.1rem;
+            }
+        }
+
+        .indications_content{
+            .boxes{
+                .paragraph_1, .paragraph_2{
+                    font-size: 1.1rem;
+                    padding: 0 1rem;
+                }
+
+            }
+        }
+    }
+
+    .box_2{
+        .box{
+            .boxes{
+                .boxes_div{
+                    .paragraph_1, .paragraph_2{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .indications_two{
+        .box{
+            .boxes{
+                .paragraph{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .ofrecemos-footer{
+            .ofrecemos_footer_div1{
+                .box{
+                    h2{
+                        font-size: 1.1rem;
+                    }
+
+                    p{
+                        font-size: 1rem;
+                    }
                 }
             }
         }

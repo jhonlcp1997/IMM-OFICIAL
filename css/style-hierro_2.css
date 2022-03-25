@@ -54,6 +54,10 @@ html {
   font-weight: 100;
 }
 
+.main .main-tittle .tittle.third {
+  display: none;
+}
+
 .box_1 {
   margin: auto;
   max-width: 1366px;
@@ -489,12 +493,15 @@ html {
 @media screen and (max-width: 369px) {
   .box_1 .box_box .box_content .boxes {
     width: 90%;
-    max-width: 22rem;
+    max-width: 24rem;
     height: auto;
   }
   .box_1 .box_box .box_content .boxes .number {
     margin: 0.5rem;
     font-size: 2.5rem;
+  }
+  .box_1 .box_box .box_content .boxes .paragraph {
+    font-size: 1.2rem;
   }
   .indications .indications_content .boxes .img {
     width: 95%;
@@ -502,6 +509,34 @@ html {
   }
   .indications_two .box .boxes:nth-child(2) {
     border-top: 1px solid #62bb46;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box_1 .box_box .box_content .boxes .paragraph {
+    font-size: 1.2rem;
+  }
+  .indications .indications_header .tittle {
+    font-size: 2.4rem;
+  }
+  .indications .indications_header .paragraph {
+    font-size: 1.1rem;
+  }
+  .indications .indications_content .boxes .paragraph_1, .indications .indications_content .boxes .paragraph_2 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+  .box_2 .box .boxes .boxes_div .paragraph_1, .box_2 .box .boxes .boxes_div .paragraph_2 {
+    font-size: 1.1rem;
+  }
+  .indications_two .box .boxes .paragraph {
+    font-size: 1.1rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
+    font-size: 1.1rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style-hierro_2.css.map */
