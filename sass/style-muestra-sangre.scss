@@ -122,6 +122,23 @@ $poppins: "Poppins", sans-serif;
         right: 1rem;
         top: -3rem;
     }
+
+    &.b{
+        .box{
+            .box_div-1{
+                width: 28rem;
+                padding: 4rem 1rem;
+
+                .img_pills{
+                    width: 18rem;
+                }
+
+                .subtittle{
+                    padding: 0.5rem 2rem;
+                }
+            }
+        }
+    }
 }
 
 .recommendations {
@@ -194,6 +211,18 @@ $poppins: "Poppins", sans-serif;
 
             &:nth-child(2) {
                 border-left: 1px solid $green2;
+            }
+        }
+    }
+
+    &.b{
+        .div-1{
+            max-width: 44rem;
+
+            .box{
+                &:nth-child(2){
+                    border-right: none;
+                }
             }
         }
     }
@@ -319,6 +348,10 @@ $poppins: "Poppins", sans-serif;
         padding: 2rem 1rem;
         color: #fff;
         text-align: center;
+
+        .text{
+            padding-top: .5rem;
+        }
     }
 }
 
@@ -502,6 +535,18 @@ $poppins: "Poppins", sans-serif;
                 }
             }
         }
+
+        &.b{
+            .box{
+                .box_div-1{
+                    padding: 3rem 0.5rem;
+
+                    .img_pills{
+                        width: 15rem;
+                    }
+                }
+            }
+        }
     }
 
     .footer {
@@ -528,6 +573,16 @@ $poppins: "Poppins", sans-serif;
                     border-bottom: 1px solid $green2;
                     border-left: none;
                     border-right: none;
+                }
+            }
+        }
+
+        &.b{
+            .div-1{
+                .box{
+                    &:nth-child(2){
+                        border-bottom: none;
+                    }
                 }
             }
         }
@@ -598,6 +653,14 @@ $poppins: "Poppins", sans-serif;
 
                 .paragraph{
                     font-size: 1.4rem;
+                }
+            }
+        }
+
+        &.b{
+            .box{
+                .box_div-1{
+                    width: 100%;
                 }
             }
         }

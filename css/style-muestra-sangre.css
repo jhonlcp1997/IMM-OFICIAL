@@ -113,6 +113,19 @@ html {
   top: -3rem;
 }
 
+.patients.b .box .box_div-1 {
+  width: 28rem;
+  padding: 4rem 1rem;
+}
+
+.patients.b .box .box_div-1 .img_pills {
+  width: 18rem;
+}
+
+.patients.b .box .box_div-1 .subtittle {
+  padding: 0.5rem 2rem;
+}
+
 .recommendations {
   background-color: rgba(136, 136, 136, 0.164);
 }
@@ -194,6 +207,14 @@ html {
 
 .recommendations .div-2 .box:nth-child(2) {
   border-left: 1px solid #62bb46;
+}
+
+.recommendations.b .div-1 {
+  max-width: 44rem;
+}
+
+.recommendations.b .div-1 .box:nth-child(2) {
+  border-right: none;
 }
 
 .avoid {
@@ -325,6 +346,10 @@ html {
   padding: 2rem 1rem;
   color: #fff;
   text-align: center;
+}
+
+.import .box_footer .text {
+  padding-top: .5rem;
 }
 
 .footer {
@@ -474,6 +499,12 @@ html {
   .patients .box .box_div-1 .paragraph {
     font-size: 1.2rem;
   }
+  .patients.b .box .box_div-1 {
+    padding: 3rem 0.5rem;
+  }
+  .patients.b .box .box_div-1 .img_pills {
+    width: 15rem;
+  }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -499,6 +530,9 @@ html {
     border-bottom: 1px solid #62bb46;
     border-left: none;
     border-right: none;
+  }
+  .recommendations.b .div-1 .box:nth-child(2) {
+    border-bottom: none;
   }
   .avoid .avoid_features {
     -webkit-box-pack: center;
@@ -548,6 +582,9 @@ html {
   }
   .patients .box .box_div-1 .paragraph {
     font-size: 1.4rem;
+  }
+  .patients.b .box .box_div-1 {
+    width: 100%;
   }
   .recommendations {
     margin-top: 25rem;
