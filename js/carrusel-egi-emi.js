@@ -10,9 +10,9 @@ let height = sliderIndividual[0].clientHeight;
 let height2 = slider.clientHeight;
 let intervalo = 6500;
 
-console.log(width);
-console.log(height);
-console.log(height2);
+// console.log(width);
+// console.log(height);
+// console.log(height2);
 
 window.addEventListener("resize", function () {
     width = sliderIndividual[0].clienteWidth;
