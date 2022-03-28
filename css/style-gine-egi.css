@@ -1373,13 +1373,13 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 32rem;
-    height: 20rem;
+    max-width: 35rem;
+    height: 22rem;
   }
   .characteres .characteres-center_rigth .slider-contenedor-2 .characteres_img.second .img {
     width: 100%;
-    max-width: 32rem;
-    height: 20rem;
+    max-width: 35rem;
+    height: 22rem;
   }
   .tips .tips__box .box .box__img {
     display: -webkit-box;
