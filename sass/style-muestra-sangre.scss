@@ -616,8 +616,6 @@ $poppins: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 360px) {
-
-    // *
     .section_tittle{
         .box{
             .span{
@@ -625,7 +623,6 @@ $poppins: "Poppins", sans-serif;
             }
         }
     }
-    // *
 
     .patients {
         background-position: 25% 10%;
@@ -641,13 +638,8 @@ $poppins: "Poppins", sans-serif;
                 .img_pills {
                     width: 8rem;
                 }
-                // *
 
-                .tittle{
-                    font-size: 1.8rem;
-                }
-
-                .subtittle{
+                .tittle,.subtittle{
                     font-size: 1.8rem;
                 }
 
@@ -665,14 +657,13 @@ $poppins: "Poppins", sans-serif;
             }
         }
     }
-    // *
+
     .recommendations {
         margin-top: 25rem;
-        // *
 
         .div-1 {
             padding: 1rem 2rem;
-            
+
             .box{
                 p{
                     font-size: 1.1rem;
@@ -725,7 +716,6 @@ $poppins: "Poppins", sans-serif;
             }
         }
     }
-    // *
 }
 
 @media screen and (max-width: 270px) {

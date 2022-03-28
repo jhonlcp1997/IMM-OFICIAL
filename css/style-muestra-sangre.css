@@ -574,10 +574,7 @@ html {
   .patients .box .box_div-1 .img_pills {
     width: 8rem;
   }
-  .patients .box .box_div-1 .tittle {
-    font-size: 1.8rem;
-  }
-  .patients .box .box_div-1 .subtittle {
+  .patients .box .box_div-1 .tittle, .patients .box .box_div-1 .subtittle {
     font-size: 1.8rem;
   }
   .patients .box .box_div-1 .paragraph {
