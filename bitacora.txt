@@ -144,3 +144,9 @@ Agregando (characteres y "consejos" tips) de EGI a EMI html.
 25-03-2022:
 Agregué a immlatam>>> colocacion_hierro.html, y ginecologia-egi.html, basicamente subi actualice todo el repositorio.
 Fue el cumpleaños de uno que trabaja aqui, asi que salió el Jhon antisocial y se alejó de todos. es algo que no puedo cambiar.
+
+28-03-2022:
+Incrementando la fuente para gine-egi y muestra_de_sangre, despues de verlo en el movil se ve pequeño, por eso el incremento.
+Volví a hacer el update en el cpanel.
+Espero que las ganas de aprender el resto de javascript este...... tengo que terminar esa parte para poder avanzar en React js.
+El gerente me vio que estaba jugando, ojala me bote de la empresa :()

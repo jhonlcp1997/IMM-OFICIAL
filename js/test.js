@@ -68,3 +68,16 @@ function slides() {
         }, 1500)
     }
 }
+
+// *=============no tiene nada que ver esto que voy a escribir=====
+// *=============no tiene nada que ver esto que voy a escribir=====
+
+// function gallina(){
+//     return huevo();
+// }
+
+// function huevo(){
+//     return gallina();
+// }
+
+console.log(" vino primero.");
