@@ -1472,8 +1472,16 @@ body {
     .info-date {
         padding: 1rem 0.5rem;
 
+        h2{
+            font-size: 2.2rem;
+        }
+
+        .section__subtitle{
+            font-size: 1.4rem;
+        }
+
         .info-date-container {
-            font-size: 1rem;
+            font-size: 1.3rem;
             &.active {
                 .info-contenido {
                     .contenido-body {
@@ -1498,7 +1506,7 @@ body {
                                 animation: miAnimacion-2 .2s linear;
 
                                 p {
-                                    font-size: 1.1rem;
+                                    font-size: 1.3rem;
                                     width: 100%;
                                     text-align: left;
                                     padding: 0 1rem;

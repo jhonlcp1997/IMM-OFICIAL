@@ -1403,8 +1403,14 @@ body {
   .info-date {
     padding: 1rem 0.5rem;
   }
+  .info-date h2 {
+    font-size: 2.2rem;
+  }
+  .info-date .section__subtitle {
+    font-size: 1.4rem;
+  }
   .info-date .info-date-container {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body {
     -webkit-box-orient: vertical;
@@ -1435,7 +1441,7 @@ body {
             animation: miAnimacion-2 .2s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     width: 100%;
     text-align: left;
     padding: 0 1rem;
