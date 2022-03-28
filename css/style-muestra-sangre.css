@@ -589,6 +589,9 @@ html {
   .recommendations {
     margin-top: 25rem;
   }
+  .recommendations .div-1 {
+    padding: 1rem 2rem;
+  }
   .recommendations .div-1 .box p {
     font-size: 1.1rem;
   }
