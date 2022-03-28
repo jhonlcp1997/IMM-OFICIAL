@@ -181,6 +181,7 @@ body {
 .slider-general .slider-contenedor-g {
   width: 100%;
   display: block;
+  position: relative;
 }
 
 .slider-general .slider-contenedor-g .contenido-slider-g {
@@ -194,6 +195,7 @@ body {
       flex-shrink: 0;
   margin: auto;
   z-index: 10;
+  position: relative;
 }
 
 .slider-general .slider-contenedor-g .contenido-slider-g.home {
@@ -1442,12 +1444,15 @@ body {
   .header div .header-general .header-center-right .header-center-right-tittle h2 {
     margin: auto;
   }
+  .header div .header-general .header-menu.active .header-footer .header_footer_div_1 .div_content .div_content_a .footer_img3 {
+    width: 2.5rem;
+  }
+  .header div .header-general .header-menu.active .header-footer .header_footer_div_1 .div_content .footer-ul3 li a i {
+    font-size: 1.5rem;
+  }
   .slider-general {
     height: 100%;
     overflow: auto;
-  }
-  .slider-general::-webkit-scrollbar {
-    display: none;
   }
   .slider-general .slider-contenedor-g {
     display: -webkit-box;

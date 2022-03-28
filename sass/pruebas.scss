@@ -221,6 +221,7 @@ body {
         width: 100%;
         display: block;
         // margin: auto;
+        position: relative;
 
         .contenido-slider-g {
             width: 100%;
@@ -231,6 +232,7 @@ body {
             flex-shrink: 0;
             margin: auto;
             z-index: 10;
+            position: relative;
 
             &.home {
                 display: inline-flex;
@@ -1661,6 +1663,32 @@ body {
                     // }
                     // }
                 }
+
+                .header-menu{
+                    &.active{
+                        .header-footer{
+                            .header_footer_div_1{
+                                .div_content{
+                                    .div_content_a{
+                                        .footer_img3{
+                                            width: 2.5rem;
+                                        }
+                                    }
+
+                                    .footer-ul3{
+                                        li{
+                                            a{
+                                                i{
+                                                    font-size: 1.5rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -1671,9 +1699,9 @@ body {
         overflow: auto;
         // background-color: #666;
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
 
         .slider-contenedor-g {
             display: flex;
