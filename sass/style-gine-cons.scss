@@ -657,11 +657,13 @@ body {
 
                 .footer-ul3 {
                     div {
+                        display: flex;
                         a {
+                            font-size: 2.3rem;
                             padding: 0 0.5rem 0 0;
                             i {
                                 color: #666;
-                                font-size: 1.8rem;
+                                font-size: 1.7rem;
                             }
                         }
                     }
@@ -996,8 +998,15 @@ body {
     }
 
     .footer{
+        padding-top: 2rem;
         .ofrecemos-footer{
             .ofrecemos_footer_div1{
+                flex-direction: column;
+
+                .box{
+                    padding: 1rem 0;
+                }
+
                 div{
                     a{
                         i{
@@ -1049,20 +1058,7 @@ body {
                 display: none;
             }
         }
-    }
-    
-    .footer {
-        padding-top: 2rem;
-        .ofrecemos-footer {
-            .ofrecemos_footer_div1 {
-                flex-direction: column;
-
-                .box{
-                    padding: 1rem 0;
-                }
-            }
-        }
-    }
+    }   
 }
 
 @media (max-width: 530px) {
