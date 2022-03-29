@@ -150,3 +150,8 @@ Incrementando la fuente para gine-egi y muestra_de_sangre, despues de verlo en e
 Volví a hacer el update en el cpanel.
 Espero que las ganas de aprender el resto de javascript este...... tengo que terminar esa parte para poder avanzar en React js.
 El gerente me vio que estaba jugando, ojala me bote de la empresa :()
+
+29-03-2022:
+Esta vez no se, no hice nada, solo estuve practicando, digo aprendiendo el curso de John mircha me quede en la clase 54 proxies.
+Quizas más adelante tenga que hacer otras cosas, pero tengo que tratar de aprender la parte de js, sino hebre perido el tiempo que me dieron, eso no me gustaria hacer.
+Quisiera avanzar con la parte de react pero se que debo terminar de entender todo lo que es js, si no....
