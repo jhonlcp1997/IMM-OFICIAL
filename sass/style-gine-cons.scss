@@ -611,90 +611,153 @@ body {
     }
 }
 
-.footer {
-    padding-top: 5rem;
-    width: 100%;
+// *Esta parte TIPS es la más simple de todas, incluso en los mediaqueries
+.tips{
     background-color: #fff;
+    padding-top: 10rem;
+
+    .tips__box{
+        width: 100%;
+        background: $azul;
+
+        .box{
+            max-width:110rem;
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+            .box__content{
+                .content{
+                    color: #fff;
+                    width: 100%;
+                    max-width: 50rem;
+                    padding: 5rem 2rem 4rem 4rem;
+    
+                    .title-1{
+                        padding-top: 1rem;
+                        font-family: $abel;
+                        font-weight: 600;
+                        font-size: 2.2rem;
+                    }
+        
+                    .title-2{
+                        font-family: $abel;
+                        font-size: 2.2rem;
+                    }
+    
+                    .paragraph{
+                        padding: 2rem 0 1rem 0;
+                        font-size: 1.4rem;
+                        font-family: $poppins;
+                    }
+                }
+            }
+    
+            .box__img{
+                display: flex;
+                align-self: center;
+                min-width: 50rem;
+                height: 30rem;
+                text-align: right;
+                justify-content: right;
+
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    z-index: 0;
 
     .ofrecemos-footer {
-        width: 90%;
-        max-width: 90rem;
-        margin: auto;
-        padding: 2rem 0;
-        margin-top: 2rem;
+        position: relative;
+        display: inline-block;
+        margin: 10rem auto 2rem auto;
 
         .ofrecemos_footer_div1 {
-            width: 100%;
-            justify-content: space-between;
-            font-family: $abel;
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 95rem;
+            height: 10rem;
 
-            .box {
+            i {
+                color: $pink3;
+            }
+
+            div {
                 display: flex;
-                max-width: 30rem;
-                align-items: center;
 
                 a {
-                    color: $pink3;
-                    font-size: 3.2rem;
-                    padding: 1rem;
+                    position: relative;
+                    top: 10px;
+                    text-align: center;
+
+                    i {
+                        font-size: 3rem;
+                    }
                 }
 
-                h2 {
-                    font-size: 1.4rem;
-                }
+                .footer-ul1, .footer-ul2, .footer-ul3{
+                    list-style-type: none;
+                    margin-left: 1.5rem;
+                    font-family: "Poppins", sans-serif;
+                    text-align: left;
 
-                p {
-                    font-family: $poppins;
-                    font-size: 1.2rem;
-                    color: $azul;
-                }
+                    h2{
+                        font-size: 1.6rem;
+                        font-family: $abel;
+                    }
 
-                img {
-                    width: 3.3rem;
-                }
-
-                .footer-ul3 {
-                    div {
-                        display: flex;
-                        a {
-                            font-size: 2.3rem;
-                            padding: 0 0.5rem 0 0;
-                            i {
-                                color: #666;
-                                font-size: 1.7rem;
-                            }
+                    li{
+                        p{
+                            font-size: 1.3rem
                         }
                     }
                 }
 
-                .footer-ul2{
-                    div{
-                        padding-top: .5rem;
+                .footer-ul2 {
+                    li {
+                        padding-top: .8rem;
+                        color: #007cc3;
                     }
                 }
 
-                &:first-child {
-                    a {
-                        padding: 1rem 1.2rem;
+                .footer-ul3 {
+                    li {
+                        font-size: 1.3rem;
+                        color: #007cc3;
+                        font-weight: 100;
                     }
-                    
-                    p{
-                        color: #000;
+
+                    ul {
+                        padding: 0.2rem;
+
+                        a {
+                            margin: 1rem 0;
+
+                            i {
+                                margin-right: 1rem;
+                                color: $light-color;
+                                font-size: 1.5rem;
+                            }
+                        }
                     }
                 }
             }
         }
 
         .ofrecemos_footer_div2 {
-            text-align: center;
-            margin-top: 2rem;
-            color: #000;
-            font-family: $poppins;
-            border-top: 1px solid #ccc;
-            padding-top: 0.5rem;
-            font-size: 0.9rem;
+            border-top: 1px solid #bfbfbf;
+
+            p {
+                font-family: "Poppins", sans-serif;
+                margin-top: 1.5rem;
+                color: $black;
+                font-size: 1rem;
+            }
         }
     }
 }
@@ -761,6 +824,17 @@ body {
 
         .point4,.point5, .point6 {
             display: none;
+        }
+    }
+
+    .footer {
+        .ofrecemos-footer {
+            width: 100%;
+            padding: 0 2rem;
+
+            .ofrecemos_footer_div1 {
+                width: 100%;
+            }
         }
     }
 }
@@ -948,6 +1022,36 @@ body {
             }
         }
     }
+
+    .tips{
+        .tips__box{
+            .box{
+                .box__img{
+                    min-width: 40rem;
+                    height: 24rem;
+                    
+                    .img{
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .ofrecemos-footer {
+            width: 80vw;
+            padding: 0;
+            margin-top: 5rem;
+
+            .ofrecemos_footer_div1 {
+                display: inline;
+                div {
+                    margin: 3rem;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 675px) {
@@ -998,15 +1102,8 @@ body {
     }
 
     .footer{
-        padding-top: 2rem;
         .ofrecemos-footer{
             .ofrecemos_footer_div1{
-                flex-direction: column;
-
-                .box{
-                    padding: 1rem 0;
-                }
-
                 div{
                     a{
                         i{
@@ -1058,7 +1155,33 @@ body {
                 display: none;
             }
         }
-    }   
+    } 
+    
+    .tips{
+        .tips__box{
+            .box{
+                text-align: center;
+                display: flex;
+                flex-wrap: wrap;
+
+                .box__content{
+                    margin: auto;
+
+                    .content{
+                        padding: 2rem;
+                    }
+                }
+
+                .box__img{
+                    margin: auto;
+                    justify-content: center;
+                    .img{
+                        box-shadow: -.5rem .5rem 30px -10px rgb(51, 46, 46);
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 530px) {
@@ -1162,6 +1285,24 @@ body {
     }
 }
 
+@media (max-width: 460px){
+    .tips{
+        .tips__box{
+            .box{
+                .box__img{
+                    display: flex;
+                    min-width: 20rem;
+
+                    .img{
+                        margin: auto;                        
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 370px) {
     .header {
         div {
@@ -1247,6 +1388,17 @@ body {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .tips{
+        padding-top: 5rem;
+        .tips__box{
+            .box{
+                .box__img{
+                    height: auto;
                 }
             }
         }
