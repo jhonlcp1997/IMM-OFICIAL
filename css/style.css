@@ -184,7 +184,7 @@ a {
   z-index: 10;
 }
 
-.home .home_box .home-nav1 P {
+.home .home_box .home-nav1 p {
   color: #fff;
   font-family: "Abel", sans-serif;
   text-align: left;
@@ -197,6 +197,10 @@ a {
 
 .home .home_box .home-nav1 .home-nav1-P_2 {
   font-size: 3.5rem;
+}
+
+.home .home_box .home-nav1 .home-nav1-c1 {
+  font-size: 2.5rem;
 }
 
 .home .home_box .home-nav1 div {
@@ -322,15 +326,22 @@ a {
   display: flex;
 }
 
-.ofrecemos-1 .ofrecemos-box1 div img {
+.ofrecemos-1 .ofrecemos-box1 div .contenedor {
   position: relative;
-  height: 35rem;
-  bottom: 4.5rem;
-  left: -4.5rem;
-  /* box-shadow: -3rem 0 80px -20px #777; */
+  width: 100%;
+  height: 32rem;
+  bottom: 3.5rem;
+  left: -3.5rem;
   -webkit-filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
           filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-  /* transform: rotate(-10deg); */
+  padding-left: 0;
+}
+
+.ofrecemos-1 .ofrecemos-box1 div .contenedor img {
+  width: 35rem;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .ofrecemos-1 .ofrecemos-box1 div ul {
@@ -812,25 +823,6 @@ a {
   .home .home_box .home-nav1 .home-nav1-P_2 {
     font-size: 2.8rem;
   }
-  .menu {
-    text-align: center;
-  }
-  .menu .menu-nav1 {
-    text-align: center;
-    margin: 0 auto;
-  }
-  .menu .menu-nav1 .menu-nav1-h2_1 {
-    font-size: 3.5rem;
-  }
-  .menu .menu-nav1 .menu-nav1-h2_2 {
-    font-size: 4.5rem;
-  }
-  .menu .menu-nav1 p {
-    font-size: 3.5rem;
-  }
-  .menu .menu-nav2 {
-    display: none;
-  }
   .vacio .ofrecemos-box2 .ofrecemos-importante ul {
     padding-right: 7rem;
   }
@@ -866,32 +858,7 @@ a {
   }
 }
 
-@media screen and (max-width: 575px) {
-  .home {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: auto;
-  }
-  .vacio .ofrecemos-box2 {
-    height: auto;
-  }
-  .vacio .ofrecemos-box2 .ofrecemos-importante ul {
-    padding-bottom: 4rem;
-    padding-right: 2rem;
-  }
-  .vacio .ofrecemos-box2 .ofrecemos-importante .box2-img_doctora-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: auto;
-  }
-}
-
-@media (max-width: 500px) {
-  .header div .header-general .navbar-opciones-phone ul li a {
-    font-size: 1rem;
-  }
+@media screen and (max-width: 600px) {
   .home .home_box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -923,58 +890,33 @@ a {
     margin: auto;
     width: 80%;
   }
-  .menu {
+}
+
+@media screen and (max-width: 575px) {
+  .home {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-    padding-top: 0;
+    height: auto;
   }
-  .menu .menu-nav1 {
-    padding: 1rem 0;
-    text-align: center;
-    width: 100%;
+  .vacio .ofrecemos-box2 {
+    height: auto;
   }
-  .menu .menu-nav1 .menu-nav1-h2_1 {
-    text-align: center;
-    font-size: 2rem;
+  .vacio .ofrecemos-box2 .ofrecemos-importante ul {
+    padding-bottom: 4rem;
+    padding-right: 2rem;
   }
-  .menu .menu-nav1 .menu-nav1-h2_2 {
-    text-align: center;
-    font-size: 3rem;
-  }
-  .menu .menu-nav1 p {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .menu .menu-nav1 div {
-    margin: 1rem auto;
-    text-align: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  .menu .menu-nav1 div a {
-    text-align: center;
-  }
-  .menu .menu-nav2 {
+  .vacio .ofrecemos-box2 .ofrecemos-importante .box2-img_doctora-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    text-align: center;
-    width: auto;
-    text-align: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    margin-top: auto;
   }
-  .menu .menu-nav2 img {
-    border-radius: 0px;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto;
-    width: 80%;
+}
+
+@media (max-width: 500px) {
+  .header div .header-general .navbar-opciones-phone ul li a {
+    font-size: 1rem;
   }
   .importante .importante-h2 {
     font-size: 2rem;

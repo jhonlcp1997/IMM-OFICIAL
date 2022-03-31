@@ -181,7 +181,7 @@ a {
             text-align: left;
             z-index: 10;
 
-            P {
+            p {
                 color: #fff;
                 font-family: $abel;
                 text-align: left;
@@ -194,6 +194,11 @@ a {
 
             .home-nav1-P_2 {
                 font-size: 3.5rem;
+            }
+
+            .home-nav1-c1{
+                // color: #007cc3;
+                font-size: 2.5rem;
             }
 
             div {
@@ -313,14 +318,44 @@ a {
         div {
             display: flex;
 
-            img {
+            // img {
+            //     position: relative;
+            //     width: 35rem;
+            //     height: 35rem;
+            //     bottom: 4.5rem;
+            //     left: -4.5rem;
+            //     /* box-shadow: -3rem 0 80px -20px #777; */
+            //     filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
+            //     /* transform: rotate(-10deg); */
+            // }
+
+            .contenedor {
                 position: relative;
-                height: 35rem;
-                bottom: 4.5rem;
-                left: -4.5rem;
-                /* box-shadow: -3rem 0 80px -20px #777; */
+                width: 100%;
+                // width: 35rem;
+                // height: 60%;
+                height: 32rem;
+                bottom: 3.5rem;
+                left: -3.5rem;
                 filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-                /* transform: rotate(-10deg); */
+                // // background-size: cover;
+                // // background-position: center;
+                // background-position: 0px 120px;
+                // background-attachment: fixed;
+                // padding: 0rem 2rem;
+                // background: url(../img/images-gest/Antenatal-feto.jpg) no-repeat;
+                padding-left: 0;
+
+                img{
+                    // height: 100%;
+                    // width: 100%;
+
+                    width: 35rem;
+                    height: 35rem;
+                    // width: auto;
+                    // text-align: left;
+                    object-fit: cover;
+                }
             }
 
             ul {
@@ -835,11 +870,6 @@ a {
                 ul{
                     margin-right: 0;
                     padding-right: 10rem;
-                    div{
-                        div{
-
-                        }
-                    }
                 }
 
                 .box2-img_doctora-2{
@@ -869,31 +899,6 @@ a {
                     font-size: 2.8rem;
                 }
             }
-        }
-    }
-
-    .menu {
-        text-align: center;
-
-        .menu-nav1 {
-            text-align: center;
-            margin: 0 auto;
-
-            .menu-nav1-h2_1 {
-                font-size: 3.5rem;
-            }
-
-            .menu-nav1-h2_2 {
-                font-size: 4.5rem;
-            }
-
-            p {
-                font-size: 3.5rem;
-            }
-        }
-
-        .menu-nav2 {
-            display: none;
         }
     }
 
@@ -965,6 +970,43 @@ a {
     }
 }
 
+@media screen and (max-width:600px) {
+    .home {
+        .home_box {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            padding-top: 0;
+
+            .home-nav1 {
+                padding: 1rem 0;
+                margin: 0 auto;
+
+                .home-nav1-P_1 {
+                    text-align: center;
+                }
+
+                .home-nav1-P_2 {
+                    text-align: center;
+                }
+
+                div {
+                    margin: 1rem auto;
+                }
+            }
+
+            .home-nav2 {
+                display: flex;
+                width: auto;
+
+                img {
+                    margin: auto;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 575px) {
 
     .home {
@@ -1007,95 +1049,6 @@ a {
             }
         }
     }
-
-    .home {
-        .home_box {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            padding-top: 0;
-
-            .home-nav1 {
-                padding: 1rem 0;
-                margin: 0 auto;
-
-                .home-nav1-P_1 {
-                    text-align: center;
-                }
-
-                .home-nav1-P_2 {
-                    text-align: center;
-                }
-
-                div {
-                    margin: 1rem auto;
-                }
-            }
-
-            .home-nav2 {
-                display: flex;
-                width: auto;
-
-                img {
-                    margin: auto;
-                    width: 80%;
-                }
-            }
-        }
-    }
-
-    .menu {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        padding-top: 0;
-
-        .menu-nav1 {
-            padding: 1rem 0;
-            text-align: center;
-            width: 100%;
-
-            .menu-nav1-h2_1 {
-                text-align: center;
-                font-size: 2rem;
-            }
-
-            .menu-nav1-h2_2 {
-                text-align: center;
-                font-size: 3rem;
-            }
-
-            p {
-                font-size: 1.5rem;
-                text-align: center;
-            }
-
-            div {
-                margin: 1rem auto;
-                text-align: center;
-                align-content: center;
-
-                a {
-                    text-align: center;
-                }
-            }
-        }
-
-        .menu-nav2 {
-            display: flex;
-            text-align: center;
-            width: auto;
-            text-align: center;
-            align-content: center;
-
-            img {
-                border-radius: 0px;
-                position: relative;
-                display: flex;
-                margin: auto;
-                width: 80%;
-            }
-        }
-    }
-
     .importante {
         .importante-h2 {
             font-size: 2rem;
