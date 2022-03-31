@@ -20,6 +20,10 @@ $boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
 $azul: #007cc3;
 $border: 0.2rem solid $pink3;
 
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel: "Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -142,17 +146,16 @@ a {
     }
 }
 
-.menu {
+.home {
     display: inline-flex;
     position: relative;
     width: 100%;
     height: 45rem;
     background: $azul;
-    z-index: 0;
-    padding: 3rem 18%;
-    justify-content: space-between;
+    z-index: 1;
 
     &::before {
+        z-index: 0;
         content: "";
         position: absolute;
         top: 0px;
@@ -166,83 +169,81 @@ a {
         opacity: 0.03;
     }
 
-    .menu-nav1 {
-        // position: relative;
-        z-index: 10;
-        padding: 5rem 0;
-        text-align: left;
-        font-family: "Abel", sans-serif;
+    .home_box {
+        width: 95%;
+        max-width: 120rem;
+        margin: auto;
+        display: flex;
+        padding: 3rem;
 
-        .menu-nav1-h2_1 {
-            color: #fff;
-            font-size: 3rem;
+        .home-nav1 {
+            padding: 8rem 3rem 8rem 0;
             text-align: left;
-            margin: 0.5rem 0;
-            font-weight: 100;
-        }
+            z-index: 10;
 
-        .menu-nav1-h2_2 {
-            font-size: 4.3rem;
-            color: #fff;
-            text-align: left;
-            margin: 0.5rem 0;
-        }
-
-        p {
-            color: #fff;
-            font-size: 3rem;
-            text-align: left;
-            padding-right: 1rem;
-        }
-
-        div {
-            margin-top: 2.5rem;
-            padding-top: 0.5rem;
-            color: #fff;
-            width: 16.5rem;
-            height: 3.5rem;
-            align-content: center;
-            text-align: center;
-            background: #f173ac;
-            border-radius: 15px;
-
-            a {
-                // font-weight: bold;
+            P {
                 color: #fff;
-                font-size: 1.5rem;
-                font-weight: 400;
+                font-family: $abel;
+                text-align: left;
+                margin: 0.5rem 0;
+            }
 
-                i {
-                    position: relative;
-                    top: 2px;
-                    font-size: 2rem;
-                    margin-right: 1rem;
+            .home-nav1-P_1 {
+                font-size: 3.2rem;
+            }
+
+            .home-nav1-P_2 {
+                font-size: 3.5rem;
+            }
+
+            div {
+                margin-top: 2.5rem;
+                padding-top: 0.5rem;
+                width: 16.5rem;
+                height: 3.5rem;
+                align-content: center;
+                text-align: center;
+                background: #f173ac;
+                border-radius: 15px;
+
+                a {
+                    font-family: $abel;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+
+                    i {
+                        position: relative;
+                        top: 2px;
+                        font-size: 2rem;
+                        margin-right: 1rem;
+                    }
                 }
             }
         }
-    }
 
-    .menu-nav2 {
-        z-index: 10;
-
-        img {
-            // border-radius: 15px;
-            box-shadow: $boxshadowG;
+        .home-nav2 {
+            margin-left: auto;
+            z-index: 10;
+            display: flex;
+            justify-content: right;
             text-align: right;
+
+            img {
+                text-align: right;
+                justify-content: right;
+                box-shadow: $boxshadowG;
+            }
         }
-    }
 
-    .img-fondo {
-        position: absolute;
-        bottom: 2rem;
-        right: 50%;
-        z-index: 100;
-
-        .img-1 {
-            // position: absolute;
-            z-index: 100;
-
-            // background-size: cover;
+        .img-fondo {
+            .img-1 {
+                width: 12rem;
+                position: absolute;
+                z-index: 100;
+                bottom: 3rem;
+                right: 55%;
+            }
         }
     }
 }
@@ -567,48 +568,37 @@ a {
 
 // *MEDIA QUERIES
 
-@media (max-width: 1720px) {
-    html {
-        font-size: 57%;
-    }
-
-    .menu {
-        padding: 3rem 9%;
-    }
-
-    .importante {
-        margin-top: 15.5rem;
-    }
-}
-
-@media (max-width: 1380px) {
-    .menu {
-        .menu-nav2 {
-            img {
-                width: 92%;
-            }
-        }
-    }
-
-    .importante {
-        margin-top: 7.5rem;
-    }
-}
-
 @media (max-width: 1210px) {
-    html {
-        font-size: 55%;
-    }
+    // html {
+    //     font-size: 55%;
+    // }
 
-    .menu {
-        .menu-nav2 {
-            text-align: right;
+    // .menu {
+    //     .menu-nav2 {
+    //         text-align: right;
 
-            img {
-                width: 90%;
+    //         img {
+    //             width: 90%;
+    //         }
+    //     }
+    // }
+
+    .ofrecemos {
+        .ofrecemos-box1 {
+            .point2 {
+                display: none;
+            }
+        }
+
+        .ofrecemos-box2 {
+            width: 100%;
+
+            .point3 {
+                display: none;
             }
         }
     }
+       
 }
 
 // Todo: en esta media se eleminan todos los puntitos svg
@@ -663,22 +653,6 @@ a {
         }
     }
 
-    .ofrecemos {
-        .ofrecemos-box1 {
-            .point2 {
-                display: none;
-            }
-        }
-
-        .ofrecemos-box2 {
-            width: auto;
-
-            .point3 {
-                display: none;
-            }
-        }
-    }
-
     .footer {
         .ofrecemos-footer {
             width: 80vw;
@@ -689,6 +663,43 @@ a {
                 div {
                     margin: 3rem;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        div {
+            padding: 0 1rem;
+            width: 100%;
+        }
+    }
+
+    .home {
+        height: auto;
+
+        .home_box {
+            width: 100%;
+
+            .home-nav1 {
+                display: inline-block;
+                padding: 5rem 3rem 3rem 0;
+                align-items: center;
+                vertical-align: middle;
+            }
+
+            .home-nav2 {
+                width: 50%;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .img-fondo {
+                display: none;
             }
         }
     }
