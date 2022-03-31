@@ -372,7 +372,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0 0 5%;
+  padding: 0;
   width: 95%;
 }
 
@@ -385,11 +385,12 @@ a {
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
   font-size: 1.5rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
@@ -401,7 +402,6 @@ a {
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.7rem;
   margin-top: 0.7rem;
   color: #fff;
   padding-top: 0rem;

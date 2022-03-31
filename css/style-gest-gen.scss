@@ -337,6 +337,7 @@ $azul: #007cc3;
         margin: auto;
         background: #f5a4c7;
         width: 90%;
+        // max-width: 140rem;
         height: 38rem;
         box-shadow: -3rem 0 80px -40px #777;
         bottom: -10rem;
@@ -358,127 +359,36 @@ $azul: #007cc3;
 
         .ofrecemos-box1_div1 {
             display: flex;
-            padding: 0 0 0 5%;
+            padding: 0;
             width: 95%;
+            // justify-content: space-between;
 
             iframe {
+                // background-color: #007cc3;
                 // border-radius: 15px;
+                // position: relative;
+                // width: 56%;
+                // // height: 40rem;
+                // height: auto;
+                // bottom: -3rem;
+                // left: -2rem;
+                // margin-bottom: auto;
                 position: relative;
                 width: 80rem;
                 height: 30rem;
                 bottom: -4.5rem;
             }
 
-            // .contenedor{
-            //     display: flex;
-            //     margin: auto;
-            //     z-index: 1;
-            //     position: relative;
-            //     // background-color: #666;
-            //     bottom: -2.5rem;
-            //     width: 80rem;
-            //     height: 30rem;
-
-            //     // height: 100%;
-
-            //     iframe {
-            //         display: flex;
-            //         margin: auto;
-            //         position: relative;
-            //         // top: -3rem;
-            //         // border-radius: 15px;
-            //         width: 100%;
-            //         height: 100%;
-            //         // max-width: 120rem;
-
-            //         // width: 800px;
-            //         // height: 400px;
-            //         // left: -9rem;
-            //     }
-            // }
-
-            // .contenedor {
-            //     position: relative;
-            //     width: 700px;
-            //     height: 30rem;
-            //     bottom: -4.5rem;
-
-            //     background: url(../img/images-gine/fondo_prueba.png) no-repeat;
-            //     // background-size: cover;
-            //     // background-position: center;
-            //     background-position: left;
-            //     background-attachment: fixed;
-            //     padding: 3rem 2rem;
-            // }
-
-            // .contenedor {
-            //     z-index: 1;
-            //     display: block;
-            //     width: 100%;
-            //     max-width: 600px;
-            //     margin: 20px auto;
-            //     position: relative;
-            //     bottom: -2.5rem;
-
-            //     .reproductor {
-            //         display: block;
-            //         width: 100%;
-            //         height: 100%;
-            //         margin: auto;
-            //         overflow: hidden;
-            //         position: relative;
-            //         cursor: hand;
-            //         cursor: pointer;
-
-            //         img{
-            //             &.imagen-previa {
-            //                 display: block;
-            //                 left: 0;
-            //                 bottom: 0;
-            //                 margin: auto;
-            //                 max-width: 100%;
-            //                 width: 100%;
-            //                 position: absolute;
-            //                 right: 0;
-            //                 top: 0;
-            //                 height: auto;
-            //             }
-            //         }
-            //     }
-
-            //     div.youtube-play {
-            //         height: 64px;
-            //         width: 64px;
-            //         left: 50%;
-            //         top: 50%;
-            //         margin-left: -36px;
-            //         margin-top: -36px;
-            //         opacity:0.7;
-            //         position: absolute;
-            //         background:   url("https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png") no-repeat;
-            //      }
-
-            //     div.youtube-play:hover{
-            //         opacity:1;
-            //      }
-
-            //     #youtube-iframe {
-            //         width: 100%;
-            //         height: 100%;
-            //         position: absolute;
-            //         top: 0;
-            //         left: 0;
-            //      }
-            // }
-
             ul {
+                // width: 38%;
                 font-size: 1.5rem;
-                padding-left: 5rem;
+                padding-left: 2rem;
                 // padding-right: 5rem;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
                 padding-top: 3rem;
+                padding-bottom: 3rem;
 
                 h2 {
                     font-family: "Abel", sans-serif;
@@ -491,7 +401,7 @@ $azul: #007cc3;
                 li {
                     p {
                         font-family: "Poppins", sans-serif;
-                        font-size: 1.7rem;
+                        // font-size: 1.7rem;
                         margin-top: 0.7rem;
                         color: #fff;
                         padding-top: 0rem;

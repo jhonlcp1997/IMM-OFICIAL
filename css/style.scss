@@ -295,8 +295,9 @@ a {
         position: relative;
         margin: auto;
         background: #f5a4c7;
-        width: 80rem;
-        height: 37rem;
+        width: 90%;
+        max-width: 160rem;
+        height: 36rem;
         box-shadow: -3rem 0 80px -40px #777;
         bottom: -5rem;
         z-index: 10;
@@ -317,26 +318,17 @@ a {
 
         div {
             display: flex;
-
-            // img {
-            //     position: relative;
-            //     width: 35rem;
-            //     height: 35rem;
-            //     bottom: 4.5rem;
-            //     left: -4.5rem;
-            //     /* box-shadow: -3rem 0 80px -20px #777; */
-            //     filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
-            //     /* transform: rotate(-10deg); */
-            // }
+            padding: 0;
+            width: 95%;
 
             .contenedor {
                 position: relative;
                 width: 100%;
                 // width: 35rem;
                 // height: 60%;
-                height: 32rem;
-                bottom: 3.5rem;
-                left: -3.5rem;
+                height: 38rem;
+                bottom: -4.5rem;
+                left: -7.5rem;
                 filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
                 // // background-size: cover;
                 // // background-position: center;
@@ -347,11 +339,11 @@ a {
                 padding-left: 0;
 
                 img{
-                    // height: 100%;
-                    // width: 100%;
+                    height: 100%;
+                    width: 100%;
 
-                    width: 35rem;
-                    height: 35rem;
+                    // width: 35rem;
+                    // height: 35rem;
                     // width: auto;
                     // text-align: left;
                     object-fit: cover;
@@ -359,8 +351,9 @@ a {
             }
 
             ul {
+                margin-left: 1rem;
                 font-size: 1.5rem;
-                padding-left: 5rem;
+                padding-left: 0rem;
                 padding-right: 5rem;
                 text-align: left;
                 /* list-style-type: none; */
@@ -374,6 +367,7 @@ a {
                 }
 
                 li {
+                    
                     p {
                         font-family: "Poppins", sans-serif;
                         margin-top: 1rem;
@@ -397,7 +391,7 @@ a {
 
 .vacio {
     // height: 45rem;
-    padding-top: 8rem;
+    padding-top: 13rem;
     background: #f0efef;
     // opacity: 0.5;
     z-index: 0;
@@ -838,33 +832,86 @@ a {
         }
     }
 
+    // .ofrecemos-1{
+    //     .ofrecemos-box1{
+            
+
+    //         div{
+                
+    //             img{
+    //                 left: 0%;
+    //                 top: -27rem;
+    //                 right: 0rem;
+    //                 // display: none;
+    //                 margin: auto;
+    //                 width: 30rem;
+    //                 height: 30rem;
+    //                 position: absolute;
+    //             }
+                
+    //             ul{
+    //                 padding: 26rem 5rem 2rem 5rem;
+    //             }
+    //         }
+    //     }
+    // }
+    
     .ofrecemos-1{
-        .ofrecemos-box1{
-            width: 100%;
+        .ofrecemos-box1 {
+            width: auto;
             height: auto;
 
-            div{
+            div {
                 flex-direction: column;    
+                display: inline;
 
-                img{
-                    left: 0%;
-                    top: -27rem;
-                    right: 0rem;
-                    // display: none;
+                .contenedor{
+                    bottom: 3.5rem;
+                    display: flex;
+                    left: 0;
+                    right: 0;
                     margin: auto;
-                    width: 30rem;
-                    height: 30rem;
-                    position: absolute;
+                    height: auto;
+                    width: 90%;
+                    img{
+                        // position: relative;
+                        // top: -5rem;
+                        width: 100%;
+                    }
                 }
 
-                ul{
-                    padding: 26rem 5rem 2rem 5rem;
+                ul {
+                    padding: 2rem 5rem 0 5rem;
+                    position: relative;
+                    // padding: 0 3rem;
+                    // padding-top: 0;
+                    top: -4.5rem;
+
+                    h2 {
+                        padding-bottom: 1rem;
+                    }
+
+                    li {
+                        p {
+                            font-size: 1.7rem;
+                        }
+                    }
                 }
+
+                .ofrecemos-box1-antenatal {
+                    padding-top: 3rem;
+                }
+            }
+
+            .img-fondo {
+                display: none;
             }
         }
     }
 
     .vacio{
+        padding-top: 8rem;
+
         .ofrecemos-box2{
             .ofrecemos-importante{
                 ul{
