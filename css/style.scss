@@ -251,7 +251,7 @@ a {
 .importante {
     position: relative;
     text-align: center;
-    margin: 10.5rem 0 45rem 0;
+    margin: 10.5rem 0 5rem 0;
     z-index: 0;
 
     .importante-h2 {
@@ -284,20 +284,7 @@ a {
     }
 }
 
-.vacio {
-    height: 45rem;
-    background: #d9d9d9;
-    opacity: 0.5;
-    z-index: 0;
-}
-
-.ofrecemos {
-    align-items: center;
-    height: 20rem;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 1;
-
+.ofrecemos-1{
     .ofrecemos-box1 {
         // border-radius: 15px;
         position: relative;
@@ -306,7 +293,7 @@ a {
         width: 80rem;
         height: 37rem;
         box-shadow: -3rem 0 80px -40px #777;
-        top: -75rem;
+        bottom: -5rem;
         z-index: 10;
 
         &::before {
@@ -364,22 +351,33 @@ a {
         }
 
         .point2 {
-            width: 10rem;
+            width: 12rem;
             position: absolute;
             z-index: 100;
             top: -2rem;
-            right: -2rem;
+            right: -6rem;
         }
     }
+}
+
+.vacio {
+    // height: 45rem;
+    padding-top: 8rem;
+    background: #f0efef;
+    // opacity: 0.5;
+    z-index: 0;
+    position: relative;
 
     .ofrecemos-box2 {
         // border-radius: 15px;
         position: relative;
-        top: -62rem;
+        // top: -62rem;
+        bottom: -8rem;
         margin: auto;
         justify-content: space-between;
         background: #fff;
-        width: 120rem;
+        width: 100%;
+        max-width: 100rem;
         height: 35rem;
         z-index: 9;
         box-shadow: -3rem 1rem 80px -40px #777;
@@ -399,9 +397,9 @@ a {
 
             ul {
                 list-style-type: none;
-                margin-top: 5%;
+                margin-top: 1%;
                 margin-right: 41%;
-                margin-left: 10%;
+                margin-left: 6%;
                 text-align: left;
                 color: #f173ac;
                 font-size: 2rem;
@@ -422,7 +420,7 @@ a {
                         p {
                             font-family: "Poppins", sans-serif;
                             color: #666;
-                            font-size: 1.3rem;
+                            font-size: 1.5rem;
 
                             .b-1 {
                                 color: #046aa5;
@@ -439,11 +437,11 @@ a {
         }
 
         .point3 {
-            width: 10rem;
+            width: 12rem;
             position: absolute;
             z-index: 100;
             bottom: -2rem;
-            left: -2rem;
+            left: -6rem;
         }
     }
 
@@ -451,11 +449,19 @@ a {
         width: 35rem;
         z-index: 11;
         display: flex;
-        position: relative;
-        top: -105rem;
+        position: absolute;
+        bottom: -8rem;
         // right: -108rem;
         margin: 0 40% 0 60%;
     }
+}
+
+.ofrecemos {
+    align-items: center;
+    height: 15rem;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;  
 }
 
 .footer {
@@ -567,77 +573,33 @@ a {
 }
 
 // *MEDIA QUERIES
-
-@media (max-width: 1210px) {
-    // html {
-    //     font-size: 55%;
-    // }
-
-    // .menu {
-    //     .menu-nav2 {
-    //         text-align: right;
-
-    //         img {
-    //             width: 90%;
-    //         }
-    //     }
-    // }
-
-    .ofrecemos {
-        .ofrecemos-box1 {
-            .point2 {
-                display: none;
-            }
-        }
-
-        .ofrecemos-box2 {
-            width: 100%;
-
-            .point3 {
-                display: none;
-            }
-        }
-    }
-       
-}
-
 // Todo: en esta media se eleminan todos los puntitos svg
 @media (max-width: 1100px) {
-    .menu {
-        display: flex;
+    .home {
         height: auto;
 
-        .menu-nav1 {
-            position: relative;
+        .home_box {
+            width: 100%;
 
-            .menu-nav1-h2_1 {
-                font-size: 2.5rem;
+            .home-nav1 {
+                display: inline-block;
+                padding: 5rem 3rem 3rem 0;
+                align-items: center;
+                vertical-align: middle;
             }
 
-            .menu-nav1-h2_2 {
-                font-size: 3.5rem;
+            .home-nav2 {
+                width: 50%;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                }
             }
 
-            p {
-                font-size: 2.5rem;
+            .img-fondo {
+                display: none;
             }
-        }
-
-        .menu-nav2 {
-            display: flex;
-            position: relative;
-            width: 50%;
-            height: auto;
-
-            img {
-                position: relative;
-
-                width: 100%;
-            }
-        }
-
-        .img-fondo {
-            display: none;
         }
     }
 
@@ -649,6 +611,22 @@ a {
                 p {
                     margin: 1.5rem 9%;
                 }
+            }
+        }
+    }
+
+    .ofrecemos-1{
+        .ofrecemos-box1{
+            .point2{
+                display: none;
+            }
+        }
+    }
+
+    .vacio{
+        .ofrecemos-box2{
+            .point3{
+                display: none;
             }
         }
     }
@@ -674,6 +652,10 @@ a {
             padding: 0 1rem;
             width: 100%;
         }
+    }
+
+    .importante{
+        margin-top: 2rem;
     }
 
     .home {
@@ -703,6 +685,8 @@ a {
             }
         }
     }
+
+
 }
 
 @media (max-width: 950px) {
@@ -818,9 +802,76 @@ a {
             }
         }
     }
+
+    .ofrecemos-1{
+        .ofrecemos-box1{
+            width: 100%;
+            height: auto;
+
+            div{
+                flex-direction: column;    
+
+                img{
+                    left: 0%;
+                    top: -27rem;
+                    right: 0rem;
+                    // display: none;
+                    margin: auto;
+                    width: 30rem;
+                    height: 30rem;
+                    position: absolute;
+                }
+
+                ul{
+                    padding: 26rem 5rem 2rem 5rem;
+                }
+            }
+        }
+    }
+
+    .vacio{
+        .ofrecemos-box2{
+            .ofrecemos-importante{
+                ul{
+                    margin-right: 0;
+                    padding-right: 10rem;
+                    div{
+                        div{
+
+                        }
+                    }
+                }
+
+                .box2-img_doctora-2{
+                    // width: 16.8rem;
+                    height: 31.2rem;
+                    display: flex;
+                }
+            }
+        }
+
+        .ofrecemos-box3_img{
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 800px) {
+
+    .home {
+        .home_box {
+            .home-nav1 {
+                .home-nav1-P_1 {
+                    font-size: 2.6rem;
+                }
+
+                .home-nav1-P_2 {
+                    font-size: 2.8rem;
+                }
+            }
+        }
+    }
+
     .menu {
         text-align: center;
 
@@ -846,26 +897,27 @@ a {
         }
     }
 
-    .ofrecemos {
-        .ofrecemos-box1 {
-            div {
-                img {
-                    height: 30rem;
-                    left: -3.5rem;
-                    bottom: 3.5rem;
+    .vacio{
+        .ofrecemos-box2{
+            .ofrecemos-importante{
+                ul{
+                    padding-right: 7rem;
+                    div{
+                        div{
+                            p{
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
                 }
             }
-
-            .img-fondo {
-                display: none;
-            }
-        }
-
-        .ofrecemos-box3_img {
-            width: 30rem;
-            top: -870px;
         }
     }
+
+    .ofrecemos{
+        height: 10rem;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -898,96 +950,42 @@ a {
         }
     }
 
-    .ofrecemos {
-        height: 50rem;
-
-        .ofrecemos-box1 {
-            border-radius: 0px;
-            width: auto;
-            height: auto;
-
-            div {
-                display: inline;
-
-                iframe {
-                    display: inline;
-                    left: -0.5rem;
-                    bottom: 3.5rem;
-                    width: 90%;
-                }
-
-                ul {
-                    position: relative;
-                    top: -4.5rem;
-
-                    li {
-                        p {
-                            font-size: 1.7rem;
-                        }
-                    }
-                }
-            }
-        }
-
-        .ofrecemos-box2 {
-            // display: flex;
-            position: relative;
-            height: 35rem;
-
-            h2 {
-                padding-right: 0;
-                font-size: 3rem;
-            }
-            .ofrecemos-importante {
-                padding-top: 3rem;
-                padding-right: 10rem;
-
-                ul {
-                    font-size: 1rem;
-                    margin: auto 10%;
-
-                    div {
-                        div {
-                            img {
-                                display: flex;
-                                position: relative;
-                            }
-
-                            p {
-                                font-size: 1.3rem;
-                            }
-                        }
-                    }
-
-                    ul {
-                        li {
-                            p {
-                                margin-top: 1rem;
-                                font-size: 1.4rem;
-                            }
-                        }
-                    }
-                }
-
-                img {
-                    position: absolute;
-                    right: 0px;
-                    bottom: 0px;
-                    height: 25rem;
-                    display: flex;
-                }
-            }
-        }
-
-        .ofrecemos-box3_img {
-            display: none;
-        }
-    }
-
     .footer {
         .ofrecemos-footer {
             .ofrecemos_footer_div1 {
                 width: 80rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:675px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .home {
+        display: flex;
+        height: auto;
+    }
+
+    .vacio{
+        .ofrecemos-box2{
+            height: auto;
+
+            .ofrecemos-importante{
+                ul{
+                    padding-bottom: 4rem;
+                    padding-right: 2rem;
+                }
+    
+                .box2-img_doctora-2{
+                    display: flex;
+                    margin-top: auto;
+                }
             }
         }
     }
@@ -1005,6 +1003,41 @@ a {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .home {
+        .home_box {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            padding-top: 0;
+
+            .home-nav1 {
+                padding: 1rem 0;
+                margin: 0 auto;
+
+                .home-nav1-P_1 {
+                    text-align: center;
+                }
+
+                .home-nav1-P_2 {
+                    text-align: center;
+                }
+
+                div {
+                    margin: 1rem auto;
+                }
+            }
+
+            .home-nav2 {
+                display: flex;
+                width: auto;
+
+                img {
+                    margin: auto;
+                    width: 80%;
                 }
             }
         }
@@ -1068,44 +1101,6 @@ a {
             font-size: 2rem;
         }
     }
-
-    .ofrecemos {
-        height: 20rem;
-        display: block;
-
-        .ofrecemos-box1 {
-            height: 40rem;
-
-            div {
-
-                img {
-                    display: inline;
-                    left: 0;
-                    height: 15rem;
-                }
-
-                ul {
-                    position: relative;
-                    font-size: 1rem;
-                    padding-top: 2.5rem;
-                    top: -4.5rem;
-
-                    li {
-                        p {
-                            font-size: 1.4rem;
-                            margin-top: 0.5rem;
-                        }
-                    }
-                }
-            }
-        }
-
-        .ofrecemos-box2 {
-            .ofrecemos-importante {
-                padding-top: 0rem;
-            }
-        }
-    }
 }
 
 @media (max-width: 460px) {
@@ -1166,18 +1161,31 @@ a {
             }
         }
     }
-    .ofrecemos {
-        .ofrecemos-box2 {
-            .ofrecemos-importante {
-                ul {
-                    margin-top: 1rem;
+
+    .ofrecemos-1{
+        .ofrecemos-box1{
+            div{
+                .feto{
+                    width: 25rem;
+                    height: 25rem;
+                    top: -60%;
                 }
             }
         }
     }
 
-    .footer {
-        margin-top: 10rem;
+    .vacio{
+        .ofrecemos-box2{
+            .ofrecemos-importante{
+                .box2-img_doctora-2{
+                    position: absolute;
+                    opacity: .25;
+                    height: 24rem;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
     }
 }
 
