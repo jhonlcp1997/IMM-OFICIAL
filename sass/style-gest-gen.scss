@@ -341,7 +341,7 @@ $azul: #007cc3;
         position: relative;
         margin: auto;
         background: #f5a4c7;
-        width: 90%;
+        width: 92%;
         max-width: 140rem;
         // height: 38rem;
         height: auto;
@@ -377,12 +377,12 @@ $azul: #007cc3;
                 // // height: 40rem;
                 // height: auto;
                 // bottom: -3rem;
-                left: -5rem;
+                left: -5.5rem;
                 // margin-bottom: auto;
                 // position: relative;
                 width: 78rem;
-                height: 40rem;
-                bottom: -5.5rem;
+                height: 38rem;
+                bottom: -4.5rem;
             }
 
             .video{
@@ -390,7 +390,7 @@ $azul: #007cc3;
                 // background-color: #444;
                 min-width: 78rem;
                 // max-width: 95rem;
-                height: 40rem;
+                height: 38rem;
             }
 
             ul {
@@ -401,8 +401,8 @@ $azul: #007cc3;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
-                padding-top: 5rem;
-                padding-bottom: 5rem;
+                padding-top: 4.3rem;
+                padding-bottom: 4.3rem;
 
                 h2 {
                     font-family: "Abel", sans-serif;
@@ -449,7 +449,7 @@ $azul: #007cc3;
         color: $pink3;
         font-size: 2.5rem;
         position: relative;
-        top: 10rem;
+        top: 12rem;
     }
 
     .vacio-div1 {
@@ -460,7 +460,7 @@ $azul: #007cc3;
         max-width: 110rem;
         color: #666;
         position: relative;
-        top: 10rem;
+        top: 12rem;
 
         div {
             margin: auto;
@@ -695,6 +695,39 @@ $azul: #007cc3;
 }
 
 // *MEDIA QUERIES
+
+@media screen and (max-width: 1300px) {
+    .importante{
+        .ofrecemos-box1{
+            .ofrecemos-box1_div1{
+                width: 100%;
+
+                .video{
+                    background-color: #000;
+                    width: auto;
+                    height: auto;
+                    // position: inherit;
+                    position: relative;
+                    top: 0;
+                    min-width: 50rem;
+                    
+                    iframe{
+                        width: 50rem;
+                        bottom: 0;
+                        left: 0;
+                        position: inherit;
+                    }
+                }
+
+                ul{
+                    position: relative;
+                    padding: 3rem 1rem 3rem 3rem;
+                }
+            }
+        }
+    }
+}
+
 // Todo: en esta media se eleminan todos los puntitos svg
 @media (max-width: 1100px) {
     .home {
@@ -987,6 +1020,7 @@ $azul: #007cc3;
 
         .ofrecemos-box1 {
             width: auto;
+            // width: 100%;
 
             div {
                 iframe {

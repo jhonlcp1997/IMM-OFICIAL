@@ -350,7 +350,7 @@ a {
   position: relative;
   margin: auto;
   background: #f5a4c7;
-  width: 90%;
+  width: 92%;
   max-width: 140rem;
   height: auto;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
@@ -383,16 +383,16 @@ a {
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
   position: relative;
-  left: -5rem;
+  left: -5.5rem;
   width: 78rem;
-  height: 40rem;
-  bottom: -5.5rem;
+  height: 38rem;
+  bottom: -4.5rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video {
   position: relative;
   min-width: 78rem;
-  height: 40rem;
+  height: 38rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
@@ -401,8 +401,8 @@ a {
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4.3rem;
+  padding-bottom: 4.3rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
@@ -445,7 +445,7 @@ a {
   color: #f173ac;
   font-size: 2.5rem;
   position: relative;
-  top: 10rem;
+  top: 12rem;
 }
 
 .vacio .vacio-div1 {
@@ -459,7 +459,7 @@ a {
   max-width: 110rem;
   color: #666;
   position: relative;
-  top: 10rem;
+  top: 12rem;
 }
 
 .vacio .vacio-div1 div {
@@ -696,6 +696,30 @@ a {
   margin-top: 1.5rem;
   color: #9f9f9f;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 {
+    width: 100%;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video {
+    background-color: #000;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    min-width: 50rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video iframe {
+    width: 50rem;
+    bottom: 0;
+    left: 0;
+    position: inherit;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
+    position: relative;
+    padding: 3rem 1rem 3rem 3rem;
+  }
 }
 
 @media (max-width: 1100px) {
