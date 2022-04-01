@@ -281,6 +281,10 @@ a {
                 text-align: center;
                 margin: 1.5rem 9%;
             }
+
+            img{
+                height: 10rem;
+            }
         }
 
         .import-nav-2 {
@@ -442,8 +446,8 @@ a {
 
                         img {
                             display: flex;
-                            height: 4rem;
-                            margin-right: 2.5rem;
+                            height: 6rem;
+                            margin: auto 2.5rem auto 0;
                         }
 
                         p {

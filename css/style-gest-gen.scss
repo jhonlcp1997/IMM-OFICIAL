@@ -303,6 +303,11 @@ $azul: #007cc3;
                     text-align: center;
                     margin: 1.5rem 9%;
                 }
+
+                img{
+                    height: 10rem;
+                    // width: 10rem;
+                }
             }
         }
     }
@@ -470,7 +475,7 @@ $azul: #007cc3;
 
             .vacio-boxes_1-div1 {
                 display: flex;
-                padding: 0 3rem;
+                padding: 0 3rem 0 4rem;
 
                 img {
                     height: 5rem;
@@ -485,6 +490,7 @@ $azul: #007cc3;
                     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
                     color: $azul;
                     font-size: 1.7rem;
+                    padding-left: 2rem;
                 }
             }
 

@@ -283,6 +283,10 @@ a {
                 text-align: center;
                 margin: 1.5rem 9%;
             }
+
+            img{
+                height: 10rem;
+            }
         }
     }
 
@@ -432,7 +436,7 @@ a {
 
             .vacio-boxes_1-div1 {
                 display: flex;
-                padding: 0 3rem;
+                padding: 0 3rem 0 4rem;
                 align-items: center;
                 position: relative;
 
@@ -446,6 +450,7 @@ a {
                 }
 
                 h3 {
+                    padding-left: 2rem;
                     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
                     color: $azul;
                     font-size: 1.8rem;
@@ -496,7 +501,7 @@ a {
         display: flex;
         flex-wrap: wrap;
         width: 95%;
-        max-width: 100rem;
+        max-width: 110rem;
         color: #666;
         position: relative;
         top: 10rem;
@@ -529,7 +534,8 @@ a {
             }
 
             p {
-                // padding: 1rem;
+                // padding-left: 1rem;
+                padding: 1rem;
                 font-size: 1.3rem;
             }
 

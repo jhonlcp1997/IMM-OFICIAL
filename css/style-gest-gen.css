@@ -315,6 +315,10 @@ a {
   margin: 1.5rem 9%;
 }
 
+.importante .import-nav .slider-contenedor .characteres_all img {
+  height: 10rem;
+}
+
 .importante .points {
   margin-top: 1rem;
   display: -webkit-box;
@@ -477,7 +481,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 3rem;
+  padding: 0 3rem 0 4rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 img {
@@ -492,6 +496,7 @@ a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #007cc3;
   font-size: 1.7rem;
+  padding-left: 2rem;
 }
 
 .vacio .vacio-div1 .vacio-boxes_1 p {
