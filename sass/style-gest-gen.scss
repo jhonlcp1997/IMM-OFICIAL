@@ -342,8 +342,9 @@ $azul: #007cc3;
         margin: auto;
         background: #f5a4c7;
         width: 90%;
-        // max-width: 140rem;
-        height: 38rem;
+        max-width: 140rem;
+        // height: 38rem;
+        height: auto;
         box-shadow: -3rem 0 80px -40px #777;
         bottom: -10rem;
         z-index: 10;
@@ -371,17 +372,25 @@ $azul: #007cc3;
             iframe {
                 // background-color: #007cc3;
                 // border-radius: 15px;
-                // position: relative;
+                position: relative;
                 // width: 56%;
                 // // height: 40rem;
                 // height: auto;
                 // bottom: -3rem;
-                // left: -2rem;
+                left: -5rem;
                 // margin-bottom: auto;
+                // position: relative;
+                width: 78rem;
+                height: 40rem;
+                bottom: -5.5rem;
+            }
+
+            .video{
                 position: relative;
-                width: 80rem;
-                height: 30rem;
-                bottom: -4.5rem;
+                // background-color: #444;
+                min-width: 78rem;
+                // max-width: 95rem;
+                height: 40rem;
             }
 
             ul {
@@ -392,8 +401,8 @@ $azul: #007cc3;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
-                padding-top: 3rem;
-                padding-bottom: 3rem;
+                padding-top: 5rem;
+                padding-bottom: 5rem;
 
                 h2 {
                     font-family: "Abel", sans-serif;

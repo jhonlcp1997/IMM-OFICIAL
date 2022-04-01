@@ -351,7 +351,8 @@ a {
   margin: auto;
   background: #f5a4c7;
   width: 90%;
-  height: 38rem;
+  max-width: 140rem;
+  height: auto;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
   bottom: -10rem;
@@ -382,9 +383,16 @@ a {
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
   position: relative;
-  width: 80rem;
-  height: 30rem;
-  bottom: -4.5rem;
+  left: -5rem;
+  width: 78rem;
+  height: 40rem;
+  bottom: -5.5rem;
+}
+
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 .video {
+  position: relative;
+  min-width: 78rem;
+  height: 40rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
@@ -393,8 +401,8 @@ a {
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
