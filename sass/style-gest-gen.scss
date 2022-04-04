@@ -369,8 +369,6 @@ $azul: #007cc3;
             width: 95%;
             // justify-content: space-between;
 
-            
-
             .video{
                 position: relative;
                 // background-color: #999;
@@ -392,6 +390,36 @@ $azul: #007cc3;
                     width: 78rem;
                     height: 38rem;
                     bottom: -4.5rem;
+                }
+            }
+
+            .contenedor {
+                display: flex;
+                position: relative;
+                width: 100%;
+                // width: 35rem;
+                // height: 60%;
+                height: 38rem;
+                bottom: -4.5rem;
+                left: -7.5rem;
+                filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
+                // // background-size: cover;
+                // // background-position: center;
+                // background-position: 0px 120px;
+                // background-attachment: fixed;
+                // padding: 0rem 2rem;
+                // background: url(../img/images-gest/Antenatal-feto.jpg) no-repeat;
+                padding-left: 0;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+
+                    // width: 35rem;
+                    // height: 35rem;
+                    // width: auto;
+                    // text-align: left;
+                    object-fit: cover;
                 }
             }
 
@@ -809,9 +837,6 @@ $azul: #007cc3;
         .ofrecemos-box1 {
             .ofrecemos-box1_div1 {
                 ul {
-                    h2 {
-                        font-size: 2rem;
-                    }
 
                     li {
                         p {
@@ -1047,10 +1072,29 @@ $azul: #007cc3;
                     }
                 }
 
+                .contenedor{
+                    bottom: 3.5rem;
+                    display: flex;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    height: auto;
+                    width: 90%;
+                    img{
+                        // position: relative;
+                        // top: -5rem;
+                        width: 100%;
+                    }
+                }
+
                 ul {
+                    padding: 2rem 5rem 0 5rem;
+                    position: relative;
+                    top: -4rem;
+
                     li {
                         p {
-                            font-size: 1.4rem;
+                            font-size: 1.5rem;
                         }
                     }
                 }
