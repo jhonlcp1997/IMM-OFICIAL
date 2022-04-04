@@ -802,6 +802,8 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: auto;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
   }
   .header div .header-general .header-right div {
     height: 4.5rem;
@@ -817,6 +819,25 @@ a {
   }
   .header div .header-general .header-right div:hover {
     color: #000;
+  }
+  .header div .header-general .header-right img {
+    width: 2rem;
+  }
+  .header div .header-general .header-right .menu-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header div .header-general .header-right .menu-open {
+    display: none;
+  }
+  .header div .header-general .header-right.active .menu-close {
+    display: none;
+  }
+  .header div .header-general .header-right.active .menu-open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .ofrecemos-1 .ofrecemos-box1 {
     width: auto;
