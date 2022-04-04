@@ -295,8 +295,9 @@ a {
         position: relative;
         margin: auto;
         background: #f5a4c7;
-        width: 90%;
-        height: 38rem;
+        width: 92%;
+        max-width: 140rem;
+        height: auto;
         box-shadow: -3rem 0 80px -40px #777;
         bottom: -10rem;
         z-index: 10;
@@ -315,9 +316,9 @@ a {
             opacity: 0.07;
         }
 
-        div {
+        .ofrecemos-box1_div1{
             display: flex;
-            padding: 0 0 0 5%;
+            padding: 0;
             width: 95%;
 
             iframe {
@@ -328,13 +329,40 @@ a {
                 bottom: -4.5rem;
             }
 
+            // .contenedor {
+            //     position: relative;
+            //     width: 100%;
+            //     max-width: 700px;
+            //     // height: 60%;
+            //     height: 30rem;
+            //     bottom: -4.5rem;
+            //     // // background-size: cover;
+            //     // // background-position: center;
+            //     // background-position: 0px 120px;
+            //     // background-attachment: fixed;
+            //     // padding: 0rem 2rem;
+            //     // background: url(../img/images-gest/Antenatal-feto.jpg) no-repeat;
+            //     padding-left: 0;
+
+            //     img{
+            //         height: 100%;
+            //         width: 100%;
+            //         // width: auto;
+            //         // text-align: left;
+            //         object-fit: cover;
+            //     }
+            // }
+
             .contenedor {
+                display: flex;
                 position: relative;
                 width: 100%;
-                max-width: 700px;
+                // width: 35rem;
                 // height: 60%;
-                height: 30rem;
+                height: 38rem;
                 bottom: -4.5rem;
+                left: -7.5rem;
+                filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
                 // // background-size: cover;
                 // // background-position: center;
                 // background-position: 0px 120px;
@@ -346,6 +374,9 @@ a {
                 img{
                     height: 100%;
                     width: 100%;
+
+                    // width: 35rem;
+                    // height: 35rem;
                     // width: auto;
                     // text-align: left;
                     object-fit: cover;
@@ -354,25 +385,27 @@ a {
 
             ul {
                 font-size: 1.5rem;
-                padding-left: 5rem;
+                padding-left: 2rem;
                 // padding-right: 5rem;
                 text-align: left;
                 /* list-style-type: none; */
                 color: #fff;
-                padding-top: 3rem;
+                padding-top: 4.3rem;
+                padding-bottom: 4.3rem;
 
                 h2 {
                     font-family: "Abel", sans-serif;
                     font-size: 2.5rem;
                     // padding-top: 1.5rem;
-                    padding-bottom: 1.5rem;
+                    padding-bottom: .8rem;
+                    padding-right: 0;
                     color: #fff;
                 }
 
                 li {
                     p {
                         font-family: "Poppins", sans-serif;
-                        font-size: 1.7rem;
+                        // font-size: 1.7rem;
                         margin-top: 0.7rem;
                         color: #fff;
                         padding-top: 0rem;
@@ -381,9 +414,9 @@ a {
                 }
             }
 
-            .ofrecemos-box1-antenatal {
-                padding-top: 5rem;
-            }
+            // .ofrecemos-box1-antenatal {
+            //     padding-top: 5rem;
+            // }
         }
 
         .point2 {
@@ -681,11 +714,37 @@ a {
 // *MEDIA QUERIES
 
 /* *MEDIA QUERIES */
-// @media screen and (max-width:1200px) {
-//     .home{
-//         height: auto;
-//     }
-// }
+@media screen and (max-width: 1300px) {
+    .importante{
+        .ofrecemos-box1{
+            .ofrecemos-box1_div1{
+                width: 100%;
+
+                .video{
+                    background-color: #000;
+                    width: auto;
+                    // height: auto;
+                    // position: inherit;
+                    position: relative;
+                    top: 0;
+                    min-width: 50rem;
+                    
+                    iframe{
+                        width: 50rem;
+                        bottom: 0;
+                        left: 0;
+                        position: inherit;
+                    }
+                }
+
+                ul{
+                    position: relative;
+                    padding: 3rem 1rem 3rem 3rem;
+                }
+            }
+        }
+    }
+}
 
 @media screen and (max-width:1100px) {
     .home {
@@ -722,6 +781,14 @@ a {
 
     .importante{
         margin-top: 5rem;
+
+        .ofrecemos-box1{
+            .ofrecemos-box1_div1{
+                .contenedor{
+                    left: -4rem;
+                }
+            }
+        }
     }
 }
 
@@ -978,18 +1045,53 @@ a {
 
         .ofrecemos-box1 {
             width: auto;
+            height: auto;
 
-            div {
-                iframe {
-                    height: 30rem;
-                    // left: -3.5rem;
-                    // bottom: 3.5rem;
+            .ofrecemos-box1_div1 {
+                // flex-direction: column;
+                display: inline;
+
+                
+
+                .video{
+                    background-color: rgba(255, 255, 255, 0);
+                    margin: auto;
+                    max-height: 30rem;
+                    width: 90%;
+
+                    iframe {
+                        // display: flex;
+                        // position: relative;
+                        // display: inline;
+                        width: 100%;
+                        max-width: 85rem;
+                        top: -6rem;
+                    }
+                }
+
+                .contenedor{
+                    bottom: 3.5rem;
+                    display: flex;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    height: auto;
+                    width: 90%;
+                    img{
+                        // position: relative;
+                        // top: -5rem;
+                        width: 100%;
+                    }
                 }
 
                 ul {
+                    padding: 2rem 5rem 0 5rem;
+                    position: relative;
+                    top: -4rem;
+
                     li {
                         p {
-                            font-size: 1.4rem;
+                            font-size: 1.5rem;
                         }
                     }
                 }

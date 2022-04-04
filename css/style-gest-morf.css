@@ -300,8 +300,9 @@ a {
   position: relative;
   margin: auto;
   background: #f5a4c7;
-  width: 90%;
-  height: 38rem;
+  width: 92%;
+  max-width: 140rem;
+  height: auto;
   -webkit-box-shadow: -3rem 0 80px -40px #777;
           box-shadow: -3rem 0 80px -40px #777;
   bottom: -10rem;
@@ -322,64 +323,66 @@ a {
   opacity: 0.07;
 }
 
-.importante .ofrecemos-box1 div {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0 0 5%;
+  padding: 0;
   width: 95%;
 }
 
-.importante .ofrecemos-box1 div iframe {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 iframe {
   position: relative;
   width: 80rem;
   height: 30rem;
   bottom: -4.5rem;
 }
 
-.importante .ofrecemos-box1 div .contenedor {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 .contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: 100%;
-  max-width: 700px;
-  height: 30rem;
+  height: 38rem;
   bottom: -4.5rem;
+  left: -7.5rem;
+  -webkit-filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
+          filter: drop-shadow(-1rem 20px 20px rgba(68, 67, 67, 0.253));
   padding-left: 0;
 }
 
-.importante .ofrecemos-box1 div .contenedor img {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 .contenedor img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.importante .ofrecemos-box1 div ul {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
   font-size: 1.5rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
   text-align: left;
   /* list-style-type: none; */
   color: #fff;
-  padding-top: 3rem;
+  padding-top: 4.3rem;
+  padding-bottom: 4.3rem;
 }
 
-.importante .ofrecemos-box1 div ul h2 {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 ul h2 {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: .8rem;
+  padding-right: 0;
   color: #fff;
 }
 
-.importante .ofrecemos-box1 div ul li p {
+.importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.7rem;
   margin-top: 0.7rem;
   color: #fff;
   padding-top: 0rem;
   font-weight: 100;
-}
-
-.importante .ofrecemos-box1 div .ofrecemos-box1-antenatal {
-  padding-top: 5rem;
 }
 
 .importante .ofrecemos-box1 .point2 {
@@ -687,6 +690,29 @@ a {
 }
 
 /* *MEDIA QUERIES */
+@media screen and (max-width: 1300px) {
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 {
+    width: 100%;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video {
+    background-color: #000;
+    width: auto;
+    position: relative;
+    top: 0;
+    min-width: 50rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video iframe {
+    width: 50rem;
+    bottom: 0;
+    left: 0;
+    position: inherit;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
+    position: relative;
+    padding: 3rem 1rem 3rem 3rem;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .home {
     height: auto;
@@ -719,6 +745,9 @@ a {
   }
   .importante {
     margin-top: 5rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .contenedor {
+    left: -4rem;
   }
 }
 
@@ -912,12 +941,43 @@ a {
   }
   .importante .ofrecemos-box1 {
     width: auto;
+    height: auto;
   }
-  .importante .ofrecemos-box1 div iframe {
-    height: 30rem;
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 {
+    display: inline;
   }
-  .importante .ofrecemos-box1 div ul li p {
-    font-size: 1.4rem;
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video {
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    max-height: 30rem;
+    width: 90%;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .video iframe {
+    width: 100%;
+    max-width: 85rem;
+    top: -6rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .contenedor {
+    bottom: 3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: 90%;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 .contenedor img {
+    width: 100%;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul {
+    padding: 2rem 5rem 0 5rem;
+    position: relative;
+    top: -4rem;
+  }
+  .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
+    font-size: 1.5rem;
   }
 }
 
