@@ -127,6 +127,10 @@ a {
   padding-left: 4.5rem;
 }
 
+.header div .header-general .header-center-right .header-center-right-tittle {
+  display: none;
+}
+
 .header div .header-general .header-center-right a:focus {
   padding-bottom: 1rem;
   border-bottom: 1px solid #f173ac;
@@ -135,6 +139,10 @@ a {
 .header div .header-general .header-center-right a p {
   color: #777;
   font-weight: 100;
+}
+
+.header div .header-general .header-center-right a img {
+  display: none;
 }
 
 .home {
@@ -896,8 +904,9 @@ a {
   }
   .header div .header-general .header-center-right {
     display: inline-block;
-    text-align: center;
+    text-align: left;
     width: 50%;
+    height: 90vh;
     position: absolute;
     top: 75%;
     right: 0;
@@ -913,9 +922,31 @@ a {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header div .header-general .header-center-right a {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 1.2rem;
     margin: 3rem 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header div .header-general .header-center-right a p {
+    padding-right: 1rem;
+  }
+  .header div .header-general .header-center-right a img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    width: 1.8rem;
+  }
+  .header div .header-general .header-center-right .header-center-right-tittle {
+    font-family: "Abel", sans-serif;
+    display: block;
+    padding-top: 2rem;
+    color: #007cc3;
   }
   .header div .header-general .header-right {
     display: -webkit-box;

@@ -125,6 +125,10 @@ a {
                 margin-top: 1.5rem;
                 padding-left: 4.5rem;
 
+                .header-center-right-tittle{
+                    display: none;
+                }
+
                 a {
                     &:focus {
                         padding-bottom: 1rem;
@@ -134,6 +138,10 @@ a {
                     p {
                         color: #777;
                         font-weight: 100;
+                    }
+
+                    img{
+                        display: none;
                     }
                 }
             }
@@ -993,8 +1001,9 @@ a {
 
                 .header-center-right {
                     display: inline-block;
-                    text-align: center;
+                    text-align: left;
                     width: 50%;
+                    height: 90vh;
                     position: absolute;
                     top: 75%;
                     right: 0;
@@ -1009,9 +1018,28 @@ a {
                     }
 
                     a {
-                        display: block;
+                        display: flex;
                         font-size: 1.2rem;
                         margin: 3rem 1rem;
+                        justify-content: space-between;
+
+                        p{
+                            padding-right: 1rem;
+                        }
+
+                        img{
+                            display: flex;
+                            transform: rotate(90deg);
+                            width: 1.8rem;
+                        }
+                    }
+
+                    .header-center-right-tittle{
+                        font-family: $abel;
+                        display: block;
+                        // text-align: center;
+                        padding-top: 2rem;
+                        color: #007cc3;
                     }
                 }
 

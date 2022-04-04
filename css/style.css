@@ -146,6 +146,10 @@ a {
   font-weight: 100;
 }
 
+.header div .header-general .header-center-right a img {
+  display: none;
+}
+
 .home {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -776,7 +780,13 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .header div .header-general .header-center-right a p {
+    padding-right: 1rem;
+  }
   .header div .header-general .header-center-right a img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     width: 1.8rem;

@@ -144,6 +144,10 @@ a {
                         color: #777;
                         font-weight: 100;
                     }
+
+                    img{
+                        display: none;
+                    }
                 }
             }
         }
@@ -814,7 +818,12 @@ a {
                         margin: 3rem 1rem;
                         justify-content: space-between;
 
+                        p{
+                            padding-right: 1rem;
+                        }
+
                         img{
+                            display: flex;
                             transform: rotate(90deg);
                             width: 1.8rem;
                         }
