@@ -1125,7 +1125,7 @@ $azul: #007cc3;
             height: auto;
             // padding-right: 1rem;
 
-            .ofrecemos-box1_div1 {
+            div {
                 display: inline;
 
                 iframe {
@@ -1290,7 +1290,7 @@ $azul: #007cc3;
         .ofrecemos-box1 {
             height: auto;
 
-            .ofrecemos-box1_div1 {
+            div {
                 display: inline;
 
                 iframe {
@@ -1303,6 +1303,10 @@ $azul: #007cc3;
                     position: relative;
                     font-size: 1rem;
                     top: -4.5rem;
+                    
+                    h2{
+                        padding-right: 0;
+                    }
 
                     li {
                         p {
