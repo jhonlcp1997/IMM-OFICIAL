@@ -160,3 +160,7 @@ Quisiera avanzar con la parte de react pero se que debo terminar de entender tod
 Esta vez, tuve que subir a immlatam  emi, consulta html y agregarle los tips de egi y emi a consulta.html modifique el html y css
 Estuve avanzando la parte del curso de javascript de JhonMircha hasta la parte de introduccion del DOM 
 No se si aguante más esto del aire acondicionado, tal vez no estoy acostumbrado, o tal vez es por que soy del norte, o por que las de aca tienen el corazon muy frio xD, pero no me gusta.
+
+
+1-004-2022:
+Otro dia más que no se si contar, me voy.

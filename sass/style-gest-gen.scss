@@ -369,28 +369,30 @@ $azul: #007cc3;
             width: 95%;
             // justify-content: space-between;
 
-            iframe {
-                // background-color: #007cc3;
-                // border-radius: 15px;
-                position: relative;
-                // width: 56%;
-                // // height: 40rem;
-                // height: auto;
-                // bottom: -3rem;
-                left: -5.5rem;
-                // margin-bottom: auto;
-                // position: relative;
-                width: 78rem;
-                height: 38rem;
-                bottom: -4.5rem;
-            }
+            
 
             .video{
                 position: relative;
-                // background-color: #444;
+                // background-color: #999;
                 min-width: 78rem;
                 // max-width: 95rem;
                 height: 38rem;
+
+                iframe {
+                    // background-color: #007cc3;
+                    // border-radius: 15px;
+                    position: relative;
+                    // width: 56%;
+                    // // height: 40rem;
+                    // height: auto;
+                    // bottom: -3rem;
+                    left: -5.5rem;
+                    // margin-bottom: auto;
+                    // position: relative;
+                    width: 78rem;
+                    height: 38rem;
+                    bottom: -4.5rem;
+                }
             }
 
             ul {
@@ -705,7 +707,7 @@ $azul: #007cc3;
                 .video{
                     background-color: #000;
                     width: auto;
-                    height: auto;
+                    // height: auto;
                     // position: inherit;
                     position: relative;
                     top: 0;
@@ -1020,13 +1022,29 @@ $azul: #007cc3;
 
         .ofrecemos-box1 {
             width: auto;
+            height: auto;
             // width: 100%;
 
-            div {
-                iframe {
-                    height: 30rem;
-                    // left: -3.5rem;
-                    // bottom: 3.5rem;
+            .ofrecemos-box1_div1 {
+                // flex-direction: column;
+                display: inline;
+
+                
+
+                .video{
+                    background-color: rgba(255, 255, 255, 0);
+                    margin: auto;
+                    max-height: 30rem;
+                    width: 90%;
+
+                    iframe {
+                        // display: flex;
+                        // position: relative;
+                        // display: inline;
+                        width: 100%;
+                        max-width: 85rem;
+                        top: -6rem;
+                    }
                 }
 
                 ul {
@@ -1276,8 +1294,16 @@ $azul: #007cc3;
             height: auto;
 
             .ofrecemos-box1_div1 {
-                iframe {
-                    height: 20rem;
+                .video{
+                    display: flex;
+                    // height: auto;
+                    height: 22rem;
+                    // background-color: #007cc3;
+                    min-width: 20rem;
+
+                    iframe{
+                        top: -10rem;
+                    }
                 }
             }
 
