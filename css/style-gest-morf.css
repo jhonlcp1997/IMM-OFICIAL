@@ -394,6 +394,7 @@ a {
 }
 
 .vacio {
+  padding-top: 5rem;
   background: #eee;
   opacity: 1;
   z-index: 0;
@@ -579,19 +580,21 @@ a {
 }
 
 .ofrecemos {
-  height: 20rem;
+  height: 10rem;
   text-align: center;
   z-index: 1;
 }
 
 .footer {
+  background-color: #fff;
   text-align: center;
+  z-index: 0;
 }
 
 .footer .ofrecemos-footer {
   position: relative;
   display: inline-block;
-  margin: 2rem auto;
+  margin: 10rem auto 2rem auto;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 {
@@ -625,57 +628,56 @@ a {
   font-size: 3rem;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
   list-style-type: none;
   margin-left: 1.5rem;
   font-family: "Poppins", sans-serif;
   text-align: left;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2 {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 h2 {
+  font-size: 1.6rem;
   font-family: "Abel", sans-serif;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
-  opacity: 0.7;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li p {
   font-size: 1.3rem;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
-  list-style-type: none;
-  margin-left: 1.5rem;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+  padding-left: .5rem;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2 {
-  text-align: start;
-  font-family: "Abel", sans-serif;
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
+  padding-left: .2rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
-  font-family: "Abel", sans-serif;
   color: #007cc3;
-}
-
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
-  list-style-type: none;
-  margin-left: 1.5rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #007cc3;
+  font-weight: 100;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
-  font-size: 1.5rem;
-  margin: 1rem 0;
   padding: 0.2rem;
-  text-align: left;
 }
 
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul i {
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
+  margin: 1rem 0;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
   color: #666;
   margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .div1 {
+  padding-left: .2rem;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
@@ -683,10 +685,10 @@ a {
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div2 p {
-  font-family: "Abel", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 1.5rem;
-  color: #9f9f9f;
-  font-size: 1.2rem;
+  color: #000;
+  font-size: 1rem;
 }
 
 /* *MEDIA QUERIES */
@@ -742,6 +744,9 @@ a {
   }
   .point2, .point3, .point4 {
     display: none;
+  }
+  .ofrecemos {
+    height: 6rem;
   }
   .importante {
     margin-top: 5rem;
@@ -979,6 +984,12 @@ a {
   .importante .ofrecemos-box1 .ofrecemos-box1_div1 ul li p {
     font-size: 1.5rem;
   }
+  .vacio {
+    padding-top: 0rem;
+  }
+  .vacio .vacio-h2 {
+    top: 10rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1028,9 +1039,6 @@ a {
   }
   .importante .ofrecemos-box1 .img-fondo {
     display: none;
-  }
-  .ofrecemos {
-    height: 10rem;
   }
 }
 
@@ -1129,6 +1137,12 @@ a {
   .importante .ofrecemos-box1 div ul li p {
     font-size: 1.4rem;
     margin-top: 0.5rem;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1.div1 {
+    padding: 5rem 0;
+  }
+  .vacio .vacio-div1 .vacio-boxes_1.div2 {
+    padding: 4rem 0;
   }
 }
 

@@ -125,6 +125,10 @@ a {
                 margin-top: 1.5rem;
                 padding-left: 4.5rem;
 
+                .header-center-right-tittle{
+                    display: none;
+                }
+
                 .module-1 {
                     padding-bottom: 1rem;
                     border-bottom: 1px solid #f173ac;
@@ -395,7 +399,7 @@ a {
 
 .vacio {
     // height: 45rem;
-    padding-top: 13rem;
+    padding-top: 15rem;
     background: #f0efef;
     // opacity: 0.5;
     z-index: 0;
@@ -491,19 +495,21 @@ a {
 
 .ofrecemos {
     align-items: center;
-    height: 15rem;
+    height: 10rem;
     text-align: center;
     margin: 0 auto;
     z-index: 1;  
 }
 
 .footer {
+    background-color: #fff;
     text-align: center;
+    z-index: 0;
 
     .ofrecemos-footer {
         position: relative;
         display: inline-block;
-        margin: 2rem auto;
+        margin: 10rem auto 2rem auto;
 
         .ofrecemos_footer_div1 {
             display: flex;
@@ -528,54 +534,45 @@ a {
                     }
                 }
 
-                .footer-ul1 {
+                .footer-ul1, .footer-ul2, .footer-ul3{
                     list-style-type: none;
                     margin-left: 1.5rem;
                     font-family: "Poppins", sans-serif;
                     text-align: left;
 
-                    h2 {
-                        font-family: "Abel", sans-serif;
+                    h2{
+                        font-size: 1.6rem;
+                        font-family: $abel;
                     }
 
-                    li {
-                        p {
-                            opacity: 0.7;
-                            font-size: 1.4rem;
+                    li{
+                        p{
+                            font-size: 1.3rem
                         }
                     }
                 }
 
+                .footer-ul1{
+                    padding-left: .5rem;
+                }
+
                 .footer-ul2 {
-                    list-style-type: none;
-                    margin-left: 1.5rem;
-
-                    h2 {
-                        text-align: start;
-                        font-family: "Abel", sans-serif;
-                    }
-
+                    padding-left: .2rem;
                     li {
-                        font-family: "Abel", sans-serif;
-                        // color: #007cc3;
-                        color: #026daa;
-                        // color: #1ca5e0;
+                        // padding-top: .8rem;
+                        color: #007cc3;
                     }
                 }
 
                 .footer-ul3 {
-                    list-style-type: none;
-                    margin-left: 1.5rem;
-
                     li {
-                        font-size: 1.5rem;
-                        // color: #007cc3;
-                        color: #026daa;
+                        font-size: 1.3rem;
+                        color: #007cc3;
+                        font-weight: 100;
                     }
 
                     ul {
                         padding: 0.2rem;
-                        text-align: left;
 
                         a {
                             margin: 1rem 0;
@@ -589,17 +586,20 @@ a {
                     }
                 }
             }
+
+            .div1{
+                padding-left: .2rem;
+            }
         }
 
         .ofrecemos_footer_div2 {
             border-top: 1px solid #bfbfbf;
 
             p {
-                // font-family: "Poppins", sans-serif;
-                font-family: "Abel", sans-serif;
+                font-family: "Poppins", sans-serif;
                 margin-top: 1.5rem;
-                color: #9f9f9f;
-                font-size: 1.2rem;
+                color: #000;
+                font-size: 1rem;
             }
         }
     }
@@ -662,6 +662,10 @@ a {
                 display: none;
             }
         }
+    }
+
+    .ofrecemos{
+        height: 6rem;
     }
 
     .footer {
@@ -789,10 +793,10 @@ a {
 
                 .header-center-right {
                     display: inline-block;
-                    text-align: center;
+                    text-align: left;
                     width: 50%;
                     position: absolute;
-                    top: 75%;
+                    top: 76%;
                     right: 0;
                     background: #fff;
                     border-top: $border;
@@ -805,9 +809,23 @@ a {
                     }
 
                     a {
-                        display: block;
+                        display: flex;
                         font-size: 1.2rem;
                         margin: 3rem 1rem;
+                        justify-content: space-between;
+
+                        img{
+                            transform: rotate(90deg);
+                            width: 1.8rem;
+                        }
+                    }
+
+                    .header-center-right-tittle{
+                        font-family: $abel;
+                        display: block;
+                        // text-align: center;
+                        padding-top: 2rem;
+                        color: #007cc3;
                     }
                 }
 
@@ -969,11 +987,6 @@ a {
             }
         }
     }
-
-    .ofrecemos{
-        height: 10rem;
-    }
-
 }
 
 @media (max-width: 700px) {
