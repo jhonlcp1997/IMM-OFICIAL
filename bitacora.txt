@@ -171,3 +171,4 @@ Si le das deploy y push en el cpanel y estas en el navegador cargando a cada rat
 Estoy avanzando la parte de programacion de JhonMircha, no se si lo estaré haciendo bien.
 Creo que lo malo de no tener alguien que te controla es que no puedes saber si lo estas haciendo bien.
 cada vez que ponen el aire acondicionado me da un resfriado ahi noma, que empiezo a moquear, pero exageran con eso.
+Hoy tuve que cambiar la parte del header de egi, emi y consulta que lo querian con un nuevo diseño agregado al home.
