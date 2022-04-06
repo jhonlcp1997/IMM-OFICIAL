@@ -164,3 +164,10 @@ No se si aguante más esto del aire acondicionado, tal vez no estoy acostumbrado
 
 1-004-2022:
 Otro dia más que no se si contar, me voy.
+
+6-04-2022:
+Ayer hubo paro desde las 2 de la mañana hasta las 11 de la noche, con este presidente, creo que todo se puede esperar, y ni hablar de los precios.
+Si le das deploy y push en el cpanel y estas en el navegador cargando a cada rato hasta que aparescan los cambios, estos se quedarán asi como aparecieron (mal cargados o bien cargados) bueno eso es lo que me pasa.
+Estoy avanzando la parte de programacion de JhonMircha, no se si lo estaré haciendo bien.
+Creo que lo malo de no tener alguien que te controla es que no puedes saber si lo estas haciendo bien.
+cada vez que ponen el aire acondicionado me da un resfriado ahi noma, que empiezo a moquear, pero exageran con eso.
