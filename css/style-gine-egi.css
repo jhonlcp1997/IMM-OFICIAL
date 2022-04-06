@@ -1279,9 +1279,6 @@ body {
   .home {
     height: auto;
   }
-  .home .home-img_logo .img_logo {
-    height: 5rem;
-  }
   .tips .tips__box .box {
     text-align: center;
     display: -webkit-box;
@@ -1312,6 +1309,9 @@ body {
   .home .home-img_logo {
     padding-bottom: 2rem;
     text-align: center;
+  }
+  .home .home-img_logo .img_logo {
+    height: 5rem;
   }
   .home .home_box {
     display: -webkit-box;

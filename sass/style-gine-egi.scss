@@ -1310,16 +1310,7 @@ body {
 
 @media (max-width: 580px) {
     .home {
-        // display: flex;
         height: auto;
-
-        .home-img_logo{
-            // padding-bottom: 1rem;
-
-            .img_logo{
-                height: 5rem;
-            }
-        }
     }
 
     .tips{
@@ -1354,6 +1345,10 @@ body {
         .home-img_logo{
             padding-bottom: 2rem;
             text-align: center;
+
+            .img_logo{
+                height: 5rem;
+            }
         }
 
         .home_box {
