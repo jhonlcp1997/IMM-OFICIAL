@@ -299,7 +299,6 @@ a {
     }
 
     .ofrecemos-box1 {
-        // border-radius: 15px;
         position: relative;
         margin: auto;
         background: #f5a4c7;
@@ -382,11 +381,6 @@ a {
                 img{
                     height: 100%;
                     width: 100%;
-
-                    // width: 35rem;
-                    // height: 35rem;
-                    // width: auto;
-                    // text-align: left;
                     object-fit: cover;
                 }
             }
@@ -421,10 +415,6 @@ a {
                     }
                 }
             }
-
-            // .ofrecemos-box1-antenatal {
-            //     padding-top: 5rem;
-            // }
         }
 
         .point2 {
@@ -560,8 +550,6 @@ a {
             margin: 1rem auto;
             background-color: #fff;
             align-items: center;
-            // justify-content: space-around;
-            // display: flex;
 
             &.div1 {
                 z-index: 3;
