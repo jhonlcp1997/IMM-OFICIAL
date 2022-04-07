@@ -172,3 +172,6 @@ Estoy avanzando la parte de programacion de JhonMircha, no se si lo estaré haci
 Creo que lo malo de no tener alguien que te controla es que no puedes saber si lo estas haciendo bien.
 cada vez que ponen el aire acondicionado me da un resfriado ahi noma, que empiezo a moquear, pero exageran con eso.
 Hoy tuve que cambiar la parte del header de egi, emi y consulta que lo querian con un nuevo diseño agregado al home.
+
+07-04-2022:
+Hoy no se, tal vez limpieza de código.
