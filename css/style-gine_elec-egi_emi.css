@@ -34,7 +34,7 @@
   position: relative;
   margin: auto;
   height: 65vh;
-  right: -8vh;
+  right: -4vh;
 }
 
 .left::before {
@@ -50,6 +50,10 @@
   background-size: cover;
   /* Specify the background image */
   opacity: 0.9;
+}
+
+.left .content {
+  display: none;
 }
 
 .left .points-1 {
@@ -114,7 +118,7 @@
 
 .right .titles {
   text-align: left;
-  padding: 5vh 1.5vw;
+  padding: 7vh 1.5vw 5vh 1.5vw;
   width: 95%;
   color: #007cc3;
   font-size: 6.5vh;
@@ -141,18 +145,18 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 80rem;
+  width: 95%;
   margin: auto;
   -webkit-column-gap: 2rem;
           column-gap: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 2vw;
 }
 
 .right .egi-emi .box {
   border: 1px solid #f173ac;
-  max-width: 25rem;
+  max-width: 28rem;
   width: 100%;
   padding: 3vh;
   text-align: center;
@@ -205,6 +209,8 @@
 }
 
 .right .footer {
+  font-family: "Poppins", sans-serif;
+  font-size: .7rem;
   color: #000;
   position: fixed;
   bottom: 0;
@@ -231,6 +237,10 @@
   .right {
     width: 100vw;
   }
+  .right .header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .right .footer {
     display: none;
   }
@@ -238,6 +248,21 @@
     width: 100vw;
     height: 100vw;
     right: 0;
+    text-align: center;
+  }
+  .left .content {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: 0;
   }
   .left .img {
     right: 0;
@@ -261,10 +286,6 @@
   .right {
     padding-bottom: 10rem;
     height: auto;
-  }
-  .right .header {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .right .header .navbar {
     margin-top: 2rem;

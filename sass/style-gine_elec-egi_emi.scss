@@ -48,7 +48,7 @@ $poppins: "Poppins", sans-serif;
         // border-radius: 50%;
         // width: 58vh;
         height: 65vh;
-        right: -8vh;
+        right: -4vh;
     }
 
     &::before {
@@ -64,6 +64,10 @@ $poppins: "Poppins", sans-serif;
         background-size: cover;
         /* Specify the background image */
         opacity: 0.9;
+    }
+
+    .content{
+        display: none;
     }
 
     .points-1{
@@ -126,7 +130,7 @@ $poppins: "Poppins", sans-serif;
     .titles{
         // background-color: #009f46;
         text-align: left;
-        padding: 5vh 1.5vw;
+        padding: 7vh 1.5vw 5vh 1.5vw;
         width: 95%;
         color: $azul;
         font-size: 6.5vh;
@@ -152,16 +156,17 @@ $poppins: "Poppins", sans-serif;
         font-family: $abel;
         display: flex;
         max-width: 80rem;
+        width: 95%;
         margin: auto;
         column-gap: 2rem;
         justify-content: center;
-        padding-left: 2vw;
+        // padding-left: 1.8vw;
         // background-color: #007cc3;
 
         .box{
             border: 1px solid $pink3;
             // border-radius: 15px;
-            max-width: 25rem;
+            max-width: 28rem;
             width: 100%;
             // position: relative;
             padding: 3vh;
@@ -224,6 +229,8 @@ $poppins: "Poppins", sans-serif;
     }
 
     .footer{
+        font-family: $poppins;
+        font-size: .7rem;
         color: #000;
         position: fixed;
         // right: 0;
@@ -250,7 +257,10 @@ $poppins: "Poppins", sans-serif;
 
     .right{
         width: 100vw;
-        
+        .header{
+            flex-wrap: wrap;
+        }
+
         .footer{
             display: none;
         }
@@ -262,6 +272,20 @@ $poppins: "Poppins", sans-serif;
         height: 100vw;
         // max-width: 100rem;
         right: 0;
+        text-align: center;
+        
+        .content{
+            font-family: $poppins;
+            position: absolute;
+            // font-size: 1rem;
+            text-align: center;
+            display: flex;
+            // background-color: #007cc3;
+            width: 100%;
+            margin:auto;
+            justify-content: center;
+            bottom: 0;
+        }
 
         .img{
             right: 0;
@@ -290,7 +314,6 @@ $poppins: "Poppins", sans-serif;
         height: auto;
 
         .header{
-            flex-wrap: wrap;
 
             .navbar{
                 margin-top: 2rem;
