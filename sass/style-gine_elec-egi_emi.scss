@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+$white: #fff;
+$black: #000;
+$black2: #666;
+$green1: #a6ce39;
+$green2: #62bb46;
+$green3: #009f46;
+$pink1: #f4c6de;
+$pink2: #f5a4c7;
+$pink3: #f173ac;
+$border: 0.2rem solid $black;
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul: #007cc3;
+
+// $abel:"Abel", sans-serif;
+// $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel:"Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    background-color: $pink3;
+    width: 58vh;
+    height: 100vh;
+    position: relative;
+
+    .img{
+        z-index: 1;
+        position: relative;
+        margin: auto;
+        // border-radius: 50%;
+        // width: 58vh;
+        height: 65vh;
+        right: -8vh;
+    }
+
+    &::before {
+        z-index: 0;
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        /* Specify the background image to be used */
+        background-image: url(../images/ginecologia/election-egi_emi/background-gine-1.svg);
+        background-size: cover;
+        /* Specify the background image */
+        opacity: 0.9;
+    }
+
+    .points-1{
+        position: absolute;
+        left: 2vw;
+        top: 1vh;
+        width: 18vh;
+    }
+
+    .points-2{
+        position: absolute;
+        z-index: 0;
+        left: 4vw;
+        bottom: 15vh;
+        width: 18vh;
+    }
+
+    .points-3{
+        position: absolute;
+        z-index: 0;
+        top: 18vh;
+        right: -6vh;
+        width: 18vh;
+    }
+}
+
+.right{
+    // background-color: #a6ce39;
+    width: 70rem;
+    height: 100vh;
+    padding: 4vh 5vw;
+
+    .header{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .imm-logo{
+            width: 20vh;
+        }
+
+        .navbar{
+            display: block;
+            margin-top: auto;
+            font-size: 2.5vh;
+            color: #000;
+
+            a{
+                color: #000;
+            }
+
+            span{
+                font-family: $poppins;
+            }
+        }
+    }
+
+    .titles{
+        // background-color: #009f46;
+        text-align: left;
+        padding: 5vh 1.5vw;
+        width: 95%;
+        color: $azul;
+        font-size: 6.5vh;
+        font-family: $abel;
+        font-weight: 100;
+
+        .title{
+            font-weight: 100;
+        }
+
+        .subtitle{
+            // background-color: #009f46;
+            color: #000;
+            margin: auto;
+            max-width: 61rem;
+            padding-top: 1rem;
+            font-family: $poppins;
+            font-size: 2.2vh;
+        }
+    }
+
+    .egi-emi{
+        font-family: $abel;
+        display: flex;
+        max-width: 80rem;
+        margin: auto;
+        column-gap: 2rem;
+        justify-content: center;
+        padding-left: 2vw;
+        // background-color: #007cc3;
+
+        .box{
+            border: 1px solid $pink3;
+            // border-radius: 15px;
+            max-width: 25rem;
+            width: 100%;
+            // position: relative;
+            padding: 3vh;
+            text-align: center;
+            // background-color: #62bb46;
+
+            .article{
+                text-align: center;
+                // position: relative;
+                // background-color: #007cc3;
+                height: 100%;
+
+                .article-title{
+                    font-size: 9.2vh;
+                    color: $pink3;
+                }
+
+                .article-subtitle{
+                    font-weight: 100;
+                    font-size: 1.6rem;
+                    color: #888;
+                }
+
+                .content{
+                    font-size: 4vh;
+                }
+
+                .description{
+                    // background-color: #888;
+                    font-family: $poppins;
+                    font-size: 2.3vh;
+                    padding-top: 1vh;
+                    padding: 1vh 1vw 0 1vw;
+                    padding-bottom: 0vh;
+                }
+            }
+
+            .btn{
+                position: relative;
+                
+                // left: 30%;
+                bottom: -3px;
+                background-color: #fff;
+                border-radius: 25px;
+                border: 1px solid $pink3;
+                padding: .5rem 2.3rem;
+                color: $pink3;
+                font-weight: 600;
+                font-size: 2.3vh;
+                font-family: $abel;
+                // margin: auto;
+                // justify-content: center;
+
+                &:hover{
+                    color: #fff;
+                    background-color: $pink3;
+                }  
+            }
+        }
+    }
+
+    .footer{
+        color: #000;
+        position: fixed;
+        // right: 0;
+        bottom: 0;
+        width: 100%;
+        // background-color: #61bb46;
+        .content{
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+    html{
+        font-size: 70%;
+    }
+}
+
+// *Aqui empieza la tranformacion para movil
+@media screen and(max-width:800px) {
+    .body{
+        flex-direction: column-reverse;
+    }
+
+    .right{
+        width: 100vw;
+        
+        .footer{
+            display: none;
+        }
+    }
+
+    .left{
+        // display: none;
+        width: 100vw;
+        height: 100vw;
+        // max-width: 100rem;
+        right: 0;
+
+        .img{
+            right: 0;
+            height: 65vw;
+        }
+
+        .points-3{
+            right: 0;
+            top: 0;
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+@media screen and (max-width:680px) {
+    .left{
+        .points-1, .points-2, .points-3{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .right{
+        padding-bottom: 10rem;
+        height: auto;
+
+        .header{
+            flex-wrap: wrap;
+
+            .navbar{
+                margin-top: 2rem;
+                font-size: 4vw;
+            }
+        }
+
+        .titles{
+            font-size: 8vw;
+
+            .subtitle{
+                font-size: 4vw;
+            }
+        }
+
+        .egi-emi{
+            row-gap: 2rem;
+            flex-wrap: wrap;
+            padding-left: 0;
+        }
+    }
+
+    .left{
+        // display: none;
+        height: 70vw;
+
+        .img{
+            top: -5rem;
+            height: 70vw;
+        }
+    }
+}
