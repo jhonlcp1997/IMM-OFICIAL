@@ -178,3 +178,4 @@ Hoy no se, tal vez limpieza de código.
 
 08-04-2022:
 hoy me pidieron hacer la parte de que estuve trabajando ayer sobre las posibles paginas de eleccion entre egi_emi y es la primera vez que hago una pagina en horizontal, y tratar de que se mantenga cuando se amplia.
+Despues de esto no hice cambio.
