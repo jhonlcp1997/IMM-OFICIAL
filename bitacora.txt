@@ -175,3 +175,6 @@ Hoy tuve que cambiar la parte del header de egi, emi y consulta que lo querian c
 
 07-04-2022:
 Hoy no se, tal vez limpieza de código.
+
+08-04-2022:
+hoy me pidieron hacer la parte de que estuve trabajando ayer sobre las posibles paginas de eleccion entre egi_emi y es la primera vez que hago una pagina en horizontal, y tratar de que se mantenga cuando se amplia.
