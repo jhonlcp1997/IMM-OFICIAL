@@ -182,3 +182,4 @@ Despues de esto no hice cambio.
 
 11-04-2022: 
 no hay ningun cambio todavia, ni hay nuevos modelos o landings, por lo que solo me quedaré a hacer algo de limpieza.
+No se , a las finales solo pude prestar atención a lo del curso de javascript
