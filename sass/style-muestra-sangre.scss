@@ -65,7 +65,7 @@ $poppins: "Poppins", sans-serif;
         position: relative;
         width: 90%;
         max-width: 50rem;
-        box-shadow: 0rem 1rem 40px 0px rgb(51, 46, 46);
+        box-shadow: 0rem 1rem 40px -10px rgb(51, 46, 46);
 
         .popup-img{
            max-width: 25rem;
@@ -109,6 +109,10 @@ $poppins: "Poppins", sans-serif;
                 strong{
                     font-size: 1.2rem;
                     color: $green2;
+                }
+
+                &.b{
+                    line-height: 180%;
                 }
             }
 

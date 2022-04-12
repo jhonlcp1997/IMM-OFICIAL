@@ -60,8 +60,8 @@ html {
   position: relative;
   width: 90%;
   max-width: 50rem;
-  -webkit-box-shadow: 0rem 1rem 40px 0px #332e2e;
-          box-shadow: 0rem 1rem 40px 0px #332e2e;
+  -webkit-box-shadow: 0rem 1rem 40px -10px #332e2e;
+          box-shadow: 0rem 1rem 40px -10px #332e2e;
 }
 
 .popups .popups-box .popup-img {
@@ -112,6 +112,10 @@ html {
 .popups .popups-box .popup-content .popup-content strong {
   font-size: 1.2rem;
   color: #62bb46;
+}
+
+.popups .popups-box .popup-content .popup-content.b {
+  line-height: 180%;
 }
 
 .popups .popups-box .popup-content .btn {
