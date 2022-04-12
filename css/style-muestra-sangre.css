@@ -29,6 +29,117 @@ html {
   width: 10rem;
 }
 
+.popups {
+  top: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(102, 102, 102, 0.425);
+}
+
+.popups .popups-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  width: 90%;
+  max-width: 50rem;
+  -webkit-box-shadow: 0rem 1rem 40px 0px #332e2e;
+          box-shadow: 0rem 1rem 40px 0px #332e2e;
+}
+
+.popups .popups-box .popup-img {
+  max-width: 25rem;
+  height: 30rem;
+  position: relative;
+}
+
+.popups .popups-box .popup-img .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.popups .popups-box .popup-content {
+  position: relative;
+  z-index: 2;
+  max-width: 25rem;
+  width: 100%;
+  padding: 2rem 3rem;
+  text-align: right;
+}
+
+.popups .popups-box .popup-content .popup-title {
+  font-family: "Abel", sans-serif;
+  color: #007cc3;
+  text-align: left;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.popups .popups-box .popup-content .popup-content {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 0;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.popups .popups-box .popup-content .popup-content strong {
+  font-size: 1.2rem;
+  color: #62bb46;
+}
+
+.popups .popups-box .popup-content .btn {
+  background-color: #fff;
+  border: 1px solid #62bb46;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  color: #62bb46;
+}
+
+.popups .popups-box .popup-content .btn:hover {
+  background-color: #62bb46;
+  color: #fff;
+}
+
+.popups .popups-box .fas {
+  cursor: pointer;
+  font-size: 1.5rem;
+  right: 1rem;
+  top: 1rem;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.popups.close {
+  display: none;
+}
+
 .section_tittle {
   padding: 1rem 0;
 }
@@ -482,6 +593,21 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  .popups .popups-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .popups .popups-box .popup-content {
+    max-width: 50rem;
+  }
+  .popups .popups-box .popup-img {
+    display: none;
+    background-color: #007cc3;
+    max-width: 50rem;
+    height: 10rem;
+  }
   .patients .box .box_div-1 {
     width: 20rem;
     height: 30rem;
