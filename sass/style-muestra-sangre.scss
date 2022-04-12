@@ -81,6 +81,7 @@ $poppins: "Poppins", sans-serif;
         }
         
         .popup-content{
+            // background-color: #62bb46;
             position: relative;
             z-index: 2;
             max-width: 25rem;
@@ -112,6 +113,7 @@ $poppins: "Poppins", sans-serif;
             }
 
             .btn{
+                margin-top: .5rem;
                 background-color: #fff;
                 border: 1px solid $green2;
                 border-radius: 20px;
@@ -133,6 +135,28 @@ $poppins: "Poppins", sans-serif;
             position: absolute;
             color: rgba(0, 0, 0, 0.712);
         }
+    }
+
+    .points_7{
+        position: absolute;
+        left: 0;
+        top: 5rem;
+        height: 2.1rem;
+    }
+
+    
+    .points_8{
+        position: absolute;
+        left: 21.8rem;
+        bottom: 3rem;
+        height: 2.1rem;
+    }
+    
+    .points_9{
+        position: absolute;
+        right: 4rem;
+        top: 4rem;
+        height: 2.1rem;
     }
 
     &.close{
@@ -623,6 +647,10 @@ $poppins: "Poppins", sans-serif;
             .fas{
                 z-index: 2;
             }
+        }
+
+        .points_7, .points_8, .points_9{
+            display: none;
         }
     }
 

@@ -115,6 +115,7 @@ html {
 }
 
 .popups .popups-box .popup-content .btn {
+  margin-top: .5rem;
   background-color: #fff;
   border: 1px solid #62bb46;
   border-radius: 20px;
@@ -134,6 +135,27 @@ html {
   top: 1rem;
   position: absolute;
   color: rgba(0, 0, 0, 0.712);
+}
+
+.popups .points_7 {
+  position: absolute;
+  left: 0;
+  top: 5rem;
+  height: 2.1rem;
+}
+
+.popups .points_8 {
+  position: absolute;
+  left: 21.8rem;
+  bottom: 3rem;
+  height: 2.1rem;
+}
+
+.popups .points_9 {
+  position: absolute;
+  right: 4rem;
+  top: 4rem;
+  height: 2.1rem;
 }
 
 .popups.close {
@@ -601,6 +623,9 @@ html {
   }
   .popups .popups-box .fas {
     z-index: 2;
+  }
+  .popups .points_7, .popups .points_8, .popups .points_9 {
+    display: none;
   }
   .patients .box .box_div-1 {
     width: 20rem;
