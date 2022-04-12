@@ -593,20 +593,14 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .popups .popups-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
   .popups .popups-box .popup-content {
     max-width: 50rem;
   }
   .popups .popups-box .popup-img {
     display: none;
-    background-color: #007cc3;
-    max-width: 50rem;
-    height: 10rem;
+  }
+  .popups .popups-box .fas {
+    z-index: 2;
   }
   .patients .box .box_div-1 {
     width: 20rem;

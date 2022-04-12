@@ -612,17 +612,16 @@ $poppins: "Poppins", sans-serif;
     .popups{
         
         .popups-box{
-            flex-direction: column-reverse;
-
             .popup-content{
                 max-width: 50rem;
             }
 
             .popup-img{
                 display: none;
-                background-color: #007cc3;
-                max-width: 50rem;
-                height: 10rem;
+            }
+
+            .fas{
+                z-index: 2;
             }
         }
     }
