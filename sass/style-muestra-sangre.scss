@@ -132,7 +132,11 @@ $poppins: "Poppins", sans-serif;
         }
 
         .fas{
+            z-index: 3;
             cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+            // background-color: #007cc3;
             font-size: 1.5rem;
             right: 1rem;
             top: 1rem;
