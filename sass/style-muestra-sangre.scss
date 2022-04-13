@@ -396,6 +396,26 @@ $poppins: "Poppins", sans-serif;
         }
     }
 
+    // table{
+    //     margin: auto;
+
+    //     tr{
+    //         font-size: 1.2rem;
+    //         font-family: $poppins;
+    //         td{
+    //             &:first-child{
+    //                 font-weight: 600;
+    //                 text-align: right;
+    //             }
+
+    //             &:nth-child(2){
+    //                 text-align: left;
+    //                 padding-left: 2rem;
+    //             }
+    //         }
+    //     }
+    // }
+
     .importante {
         // margin-top: 2rem;
         font-family: $abel;
