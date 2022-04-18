@@ -223,6 +223,53 @@
   text-align: left;
 }
 
+@media screen and (min-width: 1870px) {
+  .left {
+    width: 35rem;
+    max-height: 70rem;
+  }
+  .left .img {
+    height: 40rem;
+  }
+  .left .points-1, .left .points-2, .left .points-3 {
+    width: 10rem;
+  }
+  .right {
+    max-height: 70rem;
+    padding: 3rem 6rem;
+  }
+  .right .header .imm-logo {
+    width: 12rem;
+  }
+  .right .header .navbar {
+    font-size: 1.5rem;
+  }
+  .right .titles {
+    padding: 4.5rem 1.6rem 4rem 1.6rem;
+    font-size: 3.5rem;
+  }
+  .right .titles .subtitle {
+    font-size: 1.4rem;
+  }
+  .right .egi-emi .box {
+    padding: 1.8rem;
+  }
+  .right .egi-emi .box .article .article-title {
+    font-size: 5rem;
+  }
+  .right .egi-emi .box .article .content {
+    font-size: 2.4rem;
+  }
+  .right .egi-emi .box .article .description {
+    font-size: 1.3rem;
+    padding-top: .8rem;
+    padding: .8rem 2rem 0 2rem;
+  }
+  .right .egi-emi .box .btn {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   html {
     font-size: 70%;

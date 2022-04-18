@@ -244,6 +244,78 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
+// *======= MEDIA QUERIES ========
+@media screen and (min-width:1870px) {
+    .left{
+        // background-color: #007cc3;
+        width: 35rem;
+        max-height: 70rem;
+
+        .img{
+            height: 40rem;
+        }
+
+        .points-1, .points-2, .points-3{
+            width: 10rem;
+        }
+    }
+
+    .right{
+        max-height: 70rem;
+        // background-color: #62bb46;
+        padding: 3rem 6rem;
+
+        .header{
+            .imm-logo{
+                width: 12rem;
+            }
+
+            .navbar{
+                // background-color: #f4c6de;
+                font-size: 1.5rem;
+            }
+        }
+
+        .titles{
+            padding: 4.5rem 1.6rem 4rem 1.6rem;
+            font-size: 3.5rem;
+
+            .subtitle{
+                font-size: 1.4rem;
+            }
+        }
+
+        .egi-emi{
+            .box{
+                padding: 1.8rem;
+
+                .article{
+                    .article-title{
+                        font-size: 5rem;
+                    }
+
+                    .content{
+                        font-size: 2.4rem;
+                    }
+
+                    .description{
+                        font-size: 1.3rem;
+                        padding-top: .8rem;
+                        padding: .8rem 2rem 0 2rem;
+                    }
+                }
+
+                .btn{
+                    font-size: 1.5rem;
+                }
+            }
+        }        
+    }
+}
+
+// *La pagina tiene problemas con estas medidas
+// @media screen and (max-width:1400px) and (min-width:801) and (min-height:490px) {}
+
 @media screen and (max-width:1050px) {
     html{
         font-size: 70%;
