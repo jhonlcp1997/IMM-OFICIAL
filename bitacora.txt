@@ -203,3 +203,9 @@ asi que me despido.
 
 18-04-2022:
 Esta vez no creo que pueda estar al 100% las horas por que tengo una cita medica, y encima tengo que ir a eso del levantamiento de la pagina nueva, que sinceramente no creo que pueda entenderlo.
+
+20-04-2022:
+Aqui no se que mas poner por que no ha habido actualizacion, solo subir el de ginecologia_Eleccion-egi_emi.html y sus estilos a immlatam.com, solo queda esperar que ningun cliente tenga una panalla cuadrada.
+No se si bootstrap se pueda implementar, pero es que el diseño lo hace Silvana y no creo que pueda utilizarlo a menos que partamos desde un boceto.
+Ahora se tendra que ver que la parte de enviar redireccione a otra pagina, y eso si no es html es por php en el backend o en variables de entorno.
+Lo más seguro es que va a dar problemas, y eso no se, a lo mucho manejos los problemas del crecimiento de las platas del jardin, esos me carrean
