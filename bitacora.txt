@@ -209,3 +209,8 @@ Aqui no se que mas poner por que no ha habido actualizacion, solo subir el de gi
 No se si bootstrap se pueda implementar, pero es que el diseño lo hace Silvana y no creo que pueda utilizarlo a menos que partamos desde un boceto.
 Ahora se tendra que ver que la parte de enviar redireccione a otra pagina, y eso si no es html es por php en el backend o en variables de entorno.
 Lo más seguro es que va a dar problemas, y eso no se, a lo mucho manejos los problemas del crecimiento de las platas del jardin, esos me carrean
+
+25-04-2022:
+Hace tiempo que no me pongo a escribir una bitacora, Pero no se que deberia hacer, voy a seguir dando correcciones a la pagina.
+Tendre que escribir que volver a escribir dentro de unos dias mas, o que pidan actualizar las paginas.
+Hoy tampoco me dejaron hacer algo, creo que estan metidos en su mundo
