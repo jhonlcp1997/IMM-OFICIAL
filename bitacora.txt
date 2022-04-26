@@ -214,3 +214,8 @@ Lo más seguro es que va a dar problemas, y eso no se, a lo mucho manejos los pr
 Hace tiempo que no me pongo a escribir una bitacora, Pero no se que deberia hacer, voy a seguir dando correcciones a la pagina.
 Tendre que escribir que volver a escribir dentro de unos dias mas, o que pidan actualizar las paginas.
 Hoy tampoco me dejaron hacer algo, creo que estan metidos en su mundo
+
+26-04-2022:
+Buenas de nuevo, hoy hace algo de frio y algo de calor, medio raro el clima y medio raro la oficina.
+Estoy entrando al mundo de react, como que esta bacan pero no quiero descuidar los otros cursos.
+No se si me dejen hacer una pagina en react, pero para eso tengo que tener las cosas mas solidas.
