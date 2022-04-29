@@ -110,6 +110,10 @@ a {
   border-bottom: 1px solid #f173ac;
 }
 
+.header div .header-general .header-left a img {
+  width: 14.5rem;
+}
+
 .header div .header-general .header-right {
   display: none;
 }

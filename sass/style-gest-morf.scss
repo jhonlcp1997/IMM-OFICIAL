@@ -112,6 +112,16 @@ a {
                     }
                 }
             }
+            
+            .header-left{
+                // display: flex;
+                // position: relative;
+                a{
+                    img{
+                        width: 14.5rem;
+                    }
+                }
+            }
 
             .header-right {
                 display: none;

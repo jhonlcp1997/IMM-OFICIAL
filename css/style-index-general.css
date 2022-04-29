@@ -20,6 +20,11 @@
     width: 70rem;
     overflow: hidden;
 }
+
+th strong{
+    font-size: .7rem;
+}
+
 img{
     width: 6rem;
 }
