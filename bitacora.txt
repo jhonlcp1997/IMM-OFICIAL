@@ -223,3 +223,28 @@ No se si me dejen hacer una pagina en react, pero para eso tengo que tener las c
 27-04-2022:
 Esta vez parece que se les ocurrio otra idea de landing pero no tienen mucho contenido.
 Hace calor ultimamente , y mas en el 7mo piso.
+
+
+28-04-2022:
+Bueno, esta vez No les hizo caso el novio.
+Hay muchas cosas que todavia no puedo resolver, como la parte de agregar otras paginas al hosting con mas de 200 gigas.
+Hoy es el cumple de mi tia, no se que decirle, feliz dia tia, naaa... eso suena muy seco y apagado. Tiiiiaaaaaa... feliiz diiiaaa..., si creo que eso quedaria bien.
+EN CASI TODOS LOS GESTACIONAL HUBO UN ERROR ORTOGRAFICO "ESTUDIO >>N<<ATERNO .
+Quizas soy muy malo en todo, por eso no puedo siquiera molestarme en entenderlos y que me entiendan
+Se tiene que subir a immlatam pero puede que haya problemas por esa parte.
+
+29-04-2022:
+Que otra cosa se puede hacer con html, css y javascript vanilla, creo que lo mismo que otros framewoks o librerias, solo que llevan la mayoria de sus cosas a parametros.
+Espero no me de problemas la parte de licencia de windows, por que luego se hace muy pesado estar cargando las cosas a cada rato.
+Actualizar las cosas, habia muchas cosas que se me habian pasado pero eso fue la parte de la ortografia, y gramatica, que bueno no soy el mejor que digamos y a veces se me pasa.
+
+02-05-2022:
+No hay cambios pero la perspectiva de los proyectos que pense, podrian verse mas atrasados, esto se debe a la parte de sustentacion en el tiempo, y la de mantenimiento.
+Cambio de user.name en los comandos de git > Jhon Cruz IMM (trabajo) y Jhon Cruz personal (obvio personal).
+Espero solo espero que mi cumpleaños pueda desestresarme, estar mas tranquilo o simplemente despejarme y pensar un poco en lo que puedo hacer y lo que no.
+Mas cosas buenas que puedes hacer es escuchar musica. es lo mejor cuando estas asi, medio raro.
+Estoy empezando a ver si se puede modular la parte del sass, para poder tenerlo organizado
+
+03-05-2022:
+Aqui, otra vez escribiendo algo por que no pidieron cambios, creo que van a hacer la parted de expandir el negocio hacia a otros inversionistas, asi que solo me queda tratar de mejorar el codigo, naada mas.
+Al probar otras formas de escribir codigo, me doy cuenta que un div padre con display inline-block y margin auto, es casi igual que un hijo con margin auto y un max-width.
