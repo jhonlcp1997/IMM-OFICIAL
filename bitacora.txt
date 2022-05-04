@@ -248,3 +248,8 @@ Estoy empezando a ver si se puede modular la parte del sass, para poder tenerlo 
 03-05-2022:
 Aqui, otra vez escribiendo algo por que no pidieron cambios, creo que van a hacer la parted de expandir el negocio hacia a otros inversionistas, asi que solo me queda tratar de mejorar el codigo, naada mas.
 Al probar otras formas de escribir codigo, me doy cuenta que un div padre con display inline-block y margin auto, es casi igual que un hijo con margin auto y un max-width.
+
+04-05-2022:
+Otras cosas que no se pueden hacer es el SEO por que se requiere de especializacion, posicionamiento web, va mas alla de eso.
+No se si se pueden aplicar los frameworks de css, ya awue lo quieren muy personalizado lo estilos.
+Aun no se ha podido implementar la parte de bootstrap y tailwind en el proyecto, por lo mismo que escribi en la linea de arriba.
