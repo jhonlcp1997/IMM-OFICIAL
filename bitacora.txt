@@ -253,3 +253,7 @@ Al probar otras formas de escribir codigo, me doy cuenta que un div padre con di
 Otras cosas que no se pueden hacer es el SEO por que se requiere de especializacion, posicionamiento web, va mas alla de eso.
 No se si se pueden aplicar los frameworks de css, ya awue lo quieren muy personalizado lo estilos.
 Aun no se ha podido implementar la parte de bootstrap y tailwind en el proyecto, por lo mismo que escribi en la linea de arriba.
+
+05-05-2022:
+Tengo que revisar tal cosa, me está pidiendo saulo que aprenda laravel a la fuerza, pero no se para que, si es para dar mantenimiento a la pagina, ya está ahi, si es para hacer otros proyectos ya seria otro rollo.
+Veo que se puede hacer muchas cosas en wordpress.
