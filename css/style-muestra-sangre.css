@@ -119,6 +119,7 @@ html {
 }
 
 .popups .popups-box .popup-content .btn {
+  cursor: pointer;
   margin-top: .5rem;
   background-color: #fff;
   border: 1px solid #62bb46;
