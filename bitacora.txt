@@ -257,3 +257,13 @@ Aun no se ha podido implementar la parte de bootstrap y tailwind en el proyecto,
 05-05-2022:
 Tengo que revisar tal cosa, me está pidiendo saulo que aprenda laravel a la fuerza, pero no se para que, si es para dar mantenimiento a la pagina, ya está ahi, si es para hacer otros proyectos ya seria otro rollo.
 Veo que se puede hacer muchas cosas en wordpress.
+
+06-05-2022:
+Tendre que dejar todo preparado para cuando salga de aqui, tal vez algo se me pase, estaré dando revisadas, en la parte de de cpanel.
+hy viajo a lambayeque asi que serán 12 horas de ida y otras 12 horas de venida... malisimo el pasaje, eso es la malo de Perú. 
+
+10-05-2022:
+Ya estoy aqui de vuelta, hay cosas que me puse en pendiente, asi que o se que tan bueno puedo ser cuando deje de programar por 4 dias.
+Hay cosas que quisiera probar, con ytailwind tal vez, pero me da sueño , y eso no quiero, hay muchas cosas que no me gusta de mi,y es la parte de que me canso a cada rato. 
+Abra otras cosas que se me pasen, lo más seguro es que si, y más va a ser en la parte de seguridad.
+Ultimamente no salen, buenas canciones de salsa. y eso no me gusta. Tendremos que sacar algo de salsa.
