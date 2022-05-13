@@ -270,3 +270,7 @@ Ultimamente no salen, buenas canciones de salsa. y eso no me gusta. Tendremos qu
 
 11-05-2022:
 Mas adelante tendre que ponerme las pilas en lo que me puedan dejar.
+
+13-5-2022:
+Ayer hubo un temblor.
+Hoy subi Google Analytics a imm.pe, la verdad no se como funciona eso, pero lo pude en el page.blade.php del proyecto, es semi transcurrido.
