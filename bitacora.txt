@@ -274,3 +274,6 @@ Mas adelante tendre que ponerme las pilas en lo que me puedan dejar.
 13-5-2022:
 Ayer hubo un temblor.
 Hoy subi Google Analytics a imm.pe, la verdad no se como funciona eso, pero lo pude en el page.blade.php del proyecto, es semi transcurrido.
+
+18-05-2022:
+No creo que haya hecho mucho, debido a que la diseñadora tenia trabajo con otras cosas, pero despues seguro me van a dejar mas cosas.
