@@ -1,4 +1,4 @@
-Bitacora de alguien que recien empieza x,D
+ Bitacora de alguien que recien empieza x,D
 
 11-01-2022:
 Repasando todos los dias anteriores que no hice la bitacora... No se, empece con el proyecto como IMM-PRUEBA en modo PUBLICO en github luego lo subi a netlify
@@ -281,3 +281,8 @@ No creo que haya hecho mucho, debido a que la diseñadora tenia trabajo con otra
 19-05-2022:
 No se si me vayan a mandar a hacer cosas para poder ir avanzando, pero a veces siento que me desactualizo, por no estar practicando html y css puro. Es algoque siempre se debe de estar haciendo, por que uno se oxida.
 Ultimamente, me esta empezando a doler la parte de atras de la entre piernas, y no quiero preocupar a nadie. Asi que moriré solo.
+
+20-25-2022:
+Esta vez no se que hay que hacer, pero lo más probble es que me den para avanzar unas paginas, la diseñadora esta muy atareada, asi que, esperar.........
+Estoy seguro que se me abra escapado una linea pend... como esta mas arriba.
+los 3 primeros proyectos en mi repositorio, estan vacios, asi que tendre que pensar en borrarlos, desde linux
