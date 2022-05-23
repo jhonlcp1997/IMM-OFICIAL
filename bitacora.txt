@@ -285,4 +285,5 @@ Ultimamente, me esta empezando a doler la parte de atras de la entre piernas, y 
 20-25-2022:
 Esta vez no se que hay que hacer, pero lo más probble es que me den para avanzar unas paginas, la diseñadora esta muy atareada, asi que, esperar.........
 Estoy seguro que se me abra escapado una linea pend... como esta mas arriba.
-los 3 primeros proyectos en mi repositorio, estan vacios, asi que tendre que pensar en borrarlos, desde linux
+los 3 primeros proyectos en mi repositorio, estan vacios, asi que tendre que pensar en borrarlos, desde linux.
+Hoy Agrege cambios a la rama master le tuve que quitar cosas en la parte de de "¿ya tienes una cita?" en Egi y Emi .html (esto lo escribo el lunes 23 xd por que se me olvidó)
