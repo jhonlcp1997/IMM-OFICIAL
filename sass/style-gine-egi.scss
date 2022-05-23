@@ -57,6 +57,18 @@ $poppins: "Poppins", sans-serif;
     to {height: 20px;}
 }
 
+@keyframes div_open {
+    0%{height: 0rem;}
+    50%{height: 3.5rem;}
+    100%{height: 7rem;}
+}
+
+@keyframes bar_hover {
+    from{width: 0%;}
+    to{width: 100%;}
+}
+
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -575,12 +587,37 @@ body {
                 color: $azul;
                 font-size: 1.4rem;
                 font-family: "Poppins", sans-serif;
-                padding-bottom: 0.5rem;
+                // padding-bottom: 0.5rem;
+            }
+
+            div{
+                margin: 0 auto;
+                border-radius: 5px;
+                width: 100%;
+                height: .2rem;
+            }
+
+            &:hover{
+                div{
+                    background-color: $azul;
+                    animation: bar_hover .5s linear;
+                }
             }
 
             &.active {
-                padding-bottom: 0.5rem;
-                border-bottom: 2px solid $azul;
+                // padding-bottom: 0.5rem;
+                // border-bottom: 2px solid $azul;
+
+                div{
+                    background-color: $azul;
+                }
+
+                &:hover{
+
+                    div{
+                        animation: none;
+                    }
+                }
             }
         }
     }
@@ -669,9 +706,15 @@ body {
 
                     &.open {
                         // transition: all .5s ease-out;
-                        animation: miAnimacion .2s linear;
+                        // animation: miAnimacion .2s linear;
                         height: auto;
                         margin: 3rem 0;
+
+                        .div1{
+                            .div-image{
+                                animation: div_open .2s linear;
+                            }
+                        }
                     }
 
                     &.close {
@@ -1550,7 +1593,7 @@ body {
                         }
 
                         &.close{
-                            animation: miAnimacion-3 .2s linear;
+                            // animation: miAnimacion-3 .2s linear;
 
                             .div1{
                                 animation: miAnimacion-3 .2s linear;

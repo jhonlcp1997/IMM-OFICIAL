@@ -82,6 +82,48 @@
   }
 }
 
+@-webkit-keyframes div_open {
+  0% {
+    height: 0rem;
+  }
+  50% {
+    height: 3.5rem;
+  }
+  100% {
+    height: 7rem;
+  }
+}
+
+@keyframes div_open {
+  0% {
+    height: 0rem;
+  }
+  50% {
+    height: 3.5rem;
+  }
+  100% {
+    height: 7rem;
+  }
+}
+
+@-webkit-keyframes bar_hover {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes bar_hover {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -660,12 +702,28 @@ body {
   color: #007cc3;
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
-  padding-bottom: 0.5rem;
 }
 
-.info-date .section_election .day1.active, .info-date .section_election .day2.active {
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007cc3;
+.info-date .section_election .day1 div, .info-date .section_election .day2 div {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 100%;
+  height: .2rem;
+}
+
+.info-date .section_election .day1:hover div, .info-date .section_election .day2:hover div {
+  background-color: #007cc3;
+  -webkit-animation: bar_hover .5s linear;
+          animation: bar_hover .5s linear;
+}
+
+.info-date .section_election .day1.active div, .info-date .section_election .day2.active div {
+  background-color: #007cc3;
+}
+
+.info-date .section_election .day1.active:hover div, .info-date .section_election .day2.active:hover div {
+  -webkit-animation: none;
+          animation: none;
 }
 
 .info-date .info-date-container {
@@ -766,10 +824,13 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.open {
-  -webkit-animation: miAnimacion .2s linear;
-          animation: miAnimacion .2s linear;
   height: auto;
   margin: 3rem 0;
+}
+
+.info-date .info-date-container.active .info-contenido .contenido-body.open .div1 .div-image {
+  -webkit-animation: div_open .2s linear;
+          animation: div_open .2s linear;
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
@@ -1467,10 +1528,6 @@ body {
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 .div-image .img-incontrolable {
     height: 50px;
-  }
-  .info-date .info-date-container.active .info-contenido .contenido-body.close {
-    -webkit-animation: miAnimacion-3 .2s linear;
-            animation: miAnimacion-3 .2s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.close .div1 {
     -webkit-animation: miAnimacion-3 .2s linear;
