@@ -287,3 +287,16 @@ Esta vez no se que hay que hacer, pero lo más probble es que me den para avanza
 Estoy seguro que se me abra escapado una linea pend... como esta mas arriba.
 los 3 primeros proyectos en mi repositorio, estan vacios, asi que tendre que pensar en borrarlos, desde linux.
 Hoy Agrege cambios a la rama master le tuve que quitar cosas en la parte de de "¿ya tienes una cita?" en Egi y Emi .html (esto lo escribo el lunes 23 xd por que se me olvidó)
+
+
+24-05-2022:
+hoy tuve que ver si era posible los cambios que se querian implementar en el libro de reclamaciones, dado que no aparecio la parte de regreserar en 30 dias, esto no se realizó.
+Hoy tambien se embarca mi hermano, ojalá se esfuerce, no estoy seguro pero puede que lo discriminen, conociendo como son los peruanos, por que soy uno de ellos, solo le quedara seguir y seguir.
+Hay cambios que tendre que poner, que son mas de diseño, esa parte no me convence, no puedo hacerlo, soy muy bajito para poder hacer lo que me pide silvana, pero ah... tengo que caminar por que eso no se pasará asi como así.
+Dentro de todas las cosas que estaba buscando, la parte de la musica es la mejor, segun lo que busque, sale como "MUSIC PARA PROGRAMACION".
+No pude descargar la parte de IMM.PE que se encuentra en el cpanel, tampoco se puede en la pc de Saulo, y creo que menos en mi laptop.
+Tengo un repositorio local que es de pruebas, ahi debes hacer cualquier prueba que quieras Jhon, siempre y cuando sea con respecto a immlatam, no trates de usar otros repositorios par porbar eso.
+Los cursos de Angela y de los de udemy, la mayoria estan en la pc de immlatam. En la mia tengo tres sitemas operativos windows rapido, windwos antiguo y ubuntu.
+
+25-05-2022:
+Ahora no se que podria avanazar, pero tengo que ponerme en camino con lo que estaba avanzando lo de la API.
