@@ -724,8 +724,8 @@ body {
 
 .info-date .section_election .day1:hover div, .info-date .section_election .day2:hover div {
   background-color: #007cc3;
-  -webkit-animation: bar_hover .5s linear;
-          animation: bar_hover .5s linear;
+  -webkit-animation: bar_hover .2s linear;
+          animation: bar_hover .2s linear;
 }
 
 .info-date .section_election .day1.active div, .info-date .section_election .day2.active div {
