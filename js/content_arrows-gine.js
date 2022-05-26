@@ -13,16 +13,16 @@ function toggleContent() {
         if (this.nextElementSibling.nextElementSibling) {
             this.className = 'contenido-header open';
             this.nextElementSibling.className = 'contenido-body open';
-            console.log(this.nextElementSibling.nextElementSibling.className);
+            // console.log(this.nextElementSibling.nextElementSibling.className);
             let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
 
             if(moment_sibling_name === 'contenido-body close'){
-                console.log("Entro aqui revesion del hermano");
+                // console.log("Entro aqui revesion del hermano");
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
             } else{
-                console.log(this.nextElementSibling.nextElementSibling.className);
+                // console.log(this.nextElementSibling.nextElementSibling.className);
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
-                console.log(this.nextElementSibling.nextElementSibling.className);
+                // console.log(this.nextElementSibling.nextElementSibling.className);
             }
         } else {
             this.className = 'contenido-header open';
@@ -34,16 +34,16 @@ function toggleContent() {
         if (this.nextElementSibling.nextElementSibling) {
             this.className = 'contenido-header close';
             this.nextElementSibling.className = 'contenido-body close';
-            console.log(this.nextElementSibling.nextElementSibling.className);
+            // console.log(this.nextElementSibling.nextElementSibling.className);
             let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
 
             if(moment_sibling_name === 'contenido-body open'){
-                console.log("Entro aqui revesion del hermano");
+                // console.log("Entro aqui revesion del hermano");
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
             } else{
-                console.log(this.nextElementSibling.nextElementSibling.className);
+                // console.log(this.nextElementSibling.nextElementSibling.className);
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
-                console.log(this.nextElementSibling.nextElementSibling.className);
+                // console.log(this.nextElementSibling.nextElementSibling.className);
             }
         } else {
             this.className = 'contenido-header close';

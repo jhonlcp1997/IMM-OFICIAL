@@ -195,7 +195,7 @@ body {
 }
 
 .home .home-img_logo .img_logo {
-  height: 7rem;
+  height: 5rem;
 }
 
 .home .home_box {
@@ -243,21 +243,29 @@ body {
       align-content: center;
   text-align: center;
   background: #f173ac;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .home .home_box .home-nav1 div a {
-  font-family: "Abel", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .home .home_box .home-nav1 div a i {
   position: relative;
-  top: 2px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #fff;
+}
+
+.home .home_box .home-nav1 div:hover {
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .home .home_box .home-nav2 {

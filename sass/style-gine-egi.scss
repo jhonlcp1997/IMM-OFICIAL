@@ -161,7 +161,7 @@ body {
         margin: auto;
         padding-top: 3rem;
         .img_logo{
-            height: 7rem;
+            height: 5rem;
         }
     }
 
@@ -200,20 +200,29 @@ body {
                 align-content: center;
                 text-align: center;
                 background: #f173ac;
-                border-radius: 15px;
+                border-radius: 5px;
+                align-items: center;
 
                 a {
-                    font-family: $abel;
+                    font-family: $poppins;
                     color: #fff;
                     font-size: 1.5rem;
-                    font-weight: 600;
+                    font-weight: 100;
 
                     i {
                         position: relative;
-                        top: 2px;
-                        font-size: 2rem;
+                        // top: 1px;
+                        font-size: 1.5rem;
                         margin-right: 1rem;
+                        padding-right: 1rem;
+                        border-right: 1px solid #fff;
                     }
+                }
+
+                &:hover{
+                    transition: .2s linear;
+                    // background-color: #007cc3;
+                    transform: scale(1.1);
                 }
             }
         }
