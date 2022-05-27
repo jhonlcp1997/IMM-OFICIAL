@@ -138,7 +138,7 @@ body {
   position: relative;
   width: 100%;
   height: 55rem;
-  background: #fff;
+  background: #ffffff79;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,21 +161,33 @@ body {
 }
 
 .home .home_box {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 3rem;
+}
+
+.home .home_box::before {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* Specify the background image to be used */
+  background-image: url(../images/ginecologia/section/ema-background.png);
+  background-size: cover;
+  /* Specify the background image */
+  opacity: 1;
 }
 
 .home .home_box .home-nav1 {
-  background-color: #fff;
-  -webkit-box-shadow: 1rem 1rem 20px 20px white;
-          box-shadow: 1rem 1rem 20px 20px white;
   width: 40%;
-  padding: 0rem 3rem 8rem 0;
+  padding: 0rem 3rem 8rem 9.5rem;
   text-align: left;
   z-index: 11;
 }
@@ -206,8 +218,9 @@ body {
 }
 
 .home .home_box .home-nav1 .home-nav1-P_2 {
+  font-family: "Abel", sans-serif;
   color: #007cc3;
-  font-size: 3.6rem;
+  font-size: 4.5rem;
 }
 
 .home .home_box .home-nav1 .animated {
@@ -249,10 +262,8 @@ body {
 
 .home .home_box .home-nav2 {
   width: 60%;
+  margin-left: auto;
   z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
@@ -291,11 +302,12 @@ body {
 }
 
 .study .info2 {
+  padding-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 95%;
-  max-width: 100rem;
+  max-width: 110rem;
   margin: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -306,7 +318,7 @@ body {
 
 .study .info2 div {
   margin: 1rem auto;
-  width: 30rem;
+  width: 32rem;
   height: 25rem;
   text-align: center;
 }
@@ -321,8 +333,13 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #007cc3;
-  padding: 0.5rem 6rem;
+  padding: 0.5rem 2rem;
   font-family: "Abel", sans-serif;
+}
+
+.study .info2 div h2 span {
+  font-size: 1.8rem;
+  color: #000;
 }
 
 .study .info2 div p {
@@ -454,14 +471,17 @@ body {
 }
 
 .info .info_content .info_content_box .content {
-  margin: 3rem 0;
+  margin: 3rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .info .info_content .info_content_box .content .img {
-  width: 6rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 5rem;
 }
 
 .info .info_content .info_content_box .content .paragraph {
@@ -474,7 +494,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+
+.info .info_content .info_content_box .content:first-child {
+  margin-bottom: 4rem;
 }
 
 .info-date {
@@ -483,7 +507,7 @@ body {
   max-width: 100rem;
   background-color: #fff;
   text-align: center;
-  padding: 4rem 8rem;
+  padding: 4rem 5rem;
   -webkit-box-shadow: -3rem 4rem 80px -70px #332e2e;
           box-shadow: -3rem 4rem 80px -70px #332e2e;
   z-index: 1;
@@ -1243,6 +1267,23 @@ body {
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 250px;
+  }
+  .info {
+    display: block;
+  }
+  .info .info_image, .info .info_content {
+    width: 100%;
+  }
+  .info .info_image {
+    z-index: 1;
+    height: 25rem;
+  }
+  .info .info_image .img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .info .info_content {
+    z-index: 2;
   }
   .info-date h2 {
     font-size: 2rem;
