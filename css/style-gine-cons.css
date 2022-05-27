@@ -646,6 +646,7 @@ body {
 }
 
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
+  opacity: .1;
   height: 0rem;
 }
 
