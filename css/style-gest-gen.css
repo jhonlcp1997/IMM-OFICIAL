@@ -715,7 +715,11 @@ a {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
   margin-right: 1rem;
   color: #666;
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i:hover {
+  color: #007cc3;
 }
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .div1 {

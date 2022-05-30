@@ -761,7 +761,11 @@ body {
                             i {
                                 margin-right: 1rem;
                                 color: $light-color;
-                                font-size: 1.5rem;
+                                font-size: 2rem;
+
+                                &:hover{
+                                    color: $azul;
+                                }
                             }
                         }
                     }

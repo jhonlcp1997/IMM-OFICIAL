@@ -696,7 +696,11 @@ a {
                                 color: $light-color;
                                 // color: #007cc3;
                                 margin-right: 1rem;
-                                font-size: 1.5rem;
+                                font-size: 2rem;
+
+                                &:hover{
+                                    color: $azul;
+                                }
                             }
                         }
                     }
