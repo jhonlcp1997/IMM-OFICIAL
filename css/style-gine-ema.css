@@ -145,21 +145,6 @@ body {
   z-index: 1;
 }
 
-.home::before {
-  z-index: 0;
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  /* Specify the background image to be used */
-  background-image: url(../img/image-simple-2/Fondo.png);
-  background-size: cover;
-  /* Specify the background image */
-  opacity: 0.03;
-}
-
 .home .home_box {
   position: relative;
   display: -webkit-box;
@@ -170,23 +155,28 @@ body {
   margin: 0 auto;
 }
 
-.home .home_box::before {
-  z-index: 0;
-  content: "";
-  position: absolute;
+.home .home_box .home_bg_img {
   top: 0px;
   right: 0px;
-  bottom: 0px;
   left: 0px;
-  /* Specify the background image to be used */
-  background-image: url(../images/ginecologia/section/ema-background.png);
+  bottom: 0px;
+  max-width: 120rem;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../img/images-gine/ema/ema-bg-1.png);
   background-size: cover;
-  /* Specify the background image */
-  opacity: 1;
+  background-position: center;
+  opacity: .5;
 }
 
 .home .home_box .home-nav1 {
-  width: 40%;
+  width: 100%;
   padding: 0rem 3rem 8rem 9.5rem;
   text-align: left;
   z-index: 11;
@@ -258,23 +248,6 @@ body {
   transition: .2s linear;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-.home .home_box .home-nav2 {
-  width: 60%;
-  margin-left: auto;
-  z-index: 10;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  text-align: right;
-}
-
-.home .home_box .home-nav2 img {
-  text-align: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
 }
 
 .home .home_box .img-fondo .img-1 {
@@ -722,67 +695,6 @@ body {
   left: -3rem;
 }
 
-.tips {
-  background-color: #fff;
-  padding-top: 10rem;
-}
-
-.tips .tips__box {
-  width: 100%;
-  background: #007cc3;
-}
-
-.tips .tips__box .box {
-  max-width: 110rem;
-  width: 95%;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.tips .tips__box .box .box__content .content {
-  color: #fff;
-  width: 100%;
-  max-width: 50rem;
-  padding: 5rem 2rem 4rem 4rem;
-}
-
-.tips .tips__box .box .box__content .content .title-1 {
-  padding-top: 1rem;
-  font-family: "Abel", sans-serif;
-  font-weight: 600;
-  font-size: 2.2rem;
-}
-
-.tips .tips__box .box .box__content .content .title-2 {
-  font-family: "Abel", sans-serif;
-  font-size: 2.2rem;
-}
-
-.tips .tips__box .box .box__content .content .paragraph {
-  padding: 2rem 0 1rem 0;
-  font-size: 1.4rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.tips .tips__box .box .box__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  min-width: 50rem;
-  height: 30rem;
-  text-align: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
 .footer {
   background-color: #fff;
   text-align: center;
@@ -883,10 +795,6 @@ body {
 }
 
 @media (max-width: 1050px) {
-  .header div {
-    padding: 0 1rem;
-    width: 100%;
-  }
   .home {
     height: auto;
   }
@@ -962,165 +870,11 @@ body {
 }
 
 @media (max-width: 800px) {
-  .header div {
-    margin: 0;
-  }
-  .header div .header-general {
-    margin: 1rem 10%;
-  }
-  .header div .header-general .header-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header div .header-general .header-left a img {
-    position: relative;
-    top: 0.5rem;
-    width: 12rem;
-  }
-  .header div .header-general .navbar-opciones-phone {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header div .header-general .navbar-opciones-phone ul {
-    margin: auto;
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header div .header-general .navbar-opciones-phone ul li .ginecologia {
-    padding: 0.5rem 2rem;
-    background: #f173ac;
-    color: #fff;
-    cursor: pointer;
-  }
-  .header div .header-general .navbar-opciones-phone ul li .ginecologia:hover {
-    letter-spacing: 0.1rem;
-  }
-  .header div .header-general .navbar-opciones-phone ul li .gestacional {
-    color: #777;
-  }
-  .header div .header-general .navbar-opciones-phone ul li a {
-    font-size: 1.5rem;
-    margin: 0 2rem;
-    opacity: 0.8;
-  }
-  .header div .header-general .navbar-opciones-phone ul li a:focus {
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #f173ac;
-  }
-  .header div .header-general .header-center-right {
-    display: none;
-  }
-  .header div .header-general .header-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-  }
-  .header div .header-general .header-right img {
-    width: 2rem;
-  }
-  .header div .header-general .header-right .menu-close {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header div .header-general .header-right .menu-open {
-    display: none;
-  }
-  .header div .header-general .header-right.active .menu-close {
-    display: none;
-  }
-  .header div .header-general .header-right.active .menu-open {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header div .header-general .header-menu {
-    display: inline-block;
-    text-align: center;
-    width: 70%;
-    height: 90vh;
-    position: absolute;
-    top: 99%;
-    right: 0;
-    background: #fff;
-    border-top: 1px solid #f173ac;
-    border-bottom: 1px solid #f173ac;
-    padding: 0 2rem;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    font-family: "Poppins", sans-serif;
-  }
-  .header div .header-general .header-menu.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .header div .header-general .header-menu .header-center-right-tittle {
-    text-align: left;
-    margin-top: 1rem;
-    font-family: "Abel", sans-serif;
-    color: #007cc3;
-  }
-  .header div .header-general .header-menu .header-modules {
-    margin-top: 2rem;
-    text-align: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #f173ac;
-  }
-  .header div .header-general .header-menu .header-modules .header-menu-module {
-    font-size: 1.3rem;
-    color: #000;
-    padding-right: 1rem;
-  }
-  .header div .header-general .header-menu .header-modules i {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: #f173ac;
-  }
-  .header div .header-general .header-menu .header-modules img {
-    width: 1.6rem;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-  .header div .header-general .header-menu .header_footer {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 95%;
-    border-top: 1px solid #bfbfbf;
-  }
-  .header div .header-general .header-menu .header_footer p {
-    color: #bfbfbf;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-  }
   .home .home_box .home-nav1 .home-nav1-P_1 {
     font-size: 2.6rem;
   }
   .home .home_box .home-nav1 .home-nav1-P_2 {
     font-size: 2.8rem;
-  }
-  .tips .tips__box .box .box__img {
-    min-width: 40rem;
-    height: 24rem;
-  }
-  .tips .tips__box .box .box__img .img {
-    height: auto;
   }
   .footer .ofrecemos-footer {
     width: 80vw;
@@ -1138,9 +892,6 @@ body {
 @media (max-width: 675px) {
   html {
     font-size: 55%;
-  }
-  .header div .header-general .header-left a img {
-    width: 10rem;
   }
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 252px;
@@ -1193,30 +944,6 @@ body {
 @media (max-width: 580px) {
   .home {
     height: auto;
-  }
-  .tips .tips__box .box {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .tips .tips__box .box .box__content {
-    margin: auto;
-  }
-  .tips .tips__box .box .box__content .content {
-    padding: 2rem;
-  }
-  .tips .tips__box .box .box__img {
-    margin: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .tips .tips__box .box .box__img .img {
-    -webkit-box-shadow: -0.5rem 0.5rem 30px -10px #332e2e;
-            box-shadow: -0.5rem 0.5rem 30px -10px #332e2e;
   }
 }
 
@@ -1323,25 +1050,9 @@ body {
     max-width: 35rem;
     height: 22rem;
   }
-  .tips .tips__box .box .box__img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-width: 20rem;
-  }
-  .tips .tips__box .box .box__img .img {
-    margin: auto;
-    width: 90%;
-  }
 }
 
 @media (max-width: 370px) {
-  .header div {
-    padding: 0;
-  }
-  .header div .header-general {
-    margin: 1rem 7%;
-  }
   .info-date {
     padding: 1rem 0.5rem;
   }
@@ -1403,12 +1114,6 @@ body {
   .info-date .info-date-container.active .info-contenido .contenido-body.close .div1 {
     -webkit-animation: miAnimacion-3 .2s linear;
             animation: miAnimacion-3 .2s linear;
-  }
-  .tips {
-    padding-top: 5rem;
-  }
-  .tips .tips__box .box .box__img {
-    height: auto;
   }
 }
 /*# sourceMappingURL=style-gine-ema.css.map */
