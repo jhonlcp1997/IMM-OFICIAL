@@ -320,3 +320,11 @@ Pero no puedes negar que las canciones de chase Atlantic son buenisimas.
 Cambios en las redes que se encuentran en el footer > egi, emi, ema, todo GINECOLOGICO y TODO GESTACIONAL.
 Hoy pude hacer una gafera con estilos, parece el aleteo de una mariposa, siempre eh querido hacer este tipo de cosas pero como una pelicula.
 quiza se pueda cambiar las cosas que estuve utlizando por algo nuevo, pero necesito expandir mas mis conocimientos.
+
+31-05-2022:
+Empezando las cosas como si no se hubieran avanzado, tendre que.... no se cada vez que hago o digo algo nunca se cumple, no se por que me pasa esto.
+Hoy hubo simulacro, y fui el que se quedó atrapado, en el baño xD
+La parte del home de EMA esta en elaboracion, esa parte no se encuentra ya definido, pero puede que mas adelante se ponga, la imagen no se define.
+
+01-06-2022:
+Implemente un correo que funciona como pivot para el correo redessociales.
