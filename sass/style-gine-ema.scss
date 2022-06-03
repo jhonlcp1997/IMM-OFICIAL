@@ -109,24 +109,6 @@ body {
         max-width: 120rem;
         margin:0 auto;
         // padding: 0 0 0 3rem;
-        
-        
-        // &::before {
-        //     z-index: 0;
-        //     content: "";
-        //     position: absolute;
-        //     top: 0px;
-        //     right: 0px;
-        //     bottom: 0px;
-        //     left: 0px;
-        //     /* Specify the background image to be used */
-        //     background-image: url(../img/images-gine/ema/ema-bg-1.png);
-        //     // background-repeat: no-repeat;
-        //     background-size:cover;
-        //     // background-position: center center;
-        //     /* Specify the background image */
-        //     opacity: .9;
-        // }
 
         // Todo: esto es de prueba
         .home_bg_img{
@@ -218,16 +200,6 @@ body {
                     // background-color: #007cc3;
                     transform: scale(1.1);
                 }
-            }
-        }
-
-        .img-fondo {
-            .img-1 {
-                width: 12rem;
-                position: absolute;
-                z-index: 100;
-                bottom: 3rem;
-                right: 55%;
             }
         }
     }
@@ -752,10 +724,21 @@ body {
             width: 100%;
 
             .home-nav1 {
-                display: inline-block;
-                padding: 5rem 3rem 3rem 0;
+                // background-color: #f4c6de;
+                padding: 0;
                 align-items: center;
                 vertical-align: middle;
+                text-align: center;
+                margin: auto;
+
+                p{
+                    margin: 0.5rem auto;
+                    text-align: center;
+                }
+
+                .animated{
+                    margin:2.5rem auto 6rem auto;
+                }
             }
 
             .home-nav2 {
@@ -974,22 +957,9 @@ body {
     }
 }
 
-@media (max-width: 580px) {
-    .home {
-        height: auto;
-    }
-}
-
 @media (max-width: 530px) {
     .home {
-        .home-img_logo{
-            padding-bottom: 2rem;
-            text-align: center;
-
-            .img_logo{
-                height: 5rem;
-            }
-        }
+        
 
         .home_box {
             display: flex;
@@ -1000,6 +970,19 @@ body {
                 padding: 1rem 0;
                 margin: 0 auto;
 
+                .home-img_logo{
+                    padding-bottom: 2rem;
+                    text-align: center;
+
+                    .img_logo{
+                    height: 5rem;
+                    }
+                }
+                
+                p{
+                    padding: 0 2rem;
+                }
+
                 .home-nav1-P_1 {
                     text-align: center;
                 }
@@ -1008,9 +991,6 @@ body {
                     text-align: center;
                 }
 
-                div {
-                    margin: 1rem auto;
-                }
             }
 
             .home-nav2 {

@@ -328,3 +328,11 @@ La parte del home de EMA esta en elaboracion, esa parte no se encuentra ya defin
 
 01-06-2022:
 Implemente un correo que funciona como pivot para el correo redessociales.
+
+02-06-2022:
+Otra vez esta teniedo ese problema de que llegan llegan correos con el nombre el DNI cambiado
+creo que los dipositivos no soportan laravel 5.
+
+03-06-2022:
+Haremos limpieza de codigo.
+En la parte de ¿ya tienes una cita? de ema en segundo dia > durante tu cita esta divido en 2 | 1 por que el elcontenido del tecer elemento tiene mucho parrafo y le quita la equivalencia de espacio, que no deberia pasar.
