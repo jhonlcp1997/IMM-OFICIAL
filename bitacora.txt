@@ -336,3 +336,7 @@ creo que los dipositivos no soportan laravel 5.
 03-06-2022:
 Haremos limpieza de codigo.
 En la parte de ¿ya tienes una cita? de ema en segundo dia > durante tu cita esta divido en 2 | 1 por que el elcontenido del tecer elemento tiene mucho parrafo y le quita la equivalencia de espacio, que no deberia pasar.
+
+06-06-2022:
+Ema se queda con la parte final agregada en figma pero para cosas mas pequeñas esta se cambia por lo que no es 100% el diseño que mando Silava en el proyecto final. Esto solo se mantendra por que las letras se aplastan con la imagen, y por que la imagen no hace contraste con las letras.
+Oe que fue las canciones de chase atlantic son buenisimas, pero no son muy conocida, por que será, bueno la vida no es justa.
