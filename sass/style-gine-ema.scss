@@ -122,17 +122,17 @@ body {
             z-index: -1;
             object-fit: cover;
             display: flex;
-            background: url(../img/images-gine/ema/ema-bg-1.png);
+            background: url(../img/images-gine/ema/ema-bg-3.png);
             background-size: cover;
             background-position: center;
-            opacity: .5;
+            opacity: 1;
+
+            .bg{
+                display: none;
+            }
         }
         
         .home-nav1 {
-            // background-color: #f4c6de;
-            // background-color: $white;
-            // border-right: 1rem solid $pink3;
-            // box-shadow: 1rem 1rem 20px 20px rgba(255, 255, 255, 1);
             width: 100%;
             padding: 0rem 3rem 8rem 9.5rem;
             text-align: left;
@@ -140,8 +140,12 @@ body {
 
             .home-img_logo{
                 margin: 5rem 0 8rem 0;
-                .img_logo{
+                .img_logo, .img_logo2{
                     height: 4rem;
+                }
+
+                .img_logo2{
+                    display: none;
                 }
             }
 
@@ -725,19 +729,22 @@ body {
 
             .home-nav1 {
                 // background-color: #f4c6de;
-                padding: 0;
+                padding: 0 0 0 2rem;
                 align-items: center;
                 vertical-align: middle;
-                text-align: center;
-                margin: auto;
+                // text-align: center;
+                // margin: auto;
 
-                p{
-                    margin: 0.5rem auto;
-                    text-align: center;
+                .home-img_logo{
+                    margin-bottom: 4rem;
+                }
+
+                .home_content{
+                    max-width: 33rem;
                 }
 
                 .animated{
-                    margin:2.5rem auto 6rem auto;
+                    margin:2.5rem 0 6rem 0;
                 }
             }
 
@@ -833,11 +840,11 @@ body {
         .home_box {
             .home-nav1 {
                 .home-nav1-P_1 {
-                    font-size: 2.6rem;
+                    font-size: 3.6rem;
                 }
 
                 .home-nav1-P_2 {
-                    font-size: 2.8rem;
+                    font-size: 3.6rem;
                 }
             }
         }
@@ -864,6 +871,40 @@ body {
         font-size: 55%;
     }
     // *tengo que cambiar muchas cosas
+
+    .home {   
+        // height: 50rem;
+        .home_box {
+            // Todo: esto es de prueba
+            .home_bg_img{
+                // background-color: #fff;
+                display: flex;
+                text-align: right;
+                background: none;
+
+                .bg{
+                    margin-left: auto;
+                    display: block;
+                }
+            }
+
+            .home-nav1{
+                .home-img_logo{
+                    margin-top: 3rem;
+                    .img_logo{
+                        display: none;
+                    }
+    
+                    .img_logo2{
+                        height: 5rem;
+                        display: flex;
+                    }
+                }
+            }
+
+        }
+    }
+
     .characteres {
         .characteres-center_rigth {
             .slider-contenedor {
@@ -958,53 +999,6 @@ body {
 }
 
 @media (max-width: 530px) {
-    .home {
-        
-
-        .home_box {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            padding-top: 0;
-
-            .home-nav1 {
-                padding: 1rem 0;
-                margin: 0 auto;
-
-                .home-img_logo{
-                    padding-bottom: 2rem;
-                    text-align: center;
-
-                    .img_logo{
-                    height: 5rem;
-                    }
-                }
-                
-                p{
-                    padding: 0 2rem;
-                }
-
-                .home-nav1-P_1 {
-                    text-align: center;
-                }
-
-                .home-nav1-P_2 {
-                    text-align: center;
-                }
-
-            }
-
-            .home-nav2 {
-                display: flex;
-                width: auto;
-
-                img {
-                    margin: auto;
-                    width: 80%;
-                }
-            }
-        }
-    }
-
     .study {
         .tittle {
             font-size: 2.5rem;
@@ -1080,6 +1074,67 @@ body {
 }
 
 @media screen and (max-width: 460px) {
+    .home{
+        &::before {
+            z-index: 0;
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            /* Specify the background image to be used */
+            // background-image: url(../img/image-simple-2/Fondo.png);
+            background-image: url(../img/images-gine/ema/ema-bg-1.png);
+            background-size: cover;
+            background-position: 75% center;
+            /* Specify the background image */
+            opacity: 0.35;
+        }
+        
+        .home_box{
+            // padding: 0;
+            // margin: 0;
+
+            .home_bg_img{
+                display: none;
+            }
+
+            .home-nav1{
+                padding: 0;
+                margin: auto;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+
+                .home-img_logo{
+                    display: flex;
+                    justify-content: center;
+                    margin: 3rem auto;
+                    text-align: center;
+                }
+
+                p{
+                    text-align: center;  
+                  }
+      
+                .home-nav1-P_2{
+                    margin: auto;
+                    text-align: center;
+                }
+
+                .home_content{
+                    margin:2rem auto;
+                }
+
+                .animated{
+                    margin:  2.5rem auto 6rem auto;
+                }
+            }
+            
+        }
+    }
+
     .characteres{
         .characteres-center_rigth{
             .slider-contenedor-2{
