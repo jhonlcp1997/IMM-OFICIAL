@@ -30,6 +30,14 @@ Primer repositorio del Instituto Médico de la Mujer
     - gestacional-morfologico.html
     - gestacional-premorfologico.html
 
+    - ginecologia_eleccion-egi_emi.html
+    - ginecologia-consulta.html
+    - ginecologia-egi.html
+    - ginecologia-ema.html
+    - ginecologia-emi.html
+
+    - index-general.html (indice de todas las paginas en urlPrueba y urlOficial)
+
     - /others **Esto va a trabajar como un apartado**
         - ginecologia-info_date-consulta.html(fue hecho sin pensar, por la presión de la de procesos y la de marketing)
         - ginecologia-info_date-egi.html(fue hecho sin pensar, por la presión de la de procesos y la de marketing)

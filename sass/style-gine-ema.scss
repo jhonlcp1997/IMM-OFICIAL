@@ -26,12 +26,6 @@ $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $abel: "Abel", sans-serif;
 $poppins: "Poppins", sans-serif;
 
-@mixin grid($val) {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-    gap: 2rem;
-}
-
 @keyframes miAnimacion {
     from {height: 0;}
     to {height: 143px;}
