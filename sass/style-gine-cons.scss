@@ -97,61 +97,61 @@ body {
     // background: rgba(153,153,153, .2);
 }
 
-.header {
-    position: sticky;
-    z-index: 1000;
-    top: 0; left: 0; right: 0;
-    padding: auto;
-    background: #fff;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
+// .header {
+//     position: sticky;
+//     z-index: 1000;
+//     top: 0; left: 0; right: 0;
+//     padding: auto;
+//     background: #fff;
+//     text-align: center;
+//     font-size: 1.5rem;
+//     font-family: "Poppins", sans-serif;
 
-    div {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        position: relative;
-        display: inline-block;
-        width: 100rem;
-        background: #fff;
+//     div {
+//         margin-top: 1rem;
+//         margin-bottom: 1rem;
+//         position: relative;
+//         display: inline-block;
+//         width: 100rem;
+//         background: #fff;
 
-        .header-general {
-            display: flex;
-            justify-content: space-between;
-            color: $black;
+//         .header-general {
+//             display: flex;
+//             justify-content: space-between;
+//             color: $black;
 
-            .header-right {
-                display: none;
-            }
+//             .header-right {
+//                 display: none;
+//             }
 
-            .header-center-right {
-                width: 100%;
-                margin-top: 1.5rem;
-                text-align: right;
+//             .header-center-right {
+//                 width: 100%;
+//                 margin-top: 1.5rem;
+//                 text-align: right;
 
-                a {
-                    color: $black;
-                    margin-left: 4rem;
-                    margin-right: 1rem;
+//                 a {
+//                     color: $black;
+//                     margin-left: 4rem;
+//                     margin-right: 1rem;
 
-                    &:focus {
-                        padding-bottom: 1rem;
-                        border-bottom: 1px solid #f173ac;
-                    } 
+//                     &:focus {
+//                         padding-bottom: 1rem;
+//                         border-bottom: 1px solid #f173ac;
+//                     } 
 
-                    &.active{
-                        padding-bottom: 1rem;
-                        border-bottom: 1px solid #f173ac;
-                    } 
-                }
-            }
+//                     &.active{
+//                         padding-bottom: 1rem;
+//                         border-bottom: 1px solid #f173ac;
+//                     } 
+//                 }
+//             }
 
-            .header-menu{
-                display: none;
-            }
-        }
-    }
-}
+//             .header-menu{
+//                 display: none;
+//             }
+//         }
+//     }
+// }
 
 .home {
     // display: inline-flex;
@@ -369,7 +369,7 @@ body {
                 p {
                     font-family: "Poppins", sans-serif;
                     font-size: 1.5rem;
-                    color: #777;
+                    color: $black;
                 }
             }
         }
