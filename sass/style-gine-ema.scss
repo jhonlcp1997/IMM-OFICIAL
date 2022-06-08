@@ -26,10 +26,6 @@ $franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $abel: "Abel", sans-serif;
 $poppins: "Poppins", sans-serif;
 
-@keyframes miAnimacion {
-    from {height: 0;}
-    to {height: 143px;}
-}
 
 @keyframes miAnimacion-2 {
     from {height: 0;}
@@ -138,10 +134,6 @@ body {
                 max-width: 35rem;
             }
 
-            .home-nav1-P_1 {
-                font-size: 3.2rem;
-            }
-
             .home-nav1-P_2 {
                 font-family: $abel;
                 color: $azul;
@@ -197,7 +189,6 @@ body {
         text-align: center;
         font-family: $abel;
         font-size: 2.8rem;
-        font-weight: 600;
     }
 
     .info2 {
@@ -206,7 +197,6 @@ body {
         width: 95%;
         max-width: 110rem;
         margin: auto;
-        justify-content: space-between;
         flex-wrap: wrap;
 
         div {
