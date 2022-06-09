@@ -351,3 +351,7 @@ Avanzar la parte de aprendizaje.
 ultimamente me estan pidiendo cosas como que es lo que hago quizas por que me ven que hago otras cosas.
 Asi que lo más probable es que esten pensando en botarme, estoy seguro que si, estan pensado en botarme, pero bueno, todos sabian que esto algun día iba a pasar.
 Asi que aceptar nomas. y ver los que podemos hacer, y si no podemos hacer nada igual, solo no te comportes como un inmaduro, actua serio-calmado con la frente en alto y el pecho erguido, que hiciste algo al menos.
+
+09-06-2022:
+Aprender a utilizar vite? Lo mas seguro es que no aprenda nada.
+Parece que el style de index.html tiene mucho que mejorar, por que utilice ul donde no debia utilizar

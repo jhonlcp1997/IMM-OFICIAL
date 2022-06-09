@@ -60,13 +60,14 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #777;
+  color: #000;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .header div .navbar-opciones .navbar-opciones-ul1 a {
+  color: #444;
   font-size: 1.3rem;
   margin-right: 2rem;
 }
@@ -146,7 +147,7 @@ a {
 }
 
 .header div .header-general .header-center-right a p {
-  color: #777;
+  color: #444;
   font-weight: 100;
 }
 
@@ -322,7 +323,6 @@ a {
 .importante .import-nav .slider-contenedor .characteres_all p {
   color: #444;
   font-size: 1.5rem;
-  opacity: 0.8;
   text-align: center;
   margin: 1.5rem 9%;
 }
@@ -491,7 +491,7 @@ a {
       flex-wrap: wrap;
   width: 95%;
   max-width: 110rem;
-  color: #666;
+  color: #444;
   position: relative;
   top: 12rem;
 }
@@ -714,7 +714,7 @@ a {
 
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
   margin-right: 1rem;
-  color: #666;
+  color: #444;
   font-size: 2rem;
 }
 

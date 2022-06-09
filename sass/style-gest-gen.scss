@@ -18,7 +18,8 @@ html {
 }
 
 $white: #fff;
-$light-color: #666;
+$black: #000;
+$light-color: #444;
 $pink1: #f4c6de;
 $pink2: #f5a4c7;
 $pink3: #f173ac;
@@ -63,10 +64,11 @@ a {
 
             .navbar-opciones-ul1 {
                 display: flex;
-                color: #777;
+                color: $black;
                 align-items: center;
 
                 a {
+                    color: $light-color;
                     font-size: 1.3rem;
                     margin-right: 2rem;
                 }
@@ -149,7 +151,7 @@ a {
                     }
 
                     p {
-                        color: #777;
+                        color: $light-color;
                         font-weight: 100;
                     }
 
@@ -315,9 +317,8 @@ $azul: #007cc3;
                 flex-shrink: 0;
 
                 p {
-                    color: #444;
+                    color: $light-color;
                     font-size: 1.5rem;
-                    opacity: 0.8;
                     text-align: center;
                     margin: 1.5rem 9%;
                 }
@@ -507,7 +508,7 @@ $azul: #007cc3;
         flex-wrap: wrap;
         width: 95%;
         max-width: 110rem;
-        color: #666;
+        color: $light-color;
         position: relative;
         top: 12rem;
 
