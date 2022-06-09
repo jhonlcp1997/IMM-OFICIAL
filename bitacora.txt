@@ -355,3 +355,4 @@ Asi que aceptar nomas. y ver los que podemos hacer, y si no podemos hacer nada i
 09-06-2022:
 Aprender a utilizar vite? Lo mas seguro es que no aprenda nada.
 Parece que el style de index.html tiene mucho que mejorar, por que utilice ul donde no debia utilizar
+Puse en blanco la pagina index.html por el momento, aunque seguro que no podre poner esa parte en mucho tiempo.
