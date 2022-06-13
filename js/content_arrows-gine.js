@@ -74,24 +74,28 @@ let election1 = document.querySelector('.day1');
 let election2 = document.querySelector('.day2');
 let view = document.querySelectorAll('.info-date-container');
 
-election1.onclick = () => {
-    if (election1.className === 'day1 active') {
-
-    } else {
-        election1.classList.toggle('active');
-        election2.classList.remove('active');
-        view[0].classList.toggle('active');
-        view[1].classList.remove('active');
+try {
+    election1.onclick = () => {
+        if (election1.className === 'day1 active') {
+    
+        } else {
+            election1.classList.toggle('active');
+            election2.classList.remove('active');
+            view[0].classList.toggle('active');
+            view[1].classList.remove('active');
+        }
     }
-}
-
-election2.onclick = () => {
-    if (election2.className === 'day2 active') {
-
-    } else {
-        election2.classList.toggle('active');
-        election1.classList.remove('active');
-        view[1].classList.toggle('active');
-        view[0].classList.remove('active');
+    
+    election2.onclick = () => {
+        if (election2.className === 'day2 active') {
+    
+        } else {
+            election2.classList.toggle('active');
+            election1.classList.remove('active');
+            view[1].classList.toggle('active');
+            view[0].classList.remove('active');
+        }
     }
+} catch (err) {
+    // console.log(err);
 }

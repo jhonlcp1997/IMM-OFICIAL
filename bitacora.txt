@@ -356,3 +356,8 @@ Asi que aceptar nomas. y ver los que podemos hacer, y si no podemos hacer nada i
 Aprender a utilizar vite? Lo mas seguro es que no aprenda nada.
 Parece que el style de index.html tiene mucho que mejorar, por que utilice ul donde no debia utilizar
 Puse en blanco la pagina index.html por el momento, aunque seguro que no podre poner esa parte en mucho tiempo.
+
+10-06-2022:
+Yo pense que llegaria poca personas , pero parece que EGI abarca mucho de esto, es como si fueran directamente ahi.
+Se puede mejorar los js que utilizan la logica de las paginas?
+LAs modificaciones no se encuentran en la rama master, por lo que solo se podra resolver en la parte frontend
