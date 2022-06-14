@@ -361,3 +361,10 @@ Puse en blanco la pagina index.html por el momento, aunque seguro que no podre p
 Yo pense que llegaria poca personas , pero parece que EGI abarca mucho de esto, es como si fueran directamente ahi.
 Se puede mejorar los js que utilizan la logica de las paginas?
 LAs modificaciones no se encuentran en la rama master, por lo que solo se podra resolver en la parte frontend
+
+14-06-2022:
+Perdimos ayer, no se pudo concretar nuestro pase a la copa mundial, pero hay muchas buenas razones, no estabamos preparados, no se nos fue posible el ingresar. Por borrachos.
+Lo bueno, es que seguimos igual. Igual de malos.
+No sabia que se podia hacer el crud en el mongo db, medio raro.
+Lo siguiente es poder pasar los archivos que se crean en node js, en html5
+PEro la mayoria de los archivos en html5, teienes que si o si seguir un patron de estructura, por lo que hacerlo en spa suena, mal.
