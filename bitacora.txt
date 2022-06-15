@@ -368,3 +368,10 @@ Lo bueno, es que seguimos igual. Igual de malos.
 No sabia que se podia hacer el crud en el mongo db, medio raro.
 Lo siguiente es poder pasar los archivos que se crean en node js, en html5
 PEro la mayoria de los archivos en html5, teienes que si o si seguir un patron de estructura, por lo que hacerlo en spa suena, mal.
+
+15-06-2022:
+Esta vez hay menos movimiento en el lugar es como si se hubieran relajado, o no se.
+Cosas como si no estuvieran en la parte de produccion.
+La section de patients de muestra_de_sangre-b tenia un problema en las vistas en 412px width (Este es el más usado según google Analytics)
+quiza la ejecucion en la parte de la visualizacion del cliente, da problemas con la version del dispositivo, esto puede ser debido a las diferentes resoluciones que puede tener el producto, aah.. es un problema de fabrica.
+Se puede subir a produccion, toda la pagina de immlatam, pero usando vite, por el momento no se puede, cada cosa tiene que ser puesto en el vite.config o de lo contrario no podra guardar, pero lo malo es que no se utilizarlo.
