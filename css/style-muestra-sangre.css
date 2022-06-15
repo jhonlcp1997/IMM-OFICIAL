@@ -653,6 +653,7 @@ html {
     font-size: 1.2rem;
   }
   .patients.b .box .box_div-1 {
+    width: 24rem;
     padding: 3rem 0.5rem;
   }
   .patients.b .box .box_div-1 .img_pills {
