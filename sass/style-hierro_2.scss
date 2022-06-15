@@ -466,6 +466,44 @@ $poppins: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
+    .box_1 {
+        .box_box{
+            .box_content {
+                .boxes {
+                    .number {
+                        margin: 0.5rem;
+                    }
+
+                    .paragraph{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .indications{
+        .indications_header{
+            .tittle{
+                font-size: 2.4rem;
+            }
+
+            .paragraph{
+                font-size: 1.1rem;
+            }
+        }
+
+        .indications_content{
+            .boxes{
+                .paragraph_1, .paragraph_2{
+                    font-size: 1.1rem;
+                    padding: 0 1rem;
+                }
+
+            }
+        }
+    }
+
     .box_2 {
         .box {
             flex-direction: column;
@@ -480,6 +518,10 @@ $poppins: "Poppins", sans-serif;
                     padding: 0 1rem;
                     width: 22rem;
                     height: 17rem;
+
+                    .paragraph_1, .paragraph_2{
+                        font-size: 1.1rem;
+                    }
                 }
             }
         }
@@ -497,8 +539,12 @@ $poppins: "Poppins", sans-serif;
 @media screen and (max-width: 554px) {
     .indications_two {
         .box {
-            padding-bottom: 0;
+            padding-bottom: 1rem;
             .boxes {
+                .paragraph{
+                    font-size: 1.1rem;
+                }
+
                 &:first-child {
                     border-right: none;
                 }
@@ -586,50 +632,6 @@ $poppins: "Poppins", sans-serif;
                     .paragraph{
                         font-size: 1.2rem;
                     }
-                }
-            }
-        }
-    }
-
-    .indications{
-        .indications_header{
-            .tittle{
-                font-size: 2.4rem;
-            }
-
-            .paragraph{
-                font-size: 1.1rem;
-            }
-        }
-
-        .indications_content{
-            .boxes{
-                .paragraph_1, .paragraph_2{
-                    font-size: 1.1rem;
-                    padding: 0 1rem;
-                }
-
-            }
-        }
-    }
-
-    .box_2{
-        .box{
-            .boxes{
-                .boxes_div{
-                    .paragraph_1, .paragraph_2{
-                        font-size: 1.1rem;
-                    }
-                }
-            }
-        }
-    }
-
-    .indications_two{
-        .box{
-            .boxes{
-                .paragraph{
-                    font-size: 1.1rem;
                 }
             }
         }

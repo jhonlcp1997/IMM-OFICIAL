@@ -436,6 +436,22 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  .box_1 .box_box .box_content .boxes .number {
+    margin: 0.5rem;
+  }
+  .box_1 .box_box .box_content .boxes .paragraph {
+    font-size: 1.1rem;
+  }
+  .indications .indications_header .tittle {
+    font-size: 2.4rem;
+  }
+  .indications .indications_header .paragraph {
+    font-size: 1.1rem;
+  }
+  .indications .indications_content .boxes .paragraph_1, .indications .indications_content .boxes .paragraph_2 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
   .box_2 .box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -455,6 +471,9 @@ html {
     width: 22rem;
     height: 17rem;
   }
+  .box_2 .box .boxes .boxes_div .paragraph_1, .box_2 .box .boxes .boxes_div .paragraph_2 {
+    font-size: 1.1rem;
+  }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -465,7 +484,10 @@ html {
 
 @media screen and (max-width: 554px) {
   .indications_two .box {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
+  }
+  .indications_two .box .boxes .paragraph {
+    font-size: 1.1rem;
   }
   .indications_two .box .boxes:first-child {
     border-right: none;
@@ -519,22 +541,6 @@ html {
 @media screen and (max-width: 360px) {
   .box_1 .box_box .box_content .boxes .paragraph {
     font-size: 1.2rem;
-  }
-  .indications .indications_header .tittle {
-    font-size: 2.4rem;
-  }
-  .indications .indications_header .paragraph {
-    font-size: 1.1rem;
-  }
-  .indications .indications_content .boxes .paragraph_1, .indications .indications_content .boxes .paragraph_2 {
-    font-size: 1.1rem;
-    padding: 0 1rem;
-  }
-  .box_2 .box .boxes .boxes_div .paragraph_1, .box_2 .box .boxes .boxes_div .paragraph_2 {
-    font-size: 1.1rem;
-  }
-  .indications_two .box .boxes .paragraph {
-    font-size: 1.1rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
     font-size: 1.1rem;
