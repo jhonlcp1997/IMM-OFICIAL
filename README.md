@@ -23,6 +23,7 @@ Primer repositorio del Instituto Médico de la Mujer
     - test.js
     - /others-js
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
+- /sass (todos los archivos originales)
 - /views
     - gestacional-antenatal.html
     - gestacional-crecimiento_doppler.html

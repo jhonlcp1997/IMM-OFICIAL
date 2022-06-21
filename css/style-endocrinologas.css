@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
@@ -20,56 +19,44 @@ html {
   height: 35rem;
   width: 60rem;
 }
-
 .home .h1 {
   display: none;
 }
-
 .home .home-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
-
 .home .home-box .home__div1 {
   width: 70%;
   padding-top: 1rem;
   padding-right: 15rem;
 }
-
 .home .home-box .home__div1 img {
   width: 12rem;
 }
-
 .home .home-box .home__div1 div {
   margin-top: 8rem;
 }
-
 .home .home-box .home__div1 div span {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #007cc3;
 }
-
 .home .home-box .home__div1 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: #999999;
 }
-
 .home .home-box .home__div1 div p b {
   color: #62bb46;
   font-size: 3rem;
   line-height: 1.2;
 }
-
 .home .home-box .home__div2 {
   width: 30%;
   height: 30rem;
   background-color: #007cc3;
 }
-
 .home .home-box .home__div2::before {
   content: "";
   width: 18rem;
@@ -80,24 +67,20 @@ html {
   /* Specify the background image */
   opacity: 0.03;
 }
-
 .home .home-box .home__div3 {
   position: absolute;
   right: 14rem;
   bottom: -5.3rem;
 }
-
 .home .home-box .home__div3 .ofrecemos-box3_img {
   width: 20rem;
 }
-
 .home .home-box .point1 {
   width: 9rem;
   position: absolute;
   left: -10rem;
   top: 10rem;
 }
-
 .home .home-box .point2 {
   width: 9rem;
   z-index: -1;
@@ -108,21 +91,15 @@ html {
 
 .section_2 {
   background-color: rgba(217, 217, 217, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
 }
-
 .section_2 .image img {
   position: relative;
   top: 5rem;
   width: 30rem;
 }
-
 .section_2 .content {
   width: 30rem;
   height: 10rem;
@@ -130,46 +107,36 @@ html {
   top: 10rem;
   padding: 2rem 10rem 2rem 2rem;
 }
-
 .section_2 .content h3 {
   font-size: 1.5rem;
   font-family: "Abel", sans-serif;
   color: #62bb46;
 }
-
 .section_2 .content span {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #999999;
 }
 
 .section_3 {
   margin-top: 10rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .section_3 .content {
   width: 30rem;
   padding: 6rem 6rem 6rem 3rem;
   font-family: "Poppins", sans-serif;
   position: relative;
 }
-
 .section_3 .content h3 {
   font-family: "Abel", sans-serif;
   color: #62bb46;
   font-size: 1.5rem;
 }
-
 .section_3 .content span {
   font-size: 0.9rem;
   color: #999999;
 }
-
 .section_3 .content .point3 {
   width: 9rem;
   position: absolute;
@@ -177,32 +144,24 @@ html {
   top: -8rem;
   z-index: -1;
 }
-
 .section_3 .image img {
   width: 30rem;
 }
 
 .dinamic {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
-
 .dinamic .content-content {
   padding-top: 10.5rem;
   padding-bottom: 5rem;
   width: 30rem;
 }
-
 .dinamic .content-content ol {
   padding-left: 1rem;
   padding-right: 3rem;
 }
-
 .dinamic .content-content ol li {
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
@@ -210,23 +169,18 @@ html {
   color: #888;
   background-color: #fff;
 }
-
 .dinamic .content-content ol li::marker {
   color: #62bb46;
 }
-
 .dinamic .content-content ol li.active .barrita {
   margin-top: 1rem;
-  width: 00%;
+  width: 0%;
   overflow: hidden;
   border-bottom: 3px solid #007cc3;
   -webkit-animation: changerBorder 4s linear;
           animation: changerBorder 4s linear;
 }
-
 @-webkit-keyframes changerBorder {
-  0% {
-  }
   50% {
     width: 50%;
   }
@@ -234,10 +188,7 @@ html {
     width: 100%;
   }
 }
-
 @keyframes changerBorder {
-  0% {
-  }
   50% {
     width: 50%;
   }
@@ -245,7 +196,6 @@ html {
     width: 100%;
   }
 }
-
 .dinamic .content-dinamic {
   width: 30rem;
   height: 55rem;
@@ -253,34 +203,22 @@ html {
   position: relative;
   overflow: hidden;
 }
-
 .dinamic .content-dinamic .dinamic-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .dinamic .content-dinamic .dinamic-content div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .dinamic .content-dinamic .dinamic-content div .img-dinamic {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: auto;
   width: 30rem;
   height: 45rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
-
 .dinamic .content-dinamic .dinamic-content div span {
   display: none;
 }
-
 .dinamic .point4 {
   width: 9rem;
   z-index: 1;
@@ -293,7 +231,6 @@ html {
   text-align: center;
   padding: 3rem 10%;
 }
-
 .filosofy h2 {
   font-family: "Abel", sans-serif;
   margin: 2rem auto;
@@ -301,45 +238,35 @@ html {
   font-weight: 900;
   font-size: 2rem;
 }
-
 .filosofy div {
   width: 100%;
   max-width: 70rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
 }
-
 .filosofy div div {
   background-color: #fff;
   width: 20rem;
   height: 25rem;
   text-align: center;
-  -webkit-box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
-          box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
+  box-shadow: -3rem 2rem 40px -30px rgba(99, 91, 91, 0.596);
   display: block;
   padding: 1rem 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #999999;
 }
-
 .filosofy div div img {
   width: 10rem;
   margin: 2rem 0;
   position: relative;
 }
-
 .filosofy div div p {
   color: #888;
   font-size: 0.9rem;
 }
-
 .filosofy .span-text-footer {
   font-size: 0.9rem;
   margin-top: 4rem;
@@ -351,12 +278,9 @@ html {
 .section_final {
   width: 100%;
   height: 30rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
-
 .section_final .section_final-contenedor {
   position: relative;
   margin: 0rem 25% 0 auto;
@@ -365,11 +289,9 @@ html {
   height: 32rem;
   text-align: center;
   bottom: 0rem;
-  -webkit-box-shadow: -3rem 1rem 80px -40px #332e2e;
-          box-shadow: -3rem 1rem 80px -40px #332e2e;
+  box-shadow: -3rem 1rem 80px -40px rgb(51, 46, 46);
   padding: 5rem 2rem 0 2rem;
 }
-
 .section_final .section_final-contenedor .point5 {
   width: 9rem;
   position: absolute;
@@ -377,21 +299,18 @@ html {
   top: -2rem;
   z-index: 1;
 }
-
 .section_final .section_final-contenedor .section_final-tittle {
   font-family: "Abel", sans-serif;
   color: #007cc3;
   font-weight: 900;
   font-size: 2rem;
 }
-
 .section_final .section_final-contenedor .section_final-info {
   font-size: 1rem;
   margin-top: 1rem;
   color: #999999;
   font-family: "Poppins", sans-serif;
 }
-
 .section_final .section_final-contenedor div {
   text-align: center;
   position: relative;
@@ -404,14 +323,12 @@ html {
   background: #62bb46;
   border-radius: 25px;
 }
-
 .section_final .section_final-contenedor div a {
   font-family: "Abel", sans-serif;
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
 }
-
 .section_final .section_final-contenedor div a i {
   position: relative;
   top: 1px;
@@ -422,12 +339,9 @@ html {
 .footer {
   height: 5rem;
 }
-
 .footer p {
   font-family: "Poppins", sans-serif;
   padding-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 0.6rem;
   color: #999999;
@@ -439,17 +353,16 @@ html {
     margin: 0rem 15% 0 auto;
   }
 }
-
 @media (max-width: 1100px) {
   .home .home-box .point2 {
     display: none;
   }
 }
-
 @media (max-width: 975px) {
   html {
     font-size: 75%;
   }
+
   .home {
     width: 100%;
   }
@@ -471,6 +384,7 @@ html {
   .home .home-box .point1 {
     display: none;
   }
+
   .section_2 {
     width: 100%;
     display: inline-block;
@@ -487,6 +401,7 @@ html {
     margin: auto;
     position: inherit;
   }
+
   .section_3 {
     margin-top: 0rem;
     width: 100%;
@@ -503,11 +418,11 @@ html {
   .section_3 .image {
     text-align: center;
   }
+
   .dinamic .point4 {
     display: none;
   }
 }
-
 @media (max-width: 730px) {
   .home .home-box .home__div1 {
     padding: 1rem 45% 8.1rem 2rem;
@@ -518,6 +433,7 @@ html {
   .home .home-box .home__div3 {
     right: 2rem;
   }
+
   .section_2 .image img {
     width: 20rem;
   }
@@ -526,6 +442,7 @@ html {
     height: auto;
     padding: 1rem 5rem 2rem 2rem;
   }
+
   .section_3 .content {
     width: 100%;
     height: auto;
@@ -534,6 +451,7 @@ html {
   .section_3 .image img {
     width: 20rem;
   }
+
   .dinamic {
     margin-bottom: 3rem;
   }
@@ -566,8 +484,6 @@ html {
     padding: 1rem;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     text-align: center;
     color: #888;
@@ -575,6 +491,7 @@ html {
   .dinamic .content-dinamic .dinamic-content .last_hidden {
     display: none;
   }
+
   .section_final .section_final-contenedor {
     height: 30rem;
   }
@@ -582,7 +499,6 @@ html {
     display: none;
   }
 }
-
 @media (max-width: 600px) {
   .section_final .section_final-contenedor {
     margin: 0;
@@ -590,11 +506,10 @@ html {
   }
   .section_final .section_final-contenedor div {
     width: 14rem;
-    padding-top: .6rem;
+    padding-top: 0.6rem;
     height: 2.5rem;
   }
 }
-
 @media (max-width: 540px) {
   .home .home-box .home__div3 {
     top: 10.8rem;
@@ -604,7 +519,6 @@ html {
     width: 18rem;
   }
 }
-
 @media (max-width: 470px) {
   .home .home-box .home__div1 {
     padding: 1rem 50% 8.1rem 2rem;
@@ -621,17 +535,20 @@ html {
   .home .home-box .home__div3 {
     right: 0rem;
     top: 13.5rem;
-    opacity: .9;
+    opacity: 0.9;
   }
   .home .home-box .home__div3 .ofrecemos-box3_img {
     width: 16rem;
   }
+
   .filosofy {
     padding: 3rem 1%;
   }
+
   .section_final .section_final-contenedor {
     padding: 4rem 2rem 0 2rem;
   }
+
   .dinamic {
     margin-bottom: 1rem;
   }
@@ -647,17 +564,15 @@ html {
     height: 28rem;
   }
   .dinamic .content-dinamic .dinamic-content div span {
-    padding: .8rem 1rem;
+    padding: 0.8rem 1rem;
     height: 9.5rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
+
   .footer p {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
-
 @media (max-width: 380px) {
   .home .home-box .home__div1 {
     padding-right: 55%;
@@ -669,7 +584,6 @@ html {
     font-size: 2rem;
   }
 }
-
 @media (max-width: 310px) {
   .home {
     height: 32rem;
@@ -694,7 +608,7 @@ html {
     font-size: 1.5rem;
   }
   .home .home-box .home__div1 div .home__div1-p1 {
-    margin: .2rem 0;
+    margin: 0.2rem 0;
     padding-right: 5rem;
   }
   .home .home-box .home__div3 {
@@ -704,6 +618,7 @@ html {
   .home .home-box .home__div3 .ofrecemos-box3_img {
     width: 13rem;
   }
+
   .dinamic .content-dinamic {
     height: 45rem;
   }
@@ -713,8 +628,9 @@ html {
   }
   .dinamic .content-dinamic .dinamic-content div span {
     height: 7.5rem;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
+
   .section_final {
     height: 25rem;
   }
@@ -728,5 +644,4 @@ html {
   .section_final .section_final-contenedor .section_final-info {
     font-size: 0.8rem;
   }
-}
-/*# sourceMappingURL=style-endocrinologas.css.map */
+}/*# sourceMappingURL=style-endocrinologas.css.map */

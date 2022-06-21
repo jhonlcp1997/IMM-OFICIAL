@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
@@ -18,13 +17,11 @@ html {
 .header {
   padding: 1rem 0;
 }
-
 .header .header__div-box {
   width: 90%;
   max-width: 60rem;
   margin: auto;
 }
-
 .header .header__div-box .img {
   width: 10rem;
 }
@@ -32,54 +29,37 @@ html {
 .popups {
   top: 0;
   z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: auto;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(102, 102, 102, 0.425);
 }
-
 .popups .popups-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   position: relative;
   width: 90%;
   max-width: 50rem;
-  -webkit-box-shadow: 0rem 1rem 40px -10px #332e2e;
-          box-shadow: 0rem 1rem 40px -10px #332e2e;
+  box-shadow: 0rem 1rem 40px -10px rgb(51, 46, 46);
 }
-
 .popups .popups-box .popup-img {
   max-width: 25rem;
   height: 30rem;
   position: relative;
 }
-
 .popups .popups-box .popup-img .img {
   -o-object-fit: cover;
      object-fit: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100%;
 }
-
 .popups .popups-box .popup-content {
   position: relative;
   z-index: 2;
@@ -88,7 +68,6 @@ html {
   padding: 2rem 3rem;
   text-align: right;
 }
-
 .popups .popups-box .popup-content .popup-title {
   font-family: "Abel", sans-serif;
   color: #007cc3;
@@ -96,43 +75,35 @@ html {
   width: 100%;
   font-size: 3rem;
 }
-
 .popups .popups-box .popup-content .popup-content {
   font-family: "Poppins", sans-serif;
   padding: 1rem 0;
   vertical-align: middle;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   width: 100%;
   font-size: 1rem;
   text-align: left;
 }
-
 .popups .popups-box .popup-content .popup-content strong {
   font-size: 1.2rem;
   color: #62bb46;
 }
-
 .popups .popups-box .popup-content .popup-content.b {
   line-height: 180%;
 }
-
 .popups .popups-box .popup-content .btn {
   cursor: pointer;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   background-color: #fff;
   border: 1px solid #62bb46;
   border-radius: 20px;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   color: #62bb46;
 }
-
 .popups .popups-box .popup-content .btn:hover {
   background-color: #62bb46;
   color: #fff;
 }
-
 .popups .popups-box .fas {
   z-index: 3;
   cursor: pointer;
@@ -144,28 +115,24 @@ html {
   position: absolute;
   color: rgba(0, 0, 0, 0.712);
 }
-
 .popups .points_7 {
   position: absolute;
   left: 0;
   top: 5rem;
   height: 2.1rem;
 }
-
 .popups .points_8 {
   position: absolute;
   left: 21.8rem;
   bottom: 3rem;
   height: 2.1rem;
 }
-
 .popups .points_9 {
   position: absolute;
   right: 4rem;
   top: 4rem;
   height: 2.1rem;
 }
-
 .popups.close {
   display: none;
 }
@@ -173,23 +140,20 @@ html {
 .section_tittle {
   padding: 1rem 0;
 }
-
 .section_tittle .box {
   margin: auto;
   width: 90%;
   max-width: 60rem;
   font-family: "Abel", sans-serif;
 }
-
 .section_tittle .box .tittle {
   font-size: 3rem;
   color: #62bb46;
 }
-
 .section_tittle .box .span {
   font-weight: 600;
   font-size: 1.5rem;
-  color: #007cc3d2;
+  color: rgba(0, 124, 195, 0.8235294118);
 }
 
 .patients {
@@ -197,22 +161,18 @@ html {
   max-width: 1366px;
   height: 40rem;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   background: url(../../images/recomendaciones/muestra_sangre/background_img-1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .patients .box {
   z-index: 1;
   width: 90%;
   max-width: 90rem;
   margin: 0 auto;
 }
-
 .patients .box .box_div-1 {
   float: right;
   background-color: #62bb46;
@@ -221,48 +181,38 @@ html {
   color: #fff;
   font-family: "Abel", sans-serif;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 3rem 1rem;
 }
-
 .patients .box .box_div-1 .img_pills {
   margin: 1rem 0;
   width: 10rem;
 }
-
 .patients .box .box_div-1 .tittle {
   padding: 1rem 0 0 0;
   font-size: 2rem;
 }
-
 .patients .box .box_div-1 .subtittle {
   padding: 0.5rem 0;
   font-size: 2rem;
 }
-
 .patients .box .box_div-1 .paragraph {
   font-size: 1.5rem;
   padding: 1rem 4rem;
 }
-
 .patients .points_1 {
   position: absolute;
   width: 9rem;
   right: 1rem;
   top: -3rem;
 }
-
 .patients.b .box .box_div-1 {
   width: 28rem;
   padding: 3.5rem 1rem;
 }
-
 .patients.b .box .box_div-1 .img_pills {
   width: 18rem;
 }
-
 .patients.b .box .box_div-1 .subtittle {
   padding: 0.5rem 2rem;
 }
@@ -270,45 +220,34 @@ html {
 .recommendations {
   background-color: rgba(136, 136, 136, 0.164);
 }
-
 .recommendations .div-1 {
   margin: auto;
   max-width: 68rem;
   background: #fff;
   padding: 3rem 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-shadow: -1rem 1rem 40px -10px #c8c8c8;
-          box-shadow: -1rem 1rem 40px -10px #c8c8c8;
+  justify-content: space-between;
+  box-shadow: -1rem 1rem 40px -10px rgb(200, 200, 200);
   position: relative;
 }
-
 .recommendations .div-1 .box {
   width: 20rem;
   padding: 0 2rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
-
 .recommendations .div-1 .box img {
   padding: 0.5rem;
   width: 5rem;
 }
-
 .recommendations .div-1 .box p {
   color: #000;
   font-size: 1rem;
 }
-
 .recommendations .div-1 .box:nth-child(2) {
   border-left: 1px solid #62bb46;
   border-right: 1px solid #62bb46;
 }
-
 .recommendations .div-1 .points_2 {
   position: absolute;
   width: 9rem;
@@ -316,44 +255,33 @@ html {
   bottom: -2rem;
   z-index: -1;
 }
-
 .recommendations .div-2 {
   max-width: 40rem;
   padding: 3rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: auto;
 }
-
 .recommendations .div-2 .box {
   width: 20rem;
   padding: 0 2rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
-
 .recommendations .div-2 .box img {
   padding: 0.5rem;
   width: 5rem;
 }
-
 .recommendations .div-2 .box p {
   color: #000;
   font-size: 1rem;
 }
-
 .recommendations .div-2 .box:nth-child(2) {
   border-left: 1px solid #62bb46;
 }
-
 .recommendations.b .div-1 {
   max-width: 44rem;
 }
-
 .recommendations.b .div-1 .box:nth-child(2) {
   border-right: none;
 }
@@ -364,41 +292,33 @@ html {
   padding: 4rem 0;
   position: relative;
 }
-
 .avoid .tittle {
   color: #62bb46;
   font-size: 1.8rem;
 }
-
 .avoid .subtittle {
   font-weight: 600;
   font-size: 1.7rem;
-  color: #007cc3d2;
+  color: rgba(0, 124, 195, 0.8235294118);
 }
-
 .avoid .avoid_features {
   padding: 2rem 0;
   margin: auto;
   font-family: "Poppins", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 30rem;
 }
-
 .avoid .avoid_features .features_strong {
   padding: 0 1rem;
   width: 20rem;
   display: inline;
   text-align: right;
 }
-
 .avoid .avoid_features .features_p {
   width: 10rem;
   display: inline;
   text-align: left;
 }
-
 .avoid .importante {
   font-family: "Abel", sans-serif;
   color: #007cc3;
@@ -406,7 +326,6 @@ html {
   font-weight: 600;
   padding-top: 2rem;
 }
-
 .avoid .points_3 {
   position: absolute;
   width: 9rem;
@@ -419,84 +338,64 @@ html {
   font-family: "Poppins", sans-serif;
   position: relative;
 }
-
 .import .box {
   z-index: 1;
   position: relative;
   top: -2rem;
   margin: auto;
   max-width: 55rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 2rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
-
 .import .box .boxes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: #fff;
   width: 25rem;
   height: 9rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
-          box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
+  align-items: center;
+  box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
   z-index: 1;
 }
-
 .import .box .boxes .subtittle {
   color: #62bb46;
   font-size: 4rem;
-  padding: 0 2rem .5rem 2rem;
+  padding: 0 2rem 0.5rem 2rem;
 }
-
 .import .box .boxes .boxes_div {
   font-size: 0.9rem;
   padding-right: 1rem;
 }
-
 .import .box .points_4, .import .box .points_5, .import .box .points_6 {
   position: absolute;
   width: 9rem;
   z-index: 0;
 }
-
 .import .box .points_4 {
   left: -3rem;
   top: -3rem;
 }
-
 .import .box .points_5 {
   right: -3rem;
   top: 40%;
 }
-
 .import .box .points_6 {
   left: 33%;
   bottom: -2rem;
 }
-
 .import .box_footer {
   padding: 2rem 1rem;
   color: #fff;
   text-align: center;
 }
-
 .import .box_footer .text {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .footer {
   width: 100%;
 }
-
 .footer .ofrecemos-footer {
   width: 90%;
   max-width: 50rem;
@@ -504,67 +403,47 @@ html {
   padding: 2rem 0;
   margin-top: 2rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 {
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-family: "Abel", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 20rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box a {
   color: #62bb46;
   font-size: 1.8rem;
   padding: 1rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
   font-size: 0.9rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
   font-family: "Poppins", sans-serif;
   font-size: 0.7rem;
   color: #007cc3;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box img {
   width: 1.7rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a {
   padding: 0 0.5rem 0 0;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a i {
   color: #666;
   font-size: 1rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box:first-child a {
   padding: 1rem 1.2rem;
 }
-
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
   text-align: center;
   margin-top: 2rem;
@@ -582,32 +461,35 @@ html {
   .patients .box .points_1 {
     display: none;
   }
+
   .recommendations .div-1 .points_2 {
     display: none;
   }
+
   .avoid .points_3 {
     display: none;
   }
+
   .import .points_5,
-  .import .points_6,
-  .import .points_4 {
+.import .points_6,
+.import .points_4 {
     display: none;
   }
 }
-
 @media screen and (max-width: 1214px) {
   .patients .box {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 1050px) {
   html {
     font-size: 70%;
   }
+
   .patients {
     height: auto;
   }
+
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
     margin: 0.5rem 0;
   }
@@ -621,7 +503,6 @@ html {
     font-size: 1rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   .popups .popups-box .popup-content {
     max-width: 50rem;
@@ -635,6 +516,7 @@ html {
   .popups .points_7, .popups .points_8, .popups .points_9 {
     display: none;
   }
+
   .patients .box .box_div-1 {
     width: 20rem;
     height: 30rem;
@@ -659,22 +541,16 @@ html {
   .patients.b .box .box_div-1 .img_pills {
     width: 15rem;
   }
+
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
-
 @media screen and (max-width: 480px) {
   .recommendations .div-1 {
     margin: auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .recommendations .div-1 .box {
     padding: 2rem 0;
@@ -688,10 +564,9 @@ html {
   .recommendations.b .div-1 .box:nth-child(2) {
     border-bottom: none;
   }
+
   .avoid .avoid_features {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 100%;
   }
   .avoid .avoid_features .features_strong {
@@ -702,17 +577,16 @@ html {
     width: auto;
   }
 }
-
 @media screen and (max-width: 400px) {
   .patients .box .box_div-1 {
-    background-color: #61bb46b9;
+    background-color: rgba(97, 187, 70, 0.7254901961);
   }
 }
-
 @media screen and (max-width: 360px) {
   .section_tittle .box .span {
     font-size: 1.7rem;
   }
+
   .patients {
     background-position: 25% 10%;
   }
@@ -737,6 +611,7 @@ html {
   .patients.b .box .box_div-1 {
     width: 100%;
   }
+
   .recommendations {
     margin-top: 25rem;
   }
@@ -749,6 +624,7 @@ html {
   .recommendations .div-2 .box p {
     font-size: 1.1rem;
   }
+
   .avoid .tittle {
     padding: 0 1rem;
     font-size: 1.8rem;
@@ -756,9 +632,11 @@ html {
   .avoid .subtittle {
     font-size: 1.7rem;
   }
+
   .import .box .boxes .boxes_div {
     font-size: 1rem;
   }
+
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
     font-size: 1.1rem;
   }
@@ -766,10 +644,8 @@ html {
     font-size: 1rem;
   }
 }
-
 @media screen and (max-width: 270px) {
   .import .box .boxes {
     max-width: 25rem;
   }
-}
-/*# sourceMappingURL=style-muestra-sangre.css.map */
+}/*# sourceMappingURL=style-muestra-sangre.css.map */

@@ -3,32 +3,24 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
 }
 
 .body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #f173ac;
   width: 58vh;
   height: 100vh;
   position: relative;
 }
-
 .left .img {
   z-index: 1;
   position: relative;
@@ -36,7 +28,6 @@
   height: 65vh;
   right: -4vh;
 }
-
 .left::before {
   z-index: 0;
   content: "";
@@ -51,18 +42,15 @@
   /* Specify the background image */
   opacity: 0.9;
 }
-
 .left .content {
   display: none;
 }
-
 .left .points-1 {
   position: absolute;
   left: 2vw;
   top: 1vh;
   width: 18vh;
 }
-
 .left .points-2 {
   position: absolute;
   z-index: 0;
@@ -70,7 +58,6 @@
   bottom: 15vh;
   width: 18vh;
 }
-
 .left .points-3 {
   position: absolute;
   z-index: 0;
@@ -84,40 +71,29 @@
   height: 100vh;
   padding: 4vh 5vw;
 }
-
 .right .header {
   width: 95%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 .right .header .imm-logo {
   width: 20vh;
 }
-
 .right .header .navbar {
   display: block;
   margin-top: auto;
   font-size: 2.5vh;
   color: #000;
 }
-
 .right .header .navbar a {
   color: #000;
 }
-
 .right .header .navbar span {
   font-family: "Poppins", sans-serif;
   margin-right: 1rem;
 }
-
 .right .titles {
   text-align: left;
   padding: 7vh 1.5vw 5vh 1.5vw;
@@ -127,11 +103,9 @@
   font-family: "Abel", sans-serif;
   font-weight: 100;
 }
-
 .right .titles .title {
   font-weight: 100;
 }
-
 .right .titles .subtitle {
   color: #000;
   margin: auto;
@@ -140,22 +114,16 @@
   font-family: "Poppins", sans-serif;
   font-size: 2.2vh;
 }
-
 .right .egi-emi {
   font-family: "Abel", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 80rem;
   width: 95%;
   margin: auto;
-  -webkit-column-gap: 2rem;
-          column-gap: 2rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  justify-content: center;
 }
-
 .right .egi-emi .box {
   border: 1px solid #f173ac;
   max-width: 28rem;
@@ -163,27 +131,22 @@
   padding: 3vh;
   text-align: center;
 }
-
 .right .egi-emi .box .article {
   text-align: center;
   height: 100%;
 }
-
 .right .egi-emi .box .article .article-title {
   font-size: 9.2vh;
   color: #f173ac;
 }
-
 .right .egi-emi .box .article .article-subtitle {
   font-weight: 100;
   font-size: 1.6rem;
   color: #888;
 }
-
 .right .egi-emi .box .article .content {
   font-size: 4vh;
 }
-
 .right .egi-emi .box .article .description {
   font-family: "Poppins", sans-serif;
   font-size: 2.3vh;
@@ -191,34 +154,30 @@
   padding: 1vh 1vw 0 1vw;
   padding-bottom: 0vh;
 }
-
 .right .egi-emi .box .btn {
   position: relative;
   bottom: -10px;
   background-color: #fff;
   border-radius: 25px;
   border: 1px solid #f173ac;
-  padding: .5rem 2.3rem;
+  padding: 0.5rem 2.3rem;
   color: #f173ac;
   font-weight: 600;
   font-size: 2.3vh;
   font-family: "Abel", sans-serif;
 }
-
 .right .egi-emi .box .btn:hover {
   color: #fff;
   background-color: #f173ac;
 }
-
 .right .footer {
   font-family: "Poppins", sans-serif;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #000;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
 .right .footer .content {
   text-align: left;
 }
@@ -234,6 +193,7 @@
   .left .points-1, .left .points-2, .left .points-3 {
     width: 10rem;
   }
+
   .right {
     max-height: 70rem;
     padding: 3rem 6rem;
@@ -262,33 +222,30 @@
   }
   .right .egi-emi .box .article .description {
     font-size: 1.3rem;
-    padding-top: .8rem;
-    padding: .8rem 2rem 0 2rem;
+    padding-top: 0.8rem;
+    padding: 0.8rem 2rem 0 2rem;
   }
   .right .egi-emi .box .btn {
     font-size: 1.5rem;
   }
 }
-
 @media screen and (max-width: 1050px) {
   html {
     font-size: 70%;
   }
 }
-
 @media screen and (max-width: 800px) {
   .body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
+
   .right {
     width: 100vw;
   }
   .right .footer {
     display: none;
   }
+
   .left {
     width: 100vw;
     height: 100vw;
@@ -299,14 +256,10 @@
     font-family: "Poppins", sans-serif;
     position: absolute;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     margin: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     bottom: 0;
   }
   .left .img {
@@ -316,17 +269,14 @@
   .left .points-3 {
     right: 0;
     top: 0;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
 }
-
 @media screen and (max-width: 680px) {
   .left .points-1, .left .points-2, .left .points-3 {
     display: none;
   }
 }
-
 @media screen and (max-width: 500px) {
   .right {
     padding-bottom: 10rem;
@@ -344,10 +294,10 @@
   }
   .right .egi-emi {
     row-gap: 2rem;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-left: 0;
   }
+
   .left {
     height: 70vw;
   }
@@ -355,5 +305,4 @@
     top: -5rem;
     height: 70vw;
   }
-}
-/*# sourceMappingURL=style-gine_elec-egi_emi.css.map */
+}/*# sourceMappingURL=style-gine_elec-egi_emi.css.map */
