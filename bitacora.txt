@@ -375,3 +375,31 @@ Cosas como si no estuvieran en la parte de produccion.
 La section de patients de muestra_de_sangre-b tenia un problema en las vistas en 412px width (Este es el más usado según google Analytics)
 quiza la ejecucion en la parte de la visualizacion del cliente, da problemas con la version del dispositivo, esto puede ser debido a las diferentes resoluciones que puede tener el producto, aah.. es un problema de fabrica.
 Se puede subir a produccion, toda la pagina de immlatam, pero usando vite, por el momento no se puede, cada cosa tiene que ser puesto en el vite.config o de lo contrario no podra guardar, pero lo malo es que no se utilizarlo.
+
+16-06-2022:
+Imm sale en la busqueda de google Analitycs, espero no sea por las busquedas de mi sitio
+Se puede aprender despues de los 140 años ?
+hay muchas cosas que no se me quedan, y es por la falta de practica, y por la falta de interes, lo que me complica la mayoria de las cosas, y encima el cuepro malogrado que tengo no me ayuda mucho. Ni tengo seguro, ni estoy en planilla. 
+Se ve bien en la parte de visualizacion de la pagina cuando se le hace le ve el contenido, pero en codigo es un dolor de cabeza
+Empece con el curso de react, pero se que no lo terminare a tiempo, es más, creo que no lo terminaré.
+Las páginas de ginecologia-info_date-egi.html ginecologia-info_date-consulta.html, se encuentran paralizadas, quedó en la nada, por que supuestamente se iban a utilizar, pero creo que encontraron algo mejor
+Todas las gaferas que escribo, por que no estoy seguro de avanzar con el aprendizaje en react
+Pongo este . por que no se para que sirve, la verdad que no se para que sirve.
+
+17-06-2022:
+Estructuras o restructuracion de la mayoria de los archivos de immlatam, pero pero pero, siempre se tiene que hacer un refactoring.
+Hay un nuevo proyecto con react hecho en vite, es muy simple, pero me gustó poco, así que no se si continuarlo.
+
+20-06-2022:
+Hoy si me levante con la cara pesada y con los ojos rojos no se, por que, seguro por que ya en esta vida estyo tan mal , que se quiere dar a notar.
+Debo empezar a dormir más temprano, ya no tengo la misma vitalidad que antes, asi que Jhon por favor duerme más.
+Ahora por el momento solo puedo estar asi, no sabia que la mayoria se paralizaba por no tener internet, hoy nos quedamos sin internet por unos momentos, y veo que todos se meten en sus celulares, y ahi paran son como todos.
+por ahora lo que se esta desarrollando es algo parecido a un lugar en el que puedes consultar tus citas, y todo eso pero no se como hacer la parted del usuario, el logeo, y las configuraciones.
+Siempre está presente el liveReload, en la parte de los frameworks
+
+21-06-2022:
+Me eh dado cuenta que no se mucho, mientras mas investigo menos se, hay muchas posibilidades en todo esto, es como si no pudiera encontrar un punto final de las tecnologias.
+Hay muchas cosas que uno debe aprender pero la moyoria de las cosas es como bifurcaciones del mismo
+Se puede crear un modelo de la realidad con solo utilizar algo por ejemplo LAMDA
+Tendría que subir limpieza de código de la página de immlatam pero no puedo por la pereza, de estar dandole revizada a lo que ya limpie.
+La entrada de los primero metadatos en el imm.pe se encuentran de una manera mucho más profesional.
