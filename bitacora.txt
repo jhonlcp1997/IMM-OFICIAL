@@ -403,3 +403,9 @@ Hay muchas cosas que uno debe aprender pero la moyoria de las cosas es como bifu
 Se puede crear un modelo de la realidad con solo utilizar algo por ejemplo LAMDA
 Tendría que subir limpieza de código de la página de immlatam pero no puedo por la pereza, de estar dandole revizada a lo que ya limpie.
 La entrada de los primero metadatos en el imm.pe se encuentran de una manera mucho más profesional.
+
+23-06-2022:
+Ayer cree una rama nueva, en donde le agrege efectos en la primera carga de la pantalla en todo ginecologia, y en colocacion_hierro.html, solo tengo que mostrarselo a Silvana para que lo que apruebe, esi si, no han venido, ni Sharon Asi que las de mi cosatado tengo que aguantar hasta la hora de salida.
+Esto de aqui esta modificado en la rama principal, Tengo miedo que haya un error en el merge, por que bueno, espero que no, por que en la rama principal solo esta modificado bitacora.txt y main-transition solo modifica ginecologia y lo que puse arriba.
+Al final nadie me va a creer que tengo avanzado algo, es como si espereran a que uno este acabado o a punto del avismo, para empezar
+Estaba avanzando la parte de node js, pero como que me da algo, no se, terminarlo y ver que lo que estudie no tenga ningun uso, eso si es malo, no quiero hacer nada de eso.
