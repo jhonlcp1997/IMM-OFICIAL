@@ -409,3 +409,9 @@ Ayer cree una rama nueva, en donde le agrege efectos en la primera carga de la p
 Esto de aqui esta modificado en la rama principal, Tengo miedo que haya un error en el merge, por que bueno, espero que no, por que en la rama principal solo esta modificado bitacora.txt y main-transition solo modifica ginecologia y lo que puse arriba.
 Al final nadie me va a creer que tengo avanzado algo, es como si espereran a que uno este acabado o a punto del avismo, para empezar
 Estaba avanzando la parte de node js, pero como que me da algo, no se, terminarlo y ver que lo que estudie no tenga ningun uso, eso si es malo, no quiero hacer nada de eso.
+
+27-06-2022:
+Hoy avance la estructura de la nueva landing, pero como no esta aprobada no la puedo terminar, por lo que solo lo deje en pruebas, espero se pueda simplificar mas de lo que ya tiene.
+Quisiera trabajarlo como lo hice con node-jhon-1 pero, tengo miedo de que no me funcione a la hora de hacer el merge
+hay partes del nuevo landing que se encuentr en desarrollo pero no, como no hay imagenes que pueda probar, el estilo de estas faltas no me dejan hacer pruebas responsive.
+Silvana está haciendo cosas para instagra, y facebook, será por eso que no se sabe si habra nuevas landing ?
