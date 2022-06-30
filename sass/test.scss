@@ -30,11 +30,11 @@ $poppins: "Poppins", sans-serif;
 
 @keyframes miAnimacion-2 {
     from {height: 0;}
-    to {height: 50px;}
+    to {height: 70px;}
 }
 
 @keyframes miAnimacion-3 {
-    from {height: 50px;}
+    from {height: 200px;}
     to {height: 0px;}
 }
 
@@ -978,7 +978,7 @@ body {
                             display: flex;
                             align-items: center;
                             // margin: 1rem 0;
-                            animation: miAnimacion-3 .2s linear;
+                            // animation: miAnimacion-3 .2s linear;
                         }
 
                         &.open {
@@ -986,7 +986,7 @@ body {
                             animation: none;
 
                             .div1{
-                                animation: miAnimacion-2 .2s linear;
+                                animation: miAnimacion-2 .4s linear;
 
                                 p {
                                     font-size: 1.3rem;

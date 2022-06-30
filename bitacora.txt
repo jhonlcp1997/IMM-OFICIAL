@@ -415,3 +415,10 @@ Hoy avance la estructura de la nueva landing, pero como no esta aprobada no la p
 Quisiera trabajarlo como lo hice con node-jhon-1 pero, tengo miedo de que no me funcione a la hora de hacer el merge
 hay partes del nuevo landing que se encuentr en desarrollo pero no, como no hay imagenes que pueda probar, el estilo de estas faltas no me dejan hacer pruebas responsive.
 Silvana está haciendo cosas para instagra, y facebook, será por eso que no se sabe si habra nuevas landing ?
+
+30-06-2022:
+Los metaheaders se encuentran mal organizados, cuando se de, otra vez contenido al la pagina index. se tendria que agregar con todo y especificaciones.
+La nueva pagina no tiene una aprobacion, por lo que solo queda esperar, lo mejor es ir revisando los cambios, o simplificar el documento.
+No hacer terminaciones en la parte de ¿ya tienes una cita? --> hacer cambios en el titulo.
+La parte de creaccion de una spa con react esta fregado. Hay mucho que tengo miedo, pero no se si ese miedo puda llegar pronto o lejos.
+puse el favicon en el immetabolico.com.pe, debido a que me vayan a reclamar por secaso no lo tenga.

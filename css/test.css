@@ -14,7 +14,7 @@
     height: 0;
   }
   to {
-    height: 50px;
+    height: 70px;
   }
 }
 
@@ -23,12 +23,12 @@
     height: 0;
   }
   to {
-    height: 50px;
+    height: 70px;
   }
 }
 @-webkit-keyframes miAnimacion-3 {
   from {
-    height: 50px;
+    height: 200px;
   }
   to {
     height: 0px;
@@ -36,7 +36,7 @@
 }
 @keyframes miAnimacion-3 {
   from {
-    height: 50px;
+    height: 200px;
   }
   to {
     height: 0px;
@@ -779,8 +779,6 @@ body {
     margin: 1rem 0 1rem 2rem;
     display: flex;
     align-items: center;
-    -webkit-animation: miAnimacion-3 0.2s linear;
-            animation: miAnimacion-3 0.2s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
     margin: 0;
@@ -788,8 +786,8 @@ body {
             animation: none;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 {
-    -webkit-animation: miAnimacion-2 0.2s linear;
-            animation: miAnimacion-2 0.2s linear;
+    -webkit-animation: miAnimacion-2 0.4s linear;
+            animation: miAnimacion-2 0.4s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 p {
     font-size: 1.3rem;
