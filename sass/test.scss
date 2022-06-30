@@ -190,7 +190,7 @@ body {
     }
 
     .process-img{
-        margin: 4rem;
+        margin: 5rem;
         .img{
             width: 12rem;
         }
@@ -217,7 +217,7 @@ body {
         display: flex;
 
         .info_image{
-            max-height: 40rem;
+            max-height: 48rem;
             width: 50%;
             display: flex;
             
@@ -379,7 +379,7 @@ body {
     
     margin:8rem auto 0 auto;
     width: 95%;
-    max-width: 100rem;
+    max-width: 110rem;
     background-color: $white;
     text-align: center;
     padding: 4rem 5rem;
@@ -527,18 +527,18 @@ body {
     }
 
     .point4 {
-        top: 2rem;
-        right: -3rem;
+        top: -3rem;
+        right: -5rem;
     }
 
     .point5 {
         top: 40%;
-        left: -3rem;
+        left: -5rem;
     }
 
     .point6 {
-        bottom: -3rem;
-        right: -3rem;
+        bottom: 3rem;
+        right: -5rem;
     }
 
     .point7 {
