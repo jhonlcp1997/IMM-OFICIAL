@@ -422,3 +422,4 @@ La nueva pagina no tiene una aprobacion, por lo que solo queda esperar, lo mejor
 No hacer terminaciones en la parte de ¿ya tienes una cita? --> hacer cambios en el titulo.
 La parte de creaccion de una spa con react esta fregado. Hay mucho que tengo miedo, pero no se si ese miedo puda llegar pronto o lejos.
 puse el favicon en el immetabolico.com.pe, debido a que me vayan a reclamar por secaso no lo tenga.
+ya no agregaria la parte final, hasta que se complete o me den permiso, en la primera y segunda seccion, las imagenes en el nuevo landing no se haran hasta que se apruebe, pero aun no se han recibido noticias de ello.

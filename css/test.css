@@ -246,6 +246,8 @@ body {
   width: 50%;
   background-color: #f173ac;
   display: flex;
+  position: relative;
+  left: -1px;
 }
 .info .info-box .info_content .info_content_box {
   margin: auto;

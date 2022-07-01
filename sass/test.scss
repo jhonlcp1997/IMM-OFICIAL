@@ -232,6 +232,8 @@ body {
             width: 50%;
             background-color: $pink3;
             display: flex;
+            position: relative;
+            left: -1px;
     
             .info_content_box{
                 margin: auto;
