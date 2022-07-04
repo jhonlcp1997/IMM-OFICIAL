@@ -113,9 +113,11 @@ body {
   z-index: 1;
 }
 .home .home-img_logo {
+  position: relative;
   background-color: #fff;
   padding: 2.8rem;
   text-align: center;
+  z-index: 2;
 }
 .home .home-img_logo .img_logo, .home .home-img_logo .img_logo2 {
   height: 4.6rem;
@@ -127,10 +129,11 @@ body {
   position: relative;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.7019607843);
+  z-index: 1;
 }
 .home .home_box .home-nav1 {
   margin: 0 auto;
-  max-width: 130rem;
+  max-width: 136.6rem;
   width: 100%;
   padding: 15rem 0rem 16rem 0;
   text-align: center;
@@ -142,7 +145,7 @@ body {
   z-index: 0;
   content: "";
   position: absolute;
-  top: 0px;
+  top: -4rem;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -227,7 +230,7 @@ body {
 }
 .info .info-box {
   width: 100%;
-  max-width: 130rem;
+  max-width: 136.6rem;
   margin: 0rem auto;
   display: flex;
 }
