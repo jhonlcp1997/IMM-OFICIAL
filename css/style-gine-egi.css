@@ -276,52 +276,23 @@ body {
   width: 100%;
 }
 .study .tittle {
-  padding: 0 2rem;
+  padding: 0 2rem 4rem 2rem;
   color: #f173ac;
   text-align: center;
   font-family: "Abel", sans-serif;
   font-size: 2.8rem;
 }
-.study .info1 {
-  margin: auto;
-  display: flex;
-  width: 95%;
-  max-width: 50rem;
-  padding: 3rem 0;
-}
-.study .info1 img {
-  padding-left: 0.5rem;
-  margin-right: 2.5rem;
-  width: 6rem;
-}
-.study .info1 div {
-  display: inline-block;
-}
-.study .info1 div h2 {
-  font-size: 2rem;
-  text-align: left;
-  color: #007cc3;
-  font-family: "Abel", sans-serif;
-  padding-bottom: 1rem;
-}
-.study .info1 div p {
-  padding-right: 0.5rem;
-  font-family: "Poppins", sans-serif;
-  text-align: left;
-  font-size: 1.4rem;
-  color: #000;
-}
 .study .info2 {
   display: flex;
   width: 95%;
-  max-width: 100rem;
+  max-width: 90rem;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .study .info2 div {
   margin: 1rem auto;
-  width: 30rem;
+  width: 33rem;
   height: 25rem;
   text-align: center;
 }
@@ -357,7 +328,7 @@ body {
 .characteres .characteres-left {
   text-align: center;
   flex: 1 1 20rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   position: relative;
 }
 .characteres .characteres-left h2 {
