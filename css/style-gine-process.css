@@ -173,7 +173,7 @@ body {
   padding: 10rem;
 }
 .process .title {
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: #f173ac;
   font-family: "Abel", sans-serif;
 }
@@ -222,7 +222,7 @@ body {
 }
 .info .info-box .info_content .info_content_box {
   margin: auto;
-  max-width: 40rem;
+  max-width: 48rem;
   width: 90%;
   padding: 2rem 0;
 }
@@ -232,7 +232,7 @@ body {
 }
 .info .info-box .info_content .info_content_box .content .title {
   font-family: "Abel", sans-serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   padding-left: 2rem;
 }
 .info .info-box .info_content .info_content_box .content .paragraph {
@@ -248,22 +248,29 @@ body {
   background-color: #fff;
   width: 100%;
   padding: 8rem 0;
+  text-align: center;
+}
+.remember .title {
+  color: #f173ac;
+  font-size: 3rem;
+  font-family: "Abel", sans-serif;
 }
 .remember .remember-box {
   display: flex;
-  max-width: 90rem;
+  flex-wrap: wrap;
+  max-width: 100rem;
   width: 95%;
   margin: 0rem auto;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .remember .remember-box .box-content {
-  max-width: 55rem;
-  padding-right: 4rem;
+  margin-top: 4rem;
+  max-width: 32rem;
+  padding: 0 2.4rem;
+  text-align: center;
 }
-.remember .remember-box .box-content .title {
-  color: #f173ac;
-  font-size: 2.8rem;
-  font-family: "Abel", sans-serif;
+.remember .remember-box .box-content .content-img .img {
+  height: 8rem;
 }
 .remember .remember-box .box-content .content {
   margin-top: 3rem;
@@ -273,62 +280,47 @@ body {
 .remember .remember-box .box-content .content .paragraph {
   font-family: "Poppins", sans-serif;
 }
-.remember .remember-box .remember-img .img {
-  width: 14rem;
-}
 
 .indispensable {
   width: 100%;
-  background-color: #007cc3;
+  background-color: #fff;
 }
 .indispensable .indispensable-box {
-  width: 95%;
-  max-width: 90rem;
+  background-color: #007cc3;
+  width: 100%;
+  max-width: 136.6rem;
   margin: auto;
   display: flex;
 }
 .indispensable .indispensable-box .box-content {
-  color: #fff;
-  height: auto;
-  max-width: 32rem;
-  margin: auto auto auto 0;
-  padding-right: 2rem;
-}
-.indispensable .indispensable-box .box-content .title {
-  width: 100%;
-  display: block;
-  font-size: 2.8rem;
-  font-family: "Abel", sans-serif;
-}
-.indispensable .indispensable-box .box-content .paragraph {
-  margin-top: 2rem;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  max-width: 25rem;
-}
-.indispensable .indispensable-box .characteres {
-  width: 100%;
-  max-width: 58rem;
+  max-height: 70rem;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+}
+.indispensable .indispensable-box .box-content .img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.indispensable .indispensable-box .content {
+  width: 50%;
+  max-width: 55rem;
   position: relative;
-  top: 5rem;
-}
-.indispensable .indispensable-box .characteres .char {
-  width: 25rem;
-  height: 29rem;
-  background-color: #fff;
+  left: -1px;
+  color: #fff;
+  margin: auto;
   padding: 2rem;
-  box-shadow: -1rem 1rem 30px rgba(0, 0, 0, 0.11);
 }
-.indispensable .indispensable-box .characteres .char .img {
-  padding: 3rem 0;
-  width: 9rem;
+.indispensable .indispensable-box .content .title {
+  font-family: "Abel", sans-serif;
+  font-size: 2.8rem;
+  padding-left: 2rem;
 }
-.indispensable .indispensable-box .characteres .char .paragraph {
-  padding-top: 2rem;
+.indispensable .indispensable-box .content .characteres .char {
+  padding: 2rem 0 0 2rem;
+}
+.indispensable .indispensable-box .content .characteres .char .paragraph {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
@@ -339,7 +331,7 @@ body {
   max-width: 100rem;
   background-color: #fff;
   text-align: center;
-  padding: 4rem 5rem;
+  padding: 5rem;
   box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
   z-index: 1;
   position: relative;
@@ -348,7 +340,7 @@ body {
 .info-date h2 {
   font-family: "Abel", sans-serif;
   color: #f173ac;
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 .info-date .section__subtitle {
@@ -412,6 +404,9 @@ body {
   text-align: center;
   width: 34rem;
   min-width: 9rem;
+}
+.info-date .info-date-container.active .info-contenido .contenido-body .div1.solo {
+  width: 38rem;
 }
 .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
   display: flex;
@@ -569,20 +564,19 @@ body {
 }
 @media (max-width: 800px) {
   .indispensable .indispensable-box {
-    flex-wrap: wrap;
+    display: block;
+  }
+  .indispensable .indispensable-box .box-content, .indispensable .indispensable-box .content {
+    width: 100%;
   }
   .indispensable .indispensable-box .box-content {
-    padding-top: 2rem;
-    padding-right: 0;
-    margin: auto;
-    text-align: center;
+    z-index: 1;
+    height: 35rem;
   }
-  .indispensable .indispensable-box .box-content .paragraph {
-    max-width: 28rem;
-  }
-  .indispensable .indispensable-box .characteres {
-    margin: auto;
-    top: 3rem;
+  .indispensable .indispensable-box .content {
+    left: 0;
+    z-index: 2;
+    max-width: 80rem;
   }
 
   .footer .ofrecemos-footer {
@@ -615,6 +609,9 @@ body {
     font-size: 1.15rem;
   }
   .info-date .info-date-container .info-contenido .contenido-body .div1 {
+    width: 25rem;
+  }
+  .info-date .info-date-container .info-contenido .contenido-body .div1.solo {
     width: 25rem;
   }
   .info-date .info-date-container .info-contenido .contenido-body .div1 .div-image {
@@ -711,22 +708,6 @@ body {
   .remember .remember-box .remember-img .img {
     width: 10rem;
   }
-
-  .indispensable .indispensable-box .characteres {
-    flex-wrap: wrap;
-    row-gap: 1rem;
-  }
-  .indispensable .indispensable-box .characteres .char {
-    width: 100%;
-    max-width: 60rem;
-    height: auto;
-  }
-  .indispensable .indispensable-box .characteres .char .img {
-    padding: 0;
-  }
-  .indispensable .indispensable-box .characteres .char .paragraph {
-    padding-top: 1rem;
-  }
 }
 @media (max-width: 370px) {
   .info-date {
@@ -750,6 +731,10 @@ body {
     margin: 1rem 0 1rem 2rem;
     display: flex;
     align-items: center;
+  }
+  .info-date .info-date-container.active .info-contenido .contenido-body .div1.solo {
+    width: 90%;
+    max-width: 35rem;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
     margin: 0;

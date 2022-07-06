@@ -174,7 +174,7 @@ body {
     padding: 10rem;
 
     .title{
-        font-size: 2.8rem;
+        font-size: 3rem;
         color: $pink3;
         font-family: $abel;
     }
@@ -227,7 +227,7 @@ body {
     
             .info_content_box{
                 margin: auto;
-                max-width: 40rem;
+                max-width: 48rem;
                 width: 90%;
                 padding: 2rem 0;
     
@@ -238,7 +238,7 @@ body {
                     
                     .title{
                         font-family: $abel;
-                        font-size: 2.8rem;
+                        font-size: 3rem;
                         padding-left: 2rem;
                     }
     
@@ -260,25 +260,34 @@ body {
     background-color: #fff;
     width: 100%;
     padding: 8rem 0;
+    text-align: center;
     
+    .title{
+        color: $pink3;
+        font-size: 3rem;
+        font-family: $abel;
+    }
 
     .remember-box{
         // background-color: #666;
         display: flex;
-        max-width: 90rem;
+        flex-wrap: wrap;
+        max-width: 100rem;
         width: 95%;
         margin:0rem auto;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .box-content{
+            margin-top: 4rem;
             // background-color: $pink2;
-            max-width: 55rem;
-            padding-right: 4rem;
+            max-width: 32rem;
+            padding: 0 2.4rem;
+            text-align: center;
 
-            .title{
-                color: $pink3;
-                font-size: 2.8rem;
-                font-family: $abel;
+            .content-img{
+                .img{
+                    height: 8rem;
+                }
             }
 
             .content{
@@ -291,76 +300,56 @@ body {
                 }
             }
         }
-
-        .remember-img{
-            .img{
-                width: 14rem;
-            }
-        }
     }
 }
 
 .indispensable{
     width: 100%;
-    background-color: $azul;
-
+    background-color: $white;
+    
     .indispensable-box{
-        width: 95%;
-        max-width: 90rem;
+        background-color: $azul;
+        width: 100%;
+        max-width: 136.6rem;
         margin: auto;
         display: flex;
 
         .box-content{
-            color: #fff;
-            height: auto;
-            max-width: 32rem;
-            // background-color: #bfbfbf;
-            margin: auto  auto auto 0;
-            padding-right: 2rem;
+            max-height: 70rem;
+            width: 50%;
+            display: flex;
             
-
-            .title{
-                // margin-top: auto;
+            .img{
+                height:  100%;
                 width: 100%;
-                display: block;
-                font-size: 2.8rem;
-                font-family: $abel;
-            }
-
-            .paragraph{
-                margin-top: 2rem;
-                width: 100%;
-                font-family: $poppins;
-                font-size: 1.5rem;
-                max-width: 25rem;
+                object-fit: cover;
             }
         }
 
-        .characteres{
-            width: 100%;
-            max-width: 58rem;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
+        .content{
+            width: 50%;
+            max-width: 55rem;
             position: relative;
-            top: 5rem;
+            left: -1px;
+            color: $white;
+            margin: auto;
+            padding: 2rem;
 
-            .char{
-                width: 25rem;
-                height: 29rem;
-                background-color: #fff;
-                padding: 2rem;
-                box-shadow: -1rem 1rem 30px  rgba(0, 0, 0, 0.11);
+            .title{
+                font-family: $abel;
+                font-size: 2.8rem;
+                padding-left: 2rem;
+            }
 
-                .img{
-                    padding: 3rem 0;
-                    width: 9rem;
-                }
-
-                .paragraph{
-                    padding-top: 2rem;
-                    font-size: 1.5rem;
-                    font-family: $poppins;
+            .characteres{
+                .char{
+                    padding: 2rem 0 0 2rem;
+    
+                    .paragraph{
+                        // padding-top: 2rem;
+                        font-size: 1.5rem;
+                        font-family: $poppins;
+                    }
                 }
             }
         }
@@ -374,7 +363,7 @@ body {
     max-width: 100rem;
     background-color: $white;
     text-align: center;
-    padding: 4rem 5rem;
+    padding: 5rem;
     box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
     z-index: 1;
     position: relative;
@@ -383,7 +372,7 @@ body {
     h2 {
         font-family: $abel;
         color: $pink3;
-        font-size: 2.8rem;
+        font-size: 3rem;
         margin-bottom: 2rem;
     }
 
@@ -464,6 +453,9 @@ body {
                         width: 34rem;
                         min-width: 9rem;
                         // animation: miAnimacion .2s linear ;
+                        &.solo{
+                            width: 38rem;
+                        }
 
                         .div-image {
                             display: flex;
@@ -680,21 +672,21 @@ body {
 @media (max-width: 800px) {
     .indispensable{
         .indispensable-box{
-            flex-wrap: wrap;
-            .box-content{
-                padding-top: 2rem;
-                padding-right: 0;
-                margin: auto;
-                text-align: center;
+            display: block;
 
-                .paragraph{        
-                    max-width: 28rem;
-                }
+            .box-content, .content{
+                width: 100%;
             }
 
-            .characteres{
-                margin: auto;
-                top: 3rem;
+            .box-content{
+                z-index: 1;
+                height: 35rem;
+            }
+
+            .content{
+                left: 0;
+                z-index: 2;
+                max-width: 80rem;
             }
         }
     }
@@ -743,6 +735,7 @@ body {
                 .contenido-body {
                     .div1 {
                         width: 25rem;
+                        &.solo{width: 25rem;}
                         .div-image {
                             width: 10rem;
                         }
@@ -914,29 +907,6 @@ body {
             }
         }
     }
-
-    .indispensable{
-        .indispensable-box{
-            .characteres{
-                flex-wrap:wrap;
-                row-gap: 1rem;
-
-                .char{
-                    width: 100%;
-                    max-width: 60rem;
-                    height: auto;
-
-                    .img{
-                        padding: 0;
-                    }
-
-                    .paragraph{
-                        padding-top: 1rem;
-                    }
-                }
-            }
-        }
-    }
 }
 
 @media (max-width: 370px) {
@@ -967,8 +937,11 @@ body {
                             margin: 1rem 0 1rem 2rem;
                             display: flex;
                             align-items: center;
-                            // margin: 1rem 0;
-                            // animation: miAnimacion-3 .2s linear;
+
+                            &.solo{
+                                width: 90%;
+                                max-width: 35rem;
+                            }
                         }
 
                         &.open {
