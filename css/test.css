@@ -579,7 +579,6 @@ body {
     background-position: center;
     opacity: 1;
   }
-
   .info-date {
     padding: 2rem 1rem;
     width: 100%;
@@ -587,7 +586,6 @@ body {
   .info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
     display: none;
   }
-
   .footer .ofrecemos-footer {
     width: 100%;
     padding: 0 2rem;
@@ -613,7 +611,6 @@ body {
     margin: auto;
     top: 3rem;
   }
-
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
@@ -630,7 +627,6 @@ body {
   html {
     font-size: 55%;
   }
-
   .home .home_box .home-img_logo {
     margin: 1.5rem;
   }
@@ -642,7 +638,6 @@ body {
     height: 5rem;
     display: flex;
   }
-
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
@@ -655,7 +650,6 @@ body {
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
     font-size: 3.8rem;
   }
@@ -676,11 +670,9 @@ body {
   .home .home_box .home-nav1 .home-content h2 {
     font-size: 3.5rem;
   }
-
   .process {
     padding: 5rem 2rem;
   }
-
   .info .info-box {
     display: block;
   }
@@ -701,7 +693,6 @@ body {
   .info .info-box .info_content .info_content_box {
     max-width: 60rem;
   }
-
   .info-date h2 {
     font-size: 2rem;
   }
@@ -735,14 +726,12 @@ body {
   .home .home_box .home-nav1 .animated {
     margin: 2.5rem auto 6rem auto;
   }
-
   .remember .remember-box .remember-img {
     align-self: center;
   }
   .remember .remember-box .remember-img .img {
     width: 10rem;
   }
-
   .indispensable .indispensable-box .characteres {
     flex-wrap: wrap;
     row-gap: 1rem;

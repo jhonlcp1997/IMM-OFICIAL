@@ -193,7 +193,6 @@
   .left .points-1, .left .points-2, .left .points-3 {
     width: 10rem;
   }
-
   .right {
     max-height: 70rem;
     padding: 3rem 6rem;
@@ -238,14 +237,12 @@
   .body {
     flex-direction: column-reverse;
   }
-
   .right {
     width: 100vw;
   }
   .right .footer {
     display: none;
   }
-
   .left {
     width: 100vw;
     height: 100vw;
@@ -297,7 +294,6 @@
     flex-wrap: wrap;
     padding-left: 0;
   }
-
   .left {
     height: 70vw;
   }

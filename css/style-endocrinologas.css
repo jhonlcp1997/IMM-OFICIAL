@@ -362,7 +362,6 @@ html {
   html {
     font-size: 75%;
   }
-
   .home {
     width: 100%;
   }
@@ -384,7 +383,6 @@ html {
   .home .home-box .point1 {
     display: none;
   }
-
   .section_2 {
     width: 100%;
     display: inline-block;
@@ -401,7 +399,6 @@ html {
     margin: auto;
     position: inherit;
   }
-
   .section_3 {
     margin-top: 0rem;
     width: 100%;
@@ -418,7 +415,6 @@ html {
   .section_3 .image {
     text-align: center;
   }
-
   .dinamic .point4 {
     display: none;
   }
@@ -433,7 +429,6 @@ html {
   .home .home-box .home__div3 {
     right: 2rem;
   }
-
   .section_2 .image img {
     width: 20rem;
   }
@@ -442,7 +437,6 @@ html {
     height: auto;
     padding: 1rem 5rem 2rem 2rem;
   }
-
   .section_3 .content {
     width: 100%;
     height: auto;
@@ -451,7 +445,6 @@ html {
   .section_3 .image img {
     width: 20rem;
   }
-
   .dinamic {
     margin-bottom: 3rem;
   }
@@ -491,7 +484,6 @@ html {
   .dinamic .content-dinamic .dinamic-content .last_hidden {
     display: none;
   }
-
   .section_final .section_final-contenedor {
     height: 30rem;
   }
@@ -540,15 +532,12 @@ html {
   .home .home-box .home__div3 .ofrecemos-box3_img {
     width: 16rem;
   }
-
   .filosofy {
     padding: 3rem 1%;
   }
-
   .section_final .section_final-contenedor {
     padding: 4rem 2rem 0 2rem;
   }
-
   .dinamic {
     margin-bottom: 1rem;
   }
@@ -568,7 +557,6 @@ html {
     height: 9.5rem;
     font-size: 0.9rem;
   }
-
   .footer p {
     justify-content: center;
   }
@@ -618,7 +606,6 @@ html {
   .home .home-box .home__div3 .ofrecemos-box3_img {
     width: 13rem;
   }
-
   .dinamic .content-dinamic {
     height: 45rem;
   }
@@ -630,7 +617,6 @@ html {
     height: 7.5rem;
     font-size: 0.8rem;
   }
-
   .section_final {
     height: 25rem;
   }

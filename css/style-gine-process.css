@@ -118,7 +118,7 @@ body {
   bottom: 0px;
   left: 0px;
   /* Specify the background image to be used */
-  background-image: url(../img/images-gine/procedimiento/proc-bg-1.jpg);
+  background-image: url(../img/images-gine/procedimiento/proc-bg-3.jpg);
   background-size: cover;
   /* Specify the background image */
   opacity: 0.7;
@@ -545,7 +545,6 @@ body {
   .home .home_box .home-nav1::before {
     background-position: center;
   }
-
   .info-date {
     padding: 2rem 1rem;
     width: 100%;
@@ -553,7 +552,6 @@ body {
   .info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
     display: none;
   }
-
   .footer .ofrecemos-footer {
     width: 100%;
     padding: 0 2rem;
@@ -578,7 +576,6 @@ body {
     z-index: 2;
     max-width: 80rem;
   }
-
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
@@ -595,7 +592,6 @@ body {
   html {
     font-size: 55%;
   }
-
   .home .home-img_logo .img_logo {
     display: none;
   }
@@ -604,7 +600,6 @@ body {
     height: 5rem;
     display: flex;
   }
-
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
@@ -620,7 +615,6 @@ body {
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
     font-size: 3.8rem;
   }
@@ -641,11 +635,9 @@ body {
   .home .home_box .home-nav1 .home-content h2 {
     font-size: 3.5rem;
   }
-
   .process {
     padding: 5rem 2rem;
   }
-
   .info .info-box {
     display: block;
   }
@@ -667,7 +659,6 @@ body {
   .info .info-box .info_content .info_content_box {
     max-width: 60rem;
   }
-
   .info-date .section__subtitle {
     font-size: 1.4rem;
   }
@@ -701,7 +692,6 @@ body {
   .home .home_box .home-nav1 .animated {
     margin: 2.5rem auto 6rem auto;
   }
-
   .remember .remember-box .remember-img {
     align-self: center;
   }

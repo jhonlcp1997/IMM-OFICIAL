@@ -508,26 +508,21 @@ a {
   .home .home_box .img-fondo {
     display: none;
   }
-
   .importante .import-nav div {
     margin-top: 1rem;
   }
   .importante .import-nav div p {
     margin: 1.5rem 9%;
   }
-
   .ofrecemos-1 .ofrecemos-box1 .point2 {
     display: none;
   }
-
   .vacio .ofrecemos-box2 .point3 {
     display: none;
   }
-
   .ofrecemos {
     height: 6rem;
   }
-
   .footer .ofrecemos-footer {
     width: 80vw;
   }
@@ -543,11 +538,9 @@ a {
     padding: 0 1rem;
     width: 100%;
   }
-
   .importante {
     margin-top: 2rem;
   }
-
   .home {
     height: auto;
   }
@@ -694,7 +687,6 @@ a {
   .header div .header-general .header-right.active .menu-open {
     display: flex;
   }
-
   .ofrecemos-1 .ofrecemos-box1 {
     width: auto;
     height: auto;
@@ -732,7 +724,6 @@ a {
   .ofrecemos-1 .ofrecemos-box1 .img-fondo {
     display: none;
   }
-
   .vacio {
     padding-top: 8rem;
   }
@@ -755,7 +746,6 @@ a {
   .home .home_box .home-nav1 .home-nav1-P_2 {
     font-size: 2.8rem;
   }
-
   .vacio .ofrecemos-box2 .ofrecemos-importante ul {
     padding-right: 7rem;
   }
@@ -776,7 +766,6 @@ a {
     margin: 0 1rem;
     opacity: 0.8;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     width: 80rem;
   }
@@ -819,7 +808,6 @@ a {
     display: flex;
     height: auto;
   }
-
   .vacio .ofrecemos-box2 {
     height: auto;
   }
@@ -836,7 +824,6 @@ a {
   .header div .header-general .navbar-opciones-phone ul li a {
     font-size: 1rem;
   }
-
   .importante .importante-h2 {
     font-size: 2rem;
   }
@@ -861,7 +848,6 @@ a {
   .header img {
     width: 9rem;
   }
-
   .importante {
     margin-top: 5rem;
   }
@@ -877,13 +863,11 @@ a {
   .importante .import-nav div p {
     font-size: 1.5rem;
   }
-
   .ofrecemos-1 .ofrecemos-box1 div .feto {
     width: 25rem;
     height: 25rem;
     top: -60%;
   }
-
   .vacio .ofrecemos-box2 .ofrecemos-importante .box2-img_doctora-2 {
     position: absolute;
     opacity: 0.25;
@@ -903,7 +887,6 @@ a {
   .header div .header-general .navbar-opciones-phone ul li .gestacional {
     padding: 0.5rem 1rem;
   }
-
   .ofrecemos .ofrecemos-box1 div img {
     height: 12rem;
   }

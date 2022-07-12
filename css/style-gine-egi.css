@@ -786,7 +786,6 @@ body {
     padding: 0 1rem;
     width: 100%;
   }
-
   .home {
     height: auto;
   }
@@ -809,11 +808,9 @@ body {
   .home .home_box .img-fondo {
     display: none;
   }
-
   .study {
     padding: 5rem 0 1rem 0;
   }
-
   .characteres {
     margin: auto;
   }
@@ -840,11 +837,9 @@ body {
   .characteres .characteres-center_rigth .slider-contenedor-2 .point2 {
     display: none;
   }
-
   .time-price .time-price_box1 .point3 {
     display: none;
   }
-
   .info-date {
     padding: 2rem 1rem;
     width: 100%;
@@ -852,7 +847,6 @@ body {
   .info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
     display: none;
   }
-
   .footer .ofrecemos-footer {
     width: 100%;
     padding: 0 2rem;
@@ -987,14 +981,12 @@ body {
     margin-top: 0.5rem;
     font-size: 0.9rem;
   }
-
   .home .home_box .home-nav1 .home-nav1-P_1 {
     font-size: 2.6rem;
   }
   .home .home_box .home-nav1 .home-nav1-P_2 {
     font-size: 2.8rem;
   }
-
   .tips .tips__box .box .box__img {
     min-width: 40rem;
     height: 24rem;
@@ -1002,7 +994,6 @@ body {
   .tips .tips__box .box .box__img .img {
     height: auto;
   }
-
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
@@ -1019,11 +1010,9 @@ body {
   html {
     font-size: 55%;
   }
-
   .header div .header-general .header-left a img {
     width: 10rem;
   }
-
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 252px;
     padding: 0;
@@ -1043,7 +1032,6 @@ body {
     width: 25rem;
     height: 25rem;
   }
-
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
@@ -1056,7 +1044,6 @@ body {
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
     font-size: 3.8rem;
   }
@@ -1077,7 +1064,6 @@ body {
   .home {
     height: auto;
   }
-
   .tips .tips__box .box {
     text-align: center;
     display: flex;
@@ -1131,11 +1117,9 @@ body {
     margin: auto;
     width: 80%;
   }
-
   .study .tittle {
     font-size: 2.5rem;
   }
-
   .characteres .characteres-center_rigth .slider-contenedor {
     height: 290px;
   }
@@ -1146,7 +1130,6 @@ body {
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 250px;
   }
-
   .info-date h2 {
     font-size: 2rem;
   }
@@ -1178,7 +1161,6 @@ body {
     max-width: 35rem;
     height: 22rem;
   }
-
   .tips .tips__box .box .box__img {
     display: flex;
     min-width: 20rem;
@@ -1195,7 +1177,6 @@ body {
   .header div .header-general {
     margin: 1rem 7%;
   }
-
   .info-date {
     padding: 1rem 0.5rem;
   }
@@ -1251,7 +1232,6 @@ body {
     -webkit-animation: miAnimacion-3 0.2s linear;
             animation: miAnimacion-3 0.2s linear;
   }
-
   .tips {
     padding-top: 5rem;
   }

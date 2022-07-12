@@ -630,11 +630,9 @@ body {
   .home .home_box .img-fondo {
     display: none;
   }
-
   .study {
     padding: 5rem 0 1rem 0;
   }
-
   .characteres {
     margin: auto;
   }
@@ -661,11 +659,9 @@ body {
   .characteres .characteres-center_rigth .slider-contenedor-2 .point2 {
     display: none;
   }
-
   .time-price .time-price_box1 .point3 {
     display: none;
   }
-
   .info-date {
     padding: 2rem 1rem;
     width: 100%;
@@ -673,7 +669,6 @@ body {
   .info-date .point4, .info-date .point5, .info-date .point6, .info-date .point7 {
     display: none;
   }
-
   .footer .ofrecemos-footer {
     width: 100%;
     padding: 0 2rem;
@@ -689,7 +684,6 @@ body {
   .home .home_box .home-nav1 .home-nav1-P_2 {
     font-size: 3.6rem;
   }
-
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
@@ -706,7 +700,6 @@ body {
   html {
     font-size: 55%;
   }
-
   .home .home_box .home_bg_img {
     display: flex;
     text-align: right;
@@ -726,7 +719,6 @@ body {
     height: 5rem;
     display: flex;
   }
-
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 252px;
     padding: 0;
@@ -746,7 +738,6 @@ body {
     width: 25rem;
     height: 25rem;
   }
-
   .info-date .info-date-container {
     font-size: 1.15rem;
   }
@@ -759,7 +750,6 @@ body {
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
     font-size: 3.8rem;
   }
@@ -780,7 +770,6 @@ body {
   .study .tittle {
     font-size: 2.5rem;
   }
-
   .characteres .characteres-center_rigth .slider-contenedor {
     height: 290px;
   }
@@ -791,7 +780,6 @@ body {
   .characteres .characteres-center_rigth .slider-contenedor .slider-contenedor2 .characteres_all {
     height: 250px;
   }
-
   .info {
     display: block;
   }
@@ -809,7 +797,6 @@ body {
   .info .info_content {
     z-index: 2;
   }
-
   .info-date h2 {
     font-size: 2rem;
   }
@@ -872,7 +859,6 @@ body {
   .home .home_box .home-nav1 .animated {
     margin: 2.5rem auto 6rem auto;
   }
-
   .characteres .characteres-center_rigth .slider-contenedor-2 .characteres_img {
     display: none;
   }

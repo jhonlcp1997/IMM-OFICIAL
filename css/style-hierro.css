@@ -225,7 +225,6 @@ html {
   .section2 .section2__div .points1, .section2 .section2__div .points2, .section2 .section2__div .points3, .section2 .section2__div .points4, .section2 .section2__div .points5 {
     display: none;
   }
-
   .footer .ofrecemos-footer {
     width: 100%;
     padding: 0 2rem;
@@ -252,7 +251,6 @@ html {
   html {
     font-size: 75%;
   }
-
   .section1 .section1__div .div__container .div__container__div {
     padding: 1rem 1rem;
   }
@@ -265,7 +263,6 @@ html {
   .section1 .section1__div .div__container .div__container__div .content {
     font-size: 0.9rem;
   }
-
   .section2 .section2__div .div__content .subtittle {
     font-size: 1rem;
   }

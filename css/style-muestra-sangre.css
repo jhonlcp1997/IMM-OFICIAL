@@ -461,15 +461,12 @@ html {
   .patients .box .points_1 {
     display: none;
   }
-
   .recommendations .div-1 .points_2 {
     display: none;
   }
-
   .avoid .points_3 {
     display: none;
   }
-
   .import .points_5,
 .import .points_6,
 .import .points_4 {
@@ -485,11 +482,9 @@ html {
   html {
     font-size: 70%;
   }
-
   .patients {
     height: auto;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box {
     margin: 0.5rem 0;
   }
@@ -516,7 +511,6 @@ html {
   .popups .points_7, .popups .points_8, .popups .points_9 {
     display: none;
   }
-
   .patients .box .box_div-1 {
     width: 20rem;
     height: 30rem;
@@ -541,7 +535,6 @@ html {
   .patients.b .box .box_div-1 .img_pills {
     width: 15rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 {
     flex-direction: column;
   }
@@ -564,7 +557,6 @@ html {
   .recommendations.b .div-1 .box:nth-child(2) {
     border-bottom: none;
   }
-
   .avoid .avoid_features {
     justify-content: center;
     width: 100%;
@@ -586,7 +578,6 @@ html {
   .section_tittle .box .span {
     font-size: 1.7rem;
   }
-
   .patients {
     background-position: 25% 10%;
   }
@@ -611,7 +602,6 @@ html {
   .patients.b .box .box_div-1 {
     width: 100%;
   }
-
   .recommendations {
     margin-top: 25rem;
   }
@@ -624,7 +614,6 @@ html {
   .recommendations .div-2 .box p {
     font-size: 1.1rem;
   }
-
   .avoid .tittle {
     padding: 0 1rem;
     font-size: 1.8rem;
@@ -632,11 +621,9 @@ html {
   .avoid .subtittle {
     font-size: 1.7rem;
   }
-
   .import .box .boxes .boxes_div {
     font-size: 1rem;
   }
-
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box h2 {
     font-size: 1.1rem;
   }
