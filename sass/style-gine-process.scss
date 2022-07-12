@@ -305,51 +305,64 @@ body {
 
 .indispensable{
     width: 100%;
-    background-color: $white;
+    background-color: $azul;
     
     .indispensable-box{
-        background-color: $azul;
         width: 100%;
         max-width: 136.6rem;
         margin: auto;
-        display: flex;
+        // background-color: #f4c6de;
+        position: relative;
 
-        .box-content{
-            max-height: 70rem;
-            width: 50%;
-            display: flex;
-            
-            .img{
-                height:  100%;
-                width: 100%;
-                object-fit: cover;
-            }
+        top: 4rem;
+
+        .title{
+            text-align: center;
+            font-family: $abel;
+            font-size: 3rem;
+            color: $white;
+            margin-bottom: 4rem;
         }
 
         .content{
-            width: 50%;
-            max-width: 55rem;
-            position: relative;
-            left: -1px;
-            color: $white;
-            margin: auto;
-            padding: 2rem;
+            // position: relative;
+            color: $black;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3.2rem;
+            justify-content: center;
 
-            .title{
-                font-family: $abel;
-                font-size: 2.8rem;
-                padding-left: 2rem;
-            }
+            .article{
+                width: 48rem;
+                background-color: $white;
+                font-family: $poppins;
+                padding: 3rem 1rem;
+                box-shadow: -1rem 1rem 10px -1px rgba(63, 60, 60, 0.185);
 
-            .characteres{
-                .char{
-                    padding: 2rem 0 0 2rem;
-    
-                    .paragraph{
-                        // padding-top: 2rem;
-                        font-size: 1.5rem;
-                        font-family: $poppins;
+                .header{
+                    // background-color: #f4c6de;
+                    max-width: 41rem;
+                    width: 100%;
+                    margin: 2rem auto;
+                    display: flex;
+                    font-size: 1.1rem;
+                    align-items: center;
+
+                    .img{
+                        width: 75px;
                     }
+
+                    .subtitle{
+                        color: $pink3;
+                        padding-left: 2rem;
+                    }
+                }
+
+                .paragraph{
+                    font-size: 1.6rem;
+                    max-width: 41rem;
+                    width: 100%;
+                    margin: 0 auto;
                 }
             }
         }
@@ -358,13 +371,13 @@ body {
 
 .info-date {
     
-    margin:8rem auto 0 auto;
+    margin:10rem auto 0 auto;
     width: 95%;
     max-width: 100rem;
     background-color: $white;
     text-align: center;
     padding: 5rem;
-    box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+    box-shadow: -1rem 1rem 10px -1px rgba(63, 60, 60, 0.185);
     z-index: 1;
     position: relative;
     top: 4rem;
@@ -670,26 +683,6 @@ body {
 }
 
 @media (max-width: 800px) {
-    .indispensable{
-        .indispensable-box{
-            display: block;
-
-            .box-content, .content{
-                width: 100%;
-            }
-
-            .box-content{
-                z-index: 1;
-                height: 35rem;
-            }
-
-            .content{
-                left: 0;
-                z-index: 2;
-                max-width: 80rem;
-            }
-        }
-    }
 
     .footer {
         .ofrecemos-footer {
@@ -910,23 +903,37 @@ body {
 }
 
 @media (max-width: 370px) {
+    .indispensable{
+        .indispensable-box{
+            .content{
+                .article{
+                    padding: 3rem;
+                }
+            }
+        }
+    }
 
     .info-date {
-        padding: 1rem 0.5rem;
+        padding: 2rem 0.5rem;
 
-        h2{
-            font-size: 2.2rem;
-        }
+        // h2{
+        //     font-size: 2.2rem;
+        // }
 
         .section__subtitle{
-            font-size: 1.4rem;
+            font-size: 1.5rem;
         }
 
         .info-date-container {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
 
             &.active {
                 .info-contenido {
+                    .contenido-header{
+                        span{
+                            font-size: 1.4rem;
+                        }
+                    }
                     .contenido-body {
                         flex-direction: column;
 
@@ -949,10 +956,11 @@ body {
                             animation: none;
 
                             .div1{
-                                animation: miAnimacion-2 .4s linear;
+                                // animation: miAnimacion-2 .4s linear;
+                                animation: none;
 
                                 p {
-                                    font-size: 1.3rem;
+                                    font-size: 1.4rem;
                                     width: 100%;
                                     text-align: left;
                                     padding: 0 1rem;
@@ -962,6 +970,7 @@ body {
                                     width: 50px;
                                     height: 50px;
                                     margin: auto;
+                                    animation: none;
     
                                     img {
                                         width: 50px;
@@ -979,7 +988,8 @@ body {
                             // animation: miAnimacion-3 .2s linear;
 
                             .div1{
-                                animation: miAnimacion-3 .2s linear;
+                                // animation: miAnimacion-3 .2s linear;
+                                animation: none;
                             }
                         }
                     }
