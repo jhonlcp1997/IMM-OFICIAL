@@ -21,8 +21,6 @@ a {
 }
 
 .header {
-  position: -webkit-sticky;
-  position: sticky;
   z-index: 1000;
   top: 0;
   left: 0;
@@ -85,6 +83,10 @@ a {
 .header div .header-general .navbar-opciones-phone ul li .gestacional {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #f173ac;
+}
+.header div .header-general .header-left {
+  width: 100%;
+  text-align: center;
 }
 .header div .header-general .header-left a img {
   width: 14.5rem;
@@ -197,6 +199,7 @@ a {
   text-align: right;
 }
 .home .home_box .home-nav2 img {
+  width: 65rem;
   text-align: right;
   justify-content: right;
   box-shadow: -3rem 0 80px -70px rgb(51, 46, 46);

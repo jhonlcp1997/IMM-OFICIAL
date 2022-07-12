@@ -35,7 +35,7 @@ a {
 }
 
 .header {
-    position: sticky;
+    // position: sticky;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -114,8 +114,12 @@ a {
             }
 
             .header-left{
+                width: 100%;
                 // display: flex;
                 // position: relative;
+                // background-color: #f4c6de;
+                text-align: center;
+                
                 a{
                     img{
                         width: 14.5rem;
@@ -223,7 +227,7 @@ $azul: #007cc3;
             }
 
             .home-nav1-c2{
-                font-size: 1.3rem;
+                font-size: 1.7rem;
             }
 
             div {
@@ -260,6 +264,7 @@ $azul: #007cc3;
             text-align: right;
 
             img {
+                width: 65rem;
                 text-align: right;
                 justify-content: right;
                 box-shadow: $boxshadowG;

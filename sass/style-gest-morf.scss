@@ -37,7 +37,7 @@ a {
 }
 
 .header {
-    position: sticky;
+    // position: sticky;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -118,6 +118,9 @@ a {
             .header-left{
                 // display: flex;
                 // position: relative;
+                // background-color: #f4c6de;
+                width: 100%;
+                text-align: center;
                 a{
                     img{
                         width: 14.5rem;
@@ -254,6 +257,7 @@ a {
             text-align: right;
 
             img {
+                width: 65rem;
                 text-align: right;
                 justify-content: right;
                 box-shadow: $boxshadowG;
