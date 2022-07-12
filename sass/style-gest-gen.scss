@@ -973,8 +973,9 @@ $azul: #007cc3;
                 justify-content: space-between;
 
                 .header-left {
-                    display: flex;
+                    // display: flex;
                     position: relative;
+
                     a {
                         img {
                             width: 14.5rem;
