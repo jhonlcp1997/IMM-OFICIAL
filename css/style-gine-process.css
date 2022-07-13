@@ -224,7 +224,7 @@ body {
   margin: auto;
   max-width: 48rem;
   width: 90%;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 .info .info-box .info_content .info_content_box .content {
   color: #fff;
@@ -571,6 +571,11 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .indispensable .indispensable-box .content .article {
+    padding: 3rem;
+    max-width: 60rem;
+    width: 95%;
+  }
   .footer .ofrecemos-footer {
     width: 80vw;
     padding: 0;
@@ -630,6 +635,9 @@ body {
   .home .home_box .home-nav1 .home-content h2 {
     font-size: 3.5rem;
   }
+  .remember .remember-box .box-content {
+    max-width: 40rem;
+  }
   .process {
     padding: 5rem 2rem;
   }
@@ -655,10 +663,7 @@ body {
     max-width: 60rem;
   }
   .info-date .section__subtitle {
-    font-size: 1.4rem;
-  }
-  .info-date .info-date-container.active {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
   .info-date .info-date-container.active .info-contenido {
     margin: 1rem 1rem;
@@ -695,9 +700,6 @@ body {
   }
 }
 @media (max-width: 370px) {
-  .indispensable .indispensable-box .content .article {
-    padding: 3rem;
-  }
   .info-date {
     padding: 2rem 0.5rem;
   }

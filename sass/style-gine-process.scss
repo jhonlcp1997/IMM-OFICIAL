@@ -229,7 +229,7 @@ body {
                 margin: auto;
                 max-width: 48rem;
                 width: 90%;
-                padding: 2rem 0;
+                padding: 4rem 0;
     
                 .content{
                     // margin: 3rem 2rem;
@@ -683,6 +683,17 @@ body {
 }
 
 @media (max-width: 800px) {
+    .indispensable{
+        .indispensable-box{
+            .content{
+                .article{
+                    padding: 3rem;
+                    max-width: 60rem;
+                    width: 95%;
+                }
+            }
+        }
+    }
 
     .footer {
         .ofrecemos-footer {
@@ -794,6 +805,14 @@ body {
         }
     }
 
+    .remember{
+        .remember-box{
+            .box-content{
+                max-width: 40rem;
+            }
+        }
+    }
+
     .process{
         padding: 5rem 2rem;
        
@@ -836,12 +855,12 @@ body {
         // }
 
         .section__subtitle {
-            font-size: 1.4rem;
+            font-size: 1.7rem;
         }
 
         .info-date-container {
             &.active {
-                font-size: 1.3rem;
+                // font-size: 1.3rem;
 
                 .info-contenido {
                     margin: 1rem 1rem;
@@ -903,15 +922,6 @@ body {
 }
 
 @media (max-width: 370px) {
-    .indispensable{
-        .indispensable-box{
-            .content{
-                .article{
-                    padding: 3rem;
-                }
-            }
-        }
-    }
 
     .info-date {
         padding: 2rem 0.5rem;
