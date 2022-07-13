@@ -310,8 +310,12 @@ body {
   width: 48rem;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem 3rem 1rem;
   box-shadow: -1rem 1rem 10px -1px rgba(63, 60, 60, 0.185);
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  display: grid;
 }
 .indispensable .indispensable-box .content .article .header {
   max-width: 41rem;
