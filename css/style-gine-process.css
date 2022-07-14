@@ -243,6 +243,12 @@ body {
   margin-top: 3rem;
   line-height: 180%;
 }
+.info .info-box .info_content .point8 {
+  position: absolute;
+  bottom: -2.5rem;
+  width: 12rem;
+  right: 20%;
+}
 
 .remember {
   background-color: #fff;
@@ -316,6 +322,7 @@ body {
   justify-items: center;
   align-content: center;
   display: grid;
+  position: relative;
 }
 .indispensable .indispensable-box .content .article .header {
   max-width: 41rem;
@@ -337,6 +344,18 @@ body {
   max-width: 41rem;
   width: 100%;
   margin: 0 auto;
+}
+.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10 {
+  position: absolute;
+  width: 10rem;
+}
+.indispensable .indispensable-box .content .article .point9 {
+  left: -5rem;
+  top: -2.5rem;
+}
+.indispensable .indispensable-box .content .article .point10 {
+  right: -5rem;
+  bottom: -1rem;
 }
 
 .info-date {
@@ -558,6 +577,12 @@ body {
   }
   .home .home_box .home-nav1::before {
     background-position: center;
+  }
+  .info .info-box .info_content .point8 {
+    display: none;
+  }
+  .indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10 {
+    display: none;
   }
   .info-date {
     padding: 2rem 1rem;
