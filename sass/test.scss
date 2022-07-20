@@ -1468,6 +1468,7 @@ $poppins: "Poppins", sans-serif;
 
 @media screen and (max-width:460px) {
     .about{
+        min-height: 30rem;
         .about-logo{
             .logo{
                 height: 3rem;
@@ -1501,7 +1502,11 @@ $poppins: "Poppins", sans-serif;
                     }
 
                     &:nth-child(2){
+                        .content{
+                            padding: 1rem;
+                        }
                         .election{
+                            
                             .box{
                                 .url{
                                   h3{
@@ -1562,6 +1567,29 @@ $poppins: "Poppins", sans-serif;
                         .page{
                             display: block;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        .about-logo{
+            padding: .5rem 0;
+
+            .logo{
+                height: 2rem;
+            }
+        }
+
+        .about-sections{
+            height: 85%;
+
+            .box-carrusel{
+                .carrusel{
+                    &:nth-child(2){
+                        padding-top: 1rem;
+                        
                     }
                 }
             }

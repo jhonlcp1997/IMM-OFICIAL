@@ -1039,6 +1039,9 @@
   }
 }
 @media screen and (max-width: 460px) {
+  .about {
+    min-height: 30rem;
+  }
   .about .about-logo .logo {
     height: 3rem;
   }
@@ -1056,6 +1059,9 @@
   .about .about-sections .box-carrusel .carrusel:first-child .election .box .url .logo {
     margin-left: 0;
     height: 3rem;
+  }
+  .about .about-sections .box-carrusel .carrusel:nth-child(2) .content {
+    padding: 1rem;
   }
   .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url h3 {
     font-size: 1.8rem;
@@ -1084,5 +1090,17 @@
   }
   .main .content.third .sub-content .pages .page {
     display: block;
+  }
+  .about .about-logo {
+    padding: 0.5rem 0;
+  }
+  .about .about-logo .logo {
+    height: 2rem;
+  }
+  .about .about-sections {
+    height: 85%;
+  }
+  .about .about-sections .box-carrusel .carrusel:nth-child(2) {
+    padding-top: 1rem;
   }
 }/*# sourceMappingURL=test.css.map */
