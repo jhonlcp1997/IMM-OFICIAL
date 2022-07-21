@@ -1001,28 +1001,28 @@ $poppins: "Poppins", sans-serif;
                     }
 
 
-                    &:hover{
-                        &::before {
-                            z-index: 0;
-                            content: "";
-                            position: absolute;
-                            top: 0px;
-                            right: 0px;
-                            bottom: 0px;
-                            left: 0px;
-                            /* Specify the background image to be used */
-                            background-color: #000;
-                            background-size: cover;
-                            background-position: center;
-                            /* Specify the background image */
-                            opacity: 1;
-                        }
+                    // &:hover{
+                    //     &::before {
+                    //         z-index: 0;
+                    //         content: "";
+                    //         position: absolute;
+                    //         top: 0px;
+                    //         right: 0px;
+                    //         bottom: 0px;
+                    //         left: 0px;
+                    //         /* Specify the background image to be used */
+                    //         background-color: #000;
+                    //         background-size: cover;
+                    //         background-position: center;
+                    //         /* Specify the background image */
+                    //         opacity: 1;
+                    //     }
 
-                        .img{
-                            transition: 1s;
-                            opacity: .6;
-                        }
-                    }
+                    //     .img{
+                    //         transition: 1s;
+                    //         opacity: .6;
+                    //     }
+                    // }
                 }
             }
             

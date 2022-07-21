@@ -840,25 +840,6 @@
   font-family: "Poppins", sans-serif;
   padding: 0.3rem;
 }
-.modals .modal .article .content .box:hover::before {
-  z-index: 0;
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  /* Specify the background image to be used */
-  background-color: #000;
-  background-size: cover;
-  background-position: center;
-  /* Specify the background image */
-  opacity: 1;
-}
-.modals .modal .article .content .box:hover .img {
-  transition: 1s;
-  opacity: 0.6;
-}
 .modals #modal-1 .article::-webkit-scrollbar-thumb {
   background-color: #62bb46;
 }
