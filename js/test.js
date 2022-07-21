@@ -47,11 +47,11 @@ window.onscroll = () => {
     $modal2.classList.remove('active');
 }
 
-window.addEventListener("scroll", ()=>{
-    $modal1.classList.remove('active');
-    $modal2.classList.remove('active');
-    console.log('hice un scrol');
-})
+// window.addEventListener("scroll", ()=>{
+//     $modal1.classList.remove('active');
+//     $modal2.classList.remove('active');
+//     console.log('hice un scrol');
+// })
 
 
 // *============= otro js de carrusel ==========
