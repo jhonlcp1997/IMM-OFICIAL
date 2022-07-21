@@ -678,6 +678,7 @@ $poppins: "Poppins", sans-serif;
             height: .8rem;
             transition: 1s;
             display: flex;
+            cursor: pointer;
 
             &.active{
                 transform: scale(1.1);
@@ -1506,17 +1507,21 @@ $poppins: "Poppins", sans-serif;
                             padding: 1rem;
                         }
                         .election{
-                            
+                            max-width: 22rem;
+                            width: 95%;
+
                             .box{
+                                
+
                                 .url{
                                   h3{
-                                    font-size: 1.8rem;
+                                    font-size: 1.6rem;
                                   } 
 
                                   .table{
                                     tr{
                                         th, td{
-                                            font-size: 1.2rem;
+                                            font-size: 1.1rem;
                                         }
                                     }
                                   }
@@ -1574,6 +1579,8 @@ $poppins: "Poppins", sans-serif;
     }
 
     .about{
+        min-height: 562px;
+
         .about-logo{
             padding: .5rem 0;
 

@@ -574,6 +574,7 @@
   height: 0.8rem;
   transition: 1s;
   display: flex;
+  cursor: pointer;
 }
 .about .dots .dot.active {
   transform: scale(1.1);
@@ -1063,11 +1064,15 @@
   .about .about-sections .box-carrusel .carrusel:nth-child(2) .content {
     padding: 1rem;
   }
+  .about .about-sections .box-carrusel .carrusel:nth-child(2) .election {
+    max-width: 22rem;
+    width: 95%;
+  }
   .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url .table tr th, .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url .table tr td {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .main2 .principal-up .content .title, .main2 .principal-down .content .title {
     font-size: 2.6rem;
@@ -1090,6 +1095,9 @@
   }
   .main .content.third .sub-content .pages .page {
     display: block;
+  }
+  .about {
+    min-height: 562px;
   }
   .about .about-logo {
     padding: 0.5rem 0;
