@@ -416,3 +416,13 @@ $poppins: "Poppins", sans-serif;
         }
     }
 }
+
+@media screen and (max-width: 420px) {
+    .right{
+        .header{
+            .navbar{
+                font-size: 4.5vw;
+            }
+        }
+    }
+}

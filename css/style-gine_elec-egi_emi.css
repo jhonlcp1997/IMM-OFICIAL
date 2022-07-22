@@ -301,4 +301,9 @@
     top: -5rem;
     height: 70vw;
   }
+}
+@media screen and (max-width: 420px) {
+  .right .header .navbar {
+    font-size: 4.5vw;
+  }
 }/*# sourceMappingURL=style-gine_elec-egi_emi.css.map */
