@@ -473,7 +473,7 @@
   flex-shrink: 0;
 }
 .about .about-sections .box-carrusel .carrusel:nth-child(2)::before {
-  background-image: url(../img/image-simple-2/guantes.jpg);
+  background-image: url(../img/image-simple-2/date-pink.jpg);
 }
 .about .about-sections .box-carrusel .carrusel::before {
   z-index: 0;
@@ -484,8 +484,9 @@
   bottom: 0px;
   left: 0px;
   /* Specify the background image to be used */
-  background-image: url(../img/images-gine/procedimiento/proc-bg-4.webp);
+  background-image: url(../images/endocrinologia/endo-fondo-footer-2.png);
   background-size: cover;
+  background-position: center;
   /* Specify the background image */
   opacity: 0.35;
 }
@@ -797,6 +798,7 @@
   display: block;
   background-color: rgba(170, 170, 170, 0.5);
   padding: 0.3rem;
+  color: rgba(0, 0, 0, 0);
 }
 .modals .modal .article .content {
   position: relative;
@@ -810,7 +812,7 @@
   bottom: 0px;
   left: 0px;
   /* Specify the background image to be used */
-  background-image: url(../img/images-gine/procedimiento/proc-bg-4.webp);
+  background-image: url(../images/endocrinologia/endo-s3.png);
   background-size: cover;
   background-position: center;
   /* Specify the background image */
@@ -854,6 +856,12 @@
 }
 .modals #modal-2 .article .content .box article {
   text-align: right;
+}
+.modals #modal-2 .article .content::before {
+  background-image: url(../images/endocrinologia/endo-s2.png);
+}
+.modals #modal-2 .article .content.second::before {
+  background-image: url(../img/images-gest/morf-home.png);
 }
 .modals #modal-2 .btn-close span {
   background-color: #f173ac;
@@ -1081,7 +1089,7 @@
     display: block;
   }
   .about {
-    min-height: 562px;
+    min-height: 515px;
   }
   .about .about-logo {
     padding: 0.5rem 0;
@@ -1094,5 +1102,8 @@
   }
   .about .about-sections .box-carrusel .carrusel:nth-child(2) {
     padding-top: 1rem;
+  }
+  .about .about-sections .box-carrusel .carrusel .content .title {
+    font-size: 2.4rem;
   }
 }/*# sourceMappingURL=test.css.map */

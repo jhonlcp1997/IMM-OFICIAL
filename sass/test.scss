@@ -540,7 +540,7 @@ $poppins: "Poppins", sans-serif;
 
                 &:nth-child(2){
                     &::before{
-                        background-image: url(../img/image-simple-2/guantes.jpg);
+                        background-image: url(../img/image-simple-2/date-pink.jpg);
                     }
                 }
 
@@ -553,8 +553,9 @@ $poppins: "Poppins", sans-serif;
                     bottom: 0px;
                     left: 0px;
                     /* Specify the background image to be used */
-                    background-image: url(../img/images-gine/procedimiento/proc-bg-4.webp);
+                    background-image: url(../images/endocrinologia/endo-fondo-footer-2.png);
                     background-size: cover;
+                    background-position: center;
                     /* Specify the background image */
                     opacity: 0.35;
                 }
@@ -953,6 +954,7 @@ $poppins: "Poppins", sans-serif;
                 display: block;
                 background-color: rgba(170, 170, 170, 0.5);
                 padding: .3rem;
+                color: rgba(0, 0, 0, 0);
             }
 
             .content{
@@ -967,7 +969,7 @@ $poppins: "Poppins", sans-serif;
                     bottom: 0px;
                     left: 0px;
                     /* Specify the background image to be used */
-                    background-image: url(../img/images-gine/procedimiento/proc-bg-4.webp);
+                    background-image: url(../images/endocrinologia/endo-s3.png);
                     background-size: cover;
                     background-position: center;
                     /* Specify the background image */
@@ -1054,6 +1056,16 @@ $poppins: "Poppins", sans-serif;
                 .box{
                     article{
                         text-align: right;
+                    }
+                }
+
+                &::before{
+                    background-image: url(../images/endocrinologia/endo-s2.png);
+                }
+
+                &.second{
+                    &::before{
+                        background-image: url(../img/images-gest/morf-home.png);
                     }
                 }
             }
@@ -1585,7 +1597,7 @@ $poppins: "Poppins", sans-serif;
     }
 
     .about{
-        min-height: 562px;
+        min-height: 515px;
 
         .about-logo{
             padding: .5rem 0;
@@ -1602,7 +1614,12 @@ $poppins: "Poppins", sans-serif;
                 .carrusel{
                     &:nth-child(2){
                         padding-top: 1rem;
-                        
+                    }
+
+                    .content{
+                        .title{
+                            font-size: 2.4rem;
+                        }
                     }
                 }
             }
