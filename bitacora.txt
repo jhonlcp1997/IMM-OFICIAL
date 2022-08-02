@@ -431,3 +431,33 @@ Ya esta casi terminado la landing, pero necesita revision y lo otro, reduccion d
 Un buen tiempo que no escribo aqui, me dejaron subir la nueva landing de procemientos, pero tambien tuve que actualizar las paginas de gestacional de Genético y Morfológico.
 Actualizacionde las imagenes en su peso original en EMA, esto por capricho de la diseñadora, y lo otro, No se cuanto tiepo estaré aquí, Me piden que solo cree landings page, que actualice algunas cosas, pero se darán cuenta por sus propios medios que no estaré siempre
 por lo que asumiran que ya no me necesitan, y tendré que estar, preparado.
+
+25-07-2022: otras vez sin escribir mucho, pero esta vez hubo mucho, que no tuve tiepo de escribir:
+Actualizacion de la pagina momentanea, para immlatam, hasta ahora se lo mande a Aisha para poder poner la información, que vaa llevar.
+Actualizacion de el video e imagenes en immetabolico, se quito una doctora, y se agregó normalmente, pero sufrí.
+ahora con con el estilo en movil de imm.pe hubo inconvenientes, el libro de reclamaciones lo hicieron muy apegado en movil.
+Hubo más pero no se que mas escribir. se me hace más dificil el modificar imm.pe por que no cuento con el codigo, y tambien por que me da pereza xD ( tener que comprimir archivo por archivo y descargar archivos ).
+
+26-07-2022: 
+Hay algunos errores que aparecen en consola, pero es por que hay elementos que sellaman en el dom en los archivos javascript que no se encuentran en el documento html.
+Estoy en la espera de recivir un diseño, voy al baño.
+En el navegador de Operra se encuentra error con un archivo que se encuentra en el repo, pero no aparece, esto solo aparece en Opera GX
+el error se llama "Uncaught (in promise) TypeError: Error in invocation filter_content.js:202" No le encuentro la falla.
+
+27-07-2022: 
+IMM.pe tiene una página aparte que se llama reclamaciones.imm.pe, esta hecho con otra cosa, que ya fue llevado a producción,
+lo cual no puedo editarlo por que fue llevado a producción, y encima dicen que fue hecho con angualar, FFFFFFF nomas.
+Ya lo verifiqué, sí, fue llevado a producción en angular
+Tengo que estar actualizando las cosas, pero no quiero hacer esto, por que estar haciendo esto es como muy repetitivo, ya entiendo al que se retiro x}D
+Opera GX tambien tiene su apartado de testeo de pagina, lo bueno es que tiene el modo nocturno, y viene con opciones de configuracion
+Que se puede hacer con Next.js?
+exportar con fixed
+
+01-08-2022:
+Otra vez en este buen lugar con las personas que menos me quisiera topar, ojo no hablo del Doctor ni de la señorita Mercy, pero del resto si, como que ya me cree un ambiente de incomodidad con ellas, y es normal, pero puede que más adelante se empeore.
+Hasta ahora no ah habido cambios, pero no se si esperarlos, sabiendo como es la cosa de los cambios por aqui.
+Siempre estaba como aprender de esto, aprender de aquello, pero termino aprendiendo nada.
+Mucho que aprender, pero ¿Que aprendo?
+mucho que aprender pero lo mas malo que tengo, es que se puede poneren cualquier lugar
+No por que sigo escribiendo aqui, Bueno uno es dueño de lo que hace y lo que no hace
+Hay mucho que no eh aplicado, y puede ser por que me aburro rápido.

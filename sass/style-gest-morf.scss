@@ -231,20 +231,29 @@ a {
                 align-content: center;
                 text-align: center;
                 background: #f173ac;
-                border-radius: 15px;
+                border-radius: 5px;
+                align-items: center;
 
                 a {
-                    font-family: $abel;
+                    font-family: $poppins;
                     color: #fff;
                     font-size: 1.5rem;
-                    font-weight: 600;
+                    font-weight: 100;
 
                     i {
                         position: relative;
-                        top: 2px;
-                        font-size: 2rem;
+                        // top: 1px;
+                        font-size: 1.5rem;
                         margin-right: 1rem;
+                        padding-right: 1rem;
+                        border-right: 1px solid #fff;
                     }
+                }
+
+                &:hover{
+                    transition: .2s linear;
+                    // background-color: #007cc3;
+                    transform: scale(1.1);
                 }
             }
         }
@@ -889,6 +898,10 @@ a {
                 padding: 5rem 3rem 3rem 0;
                 align-items: center;
                 vertical-align: middle;
+
+                div{
+                    margin:2.5rem 0 6rem 0;
+                }
             }
 
             .home-nav2 {
@@ -1390,6 +1403,16 @@ a {
 }
 
 @media (max-width: 500px) {
+    .home{
+        .home_box{
+            .home-nav1{
+                div{
+                    margin:  2.5rem auto 6rem auto;
+                }
+            }
+        }
+    }
+
     .importante {
         h2 {
             font-size: 2rem;
