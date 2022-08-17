@@ -461,3 +461,47 @@ Mucho que aprender, pero ¿Que aprendo?
 mucho que aprender pero lo mas malo que tengo, es que se puede poneren cualquier lugar
 No por que sigo escribiendo aqui, Bueno uno es dueño de lo que hace y lo que no hace
 Hay mucho que no eh aplicado, y puede ser por que me aburro rápido.
+
+02-08-2022: 
+Hubo algunos errores ortográficos en la parte de gestacional-morfologico, se solucionó.
+docker es como git, tiene su propio entorno, y la parte online, con contenedores
+
+03-08-2022:
+No se que mas tenia que hacer, pero actualice los anding en immlatam, espero no :( :( :(
+Por ahora no tengo algo con que empezar, por lo que no se que escribir
+Tengo que seguir escribiendo bitacora, pero no si dejarselo al nuevo, o llevarmelo, mm...
+porque siempre tengo que hacer estas cosas, no deberia de estar en otro lugar con menos calidad, más bajo, y teniedo hijos por aqui por allá
+
+05-08-2022:
+Tuve que subir un nuevo pdf a IMMETABOLICO.pe
+
+08-08-2022:
+Agregue un poco de seo a la pagina de IMMETABOLICO, quiero ver cuales con los resultados masomenos en una semana en comparacion de imm.pe
+
+09-08-2022:
+Aun no se como funciona si hay varias solicitudes, como se comporta el servidor de php, por que, espera que termina una peticion para dar respuesta, pero demora y lleva su tiempo.
+
+10-08-2022:
+Estoy empezando a manejar las base de datos de mySql con node y express; pero no son las reales.
+
+11-08-2022:
+De los mejores, el React Developer Tools se puede incluso importar en opera GX, Aprender nest js, para el trabajo en backend, es de lo mejorcito
+El codigo fuente empieza con una callback (Estos son sus valores)=>{Esto es lo que hace con los valores RETURN (Esto es lo que deberia retornar pero, NO)}
+a esperar algunas de las landings que se estas postponiendo, Espero que me den trabajo con los nuevos.
+
+12-08-2022:
+Estoy en la espera de actualización...
+Estaba probando Docker, pero al parecer me da problemas, por lo que tendre que correrlo en ubuntu haber que pasa.
+No quiero aprender más tecnologías, eso me estresa mucho pero, no tengo de otra verdad?
+Nooooo... por qué falleció el cantante de [chemical Prisioner] digo, el "Falling in reverse", sus canciones eran buenas, junto al de chase atlantic
+
+16-08-2022:
+Bitacora de buzzzlightyear, Me encuentro extraviao, en un planeta, rodeao de seres extraños; ¿quién anda ahí, amigo o enemigo?
+Que más podria agregarle a esto, no se la verdad. Estoy en la espera de las nuevas landings a desarrollar, van a venir cargadas.
+Hay muchas cosas que aprender, pero pocas que aplicar, eso es lo malo, creo que es lo más malo
+Tendria que poner cosas nuevas en el servidor, pero no creo que aguaten algunas cosas.
+El restp de cosas esta como que muy complicadas pero no creo que se puedan ejecutar en el corto tiempo.
+Quizá esto de estar metido en la parte de desarrolo, es que me está limitando.
+
+17-08-2022:
+Otra vez yo, aqui escribiendo, la verdad no se que podria estar haciendo pero no es de las mejores cosas que hago, siempre tendre que vermelas por mi, tienen mas de un dominio, 
