@@ -66,3 +66,28 @@ Errores que no son errores:
     at content_arrows-gine.js:77:19
 
 - Error de Favicon.ico al cargar la página
+
+## Cómo trabajar este repo
+
+1- Este proyecto esta trabajado con:
+ - GIT : instalar git para poder trabajar con el versionado.
+ - HTML5, CSS3, JAVASCRIPT(no confundir con JAVA) con EcmaScript 6.
+ - SASS: Para mayor detalle en los estilos, puede descargar cualquier preprocezador de sass que guste.
+ - Fuentes Inline y/o Local: se utilizaron "Abel" y "Poppins"
+ - Editor de código VSCode (Opcional): preferiría que utilizara este editor... tiene muchas funcionalidades que le puede ayudar.
+    - Live Server: esta extension le ayudará a ver los cambios del código en tiempo real.
+    - Live Sass Compiler: esta extension le ayudará a compilar los archivos SCSS "EL POR QUE SE UTILIZÓ SASS, ES DEBIDO A QUE SE REQUERÍA UN DISEÑO ESPECIFICO PARA CADA CONTENIDO Y/O LANDING PAGE, EL POR QUE NO SE TRABAJO CON ALGÚN FRAMEWORK ES POR LA MISMA RAZÓN Y POR QUE NO SE REQUERIA LÓGICA MUY AVANZADA, SINÓ MÁS DETALLE EN ESTILOS.
+
+2- Como levantar este proyecto:
+**hay varias formas de hacerlo, pero por ahora detallaré 2 formas**
+
+- **Primera forma**
+    - Una vez inicializado git, subirlo a un repositorio en linea, Github(opcional)
+    - Cpanel tiene un "Git Version Control" ingrese y dele a Administrar, desde ahí puede hacer una clonacion a su repositorio subido en Github; una vez hecho la redireccion al repositorio , en la pestaña de Pull or Deploy verifique que todo este en orden, dele a "Update from Remote" espere que cargue sus último commit y luego dele a "Deploy HEAD Commit", espere a que este en verde a la derecha, espere minimo 2 minutos para que ajuste todos y ya estaría.
+- **Segunda Forma**
+    - El proyecto empaquetelo en un archivo .zip "que no sea .rar"; luego en el directorio en Cpanel suba el archivo comprimido; descomprimalo en la ruta donde se encuentra el nombre de la página. espere minimo 2 minutos para que ajuste todos los cambios, y ya estaría.
+
+3- Comentarios Finales:
+- Lamento si algunas cosas se me hayan pasado en los estandares de los estilos, y en la parte reponsiva, solo trabajé yo este proyecto tal vez no me di cuenta de algún error que se me haya pasado.
+
+- Agradecer por haber trabajado en este proyecto, no sabía que podia llegar a hacer esto, por lo que muchas gracias por darme la oportunidad de crecer.
