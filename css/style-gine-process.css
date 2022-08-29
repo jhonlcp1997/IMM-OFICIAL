@@ -130,6 +130,7 @@ body {
 }
 .home .home_box .home-nav1 .home-content h2 {
   font-size: 4.5rem;
+  word-wrap: break-word;
   color: #fff;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -264,27 +265,30 @@ body {
 .remember .remember-box {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100rem;
+  max-width: 110rem;
   width: 95%;
   margin: 0rem auto;
   justify-content: space-around;
 }
-.remember .remember-box .box-content {
+.remember .remember-box .box-content, .remember .remember-box .box-content2 {
   margin-top: 4rem;
   max-width: 32rem;
   padding: 0 2.4rem;
   text-align: center;
 }
-.remember .remember-box .box-content .content-img .img {
+.remember .remember-box .box-content .content-img .img, .remember .remember-box .box-content2 .content-img .img {
   height: 8rem;
 }
-.remember .remember-box .box-content .content {
+.remember .remember-box .box-content .content, .remember .remember-box .box-content2 .content {
   margin-top: 3rem;
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
-.remember .remember-box .box-content .content .paragraph {
+.remember .remember-box .box-content .content .paragraph, .remember .remember-box .box-content2 .content .paragraph {
   font-family: "Poppins", sans-serif;
+}
+.remember .remember-box .box-content2 {
+  max-width: 48rem;
 }
 
 .indispensable {
@@ -305,14 +309,14 @@ body {
   color: #fff;
   margin-bottom: 4rem;
 }
-.indispensable .indispensable-box .content {
+.indispensable .indispensable-box .content, .indispensable .indispensable-box .content2 {
   color: #000;
   display: flex;
   flex-wrap: wrap;
   gap: 3.2rem;
   justify-content: center;
 }
-.indispensable .indispensable-box .content .article {
+.indispensable .indispensable-box .content .article, .indispensable .indispensable-box .content2 .article {
   width: 48rem;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
@@ -323,8 +327,9 @@ body {
   align-content: center;
   display: grid;
   position: relative;
+  text-align: left;
 }
-.indispensable .indispensable-box .content .article .header {
+.indispensable .indispensable-box .content .article .header, .indispensable .indispensable-box .content2 .article .header {
   max-width: 41rem;
   width: 100%;
   margin: 2rem auto;
@@ -332,30 +337,44 @@ body {
   font-size: 1.1rem;
   align-items: center;
 }
-.indispensable .indispensable-box .content .article .header .img {
+.indispensable .indispensable-box .content .article .header .img, .indispensable .indispensable-box .content2 .article .header .img {
   width: 75px;
+  padding-right: 2rem;
 }
-.indispensable .indispensable-box .content .article .header .subtitle {
+.indispensable .indispensable-box .content .article .subtitle, .indispensable .indispensable-box .content2 .article .subtitle {
   color: #f173ac;
-  padding-left: 2rem;
+  width: 100%;
+  max-width: 41rem;
+  margin: auto;
 }
-.indispensable .indispensable-box .content .article .paragraph {
+.indispensable .indispensable-box .content .article .paragraph, .indispensable .indispensable-box .content2 .article .paragraph {
   font-size: 1.6rem;
   max-width: 41rem;
   width: 100%;
   margin: 0 auto;
 }
-.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10 {
+.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content2 .article .point9, .indispensable .indispensable-box .content2 .article .point10 {
   position: absolute;
   width: 10rem;
 }
-.indispensable .indispensable-box .content .article .point9 {
+.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content2 .article .point9 {
   left: -5rem;
   top: -2.5rem;
 }
-.indispensable .indispensable-box .content .article .point10 {
+.indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content2 .article .point10 {
   right: -5rem;
   bottom: -1rem;
+}
+.indispensable .indispensable-box .content2 .article {
+  width: 31.5rem;
+  gap: 1rem;
+  padding: 3rem;
+}
+.indispensable .indispensable-box .content2 .article .header {
+  margin: auto;
+}
+.indispensable .indispensable-box .content2 .article .point10 {
+  top: 8rem;
 }
 
 .info-date {
@@ -435,11 +454,11 @@ body {
 }
 .info-date .info-date-container.active .info-contenido .contenido-body .div1 {
   text-align: center;
-  width: 34rem;
+  width: 37.7rem;
   min-width: 9rem;
 }
 .info-date .info-date-container.active .info-contenido .contenido-body .div1.solo {
-  width: 38rem;
+  width: 47rem;
 }
 .info-date .info-date-container.active .info-contenido .contenido-body .div1 .div-image {
   display: flex;
@@ -581,7 +600,7 @@ body {
   .info .info-box .info_content .point8 {
     display: none;
   }
-  .indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10 {
+  .indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content2 .article .point9, .indispensable .indispensable-box .content2 .article .point10 {
     display: none;
   }
   .info-date {

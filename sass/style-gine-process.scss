@@ -118,7 +118,7 @@ body {
 
                 h2 {
                     font-size: 4.5rem;
-                    
+                    word-wrap: break-word;
                     color: #fff;
                     font-family: $poppins;
                     text-align: center;
@@ -279,12 +279,12 @@ body {
         // background-color: #666;
         display: flex;
         flex-wrap: wrap;
-        max-width: 100rem;
+        max-width: 110rem;
         width: 95%;
         margin:0rem auto;
         justify-content: space-around;
 
-        .box-content{
+        .box-content, .box-content2{
             margin-top: 4rem;
             // background-color: $pink2;
             max-width: 32rem;
@@ -306,6 +306,10 @@ body {
                     font-family: $poppins;
                 }
             }
+        }
+
+        .box-content2{
+            max-width: 48rem;
         }
     }
 }
@@ -331,7 +335,7 @@ body {
             margin-bottom: 4rem;
         }
 
-        .content{
+        .content, .content2{
             // position: relative;
             color: $black;
             display: flex;
@@ -351,6 +355,7 @@ body {
                 align-content: center;
                 display: grid;
                 position: relative;
+                text-align: left;
 
                 .header{
                     // background-color: #f4c6de;
@@ -363,12 +368,16 @@ body {
 
                     .img{
                         width: 75px;
+                        padding-right: 2rem;
                     }
+                }
 
-                    .subtitle{
-                        color: $pink3;
-                        padding-left: 2rem;
-                    }
+                .subtitle{
+                    color: $pink3;
+                    // padding-left: 2rem;
+                    width: 100%;
+                    max-width: 41rem;
+                    margin: auto;
                 }
 
                 .paragraph{
@@ -391,6 +400,22 @@ body {
                 .point10{
                     right: -5rem;
                     bottom: -1rem;
+                }
+            }
+        }
+
+        .content2{
+            .article{
+                width: 31.5rem;
+                gap: 1rem;
+                padding: 3rem;
+
+                .header{
+                    margin: auto;
+                }
+
+                .point10{
+                    top: 8rem;
                 }
             }
         }
@@ -491,11 +516,11 @@ body {
 
                     .div1 {
                         text-align: center;
-                        width: 34rem;
+                        width: 37.7rem;
                         min-width: 9rem;
                         // animation: miAnimacion .2s linear ;
                         &.solo{
-                            width: 38rem;
+                            width: 47rem;
                         }
 
                         .div-image {
@@ -701,7 +726,7 @@ body {
 
     .indispensable{
         .indispensable-box{
-            .content{
+            .content, .content2{
                 .article{
                     .point9, .point10{
                         display: none;
