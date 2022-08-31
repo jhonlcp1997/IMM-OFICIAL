@@ -256,40 +256,29 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-.indications_two {
-    .box {
-        width: 100%;
-        max-width: 66rem;
-        display: flex;
+.restrictions{
+    width: 100%;
+    text-align: center;
+    background: rgba(191, 191, 191, 0.25);
+    padding: 5rem 0;
+
+    .title{
+        font-size: 2rem;
+        color: $green2;
+        font-family: $abel;
+    }
+
+    .img{
+        width: 5rem;
+        margin: 2rem 0;
+    }
+
+    .paragraph{
         margin: auto;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 2.5rem 0rem;
-
-        .boxes {
-            width: 16.5rem;
-            background-color: #fff;
-            height: 11rem;
-            text-align: center;
-            font-family: $poppins;
-            padding: 0 1rem;
-
-            .number {
-                margin-bottom: 1rem;
-                color: $azul;
-                font-size: 3.5rem;
-                font-weight: 900;
-            }
-
-            &:first-child {
-                border-right: 1px solid $green2;
-            }
-
-            &:nth-child(3) {
-                border-left: 1px solid $green2;
-                border-right: 1px solid $green2;
-            }
-        }
+        font-size: 1rem;
+        font-family: $poppins;
+        max-width: 43rem;
+        width: 90%;
     }
 }
 
@@ -448,21 +437,6 @@ $poppins: "Poppins", sans-serif;
         padding-top: 4rem;
     }
 
-    .indications_two {
-        .box {
-            row-gap: 1rem;
-
-            .boxes {
-                &:nth-child(3) {
-                    border-right: none;
-                }
-
-                &:nth-child(4) {
-                    border-top: 1px solid $green2;
-                }
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -536,28 +510,6 @@ $poppins: "Poppins", sans-serif;
     }
 }
 
-@media screen and (max-width: 554px) {
-    .indications_two {
-        .box {
-            padding-bottom: 1rem;
-            .boxes {
-                .paragraph{
-                    font-size: 1.1rem;
-                }
-
-                &:first-child {
-                    border-right: none;
-                }
-
-                &:nth-child(3) {
-                    border-right: none;
-                    border-top: 1px solid $green2;
-                    border-left: none;
-                }
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 400px) {
     .box_2 {
@@ -606,16 +558,6 @@ $poppins: "Poppins", sans-serif;
                 .img {
                     width: 95%;
                     height: auto;
-                }
-            }
-        }
-    }
-
-    .indications_two {
-        .box {
-            .boxes {
-                &:nth-child(2) {
-                    border-top: 1px solid $green2;
                 }
             }
         }

@@ -207,35 +207,27 @@ html {
   background-color: #006dac;
 }
 
-.indications_two .box {
+.restrictions {
   width: 100%;
-  max-width: 66rem;
-  display: flex;
-  margin: auto;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 2.5rem 0rem;
-}
-.indications_two .box .boxes {
-  width: 16.5rem;
-  background-color: #fff;
-  height: 11rem;
   text-align: center;
+  background: rgba(191, 191, 191, 0.25);
+  padding: 5rem 0;
+}
+.restrictions .title {
+  font-size: 2rem;
+  color: #62bb46;
+  font-family: "Abel", sans-serif;
+}
+.restrictions .img {
+  width: 5rem;
+  margin: 2rem 0;
+}
+.restrictions .paragraph {
+  margin: auto;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  padding: 0 1rem;
-}
-.indications_two .box .boxes .number {
-  margin-bottom: 1rem;
-  color: #007cc3;
-  font-size: 3.5rem;
-  font-weight: 900;
-}
-.indications_two .box .boxes:first-child {
-  border-right: 1px solid #62bb46;
-}
-.indications_two .box .boxes:nth-child(3) {
-  border-left: 1px solid #62bb46;
-  border-right: 1px solid #62bb46;
+  max-width: 43rem;
+  width: 90%;
 }
 
 .footer {
@@ -340,15 +332,6 @@ html {
   .indications {
     padding-top: 4rem;
   }
-  .indications_two .box {
-    row-gap: 1rem;
-  }
-  .indications_two .box .boxes:nth-child(3) {
-    border-right: none;
-  }
-  .indications_two .box .boxes:nth-child(4) {
-    border-top: 1px solid #62bb46;
-  }
 }
 @media screen and (max-width: 600px) {
   .box_1 .box_box .box_content .boxes .number {
@@ -389,22 +372,6 @@ html {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 554px) {
-  .indications_two .box {
-    padding-bottom: 1rem;
-  }
-  .indications_two .box .boxes .paragraph {
-    font-size: 1.1rem;
-  }
-  .indications_two .box .boxes:first-child {
-    border-right: none;
-  }
-  .indications_two .box .boxes:nth-child(3) {
-    border-right: none;
-    border-top: 1px solid #62bb46;
-    border-left: none;
-  }
-}
 @media screen and (max-width: 400px) {
   .box_2 .box {
     flex-wrap: wrap;
@@ -436,9 +403,6 @@ html {
   .indications .indications_content .boxes .img {
     width: 95%;
     height: auto;
-  }
-  .indications_two .box .boxes:nth-child(2) {
-    border-top: 1px solid #62bb46;
   }
 }
 @media screen and (max-width: 360px) {
