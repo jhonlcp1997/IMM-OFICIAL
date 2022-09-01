@@ -492,7 +492,8 @@ $poppins: "Poppins", sans-serif;
                 .boxes_div{
                     padding: 0 1rem;
                     width: 22rem;
-                    height: 17rem;
+                    // height: 17rem;
+                    height: auto;
 
                     .paragraph_1, .paragraph_2{
                         font-size: 1.1rem;
@@ -525,7 +526,11 @@ $poppins: "Poppins", sans-serif;
 
                 .boxes_div {
                     margin: 2rem auto;
-                    height: 20rem;
+                    
+
+                    .paragraph_1, .paragraph_2{
+                        font-size: 1.2rem;
+                    }
                 }
             }
         }

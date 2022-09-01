@@ -364,7 +364,7 @@ html {
   .box_2 .box .boxes .boxes_div {
     padding: 0 1rem;
     width: 22rem;
-    height: 17rem;
+    height: auto;
   }
   .box_2 .box .boxes .boxes_div .paragraph_1, .box_2 .box .boxes .boxes_div .paragraph_2 {
     font-size: 1.1rem;
@@ -385,7 +385,9 @@ html {
   }
   .box_2 .box .boxes .boxes_div {
     margin: 2rem auto;
-    height: 20rem;
+  }
+  .box_2 .box .boxes .boxes_div .paragraph_1, .box_2 .box .boxes .boxes_div .paragraph_2 {
+    font-size: 1.2rem;
   }
   .restrictions .paragraph {
     font-size: 1.2rem;
