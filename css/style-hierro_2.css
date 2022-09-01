@@ -25,7 +25,7 @@ html {
 }
 .main .main-header {
   margin: auto;
-  max-width: 70rem;
+  max-width: 69rem;
   padding: 1rem;
 }
 .main .main-header .main_img {
@@ -33,16 +33,16 @@ html {
 }
 .main .main-tittle {
   height: auto;
-  max-width: 70rem;
+  max-width: 69rem;
   position: relative;
-  top: 30%;
+  top: 28%;
   padding: 1rem;
   margin: auto;
 }
 .main .main-tittle .tittle {
   color: #fff;
   font-family: "Abel", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .main .main-tittle .tittle.first {
   font-weight: 100;
@@ -179,11 +179,12 @@ html {
 .box_2 .box .boxes .boxes_div {
   margin: auto;
   align-items: center;
-  width: 15rem;
+  width: 100%;
+  max-width: 19rem;
   height: 20rem;
   text-align: left;
   font-family: "Poppins", sans-serif;
-  padding: 0.5rem;
+  padding: 1rem;
   color: #fff;
 }
 .box_2 .box .boxes .boxes_div .boxes_img {
@@ -224,7 +225,7 @@ html {
 }
 .restrictions .paragraph {
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
   max-width: 43rem;
   width: 90%;
@@ -385,6 +386,9 @@ html {
   .box_2 .box .boxes .boxes_div {
     margin: 2rem auto;
     height: 20rem;
+  }
+  .restrictions .paragraph {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 369px) {

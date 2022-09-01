@@ -41,7 +41,7 @@ $poppins: "Poppins", sans-serif;
 
     .main-header {
         margin: auto;
-        max-width: 70rem;
+        max-width: 69rem;
         padding: 1rem;
 
         .main_img {
@@ -51,16 +51,16 @@ $poppins: "Poppins", sans-serif;
 
     .main-tittle {
         height: auto;
-        max-width: 70rem;
+        max-width: 69rem;
         position: relative;
-        top: 30%;
+        top: 28%;
         padding: 1rem;
         margin: auto;
 
         .tittle {
             color: #fff;
             font-family: $abel;
-            font-size: 2.5rem;
+            font-size: 3rem;
 
             &.first {
                 font-weight: 100;
@@ -217,11 +217,12 @@ $poppins: "Poppins", sans-serif;
             .boxes_div {
                 margin: auto;
                 align-items: center;
-                width: 15rem;
+                width: 100%;
+                max-width: 19rem;
                 height: 20rem;
                 text-align: left;
                 font-family: $poppins;
-                padding: 0.5rem;
+                padding: 1rem;
                 color: #fff;
 
                 .boxes_img {
@@ -275,7 +276,7 @@ $poppins: "Poppins", sans-serif;
 
     .paragraph{
         margin: auto;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: $poppins;
         max-width: 43rem;
         width: 90%;
@@ -512,6 +513,7 @@ $poppins: "Poppins", sans-serif;
 
 
 @media screen and (max-width: 400px) {
+
     .box_2 {
         .box {
             flex-wrap: wrap;
@@ -526,6 +528,12 @@ $poppins: "Poppins", sans-serif;
                     height: 20rem;
                 }
             }
+        }
+    }
+
+    .restrictions{
+        .paragraph{
+            font-size: 1.2rem;
         }
     }
 }
