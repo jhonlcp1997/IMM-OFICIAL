@@ -11,6 +11,12 @@
     border: none;
 }
 
+html {
+    // font-size: 62.5%;
+    overflow-x: hidden;
+    // scroll-behavior: smooth;
+}
+
 $white: #fff;
 $black: #000;
 $black2: #666;
