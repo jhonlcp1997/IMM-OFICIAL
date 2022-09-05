@@ -507,4 +507,9 @@ Quizá esto de estar metido en la parte de desarrolo, es que me está limitando.
 Otra vez yo, aqui escribiendo, la verdad no se que podria estar haciendo pero no es de las mejores cosas que hago, siempre tendre que vermelas por mi, tienen mas de un dominio.
 Revisión de ortografía, no se por que se me pasa, correccion ortográfica en colocacion endovenosa hierro, y muestra de sangre A y B.
 
+02-09-2022:
+Subí las 7 nuevas landings a IMMLATAM, tendre que hacer limpieza de código
+
+05-09-2022:
+Hubo un problema en el devtool de en chrome a la hora de vizualizar en versión movil 436px de width, hubo que abrir la pagina en modo icognito, no le encontré la causa.
 
