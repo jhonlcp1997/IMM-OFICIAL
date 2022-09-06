@@ -513,3 +513,7 @@ Subí las 7 nuevas landings a IMMLATAM, tendre que hacer limpieza de código
 05-09-2022:
 Hubo un problema en el devtool de en chrome a la hora de vizualizar en versión movil 436px de width, hubo que abrir la pagina en modo icognito, no le encontré la causa.
 
+06-09-2022:
+Revisión de las palabras. en las landings pages, quiza a mi forma de ver no encuentre esos errores.
+Nunca probe con el diplay:flex; flex-wrap-wrap; justify-content:center; esto ayuda mucho en algunas cosas de centrado
+
