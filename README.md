@@ -85,7 +85,7 @@ Errores que no son errores:
     - Una vez inicializado git, subirlo a un repositorio en linea, Github(opcional)
     - Cpanel tiene un "Git Version Control" ingrese y dele a Administrar, desde ahí puede hacer una clonacion a su repositorio subido en Github; una vez hecho la redireccion al repositorio , en la pestaña de Pull or Deploy verifique que todo este en orden, dele a "Update from Remote" espere que cargue sus último commit y luego dele a "Deploy HEAD Commit", espere a que este en verde a la derecha, espere minimo 2 minutos para que ajuste todos y ya estaría.
 - **Segunda Forma**
-    - El proyecto empaquetelo en un archivo .zip "que no sea .rar"; luego en el directorio en Cpanel suba el archivo comprimido; descomprimalo en la ruta donde se encuentra el nombre de la página. espere minimo 2 minutos para que ajuste todos los cambios, y ya estaría.
+    - El proyecto empaquetelo en un archivo ".zip" ***que no sea .rar***; luego en el directorio en Cpanel suba el archivo comprimido; descomprimalo en la ruta donde se encuentra el nombre de la página. espere minimo 2 minutos para que ajuste todos los cambios, y ya estaría.
 
 3- Comentarios Finales:
 - Lamento si algunas cosas se me hayan pasado en los estandares de los estilos, y en la parte reponsiva, solo trabajé yo este proyecto tal vez no me di cuenta de algún error que se me haya pasado.
