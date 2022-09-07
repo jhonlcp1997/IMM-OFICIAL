@@ -517,3 +517,5 @@ Hubo un problema en el devtool de en chrome a la hora de vizualizar en versión 
 Revisión de las palabras. en las landings pages, quiza a mi forma de ver no encuentre esos errores.
 Nunca probe con el diplay:flex; flex-wrap-wrap; justify-content:center; esto ayuda mucho en algunas cosas de centrado
 
+07-09-2022:
+Esperando las nuevas landings pages.
