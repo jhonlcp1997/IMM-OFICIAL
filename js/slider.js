@@ -46,8 +46,8 @@ function img_slides() {
     if (contador2 >= 7) {
         content_li[0].classList.toggle('active');
     } else {
-        console.log(contador3);
-        console.log(contador2);
+        // console.log(contador3);
+        // console.log(contador2);
         content_li[contador2].classList.toggle('active');
         content_li[contador3].classList.remove('active');
     }
