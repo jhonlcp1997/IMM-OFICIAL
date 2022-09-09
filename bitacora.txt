@@ -519,3 +519,6 @@ Nunca probe con el diplay:flex; flex-wrap-wrap; justify-content:center; esto ayu
 
 07-09-2022:
 Esperando las nuevas landings pages.
+
+09-09-2022:
+Ayer prove un plugin(asi decidi llamarlo para que me entiendan un poco) para visualizar el flipbook de un pdf, esta bueno, lo malo es que está hecho con jQuery, asi que no se hasta que punto estaria bueno usarlo. Tendre que ingeniarmelas para poder hacer 10 que no sean reduntates con el titulo.
