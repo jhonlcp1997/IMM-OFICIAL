@@ -28,6 +28,7 @@ window.ontouchmove = () =>{
     // console.log("Horizontal: " + contenido_sliders_g.scrollX);
     resultado = width_1 / 8;
     console.log("Tamaño del resultado:",resultado);
+    console.log("Tamaño de la posicion:",posicion);
     if (posicion >= resultado*5){
         console.log("Esto pertenece al 4to slider");
         slider_actual= resultado*6;
@@ -36,23 +37,26 @@ window.ontouchmove = () =>{
         slider_actual= resultado*4;
     } else if (posicion >= resultado && posicion < resultado*3){
         console.log("Este pertenece al 2do slider");
-        slider_actual= resultado*2;
+        slider_actual= resultado*2 ;
     } else {
         console.log("Este pertenece al 1er slider");
         slider_actual=0;
     }
 
     setTimeout(() => {
-        sliders_g.style.transform = "translate(" + (-396) + "px)";
-        sliders_g.style.transition = "2s all linear";
+        // sliders_g.style.transform = "translate(" + (-slider_actual) + "px)";
+        slider_general.scrollTo(slider_actual, 0)
+        slider_general.style.transition = "1s all linear";
         console.log("me ejecute");
         sliders_g.style.left =  0 +"px";
-        setTimeout(() => {
-            // sliders_g.style.transform = "translate(" + (0) + "px)";
-            console.log("me ejecuteotra vez");
-            // sliders_g.style.left =  -300 +"px";
-        }, 500);
+        
     }, 1000);
+
+    // setTimeout(() => {
+    //     sliders_g.style.transform = "translate(" + (0) + "px)";
+    //     console.log("me ejecuteotra vez");
+    //     // sliders_g.style.left =  -300 +"px";
+    // }, 2000);
 }
 
 window.addEventListener("resize", function () {
@@ -61,3 +65,11 @@ window.addEventListener("resize", function () {
     width_1 = sliders_g.scrollWidth;
     console.log("Tamaño total",width_1);  
 })
+
+// function disableScroll() {
+//     window.scrollTo(0, 0);
+// }
+
+// disableScroll();
+
+// slider_general.scrollTo(100,0)

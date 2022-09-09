@@ -212,6 +212,16 @@ body {
     z-index: 1;
     // padding-bottom:  2rem;
     opacity: 1;
+    scroll-behavior: smooth;
+    
+    &::-webkit-scrollbar {
+        width: 0rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
 
     &.active{
         opacity: .5;
