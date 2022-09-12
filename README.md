@@ -7,13 +7,20 @@ Primer repositorio del Instituto Médico de la Mujer
 ## Estructura de la página "sin las carpetas vacias"
 
 - /css (se encuentran todos los estilos, pero los trabajé en SASS)
+- /dflip (carpeta que contiene el plugin para ejecutar el flipbook de PDFs)
+- /fonts 
+    - abel
+    - poppins
 - /img **(aqui se encuentran las imágenes simples, que van los header y footer, flechas etc)**
     - image-simple(svg de los primeros -> a estos tendré que cambiarlos para no tener muchas carpetas)
-    - image-simple2(aqui se encuentran la mayoria de las imágenes)
+    - image-simple2(aqui se encuentran la mayoria de las imágenes png y jpg).
     - images-gest(Todo lo agregado despues en gestacional)
     - images-gine(Todo lo agregado despues en ginecológico)
-- /images
+- /images **(aqui van la mayoria de las imagenes svg, estas se utilizan como contenido en las páginas)**
     - Endocrinólogas **(por el momento solo hay esto)** había xD
+    - Gestacional
+    - Ginecología
+    - Recomendaciones
 - /js
     - carrusel_gen.js
     - carrusel-egi-emi.js
@@ -23,6 +30,10 @@ Primer repositorio del Instituto Médico de la Mujer
     - test.js
     - /others-js
         - slider-endocrinologas.js **Esto va a trabajar como un apartado**
+    - /funcional
+        -btn_wsp.js
+        -btn_wsp2.js
+- /pdf
 - /sass (todos los archivos originales)
 - /views
     - gestacional-antenatal.html
@@ -46,7 +57,7 @@ Primer repositorio del Instituto Médico de la Mujer
         - encrinologas.html
         - muestra_de_sangre.html
         - recomendaciones-hierro.html
-- ***index.html***  **(por defecto abre el contenido gestacional-viabilidad)**
+- ***index.html***  **(por defecto abre el contenido gestacional-viabilidad) Eso era antes**
 
 ### ***Pondré a prueba lo que encontré sobre ilustrator a diseño web ("Al final no lo hice")***
 
