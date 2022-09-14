@@ -537,3 +537,5 @@ Hay muchas cosas que se encuentran cambiando.
 14-09-2022:
 Bitacora de Buzzlightyear, aun sigo escribiendo en la bitacora pero no hay nada para actualizar todavia.
 supuestamente dijeron para esta semana :O
+El manejo del plugin para vizualizar los PDFs, es parecido a la de un framework SPA.
+este contiene la mayoria de sus documentos minificados, lo que para poder desencriptarlo, llevaría su tiempo. por ejemplo me tomaria muchisimo más tiempo desencriptar lo que hizo el plugin a crearlo desde cero, y eso que crearlo me tomaría un año entero.
