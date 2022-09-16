@@ -278,7 +278,7 @@ body {
         div {
             margin: 1rem auto;
             width: 33rem;
-            height: 25rem;
+            height: 26rem;
             text-align: center;
 
             img {
@@ -798,7 +798,7 @@ body {
 .considerations{
     background-color: #fff;
     width: 100%;
-    padding: 9rem 2rem 3rem 2rem;
+    padding: 9rem 2rem 2rem 2rem;
     text-align: center;
 
     .title{
@@ -1381,6 +1381,12 @@ body {
                     }
                 }
             }
+        }
+    }
+
+    .considerations{
+        .paragraph{
+            display: inline;
         }
     }
 }

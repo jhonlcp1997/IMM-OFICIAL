@@ -293,7 +293,7 @@ body {
 .study .info2 div {
   margin: 1rem auto;
   width: 33rem;
-  height: 25rem;
+  height: 26rem;
   text-align: center;
 }
 .study .info2 div img {
@@ -708,7 +708,7 @@ body {
 .considerations {
   background-color: #fff;
   width: 100%;
-  padding: 9rem 2rem 3rem 2rem;
+  padding: 9rem 2rem 2rem 2rem;
   text-align: center;
 }
 .considerations .title {
@@ -1101,6 +1101,9 @@ body {
   }
   .tips .tips__box .box .box__img .img {
     box-shadow: -0.5rem 0.5rem 30px -10px rgb(51, 46, 46);
+  }
+  .considerations .paragraph {
+    display: inline;
   }
 }
 @media (max-width: 530px) {

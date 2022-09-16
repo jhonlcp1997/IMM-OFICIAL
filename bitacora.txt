@@ -553,3 +553,10 @@ Lo que eh estado viendo durante mucho tiempo, es las opacidades que tiene Silvan
 Solo esta diferente en los background, el escalado de grises ahí es un poco diferente, utilizmos opacity con otro gris más fuerte para que se paresca al gris que tenemos en UIkit
 Lo de trabajar con una sola pantalla, a veces está bien, esto es como si estuviera trabajando en la laptop, pero con el monitor más grande.
 Nuevas actualizaciones que se se haran mas adelante seran en base al color del backoground, pero el realineamiento de los footers en todas las landings
+Las imagenes svg que estan en los sliders, que antes se utilizaron en los carruseles, ¿Debería cambiarloa puro html css? Estará dificil que se adapten, por que puede que a mi me gusten pero no a silvana.
+Las mejores partes se encuentran en ingles, me refiero a los contenidos que son más informativos
+Agregue una parte en EMI, pero no se si deba quedarse así.
+Solo, me estan pasando pdf de pruebita, a cada rato estoy rellenando. y quitando los pdfs que se apruebas y desaprueban.
+Despues de analisar un poquitito, el plugin parece muy bueno. No probé todas sus funcionalidades.
+Me esta dando, un sueñoo..., lo más problabe es que me quede dormido en los brazos del mal.
+Podria acostumbrarme

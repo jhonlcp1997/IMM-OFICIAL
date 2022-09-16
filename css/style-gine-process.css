@@ -113,7 +113,7 @@ body {
   z-index: 0;
   content: "";
   position: absolute;
-  top: -4rem;
+  top: -18rem;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -647,6 +647,9 @@ body {
     margin: auto;
     height: 5rem;
     display: flex;
+  }
+  .home .home_box .home-nav1::before {
+    top: -4rem;
   }
   .info-date .info-date-container {
     font-size: 1.15rem;
