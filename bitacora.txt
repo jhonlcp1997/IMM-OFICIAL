@@ -546,3 +546,10 @@ La primera, por que no quiero tener la culpa(esto por miedo a que cometa un erro
 La segunda por que esto no deberia hacerlo el programador, por ética del Scaffolding.
 La tercera por que no poseo las contraseñas ni los usuarios originales, ni siquiera el correo base.
 De aqui en mas, que deberia hacer?
+
+16-09-2022:
+Hay muchos cambios que no se pueden realizar, hay paginas nuevas, pero lo del pdf si no se.
+Lo que eh estado viendo durante mucho tiempo, es las opacidades que tiene Silvana en el UIkit no son iguales a los que yo utilizo, eso quizá no pueda hacer mucho por mi.
+Solo esta diferente en los background, el escalado de grises ahí es un poco diferente, utilizmos opacity con otro gris más fuerte para que se paresca al gris que tenemos en UIkit
+Lo de trabajar con una sola pantalla, a veces está bien, esto es como si estuviera trabajando en la laptop, pero con el monitor más grande.
+Nuevas actualizaciones que se se haran mas adelante seran en base al color del backoground, pero el realineamiento de los footers en todas las landings

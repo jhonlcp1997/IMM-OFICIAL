@@ -795,6 +795,28 @@ body {
     }
 }
 
+.considerations{
+    background-color: #fff;
+    width: 100%;
+    padding: 9rem 2rem 3rem 2rem;
+    text-align: center;
+
+    .title{
+        font-family: $abel;
+        color: $pink3;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .paragraph{
+        margin: auto;
+        max-width: 63rem;
+        font-family: $poppins;
+        color: #000;
+        font-size: 1.4rem;
+    }
+}
+
 .footer {
     background-color: #fff;
     text-align: center;
