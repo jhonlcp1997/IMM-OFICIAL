@@ -165,7 +165,7 @@ body {
 }
 .home .home_box .home-nav1 .home_content {
   color: #000;
-  max-width: 35rem;
+  max-width: 39rem;
 }
 .home .home_box .home-nav1 .home-nav1-P_2 {
   font-family: "Abel", sans-serif;
@@ -344,7 +344,7 @@ body {
 }
 .info .info_content .info_content_box .content .img {
   align-self: center;
-  width: 5rem;
+  width: 5.3rem;
 }
 .info .info_content .info_content_box .content .paragraph {
   font-family: "Poppins", sans-serif;
@@ -352,7 +352,8 @@ body {
   padding-left: 2rem;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 100;
 }
 .info .info_content .info_content_box .content:first-child {
   margin-bottom: 4rem;
