@@ -353,7 +353,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content2 .article .point9, .indispensable .indispensable-box .content2 .article .point10 {
+.indispensable .indispensable-box .content .article .point9, .indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content .article .point11, .indispensable .indispensable-box .content2 .article .point9, .indispensable .indispensable-box .content2 .article .point10, .indispensable .indispensable-box .content2 .article .point11 {
   position: absolute;
   width: 10rem;
 }
@@ -364,6 +364,10 @@ body {
 .indispensable .indispensable-box .content .article .point10, .indispensable .indispensable-box .content2 .article .point10 {
   right: -5rem;
   bottom: -1rem;
+}
+.indispensable .indispensable-box .content .article .point11, .indispensable .indispensable-box .content2 .article .point11 {
+  right: -5rem;
+  top: 6rem;
 }
 .indispensable .indispensable-box .content2 .article {
   width: 31.5rem;
