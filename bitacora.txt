@@ -579,3 +579,6 @@ Enserio pasaré navidad aquí.
 No tendre las mismas ganas de trabajar si empiezo, como.
 Hize mucho en el baño, mi trasero, mejor escucho la wisin y Yandel, pegao.
 Hoy me perdí el colo.
+
+21-09-2022:
+El resto de las landings se encuentra con un font reducido en -1px, esto por que no estaba tan compremetido, no se si se vaya a solucionar
