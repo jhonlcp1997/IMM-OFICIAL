@@ -233,20 +233,24 @@ a {
   margin-top: 3rem;
   margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
-  width: 500px;
   display: flex;
   overflow: hidden;
   margin: auto;
 }
 .importante .import-nav .slider-contenedor {
   display: flex;
-  width: 500px;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 90rem;
+  vertical-align: top;
 }
 .importante .import-nav .slider-contenedor .characteres_all {
+  padding: 2rem 0;
+  margin: 0 auto;
   position: relative;
   vertical-align: top;
   display: inline-block;
-  width: 500px;
+  width: 430px;
   justify-content: space-around;
   flex-shrink: 0;
 }
@@ -257,7 +261,7 @@ a {
   margin: 1.5rem 9%;
 }
 .importante .import-nav .slider-contenedor .characteres_all img {
-  height: 10rem;
+  height: 8rem;
 }
 .importante .points {
   margin-top: 1rem;
@@ -399,10 +403,10 @@ a {
 }
 .vacio .vacio-div1 div p {
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .vacio .vacio-div1 .vacio-boxes_1 {
-  height: 25rem;
+  height: 27rem;
   display: inline;
   margin-top: 2rem;
   padding: 4rem 0rem;
@@ -514,6 +518,9 @@ a {
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
   display: flex;
+  max-width: 30rem;
+  width: 100%;
+  justify-content: center;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
   position: relative;
@@ -539,31 +546,38 @@ a {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
   padding-left: 0.5rem;
 }
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li {
+  padding-top: 1rem;
+}
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 {
   padding-left: 0.2rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
-  padding-top: 0.8rem;
+  padding-top: 1rem;
   color: #007cc3;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
   font-size: 1.3rem;
   color: #007cc3;
-  font-weight: 100;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
-  padding: 0.2rem;
+  padding-top: 0.3rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
-  margin: 1rem 0;
+  position: inherit;
+  padding-right: 0.5rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
-  margin-right: 1rem;
   color: #444;
   font-size: 2rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i:hover {
   color: #007cc3;
+}
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a .fab.fa-instagram {
+  position: relative;
+  top: 0.19rem;
+  font-size: 2.3rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .div1 {
   padding-left: 0.2rem;
@@ -649,6 +663,7 @@ a {
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
     margin: 3rem;
+    justify-content: left;
   }
 }
 @media (max-width: 1067px) {
@@ -1048,10 +1063,6 @@ a {
   }
   .vacio .vacio-div1 .vacio-boxes_1 .vacio-boxes_1-div1 {
     padding: 0 2rem;
-  }
-  .vacio .vacio-div1 .vacio-boxes_1 p {
-    font-size: 1.4rem;
-    padding: 2rem;
   }
 }
 @media (max-width: 284px) {

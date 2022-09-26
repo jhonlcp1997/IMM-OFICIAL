@@ -545,6 +545,9 @@ body {
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
   display: flex;
+  max-width: 30rem;
+  width: 100%;
+  justify-content: center;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
   position: relative;
@@ -567,6 +570,9 @@ body {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li p {
   font-size: 1.3rem;
 }
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li {
+  padding-top: 1rem;
+}
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
   padding-top: 0.8rem;
   color: #007cc3;
@@ -577,10 +583,11 @@ body {
   font-weight: 100;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
-  padding: 0.2rem;
+  padding: 0.3rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
-  margin: 1rem 0;
+  padding-top: 0.5rem;
+  position: inherit;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
   margin-right: 1rem;
@@ -589,6 +596,11 @@ body {
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i:hover {
   color: #007cc3;
+}
+.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a .fab.fa-instagram {
+  position: relative;
+  top: 0.19rem;
+  font-size: 2.3rem;
 }
 .footer .ofrecemos-footer .ofrecemos_footer_div2 {
   border-top: 1px solid #bfbfbf;
@@ -694,7 +706,9 @@ body {
     display: inline;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+    justify-content: left;
     margin: 3rem;
+    padding-right: 3rem;
   }
 }
 @media (max-width: 675px) {

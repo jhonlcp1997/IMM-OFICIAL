@@ -653,6 +653,9 @@ a {
 
             div {
                 display: flex;
+                max-width: 30rem;
+                width: 100%;
+                justify-content: center;
 
                 a {
                     position: relative;
@@ -684,6 +687,10 @@ a {
 
                 .footer-ul1{
                     padding-left: .5rem;
+
+                    li{
+                        padding-top: 1rem;
+                    }
                 }
 
                 .footer-ul2 {
@@ -698,14 +705,15 @@ a {
                     li {
                         font-size: 1.3rem;
                         color: #007cc3;
-                        font-weight: 100;
                     }
 
                     ul {
-                        padding: 0.2rem;
+                        padding: 0.3rem;
                         
                         a {
-                            margin: 1rem 0;
+                            // margin: 1rem 0;
+                            padding-top: .5rem;
+                            position: inherit;
                             
                             i {
                                 color: $light-color;
@@ -715,6 +723,15 @@ a {
 
                                 &:hover{
                                     color: $azul;
+                                }
+                            }
+
+                            .fab{
+                                &.fa-instagram{
+                                    position: relative;
+                                    top: .19rem;
+                                    // margin-top: 1rem;
+                                    font-size: 2.3rem;
                                 }
                             }
                         }
@@ -871,9 +888,12 @@ a {
 
             .ofrecemos_footer_div1 {
                 display: inline;
-
+                
                 div {
+                    // background-color: #007cc3;
                     margin: 3rem;
+                    justify-content: left;
+                    padding-right: 2rem;
                 }
             }
         }

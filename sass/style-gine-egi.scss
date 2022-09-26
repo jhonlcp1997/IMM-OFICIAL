@@ -839,6 +839,9 @@ body {
 
             div {
                 display: flex;
+                max-width: 30rem;
+                width: 100%;
+                justify-content: center;
 
                 a {
                     position: relative;
@@ -868,6 +871,12 @@ body {
                     }
                 }
 
+                .footer-ul1{
+                    li{
+                        padding-top: 1rem;
+                    }
+                }
+
                 .footer-ul2 {
                     li {
                         padding-top: .8rem;
@@ -883,10 +892,11 @@ body {
                     }
 
                     ul {
-                        padding: 0.2rem;
+                        padding: 0.3rem;
 
                         a {
-                            margin: 1rem 0;
+                            padding-top: .5rem;
+                            position: inherit;
 
                             i {
                                 margin-right: 1rem;
@@ -895,6 +905,16 @@ body {
 
                                 &:hover{
                                     color: $azul;
+                                }
+                            }
+
+                            
+                            .fab{
+                                &.fa-instagram{
+                                    position: relative;
+                                    top: .19rem;
+                                    // margin-top: 1rem;
+                                    font-size: 2.3rem;
                                 }
                             }
                         }
@@ -1234,7 +1254,9 @@ body {
             .ofrecemos_footer_div1 {
                 display: inline;
                 div {
+                    justify-content: left;
                     margin: 3rem;
+                    padding-right: 3rem;
                 }
             }
         }

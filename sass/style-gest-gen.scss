@@ -302,21 +302,27 @@ $azul: #007cc3;
         margin-bottom: 1rem;
         // font-family: "Poppins", sans-serif;
         font-family: "Poppins", sans-serif;
-        width: 500px;
+        // width: 500px;
         display: flex;
         overflow: hidden;
         margin: auto;
 
         .slider-contenedor {
             display: flex;
-            width: 500px;
-
+            // background-color: #007cc3;
+            flex-wrap: wrap;
+            margin: auto;
+            max-width: 90rem;
+            vertical-align: top;
+            
             .characteres_all {
+                padding: 2rem 0;
+                margin: 0 auto;
                 // align-items:flex-start;
                 position: relative;
                 vertical-align: top;
                 display: inline-block;
-                width: 500px;
+                width: 430px;
                 // height: 22rem;
                 justify-content: space-around;
                 flex-shrink: 0;
@@ -329,7 +335,7 @@ $azul: #007cc3;
                 }
 
                 img{
-                    height: 10rem;
+                    height: 8rem;
                     // width: 10rem;
                 }
             }
@@ -526,12 +532,12 @@ $azul: #007cc3;
 
             p {
                 padding: 1rem;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
             }
         }
 
         .vacio-boxes_1 {
-            height: 25rem;
+            height: 27rem;
             display: inline;
             // border-bottom: 1px solid #666;
             margin-top: 2rem;
@@ -669,6 +675,10 @@ $azul: #007cc3;
 
             div {
                 display: flex;
+                // background-color: #007cc3;
+                max-width: 30rem;
+                width: 100%;
+                justify-content: center;
 
                 a {
                     position: relative;
@@ -700,12 +710,16 @@ $azul: #007cc3;
 
                 .footer-ul1{
                     padding-left: .5rem;
+
+                    li{
+                        padding-top: 1rem;
+                    }
                 }
 
                 .footer-ul2 {
                     padding-left: .2rem;
                     li {
-                        padding-top: .8rem;
+                        padding-top: 1rem;
                         color: #007cc3;
                     }
                 }
@@ -714,22 +728,39 @@ $azul: #007cc3;
                     li {
                         font-size: 1.3rem;
                         color: #007cc3;
-                        font-weight: 100;
+                        // font-weight: 100;
+                        // background-color: #007cc3;
                     }
 
                     ul {
-                        padding: 0.2rem;
+                        // padding: 0.2rem;
+                        // background-color: #f173ac;
+
+                        padding-top: .3rem;
 
                         a {
-                            margin: 1rem 0;
+                            position: inherit;
+                            // display: flex;
+                            // background-color: #007cc3;
+                            padding-right: .5rem;
 
                             i {
-                                margin-right: 1rem;
+                                // margin-right: 1rem;
                                 color: $light-color;
                                 font-size: 2rem;
+                                // background-color: #007cc3;
 
                                 &:hover{
                                     color: $azul;
+                                }
+                            }
+
+                            .fab{
+                                &.fa-instagram{
+                                    position: relative;
+                                    top: .19rem;
+                                    // margin-top: 1rem;
+                                    font-size: 2.3rem;
                                 }
                             }
                         }
@@ -861,6 +892,7 @@ $azul: #007cc3;
 
                 div {
                     margin: 3rem;
+                    justify-content: left;
                 }
             }
         }
@@ -1498,11 +1530,6 @@ $azul: #007cc3;
             .vacio-boxes_1 {
                 .vacio-boxes_1-div1 {
                     padding: 0 2rem;
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    padding: 2rem;
                 }
             }
         }
