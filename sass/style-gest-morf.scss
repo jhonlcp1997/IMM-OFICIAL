@@ -465,9 +465,10 @@ a {
         display: flex;
         justify-content: center;
         color: $pink3;
-        font-size: 2.5rem;
+        font-size: 3rem;
         position: relative;
         top: 10rem;
+        font-family: $franklin;
     }
 
     .vacio-div1 {
@@ -478,7 +479,7 @@ a {
         max-width: 80rem;
         color: $light-color;
         position: relative;
-        top: 11rem;
+        top: 13rem;
 
         .vacio-boxes_1 {
             height: 28rem;

@@ -366,7 +366,7 @@ a {
 }
 
 .vacio {
-  padding-top: 2rem;
+  padding-top: 4rem;
   background: #eee;
   opacity: 1;
   z-index: 0;
@@ -376,9 +376,10 @@ a {
   display: flex;
   justify-content: center;
   color: #f173ac;
-  font-size: 2.5rem;
+  font-size: 3rem;
   position: relative;
   top: 12rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .vacio .vacio-div1 {
   margin: auto;
@@ -388,7 +389,7 @@ a {
   max-width: 110rem;
   color: #444;
   position: relative;
-  top: 12rem;
+  top: 13rem;
 }
 .vacio .vacio-div1 div {
   margin: auto;

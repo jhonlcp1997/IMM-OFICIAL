@@ -344,9 +344,10 @@ a {
   display: flex;
   justify-content: center;
   color: #f173ac;
-  font-size: 2.5rem;
+  font-size: 3rem;
   position: relative;
   top: 10rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .vacio .vacio-div1 {
   margin: auto;
@@ -356,7 +357,7 @@ a {
   max-width: 80rem;
   color: #444;
   position: relative;
-  top: 11rem;
+  top: 13rem;
 }
 .vacio .vacio-div1 .vacio-boxes_1 {
   height: 28rem;
