@@ -191,6 +191,9 @@ body {
   padding: 0 1rem;
   font-family: "Poppins", sans-serif;
 }
+.process .content.b {
+  max-width: 500px;
+}
 
 .info {
   display: flex;

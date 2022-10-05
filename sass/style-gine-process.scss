@@ -192,6 +192,10 @@ body {
         max-width: 673px;
         padding: 0 1rem;
         font-family: $poppins;
+
+        &.b{
+            max-width: 500px;
+        }
     }
 }
 
