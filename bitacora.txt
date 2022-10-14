@@ -601,3 +601,149 @@ Tengo que pagar el internet, :C eso es malo, bueno, no lo utilizo mucho, pero ig
 El ancho de banda utilizado en mi netlify esta empezando a pasar de los 100mbs, no me gusta, por que si lo borro, o me despiden(que practicamente es mío lo borraría, pero tendría que darles una semana), ya no habria link de prueba o respaldo. Asi que es una encrucijada. 
 Si me botaran:
 Al doctor: Antes que todo muchas gracias por todo, por haber confiado en mi, por haberme dado esta      oportunidad, nunca pense que llegaría a hacer lo que eh hecho hasta ahora.
+
+27-09-2022:
+Le encontré la cancion se llama cuchi cuchi a la cancion de Mayimbe.
+Las actualizaciones ahora pesan 60 MB en netlify.
+Pero en realidad el proyecto pesa 23mb.
+Algo que tengo que decir es que la cantidad de usuarios que visitan las paginas ha reducido en un 20%, quizá sea por que hago mal mi trabajo.
+Buscando unos buenos dominios , no encontré nada parecido:
+- Gatriel
+- Exelcity
+- Stremul
+- kereboros
+
+La parte que diseñé en test.html paa ponerlo en el index de immlatam, como siempre, se quedan en el pasado.
+La verdad está dificil, que me acepten algo, porque... empezando primero desde mi nivel; silvana no acepta mis cambios, aisha pasa por alto todo lo que hago, angelica ella ni sabe lo que hago, doctor tampoco creo que acepte porque está muy ocupado.
+Tampoco quiero hacer algo grande, con este dolor de cabeza, que seguramente sea algo grave, un tumor cancer, y muchas cosas que le pasan a los desdichados como yo.
+lo malom es que si me enfermo, siempre se da en el trabajo, y tengo que aguatarmelas hasta que sean las 12pm que es cuando salgo a almorzar
+El google analitics está funcionando bien, lo que si me molesta, es que esten utilizando los links de pruebas, como links oficiales, esos son del servidor gratuito que tengo, eso es lo que no saben, pero creo que yo tuve la culpa, no se me ocurrió el mandar el link correctamente, pero como no había solución, eso fue lo que se hizo.
+Y que tal el React native, es un poco raro, como siempre, uno en la busqueda de seguir aprendiendo.
+Si supero algún día el ancho de banda, debería tener algo en mano.
+Yo aquí, me pelo de sueño, sueño sueño sueño. Denasiado sueño, es como si no huebiera dormido. Demasiado sieño Jhon.
+A quien no le gusta el cuchi cuchi xd. que te voy a dar candela, xD, pegate un poquito. pero la timba.
+Practicamente ningun avance x,D.
+
+28-09-2022:
+Pésimo día, pero no se porque no me siento tan mal, será por que no lo se.
+Dolor de estómago, la del parque hablando en voz alta sus problemas, no limpié el cuarto la semana pasado y don José me reclamo(muy justo), Cada día parece como si no estuviera trabajando con las de aquí, me siento mal de la cabeza, y mis medias más sucias.
+
+Como arreglamos eso:
+1- No se a qué se deba el dolor de estómago, tendré que tomar agua todos los días, y calentar mejor el agua.
+2- No se puede evitar, esa seño siempre estará hablando, es de las que les gusta alardear de su vida, asi este en problema, me alejaré a la siguiente, o me pondré a hablar ficticiamente, o simplemente la paso por alto.
+3- llegar decir "me pondré a hacer lo que debí hacer, bajaré cuando termine", limpiaré rapidamente: el baño(el lavadero y el espejo; la ducha: barrida de pelos, clorox con agua fasto; el water con clorox y alcohol fasto, el piso barrida y con algo de clorox fasto), mi pasadizo(barrida rápida y fuerte), mi pieza del cuarto(piso: barrida rapida y fuerte, arreglar el tapete si es posible; sacudir la cama y limpiarla = si está sucia la colcha o ahuele la cambio o a lavarla, arreglarla; el ropero, sacar la ropa que este sucia, meter ropa que no este sucia, sacar los objetos que esten sucios o no sirvan; la mesa limpiarla, el tapete que esta doblado ponerlo encima del otro; limpiar el televisor, tendré que pedir que lo saquen; sacar la ropa que tengo que lavar.)
+4- Creo que es normal no hay muchos cambios, y lo otro es que no me pueden aceptar cualquier cambio.
+5- Esto es por qué duermo tarde, no descanso la vista, no limpio bien los lentes.
+6- Lavar la ropa, sacar las media y los zapatos.
+
+disculparme con la vida.
+
+29-09-2022:
+Hoy cambie el nombre de Immetabolico por : Intituto Médico Metabólico - Endocrinología
+Pero hoy escuche estornudar a la de tesoreria y dio un poco de risa xD, cada una tiene una manera diferente de estornudar xd
+Mi estonudo es como de haciendo algo de ruido, y luego aparecen los malestares, eso siempre ha sido algo que no me ayuda mucho, solo espero
+Yo me acuerdo que al principio me, daban unas ganas terribles de querer renunciar, pero como la vida es la vida que se hace?.
+metabolico tiene  meta etiquetas de facebook, pero no se sirva de algo, antes no me habia ayudado tanto, pero hoy entre y habian como 3 usuarios por minuto en el google analitics esto no me habia salido antes, es como si algunos de imm.pe se hubieran ido a metabolico, pero pero pero, necesito que se mantenga por mucho tiempo
+quisiera comprar una casa o un departamento, peor la verdad que no gano lo suficiente como para poder darme ese lujo, y eso es lo malo, los precios están más elevados que los rascacielos de alien covenant, a veces no se puede poner esto en el repositorio pero lo pongo por que puedo editarlo en el git.
+Lo que nunca vi, es lo de las casas, eso debí revisarlo, pero con el sueldo que gano, lamentablemente no podré siquiera soñarlo, cada uno busca lo que quiere, eso siempre lo tuve ahi pero no lo aprendí, pero hacer las cosas no están bien, pero como siempre tener que entender esto debe ser muy dificil de acoplar pero entiendo a que se refiere cuando dicen el buscar de estas cosas, solo espero que no sea tan malo como lo pinta.
+
+Aprender otras cosas tambien creo, .net django springboot
+
+30-09-2022:
+Empecé a pedir la cantidad de solicitudes entre los links de pruebas y los oficiales.
+Obligarles a utilizar los link oficiales, los links de pruebas que se utilizaron para enviarlos en caso de respaldo, pero solo en caso de emergencia, lo malo es que se estan enviando más que los links de pruebas, esos los voy a cambiar o los voy a dar de baja. Solo espero que no se alarmen cuando los haga cambiar o les de debaja, tal vez esto me reclamaran.
+Tengo preparado el popup para ponerlo si es que siguen utilizando los links de pruebas. Lo pondría si es que no me hacen caso, que es lo mas problable, pero como siempre no me haran caso, por lo que tendré que forzarme obligado a ponerlo en lo que creo que debería hacer.
+
+Hoy me citó Edgar para algo lo más problable que podria pasar para esto sería:
+- Que me boten, talvez no quieran involucrarse directamente con el despido, y lo hacen por intermedio de él, y por eso se le nota así. 
+    - Para esto estoy algo preparado, tengo que ver la fecha, y terminar mis proyectos, una ves me digan la fecha tengo que preparar mi cv, actualizar mi linkedin y ver las solicitudes de empleo, avisarle a mi familia 1 dia despues.
+- Que me solicité para hacerle una página, no quiero hacer eso, pero supongo que si me pagan normal, siempre y cuando lo pueda lograr.
+- Que me veo feo, y quiere que me bañe o me limpie la cara y todo el cuerpo, y que mi ropa es la peor pero el nomas me lo dice, aunque Saulo es menos tolerante en esa parte y de el lo hubiera espero más mmm...
+- Que le de un lugar para vivir, pero tendré que decir no, por que donde estoy praticamente no es mio.
+- Que le suplante en algunas cosas:
+    - En algunos trabajos que el realiza
+    - Que le haga la taba con alguna de por aquí, pero como ni las conosco declinaré
+    - Que vaya a donde vive a hacerle un encargo
+    - Como si pudiera hacer lo mismo que el xd
+
+De de las cosas imaginarias: mejor no las pongo xD, todas me parecen mala idea.
+Solo espero que no sea como esas cosas que siempre me imagino, por que se ropmeria de la irrealidad, y eso ni siquiera tengo un plan de como tomarlo.
+Tendre que decir que tengo algo que hacer en wilson como siempre, pero a las justas me eh ido unas 5 veces.
+Lo otro que puede que se le olvide, y yome haga el loco pero conociendolo puede que tambien me lo haga recodar.
+Al final si era para pedirme que le hiciera una pagina web, espero que no sea tan complicada. pero como siempre esto tendrá que ser evaluada para luego ponerla.
+Hoy subiré, pero hay muchas cosas que no quiero hacer para la modificación de los links de pruebas.
+
+04-10-2022:
+Revisar la documentación, y dejar documentyación, en realidad no hay mucho, pero bueno, no es como si yo pudiera controlarlo todo, pero siempre trato de mantener mis cosas documentadas, esto recien eh xD
+Hablando de las nuevas cosas, El viernes Edgar me pidió que le ayudara con una página web, la verdad no se si lo quiere solo en html css y js, o si es que quiere tipo una spa, con muchas cosas o rutas arregladas.
+acabar con typescript, creo que eso seria lo primero, pero tengo problemas para poder hacer esto, pero a pesar que ya lo estoy acabando, no puedo hacer un proyecto por que ya me veo por todo lo que tengo que pasar, esto no creo que sea lo mio, asi que, bueno, eso es lo malo.
+Pero por la forma en que me lo está diciendo es como si no tuviera otra opcion de elegir react Native. Que más podria elegir como para hacer su pedido,  si quiere posicionamiento , talvez Astro.
+Practicar un poco con astro xD, ya practiqué, lo maloes que no se donde usarlo, y que ahora mismo quiero descanzar, pero tendre que esperar.
+Por favor Jhon, 
+- Pregunta si lo que HARE PARA EDGAR está dentro del trabajo, de marketing; solo esperar que el edgar no se enoje por que, es una pregunta mu directa.
+- DESCANSA POR FAVOR, NI BIEN LLEGAS, DESCANZA, ES LO MEJOR QUE QUIERE TU CUERPO,Y VUELVE A DESCANZAR PRUEBALO POR ESTA SEMANA.
+- Las actualizaciones que haré lo que si noté.
+- La actualización de los dominios, y de los nuevos cambios, nose podra hacer durante la 2da semana de diciembre y la primera semana de enero.
+- La forma de ingresar al cPanel ha cambiado, mas que nada en diseño, las cosas principales se encuentran en la ventana principal de yachay, cuidado al ingresar en version movil, su forma de ingresar es muy diferente por lo que puede confundirse con las nuevas funcionalidades.
+- La otra forma de modificar los archivos, es ingresar directamente a cPanel, no ha cambiado, pero han agregado más diseños almenos trata de mantener
+- No pude hacer que se encuentre a la par immetabolico, creo que es por las palabras mas buscadas en internet, y es mujer, en cambio metabolido o endrocrinología no es tan buscado, aunque para asegurarme de esto voy a investigar en gooogle trends.
+- Muchas cosas por las cual dormirse, la primera, la cabeshaaa. la segunda, el sol, y la tercera wisin y yandel "hambre y sueño es lo que usted tiene, hambre y sueño"
+
+04-10-2022:
+Ya le pregunté a la de marketing y nada, supuestmente no tengo nada preparado paa esta semana.
+Por lo que no tendría tanto apuro por seguir escribiendo, esto es lo mas probable. Luego eso si, es como si volviera a principios del año, donde nisiquiera me consideraban, y solo asumian
+
+05-10-2022:
+Muchas cosas por mejorar, mi atención por ejemplo.
+El poner exactamente las cosas en css como lo diseñó Silvana en Figma, es un poco tedioso, pero debe ser bueno, para mejorar mis habilidades con el diseño.
+Hay algo que no creo que pueda hacer, pero lo haré.
+Si esto se sale de control, yo tambien podria salir de control, o es que esto de la vida se toma aparte, la verdad pienso que estan viendo mi bitacora los de al otro lado eso es malo y bueno, por que malo, por que saben lo que pienso al respecto de todos ellos, y lo bueno, es que les entretenie tanto que tienen que seguir leyendo todas esa lineas.
+
+06-10-2022:
+Repaso de todas las lineas de código editadas => acomodar el tamaño de los paragraph para que se adapten al diseño de figma.
+Los nuevos updates en immlatam se pueden ver los tiempos y las cargas en netlify:
+    - build time: 6s
+    - Total deploy time: 10s
+    - 60.9MB
+
+Ahora, supuestamente acabando el curso de react de Fernando Herrera de React, debería de empezar con el de Juan pabblo, pero hacerlod e corrida, y el siguiente cuando este avanzando el de Juan Pablo, avanzar con BAckend.
+Por ahora no hay nada que pueda hacer, como siempre tendre que esperar, pero ya parece que deberdad no tengo nada que hacer.
+Por ahora que más debería aprender, la verdad hay mucho por cual caminos tomar, pero como nada esta escrito, entonces estoy en la deriva de cual usar, pero mira, Tailwind css y tailwind UI chacraUI, y Material UI.
+
+Esto solo es algo escrito por mi, asi que no creo que se convierta en realidad, pero la cancion nueva de league of legend esta buenisima.
+De lo que si estoy seguro, es que IMMETABOLICO  no le podrá ganar a IMMUJER, la cantidad de ususarios por minuto es mucho mayor que IMMETABOLICO por mas que le haya cambiado los meta tags
+
+
+07-10-2022:
+Por hoy solo subir los cambios que no pude subir, me dan ganas de subirlo al inicio del día, pero como no estoy seguro de si habrá más cambios.
+Que me espera más adelante, eso no lo sé.
+Ahora siento unos colicos, como si me estuvieran presionando las tripas, como jalandolas y probablemente termine atorando el baño jzjzjzjz.
+La carrera de programacion como dice Programador X puede estar en peligro.
+
+Las nuevas actualizacion incluyen:
+    - Corrección de palabras en la mayoria de las nuevas landings de ginecología.
+    - Corrección de estilos tambien en la mayoria de las nuevas landing; pero esto esta manejado por el scss de process.
+    - Lo escrito en la bitacora xD.
+    - Algunas modificaciones en IMMetabolico.
+    - No toqué IMM.pe hay menos cambios, o casi nada.
+Todas estas actualizaciones se subiran hoy en la tarde.
+
+Si estas empresas son buenas para resolver estas cosas, de que es lo que escribí aqui.
+
+10-10-2022:
+Aqui bitacora de BuzzYogurtLite habia problemas en el ssl, pero se arregló rápido, Saulo lo hizo, lo más problabe fue:
+    - Desinstalar el ssl, borrarlo, generar uno nuevo y volverlo a instalar; todo sin paga, y normal, por que el mismo contrato con cpanel lo hace.
+
+11-10-2022:
+Hay una parte de Egi y EMi que solo fue desarrollada como imagen por que no se podía modificar bien, con los conocimientos que yo tenía en ese entonces, y que ahora que se quiere una modificación, no se puede tan fácil por que todo está en imagen :C; solo queda esperar como responde la que se sulfura rápido.
+
+Ranking de las landings pages más visitadas septiembre:
+- EGI
+- Toma de muestra CM
+- EMI
+- Consulta
+
+13-10-2022:
+Por ahora no me estan dejando nada. Asi que no se que estoy esperando. A la espera de poder seguir con esto, la verdad que no se que deberia tener por aqui.
+No estoy poniendo nada de nada, lo mejor sería avanzar como si estuviera haciendo algo por mi. asi que seguiré.
+Tendre que poner la mayoria de mi atencion por tratar de aprender más sobre React y la mayoria de las actualizaciones vienen con otros frameWork: Remix, Next, RedWoodjs, Blitz ; Astro (todas estas trabajan con Reack por detras); Qwik (en este caso es uno de los más prometedores...)
