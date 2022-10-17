@@ -434,6 +434,44 @@ body {
                 }
             }
 
+            .characteres_content{
+                background-color: #fff;
+                text-align: center;
+                width: 28rem;
+                height: 28rem;
+                align-items: center;
+                justify-items: center;
+                justify-content: center;
+                display: flex;
+                box-shadow: -1.5rem -1.5rem 20px -5px rgba(51, 46, 46, 0.158);
+
+                .content{
+                    padding: 1rem ;
+                    max-width: 22rem; //*22rem sin problemas
+                    width: 100%;
+
+                    .img{
+                        height: 5.5rem;
+                    }
+
+                    .title{
+                        color: $azul;
+                        font-size: 2rem;
+                        font-family: $abel;
+                        margin: 1rem 0;
+                    }
+
+                    .paragraph{
+                        font-family: $poppins;
+                        font-size: 1.4rem;
+                    }
+
+                    &.b{
+                        max-width: 26rem;
+                    }
+                }
+            }
+
             .point2 {
                 width: 10rem;
                 position: absolute;
@@ -1527,6 +1565,22 @@ body {
                             width: 100%;
                             max-width: 35rem;
                             height: 22rem;
+                        }
+                    }
+                }
+
+                .characteres_content{
+                    max-width: 38rem;
+                    width: 100%;
+                    min-height: 20rem;
+                    height: auto;
+
+                    .content{
+                        max-width: 35rem;
+                        padding: 3rem 1rem;
+
+                        &.b{
+                            max-width: 33rem;
                         }
                     }
                 }
