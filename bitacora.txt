@@ -747,3 +747,16 @@ Ranking de las landings pages más visitadas septiembre:
 Por ahora no me estan dejando nada. Asi que no se que estoy esperando. A la espera de poder seguir con esto, la verdad que no se que deberia tener por aqui.
 No estoy poniendo nada de nada, lo mejor sería avanzar como si estuviera haciendo algo por mi. asi que seguiré.
 Tendre que poner la mayoria de mi atencion por tratar de aprender más sobre React y la mayoria de las actualizaciones vienen con otros frameWork: Remix, Next, RedWoodjs, Blitz ; Astro (todas estas trabajan con Reack por detras); Qwik (en este caso es uno de los más prometedores...)
+
+17-10-2022:
+bitacora de buzzzlightyear.... acabo de pasar las imagenes que se encontraban en svg en EGI & EMi a código. tendría que pasarlo a las demas a código para que lo vean masomenos, si el cambio se ve mal o esta aceptable.
+Lo que si no puedo hacer es dejar documentación de algo que no se lo que trabajó, por ejemplo los códigos originales de immetabolico, imm.pe.
+
+18-10-2022:
+Por ahora no hay mucho que yo pueda hacer.
+
+Quisiera aprender de manera rápida la mayoría de las cosas, pero en esta vida no se puede todo. eso es la malo.
+Tendre que avanzar lo de saulo haber que me sale, pero lo del backend, ver hasta donde puedo llegar con mis conocimiento basicos en nodejs
+
+19-10-2022:
+Hoy crearé en una rama aparte la de endocrinologas nueva para tenerlo como concepto
