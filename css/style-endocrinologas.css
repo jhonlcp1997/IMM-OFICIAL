@@ -238,16 +238,16 @@ html {
   font-weight: 900;
   font-size: 2rem;
 }
-.filosofy div {
+.filosofy .box {
   width: 100%;
   max-width: 70rem;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0rem auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
-.filosofy div div {
+.filosofy .box div {
   background-color: #fff;
   width: 20rem;
   height: 25rem;
@@ -258,12 +258,12 @@ html {
   font-family: "Poppins", sans-serif;
   color: #999999;
 }
-.filosofy div div img {
+.filosofy .box div img {
   width: 10rem;
   margin: 2rem 0;
   position: relative;
 }
-.filosofy div div p {
+.filosofy .box div p {
   color: #888;
   font-size: 0.9rem;
 }
