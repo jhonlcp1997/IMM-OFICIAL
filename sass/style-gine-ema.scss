@@ -74,7 +74,7 @@ body {
     display: flex;
     z-index: 1;
 
-    .home_box {
+    .home__box {
         position: relative;
         display: flex;
         width: 100%;
@@ -104,7 +104,7 @@ body {
             }
         }
         
-        .home-nav1 {
+        .home__nav1 {
             width: 100%;
             padding: 0rem 3rem 8rem 9.5rem;
             text-align: left;
@@ -134,7 +134,7 @@ body {
                 max-width: 39rem;
             }
 
-            .home-nav1-P_2 {
+            .home__nav1-P_2 {
                 font-family: $abel;
                 color: $azul;
                 font-size: 4.5rem;
@@ -710,10 +710,10 @@ body {
     .home {
         height: auto;
 
-        .home_box {
+        .home__box {
             width: 100%;
 
-            .home-nav1 {
+            .home__nav1 {
                 // background-color: #f4c6de;
                 padding: 0 0 0 2rem;
                 align-items: center;
@@ -823,13 +823,13 @@ body {
 @media (max-width: 800px) {
 
     .home {
-        .home_box {
-            .home-nav1 {
-                .home-nav1-P_1 {
+        .home__box {
+            .home__nav1 {
+                .home__nav1-P_1 {
                     font-size: 3.6rem;
                 }
 
-                .home-nav1-P_2 {
+                .home__nav1-P_2 {
                     font-size: 3.6rem;
                 }
             }
@@ -862,7 +862,7 @@ body {
 
     .home {   
         // height: 50rem;
-        .home_box {
+        .home__box {
             // Todo: esto es de prueba
             .home_bg_img{
                 // background-color: #fff;
@@ -876,7 +876,7 @@ body {
                 }
             }
 
-            .home-nav1{
+            .home__nav1{
                 .home-img_logo{
                     margin-top: 3rem;
                     .img_logo{
@@ -1080,7 +1080,7 @@ body {
             opacity: 0.35;
         }
         
-        .home_box{
+        .home__box{
             // padding: 0;
             // margin: 0;
 
@@ -1088,7 +1088,7 @@ body {
                 display: none;
             }
 
-            .home-nav1{
+            .home__nav1{
                 padding: 0;
                 margin: auto;
                 justify-content: center;
@@ -1104,9 +1104,9 @@ body {
 
                 p{
                     text-align: center;  
-                  }
-      
-                .home-nav1-P_2{
+                }
+
+                .home__nav1-P_2{
                     margin: auto;
                     text-align: center;
                 }

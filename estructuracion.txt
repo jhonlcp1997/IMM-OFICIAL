@@ -44,7 +44,29 @@ carrusel-egi-emi
 
 === Identacion:
 cuando agregamos una subclase agregamos lo hacemos con dobleguion bajo:
-clasePadre__claseHijo
+>>>>clasePadre__claseHijo
+En css: 
+- si el nodo hijo no es un contenedor como div, section, article etc 
+y es como una etiqueta como <p></p> <span></span> <small></small> etc : clasePadre-claseHijo
+- si el nodo padre tien varios nodos contenedores o simples, que son
+iguales y tendran diferente diseño: 
+clasePadre__claseHijo_1 
+clasePadre__claseHijo_2
+ó
+clasePadre-claseHijo_1
+clasePadre-claseHijo_2
+
+Si el nodo contendrá pocas secciones se puede dejar como señale lo que hace:
+<section class="box">
+    <h2 class="title>Titulo de algo</h2>
+    <article class="content">
+        <img class="img" />
+        <p class="paragraph>
+            lorem
+        </p>
+    </article>
+</section>
+
 CamelCase: padreHijo
 
 Nombres de clases que se pueden heredar por el nombre del tag:
