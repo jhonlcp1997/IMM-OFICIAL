@@ -352,7 +352,7 @@ html {
   display: flex;
   background: #fff;
   width: 25rem;
-  height: 9rem;
+  padding: 1.5rem 0;
   align-items: center;
   box-shadow: -1rem -1rem 40px -10px rgba(100, 100, 100, 0.25);
   z-index: 1;

@@ -755,8 +755,31 @@ Lo que si no puedo hacer es dejar documentación de algo que no se lo que trabaj
 18-10-2022:
 Por ahora no hay mucho que yo pueda hacer.
 
+
 Quisiera aprender de manera rápida la mayoría de las cosas, pero en esta vida no se puede todo. eso es la malo.
 Tendre que avanzar lo de saulo haber que me sale, pero lo del backend, ver hasta donde puedo llegar con mis conocimiento basicos en nodejs
 
 19-10-2022:
 Hoy crearé en una rama aparte la de endocrinologas nueva para tenerlo como concepto
+
+20-10-2022:
+No eh escrito nada asi que no se como iniciar algo así. pero bueno, cuando llegue tendré que dormir
+no escribire, nada mass
+
+21-10-2022:
+bitacora de Buzzligthyear, los servidores estan funcionando normal, no hay landings para crear o modificar, hasta noviembre, tampoco han dado problemas las páginas, por lo que, a esperar. no se si tendran eventos para navidad o año nuevo como una pagina tipo las redes sociales, donde puedes poner las actualizaciones de acuerdo a la temporada, es algo como cambiar los estilos por las estaciones y los eventos, nunca eh visto algo parecido, lo que más se acerca es google.
+
+Estoy haciendo una página tipo imm-navideño, pero todavia no está en modo conexión, no tiene un backend o una conexion así para guardarme los datos, y no sé hasta donde podré llegar. No creo que llegue a más.
+
+Por ahora no me encuentro muy bien de salud que digamos, pero no se si pueda avanzar; solo me queda recuperarme en el sol.
+
+Ya para finalizar estaré al pendiente de todos los cambios que nada.
+
+Aqui por ejemplo no se que estaré escribiendo, pero no es digamos la mejor parte de este día, yo quisiera avanzar con algo pero me siento lonly lonly si tu no estas, me siento solo si tu no estas, aaahhhhh... aaahhh.... mami me siento solo si tu no estas.
+
+24-10-2022:
+Se presentaron errores en la parte de egi & emi en la parte de escritura, más que nada ortografía; corregido lo subiré hoy a las 4:55pm, palabras en characteres>characteres-left
+
+primera ley de Daemon dos cuerpos con el mismo punto de inflexión no pueden existir en un mismo universo
+
+Hoy compre varios cursos de Fernando Herrera, con el se aprende las buenas practicas, lo básico y con eso es más que suficiente, tambien tengo de Blueweb de Vue 3 por que el está más enfocado a eso, y me faltaria a algunas rebajas, quisiera tambien las rebajas de Udemy para el blackFriday ahí comprare los que me falten, y tendré que comprarme un monitor para hacer mejor las cosas.
