@@ -13,17 +13,22 @@ function toggleContent() {
         if (this.nextElementSibling.nextElementSibling) {
             this.className = 'contenido-header open';
             this.nextElementSibling.className = 'contenido-body open';
-            // console.log(this.nextElementSibling.nextElementSibling.className);
             let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
 
             if(moment_sibling_name === 'contenido-body close'){
-                // console.log("Entro aqui revesion del hermano");
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+
+                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+                }
             } else{
-                // console.log(this.nextElementSibling.nextElementSibling.className);
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
-                // console.log(this.nextElementSibling.nextElementSibling.className);
+                
+                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+                }
             }
+
         } else {
             this.className = 'contenido-header open';
             this.nextElementSibling.className = 'contenido-body open';
@@ -40,10 +45,16 @@ function toggleContent() {
             if(moment_sibling_name === 'contenido-body open'){
                 // console.log("Entro aqui revesion del hermano");
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+
+                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+                }
             } else{
-                // console.log(this.nextElementSibling.nextElementSibling.className);
                 this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
-                // console.log(this.nextElementSibling.nextElementSibling.className);
+                
+                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+                }
             }
         } else {
             this.className = 'contenido-header close';
