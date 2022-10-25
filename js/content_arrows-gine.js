@@ -8,59 +8,80 @@ let contenido_body1 = document.querySelector('.contenido-body1');
 function toggleContent() {
     let itemClass = this.className;
 
-    if (itemClass === 'contenido-header close') {
-        // forOnCheckSiblings();
-        if (this.nextElementSibling.nextElementSibling) {
-            this.className = 'contenido-header open';
-            this.nextElementSibling.className = 'contenido-body open';
-            let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
+    let parentHeader = this.parentNode;
+    let childrens = parentHeader.childNodes;
 
-            if(moment_sibling_name === 'contenido-body close'){
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+    if (itemClass === 'contenido-header close'){
+        this.className = 'contenido-header open';
 
-                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
-                }
-            } else{
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
-                
-                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
-                }
+        for(let i of childrens){
+            if( i.className == 'contenido-body close'){
+                i.className = 'contenido-body open';
             }
-
-        } else {
-            this.className = 'contenido-header open';
-            this.nextElementSibling.className = 'contenido-body open';
         }
-
     } else {
+        this.className = 'contenido-header close';
 
-        if (this.nextElementSibling.nextElementSibling) {
-            this.className = 'contenido-header close';
-            this.nextElementSibling.className = 'contenido-body close';
-            // console.log(this.nextElementSibling.nextElementSibling.className);
-            let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
-
-            if(moment_sibling_name === 'contenido-body open'){
-                // console.log("Entro aqui revesion del hermano");
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-
-                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-                }
-            } else{
-                this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
-                
-                if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-                    this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-                }
+        for(let i of childrens){
+            if( i.className == 'contenido-body open'){
+                i.className = 'contenido-body close'
             }
-        } else {
-            this.className = 'contenido-header close';
-            this.nextElementSibling.className = 'contenido-body close';
         }
     }
+
+    // if (itemClass === 'contenido-header close') {
+    //     // forOnCheckSiblings();
+    //     if (this.nextElementSibling.nextElementSibling) {
+    //         this.className = 'contenido-header open';
+    //         this.nextElementSibling.className = 'contenido-body open';
+    //         let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
+
+    //         if(moment_sibling_name === 'contenido-body close'){
+    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+
+    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+    //             }
+    //         } else{
+    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
+                
+    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
+    //             }
+    //         }
+
+    //     } else {
+    //         this.className = 'contenido-header open';
+    //         this.nextElementSibling.className = 'contenido-body open';
+    //     }
+
+    // } else {
+
+    //     if (this.nextElementSibling.nextElementSibling) {
+    //         this.className = 'contenido-header close';
+    //         this.nextElementSibling.className = 'contenido-body close';
+    //         // console.log(this.nextElementSibling.nextElementSibling.className);
+    //         let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
+
+    //         if(moment_sibling_name === 'contenido-body open'){
+    //             // console.log("Entro aqui revesion del hermano");
+    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+
+    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+    //             }
+    //         } else{
+    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
+                
+    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
+    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
+    //             }
+    //         }
+    //     } else {
+    //         this.className = 'contenido-header close';
+    //         this.nextElementSibling.className = 'contenido-body close';
+    //     }
+    // }
 }
 
 function forOnCheckSiblings (){
