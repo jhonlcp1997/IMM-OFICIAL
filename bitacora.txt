@@ -783,3 +783,28 @@ Se presentaron errores en la parte de egi & emi en la parte de escritura, más q
 primera ley de Daemon dos cuerpos con el mismo punto de inflexión no pueden existir en un mismo universo
 
 Hoy compre varios cursos de Fernando Herrera, con el se aprende las buenas practicas, lo básico y con eso es más que suficiente, tambien tengo de Blueweb de Vue 3 por que el está más enfocado a eso, y me faltaria a algunas rebajas, quisiera tambien las rebajas de Udemy para el blackFriday ahí comprare los que me falten, y tendré que comprarme un monitor para hacer mejor las cosas.
+
+tengo: 
+Angular de 0 a experto
+React de 0 a experto
+Vue 3 de 0 a experto
+Principios S.O.L.I.D
+Typescript
+React Native
+Next js
+
+25-10-2022:
+Estemos en la espera de nuevas landings.
+Hay redundancia en el primer contenido que llegue:
+
+
+Previo al ayuno
+Evita alimentos altos en grasas durante la cena evitando comidas abundantes y alimentos altos en grasas (frituras, comida rápida, etc).
+
+Evita alimentos altos en grasas durante la cena, comidas abundantes y alimentos altos en grasas (frituras, comida rápida, etc).
+
+Esto de arriba estaría mejor.
+
+No se como me salió tan bien las partes pequeñas de Muestra de sangre, esta muy bien construidas.
+
+Siempre pense qie todo se podria pasar a React o a Next js con algo de creatividad, pero la parte de que nuestro servidor tenga node js eso sería un problema, no esta dentro de mis conocimientos.
