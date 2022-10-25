@@ -14,89 +14,24 @@ function toggleContent() {
     if (itemClass === 'contenido-header close'){
         this.className = 'contenido-header open';
 
-        for(let i of childrens){
-            if( i.className == 'contenido-body close'){
-                i.className = 'contenido-body open';
+        for(let child of childrens){
+            if( child.className == 'contenido-body close'){
+                child.className = 'contenido-body open';
             }
         }
     } else {
         this.className = 'contenido-header close';
 
-        for(let i of childrens){
-            if( i.className == 'contenido-body open'){
-                i.className = 'contenido-body close'
+        for(let child of childrens){
+            if( child.className == 'contenido-body open'){
+                child.className = 'contenido-body close';
             }
-        }
-    }
-
-    // if (itemClass === 'contenido-header close') {
-    //     // forOnCheckSiblings();
-    //     if (this.nextElementSibling.nextElementSibling) {
-    //         this.className = 'contenido-header open';
-    //         this.nextElementSibling.className = 'contenido-body open';
-    //         let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
-
-    //         if(moment_sibling_name === 'contenido-body close'){
-    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body open';
-
-    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
-    //             }
-    //         } else{
-    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body1 open';
-                
-    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body open';
-    //             }
-    //         }
-
-    //     } else {
-    //         this.className = 'contenido-header open';
-    //         this.nextElementSibling.className = 'contenido-body open';
-    //     }
-
-    // } else {
-
-    //     if (this.nextElementSibling.nextElementSibling) {
-    //         this.className = 'contenido-header close';
-    //         this.nextElementSibling.className = 'contenido-body close';
-    //         // console.log(this.nextElementSibling.nextElementSibling.className);
-    //         let moment_sibling_name = this.nextElementSibling.nextElementSibling.className;
-
-    //         if(moment_sibling_name === 'contenido-body open'){
-    //             // console.log("Entro aqui revesion del hermano");
-    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-
-    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-    //             }
-    //         } else{
-    //             this.nextElementSibling.nextElementSibling.className = 'contenido-body1 close';
-                
-    //             if(this.nextElementSibling.nextElementSibling.nextElementSibling){
-    //                 this.nextElementSibling.nextElementSibling.nextElementSibling.className = 'contenido-body close';
-    //             }
-    //         }
-    //     } else {
-    //         this.className = 'contenido-header close';
-    //         this.nextElementSibling.className = 'contenido-body close';
-    //     }
-    // }
-}
-
-function forOnCheckSiblings (){
-    for(let k=0; k<contenido_body.length; k++){
-        contenido_header[k].className = 'contenido-header close';
-        contenido_body[k].className = 'contenido-body close';
-        if(contenido_body[k].nextElementSibling){
-            contenido_body1.className = 'contenido-body1 close';
         }
     }
 }
 
 contenido_header.forEach((el) => {
-    el.addEventListener('click', toggleContent)
-    // console.log("Aqui entro a las cosas de forEach")
+    el.addEventListener('click', toggleContent);
 })
 
 // *============= dezplamiento agregado de EMI======
