@@ -1133,6 +1133,24 @@ body {
 
 @media (max-width: 370px) {
 
+    .time-price {
+        margin: 15rem auto 6rem auto;
+    }
+
+    .cases {
+        .cases__box {
+            gap: 4rem;
+
+            .case {
+                max-width: 20rem;
+
+                .img {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
     .inbody {
         .inbody__box {
             .box_img {
