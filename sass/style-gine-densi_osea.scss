@@ -409,7 +409,7 @@ body {
 
     .cases__box{
         width: 95%;
-        max-width: 110rem;
+        max-width: 112rem;
         display: flex;
         flex-wrap: wrap;
         margin: auto;
@@ -428,6 +428,10 @@ body {
             .paragraph {
                 font-size: 1.5rem;
                 font-family: $poppins;
+            }
+
+            &.b{
+                max-width: 20rem;
             }
         }
     }

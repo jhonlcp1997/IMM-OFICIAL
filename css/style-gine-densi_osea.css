@@ -365,7 +365,7 @@ body {
 }
 .cases .cases__box {
   width: 95%;
-  max-width: 110rem;
+  max-width: 112rem;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -383,6 +383,9 @@ body {
 .cases .cases__box .case .paragraph {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
+}
+.cases .cases__box .case.b {
+  max-width: 20rem;
 }
 
 .inbody {
