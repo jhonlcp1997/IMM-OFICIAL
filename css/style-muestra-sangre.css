@@ -313,10 +313,18 @@ html {
   display: inline;
   text-align: right;
 }
+.avoid .avoid_features .features_strong .content span {
+  display: block;
+  font-size: 0.8rem;
+}
 .avoid .avoid_features .features_p {
   width: 10rem;
   display: inline;
   text-align: left;
+}
+.avoid .avoid_features .features_p .trash {
+  font-size: 0.8rem;
+  opacity: 0;
 }
 .avoid .importante {
   font-family: "Abel", sans-serif;

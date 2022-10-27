@@ -388,12 +388,24 @@ $poppins: "Poppins", sans-serif;
             width: 20rem;
             display: inline;
             text-align: right;
+
+            .content {
+                span {
+                    display: block;
+                    font-size: .8rem;
+                }
+            }
         }
 
         .features_p {
             width: 10rem;
             display: inline;
             text-align: left;
+
+            .trash {
+                font-size: .8rem;
+                opacity: 0;
+            }
         }
     }
 
