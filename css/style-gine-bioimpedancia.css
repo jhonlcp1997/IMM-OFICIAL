@@ -551,7 +551,7 @@ body {
   .inbody .inbody__box .box_img {
     flex: 1 1 30rem;
     width: 100%;
-    background-color: #007cc3;
+    height: 34rem;
   }
   .inbody .inbody__box .box_img .img {
     width: auto;
