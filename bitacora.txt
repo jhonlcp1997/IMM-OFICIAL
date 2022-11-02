@@ -808,3 +808,16 @@ Esto de arriba estaría mejor.
 No se como me salió tan bien las partes pequeñas de Muestra de sangre, esta muy bien construidas.
 
 Siempre pense qie todo se podria pasar a React o a Next js con algo de creatividad, pero la parte de que nuestro servidor tenga node js eso sería un problema, no esta dentro de mis conocimientos.
+
+28-10-2022:
+Bitacora de buzzz no me acuerdo que sigue, esta semana me toco subir 3 landings pages, eran de los que estaban dentro de figma, y masomenos ya me los sabía.
+- Bioimpedancia
+- Tomosintesis 3D
+- Densitometria osea.
+
+02-11-2022:
+Por ahora no tengo nada más que revisiones.
+Tengo muchas cosas que no se que podría hacer.
+se creen que yo podria hacer mejores cosas que las que ya tengo, por lo que no se que podria hacer.
+
+Bioimpedancia tiene una sección que utiliza un float, esto es por que no conosco otras opciones
