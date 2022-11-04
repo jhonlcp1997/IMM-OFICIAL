@@ -226,6 +226,10 @@ $poppins: "Poppins", sans-serif;
                             font-size: 1.2rem;
                             font-family: $poppins;
                             font-weight: 700;
+
+                            span {
+                                color: $blue1;
+                            }
                         }
                     }
 

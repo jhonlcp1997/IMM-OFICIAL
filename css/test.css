@@ -250,6 +250,9 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+.main .content.third .sub-content .article .description .p span {
+  color: #007cc3;
+}
 .main .content.third .sub-content .article .pages {
   padding-top: 2rem;
 }
