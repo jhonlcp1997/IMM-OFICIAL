@@ -1080,6 +1080,7 @@ html {
 @media screen and (max-width: 370px) {
   .main .content.third .sub-content .article {
     min-height: 3rem;
+    padding: 0 0.5rem;
   }
   .main .content.third .sub-content .article .title {
     max-width: 17.6rem;
