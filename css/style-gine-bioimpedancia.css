@@ -694,6 +694,7 @@ body {
     height: 40px;
   }
   .info-date {
+    margin-top: 2rem;
     padding: 2rem 0.5rem;
   }
   .info-date .section__subtitle {
