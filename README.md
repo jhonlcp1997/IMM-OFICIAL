@@ -47,6 +47,16 @@ Primer repositorio del Instituto Médico de la Mujer
     - ginecologia-egi.html
     - ginecologia-ema.html
     - ginecologia-emi.html
+    - ginecologia-bioimpedancia.html
+    - ginecologia-biopsia_de_cervix.html
+    - ginecologia-biopsia_de_mama_percutanea.html
+    - ginecologia-cauterizacion_de_cervix.html
+    - ginecologia-cono_asa_de_cervix.html
+    - ginecologia-histerosonografia.html
+    - ginecologia-procedimiento.html
+    - ginecologia-tomosintesis.html
+    - ginecologia-vaporización_de_condilomas.html
+    - ginecologia-vaporización_displasia_de_cervix.html
 
     - index-general.html (indice de todas las paginas en urlPrueba y urlOficial)
 
