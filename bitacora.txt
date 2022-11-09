@@ -881,4 +881,28 @@ Por lo que entendí de las demás, y por como hay que tratarlas:
 
 3- La vaga, es alguien que está transicionando entre la edad joven y la mayor, pero se aferra a la joven.
 
-Quizá mi manera seca de tratarlas no cayó bien, pero fue una manera de contrarrestrar, no es la mejor manera, pero incluso si o he tenido el mejor comienzo tengo que avanzar, por de eso se trata crecer, tengo que avanzar, por mi y mi fututo de mierda...... si mi futuro de mierd..... una basura mi pasado, me ata a muchas cosas
+Quizá mi manera seca de tratarlas no cayó bien, pero fue una manera de contrarrestrar, no es la mejor manera, pero incluso si o he tenido el mejor comienzo tengo que avanzar, por de eso se trata crecer, tengo que avanzar, por mi y mi fututo de mierda...... si mi futuro de mierd..... una basura mi pasado, me ata a muchas cosas... avanzar, no queda de otra.
+
+
+Después de varias revisiones, las páginas que más dolor causan revisar son los media queries en modo tablet, que son los mas dificiles de arreglar, por que causan un dolor de cabeza frente al with o height, se tiene que modificar muchas cosas... lo bueno es que trabajar con sass me a ayudado mucho, Tampoco puedo completar los scripts que son brindados por Google Analitics, estos dificiles de manejar, más adelante comprederé las cosas, pero al ser google lo dejaré ahí.
+
+Con cada cosa que aprendas, pero que lo aprendas bien, te suma más del triple de cuando solo lo aprendes por aprender. Eso siempre me pasó, y no trates de aprender por aprender.
+
+Metí la pata por darmela de detallador cuando alguien me pide algo de información eso no lo controlo, así es, no puedo controlar mi bocota por qué.
+
+08-11-2022:
+Algunos <div> </div> se encuentran por diferentes partes de los htmls, es muy cansado revisrlo,
+Cambiarlos por los siguientes:
+<section></section>
+<article></article>
+<header></header>
+<main></main>
+
+y los parrafos simples agregarles:
+h1,h2, h3......
+<span></span>
+<strong></strong>
+
+09-11-2022:
+Hay vairas lineas que las deh dejado en modo comentario, así que no se cuando por lo menos pueda restaurarlos,
+Hasta ahora no se utiliza el plugin del flipbook de PDFs, eso es algo que se podrá hacer más adelante.
