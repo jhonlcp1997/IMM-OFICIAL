@@ -906,3 +906,18 @@ h1,h2, h3......
 09-11-2022:
 Hay vairas lineas que las deh dejado en modo comentario, así que no se cuando por lo menos pueda restaurarlos,
 Hasta ahora no se utiliza el plugin del flipbook de PDFs, eso es algo que se podrá hacer más adelante.
+
+10-11-2022:
+Ayer subí las landings de: 
+- Bioimpedancia
+- Tomosintesis 3D
+- Densitometria osea
+
+Las subí con el google analitics, espero tenga que subir dentro de poco.
+No sé por que tenemos que actualizarlo manualmente los SSL si el mismo servidor debería ejecutarlo cuando no hay lectura de la página web
+
+Lo que no sé es como puedo aplicar las cosas que estoy aprendiendo :C
+Algún dia es haré algo que valga la pena. Eso me pregunto, no creo que estaé por aqui
+
+11-11-2022: 
+Algo importante que pasó en mi vida, y es que por más de 20 años esperé este tipo de noticia, y es que lo mejor de todo es que Ash ketchup Salió campeón del mundo.
