@@ -924,3 +924,22 @@ Algo importante que pasó en mi vida, y es que por más de 20 años esperé este
 
 15-11-2022:
 Por ahora no hay algo en lo que deba adelantar creo. pero bueno.. seguire comentado despues de esto
+
+16-11-2022:
+Por ahora no hice nada, y por lo pronto, a esperar que algo pueda suceder, lo de agregar backend sería mucho, la verdad no se como desarrollarlo, tampoco como implementarlo con el front
+Eso sería mejor no.
+
+18-11-2022:
+Estoy empezando a dar los primeros vistasos en firebase, es complicado, eso sí, pero según dicen, te puede ayudar a mejorar algunas cosas.
+Soy yo o los nuevos diseños de los de react-native parecen muy similares :O . Ah, tambien hay gente que se enoja por que algunos comparten su diseño de figma, quizá por eso...
+
+El tamaño de las pantallas es casi un dolor de cabeza, los diseños están repetidos, eso no secomo pueda hacrlos en la misma medida, como que siempre están. 
+
+A faker  como siempre, hay buenisimas canciones, solo que no son como los escucho, por que en tiktok tienen mejor edición, de los mejores.
+
+Hoy es viernes espero que no se puedan romper tan facilmente, turn me de kelvin little
+position: relative; ===> esta gafera es muy buena, puedes hacer los carruseles sin tener que modificar su desplazamiento, solo cambiando su opacidad
+En el flopbook, puse algunos de los nombre en español, al parecer aún se pueden modificar en el minificado, lo mejor era que se encuentran en las primeras partes de la line de código; eso es lo máximo en lo que puedo modificar.
+Si se utiliza o no se utiliza, igual tendré que crear su apartado en el index-general.html
+
+Es viernes pocas actualizaciones modificaciones en el flipbook, la mayoria en cambio de idiomas a español, solo en los botones, el resto esta minificado. recontra indesifrable.
