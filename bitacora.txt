@@ -943,3 +943,8 @@ En el flopbook, puse algunos de los nombre en español, al parecer aún se puede
 Si se utiliza o no se utiliza, igual tendré que crear su apartado en el index-general.html
 
 Es viernes pocas actualizaciones modificaciones en el flipbook, la mayoria en cambio de idiomas a español, solo en los botones, el resto esta minificado. recontra indesifrable.
+
+21-11-2022:
+Apartir de aquí estoy contando los días para poder ir a mocupe, por un día x,D
+
+Estoy empezando a cambiar los nombres de las clases, con __ y con camelCase, solo a esperar que no haya problemas al integralos
