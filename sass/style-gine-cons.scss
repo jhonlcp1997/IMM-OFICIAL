@@ -173,7 +173,7 @@ body {
         opacity: 0.03;
     }
 
-    .home-img_logo{
+    .home__imgLogo{
         // background-color: #f173ac;
         max-width: 115rem;
         width: 90%;
@@ -184,7 +184,7 @@ body {
         }
     }
 
-    .home_box {
+    .home__box {
         width: 95%;
         max-width: 120rem;
         margin: auto;
@@ -333,7 +333,7 @@ body {
         // padding: 3rem 9%;
         flex-wrap: wrap;
     
-        .time-price_box1 {
+        .time-price__box1 {
             flex: 1 1 30rem;
             height: 20rem;
             background: rgba(191, 191, 191, 0.25);
@@ -351,7 +351,7 @@ body {
                 left: -2rem;
             }
     
-            .time-price_box2_img {
+            .time-price__box2_img {
                 width: 10rem;
                 height: 7rem;
             }
@@ -374,7 +374,7 @@ body {
             }
         }
     
-        .time-price_box2 {
+        .time-price__box2 {
             height: 20rem;
             flex: 1 1 30rem;
             text-align: center;
@@ -385,7 +385,7 @@ body {
             background-image: url(../img/image-simple-2/Fondo2.png);
             background-size: cover;
     
-            .time-price_box2_img {
+            .time-price__box2_img {
                 width: 10rem;
                 height: 7rem;
             }
@@ -417,7 +417,7 @@ body {
         margin: 10rem auto 4rem auto;
         // justify-content: space-between;
 
-        .atention-div1{
+        .atention__div1{
             flex: 1 1 50rem;
             margin-bottom: 1rem;
             // background-color: #9f9f9f;
@@ -431,7 +431,7 @@ body {
                 font-family: $abel;
             }
 
-            .sub_subtittle{
+            .subtittle{
                 font-family: "Poppins", sans-serif;
                 font-size: 1.5rem;
                 color: $black;
@@ -442,7 +442,7 @@ body {
                 color: $azul;
                 padding: 0 2rem;
                 
-                .ul-li{
+                .ul__li{
                     margin: .5rem 0;
                     font-family: "Poppins", sans-serif;
                     font-size: 1.3rem;
@@ -453,7 +453,7 @@ body {
             }
         }
 
-        .atention-div2{
+        .atention__div2{
             margin: auto;
             // background-color: #f5a4c7;
             justify-content: center;
@@ -483,7 +483,7 @@ body {
     position: relative;
     top: 2rem;
 
-    h2 {
+    .title {
         font-family: $abel;
         color: $pink3;
         font-size: 2.8rem;
@@ -697,7 +697,7 @@ body {
         display: inline-block;
         margin: 10rem auto 2rem auto;
 
-        .ofrecemos_footer_div1 {
+        .ofrecemos_footer__div1 {
             display: flex;
             justify-content: space-between;
             width: 95rem;
@@ -793,7 +793,7 @@ body {
             }
         }
 
-        .ofrecemos_footer_div2 {
+        .ofrecemos_footer__div2 {
             border-top: 1px solid #bfbfbf;
 
             p {
@@ -819,7 +819,7 @@ body {
     .home {
         height: auto;
 
-        .home_box {
+        .home__box {
             // background-color: #bfbfbf;
             width: 100%;
 
@@ -855,7 +855,7 @@ body {
     }
 
     .time-price {
-        .time-price_box1 {
+        .time-price__box1 {
             .point3 {
                 display: none;
             }
@@ -876,7 +876,7 @@ body {
             width: 100%;
             padding: 0 2rem;
 
-            .ofrecemos_footer_div1 {
+            .ofrecemos_footer__div1 {
                 width: 100%;
             }
         }
@@ -1054,7 +1054,7 @@ body {
     }
 
     .home {
-        .home_box {
+        .home__box {
             .home-nav1 {
                 .home-nav1-P_1 {
                     font-size: 2.6rem;
@@ -1088,7 +1088,7 @@ body {
             padding: 0;
             margin-top: 5rem;
 
-            .ofrecemos_footer_div1 {
+            .ofrecemos_footer__div1 {
                 display: inline;
                 div {
                     justify-content: left;
@@ -1149,7 +1149,7 @@ body {
 
     .footer{
         .ofrecemos-footer{
-            .ofrecemos_footer_div1{
+            .ofrecemos_footer__div1{
                 div{
                     a{
                         i{
@@ -1247,7 +1247,7 @@ body {
     }
 
     .home {
-        .home-img_logo{
+        .home__imgLogo{
             text-align: center;
             padding-bottom: 2rem;
             
@@ -1255,7 +1255,7 @@ body {
                 height: 5rem;
             }
         }
-        .home_box {
+        .home__box {
             display: flex;
             flex-wrap: wrap-reverse;
             padding-top: 0;
@@ -1301,7 +1301,7 @@ body {
     }
 
     .info-date {
-        h2 {
+        .title {
             font-size: 2rem;
         }
 

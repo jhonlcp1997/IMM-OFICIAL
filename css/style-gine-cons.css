@@ -113,16 +113,16 @@ body {
   /* Specify the background image */
   opacity: 0.03;
 }
-.home .home-img_logo {
+.home .home__imgLogo {
   max-width: 115rem;
   width: 90%;
   margin: auto;
   padding-top: 3rem;
 }
-.home .home-img_logo .img_logo {
+.home .home__imgLogo .img_logo {
   height: 5rem;
 }
-.home .home_box {
+.home .home__box {
   width: 95%;
   max-width: 120rem;
   margin: auto;
@@ -130,25 +130,25 @@ body {
   justify-content: space-between;
   padding: 3rem;
 }
-.home .home_box .home-nav1 {
+.home .home__box .home-nav1 {
   z-index: 10;
   padding: 8rem 3rem 8rem 0;
   text-align: left;
 }
-.home .home_box .home-nav1 P {
+.home .home__box .home-nav1 P {
   color: #fff;
   font-family: "Abel", sans-serif;
   text-align: left;
   margin: 0.5rem 0;
 }
-.home .home_box .home-nav1 .home-nav1-P_2 {
+.home .home__box .home-nav1 .home-nav1-P_2 {
   font-size: 3.5rem;
 }
-.home .home_box .home-nav1 .home-nav1-P_3 {
+.home .home__box .home-nav1 .home-nav1-P_3 {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
 }
-.home .home_box .home-nav1 div {
+.home .home__box .home-nav1 div {
   margin-top: 2.5rem;
   padding-top: 0.5rem;
   color: #fff;
@@ -159,36 +159,36 @@ body {
   background: #f173ac;
   border-radius: 5px;
 }
-.home .home_box .home-nav1 div a {
+.home .home__box .home-nav1 div a {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-size: 1.5rem;
   font-weight: 100;
 }
-.home .home_box .home-nav1 div a i {
+.home .home__box .home-nav1 div a i {
   position: relative;
   font-size: 1.5rem;
   margin-right: 1rem;
   padding-right: 1rem;
   border-right: 1px solid #fff;
 }
-.home .home_box .home-nav1 div:hover {
+.home .home__box .home-nav1 div:hover {
   transition: 0.2s linear;
   transform: scale(1.1);
 }
-.home .home_box .home-nav2 {
+.home .home__box .home-nav2 {
   margin-left: auto;
   z-index: 10;
   display: flex;
   justify-content: right;
   text-align: right;
 }
-.home .home_box .home-nav2 img {
+.home .home__box .home-nav2 img {
   text-align: right;
   justify-content: right;
   box-shadow: -3rem 0 80px -70px rgb(51, 46, 46);
 }
-.home .home_box .img-fondo .img-1 {
+.home .home__box .img-fondo .img-1 {
   width: 14rem;
   position: absolute;
   z-index: 100;
@@ -242,7 +242,7 @@ body {
   margin: 0 auto 1rem auto;
   flex-wrap: wrap;
 }
-.study .time-price .time-price_box1 {
+.study .time-price .time-price__box1 {
   flex: 1 1 30rem;
   height: 20rem;
   background: rgba(191, 191, 191, 0.25);
@@ -251,31 +251,31 @@ body {
   align-items: center;
   position: relative;
 }
-.study .time-price .time-price_box1 .point3 {
+.study .time-price .time-price__box1 .point3 {
   width: 10rem;
   position: absolute;
   z-index: 100;
   top: -2rem;
   left: -2rem;
 }
-.study .time-price .time-price_box1 .time-price_box2_img {
+.study .time-price .time-price__box1 .time-price__box2_img {
   width: 10rem;
   height: 7rem;
 }
-.study .time-price .time-price_box1 div {
+.study .time-price .time-price__box1 div {
   padding-right: 1rem;
 }
-.study .time-price .time-price_box1 div h3 {
+.study .time-price .time-price__box1 div h3 {
   font-family: "Abel", sans-serif;
   font-size: 2rem;
   color: #f173ac;
 }
-.study .time-price .time-price_box1 div p {
+.study .time-price .time-price__box1 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   color: #000;
 }
-.study .time-price .time-price_box2 {
+.study .time-price .time-price__box2 {
   height: 20rem;
   flex: 1 1 30rem;
   text-align: center;
@@ -286,19 +286,19 @@ body {
   background-image: url(../img/image-simple-2/Fondo2.png);
   background-size: cover;
 }
-.study .time-price .time-price_box2 .time-price_box2_img {
+.study .time-price .time-price__box2 .time-price__box2_img {
   width: 10rem;
   height: 7rem;
 }
-.study .time-price .time-price_box2 div {
+.study .time-price .time-price__box2 div {
   color: #fff;
   padding-right: 1rem;
 }
-.study .time-price .time-price_box2 div h3 {
+.study .time-price .time-price__box2 div h3 {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
 }
-.study .time-price .time-price_box2 div p {
+.study .time-price .time-price__box2 div p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
 }
@@ -309,11 +309,11 @@ body {
   flex-wrap: wrap;
   margin: 10rem auto 4rem auto;
 }
-.study .atention .atention-div1 {
+.study .atention .atention__div1 {
   flex: 1 1 50rem;
   margin-bottom: 1rem;
 }
-.study .atention .atention-div1 .tittle {
+.study .atention .atention__div1 .tittle {
   padding: 0;
   margin: 0;
   text-align: left;
@@ -321,34 +321,34 @@ body {
   font-size: 2.8rem;
   font-family: "Abel", sans-serif;
 }
-.study .atention .atention-div1 .sub_subtittle {
+.study .atention .atention__div1 .subtittle {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   color: #000;
   margin: 1rem 0;
 }
-.study .atention .atention-div1 .ul {
+.study .atention .atention__div1 .ul {
   color: #007cc3;
   padding: 0 2rem;
 }
-.study .atention .atention-div1 .ul .ul-li {
+.study .atention .atention__div1 .ul .ul__li {
   margin: 0.5rem 0;
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
 }
-.study .atention .atention-div1 .ul .ul-li p {
+.study .atention .atention__div1 .ul .ul__li p {
   color: #000;
 }
-.study .atention .atention-div2 {
+.study .atention .atention__div2 {
   margin: auto;
   justify-content: center;
 }
-.study .atention .atention-div2 .img {
+.study .atention .atention__div2 .img {
   display: flex;
   text-align: center;
   margin-top: 1rem;
 }
-.study .atention .atention-div2 .img img {
+.study .atention .atention__div2 .img img {
   width: 12rem;
 }
 
@@ -363,7 +363,7 @@ body {
   position: relative;
   top: 2rem;
 }
-.info-date h2 {
+.info-date .title {
   font-family: "Abel", sans-serif;
   color: #f173ac;
   font-size: 2.8rem;
@@ -531,78 +531,78 @@ body {
   display: inline-block;
   margin: 10rem auto 2rem auto;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 {
   display: flex;
   justify-content: space-between;
   width: 95rem;
   height: 10rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 i {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 i {
   color: #f173ac;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div {
   display: flex;
   max-width: 30rem;
   width: 100%;
   justify-content: center;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div a {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div a {
   position: relative;
   top: 10px;
   text-align: center;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div a i {
   font-size: 3rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 {
   list-style-type: none;
   margin-left: 1.5rem;
   font-family: "Poppins", sans-serif;
   text-align: left;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 h2, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 h2 {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 h2, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 h2, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 h2 {
   font-size: 1.6rem;
   font-family: "Abel", sans-serif;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li p {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 li p {
   font-size: 1.3rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 li {
   padding-top: 1rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 li {
   padding-top: 0.8rem;
   color: #007cc3;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 li {
   font-size: 1.3rem;
   color: #007cc3;
   font-weight: 100;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 ul {
   padding: 0.3rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 ul a {
   padding-top: 0.5rem;
   position: inherit;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 ul a i {
   margin-right: 1rem;
   color: #666;
   font-size: 2rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a i:hover {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 ul a i:hover {
   color: #007cc3;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 ul a .fab.fa-instagram {
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 ul a .fab.fa-instagram {
   position: relative;
   top: 0.19rem;
   font-size: 2.3rem;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div2 {
+.footer .ofrecemos-footer .ofrecemos_footer__div2 {
   border-top: 1px solid #bfbfbf;
 }
-.footer .ofrecemos-footer .ofrecemos_footer_div2 p {
+.footer .ofrecemos-footer .ofrecemos_footer__div2 p {
   font-family: "Poppins", sans-serif;
   margin-top: 1.5rem;
   color: #000;
@@ -617,33 +617,33 @@ body {
   .home {
     height: auto;
   }
-  .home .home_box {
+  .home .home__box {
     width: 100%;
   }
-  .home .home_box .home-nav1 {
+  .home .home__box .home-nav1 {
     display: inline-block;
     padding: 5rem 3rem 3rem 0;
     align-items: center;
     vertical-align: middle;
   }
-  .home .home_box .home-nav1 .home-nav1-P_3 {
+  .home .home__box .home-nav1 .home-nav1-P_3 {
     max-width: 40rem;
   }
-  .home .home_box .home-nav2 {
+  .home .home__box .home-nav2 {
     display: flex;
     width: 50%;
     align-items: center;
   }
-  .home .home_box .home-nav2 img {
+  .home .home__box .home-nav2 img {
     width: 100%;
   }
-  .home .home_box .img-fondo {
+  .home .home__box .img-fondo {
     display: none;
   }
   .study {
     padding: 5rem 0 1rem 0;
   }
-  .time-price .time-price_box1 .point3 {
+  .time-price .time-price__box1 .point3 {
     display: none;
   }
   .info-date {
@@ -657,7 +657,7 @@ body {
     width: 100%;
     padding: 0 2rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 {
     width: 100%;
   }
 }
@@ -788,10 +788,10 @@ body {
     margin-top: 0.5rem;
     font-size: 0.9rem;
   }
-  .home .home_box .home-nav1 .home-nav1-P_1 {
+  .home .home__box .home-nav1 .home-nav1-P_1 {
     font-size: 2.6rem;
   }
-  .home .home_box .home-nav1 .home-nav1-P_2 {
+  .home .home__box .home-nav1 .home-nav1-P_2 {
     font-size: 2.8rem;
   }
   .tips .tips__box .box .box__img {
@@ -806,10 +806,10 @@ body {
     padding: 0;
     margin-top: 5rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 {
     display: inline;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div {
     justify-content: left;
     margin: 3rem;
     padding-right: 3rem;
@@ -837,19 +837,19 @@ body {
   .info-date .info-date-container .info-contenido .contenido-body.open {
     height: 13rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div a i {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div a i {
     font-size: 3.8rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 {
     padding-left: 0.6rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul1 li p {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 li p {
     font-size: 1.14rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul2 li p {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 li p {
     font-size: 1.14rem;
   }
-  .footer .ofrecemos-footer .ofrecemos_footer_div1 div .footer-ul3 li {
+  .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 li {
     font-size: 1.14rem;
   }
 }
@@ -886,46 +886,46 @@ body {
     font-size: 1rem;
     margin: 0 1rem;
   }
-  .home .home-img_logo {
+  .home .home__imgLogo {
     text-align: center;
     padding-bottom: 2rem;
   }
-  .home .home-img_logo .img_logo {
+  .home .home__imgLogo .img_logo {
     height: 5rem;
   }
-  .home .home_box {
+  .home .home__box {
     display: flex;
     flex-wrap: wrap-reverse;
     padding-top: 0;
   }
-  .home .home_box .home-nav1 {
+  .home .home__box .home-nav1 {
     padding: 1rem 0;
     margin: 0 auto;
   }
-  .home .home_box .home-nav1 .home-nav1-P_1 {
+  .home .home__box .home-nav1 .home-nav1-P_1 {
     text-align: center;
   }
-  .home .home_box .home-nav1 .home-nav1-P_2 {
+  .home .home__box .home-nav1 .home-nav1-P_2 {
     text-align: center;
   }
-  .home .home_box .home-nav1 .home-nav1-P_3 {
+  .home .home__box .home-nav1 .home-nav1-P_3 {
     text-align: center;
   }
-  .home .home_box .home-nav1 div {
+  .home .home__box .home-nav1 div {
     margin: 1rem auto;
   }
-  .home .home_box .home-nav2 {
+  .home .home__box .home-nav2 {
     display: flex;
     width: auto;
   }
-  .home .home_box .home-nav2 img {
+  .home .home__box .home-nav2 img {
     margin: auto;
     width: 80%;
   }
   .study .tittle {
     font-size: 2.5rem;
   }
-  .info-date h2 {
+  .info-date .title {
     font-size: 2rem;
   }
   .info-date .section__subtitle {
