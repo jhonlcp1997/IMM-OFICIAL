@@ -75,7 +75,7 @@ body {
     height: auto;
     z-index: 1;
 
-    .home-img_logo {
+    .home__imgLogo {
         position: relative;
         background-color: #fff;
         padding: 2.8rem;
@@ -92,7 +92,7 @@ body {
         }
     }
 
-    .home_box {
+    .home__box {
         position: relative;
         // display: flex;
         width: 100%;
@@ -195,7 +195,7 @@ body {
         width: 95%;
         max-width: 90rem;
 
-        .process-content {
+        .process__box__content {
             margin: auto 0;
             padding-right: 2rem;
 
@@ -220,7 +220,7 @@ body {
             
         }
 
-        .process-img {
+        .process__box__img {
             .img {
                 width: 27.2rem;
             }
@@ -615,7 +615,7 @@ body {
     .home {
         height: auto;
 
-        .home_box {
+        .home__box {
             width: 100%;
 
             .home-nav1 {
@@ -710,7 +710,7 @@ body {
     // *tengo que cambiar muchas cosas
 
     .home {
-        .home-img_logo {
+        .home__imgLogo {
             .img_logo {
                 display: none;
             }
@@ -722,7 +722,7 @@ body {
             }
         }
 
-        .home_box {
+        .home__box {
             .home-nav1 {
                 &::before {
                     top: -4rem;
@@ -733,7 +733,7 @@ body {
 
     .process {
         .process__box {
-            .process-content{
+            .process__box__content{
                 // display: inline-block;
                 position: relative;
 
@@ -753,7 +753,7 @@ body {
                 }
             }
 
-            .process-img {
+            .process__box__img {
                 display: none;
             }
         }
@@ -823,7 +823,7 @@ body {
 
 @media (max-width: 530px) {
     .home {
-        .home_box {
+        .home__box {
             .home-nav1 {
                 .home-content {
                     h2 {
@@ -866,7 +866,7 @@ body {
 
 @media screen and (max-width: 460px) {
     .home {
-        .home-img_logo {
+        .home__imgLogo {
             padding: 2rem;
 
             .img_logo,
@@ -875,7 +875,7 @@ body {
             }
         }
 
-        .home_box {
+        .home__box {
             .home-nav1 {
                 padding: 6rem 0;
                 margin: auto;

@@ -75,7 +75,7 @@ body {
     height: auto;
     z-index: 1;
 
-    .home-img_logo {
+    .home__imgLogo {
         position: relative;
         background-color: #fff;
         padding: 2.8rem;
@@ -92,7 +92,7 @@ body {
         }
     }
 
-    .home_box {
+    .home__box {
         position: relative;
         // display: flex;
         width: 100%;
@@ -191,7 +191,7 @@ body {
         font-family: $abel;
     }
 
-    .process-img {
+    .process__img {
         margin: 5rem;
         .img {
             width: 12rem;
@@ -214,13 +214,13 @@ body {
     position: relative;
     z-index: 1;
 
-    .info-box {
+    .info__box {
         width: 100%;
         max-width: 136.6rem;
         margin: 0rem auto;
         display: flex;
 
-        .info_image {
+        .info__box__image {
             max-height: 48rem;
             width: 50%;
             display: flex;
@@ -232,14 +232,14 @@ body {
             }
         }
 
-        .info_content {
+        .info__box__content {
             width: 50%;
             background-color: $pink3;
             display: flex;
             position: relative;
             left: -1px;
 
-            .info_content_box {
+            .info__box__content_box {
                 margin: auto;
                 max-width: 48rem;
                 width: 90%;
@@ -326,14 +326,14 @@ body {
     // padding: 3rem 9%;
     flex-wrap: wrap;
     
-    .time-price_box1, .time-price_box2{
+    .time-price__box1, .time-price__box2{
         height: 20rem;
         flex: 1 1 30rem;
         display: inline-flex;
         justify-content: center;
         align-items: center;
 
-        .time-price_box2_img {
+        .time-price__box2__img {
             width: 10rem;
             height: 7rem;
         }
@@ -352,7 +352,7 @@ body {
         }
     }
 
-    .time-price_box1 {
+    .time-price__box1 {
         background-color: $white;
         position: relative;
         border-radius: 5px 0 0 5px;
@@ -377,7 +377,7 @@ body {
         }
     }
 
-    .time-price_box2 {
+    .time-price__box2 {
         text-align: center;
         background-color: $azul;
         background-image: url(../img/image-simple-2/Fondo2.png);
@@ -799,7 +799,7 @@ body {
     .home {
         height: auto;
 
-        .home_box {
+        .home__box {
             width: 100%;
 
             .home-nav1 {
@@ -812,8 +812,8 @@ body {
     }
 
     .info {
-        .info-box {
-            .info_content {
+        .info__box {
+            .info__box__content {
                 .point8 {
                     display: none;
                 }
@@ -822,7 +822,7 @@ body {
     }
 
     .time-price{
-        .time-price_box1{
+        .time-price__box1{
             .point3{
                 display: none;
             }
@@ -932,7 +932,7 @@ body {
     // *tengo que cambiar muchas cosas
 
     .home {
-        .home-img_logo {
+        .home__imgLogo {
             .img_logo {
                 display: none;
             }
@@ -944,7 +944,7 @@ body {
             }
         }
 
-        .home_box {
+        .home__box {
             .home-nav1 {
                 &::before {
                     top: -4rem;
@@ -954,7 +954,7 @@ body {
     }
 
     .time-price {
-        .time-price_box1, .time-price_box2 {
+        .time-price__box1, .time-price__box2 {
             border-radius: 0;
         }
     }
@@ -1023,7 +1023,7 @@ body {
 
 @media (max-width: 530px) {
     .home {
-        .home_box {
+        .home__box {
             .home-nav1 {
                 .home-content {
                     h2 {
@@ -1040,15 +1040,15 @@ body {
 
     .info {
         // display: block;
-        .info-box {
+        .info__box {
             display: block;
 
-            .info_image,
-            .info_content {
+            .info__box__image,
+            .info__box__content {
                 width: 100%;
             }
 
-            .info_image {
+            .info__box__image {
                 z-index: 1;
                 height: 25rem;
 
@@ -1058,11 +1058,11 @@ body {
                 }
             }
 
-            .info_content {
+            .info__box__content {
                 left: 0;
                 z-index: 2;
 
-                .info_content_box {
+                .info__box__content_box {
                     max-width: 60rem;
                 }
             }
@@ -1106,7 +1106,7 @@ body {
 
 @media screen and (max-width: 460px) {
     .home {
-        .home-img_logo {
+        .home__imgLogo {
             padding: 2rem;
 
             .img_logo,
@@ -1115,7 +1115,7 @@ body {
             }
         }
 
-        .home_box {
+        .home__box {
             .home-nav1 {
                 padding: 6rem 0;
                 margin: auto;
