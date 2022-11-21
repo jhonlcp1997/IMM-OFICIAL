@@ -154,7 +154,7 @@ body {
         opacity: 0.03;
     }
 
-    .home-img_logo{
+    .home__imgLogo{
         // background-color: #f173ac;
         max-width: 115rem;
         width: 90%;
@@ -165,30 +165,30 @@ body {
         }
     }
 
-    .home_box {
+    .home__box {
         width: 95%;
         max-width: 120rem;
         margin: auto;
         display: flex;
         padding: 3rem;
 
-        .home-nav1 {
+        .home__box__nav1 {
             padding: 8rem 3rem 8rem 0;
             text-align: left;
             z-index: 10;
 
-            P {
+            p {
                 color: #fff;
                 font-family: $abel;
                 text-align: left;
                 margin: 0.5rem 0;
             }
 
-            .home-nav1-P_1 {
+            .home__box__nav1-P_1 {
                 font-size: 3.2rem;
             }
 
-            .home-nav1-P_2 {
+            .home__box__nav1-P_2 {
                 font-size: 3.5rem;
             }
 
@@ -227,7 +227,7 @@ body {
             }
         }
 
-        .home-nav2 {
+        .home__box__nav2 {
             margin-left: auto;
             z-index: 10;
             display: flex;
@@ -241,7 +241,7 @@ body {
             }
         }
 
-        .img-fondo {
+        .img__fondo {
             .img-1 {
                 width: 12rem;
                 position: absolute;
@@ -316,7 +316,7 @@ body {
         margin: 2rem 0;
     }
 
-    .characteres-left {
+    .characteres__left {
         text-align: center;
         flex: 1 1 20rem;
         margin-bottom: 4rem;
@@ -330,7 +330,7 @@ body {
         }
     }
 
-    .characteres-center_rigth {
+    .characteres__center_rigth {
         display: flex;
         max-width: 117rem;
         margin: auto;
@@ -491,14 +491,14 @@ body {
     // padding: 3rem 9%;
     flex-wrap: wrap;
 
-    .time-price_box1, .time-price_box2{
+    .time-price__box1, .time-price__box2{
         height: 20rem;
         flex: 1 1 30rem;
         display: inline-flex;
         justify-content: center;
         align-items: center;
 
-        .time-price_box2_img {
+        .time-price__box2__img {
             width: 10rem;
             height: 7rem;
         }
@@ -517,7 +517,7 @@ body {
         }
     }
 
-    .time-price_box1 {
+    .time-price__box1 {
         background-color: $white;
         position: relative;
 
@@ -541,7 +541,7 @@ body {
         }
     }
 
-    .time-price_box2 {
+    .time-price__box2 {
         text-align: center;
         background-color: $azul;
         background-image: url(../img/image-simple-2/Fondo2.png);
@@ -865,7 +865,7 @@ body {
         display: inline-block;
         margin: 10rem auto 2rem auto;
 
-        .ofrecemos_footer_div1 {
+        .ofrecemos_footer__div1 {
             display: flex;
             justify-content: space-between;
             width: 95rem;
@@ -961,7 +961,7 @@ body {
             }
         }
 
-        .ofrecemos_footer_div2 {
+        .ofrecemos_footer__div2 {
             border-top: 1px solid #bfbfbf;
 
             p {
@@ -988,17 +988,17 @@ body {
     .home {
         height: auto;
 
-        .home_box {
+        .home__box {
             width: 100%;
 
-            .home-nav1 {
+            .home__box__nav1 {
                 display: inline-block;
                 padding: 5rem 3rem 3rem 0;
                 align-items: center;
                 vertical-align: middle;
             }
 
-            .home-nav2 {
+            .home__box__nav2 {
                 width: 50%;
                 align-items: center;
 
@@ -1007,7 +1007,7 @@ body {
                 }
             }
 
-            .img-fondo {
+            .img__fondo {
                 display: none;
             }
         }
@@ -1024,7 +1024,7 @@ body {
             margin: auto;
         }
 
-        .characteres-center_rigth {
+        .characteres__center_rigth {
             .arrow-left, .arrow-right {
                 display: none;
             }
@@ -1056,7 +1056,7 @@ body {
     }
 
     .time-price {
-        .time-price_box1 {
+        .time-price__box1 {
             .point3 {
                 display: none;
             }
@@ -1077,7 +1077,7 @@ body {
             width: 100%;
             padding: 0 2rem;
 
-            .ofrecemos_footer_div1 {
+            .ofrecemos_footer__div1 {
                 width: 100%;
             }
         }
@@ -1255,13 +1255,13 @@ body {
     }
 
     .home {
-        .home_box {
-            .home-nav1 {
-                .home-nav1-P_1 {
+        .home__box {
+            .home__box__nav1 {
+                .home__box__nav1-P_1 {
                     font-size: 2.6rem;
                 }
 
-                .home-nav1-P_2 {
+                .home__box__nav1-P_2 {
                     font-size: 2.8rem;
                 }
             }
@@ -1289,7 +1289,7 @@ body {
             padding: 0;
             margin-top: 5rem;
 
-            .ofrecemos_footer_div1 {
+            .ofrecemos_footer__div1 {
                 display: inline;
                 div {
                     justify-content: left;
@@ -1321,7 +1321,7 @@ body {
     }
 
     .characteres {
-        .characteres-center_rigth {
+        .characteres__center_rigth {
             .slider-contenedor {
                 .slider-contenedor2 {
                     .characteres_all {
@@ -1376,7 +1376,7 @@ body {
 
     .footer{
         .ofrecemos-footer{
-            .ofrecemos_footer_div1{
+            .ofrecemos_footer__div1{
                 div{
                     a{
                         i{
@@ -1453,7 +1453,7 @@ body {
 
 @media (max-width: 530px) {
     .home {
-        .home-img_logo{
+        .home__imgLogo{
             padding-bottom: 2rem;
             text-align: center;
 
@@ -1462,20 +1462,20 @@ body {
             }
         }
 
-        .home_box {
+        .home__box {
             display: flex;
             flex-wrap: wrap-reverse;
             padding-top: 0;
 
-            .home-nav1 {
+            .home__box__nav1 {
                 padding: 1rem 0;
                 margin: 0 auto;
 
-                .home-nav1-P_1 {
+                .home__box__nav1-P_1 {
                     text-align: center;
                 }
 
-                .home-nav1-P_2 {
+                .home__box__nav1-P_2 {
                     text-align: center;
                 }
 
@@ -1484,7 +1484,7 @@ body {
                 }
             }
 
-            .home-nav2 {
+            .home__box__nav2 {
                 display: flex;
                 width: auto;
 
@@ -1503,7 +1503,7 @@ body {
     }
 
     .characteres {
-        .characteres-center_rigth {
+        .characteres__center_rigth {
             .slider-contenedor {
                 height: 290px;
 
@@ -1550,7 +1550,7 @@ body {
 
 @media screen and (max-width: 460px) {
     .characteres{
-        .characteres-center_rigth{
+        .characteres__center_rigth{
             .slider-contenedor-2{
                 .characteres_img{
                     display: none;
