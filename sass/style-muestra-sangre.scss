@@ -66,10 +66,12 @@ $poppins: "Poppins", sans-serif;
         width: 90%;
         max-width: 50rem;
         box-shadow: 0rem 1rem 40px -10px rgb(51, 46, 46);
+        transform: scale(0);
+        animation: scale 0.3s ease forwards;
 
         .popup-img{
-           max-width: 25rem;
-           height: 30rem;
+            max-width: 25rem;
+            height: 30rem;
             position: relative;
             
             .img{
@@ -911,5 +913,15 @@ $poppins: "Poppins", sans-serif;
                 max-width: 25rem;
             }
         }
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
     }
 }

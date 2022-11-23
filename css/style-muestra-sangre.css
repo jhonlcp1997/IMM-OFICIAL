@@ -46,6 +46,9 @@ html {
   width: 90%;
   max-width: 50rem;
   box-shadow: 0rem 1rem 40px -10px rgb(51, 46, 46);
+  transform: scale(0);
+  -webkit-animation: scale 0.3s ease forwards;
+          animation: scale 0.3s ease forwards;
 }
 .popups .popups-box .popup-img {
   max-width: 25rem;
@@ -641,5 +644,21 @@ html {
 @media screen and (max-width: 270px) {
   .import .box .boxes {
     max-width: 25rem;
+  }
+}
+@-webkit-keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=style-muestra-sangre.css.map */

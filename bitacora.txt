@@ -947,4 +947,37 @@ Es viernes pocas actualizaciones modificaciones en el flipbook, la mayoria en ca
 21-11-2022:
 Apartir de aquí estoy contando los días para poder ir a mocupe, por un día x,D
 
-Estoy empezando a cambiar los nombres de las clases, con __ y con camelCase, solo a esperar que no haya problemas al integralos
+Estoy empezando a cambiar los nombres de las clases, con __ y con camelCase, solo a esperar que no haya problemas al integralos.
+
+Ahora, las nuevas landings estarán en la parte de adelante, todas se encontrarán conectadas con:
+
+/immetabolico
+/ginecología
+    /landings.....
+/gestacional
+    /landings.....
+/views
+    /others
+        /landings......
+    /landings.....
+
+por ahora ese es lo que tengo, no se me ocurre otra estructura aparte de las que ya se tienen, por lo que mi tiempo de estadía ya estaría terminando 
+
+Actualizacion de vistas en las páginas que tenemos:
+Top 1: imm.pe
+Top 2: immlatam.com
+Top 3: immetabolico.pe
+
+Al parecer no ha cambiado nada, Tendría que mejorar immetabolico, le podré el nombre:
+IMM Intituto Médico metabólico - Endocrinología
+Intituto Médico metabólico - Endocrinología (original)
+
+Aparte de todo eso, le agregué un efecto al popup de muestra de sangre.
+Creo que si supiera las cosas que sé ahora me mirarían con una cara de wtf de no creer.
+
+22-11-2022:
+No sé como estarán los días a partir de aqui.
+Lo otro es poner mi proyecto en Vercel, sería una muy buena oportunidad, pero para eso tendré que crear un proyecto desde cero en nextjs, Tendré que crearlo mejor, no espero que salga todo. o puro react(peor esto sería para poder hacer los paneles de administración)
+
+La forma de conectarse con Firebase es muy dificil, es rápido, pero es muy dificil, tiene muchos métodos que no los puedo manejar,
+Hoy subi lo que estuve avanzando en para poner otra cosita, en la cual está registrada los nuevos diseños de immfarma, esperemos que no me menosprecien pero, lo más probable es que si me menosprecien.
