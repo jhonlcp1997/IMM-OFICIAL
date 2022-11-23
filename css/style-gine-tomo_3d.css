@@ -441,6 +441,10 @@ body {
   margin: auto;
   line-height: 2;
 }
+.inbody .inbody__box .box_paragraph .paragraph a {
+  color: #fff;
+  text-decoration: underline;
+}
 .inbody .inbody__box .point4,
 .inbody .inbody__box .point5 {
   position: absolute;

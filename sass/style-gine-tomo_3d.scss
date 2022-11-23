@@ -491,6 +491,11 @@ body {
                 font-family: $poppins;
                 margin: auto;
                 line-height: 2;
+                
+                a{
+                    color: $white;
+                    text-decoration: underline;
+                }
             }
         }
 
