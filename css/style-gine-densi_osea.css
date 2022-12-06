@@ -423,7 +423,10 @@ body {
   line-height: 2;
 }
 .inbody .inbody__box .box_paragraph .paragraph a {
-  color: #fff;
+  color: rgb(113, 76, 180);
+  font-weight: bold;
+}
+.inbody .inbody__box .box_paragraph .paragraph a:hover {
   text-decoration: underline;
 }
 .inbody .inbody__box .point4, .inbody .inbody__box .point5 {

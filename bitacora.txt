@@ -981,3 +981,68 @@ Lo otro es poner mi proyecto en Vercel, sería una muy buena oportunidad, pero p
 
 La forma de conectarse con Firebase es muy dificil, es rápido, pero es muy dificil, tiene muchos métodos que no los puedo manejar,
 Hoy subi lo que estuve avanzando en para poner otra cosita, en la cual está registrada los nuevos diseños de immfarma, esperemos que no me menosprecien pero, lo más probable es que si me menosprecien.
+
+
+24-11-2022:
+Hoy ha sido uno de los días más problematicos, pero también es el día en el que yo viajaré por la graduación.
+Espero irme pronto no lo sé.
+A esperar las cosa como se ponen, los demás estan empezando a conseguir sus logros, solo espero que el cielo siga siendo azul.
+Dentro del rango se encuentra las mejores cositas de lsa qu eh podido ver espero que este dolor de barriga no sea tan fuerte, tendré que lavar los depositos antes de irme, solo espero que no esten tan sucios, hasta donde se nose puden subir más de lo presenteado.
+
+28-11-2022:
+Ahora implemente el nuevo sercicio, pero solo con su capa gratuita, Queda esperar como reacciona a los nuevas solicitudes de Emails, ----> el servicio se llama Emailjs
+Ahora no se si no funciona el servicio han pasado 3 horas y no eh registrado ningún email enviado por el nuevo servicio.
+
+Emailjs:
+    - 2 templates
+    - 200 mensajes por mes
+    - Capa Gratuita
+
+Emailjs - $4:
+    - 5 templates
+    - 1000 mensajes por mes
+    
+
+A la espera de lo que me puedan decir, solo eso, de ahí solo quedaría como responde.
+Lo más seguro es que se encuentra, y nunca más me responderan el email.
+
+El servicio consta de :
+    - Public key
+    - ID Template
+    - Form.document(el node del form html)
+    - Hasta el id de template
+
+Este servicio te bota un script, depende de donde se desea implementar.
+
+Dentro del script le agregue logica simple de verificacion de que no esté vacío.
+
+29-11-2022:
+Al parecer está funcionando el  nuevo servicio, pero creo que me está engañando, si lo más probable sea eso.
+
+No estan llegando los email, y eso que le regresé a su contenido anterior
+Ya empezaron pero esta vez, son pocos, van 4  hasta el momento.
+
+Ahora se me ocurrió ingresar al backend un rato para revisar, pero veo que tienen muchas peleas internas,
+El más demandado y del por cual eligen por su seguridad es .NET
+Pero no sé por cual ir por que Nestjs tambíen está fuerte. La cosa es como seguir con esto. A quién elegir y por qué elegirlo. Además que diferencia notoria habría para poder elegirlo sobre el otro.
+
+Nestjs vs .NET
+Habría que elegir cual, a donde y por qué de este, 
+Nestjs para aprender: (2 de Enero)
+    - Nest           (Fernando Herrera)
+    - Nest + graphql (Fernando Herrera)
+
+Al parecer el libro de reclamaciones tiene el mismo error que el que tenía el envío de emails, no hace caso el envío de email el boton de enviar para hacer en específico.
+Ojalá la torta alcance para los 5 y alguno más, más adelante le compraré una de mucho mas grande.
+Ahora, para reacer una página como esta, quizá debería reaccerla como ?
+
+05-12-2022:
+Los cambios en reclamaciones no se encuentran como uno quiere, no puedo modificar mucho esa parte, por que ya se encuentra hecha con build, lo poco que puedo hacer es la apariencia, esto ya es muy tedioso, para mi, 
+Los demás hacen sus cosas, y yo también aunque no haya mucho por hacer, lo más probable es que me vean como alguien a quien ya no deben sus servicios, y eso sería lo normal,por que yo ya cumplí mi periodo en el instituto, y si me botan, tendría que agradecerles por todo aquí, el apoyo, creer en mí, dejarme avanzar, estar siempr ependiente en mí, y saber mis limitaciones, hasta donde puedo llegar todo eso dependió de mí exclusivamente, y no avance mucho que digamos, siempre me quede, nunca me esforce al máximo como para decir que lo dí todo,, pero va a ganar japon así que tendré que cumplir mi promesa.
+
+Al parecer ya perí el miedo a sacarme la mascarilla frente a los demás hombres, pero a diferencia mía ellos si tienen más trabajo, siempre estan movimiendose, y cuando estan completamente libre se justifica, en cambio yo, no es algo que se pueda hacer lo mismo, que más hacer entonces, para poder estar al nivel de los demás, es seguro que no podré realizar este tipo de cosas, no creo que pueda estar a su nivel incluso con este tipo de cosas. 
+
+Pero como siempre tengo mis dudas, mis incertidumbres, tendré que seguir siempre así, por que como no estoy fijo y a la vez no estoy dentro de lo que ellos piensan, entonces digamos que no podría. pero jhon , Apartir de aqui tu dependes complentamente de ti mismo, eso siempre será así.
+
+06-12-2022:
+que hacer cuando vuelves a creer que no sirves para nada,la verdad

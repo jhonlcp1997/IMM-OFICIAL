@@ -491,10 +491,14 @@ body {
                 font-family: $poppins;
                 margin: auto;
                 line-height: 2;
-                
+
                 a{
-                    color: $white;
-                    text-decoration: underline;
+                    color: rgb(113, 76, 180);
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
