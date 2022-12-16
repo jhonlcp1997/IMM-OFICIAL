@@ -1074,3 +1074,60 @@ NO se si haré un cambio o  un agregado, siempre estamos con las mismas pero mie
 Es la primera vez que recibo algo asi de grande, por parte de la empresa, me acaban de dar una canasta navideña :o.
 
 Los nuevos mensajes que llegan a IMMcitas están llegando sin ningún problema hasta el momento, pero siendo la mitad del mes, han llegado al rededor de 80 mensjases hasta el 12-12-2022 hasta las 13:07, tal vez se cumpla el que lleguen a 200 por mes, pero debería de reducir dado que para navidad casi nadie llega.
+
+Ahora se ve que las nuevas actualizaciones demoran más, ojalá solo sea por la cantidad de commits y no por los commits.
+
+Los hiperlinks tienen un diseño de otro tipo a los que colores que ya tenemos lo que si mantiene es el mismo tamaño y el tipo de fuente, a las finales se quedaron con:
+rgb(113, 76, 180), y no se quedará con ese cambio por ahora, hasta nuevo aviso.
+
+Algo que tengo que revisar de reojo son los tipos MIME que puede leer el cPanel, tiene varios, pero como lo supuse, no está Typescript, no se por qué no lo tiene, pero si falta algo así es por que viene incluido con typescript.
+
+width < 360px :
+la imagen en Tomosintes se reduce equivalentemente en sus 4 lados, en Densitometría solo se reduce en el eje X. así que a darle su revisada.
+
+cPanel soporta:
+- css
+- js
+- html
+- csv
+
+Pero no:
+- Typescript
+- sass / scss
+
+Observaciones:
+Quizá es por el sass que no compila muy rapido el proyecto, digo Deploy, tendré que volverlo a revisar, pero incluso si no está, no debería tener problemas con los sass por que el server no funciona como compilador de sass/scss, eso sería exageradamente raro, así que lo tendré como un caso extremo.
+
+A finales de este mes y comienzos del siguiente se tendrá que actualizar los certificados de ssl en immetabolico, imm.pe e immlatam.
+c
+13-12-2022:
+Las cosas ahora están media peliagudas, por que yo le incité que vaya por taxi, así que me siento culpable por haberle dicho eso, si le pasa algo malo, mi conciencia me estará clavando todos los días la culpa.
+
+A las finales si regresó, no pensé que volvería, pero bueno, siempre uno con las alertas en las cabeza.
+
+Las actualizzaaciones que me darán no se si testaran en esta semana o el siguiente mes.
+
+Lo único que habría que actualizar si no dan otra cosa serían los SSL, que creo que el más cercano era immetabolico.com
+
+Para poner las cosas cini ki están haciendo las demás debería de aprender node con express, pero no se por qué no puedo hacer eso con mi 
+
+14-12-2022:
+Al parecer hay problemas en el envió de algunos email por parte de la aplicación y es que algunos de los navegadores con una antiguedad parecida a internet explorer no hacen caso a los codigos de javascript en el html, y no se envía correctamente por el servicio.
+
+15-12-2022:
+el viejo servicio de email esta redireccionado a mi correo de imm, ahí puedo ver todos los correos que se hicieron en imm.pe incluso los que llegan con error.
+
+Por ahora no hay muchos cambios a parte de los que ya se encontraron, y por lo que dije en la linea anterior, tendré que redireccionar los que están correctos pero no llegaron a la badeja de immcitas.
+
+Lo de arreglar los colores como no le veo un cambio tan grande. ojo no es que no quiera actualizarlo, es solo que ya no se va a volver a tocar de nuevo.
+
+proximo mes, actualizar ssl
+    imm/
+    immetabolico/
+    immlatam/
+    
+16-12-2022:
+Se actualizó el stafff de endocrinologas con una nueva Doctora.
+    CLAUDIA CÓRDOVA
+
+Hasta acá creo que dejaría mi bitacora del 2022, la verdad que ha sido mucho lo que pasé por acá, y lo más probable es que no siga acá, por que ya cada uno hace lo que yo hago, y deje las cosas servidas, sobrado las entederan las que vienen después, eso si me sentiré un poco triste, pero muy agradecido por todo lo que me dieron acá.
