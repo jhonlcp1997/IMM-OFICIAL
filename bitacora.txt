@@ -1131,3 +1131,36 @@ Se actualizó el stafff de endocrinologas con una nueva Doctora.
     CLAUDIA CÓRDOVA
 
 Hasta acá creo que dejaría mi bitacora del 2022, la verdad que ha sido mucho lo que pasé por acá, y lo más probable es que no siga acá, por que ya cada uno hace lo que yo hago, y deje las cosas servidas, sobrado las entederan las que vienen después, eso si me sentiré un poco triste, pero muy agradecido por todo lo que me dieron acá.
+
+
+=========== AÑOOOO NUEVOOOO........ 2023 ============
+
+02-01-2023:
+Empezando el primer día de trabajo, la primera semana de trabajo el primer mes de trabajo, de 2023 sin saber que hacer, a la espera de las cosasa nuevas que puedan darme, solo espero que no sean tan fuertes como las que empecé al inicio del año anterior.
+Como qué avanzar, la verdad que nosé, ahora, solo espero a que me digan que hacer, trato de no presionar.
+
+Habrá cosas que no sabré hacer pero solo espero que no se encuentren en el rango de "inalcanzables".
+
+Por ahora veo a las demás que tienen mucho más trabajo, por lo que creo que si la tendrán igual de difícil como el año anterior, y yo con las ganas de seguir durmiendo, que grande Jhon, persiguiendo sus sueños.
+
+Hacer limpieza de algunas cosas, pero lo más importante es que no se si serviran para hacer algo más adelante, quiero a la vez no quiero borrarlo :C.
+Algo de que reirme, es que mi hermano y un amigo se ponen los perfiles más graciosos, no se porqué.
+
+Hoy el equipo de decoraciones del IMM acaba de retirar todo con lo referente a navidad colocado para diciembre.
+
+Aún no me han dicho que se hará con el método de flipbook. Esta bacan, espero no me lo dejen en el aire aunque creo que 
+
+03-01-2023:
+Por si la licencia del flipbook no esta freee:
+
+- Buscar otro repo de flipbook.
+- Desarrollar un flipbook para IMM.
+- Alquilar el flipbook que utilizo.
+
+El servicio de Emailjs tienen otro tipo de funcionamiento, en algunos navegadores no funciona correctamente.
+
+Si tan solo no diera errores el codigo de php, lo hubiera dejado ahí, pero al parecer dar errores con navegadores que no eh testeado por que no poseo sus nombres, no queda muchas opciones que digamos, el resto solo funciona con un runtime por detras o un lenguaje de backend.
+
+Así que esto será más difícil de agregar, me gustaría desarrollarlo con nextjs pero, ahí está el pero, tengo que conocer bien Nextjs, pero la parte de responsive designer va a ser el más problemático,
+
+A un no se ah aprobado la propuesta de utilizar el index.html de immlatam.com
