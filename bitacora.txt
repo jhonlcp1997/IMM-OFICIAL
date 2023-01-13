@@ -1245,3 +1245,9 @@ Detalles sobre el plugin de flipbook:
     - texto
     - Sonido
     - Aún no sé que otra cosa, pero estaré buscando por secasos
+
+13-01-2023:
+Hoy vi que Silvana avanzó algo con los PDFs para flipbooks, ojala envié algunos de prueba. No creo que podrían envíar por que tiene muchas otras cosas que hacer.
+
+Actualizar los precios de EGI, EMI, EMA y los valores correspondientes en imm.pe:
+https://imm.pe/service/1
