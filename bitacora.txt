@@ -1164,3 +1164,84 @@ Si tan solo no diera errores el codigo de php, lo hubiera dejado ahí, pero al p
 Así que esto será más difícil de agregar, me gustaría desarrollarlo con nextjs pero, ahí está el pero, tengo que conocer bien Nextjs, pero la parte de responsive designer va a ser el más problemático,
 
 A un no se ah aprobado la propuesta de utilizar el index.html de immlatam.com
+
+
+04-01-2023:
+entonces que quieres que avance, la verda que no se que parte debería avanzar
+, también me empezó a doler el talon izquierdo, es algo nuevo, solo asumo lo de los nuevos zapatos que me trajo mi tía.
+En la parte de desarrollo, desde febrero del 2022, ponía algunas cosas de forma detallada, algo detallada.
+
+Ahora estoy escribiendo una cosa rara, una historia rara, que no tendrá éxito jajajaja,
+no sé por qué me da mucho sueño., pero como siempre el tiktok para intentar despertarme, pero bueno, La ejecucion de las nuevas cosas, a la espera pero como siempre a la espera, no sabría que hacer con las cosas que tengo por acá, ya seria más de gustos, la verdad que cada día las cosas se ponen más diferentes, esto es algo que no se pude medir como algo simple, por lo uqe .
+
+Muy problemático la situación, tener que escuchar el taladro y la vez taladrar, como que lago no cuardra la sitación aquí, que hacer te preguntaras jhon del futuro, por ahora tendras que esforzarte para seguir adelante, sinó estarás en las mismas con las que empezaste, yo seguire´.
+seguire como siempre eh tratao de ir, con las cosas más tranquilas, tambien trateré de dormir más temprano, aunque no quiera, siempre la calor me hará dormir, la verdad que se me va a ser dificil adaptarme a este tipo de situación. 
+
+continuando hasta donde mi cuarpao  co  las clses de nextsjs
+
+05-01-2023:
+Emparejamiento del contenido de:
+- /views/others/toma_de_muestra-b 
+igual a 
+- /views/others/toma_de_muestra
+
+Desarrollo de la página de prueba de immfarma e nextjs, la verdad, no se si esto funcione.
+Ahora todos está en las manos de no se quien más, solo queda seguir con lo que más sé, y tratar de no caer en el intento.
+
+06-01-2023: 
+Hoy nos hicieron firmar para no se que cosa, muchas cosas de las que me gustaría hacer se encuentran en otra parte del no se qué, muchas preguntas personales, la verdad que no sé para qué.
+
+09-01-2023:
+Actualizacion de los ssl de imm.pe, eso lo hace Saulo y a vecez veo que para poder darle ssl a una páginas le tiene que quitar a otras.
+
+Ahora es donde me planteo el seguir escribiendo mi libro, como una manera de relajarme en el trabajo, quizá de la mejor manera de la que puedo hacer sin que me digan que hacer en realidad
+
+Revisando los plugin para hacer un flipbook gratis, solo encontré 3 de ellos que son aceptables, pero lo malo que ya lo tienen en bundle, eso es lo más raro.
+Ahora la respuesta que buscaba se dió, me dijeron que este era un plugin free, lo pregunté en un canal de youtube y me salió eso.
+
+Eso es lo malo cuando uno creo una página, cuando ser estático y cuando ser dinámico. entender lo del ssr, hecho por servidor, hasta cierto punto, la verdad que no se puden poner.
+
+Es como si tuviera una laguna, de idea, pero a la vez no se si continuar, o dejar todo lo que estoy haciendo, la verdad me es más dificil de agregar algo nuevo.
+
+Al parecer tengo que hacer que me firme la notaría, pero, tendré que presentarle a Tori para ver que me puede decir, eso es nuevo.
+
+Acabaré lo del nextjs, para poder pasar lo de nestjs tengo que si o sí, acabaré con esto lo más antes posible verdad.
+
+Veamos hasta donde puedo llegar.
+
+Intentemos llegar todo este día siendo lo más normal.
+
+10-01-2023:
+veamos hasta donde podría seguir escribiendo,
+Solo queda esperar que suban los cambios para yo poder hacer, estoy esperando mucho por ese paquete de pdfs que no sé como lo tendrán.
+
+La verdad que si es dificil mantener la concentración, mi cuerpo se duerme.
+
+El plugin de flipbook funciona hasta en internet explorer, no pense que esto funcionaría parecía como si tuviera un TOC o perfeccionista, ahora veo que hay muchos que tienen el TOC no se si lo hacen por fama o deverdad tienen eso, pero por eso no me meto con esas cosas.
+
+Ahora me están pidiendo para poder jugar, haber que me dicen.
+Por qué los demás tienen que sacar tarjeta de credito, veo que se endeudan más de lo esperado, que se puede hacer por ellos, la verdad que no sé, lo que si pasa, es que a la mayoría les gusta sacar y sacar, no sé por qué hacen eso tanto, es como si quisieras más de lo que tienes o más de lo que puedes percibir.
+
+Cuando te enfrentas a un enemigo a matar o morir, te vas a enfrentarlo sin dejarle una sola salida, una pisca de salvación, una intención de oportunidad.
+Tienes que asficciarlo pensando que hasta el ultimo segundo te mirará a tí.
+
+Cuando la gente no quiere hacer las cosas siempre estaran haciendo.
+Eso de que la gente te van a entender, ya hasta parecen telépatas.
+
+11-01-2023:
+Ahora para mantener todos regristrador, seran subidos los jueves
+Flipbook
+PDFs
+
+Detalles sobre el plugin de flipbook:
+- Está hecho con jquery
+- Archivos principales están minificados
+- No se puede modificar cosas como:
+    - color
+    - posición
+    - tamaño
+    - etc
+- Se puede cambiar:
+    - texto
+    - Sonido
+    - Aún no sé que otra cosa, pero estaré buscando por secasos

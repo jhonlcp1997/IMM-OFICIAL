@@ -1,5 +1,5 @@
 # IMM-prueba
-Primer repositorio del Instituto Médico de la Mujer
+Primer repositorio de prueba del Instituto Médico de la Mujer
 
 
 ***Programador a cargo: JHON LARRY CRUZ PORRAS***
@@ -8,6 +8,7 @@ Primer repositorio del Instituto Médico de la Mujer
 
 - /css (se encuentran todos los estilos, pero los trabajé en SASS)
 - /dflip (carpeta que contiene el plugin para ejecutar el flipbook de PDFs)
+    **Agradecimientos a dFlip para poder mostrar PDFs en formato Flipbook, Gracias**
 - /fonts 
     - abel
     - poppins
