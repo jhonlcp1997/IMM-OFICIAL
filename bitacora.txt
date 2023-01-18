@@ -1251,3 +1251,57 @@ Hoy vi que Silvana avanzó algo con los PDFs para flipbooks, ojala envié alguno
 
 Actualizar los precios de EGI, EMI, EMA y los valores correspondientes en imm.pe:
 https://imm.pe/service/1
+
+16-01-2023:
+Ya terminé de poner los nuevos precios, la verdad pude haber hecho eso el mismo viernes pero no lo puse por que lo quería todo especifico el lunes 16-01-2023.
+
+que más hay para poder actualizar, la verdad que me siento que no podré hacer muchas cosas, todo lo que tengo es muy raro, la parte de la actualización no me convence, por eso siempre escucho gatitos graciosos
+
+Index general, no ha ingresado nuevos cambios no se cuanto tiempo estaré así solo de revisión, a esperar.
+
+No se por qué son exageradas con el aire acondicionado, o son frias de nacimiento por eso no les afecta, o son muy calientes que ni con 16 grados les es suficiente. Con tanto aire frío, me congelo y me da sueño, tmr no podré reponerme despuesd del mediodía.
+
+Para que quede registrado el precio que se cambió:
+EGI : 180 s/ -> 190 s/
+EMI : 340 s/ -> 350 s/
+EMA : 220 s/ -> 230 s/
+
+17-01-2023:
+La sendada esta presente mientras su fuerza invertida sea menor que cero.
+
+Tengo que registrar en el notario la declaración jurada en caso de fallecimiento.
+
+Lo que siempre hago es revisar en el correo de pruebas que se hayan oviado en immcitas, siempre redirigirlos y borrarlos del correo de soporte.
+
+A pesar de que no se utiliza el flipbook, aún me sigue impresionando, muchas cosas de las que tienen, me costaría mucho más que el hacer el proyecto que quiero. El solo hecho de tratar cada página de pdf como una imagen con subenlaces, eso ya es mucho para mí.
+
+A veces las páginas de immlatam tienen una subida de golpe, a esto no le puedo dar una justificación exacta ya que depende totalmente de las que proveen estos links. La mayoria ingresa en movil, eso lo hacen en todas las páginas. Me quedaría esperar que encuentra al número más alto en cualquiera de esta semana.
+
+La fortaleza de los ángeles de la muerte es demasiada op, que las bombas nucleares no les hagan efecto, eso ya es otra zona.
+
+La proporción entre las visitas de todas las páginas aún se mantiene:
+imm.pe > immlatam.com > immetabolico.com
+
+El correo que captura errores, aún los sigue reciviendo, hasta ahora hay muchas posibilidades de que puede ser el problema, pero si esto ya se comporta así, no sé como será con un 
+
+18-01-2023:
+Haber que hacemos hoy, la verdad no hay mucho que pueda hacer, hasta que ellos no me dejen algo semi grande, yo voy a seguir así, haber hasta donde pide puedo llegar.
+Estoy en la espera de aque me den los flipbook para tratar de hacer algo, por eso no lo sé.
+
+Voy a organizarme:
+- pasar los correos que no tienen error.
+- revisar que no haya problemas en el servidor
+- escribir en bitacora
+- escribir en historias
+- completar las clases de Nextjs
+- rellenar el calendario días de revisión
+
+Como el estar sin chompa, se siente mejor, pero a veces no me gusta que se vean mis brazos flacuchos xD.
+
+Algo que también me di cuenta es que las páginas que se usan tienen un mal diseño en modo tablet, por ejemplo Crecimiento_doppler.html, tienen muy bien sus diseños en campos, pero cuando se va acortando no posee algo alineado a su contenido paralelo arriba o abajo.
+
+Agregué algo más a la parte final de test.html, esto con el fin de darle un "Contactenos" como todas las páginas.
+Pero creo que solo estará para hacer las pruebas, eso y que siempre sera de pruebas.
+tambien estoy leyendo algo para poder distrar la mente y que no se duerma, lo de los cursos si está difícil por que no tengo esas ganas para poder seguirlos.
+
+Más bitacora para poder continuar con lo que hago todo el día, haber si consigo, hacer algo más, que más puedo.
