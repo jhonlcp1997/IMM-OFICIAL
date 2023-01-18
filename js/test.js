@@ -122,3 +122,45 @@ function move(){
 children.forEach((dot)=>{
     dot.addEventListener('click', move)
 })
+
+// *================================= Contactenos
+// *================================= Contactenos
+let $electionimm = document.querySelectorAll(".electionInstitute");
+let $electionimmform = document.querySelectorAll(".contentInputsForm");
+let $contactNode = document.querySelector(".contact");
+let $contentInputsForm = document.querySelectorAll(".contentInputsForm");
+
+function activeInstituteButton(){
+    if(this.className == 'dot active'){
+    }else{
+        if(this.className == $electionimm[0].className){
+            $electionimm[0].classList.add('active');
+            $electionimm[1].classList.remove('active');
+            $electionimmform[0].classList.remove('desactive');
+            $electionimmform[1].classList.add('desactive');
+            $contactNode.style.backgroundColor = "#f4c6de";
+        } else{
+            $electionimm[0].classList.remove('active');
+            $electionimm[1].classList.add('active');
+            $electionimmform[0].classList.add('desactive');
+            $electionimmform[1].classList.remove('desactive');
+            $contactNode.style.backgroundColor = "#62bb46";
+
+        }
+    }
+}
+
+$electionimm.forEach((dot)=>{
+    dot.addEventListener('click', activeInstituteButton)
+})
+
+
+
+function listenForm (e){
+    e.preventDefault();
+    console.log(this)
+}
+
+$contentInputsForm.forEach((form)=>{
+    form.addEventListener('submit', listenForm)
+})
