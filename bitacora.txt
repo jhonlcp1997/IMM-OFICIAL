@@ -1406,3 +1406,5 @@ Me va a costar el terminar de completar muchas cosas, así que, ¿me rindo?
 Pero en donde exactamente me rindo, la verdad tengo para redirme en cualquier momento.
 
 Este mundo es muy complicado, no creo que pueda encontrar mas dificultad
+
+Para nestjs se tiene que tener instalado el CLI de nest es un poco raro por que incluso para poder desarrollar esto puedes elegir npm yarn o pnpm. Y cada modulo que creas viene con su paquete de testing. pero la configuración la tienes que cambiar por que se parece mucho a Angular, pero eso no interfiere mucho con lo de aprender, ya que nunca eh usado Angular, me faltaría el tratar de dormir en el pasto, con esto quizaá pueda completar las cosas que me faltan en todo el mes.
