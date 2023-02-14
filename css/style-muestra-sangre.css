@@ -47,8 +47,7 @@ html {
   max-width: 50rem;
   box-shadow: 0rem 1rem 40px -10px rgb(51, 46, 46);
   transform: scale(0);
-  -webkit-animation: scale 0.3s ease forwards;
-          animation: scale 0.3s ease forwards;
+  animation: scale 0.3s ease forwards;
 }
 .popups .popups-box .popup-img {
   max-width: 25rem;
@@ -478,8 +477,8 @@ html {
     display: none;
   }
   .import .points_5,
-.import .points_6,
-.import .points_4 {
+  .import .points_6,
+  .import .points_4 {
     display: none;
   }
 }
@@ -644,14 +643,6 @@ html {
 @media screen and (max-width: 270px) {
   .import .box .boxes {
     max-width: 25rem;
-  }
-}
-@-webkit-keyframes scale {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
   }
 }
 @keyframes scale {
