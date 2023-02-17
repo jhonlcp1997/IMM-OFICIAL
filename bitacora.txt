@@ -1424,3 +1424,14 @@ lo que se hizo en Astro fue especificamente hecho para las talets de IMM por lo 
 Men creo que nos van a botar a Ate, nooooo eso noooooo
 Veamos como podemos hacer este tipo de cosas.
 Est tipo de cosas no se pueden solventar con un al 50% por lo que es y será mejor que descance hasta un 10%,
+
+15-02-2023:
+elegir entre ReactNative o Flutter, está un poco dificil elegir entre esto y lo otro, antes digamos que hiba de lleno por reactNative, pero después de ver otras tecnologías y darles el visto bueno, como por ejemplo con laravel entonces no está tan alejado la parte de flutter, pero está bien usar ese tipo de caminos.
+
+De aquí no se que otro tipo de eventos se puedan hacer, hasta ahora no habían dado otro tipo de problemas, Mñana la Reunión con el gerente, hablar sobre el cambio de lugares.
+
+16-02-2023:
+Actualizacion de nueva doctora, hoy en la tarde.
+
+17-02-2023:
+Hoy van a remodelar así que puedo trabajar desde casa.
