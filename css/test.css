@@ -13,11 +13,33 @@ html {
   overflow-x: hidden;
 }
 
+@-webkit-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes logo-opacity {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
     transform: rotate(360deg);
   }
 }
@@ -34,7 +56,23 @@ html {
     transform: rotate(360deg);
   }
 }
+@-webkit-keyframes logo-opacity-2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes logo-opacity-2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes logo-opacity-3 {
   0% {
     opacity: 0;
   }
@@ -50,6 +88,17 @@ html {
     opacity: 1;
   }
 }
+@-webkit-keyframes heartRateIn {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
 @keyframes heartRateIn {
   0% {
     width: 100%;
@@ -61,6 +110,17 @@ html {
     width: 0;
   }
 }
+@-webkit-keyframes heartRateOut {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: -120%;
+  }
+  100% {
+    left: 0;
+  }
+}
 @keyframes heartRateOut {
   0% {
     left: -120%;
@@ -70,6 +130,17 @@ html {
   }
   100% {
     left: 0;
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 @keyframes pulse {
@@ -104,7 +175,8 @@ html {
 }
 .main .content.second.interval {
   opacity: 0;
-  animation: logo-opacity-3;
+  -webkit-animation: logo-opacity-3;
+          animation: logo-opacity-3;
 }
 .main .content.first, .main .content.second {
   display: none;
@@ -234,7 +306,8 @@ html {
 .main .content.interval {
   opacity: 0;
   transition: 1s;
-  animation: logo-opacity-3;
+  -webkit-animation: logo-opacity-3;
+          animation: logo-opacity-3;
 }
 .main .content .sub-content {
   width: 95%;
@@ -260,7 +333,8 @@ html {
   background-color: #ffffff;
   top: 0;
   right: 0;
-  animation: heartRateIn 2.5s linear infinite;
+  -webkit-animation: heartRateIn 2.5s linear infinite;
+          animation: heartRateIn 2.5s linear infinite;
 }
 .main .content .sub-content .heart-rate .fade-out {
   position: absolute;
@@ -268,7 +342,8 @@ html {
   height: 100%;
   top: 0;
   left: -120%;
-  animation: heartRateOut 2.5s linear infinite;
+  -webkit-animation: heartRateOut 2.5s linear infinite;
+          animation: heartRateOut 2.5s linear infinite;
   background: rgb(255, 255, 255);
   background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 80%, rgba(255, 255, 255, 0) 100%);
 }
@@ -323,7 +398,8 @@ html {
   position: absolute;
   top: -2.2rem;
   left: -1rem;
-  animation: logo-opacity 10s;
+  -webkit-animation: logo-opacity 10s;
+          animation: logo-opacity 10s;
 }
 .main .content .sub-content .article .main-logo.active {
   display: none;
@@ -337,7 +413,8 @@ html {
   display: flex;
   align-self: flex-end;
   z-index: 2;
-  animation: logo-opacity-2 4s;
+  -webkit-animation: logo-opacity-2 4s;
+          animation: logo-opacity-2 4s;
   position: relative;
   height: 38rem;
 }
@@ -349,7 +426,8 @@ html {
   height: 10rem;
   top: calc(4rem - 10vh);
   left: calc(5rem - 15vw);
-  animation: pulse 5s infinite;
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite;
 }
 .main .content .sub-content .box-img .img-partner.b {
   height: 14rem;
@@ -357,7 +435,8 @@ html {
   left: calc(4.5rem - 30vw);
 }
 .main .content .sub-content .box-img .img-partner.b g g g .st3:first-child {
-  animation: logo-opacity-2 3s infinite;
+  -webkit-animation: logo-opacity-2 3s infinite;
+          animation: logo-opacity-2 3s infinite;
 }
 
 .about {
@@ -980,17 +1059,17 @@ html {
     display: block;
   }
   .main2 .principal-up,
-  .main2 .principal-down {
+.main2 .principal-down {
     height: 50vh;
     width: 100%;
     text-align: right;
   }
   .main2 .principal-up .content,
-  .main2 .principal-down .content {
+.main2 .principal-down .content {
     margin-left: auto;
   }
   .main2 .principal-up .content .title,
-  .main2 .principal-down .content .title {
+.main2 .principal-down .content .title {
     font-size: 3rem;
   }
   .main2 .principal-up .content {
@@ -1089,19 +1168,19 @@ html {
     font-size: 1.6rem;
   }
   .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url .table tr th,
-  .about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url .table tr td {
+.about .about-sections .box-carrusel .carrusel:nth-child(2) .election .box .url .table tr td {
     font-size: 1.1rem;
   }
   .main2 .principal-up .content .title,
-  .main2 .principal-down .content .title {
+.main2 .principal-down .content .title {
     font-size: 2.6rem;
   }
   .main2 .principal-up .divs-backgrounds .div-1,
-  .main2 .principal-up .divs-backgrounds .div-2,
-  .main2 .principal-up .divs-backgrounds .div-3,
-  .main2 .principal-down .divs-backgrounds .div-1,
-  .main2 .principal-down .divs-backgrounds .div-2,
-  .main2 .principal-down .divs-backgrounds .div-3 {
+.main2 .principal-up .divs-backgrounds .div-2,
+.main2 .principal-up .divs-backgrounds .div-3,
+.main2 .principal-down .divs-backgrounds .div-1,
+.main2 .principal-down .divs-backgrounds .div-2,
+.main2 .principal-down .divs-backgrounds .div-3 {
     height: 1rem;
   }
 }
@@ -1119,7 +1198,7 @@ html {
     font-size: 6rem;
   }
   .main .content.third .sub-content .main-info,
-  .main .content.third .sub-content .main-info-footer {
+.main .content.third .sub-content .main-info-footer {
     font-size: 1rem;
   }
   .main .content.third .sub-content .pages .page {

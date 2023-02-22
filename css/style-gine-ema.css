@@ -9,12 +9,29 @@
   border: none;
 }
 
+@-webkit-keyframes miAnimacion-2 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 50px;
+  }
+}
+
 @keyframes miAnimacion-2 {
   from {
     height: 0;
   }
   to {
     height: 50px;
+  }
+}
+@-webkit-keyframes miAnimacion-3 {
+  from {
+    height: 50px;
+  }
+  to {
+    height: 0px;
   }
 }
 @keyframes miAnimacion-3 {
@@ -25,12 +42,31 @@
     height: 0px;
   }
 }
+@-webkit-keyframes miAnimacion_menu {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 20px;
+  }
+}
 @keyframes miAnimacion_menu {
   from {
     height: 10px;
   }
   to {
     height: 20px;
+  }
+}
+@-webkit-keyframes div_open {
+  0% {
+    height: 0rem;
+  }
+  50% {
+    height: 3.5rem;
+  }
+  100% {
+    height: 7rem;
   }
 }
 @keyframes div_open {
@@ -42,6 +78,14 @@
   }
   100% {
     height: 7rem;
+  }
+}
+@-webkit-keyframes bar_hover {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
   }
 }
 @keyframes bar_hover {
@@ -365,13 +409,15 @@ body {
 }
 .info-date .section_election .day1:hover div, .info-date .section_election .day2:hover div {
   background-color: #007cc3;
-  animation: bar_hover 0.2s linear;
+  -webkit-animation: bar_hover 0.2s linear;
+          animation: bar_hover 0.2s linear;
 }
 .info-date .section_election .day1.active div, .info-date .section_election .day2.active div {
   background-color: #007cc3;
 }
 .info-date .section_election .day1.active:hover div, .info-date .section_election .day2.active:hover div {
-  animation: none;
+  -webkit-animation: none;
+          animation: none;
 }
 .info-date .info-date-container {
   display: none;
@@ -443,7 +489,8 @@ body {
   margin: 3rem 0;
 }
 .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 .div-image {
-  animation: div_open 0.2s linear;
+  -webkit-animation: div_open 0.2s linear;
+          animation: div_open 0.2s linear;
 }
 .info-date .info-date-container.active .info-contenido .contenido-body.close {
   height: 0rem;
@@ -864,14 +911,17 @@ body {
     margin: 1rem 0 1rem 2rem;
     display: flex;
     align-items: center;
-    animation: miAnimacion-3 0.2s linear;
+    -webkit-animation: miAnimacion-3 0.2s linear;
+            animation: miAnimacion-3 0.2s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open {
     margin: 0;
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 {
-    animation: miAnimacion-2 0.2s linear;
+    -webkit-animation: miAnimacion-2 0.2s linear;
+            animation: miAnimacion-2 0.2s linear;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.open .div1 p {
     font-size: 1.3rem;
@@ -892,6 +942,7 @@ body {
     height: 50px;
   }
   .info-date .info-date-container.active .info-contenido .contenido-body.close .div1 {
-    animation: miAnimacion-3 0.2s linear;
+    -webkit-animation: miAnimacion-3 0.2s linear;
+            animation: miAnimacion-3 0.2s linear;
   }
 }/*# sourceMappingURL=style-gine-ema.css.map */
