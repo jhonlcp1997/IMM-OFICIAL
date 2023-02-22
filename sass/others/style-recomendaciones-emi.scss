@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // outline: green solid 3px;
+    border: none;
+    // transition: all .2s linear;
+}
+
+$white: #fff;
+$black: #000;
+// $black2: #666;
+// $black3: #777;
+// $black4: #888;
+// $black5: #999;
+
+$light-color: #666;
+$pink1: #f4c6de;
+$pink2: #f5a4c7;
+$pink3: #f173ac;
+$border: 0.2rem solid $pink3;
+$boxshadowG: -3rem 0 80px -70px rgb(51, 46, 46);
+$azul: #007cc3;
+
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$abel: "Abel", sans-serif;
+$poppins: "Poppins", sans-serif;
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
+@keyframes miAnimacion {
+    from {height: 0;}
+    to {height: 143px;}
+}
+
+@keyframes miAnimacion-2 {
+    from {height: 0;}
+    to {height: 50px;}
+}
+
+@keyframes miAnimacion-3 {
+    from {height: 50px;}
+    to {height: 0px;}
+}
+
+@keyframes miAnimacion_menu {
+    from {height: 10px;}
+    to {height: 20px;}
+}
+
+@keyframes div_open {
+    0%{height: 0rem;}
+    50%{height: 3.5rem;}
+    100%{height: 7rem;}
+}
+
+@keyframes bar_hover {
+    from{width: 0%;}
+    to{width: 100%;}
+}
+
+
+html {
+    font-size: 72.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    // background: rgba(217,217,217, .3);
+    background: rgba(191, 191, 191, 0.25);
+    // background: rgba(153,153,153, .2);
+}
+
+.info-date {
+    margin: auto;
+    width: 95%;
+    max-width: 110rem;
+    background-color: $white;
+    text-align: center;
+    padding: 2rem 8rem;
+    box-shadow: -3rem 4rem 80px -70px rgb(51, 46, 46);
+    z-index: 1;
+    position: relative;
+    top: 1rem;
+
+    h2 {
+        font-family: $abel;
+        color: $pink3;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        padding: .5rem 2rem;
+    }
+
+    .section__subtitle {
+        padding: 0 1rem;
+        // margin-bottom: 5rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.4rem;
+        color: $black;
+        background-color: #fff;
+        z-index: 1;
+        position: relative;
+    }
+
+    .section_election {
+        max-width: 40rem;
+        width: 90%;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: space-between;
+
+        .day1, .day2 {
+            cursor: pointer;
+
+            strong {
+                color: $azul;
+                font-size: 1.4rem;
+                font-family: "Poppins", sans-serif;
+                // padding-bottom: 0.5rem;
+            }
+
+            div{
+                margin: 0 auto;
+                border-radius: 5px;
+                width: 100%;
+                height: .2rem;
+            }
+
+            &:hover{
+                div{
+                    background-color: $azul;
+                    animation: bar_hover .2s linear;
+                }
+            }
+
+            &.active {
+                // padding-bottom: 0.5rem;
+                // border-bottom: 2px solid $azul;
+
+                div{
+                    background-color: $azul;
+                }
+
+                &:hover{
+
+                    div{
+                        animation: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .info-date-container {
+        display: none;
+
+        &.active {
+            display: inline;
+            font-size: 1.4rem;
+
+            .info-contenido {
+                // display: inline-block;
+                margin: 1rem 4rem;
+                // height: 20rem;
+                font-family: "Poppins", sans-serif;
+                border-bottom: 1px solid $pink3;
+                color: $black;
+                position: relative;
+                // background-color: #f5a4c7;
+
+                .contenido-header {
+                    margin: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    z-index: 1;
+                    background: #fff;
+                    position: relative;
+
+                    img{
+                        display: flex;
+                        width: 1.6rem;
+                    }
+
+                    &.open {
+                        img{
+                            transition: .2s all linear;
+
+                        }
+                        i {
+                            transform: rotate(180deg);
+                            color: $pink3;
+                        }
+                    }
+
+                    &.close {
+                        img{
+                            transition: .2s all linear;
+                            transform: rotate(180deg);
+                        }
+
+                        i {
+                            color: $pink3;
+                            transform: rotate(0deg);
+                        }
+                    }
+                }
+
+                .contenido-body {
+                    display: flex;
+                    justify-content: space-around;
+                    transition: all 0.5s linear;
+                    z-index: 0;
+
+                    .div1 {
+                        text-align: center;
+                        width: 29rem;
+                        min-width: 9rem;
+                        // animation: miAnimacion .2s linear ;
+
+                        .div-image {
+                            display: flex;
+                            width: 7rem;
+                            height: 7rem;
+                            text-align: center;
+                            justify-content: center;
+                            margin: 0 auto 1.5rem auto;
+                        }
+
+                        p {
+                            text-align: center;
+                            padding: 0 1rem;
+                        }
+                    }
+
+                    &.open {
+                        // transition: all .5s ease-out;
+                        // animation: miAnimacion .2s linear;
+                        height: auto;
+                        margin: 3rem 0;
+
+                        .div1{
+                            .div-image{
+                                animation: div_open .2s linear;
+                            }
+                        }
+                    }
+
+                    &.close {
+                        height: 0rem;
+
+                        .div1{
+                            .div-image{
+                                width: 0;
+                                height: 0;
+                            }
+
+                            p{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .point4, .point5, .point6, .point7{
+        width: 10rem;
+        position: absolute;
+        z-index: 100;;
+    }
+
+    .point4 {
+        top: 2rem;
+        right: -3rem;
+    }
+
+    .point5 {
+        top: 40%;
+        left: -3rem;
+    }
+
+    .point6 {
+        bottom: -3rem;
+        right: -3rem;
+    }
+
+    .point7 {
+        bottom: -3rem;
+        left: -3rem;
+    }
+}
+
+//* ================= Media quieries =============
+//? Hay muchas mediaqueries, pero tengo que tratar de reducir algunos
+
+@media (max-width: 1050px) {
+    .info-date {
+        padding: 2rem 1rem;
+        width: 100%;
+
+        .point4, .point5, .point6, .point7 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    html {
+        font-size: 65%;
+    }
+
+    .info-date {
+        .info-date-container {
+            font-size: 1.15rem;
+
+            .info-contenido {
+                .contenido-body {
+                    .div1 {
+                        width: 25rem;
+                        .div-image {
+                            width: 10rem;
+                        }
+                    }
+
+                    &.open {
+                        height: 13rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 530px) {
+    .info-date {
+        h2 {
+            font-size: 2.3rem;
+        }
+
+        .section__subtitle {
+            font-size: 1.4rem;
+        }
+
+        .info-date-container {
+            &.active {
+                font-size: 1.3rem;
+
+                .info-contenido {
+                    margin: 1rem 1rem;
+
+                    .contenido-body {
+                        .div1 {
+                            .div-image {
+                                width: 7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .info-date {
+        padding: 1rem 0.5rem;
+
+        h2{
+            font-size: 2.2rem;
+        }
+
+        .section__subtitle{
+            font-size: 1.4rem;
+        }
+
+        .info-date-container {
+            font-size: 1.3rem;
+
+            &.active {
+                .info-contenido {
+                    .contenido-body {
+                        flex-direction: column;
+
+                        .div1 {
+                            width: 90%;
+                            max-width: 35rem;
+                            // margin-left: 3rem;
+                            margin: 1rem 0 1rem 2rem;
+                            display: flex;
+                            align-items: center;
+                            // margin: 1rem 0;
+                            animation: miAnimacion-3 .2s linear;
+                        }
+
+                        &.open {
+                            margin: 0;
+                            animation: none;
+
+                            .div1{
+                                animation: miAnimacion-2 .2s linear;
+
+                                p {
+                                    font-size: 1.3rem;
+                                    width: 100%;
+                                    text-align: left;
+                                    padding: 0 1rem;
+                                }
+    
+                                .div-image {
+                                    width: 50px;
+                                    height: 50px;
+                                    margin: auto;
+    
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+    
+                                    .img-incontrolable {
+                                        height: 50px;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.close{
+                            // animation: miAnimacion-3 .2s linear;
+
+                            .div1{
+                                animation: miAnimacion-3 .2s linear;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
