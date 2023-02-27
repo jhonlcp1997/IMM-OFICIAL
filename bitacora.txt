@@ -1411,3 +1411,30 @@ Para nestjs se tiene que tener instalado el CLI de nest es un poco raro por que 
 
 09-02-2023:
 Al fin un cambio en immlatam xD
+
+10-02-2023:
+algo? 
+
+13-02-2023:
+La estructura que estaba diseñando en solo react la tuve que dejar de lado por el hecho de que la página demoraba en cargar, por que todo el bundler estaba solo en un js y no quería eso, la parte de las vistas de los clientes con los administradores deben siempre estar por separados, por eso fue la elección de astro, quería que se renderizara aparte en html para uno y para otro, así se me haría menos complicado separar las vistas.
+
+lo que se hizo en Astro fue especificamente hecho para las talets de IMM por lo que no me hago responsable de los estilos para otros dispositivos. Esto no me gusta, siempre cambian.
+
+14-02-2023:
+Men creo que nos van a botar a Ate, nooooo eso noooooo
+Veamos como podemos hacer este tipo de cosas.
+Est tipo de cosas no se pueden solventar con un al 50% por lo que es y será mejor que descance hasta un 10%,
+
+15-02-2023:
+elegir entre ReactNative o Flutter, está un poco dificil elegir entre esto y lo otro, antes digamos que hiba de lleno por reactNative, pero después de ver otras tecnologías y darles el visto bueno, como por ejemplo con laravel entonces no está tan alejado la parte de flutter, pero está bien usar ese tipo de caminos.
+
+De aquí no se que otro tipo de eventos se puedan hacer, hasta ahora no habían dado otro tipo de problemas, Mñana la Reunión con el gerente, hablar sobre el cambio de lugares.
+
+16-02-2023:
+Actualizacion de nueva doctora, hoy en la tarde.
+
+17-02-2023:
+Hoy van a remodelar así que puedo trabajar desde casa.
+
+21-02-2023:
+Subida de prueba
