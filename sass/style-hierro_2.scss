@@ -327,11 +327,27 @@ $poppins: "Poppins", sans-serif;
                 
                 .footer-ul2{
                     div{
-                        padding-top: .5rem;
+                        padding-top: .5rem;                        
+                        p{
+                            a{
+                                font-family: $poppins;
+                                font-size: .7rem;
+                                color: $azul;
+                                padding: 0;
+                            }
+                        }
+                    
                     }
                 }
 
                 .footer-ul3 {
+                    .mail-link {
+                        padding: 0;
+                        color: $azul;
+                        font-size: 0.7rem;
+                        font-family: $poppins;
+                    }
+
                     div {
                         a {
                             padding: 0 0.5rem 0 0;
@@ -405,6 +421,22 @@ $poppins: "Poppins", sans-serif;
 
                     p {
                         font-size: 0.9rem;
+                    }
+                    
+                    .footer-ul2 {
+                        div{
+                            p{
+                                a {
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .footer-ul3 {
+                        .mail-link {
+                            font-size: 0.9rem;
+                        }
                     }
                 }
             }

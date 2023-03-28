@@ -272,6 +272,18 @@ html {
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div {
   padding-top: 0.5rem;
 }
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div p a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  color: #007cc3;
+  padding: 0;
+}
+.footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 .mail-link {
+  padding: 0;
+  color: #007cc3;
+  font-size: 0.7rem;
+  font-family: "Poppins", sans-serif;
+}
 .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 div a {
   padding: 0 0.5rem 0 0;
 }
@@ -311,6 +323,12 @@ html {
     font-size: 1rem;
   }
   .footer .ofrecemos-footer .ofrecemos_footer_div1 .box p {
+    font-size: 0.9rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul2 div p a {
+    font-size: 0.9rem;
+  }
+  .footer .ofrecemos-footer .ofrecemos_footer_div1 .box .footer-ul3 .mail-link {
     font-size: 0.9rem;
   }
   .footer .ofrecemos_footer_div2 {
