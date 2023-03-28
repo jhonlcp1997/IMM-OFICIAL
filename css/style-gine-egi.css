@@ -801,6 +801,10 @@ body {
   font-size: 1.6rem;
   font-family: "Abel", sans-serif;
 }
+.footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 li a, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 li a, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 li a {
+  top: 0;
+  color: #007cc3;
+}
 .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul1 li p, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul2 li p, .footer .ofrecemos-footer .ofrecemos_footer__div1 div .footer-ul3 li p {
   font-size: 1.3rem;
 }
