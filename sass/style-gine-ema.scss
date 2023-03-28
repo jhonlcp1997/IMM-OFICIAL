@@ -633,6 +633,11 @@ body {
                     }
 
                     li{
+                        a {
+                            top: 0;
+                            color: $azul;
+                        }
+                        
                         p{
                             font-size: 1.3rem
                         }
