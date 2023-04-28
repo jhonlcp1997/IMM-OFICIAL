@@ -377,6 +377,13 @@ html {
   font-size: 0.9rem;
   padding-right: 1rem;
 }
+.import .box .boxes .boxes_div a {
+  color: #009f46;
+  font-size: 0.95rem;
+}
+.import .box .boxes .boxes_div a:hover {
+  border-bottom: 1px solid #000;
+}
 .import .box .points_4, .import .box .points_5, .import .box .points_6 {
   position: absolute;
   width: 9rem;

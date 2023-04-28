@@ -483,6 +483,15 @@ $poppins: "Poppins", sans-serif;
             .boxes_div {
                 font-size: 0.9rem;
                 padding-right: 1rem;
+
+                a {
+                    color: $green3;
+                    font-size: 0.95rem;
+                    
+                    &:hover{
+                        border-bottom: 1px solid #000;
+                    }
+                }
             }
         }
 
