@@ -248,6 +248,22 @@ body {
                     transform: scale(1.1);
                 }
             }
+            
+            .nav1-box_link {
+                margin-top: 2rem;
+
+                .link {
+                    font-family: $poppins;
+                    font-size: 20px;
+                    color: $pink3;
+                    text-decoration: underline;
+                    transition: 1.2s;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
         }
 
         .home-nav2 {
@@ -1285,6 +1301,15 @@ body {
 
                 div {
                     margin: 1rem auto;
+                }
+
+                
+                .nav1-box_link {
+                    text-align: center;
+
+                    .link{
+                        font-size: 16px;
+                    }
                 }
             }
 

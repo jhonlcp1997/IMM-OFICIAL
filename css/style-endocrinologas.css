@@ -177,16 +177,7 @@ html {
   width: 0%;
   overflow: hidden;
   border-bottom: 3px solid #007cc3;
-  -webkit-animation: changerBorder 4s linear;
-          animation: changerBorder 4s linear;
-}
-@-webkit-keyframes changerBorder {
-  50% {
-    width: 50%;
-  }
-  100% {
-    width: 100%;
-  }
+  animation: changerBorder 4s linear;
 }
 @keyframes changerBorder {
   50% {
