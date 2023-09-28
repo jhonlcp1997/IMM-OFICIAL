@@ -149,12 +149,12 @@ body {
 .home .home__box .home-nav1 .nav1-box_link .link {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #f173ac;
+  color: #fff;
   text-decoration: underline;
   transition: 1.2s;
 }
 .home .home__box .home-nav1 .nav1-box_link .link:hover {
-  color: #fff;
+  color: #f4c6de;
 }
 .home .home__box .home-nav2 {
   margin-left: auto;
