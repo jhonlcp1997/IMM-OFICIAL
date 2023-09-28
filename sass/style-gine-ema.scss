@@ -173,6 +173,22 @@ body {
                     transform: scale(1.1);
                 }
             }
+        
+            .nav1-box_link {
+                margin-top: 2rem;
+
+                .link {
+                    font-family: $poppins;
+                    font-size: 20px;
+                    color: $pink3;
+                    text-decoration: underline;
+                    transition: 1.2s;
+
+                    &:hover {
+                        color: $azul;
+                    }
+                }
+            }
         }
     }
 }
@@ -735,7 +751,11 @@ body {
                 }
 
                 .animated{
-                    margin:2.5rem 0 6rem 0;
+                    margin:2.5rem 0 2rem 0;
+                }
+
+                .nav1-box_link{
+                    margin-bottom: 2rem;
                 }
             }
 
