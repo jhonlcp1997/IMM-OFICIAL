@@ -232,12 +232,12 @@ body {
                 .link {
                     font-family: $poppins;
                     font-size: 20px;
-                    color: $pink3;
+                    color: $white;
                     text-decoration: underline;
                     transition: 1.2s;
 
                     &:hover {
-                        color: $white;
+                        color: $pink1;
                     }
                 }
             }
