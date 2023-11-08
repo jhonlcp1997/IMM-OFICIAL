@@ -285,12 +285,6 @@
   .right {
     width: 100vw;
   }
-  .right .header .navbar {
-    display: block;
-  }
-  .right .footer {
-    display: none;
-  }
   .left {
     width: 100vw;
     height: 100vw;
@@ -351,8 +345,8 @@
     height: 70vw;
   }
   .left .img {
-    top: -5rem;
-    height: 70vw;
+    top: -3rem;
+    height: 50vw;
   }
 }
 @media screen and (max-width: 420px) {

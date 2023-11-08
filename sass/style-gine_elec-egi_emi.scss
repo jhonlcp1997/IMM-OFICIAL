@@ -388,15 +388,15 @@ $poppins: "Poppins", sans-serif;
     .right{
         width: 100vw;
 
-        .header {
-            .navbar {
-                display: block;
-            }
-        }
+        // .header {
+        //     .navbar {
+        //         display: block;
+        //     }
+        // }
 
-        .footer{
-            display: none;
-        }
+        // .footer{
+        //     display: none;
+        // }
     }
 
     .left{
@@ -480,8 +480,8 @@ $poppins: "Poppins", sans-serif;
         height: 70vw;
 
         .img{
-            top: -5rem;
-            height: 70vw;
+            top: -3rem;
+            height: 50vw;
         }
     }
 }
