@@ -207,9 +207,13 @@
 .right .footer .footer__box_1 .links {
   font-size: 2rem;
   color: #f173ac;
+  display: flex;
+  align-items: center;
 }
 .right .footer .footer__box_1 span {
   color: #f173ac;
+  font-size: 1rem;
+  margin-left: 0.6rem;
 }
 .right .footer .footer__box_1 span .links {
   color: #f173ac;
