@@ -315,6 +315,9 @@
     top: 0;
     transform: rotate(-90deg);
   }
+  .left .points-1, .left .points-2, .left .points-3 {
+    display: none;
+  }
 }
 @media screen and (max-width: 680px) {
   .left .points-1, .left .points-2, .left .points-3 {
