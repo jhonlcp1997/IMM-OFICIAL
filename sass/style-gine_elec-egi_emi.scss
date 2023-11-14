@@ -37,7 +37,7 @@ $poppins: "Poppins", sans-serif;
 .left{
     display: flex;
     background-color: $pink3;
-    width: 58vh;
+    width: 32vw;
     height: 100vh;
     position: relative;
 
@@ -48,6 +48,7 @@ $poppins: "Poppins", sans-serif;
         // border-radius: 50%;
         // width: 58vh;
         height: 65vh;
+        max-height: 26rem;
         right: -4vh;
     }
 
@@ -380,6 +381,12 @@ $poppins: "Poppins", sans-serif;
 @media screen and (max-width:1050px) {
     html{
         font-size: 70%;
+    }
+
+    .left {
+        .img {
+            max-height: 20rem;
+        }
     }
 }
 
