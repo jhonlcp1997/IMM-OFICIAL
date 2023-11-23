@@ -115,6 +115,90 @@ body {
   display: none;
 }
 
+.header_timer {
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+  background: #f173ac;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+}
+.header_timer .section_one {
+  width: 95%;
+  max-width: 90rem;
+  margin: auto;
+  display: flex;
+  gap: 1rem 4rem;
+  justify-content: center;
+  padding: 0.8rem 5rem;
+}
+.header_timer .section_one .one_info {
+  color: #fff;
+  display: flex;
+}
+.header_timer .section_one .one_info div {
+  margin: auto;
+}
+.header_timer .section_one .one_info div h2 {
+  font-size: 2.5rem;
+  line-height: 0.9;
+}
+.header_timer .section_one .one_info div p {
+  line-height: 0.9;
+  font-size: 1.5rem;
+}
+.header_timer .section_one .two_timer {
+  display: flex;
+  gap: 1rem;
+}
+.header_timer .section_one .two_timer .box_days div, .header_timer .section_one .two_timer .box_hrs div, .header_timer .section_one .two_timer .box_min div, .header_timer .section_one .two_timer .box_seg div {
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.6rem 0.3rem;
+}
+.header_timer .section_one .two_timer .box_days p, .header_timer .section_one .two_timer .box_hrs p, .header_timer .section_one .two_timer .box_min p, .header_timer .section_one .two_timer .box_seg p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.header_timer .section_one .three_btn {
+  display: flex;
+  justify-items: center;
+}
+.header_timer .section_one .three_btn .btn_date {
+  margin: auto;
+  background-color: #007cc3;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.header_timer .section_one .three_btn .btn_date:hover {
+  background-color: rgba(0, 124, 195, 0.6980392157);
+}
+.header_timer .section_two {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.header_timer .section_two .btn_terms_blackfriday {
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
 .home {
   position: relative;
   width: 100%;
@@ -486,6 +570,26 @@ body {
 }
 .time-price .time-price__box2 div h3 {
   font-size: 2.5rem;
+}
+.time-price .time-price__box2 div .div__trash {
+  text-decoration: line-through;
+  font-size: 2rem;
+}
+.time-price .time-price__box2 div .btn_date {
+  margin: auto;
+  background-color: #f173ac;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  top: 1rem;
+}
+.time-price .time-price__box2 div .btn_date:hover {
+  background-color: #f5a4c7;
+  transition: all 0.3s;
 }
 
 .info-date {
@@ -1184,6 +1288,16 @@ body {
   }
 }
 @media screen and (max-width: 460px) {
+  .header_timer {
+    position: relative;
+  }
+  .header_timer .section_one {
+    flex-wrap: wrap;
+    padding: 0.8rem;
+  }
+  .header_timer .section_one .one_info {
+    text-align: center;
+  }
   .characteres .characteres__center_rigth .slider-contenedor-2 .characteres_img {
     display: none;
   }
@@ -1223,9 +1337,6 @@ body {
 @media (max-width: 370px) {
   .header div {
     padding: 0;
-  }
-  .header div .header-general {
-    margin: 1rem 7%;
   }
   .info-date {
     padding: 1rem 0.5rem;
@@ -1283,5 +1394,13 @@ body {
   }
   .tips .tips__box .box .box__img {
     height: auto;
+  }
+}
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=style-gine-egi.css.map */
