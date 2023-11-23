@@ -181,6 +181,23 @@ body {
   font-weight: bold;
   font-size: 1.6rem;
 }
+.header_timer .section_one .three_btn .btn_date:hover {
+  background-color: rgba(0, 124, 195, 0.6980392157);
+}
+.header_timer .section_two {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.header_timer .section_two .btn_terms_blackfriday {
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
 
 .home {
   position: relative;
@@ -557,7 +574,22 @@ body {
 .time-price .time-price__box2 div .div__trash {
   text-decoration: line-through;
   font-size: 2rem;
-  opacity: 0.7;
+}
+.time-price .time-price__box2 div .btn_date {
+  margin: auto;
+  background-color: #f173ac;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  top: 1rem;
+}
+.time-price .time-price__box2 div .btn_date:hover {
+  background-color: #f5a4c7;
+  transition: all 0.3s;
 }
 
 .info-date {
@@ -1305,9 +1337,6 @@ body {
 @media (max-width: 370px) {
   .header div {
     padding: 0;
-  }
-  .header div .header-general {
-    margin: 1rem 7%;
   }
   .info-date {
     padding: 1rem 0.5rem;

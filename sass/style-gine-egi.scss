@@ -208,7 +208,27 @@ body {
                 border-radius: 10px;
                 font-weight: bold;
                 font-size: 1.6rem;
+
+                &:hover{
+                    background-color: #007cc3b2;
+                }
             }
+        }
+    }
+
+    .section_two {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .btn_terms_blackfriday {
+            text-align: center;
+            margin: auto;
+            color: $white;
+            text-decoration: underline;
+            font-size: 1.3rem;
         }
     }
 }
@@ -658,9 +678,25 @@ body {
                 // color: #007cc3;
                 text-decoration: line-through;
                 font-size: 2rem;
-                opacity: .7;
             }
 
+            .btn_date{
+                margin: auto;
+                background-color: $pink3;
+                color: $white;
+                padding: .6rem 1rem;
+                font-family: $poppins;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 1.2rem;
+                position: relative;
+                top: 1rem;
+
+                &:hover {
+                    background-color: $pink2;
+                    transition: all .3s;
+                }
+            }
             
         }
     }
@@ -1746,7 +1782,6 @@ body {
         div {
             padding: 0;
             .header-general {
-                margin: 1rem 7%;
             }
         }
     }
