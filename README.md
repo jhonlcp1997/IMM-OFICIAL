@@ -1,8 +1,8 @@
-# IMM-prueba
-Primer repositorio de prueba del Instituto Médico de la Mujer
+# IMM - Immlatam
+Primer repositorio del Instituto Médico de la Mujer
 
 
-***Programador a cargo: JHON LARRY CRUZ PORRAS***
+***Programador a cargo: JHON CRUZ***
 
 ## Estructura de la página "sin las carpetas vacias"
 
